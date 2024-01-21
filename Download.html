@@ -1,0 +1,1149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Flying Wings Academy | Downloads</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="FWA.ico" rel="shortcut icon" type="image/x-icon">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flychurch.css" rel="stylesheet">
+<link href="Download.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("#paymentssection").change(function()
+      {
+         if ($('#paymentssection').val() == 'Kindergarten')
+         {
+            $('#paymentsamount').val((60+15+15+10)*3);
+         }
+         if ($('#paymentssection').val() == 'Kindergarten')
+         {
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Lower Primary')
+         {
+            $('#paymentsamount').val((100+20+20+10)*3);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Upper Primary')
+         {
+            $('#paymentsamount').val((90+20+20+20)*3);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Junior Secondary')
+         {
+            $('#paymentsamount').val((150+30+20+30)*3);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Senior Secondary')
+         {
+            $('#paymentsamount').val((200+40+30+30)*3);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Computer Studies')
+         {
+            $('#paymentsamount').val(400+100);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Adult Literacy')
+         {
+            $('#paymentsamount').val(200+100);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Power Electrical')
+         {
+            $('#paymentsamount').val(400+200);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Plumbing')
+         {
+            $('#paymentsamount').val(400+200);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Extra Lessons G7')
+         {
+            $('#paymentsamount').val(100+30+20);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Extra Lessons G9')
+         {
+            $('#paymentsamount').val(100+50+50);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Extra Lessons G12')
+         {
+            $('#paymentsamount').val(150+50+30);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Extra Lessons GCE')
+         {
+            $('#paymentsamount').val(100+100+50);
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+         }
+         else
+         if ($('#paymentssection').val() == 'Studio Prices')
+         {
+            $('#paymentsamount').val(0);
+            ShowObject('', 1);
+            ShowObjectWithEffect('studiopayments', 1, 'fade', 1);
+            ShowObjectWithEffect('paymentssection', 0, 'fade', 1);
+         }
+      });
+      $("#paymentssection").trigger('change');
+      $("#studiopayments").change(function()
+      {
+         if ($('#studiopayments').val() == 'Soloist Song')
+         {
+            $('#paymentsamount').val(250);
+         }
+         else
+         if ($('#studiopayments').val() == 'Soloist Video')
+         {
+            $('#paymentsamount').val(350);
+         }
+         else
+         if ($('#studiopayments').val() == 'Group Song')
+         {
+            $('#paymentsamount').val(350);
+         }
+         else
+         if ($('#studiopayments').val() == 'Group Video')
+         {
+            $('#paymentsamount').val(450);
+         }
+         else
+         if ($('#studiopayments').val() == 'Sermon')
+         {
+            $('#paymentsamount').val(150);
+         }
+         else
+         if ($('#studiopayments').val() == 'Solo Poem')
+         {
+            $('#paymentsamount').val(100);
+         }
+         else
+         if ($('#studiopayments').val() == 'Group Poem')
+         {
+            $('#paymentsamount').val(150);
+         }
+         else
+         if ($('#studiopayments').val() == 'Cover Design')
+         {
+            $('#paymentsamount').val(250);
+         }
+         else
+         if ($('#studiopayments').val() == 'CD Copies')
+         {
+            $('#paymentsamount').val(20);
+         }
+         else
+         if ($('#studiopayments').val() == 'DVD Copies')
+         {
+            $('#paymentsamount').val(30);
+         }
+         else
+         if ($('#studiopayments').val() == 'Instrument')
+         {
+            $('#paymentsamount').val(150);
+         }
+         else
+         if ($('#studiopayments').val() == 'Solo Song')
+         {
+            $('#paymentsamount').val(200);
+         }
+         else
+         if ($('#studiopayments').val() == 'Groups Song')
+         {
+            $('#paymentsamount').val(250);
+         }
+         else
+         if ($('#studiopayments').val() == 'School Prices')
+         {
+            ShowObjectWithEffect('studiopayments', 0, 'fade', 1);
+            ShowObjectWithEffect('paymentssection', 1, 'fade', 1);
+         }
+      });
+      $("#studiopayments").trigger('change');
+      $("#Tabs2").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("#Tabs3").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid9']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid9').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid10']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid10').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid11']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid11').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid12']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid12').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog11').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#Tabs4").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid17']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid17').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog16').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid18']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid18').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("a[href*='#LayoutGrid19']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid19').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $('#Blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="container">
+      <div id="wb_EmbeddedPage2">
+         <div id="Html4">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<body>
+            <div id="briClintons" class="bridget" onClick="closebottomSheet"></div>
+            <button id="openButton"><img class="openicon" src="icons/flyacade.png"></button>
+            <div id="bottomSheet">
+               <p>Special Links</p>
+               <a href="./OrgCharts.html"><button class="icon"><i id="icons" class="fa fa-sitemap"></i><br>OrgCharts</button></a>
+               <a href="./Flying_Calendar.html"><button class="icon"><i id="icons" class="fa fa-calendar"></i><br>Calendar</button></a>
+               <a href="./Report.html"><button class="icon"><i id="icons" class="fa fa-address-card-o"></i><br>Report</button></a>
+               <a href="./All.html"><button class="icon"><i id="icons" class="fa fa-diamond"></i><br>Admin</button></a>
+               <a href="./Student_Search.html"><button class="icon"><i id="icons" class="fa fa-child"></i><br>Portal</button></a>
+               <hr>
+               <p>Game Links</p>
+               <a href="./FlyMath.html"><button class="icon"><i id="icons" class="fa fa-plus-square"></i><br>Math</button></a>
+               <a href="./Spelling_Bee.html"><button class="icon"><i id="icons" class="fa fa-sort-alpha-asc"></i><br>Spellings</button></a>
+               <a href="./fly_typing.html"><button class="icon"><i id="icons" class="fa fa-keyboard-o"></i><br>Typing</button></a>
+               <a href="./flying_memory.html"><button class="icon"><i id="icons" class="fa fa-magic"></i><br>Memory</button></a>
+               <a href="./place_values.html"><button class="icon"><i id="icons" class="fa fa-sort-numeric-asc"></i><br>Places</button></a>
+               <hr>
+               <p>Other Links</p>
+               <a href="./binary.html"><button class="icon"><i id="icons" class="fa fa-binoculars"></i><br>Binary</button></a>
+               <a href="./Mathler.html"><button class="icon"><i id="icons" class="fa fa-superscript"></i><br>Mathler</button></a>
+               <a href="./Church_Lessons.html"><button class="icon"><i id="icons" class="fa fa-book"></i><br>Church</button></a>
+               <a href="./Assessment.html"><button class="icon"><i id="icons" class="fa fa-thermometer-three-quarters"></i><br>Quiz</button></a>
+               <a href="./Flying_Sudoku.html"><button class="icon"><i id="icons" class="fa fa-suitcase"></i><br>Sudoku</button></a>
+               <hr>
+    <!-- Add more buttons/icons as needed -->
+            </div>
+            <script>            
+                document.getElementById('openButton').addEventListener('click', function() {
+                  var bottomSheet = document.getElementById('bottomSheet');
+            	  bottomSheet.style.display = (bottomSheet.style.display === 'none' || bottomSheet.style.display === '') ? 'block' : 'none';
+            		
+            	  var briClintons = document.getElementById('briClintons');
+            	  briClintons.style.display = (briClintons.style.display === 'none' || briClintons.style.display === '') ? 'block' : 'none';
+                });
+            	  
+            	document.getElementById('briClintons').addEventListener('click', function() {
+                  var bottomSheet = document.getElementById('bottomSheet');
+            	  bottomSheet.style.display = (bottomSheet.style.display === 'none' || bottomSheet.style.display === '') ? 'block' : 'none';
+                });
+            	  
+            	document.getElementById('briClintons').addEventListener('click', function() {
+                  var briClintons = document.getElementById('briClintons');
+            	  briClintons.style.display = (briClintons.style.display === 'none' || briClintons.style.display === '') ? 'block' : 'none';
+                });
+            	
+              
+            </script>
+</body>
+</html></div>
+         <div id="wb_facebookIconFont">
+            <a href="https://www.facebook.com/briclintons"><div id="facebookIconFont"><i class="fa fa-facebook"></i></div></a></div>
+      </div>
+      <div id="wb_EmbeddedPage4">
+         <div id="Html1">
+  
+            <div id="countdown" onclick="showPopup('School Open - Jan 8, 2024', 'Civilian Day - Feb 9, 2024', 'images/767048.jpg')"></div>
+    <!-- Popups container and blurred background -->
+            <div class="popups-container" id="popupsContainer">
+               <div id="popups" class="popups">
+                  <img id="popupsImage" src="" alt="Current Event">
+                  <p id="popupsCaption">
+                  <p id="popupsDetails">
+                  <button onclick="closePopup()">Close</button>
+               </div>
+            </div>
+            <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
+            <script>            
+              // Array of events with their respective dates and reminder thresholds
+              const events = [
+                { name: "New Year", date: new Date("Jan 1, 2024 00:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
+                { name: "School Open", date: new Date("Jan 29, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
+                { name: "Civilian Day", date: new Date("Mar 1, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
+                { name: "Mid Term Tests", date: new Date("Mar 4, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
+            	{ name: "Quiz Day", date: new Date("Apr 12, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
+                { name: "End Term Tests", date: new Date("Apr 17, 2024 08:00:00").getTime(), reminderDays: 5, reminderHours: 12 },
+            	{ name: "Compilling Results", date: new Date("Apr 18, 2024 08:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
+            	{ name: "Collecting Results", date: new Date("Apr 19, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
+            	{ name: "Closing School", date: new Date("Apr 19, 2024 12:00:00").getTime(), reminderDays: 0, reminderHours: 2 }
+              ];
+            
+              let currentEventIndex = 0;
+            
+              function updateCountdown() {
+                // Get the current date and time
+                const now = new Date().getTime();
+            
+                // Get the details of the current event
+                const currentEvent = events[currentEventIndex];
+            
+                // Calculate the time remaining for the current event
+                const distance = currentEvent.date - now;
+            
+                // Calculate days, hours, minutes, and seconds
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+                // Display the countdown for the current event with the event name as a link
+                document.getElementById("countdown").innerHTML =
+                  "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
+                  days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+            
+                // Check if it's time to show a reminder
+                if (distance > 0) {
+                  if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
+                    showReminder(currentEvent.name);
+                  }
+                }
+            
+                // If the countdown for the current event is over, move to the next event
+                if (distance < 0) {
+                  currentEventIndex++;
+                  // If all events are completed, display a message
+                  if (currentEventIndex >= events.length) {
+                    document.getElementById("countdown").innerHTML = "All events completed!";
+                  } else {
+                    // Update the countdown for the next event
+                    updateCountdown();
+                  }
+                }
+              }
+            
+              // Function to show a reminder
+              function showReminder(eventName) {
+                const notificationOptions = {
+                  body: "Your event '" + eventName + "' is approaching!",
+                  icon: "icons/fwa.png" // Provide the path to an icon image
+                };
+            
+                // Check if the browser supports notifications
+                if ("Notification" in window) {
+                  // Request permission to show notifications
+                  Notification.requestPermission().then(function (permission) {
+                    if (permission === "granted") {
+                      // Show the notification
+                      const notification = new Notification("Event Reminder", notificationOptions);
+            
+                      // Vibrate for 1 second
+                      if ("vibrate" in navigator) {
+                        navigator.vibrate(1000);
+                      }
+            
+                      // Play a sound (may not work in all browsers)
+                      const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
+                      audio.play();
+                    }
+                  });
+                }
+              }
+            
+              // Update the countdown every 1 second
+              setInterval(updateCountdown, 1000);
+            
+                    // Function to show the popup with image, caption, and details
+                    function showPopup(caption, details, imageUrl) {
+                        document.getElementById('popupsImage').src = imageUrl;
+                        document.getElementById('popupsCaption').innerHTML = caption;
+                        document.getElementById('popupsDetails').innerHTML = details;
+                        document.getElementById('popupsContainer').style.display = 'block';
+                        document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
+                    }
+            
+                    // Function to close the popups
+                    function closePopup() {
+                        document.getElementById('popupsContainer').style.display = 'none';
+                        document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
+                    }
+            
+              let lastScrollPosition = 0;
+              const countdown = document.getElementById('countdown');
+            
+              window.addEventListener('scroll', () => {
+                const currentScrollPosition = window.scrollY;
+            
+                if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
+                  countdown.classList.add('hide');
+                } else {
+                  countdown.classList.remove('hide');
+                }
+            
+                lastScrollPosition = currentScrollPosition;
+              });
+                    
+                    // Close the popup and blurred background on page load
+                    window.onload = function() {
+                        closePopup();
+                    };
+            </script></div>
+      </div>
+   </div>
+   <div id="FlexContainer3">
+      <div id="wb_EmbeddedPage1">
+         <div id="PanelLayer">
+            <div id="wb_IconFont2">
+               <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+            </div>
+            <div id="wb_Image1">
+               <img src="images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
+            </div>
+            <div id="wb_Heading20">
+               <h2 id="Heading20">Rockside SDA Church</h2>
+            </div>
+            <div id="wb_OverlayMenu2">
+               <div class="OverlayMenu2">
+                  <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                     <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                     <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
+                     <li><a role="menuitem" href="./Download.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="Player/New Player.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Download.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./About.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                     <li><a role="menuitem" href="./Download.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Campus&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Record&nbsp;Cards</a></li>
+                     <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                     <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div id="wb_Text40">
+               <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+            </div>
+         </div>
+         <div id="wb_HeaderLayoutGrid">
+            <div id="HeaderLayoutGrid">
+               <div class="row">
+                  <div class="col-1">
+                     <div id="wb_home_logo">
+                        <a href="./index.html"><img src="images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
+                     </div>
+                  </div>
+                  <div class="col-2">
+                     <div id="wb_Header">
+                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:24px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;"><strong>ACADEMY</strong></span>
+                     </div>
+                     <div id="wb_Text2">
+                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span>
+                     </div>
+                     <div id="wb_Text3">
+                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br></strong></span><span style="color:#FFA500;font-family:'Bookman Old Style';font-size:13px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:13px;"><strong>CHURCH</strong></span>
+                     </div>
+                  </div>
+                  <div class="col-3">
+                     <div id="wb_menuPanel">
+                        <a href="#PanelLayer" id="menuPanel">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer4">
+      <div id="wb_Text5">
+         <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;line-height:16px;"><strong>Our Skills Programs</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:13px;line-height:15px;">Come and experience our skill touch in style</span>
+      </div>
+   </div>
+   <div id="wb_FlexContainer2">
+      <div id="FlexContainer2">
+         <div id="Tabs2">
+            <ul>
+               <li role="presentation"><a href="#tabs2-page-1"><span><i class="fa fa-money tabs-icon"></i><br>Payments</span></a></li>
+               <li role="presentation"><a href="#tabs2-page-2"><span><i class="fa fa-print tabs-icon"></i><br>Policies</span></a></li>
+               <li role="presentation"><a href="#tabs2-page-3"><span><i class="fa fa-tachometer tabs-icon"></i><br>Charts</span></a></li>
+               <li role="presentation"><a href="#tabs2-page-4"><span><i class="fa fa-folder-open tabs-icon"></i><br>Script</span></a></li>
+            </ul>
+            <div id="tabs2-page-1">
+               <select name="Payment_tab" size="1" id="paymentssection">
+                  <option selected value="Kindergarten">Kindergarten</option>
+                  <option value="Lower Primary">Lower Primary</option>
+                  <option value="Computer Studies">Computer Studies</option>
+                  <option value="Adult Literacy">Adult Literacy</option>
+                  <option value="Extra Lessons G7">Extra Lessons G7</option>
+                  <option value="Extra Lessons G9">Extra Lessons G9</option>
+                  <option value="Studio Prices">Studio Prices</option>
+               </select>
+               <select name="Payment_tab" size="1" id="studiopayments">
+                  <option selected value="Soloist Song">Soloist Song</option>
+                  <option value="Soloist Video">Soloist Video</option>
+                  <option value="Group Song">Group Song</option>
+                  <option value="Group Video">Group Video</option>
+                  <option value="Sermon">Sermon</option>
+                  <option value="Solo Poem">Solo Poem</option>
+                  <option value="Group Poem">Group Poem</option>
+                  <option value="Cover Design">Cover Design</option>
+                  <option value="CD Copies">CD Copies</option>
+                  <option value="DVD Copies">DVD Copies</option>
+                  <option value="Instrument">Instrument</option>
+                  <option value="Solo Song">Solo Song</option>
+                  <option value="Groups Song">Groups Song</option>
+                  <option value="School Prices">School Prices</option>
+               </select>
+               <input type="number" id="paymentsamount" name="Payment_Value" value="" readonly spellcheck="false" placeholder="Amount">
+               <input type="button" id="Button1" name="" value="FEE STRUCTURE">
+               <div id="Article1">
+                  <div class="blogitem">
+                     <span class="blogsubject"></span>
+                     <div class="no-thumb"></div>
+                     <div class="blogdate">Monday, February 14, 2022<br></div>
+                     <span style="color:#000000;"><strong>FLYING WINGS ACADEMY</strong> is a Preschool and Lower Primary facility located in K-30 Mukobeko.<br>
+                        <br>
+                        <strong>OUR FEES</strong> are highly affordable for all. Considering the quality of education we provide, our fees are just a drop in the ocean.<br>
+                        <br>
+                        <strong>SCHOOL FEE SCHEDULE</strong><br>
+                        <br>
+                     </span><br>
+                     <div class="blogcomments"><a href="mailto:mail@yourwebsite.com?subject=">Send Comments</a></div>
+                  </div>
+                  <div class="clearfix visible-col1"></div>
+               </div>
+               <div id="wb_Image7">
+                  <img src="images/Fliers.png" id="Image7" alt="" width="960" height="254">
+               </div>
+            </div>
+            <div id="tabs2-page-2">
+               <div id="wb_schoolpolicyintroText">
+                  <span style="color:#000000;font-family:'Times New Roman';font-size:16px;line-height:35px;">These policies offer a guidelines on how the school academics shall be handled. It is thus imparative that all parents are to work hand in hand with the administration to help groom the learners so as to improve their performance and ensure that they are all progressing at the same pace.</span>
+               </div>
+               <input type="button" id="Button2" name="" value="SCHOOL POLICY">
+               <div id="Tabs3">
+                  <ul>
+                     <li role="presentation"><a href="#tabs3-page-1"><span>1st</span></a></li>
+                     <li role="presentation"><a href="#tabs3-page-2"><span>2nd</span></a></li>
+                     <li role="presentation"><a href="#tabs3-page-3"><span>3rd</span></a></li>
+                     <li role="presentation"><a href="#tabs3-page-4"><span>4th</span></a></li>
+                  </ul>
+                  <div id="tabs3-page-1">
+                     <div id="wb_LayoutGrid9">
+                        <div id="LayoutGrid9">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog8">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Payment Policy</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;">The following terms and conditions of the school fee payments apply to all pupils at Flying Wings Academy in 2023. These terms and conditions and the fees are subject to review by the School Administrative Board. Generally, fees are reviewed annually.<br>
+                                          </span><span style="color:#1F4D78;">Application Fee<br>
+                                          </span><span style="color:#000000;">This payment is due when parents complete a formal application for a place at our school for their child. It is a once-off fee and is non-refundable. The fee is applicable for each application.<br>
+                                          </span><span style="color:#1F4D78;">b.Miscellaneous Charges<br>
+                                          </span><span style="color:#000000;">The cost of other items such as uniforms, stationery, trips, exam fees, medical expenses etc., paid on behalf of a child, will be charged to the account and are payable on presentation.<br>
+                                          </span><span style="color:#1F4D78;">c.School fees<br>
+                                          </span><span style="color:#000000;">This is a fee that covers all the costs related to a child receiving educational services at the school. This payment can be made in cash or a cash deposit in the mobile account of Airtel or MTN of the contact numbers given. This payment should be made before the beginning of the month paid for or term, but no later than the 10<sup>th</sup> of each month.<br>
+The school fees for the kindergarten section shall be ZMK 100.00 per month, or K 300.00 per term. Parents who are unable to pay the full term’s School fees by the due date, must please communicate this to the Accounts Department <strong><em>before the due date</em></strong>. <br>
+For parents who want their children to have lunch and breakfast prepared at school, they will have to pay a fee of ZMK 100.00 per child per month. <br>
+A full term’s written notice is required when withdrawing a child from the school. If such notice is not received, the school will charge a term’s fees in lieu of notice. In case of instances where a child misses class due to parents taking them out without being withdrawn, a maximum of one term without losing their place in the respective class is permitted. In such instances, 25% of the School Fees must be paid, irrespective of the length of the period of absence.<br>
+                                             <br>
+                                          </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Payment%20Policy">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="tabs3-page-2">
+                     <div id="wb_LayoutGrid10">
+                        <div id="LayoutGrid10">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog9">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Assessment Policy</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;">The school shall ensure that all assessments are conducted on time and are of standard for all learners. The assessments shall be two; the mid-term and the end of term assessments. Both assessments are to be printed and recorded in the learners’ report books. The parents are therefore required to collect these results twice in a term. The mid-term shall be given in the mid-week of the term and the end term in the last two weeks. It is mandatory that all parents come in person or send a family representative to collect these results. Failure to do so will attract a fine of ZMK 50.00.<br>
+All the results shall be recorded in a report book that shall comprise of all the assessments in that particular year. These book shall be bought at the school at a fee of ZMK 40.00 only. The report books shall be given to parents at the close of every assessment and they are required to return the books to the school two weeks before the next assessment. If the parents damage the book, they shall be charged a fine of ZMK 50.00 for the purchase of another report book.<br>
+                                          </span><span style="color:#DCDFEA;"><br>
+                                          </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Assessment%20Policy">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="tabs3-page-3">
+                     <div id="wb_LayoutGrid11">
+                        <div id="LayoutGrid11">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog10">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Learning Materials Policy</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;">The school shall provide all the learning materials needed to equip learners with the information they need. As for the parents, each child should be provided with the right exercise books; for the Kindergarten, 6 small books will suffice. As for the Lower Primary Section, 8 big hard covered books. The Upper Primary Section will require 10 big hard covered books.<br>
+                                             <br>
+As for the Kindergarten Section, all the books will be kept at school during the week to be given to the parents on Fridays apart from the Home Work books.<br>
+                                             <br>
+On Mondays, the parents are to pack all the books of the learners neatly and ensure that they are clean and not torn apart or worn off in any way. If however, a child reports on Monday with books missing or missing pages, the parents will have to replace them before the end of that particular day.<br>
+                                          </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Learning%20Materials%20Policy">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="tabs3-page-4">
+                     <div id="wb_LayoutGrid12">
+                        <div id="LayoutGrid12">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog11">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Enrolment Policy</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;">As a school we are enrolling learners from Kindergarten Section to Grade 5 as early as 2 years old. The enrollment process will require a payment of </span><span style="color:#000080;">ZMK 20.00 </span><span style="color:#000000;">for the Registration Form which is non-refundable.<br>
+                                             <br>
+If a child is registered, they are required to report within two weeks. If the child does not report within the stipulated period, the enrolment shall be nullified, implying that the parent will have to re-register the child at the aforementioned non-refundable fee.<br>
+                                          </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Enrolment%20Policy">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="tabs2-page-3">
+               <input type="button" id="Button3" name="" value="SCHOOL PROGRESS CHARTS">
+               <div id="Tabs4">
+                  <ul>
+                     <li role="presentation"><a href="#tabs4-page-1"><span>22</span></a></li>
+                     <li role="presentation"><a href="#tabs4-page-2"><span>23</span></a></li>
+                     <li role="presentation"><a href="#tabs4-page-3"><span>24</span></a></li>
+                  </ul>
+                  <div id="tabs4-page-1">
+                     <div id="wb_LayoutGrid17">
+                        <div id="LayoutGrid17">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog16">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Baby Class</span>
+                                          <div class="blogthumb"><a href="images/Baby.jpg"><img alt="Baby Class" src="images/Baby.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;"> </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Baby%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Middle Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Middle%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Reception Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Reception%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 1</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%201">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 2</span>
+                                          <div class="blogthumb"><a href="images/Grade 2.jpg"><img alt="Grade 2" src="images/Grade 2.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%202">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 3</span>
+                                          <div class="blogthumb"><a href="images/3 and 4.jpg"><img alt="Grade 3" src="images/3 and 4.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%203">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="tabs4-page-2">
+                     <div id="wb_LayoutGrid18">
+                        <div id="LayoutGrid18">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog1">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Baby Class</span>
+                                          <div class="blogthumb"><a href="images/Baby.jpg"><img alt="Baby Class" src="images/Baby.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;"> </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Baby%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Middle Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Middle%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Reception Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Reception%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 1</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%201">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 2</span>
+                                          <div class="blogthumb"><a href="images/Grade 2.jpg"><img alt="Grade 2" src="images/Grade 2.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%202">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 3</span>
+                                          <div class="blogthumb"><a href="images/3 and 4.jpg"><img alt="Grade 3" src="images/3 and 4.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%203">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="tabs4-page-3">
+                     <div id="wb_LayoutGrid19">
+                        <div id="LayoutGrid19">
+                           <div class="row">
+                              <div class="col-1">
+                                 <div class="col-1-padding">
+                                    <div id="Blog2">
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Baby Class</span>
+                                          <div class="blogthumb"><a href="images/Baby.jpg"><img alt="Baby Class" src="images/Baby.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <span style="color:#000000;"> </span><br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Baby%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Middle Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Sunday, April 02, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Middle%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Reception Class</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Reception%20Class">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 1</span>
+                                          <div class="no-thumb"></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%201">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 2</span>
+                                          <div class="blogthumb"><a href="images/Grade 2.jpg"><img alt="Grade 2" src="images/Grade 2.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%202">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                       <div class="blogitem">
+                                          <span class="blogsubject">Grade 3</span>
+                                          <div class="blogthumb"><a href="images/3 and 4.jpg"><img alt="Grade 3" src="images/3 and 4.jpg" loading="lazy"></a></div>
+                                          <div class="blogdate">Tuesday, December 26, 2023<br></div>
+                                          <br>
+                                          <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Grade%203">Lesson Evaluation</a></div>
+                                       </div>
+                                       <div class="clearfix visible-col1"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="tabs2-page-4">
+               <input type="button" id="Button4" name="" value="SCHOOL ASSESSMENTS">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_locationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
+               </div>
+               <div id="wb_Text1">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_contactsText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

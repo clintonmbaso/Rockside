@@ -1014,113 +1014,6 @@ a:hover
    width: 100% !important;
 }
 }
-#wb_services1LayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: rgba(41,41,41,0.31);
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#services1LayoutGrid
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#services1LayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#services1LayoutGrid > .row > .col-1, #services1LayoutGrid > .row > .col-2, #services1LayoutGrid > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#services1LayoutGrid > .row > .col-1, #services1LayoutGrid > .row > .col-2, #services1LayoutGrid > .row > .col-3
-{
-   float: left;
-}
-#services1LayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services1LayoutGrid > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services1LayoutGrid > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services1LayoutGrid > .row > .col-2 > .col-2-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services1LayoutGrid > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services1LayoutGrid > .row > .col-3 > .col-3-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services1LayoutGrid:before,
-#services1LayoutGrid:after,
-#services1LayoutGrid .row:before,
-#services1LayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#services1LayoutGrid:after,
-#services1LayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#services1LayoutGrid > .row > .col-1, #services1LayoutGrid > .row > .col-2, #services1LayoutGrid > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_upcomingactivitieslinksText 
 {
    background-color: transparent;
@@ -1700,72 +1593,6 @@ a:hover
 #wb_callIconFont
 {
    transition: all 500ms linear 0ms;
-}
-#wb_schoolmottoCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 5px 0 5px 0 ;
-   background-color: rgba(230,230,250,0.08);
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 3px;
-   text-align: center;
-}
-#schoolmottoCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#schoolmottoCard-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0 !important;
-   margin: 20px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: "AR JULIAN";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 19px;
-}
-#schoolmottoCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 5px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Share;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 15px;
-}
-#schoolmottoCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 10px 20px 5px 20px;
-   border-top: 1px #D8D8D8 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#schoolmottoCard-card-footer
-{
-   box-sizing: border-box;
-   border-top: 1px solid #DEDEDE;
-   border-radius: 0 0 3px 3px !important;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-color: rgba(30,144,255,0.27);
-   background-image: none;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
 }
 #footerlinksFlexContainer
 {
@@ -3393,67 +3220,6 @@ a:hover
    font-size: 13px;
    line-height: 16px;
 }
-#wb_schoolverseText 
-{
-   background-color: transparent;
-   background-image: url('images/index_schoolverseText_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 0px;
-   border-top-right-radius: 0px;
-   border-bottom-right-radius: 99px;
-   border-bottom-left-radius: 99px;
-   border-radius: 0px;
-   padding: 10px 10px 10px 10px;
-   margin: 0;
-   text-align: center;
-}
-#wb_schoolverseText div
-{
-   text-align: center;
-}
-#wb_schoolverseText
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_schoolversetitleText 
-{
-   background-color: transparent;
-   background-image: url('images/index_schoolversetitleText_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 5px 0 0 0 ;
-   text-align: center;
-}
-#wb_schoolversetitleText div
-{
-   text-align: center;
-}
-#wb_schoolversetitleText
-{
-   display: block;
-   margin: 5px 0 0 0 ;
-   box-sizing: border-box;
-   width: 100%;
-}
 #wb_servicesHeading
 {
    background-color: rgba(0,139,139,0.16);
@@ -3490,409 +3256,6 @@ a:hover
    font-size: 27px;
    margin: 0;
    text-align: center;
-}
-#wb_teachingServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#teachingServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#teachingServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#teachingServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_extralessonsServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#extralessonsServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#extralessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#extralessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_childliteracyServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#childliteracyServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#childliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#childliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#teachingClipArt{
-   opacity: 0;
-}
-#extralessonsClipArt{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#extralessonsClipArt.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
-}
-#childliteracyClipArt{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#childliteracyClipArt.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
-}
-#wb_services2LayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: rgba(41,41,41,0.31);
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#services2LayoutGrid
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#services2LayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#services2LayoutGrid > .row > .col-1, #services2LayoutGrid > .row > .col-2, #services2LayoutGrid > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#services2LayoutGrid > .row > .col-1, #services2LayoutGrid > .row > .col-2, #services2LayoutGrid > .row > .col-3
-{
-   float: left;
-}
-#services2LayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services2LayoutGrid > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services2LayoutGrid > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services2LayoutGrid > .row > .col-2 > .col-2-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services2LayoutGrid > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#services2LayoutGrid > .row > .col-3 > .col-3-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 50px 0 50px 0;
-}
-#services2LayoutGrid:before,
-#services2LayoutGrid:after,
-#services2LayoutGrid .row:before,
-#services2LayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#services2LayoutGrid:after,
-#services2LayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#services2LayoutGrid > .row > .col-1, #services2LayoutGrid > .row > .col-2, #services2LayoutGrid > .row > .col-3
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_computerlessonsServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#computerlessonsServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#computerlessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 24px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#computerlessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_adultliteracyServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#adultliteracyServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#adultliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#adultliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_audiovisualServicesCard
-{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   box-sizing: border-box;
-   margin: 0;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #DEDEDE;
-   border-radius: 0px;
-   text-align: center;
-}
-#audiovisualServicesCard-card-body
-{
-   padding: 0;
-   flex: 1 1 auto;
-   font-size: 0;
-}
-#audiovisualServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#audiovisualServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#computerlessonsClipArt{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#computerlessonsClipArt.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
-}
-#adultliteracyClipArt{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#adultliteracyClipArt.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
-}
-#audiovisualClipArt{
-   fill-opacity: 0;
-   opacity: 0;
-}
-#audiovisualClipArt.finished
-{
-   fill-opacity: 1;
-   transition: fill-opacity 1s;
 }
 #wb_classesFlexContainer
 {
@@ -4006,27 +3369,6 @@ a:hover
    float: none;
    width: 100%;
 }
-}
-#wb_prelogueclassesText 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 10px 10px 10px;
-   margin: 0;
-   text-align: justify;
-}
-#wb_prelogueclassesText div
-{
-   text-align: justify;
-}
-#wb_prelogueclassesText
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
 }
 #wb_missionCard, .missionCard
 {
@@ -4453,60 +3795,6 @@ a:hover
    text-align: justify;
 }
 #wb_grade5Text
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_otherservicesHeading
-{
-   background-color: rgba(0,139,139,0.16);
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: none;
-   border-left-style: solid;
-   border-top-color: #BA55D3;
-   border-right-color: #BA55D3;
-   border-bottom-color: #BA55D3;
-   border-left-color: #BA55D3;
-   border-color: rgba(186,85,211,0.32) rgba(186,85,211,0.32) rgba(186,85,211,0.32) rgba(186,85,211,0.32);
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 5px 0 0 0 ;
-   padding: 3px 0 3px 0;
-   text-align: left;
-}
-#otherservicesHeading
-{
-   color: #000000;
-   font-family: Georgia;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 17px;
-   margin: 0;
-   text-align: left;
-}
-#wb_otherservicesText 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 10px 10px 10px;
-   margin: 0;
-   text-align: justify;
-}
-#wb_otherservicesText div
-{
-   text-align: justify;
-}
-#wb_otherservicesText
 {
    display: block;
    margin: 0;
@@ -6311,7 +5599,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #A9A9A9;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    border-radius: 0px;
@@ -6398,7 +5686,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
-   margin: 0;
+   margin: 15px 0 0 0 ;
    text-align: center;
 }
 #wb_Header div
@@ -6408,7 +5696,7 @@ body
 #wb_Header
 {
    display: block;
-   margin: 0;
+   margin: 15px 0 0 0 ;
    box-sizing: border-box;
    width: 100%;
 }
@@ -6689,32 +5977,32 @@ body
 #wb_Card6
 {
    display: flex;
-   z-index: 156;
+   z-index: 127;
 }
 #wb_currentDate
 {
    display: inline-block;
    width: 100%;
-   z-index: 111;
+   z-index: 96;
 }
 #wb_grade4Image
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 91;
+   z-index: 78;
 }
 #wb_grade4Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 90;
+   z-index: 77;
 }
 #wb_grade2Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 84;
+   z-index: 71;
 }
 #wb_Icon1
 {
@@ -6734,7 +6022,7 @@ body
    bottom: 130px;
    width: 41px;
    height: 41px;
-   z-index: 306;
+   z-index: 265;
 }
 #wb_callFontAwesomeIcon
 {
@@ -6742,19 +6030,19 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 173;
+   z-index: 144;
 }
 #wb_Card1
 {
    display: flex;
-   z-index: 154;
+   z-index: 125;
 }
 #downloadButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 142;
+   z-index: 113;
 }
 #wb_backtoTop
 {
@@ -6763,21 +6051,7 @@ body
    top: 3px;
    width: 41px;
    height: 42px;
-   z-index: 302;
-}
-#wb_audiovisualServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 69;
-}
-#wb_adultliteracyClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 66;
-   position: relative;
+   z-index: 261;
 }
 #wb_photoServicesCard
 {
@@ -6811,7 +6085,7 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 294;
+   z-index: 253;
 }
 #About-us
 {
@@ -6822,27 +6096,19 @@ body
    display: inline-block;
    width: 197px;
    height: 25px;
-   z-index: 145;
+   z-index: 116;
 }
 #wb_visionCard
 {
    display: flex;
    width: 100%;
-   z-index: 106;
-}
-#wb_audiovisualClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 68;
-   position: relative;
+   z-index: 91;
 }
 #wb_servicesHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 115;
+   z-index: 97;
 }
 #wb_home_logo
 {
@@ -6868,27 +6134,27 @@ body
 #wb_Card3
 {
    display: flex;
-   z-index: 157;
+   z-index: 128;
 }
 #wb_Image2
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 97;
+   z-index: 84;
 }
 #wb_grade5Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 93;
+   z-index: 80;
 }
 #wb_babyclassImage
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 73;
+   z-index: 60;
 }
 #wb_emailIconFont
 {
@@ -6914,12 +6180,12 @@ body
    top: 3864px;
    width: 41px;
    height: 50px;
-   z-index: 307;
+   z-index: 266;
 }
 #wb_Card2
 {
    display: flex;
-   z-index: 155;
+   z-index: 126;
 }
 #goalClipArt
 {
@@ -6934,7 +6200,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 72;
+   z-index: 59;
 }
 #wb_videoServicesCard
 {
@@ -6962,33 +6228,19 @@ body
    top: 0px;
    width: 22px;
    height: 21px;
-   z-index: 292;
+   z-index: 251;
 }
 #wb_missionCard
 {
    display: flex;
    width: 100%;
-   z-index: 102;
+   z-index: 87;
 }
 #wb_grade3Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 87;
-}
-#wb_extralessonsServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 61;
-}
-#wb_teachingClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 58;
-   position: relative;
+   z-index: 74;
 }
 #videoClipArt
 {
@@ -7010,50 +6262,27 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 172;
+   z-index: 143;
 }
 #testsButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 140;
+   z-index: 111;
 }
 #SiteSearch
 {
    display: block;
    width: 100%;
    height: 26px;
-   z-index: 144;
-}
-#wb_schoolmottoCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 112;
+   z-index: 115;
 }
 #wb_receptionclassHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 78;
-}
-#wb_childliteracyClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 62;
-   position: relative;
-}
-#extralessonsClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
+   z-index: 65;
 }
 #photoClipArt
 {
@@ -7081,19 +6310,13 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 79;
+   z-index: 66;
 }
 #wb_middleclassHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 75;
-}
-#wb_computerlessonsServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 65;
+   z-index: 62;
 }
 #wb_audioServicesCard
 {
@@ -7118,7 +6341,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 175;
+   z-index: 146;
 }
 #SiteSearch_form
 {
@@ -7143,15 +6366,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 85;
-}
-#wb_computerlessonsClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 64;
-   position: relative;
+   z-index: 72;
 }
 #wb_EmbeddedPage5
 {
@@ -7160,7 +6375,7 @@ body
    top: 0px;
    width: 22px;
    height: 22px;
-   z-index: 311;
+   z-index: 270;
 }
 #wb_EmbeddedPage4
 {
@@ -7169,7 +6384,7 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 309;
+   z-index: 268;
 }
 #wb_EmbeddedPage2
 {
@@ -7178,43 +6393,19 @@ body
    top: 358px;
    width: 22px;
    height: 21px;
-   z-index: 308;
+   z-index: 267;
 }
 #wb_EmbeddedPage3
 {
    display: inline-block;
    width: 100%;
-   z-index: 164;
+   z-index: 135;
 }
 #wb_Heading2
 {
    display: inline-block;
    width: 100%;
-   z-index: 109;
-}
-#adultliteracyClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
-}
-#computerlessonsClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
-}
-#wb_teachingServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 59;
+   z-index: 94;
 }
 #wb_Heading20
 {
@@ -7225,8 +6416,8 @@ body
 #wb_EmbeddedPage1
 {
    display: inline-block;
-   width: 1286px;
-   height: 659px;
+   width: 970px;
+   height: 63px;
    z-index: 12;
 }
 #wb_facebookIconFont
@@ -7238,7 +6429,7 @@ body
    height: 15px;
    visibility: hidden;
    text-align: center;
-   z-index: 293;
+   z-index: 252;
 }
 #missionClipArt
 {
@@ -7249,26 +6440,11 @@ body
    top: 0;
    overflow: visible;
 }
-#wb_otherservicesHeading
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 99;
-}
 #wb_Heading3
 {
    display: inline-block;
    width: 100%;
-   z-index: 96;
-}
-#teachingClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
+   z-index: 83;
 }
 #wb_audioClipArt
 {
@@ -7296,7 +6472,7 @@ body
    display: inline-block;
    width: 73px;
    height: 48px;
-   z-index: 101;
+   z-index: 86;
    position: relative;
 }
 #wb_grade3Image
@@ -7304,15 +6480,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 88;
-}
-#wb_extralessonsClipArt
-{
-   display: inline-block;
-   width: 40px;
-   height: 48px;
-   z-index: 60;
-   position: relative;
+   z-index: 75;
 }
 #wb_videoClipArt
 {
@@ -7328,20 +6496,20 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 171;
+   z-index: 142;
 }
 #updatesButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 141;
+   z-index: 112;
 }
 #wb_dailyText
 {
    display: inline-block;
    width: 100%;
-   z-index: 110;
+   z-index: 95;
 }
 #visionClipArt
 {
@@ -7356,38 +6524,32 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 104;
+   z-index: 89;
 }
 #wb_grade1Image
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 82;
+   z-index: 69;
 }
 #wb_Heading1
 {
    display: inline-block;
    width: 100%;
-   z-index: 71;
-}
-#wb_adultliteracyServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 67;
+   z-index: 58;
 }
 #wb_Card5
 {
    display: flex;
-   z-index: 159;
+   z-index: 130;
 }
 #wb_visionClipArt
 {
    display: inline-block;
    width: 73px;
    height: 69px;
-   z-index: 105;
+   z-index: 90;
    position: relative;
 }
 #wb_goalClipArt
@@ -7395,7 +6557,7 @@ body
    display: inline-block;
    width: 73px;
    height: 69px;
-   z-index: 103;
+   z-index: 88;
    position: relative;
 }
 #wb_grade5Image
@@ -7403,13 +6565,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 94;
-}
-#wb_childliteracyServicesCard
-{
-   display: flex;
-   width: 100%;
-   z-index: 63;
+   z-index: 81;
 }
 #wb_whatsappIconFont
 {
@@ -7422,7 +6578,7 @@ body
 #wb_Card4
 {
    display: flex;
-   z-index: 158;
+   z-index: 129;
 }
 #wb_callIconFont
 {
@@ -7440,7 +6596,7 @@ body
    width: 16px;
    height: 15px;
    text-align: center;
-   z-index: 179;
+   z-index: 150;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -7448,43 +6604,25 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 174;
+   z-index: 145;
 }
 #wb_Card7
 {
    display: flex;
-   z-index: 160;
+   z-index: 131;
 }
 #wb_grade1Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 81;
+   z-index: 68;
 }
 #wb_middleclassImage
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 76;
-}
-#audiovisualClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
-}
-#childliteracyClipArt
-{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-   overflow: visible;
+   z-index: 63;
 }
 #audioClipArt
 {
@@ -7501,6 +6639,38 @@ body
 {
    background-color: transparent;
    background-image: none;
+}
+#FlexContainer3
+{
+   visibility: visible;
+   display: flex;
+}
+#FlexContainer3
+{
+   min-height: 0;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
+}
+#FlexContainer2
+{
+   visibility: visible;
+   display: flex;
+}
+#FlexContainer2
+{
+   min-height: 0;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   align-content: flex-start;
 }
 #wb_photoClipArt
 {
@@ -7866,27 +7036,6 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#wb_services1LayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_services1LayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#services1LayoutGrid
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#services1LayoutGrid .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
 #wb_upcomingactivitieslinksText
 {
    visibility: visible;
@@ -8127,69 +7276,6 @@ body
    line-height: 20px;
    font-size: 18px;
    width: 17px;
-}
-#wb_schoolmottoCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 5px 0 5px 0 ;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-}
-#schoolmottoCard-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0 !important;
-   margin: 20px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: "AR JULIAN";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 19px;
-}
-#schoolmottoCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 5px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Share;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 15px;
-}
-#schoolmottoCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 10px 20px 5px 20px;
-   border-top: 1px #D8D8D8 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#schoolmottoCard-card-footer
-{
-   box-sizing: border-box;
-   border-top: 1px solid #DEDEDE;
-   border-radius: 0 0 3px 3px !important;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-color: rgba(30,144,255,0.27);
-   background-image: none;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_schoolmottoCard
-{
-   text-align: center;
 }
 #footerlinksFlexContainer
 {
@@ -9028,38 +8114,6 @@ body
    flex-shrink: 0;
    align-self: auto;
 }
-#wb_schoolverseText
-{
-   visibility: visible;
-   display: block;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-}
-#wb_schoolverseText
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#wb_schoolversetitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_schoolversetitleText
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_servicesHeading
 {
    width: 100%;
@@ -9067,281 +8121,6 @@ body
    display: block;
    margin: 5px 0 0 0 ;
    padding: 5px 0 5px 0;
-}
-#wb_teachingServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#teachingServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#teachingServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_teachingServicesCard
-{
-   text-align: center;
-}
-#wb_extralessonsServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#extralessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#extralessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_extralessonsServicesCard
-{
-   text-align: center;
-}
-#wb_childliteracyServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#childliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#childliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_childliteracyServicesCard
-{
-   text-align: center;
-}
-#wb_teachingClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_extralessonsClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_childliteracyClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_services2LayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_services2LayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#services2LayoutGrid
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#services2LayoutGrid .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
-#wb_computerlessonsServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#computerlessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 24px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#computerlessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_computerlessonsServicesCard
-{
-   text-align: center;
-}
-#wb_adultliteracyServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#adultliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#adultliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_adultliteracyServicesCard
-{
-   text-align: center;
-}
-#wb_audiovisualServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#audiovisualServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#audiovisualServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_audiovisualServicesCard
-{
-   text-align: center;
-}
-#wb_computerlessonsClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_adultliteracyClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_audiovisualClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
 }
 #wb_classesFlexContainer
 {
@@ -9404,16 +8183,6 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
-}
-#wb_prelogueclassesText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_prelogueclassesText
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
 }
 #wb_missionCard
 {
@@ -9555,24 +8324,6 @@ body
    display: block;
 }
 #wb_grade5Text
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#wb_otherservicesHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 5px 0 0 0 ;
-   padding: 3px 0 3px 0;
-}
-#wb_otherservicesText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_otherservicesText
 {
    margin: 0;
    padding: 10px 10px 10px 10px;
@@ -10495,7 +9246,7 @@ body
 {
    visibility: visible;
    display: table;
-   background-color: #A9A9A9;
+   background-color: transparent;
    background-image: none;
 }
 #wb_HeaderLayoutGrid
@@ -10570,7 +9321,7 @@ body
 }
 #wb_Text2
 {
-   margin: 0;
+   margin: 20px 0 0 0 ;
    padding: 0;
 }
 #wb_home_logo
@@ -11163,27 +9914,6 @@ body
    margin-right: -5px;
    margin-left: -5px;
 }
-#wb_services1LayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_services1LayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#services1LayoutGrid
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#services1LayoutGrid .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
 #wb_upcomingactivitieslinksText
 {
    visibility: visible;
@@ -11425,69 +10155,6 @@ body
    font-size: 15px;
    width: 14px;
 }
-#wb_schoolmottoCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 5px 0 5px 0 ;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-}
-#schoolmottoCard-card-item0
-{
-   box-sizing: border-box;
-   border-radius: 3px 3px 0 0 !important;
-   margin: 20px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: "AR JULIAN";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 19px;
-}
-#schoolmottoCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 5px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Share;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#schoolmottoCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 10px 20px 0 20px;
-   border-top: 1px #D8D8D8 solid;
-   border-width: 1px 0 0 0;
-   height: 0;
-   line-height: 0;
-}
-#schoolmottoCard-card-footer
-{
-   box-sizing: border-box;
-   border-top: 1px solid #DEDEDE;
-   border-radius: 0 0 3px 3px !important;
-   margin: 0;
-   padding: 12px 20px 12px 20px;
-   background-color: rgba(30,144,255,0.27);
-   background-image: none;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_schoolmottoCard
-{
-   text-align: center;
-}
 #footerlinksFlexContainer
 {
    visibility: visible;
@@ -11556,16 +10223,14 @@ body
 }
 #LayoutGrid1 > .row > .col-2
 {
-   display: block;
-   width: 100%;
+   display: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
 }
 #LayoutGrid1 > .row > .col-3
 {
-   display: block;
-   width: 100%;
+   display: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: left;
@@ -12324,38 +10989,6 @@ body
    flex-shrink: 0;
    align-self: auto;
 }
-#wb_schoolverseText
-{
-   visibility: visible;
-   display: block;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-}
-#wb_schoolverseText
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#wb_schoolversetitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_schoolversetitleText
-{
-   margin: 0;
-   padding: 0;
-}
 #wb_servicesHeading
 {
    width: 100%;
@@ -12363,281 +10996,6 @@ body
    display: block;
    margin: 5px 0 0 0 ;
    padding: 5px 0 5px 0;
-}
-#wb_teachingServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#teachingServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#teachingServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_teachingServicesCard
-{
-   text-align: center;
-}
-#wb_extralessonsServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#extralessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#extralessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 20.8px;
-}
-#wb_extralessonsServicesCard
-{
-   text-align: center;
-}
-#wb_childliteracyServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#childliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#childliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_childliteracyServicesCard
-{
-   text-align: center;
-}
-#wb_teachingClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_extralessonsClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_childliteracyClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_services2LayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_services2LayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#services2LayoutGrid
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#services2LayoutGrid .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
-#wb_computerlessonsServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#computerlessonsServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 24px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#computerlessonsServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_computerlessonsServicesCard
-{
-   text-align: center;
-}
-#wb_adultliteracyServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#adultliteracyServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#adultliteracyServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_adultliteracyServicesCard
-{
-   text-align: center;
-}
-#wb_audiovisualServicesCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-   color: transparent;
-}
-#audiovisualServicesCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 25px 0 20px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 21px;
-}
-#audiovisualServicesCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0 0 25px 0 ;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 16px;
-}
-#wb_audiovisualServicesCard
-{
-   text-align: center;
-}
-#wb_computerlessonsClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_adultliteracyClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_audiovisualClipArt
-{
-   width: 40px;
-   height: 48px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
 }
 #wb_classesFlexContainer
 {
@@ -12700,16 +11058,6 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    text-align: center;
-}
-#wb_prelogueclassesText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_prelogueclassesText
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
 }
 #wb_missionCard
 {
@@ -12851,24 +11199,6 @@ body
    display: block;
 }
 #wb_grade5Text
-{
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#wb_otherservicesHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 5px 0 0 0 ;
-   padding: 3px 0 3px 0;
-}
-#wb_otherservicesText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_otherservicesText
 {
    margin: 0;
    padding: 10px 10px 10px 10px;
@@ -13661,7 +11991,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 38px;
+   width: 40px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -13670,7 +12000,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 38px;
+   width: 40px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -13680,7 +12010,7 @@ body
 #wb_menuPanel a
 {
    color: #F7F7F7;
-   border: 1px solid rgba(105,105,105,0.00);
+   border: 1px solid #696969;
    border-radius: 0px;
    background-color: rgba(62,62,62,0.39);
    font-family: Arial;
@@ -13788,7 +12118,6 @@ body
    visibility: visible;
    display: table;
    background-color: transparent;
-   background-image: none;
    background-image: none;
 }
 #wb_HeaderLayoutGrid

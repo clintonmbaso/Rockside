@@ -116,11 +116,6 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_mainLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
       });
-      $("a[href*='#services1LayoutGrid']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_services1LayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
-      });
       searchParseURL('SiteSearch');
       searchAutoComplete('SiteSearch', 0, '_parent');
       $("a[href*='#backtoTop']").click(function(event)
@@ -157,59 +152,6 @@
          loop: true
       });
       $("#audioClipArt").animatesvg('animate');
-      $("#teachingClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#teachingClipArt").animatesvg('animate');
-      $("#extralessonsClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#extralessonsClipArt").animatesvg('animate');
-      $("#childliteracyClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#childliteracyClipArt").animatesvg('animate');
-      $("a[href*='#services2LayoutGrid']").click(function(event)
-      {
-         event.preventDefault();
-         $('html, body').stop().animate({ scrollTop: $('#wb_services2LayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
-      });
-      $("#computerlessonsClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#computerlessonsClipArt").animatesvg('animate');
-      $("#adultliteracyClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#adultliteracyClipArt").animatesvg('animate');
-      $("#audiovisualClipArt").animatesvg(
-      {
-         delay: 200,
-         duration: 2000,
-         easing: 'linear',
-         loop: true
-      });
-      $("#audiovisualClipArt").animatesvg('animate');
       $("#missionClipArt").animatesvg(
       {
          delay: 200,
@@ -1048,19 +990,19 @@
                   <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
                      <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
                      <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
-                     <li><a role="menuitem" href="./index.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
-                     <li><a role="menuitem" href="Player/New Player.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
-                     <li><a role="menuitem" href="./index.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
-                     <li><a role="menuitem" href="./About.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
-                     <li><a role="menuitem" href="./index.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Campus&nbsp;Ministry</a></li>
-                     <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Record&nbsp;Cards</a></li>
+                     <li><a role="menuitem" href="./Adventurer.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Young-Adult.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                     <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                     <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Record&nbsp;Cards</a></li>
                      <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                     <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
+                     <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect">Organization&nbsp;Charts</a></li>
                   </ul>
                </div>
             </div>
             <div id="wb_Text40">
-               <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               <span style="color:#FFD700;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Rockside Seventh-Day Adventist Church.&nbsp; All Rights Reserved</span>
             </div>
          </div>
          <div id="wb_HeaderLayoutGrid">
@@ -1073,10 +1015,10 @@
                   </div>
                   <div class="col-2">
                      <div id="wb_Header">
-                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:24px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;"><strong>ACADEMY</strong></span>
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:24px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:24px;"><strong>CHURCH</strong></span>
                      </div>
                      <div id="wb_Text2">
-                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span>
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:17px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:17px;"><strong>CHURCH</strong></span>
                      </div>
                      <div id="wb_Text3">
                         <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br></strong></span><span style="color:#FFA500;font-family:'Bookman Old Style';font-size:13px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:13px;"><strong>CHURCH</strong></span>
@@ -1361,135 +1303,12 @@
                   <div id="wb_servicesHeading">
                      <h2 id="servicesHeading">Our Services</h2>
                   </div>
-                  <div id="wb_services1LayoutGrid">
-                     <div id="services1LayoutGrid">
-                        <div class="row">
-                           <div class="col-1">
-                              <div class="col-1-padding">
-                                 <div id="wb_teachingClipArt">
-                                    <svg id="teachingClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="teachingClipArt-shape" d="M37 29 L37 5 C37 4, 37 4, 37 4 C37 4, 37 4, 37 4 L3 4 C3 4, 3 4, 3 4 C3 4, 3 4, 3 5 L3 29 C3 29, 3 29, 3 29 C3 29, 3 30, 3 30 L37 30 C37 30, 37 29, 37 29 C37 29, 37 29, 37 29 Z M40 5 L40 36 C40 37, 40 38, 39 39 C38 40, 38 41, 37 41 L25 41 C25 41, 25 42, 26 43 C26 44, 26 44, 26 45 C27 46, 27 46, 27 46 C27 47, 27 47, 26 48 C26 48, 26 48, 25 48 L15 48 C14 48, 14 48, 14 48 C13 47, 13 47, 13 46 C13 46, 13 46, 14 45 C14 44, 14 44, 14 43 C15 42, 15 41, 15 41 L3 41 C2 41, 2 40, 1 39 C0 38, 0 37, 0 36 L0 5 C0 3, 0 2, 1 1 C2 0, 2 0, 3 0 L37 0 C38 0, 38 0, 39 1 C40 2, 40 3, 40 5" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#teachingClipArt-shape" data-href="#teachingClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_teachingServicesCard" class="card">
-                                    <div id="teachingServicesCard-card-body">
-                                       <div id="teachingServicesCard-card-item0">Teaching</div>
-                                       <div id="teachingServicesCard-card-item1">Our classes begin from Kindergarten section and extends up to grade 5 for now.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-2">
-                              <div class="col-2-padding">
-                                 <div id="wb_extralessonsClipArt">
-                                    <svg id="extralessonsClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="extralessonsClipArt-shape" d="M40 30 C39 31, 39 32, 38 33 C37 34, 36 35, 35 36 C34 36, 33 37, 32 37 C31 37, 30 37, 30 37 C29 37, 28 37, 27 37 C26 37, 25 37, 24 36 C24 36, 23 36, 22 36 C22 35, 21 35, 21 35 L21 35 C18 39, 16 42, 12 44 C9 47, 5 48, 1 48 C1 48, 1 48, 0 48 C0 47, 0 47, 0 47 C0 46, 0 46, 0 46 C1 46, 1 46, 1 46 C5 46, 8 45, 11 43 C13 41, 16 38, 18 35 C17 35, 16 35, 16 35 C15 36, 14 36, 13 36 C12 36, 12 36, 11 36 C10 36, 9 35, 8 35 C7 35, 6 34, 5 33 C5 33, 4 32, 3 31 C2 30, 1 28, 1 27 C3 26, 5 25, 7 25 C9 25, 10 25, 12 25 C13 26, 14 26, 15 27 C16 28, 17 28, 18 29 C18 30, 19 30, 19 31 C20 29, 21 26, 22 23 C22 23, 21 23, 21 24 C21 24, 20 24, 20 24 C19 24, 18 24, 18 24 C17 24, 16 23, 15 23 C15 23, 14 23, 13 23 C12 22, 11 22, 11 22 C10 21, 9 20, 8 20 C8 19, 7 18, 7 17 C6 16, 6 15, 6 14 C7 13, 9 13, 10 13 C11 13, 12 13, 13 13 C14 13, 15 13, 16 14 C17 14, 17 15, 18 15 C18 16, 19 16, 19 17 C20 17, 20 18, 21 18 C21 19, 21 19, 21 20 C22 20, 22 21, 22 21 L22 21 C22 19, 22 17, 22 16 C22 16, 22 16, 22 16 C21 16, 21 15, 20 15 C20 14, 19 13, 18 13 C18 12, 17 11, 17 10 C16 9, 16 8, 16 7 C16 6, 16 5, 16 4 C17 2, 17 1, 18 0 C20 0, 21 1, 22 2 C23 2, 24 3, 24 4 C25 4, 25 5, 26 6 C26 7, 26 8, 26 8 C26 9, 26 10, 26 11 C26 11, 26 12, 26 13 C26 13, 26 14, 25 14 C25 15, 25 15, 25 15 L25 16 C25 16, 25 16, 25 17 C25 18, 25 19, 25 19 C25 19, 25 19, 25 19 C25 18, 25 18, 26 17 C26 17, 27 16, 27 16 C28 15, 29 15, 29 14 C30 14, 31 14, 32 13 C33 13, 34 13, 35 13 C36 13, 38 13, 39 14 C39 15, 39 16, 38 17 C38 18, 38 19, 37 20 C36 21, 36 21, 35 22 C34 23, 33 23, 33 23 C32 24, 31 24, 30 24 C29 24, 29 24, 28 24 C27 24, 27 24, 26 24 C25 24, 25 24, 25 24 L24 24 C24 27, 23 29, 22 31 C22 31, 22 31, 23 31 C23 31, 23 30, 24 30 C25 29, 25 29, 26 28 C27 28, 28 28, 29 27 C30 27, 31 27, 32 27 C34 27, 35 27, 36 27 C37 28, 39 29, 40 30" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#extralessonsClipArt-shape" data-href="#extralessonsClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_extralessonsServicesCard" class="card">
-                                    <div id="extralessonsServicesCard-card-body">
-                                       <div id="extralessonsServicesCard-card-item0">Grade 7 Extra Lessons</div>
-                                       <div id="extralessonsServicesCard-card-item1">We train the grade seven pupils to be able to articulate 2 grades ahead so as to help them find their exams easy and simple.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-3">
-                              <div class="col-3-padding">
-                                 <div id="wb_childliteracyClipArt">
-                                    <svg id="childliteracyClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="childliteracyClipArt-shape" d="M37 10 C39 13, 40 16, 40 20 C40 24, 39 27, 37 30 C36 33, 33 36, 30 37 C27 39, 24 40, 20 40 C19 40, 18 40, 17 40 C14 43, 10 46, 7 47 C6 48, 5 48, 4 48 C4 48, 3 48, 3 48 C3 47, 3 47, 3 47 L3 47 C3 47, 3 47, 3 46 C3 46, 3 46, 3 46 C3 46, 3 46, 3 46 C3 46, 3 46, 3 46 C3 46, 3 45, 3 45 C3 45, 3 45, 4 45 C4 45, 4 44, 4 44 C5 43, 5 43, 5 43 C5 42, 5 42, 6 41 C6 41, 6 40, 6 40 C7 39, 7 39, 7 38 C7 37, 7 36, 8 36 C5 34, 3 31, 2 29 C1 26, 0 23, 0 20 C0 17, 1 15, 2 12 C3 10, 4 8, 6 6 C8 4, 10 3, 12 2 C15 0, 17 0, 20 0 C24 0, 27 1, 30 3 C33 4, 36 7, 37 10" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#childliteracyClipArt-shape" data-href="#childliteracyClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_childliteracyServicesCard" class="card">
-                                    <div id="childliteracyServicesCard-card-body">
-                                       <div id="childliteracyServicesCard-card-item0">Child Literacy</div>
-                                       <div id="childliteracyServicesCard-card-item1">As our mission is, we endevour to train a child in the art of writing, reading and performing basic arithmetics as early as reception class.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="wb_services2LayoutGrid">
-                     <div id="services2LayoutGrid">
-                        <div class="row">
-                           <div class="col-1">
-                              <div class="col-1-padding">
-                                 <div id="wb_computerlessonsClipArt">
-                                    <svg id="computerlessonsClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="computerlessonsClipArt-shape" d="M39 38 L40 46 C40 47, 40 47, 40 47 C39 48, 39 48, 39 48 L1 48 C1 48, 1 48, 0 47 C0 47, 0 47, 0 46 L1 38Z  M37 15 L39 36 L1 36 L3 15 C3 15, 3 14, 3 14 C4 14, 4 14, 4 14 L10 14 L10 17 C10 18, 10 19, 11 20 C11 20, 12 21, 13 21 C14 21, 14 20, 15 20 C15 19, 16 18, 16 17 L16 14 L24 14 L24 17 C24 18, 25 19, 25 20 C26 20, 26 21, 27 21 C28 21, 29 20, 29 20 C30 19, 30 18, 30 17 L30 14 L36 14 C36 14, 36 14, 37 14 C37 14, 37 15, 37 15 Z M29 10 L29 17 C29 18, 28 18, 28 18 C28 19, 27 19, 27 19 C27 19, 26 19, 26 18 C26 18, 26 18, 26 17 L26 10 C26 8, 25 7, 24 5 C23 4, 22 3, 20 3 C18 3, 17 4, 16 5 C15 7, 14 8, 14 10 L14 17 C14 18, 14 18, 14 18 C14 19, 13 19, 13 19 C12 19, 12 19, 12 18 C12 18, 11 18, 11 17 L11 10 C11 7, 12 5, 14 3 C16 1, 18 0, 20 0 C22 0, 24 1, 26 3 C28 5, 29 7, 29 10" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#computerlessonsClipArt-shape" data-href="#computerlessonsClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_computerlessonsServicesCard" class="card">
-                                    <div id="computerlessonsServicesCard-card-body">
-                                       <div id="computerlessonsServicesCard-card-item0">Computer Lessons</div>
-                                       <div id="computerlessonsServicesCard-card-item1">For those that desire to have a certified skill in computer literacy. Flying Wings Academy offers it in details at an affordable fee.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-2">
-                              <div class="col-2-padding">
-                                 <div id="wb_adultliteracyClipArt">
-                                    <svg id="adultliteracyClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="adultliteracyClipArt-shape" d="M10 3 C13 1, 16 0, 20 0 C24 0, 27 1, 30 3 C33 5, 36 8, 37 12 C39 16, 40 20, 40 24 C40 28, 39 32, 37 36 C36 40, 33 43, 30 45 C27 47, 24 48, 20 48 C16 48, 13 47, 10 45 C7 43, 4 40, 3 36 C1 32, 0 28, 0 24 C0 20, 1 16, 3 12 C4 8, 7 5, 10 3 Z M27 16 C27 16, 27 16, 27 17 C27 17, 27 17, 27 17 C27 17, 27 17, 27 17 C27 17, 27 17, 27 16 C27 16, 27 16, 27 16 C27 16, 27 16, 27 16 C28 16, 28 16, 29 15 C29 15, 30 15, 30 16 C30 16, 30 16, 30 15 C31 15, 31 15, 31 15 C31 15, 31 15, 31 15 C31 15, 32 15, 32 15 L32 14 C31 14, 31 14, 31 14 C31 13, 31 13, 31 13 C31 13, 31 13, 31 13 C31 13, 31 13, 31 13 C31 13, 31 13, 30 13 C30 13, 30 13, 30 13 C30 13, 30 13, 30 13 C30 13, 30 13, 30 12 C29 12, 29 12, 29 12 C29 12, 29 12, 29 11 C29 11, 29 11, 29 11 C29 11, 29 11, 29 11 C29 11, 29 11, 29 11 C29 11, 29 11, 29 11 C29 11, 29 11, 29 11 C29 11, 28 11, 28 11 C28 11, 28 11, 28 11 C28 11, 28 11, 28 11 C28 11, 28 11, 28 11 C28 11, 28 11, 28 11 C28 11, 28 11, 28 11 C28 11, 28 11, 28 11 C27 11, 27 11, 27 11 C27 11, 27 11, 27 12 C27 11, 27 11, 27 11 C27 11, 27 11, 27 11 C27 11, 27 11, 27 11 C27 11, 27 10, 27 10 L27 10 C27 10, 27 10, 27 10 C26 10, 26 10, 26 10 C26 10, 26 10, 26 10 C26 9, 25 9, 25 9 C24 9, 24 9, 24 9 C24 9, 24 9, 24 10 C24 10, 24 10, 24 10 C24 10, 24 10, 24 10 C24 11, 24 11, 24 11 C24 11, 24 11, 24 11 C24 11, 24 11, 24 12 C24 12, 24 12, 24 12 C24 12, 24 13, 24 13 C24 13, 24 13, 24 13 C23 13, 23 14, 24 14 C24 14, 24 14, 24 14 C24 14, 24 14, 24 14 C24 14, 24 14, 24 15 C24 15, 24 15, 24 15 C24 15, 24 15, 23 15 L23 15 C23 15, 23 15, 23 15 C23 14, 23 14, 22 14 C22 13, 22 13, 22 13 C22 13, 21 13, 21 13 C21 13, 21 12, 20 12 C20 12, 19 12, 19 12 C19 12, 19 12, 19 12 C19 11, 18 11, 18 11 C18 11, 18 11, 18 11 C18 10, 18 10, 18 10 C18 10, 19 10, 19 10 C19 9, 19 9, 19 9 C19 9, 19 9, 19 9 C19 9, 19 9, 19 9 C20 9, 20 9, 20 8 C20 8, 21 8, 21 8 C21 7, 21 7, 21 7 C21 7, 21 7, 21 7 C21 7, 22 7, 22 7 C22 7, 22 7, 22 7 C22 7, 22 7, 22 7 C23 7, 22 7, 22 6 C22 6, 23 6, 22 6 C22 6, 22 6, 22 6 C22 5, 22 6, 21 6 C21 6, 21 6, 22 6 C22 6, 21 6, 21 6 C21 7, 21 7, 21 7 C21 7, 21 7, 20 7 C20 7, 20 7, 20 6 C20 6, 20 6, 20 6 C20 6, 20 6, 20 6 C20 6, 20 6, 19 6 C19 6, 19 6, 19 6 C19 5, 19 5, 19 5 C18 5, 18 5, 18 5 C18 5, 18 5, 17 5 C17 5, 17 5, 17 5 C17 5, 17 5, 17 5 C18 5, 18 5, 18 6 C18 6, 18 6, 18 6 C18 6, 18 6, 18 6 C18 6, 19 6, 18 6 C18 6, 18 6, 18 6 C18 6, 18 6, 18 6 C18 6, 18 6, 18 7 C18 7, 18 7, 18 7 C18 7, 18 7, 18 7 C18 7, 18 7, 18 7 C17 7, 17 6, 17 6 C17 7, 17 7, 17 7 L16 6 C16 6, 16 7, 16 7 C16 7, 16 7, 15 7 C15 7, 15 6, 15 6 C15 6, 15 6, 15 6 C15 6, 15 6, 15 6 C15 6, 15 6, 15 5 C15 5, 15 5, 15 5 C14 5, 13 6, 12 6 C12 6, 12 6, 13 6 C13 6, 13 6, 13 6 C13 6, 13 6, 13 6 C14 6, 14 6, 14 6 L14 6 C15 6, 15 6, 15 6 C15 6, 14 6, 14 6 C14 6, 14 7, 13 7 C14 7, 14 7, 14 7 C14 7, 13 7, 13 7 C13 7, 13 7, 13 7 C13 7, 13 6, 13 6 C12 6, 12 6, 12 6 C9 8, 7 11, 6 13 C6 14, 6 14, 6 14 C6 14, 6 14, 6 14 C6 14, 6 14, 6 14 C6 14, 6 14, 7 14 C7 14, 7 15, 7 15 C7 15, 7 15, 8 16 C8 16, 8 16, 8 16 C8 17, 8 17, 8 17 C8 17, 8 17, 8 17 C8 16, 8 16, 8 17 C8 17, 8 17, 8 17 C8 17, 8 17, 8 17 C8 17, 8 18, 8 18 C8 18, 8 19, 8 19 C8 19, 8 20, 8 20 L8 20 C8 20, 8 20, 8 21 C8 21, 8 22, 8 21 C8 22, 8 22, 9 23 C9 23, 9 23, 9 23 C9 23, 9 23, 9 23 C10 23, 10 24, 10 24 C10 24, 10 24, 10 24 C10 24, 10 24, 10 25 C11 25, 11 25, 11 25 C11 26, 11 26, 11 26 C11 26, 11 27, 11 27 C11 27, 11 27, 11 27 C11 27, 11 27, 11 27 C11 27, 11 27, 12 27 C12 27, 12 28, 12 28 C12 28, 12 28, 12 28 C12 28, 12 28, 12 28 C12 28, 12 28, 12 28 C12 28, 12 27, 12 26 C11 26, 11 26, 11 26 C11 25, 11 25, 11 25 C11 25, 11 25, 11 25 C11 25, 11 25, 11 25 C11 25, 11 25, 11 25 C11 25, 11 25, 12 25 C12 25, 12 25, 12 25 C12 25, 12 25, 12 26 C12 26, 12 26, 12 26 C12 26, 12 26, 12 27 C13 27, 13 27, 13 27 C13 27, 13 27, 13 28 C13 28, 13 28, 13 28 C13 28, 13 28, 14 28 C14 29, 14 29, 14 29 C14 29, 14 30, 14 30 C14 30, 14 30, 14 31 C14 31, 14 31, 15 31 C15 31, 15 31, 15 31 C15 31, 15 31, 15 32 C15 32, 16 32, 16 32 C16 32, 16 32, 16 32 C16 32, 17 32, 17 32 C17 33, 17 33, 17 33 C17 33, 17 33, 18 33 C18 32, 18 32, 18 32 C18 32, 18 33, 19 33 C19 33, 19 34, 19 34 C20 34, 20 34, 21 34 C21 34, 21 34, 21 34 C21 34, 21 34, 21 35 C21 35, 21 35, 21 35 C21 35, 21 35, 21 35 C21 35, 21 36, 22 36 C22 36, 22 36, 22 36 C22 36, 22 36, 22 36 C22 36, 22 36, 22 37 C23 37, 23 37, 23 37 C23 37, 23 37, 23 36 C23 36, 22 36, 22 35 C22 35, 22 35, 22 35 C22 35, 22 35, 22 35 C22 35, 22 35, 22 35 C22 35, 22 35, 22 34 C22 34, 22 34, 22 34 C22 34, 22 34, 22 34 C22 34, 22 34, 22 34 C22 34, 22 34, 22 33 C22 33, 22 33, 22 33 C22 33, 21 32, 21 32 C21 33, 21 33, 21 33 C21 33, 21 32, 21 32 C21 32, 21 32, 21 32 C21 33, 21 33, 21 33 C20 33, 20 33, 20 33 C20 33, 20 32, 20 32 C20 32, 20 32, 20 31 C20 31, 20 31, 20 31 C21 31, 21 31, 21 31 C21 30, 21 30, 21 30 C21 30, 21 30, 21 30 C21 30, 20 30, 20 30 C20 30, 20 30, 20 30 C20 30, 19 31, 19 31 C19 31, 19 31, 19 31 C19 31, 19 31, 19 31 C19 31, 19 31, 18 31 C18 31, 18 31, 18 31 C18 31, 17 31, 17 30 C17 30, 17 30, 17 29 C17 29, 17 29, 17 28 C17 28, 17 28, 17 28 C17 27, 17 27, 17 27 C17 27, 17 27, 17 27 C17 26, 17 26, 17 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C18 26, 18 26, 18 26 C19 26, 19 26, 19 26 C19 26, 20 26, 20 26 C20 26, 20 26, 20 25 C20 25, 20 25, 20 25 C20 26, 20 26, 20 25 C20 25, 21 25, 21 25 C21 25, 21 26, 21 26 C21 26, 21 26, 21 26 C22 26, 22 26, 22 26 C22 26, 22 26, 22 26 C22 26, 22 26, 22 26 C22 26, 22 26, 22 26 C22 27, 23 28, 23 28 C23 28, 23 28, 23 28 C23 28, 23 28, 23 28 C23 27, 23 27, 23 27 C23 27, 23 27, 23 27 L23 26 C23 26, 23 26, 23 26 L23 26 C23 26, 23 25, 23 25 C22 25, 22 25, 23 25 C23 25, 23 24, 23 24 C23 24, 23 24, 23 24 C23 24, 23 24, 24 24 C24 24, 24 24, 24 24 C24 23, 24 23, 24 22 C24 22, 25 22, 25 22 C25 22, 25 22, 25 22 C24 22, 24 22, 24 22 C24 22, 24 22, 24 22 C24 22, 24 22, 24 21 C24 21, 24 21, 24 21 C24 21, 25 21, 25 21 C25 21, 25 21, 25 21 C25 21, 25 20, 25 20 C25 20, 25 20, 26 20 C26 20, 26 20, 26 20 C26 20, 26 20, 26 20 C26 20, 26 19, 26 19 C26 19, 26 19, 27 19 C27 19, 27 19, 27 19 C27 18, 27 18, 27 18 L28 18 C28 18, 28 18, 28 18 C28 18, 28 18, 28 18 C29 17, 29 17, 28 17 C28 17, 28 17, 28 17 C28 17, 28 17, 28 17 C28 17, 28 17, 28 17 C28 17, 28 17, 28 16 C29 16, 29 16, 28 16 C28 16, 28 16, 27 16 Z M23 44 C26 43, 29 41, 32 38 C32 38, 32 38, 32 38 C32 38, 31 38, 31 38 C31 37, 31 37, 31 37 C31 37, 31 37, 31 37 C31 37, 31 37, 30 37 C30 37, 30 36, 30 36 C30 36, 30 36, 30 36 C30 36, 30 36, 30 36 C30 36, 30 36, 29 36 C29 36, 29 36, 29 36 C29 36, 29 36, 29 36 C29 36, 29 36, 29 36 L29 36 C29 36, 29 36, 29 36 C29 36, 29 36, 28 36 C28 36, 28 36, 28 36 C28 36, 28 36, 28 36 C28 36, 28 35, 27 35 C27 35, 27 35, 27 35 C27 35, 27 35, 27 35 C27 35, 27 35, 27 35 C27 35, 26 35, 26 35 C26 35, 26 35, 26 36 C26 36, 26 36, 26 36 C26 36, 26 36, 26 35 C26 35, 26 35, 26 35 C26 35, 26 35, 26 35 C26 35, 26 35, 26 35 C25 35, 25 35, 25 35 C25 35, 25 35, 25 35 C25 35, 25 35, 25 35 C25 36, 25 36, 25 36 C25 36, 25 36, 24 36 C24 36, 24 36, 24 36 C24 36, 24 36, 24 36 C24 36, 24 36, 24 36 C24 36, 24 37, 24 37 C24 38, 24 38, 24 38 C24 39, 24 40, 24 40 C23 40, 23 41, 23 41 C23 42, 23 42, 23 42 C23 42, 23 42, 23 43 C23 43, 23 43, 23 43 C23 43, 23 43, 23 44" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#adultliteracyClipArt-shape" data-href="#adultliteracyClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_adultliteracyServicesCard" class="card">
-                                    <div id="adultliteracyServicesCard-card-body">
-                                       <div id="adultliteracyServicesCard-card-item0">Adult Literacy</div>
-                                       <div id="adultliteracyServicesCard-card-item1">This goes to all adults who would like to take up evening classes in reading and writing. We are there for you. Come through and get reading in no time.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-3">
-                              <div class="col-3-padding">
-                                 <div id="wb_audiovisualClipArt">
-                                    <svg id="audiovisualClipArt" height="100%" width="100%" viewBox="0 0 40 48" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                       <defs>
-                                          <path id="audiovisualClipArt-shape" d="M10 44 L12 41 L6 34 L3 37 L3 40 L7 40 L7 44Z  M23 15 C23 14, 23 14, 23 14 C23 14, 22 14, 22 14 L8 31 C8 31, 8 32, 8 32 C8 32, 8 33, 8 33 C9 33, 9 32, 9 32 L23 15 C23 15, 23 15, 23 15 Z M22 8 L33 22 L11 48 L0 48 L0 35Z  M40 12 C40 13, 40 14, 39 14 L35 20 L24 6 L28 1 C29 0, 29 0, 30 0 C31 0, 32 0, 33 1 L39 9 C40 9, 40 10, 40 12" vector-effect="non-scaling-stroke"/>
-                                       </defs>
-                                       <use xlink:href="#audiovisualClipArt-shape" data-href="#audiovisualClipArt-shape" style="fill:none;stroke:#6B6B6B;stroke-width:2"/>
-                                    </svg>
-                                 </div>
-                                 <div id="wb_audiovisualServicesCard" class="card">
-                                    <div id="audiovisualServicesCard-card-body">
-                                       <div id="audiovisualServicesCard-card-item0">Audio-Visual Studio</div>
-                                       <div id="audiovisualServicesCard-card-item1">As an extra curricula activity, we have added music and video shooting for our learners to be able to have more room for skills.</div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                   <div id="wb_classesFlexContainer">
                      <div id="classesFlexContainer">
                         <div id="wb_classeslayout">
                            <div id="classeslayout">
                               <div class="row">
                                  <div class="col-1">
-                                    <div id="wb_prelogueclassesText">
-                                       <span style="color:#000000;font-family:Georgia;font-size:21px;"><strong>F</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;">lying Wings Academy offers high quality services that aim at promoting the wellbeing of a learner and improving the community and eventually the country at large.<br><br>We are a Christian founded school that believes that good beginnings start with God’s guidance in leading learners to success. We are located in Mukobeko's K-30 area of Kabwe in the central province.<br><br>At Flying Wings, one of our main goals is to make learning fun and interractive. Pre-school and lower elementary is the transition between home and school. It is a time to create, to explore, to experiment, to discover, to grow, a time to play and a time to be a child.<br><br>We pride in maintaining a reputation of academic excellence in pre-school and lower elementary. As all research has indicated, pre-school and lower elementary years are the most crucial years that set the foundation for a child’s performance and success in their educational journey. Hence, our curriculum is strong and well-rounded, venturing into developing academics, sports, drama, art and craft, science, computer skills, language and most importantly confidence, maturity and an understanding of kindness, compassion and tolerance of our peers.<br><br>In addition to the academics, Flying Wings Academy provides extra-curricular activities such as Music, art, crafts mentorship, and career building. Furthermore, we have outdoor activities for the kids which include field trips to strategic locations such as the airports, fire stations, hospitals, farms, museums, game parks, resorts, government offices and natural resource centres.</span>
-                                    </div>
                                     <div id="wb_Heading1">
                                        <h1 id="Heading1">OUR CLASSES</h1>
                                     </div>
@@ -1574,12 +1393,6 @@
                                     <div id="wb_Text4">
                                        <span style="color:#000000;font-family:Calibri;font-size:15px;line-height:21px;">Grade 6 marks the transition to middle school with a comprehensive curriculum. Students delve into advanced language arts, mathematics, science, and social studies. They refine research and presentation skills through complex projects. Critical thinking is honed, and independence in learning is encouraged. The curriculum may include introductory subjects like foreign languages. Parents play a vital role by fostering organizational skills, supporting time management, and maintaining open communication with teachers to ensure a smooth academic progression.</span>
                                     </div>
-                                    <div id="wb_otherservicesHeading">
-                                       <h3 id="otherservicesHeading">Other Services</h3>
-                                    </div>
-                                    <div id="wb_otherservicesText">
-                                       <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>SKILLS TRAINING</strong><br>In addition to our well packed curriculum, we also ensure the children begin to learn career lessons to help build the future they really deserve. We begin computer lessons as early as reception class. By the time a child reaches year 7, we give them the final assessment. Upon reaching the 70% pass mark, we offer them a free certificate of completion in computer lessons.</span>
-                                    </div>
                                  </div>
                                  <div class="col-2">
                                     <div id="wb_missionClipArt">
@@ -1649,22 +1462,8 @@
                               </div>
                            </div>
                            <div class="col-2">
-                              <div id="wb_schoolmottoCard" class="card">
-                                 <div id="schoolmottoCard-card-body">
-                                    <div id="schoolmottoCard-card-item0">SCHOOL MOTTO</div>
-                                    <div id="schoolmottoCard-card-item1">The way to success.<br><br>Jesus as our guide is the way to all forms of success that benefit a soul in both Flesh and Spirit. We follow through this path He has layed for us to reach and attain greater heights. We introduce Jesus Christ to children as early as baby class for it is written that if a child is trained up when they are still young, they will not depart from the training once they grow older.</div>
-                                    <hr id="schoolmottoCard-card-item2">
-                                 </div>
-                                 <div id="schoolmottoCard-card-footer"></div>
-                              </div>
                            </div>
                            <div class="col-3">
-                              <div id="wb_schoolversetitleText">
-                                 <span style="color:#750CAB;font-family:'ar julian';font-size:24px;"><strong>School Verse</strong></span>
-                              </div>
-                              <div id="wb_schoolverseText">
-                                 <span style="color:#000000;font-family:AlbertaExtralight;font-size:17px;"><strong>John 14:6</strong></span><span style="color:#000000;font-family:AlbertaExtralight;font-size:15px;"><br></span><span style="color:#000000;font-family:AlbertaExtralight;font-size:19px;">Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me..</span><span style="color:#000000;font-family:AlbertaExtralight;font-size:15px;"><br><br></span><span style="color:#000000;font-family:Georgia;font-size:16px;">We decided to adopt this verse as the school verse, hence, our motto; &quot;the way to success&quot;. Jesus is the only way we have to the father who is the source of knowledge and all success.</span>
-                              </div>
                            </div>
                         </div>
                      </div>

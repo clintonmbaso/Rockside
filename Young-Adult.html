@@ -6,26 +6,12 @@
 <meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="base/jquery-ui.min.css" rel="stylesheet">
-<link href="owl.carousel.min.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="flychurch.css" rel="stylesheet">
 <link href="Young-Adult.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
-<script src="owl.carousel.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="wb.parallax.min.js"></script>
 <script src="jquery-ui.min.js"></script>
-<script src="searchindex.js"></script>
-<script src="wb.sitesearch.min.js"></script>
-<script>   
-   var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
-   function searchPage(features)
-   {
-      var element = document.getElementById('SiteSearch');
-      window.open('sitesearch-results.html?q='+encodeURIComponent(element.value), '', features);
-      return false;
-   }
-</script>
+<script src="wb.panel.min.js"></script>
 <script src="wwb18.min.js"></script>
 <script>   
    $(document).ready(function()
@@ -606,28 +592,6 @@
       {
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid59').offset().top-88 }, 600, 'easeOutCirc');
-      });
-      function onScrolltopfooterLayoutGridDividerTop()
-      {
-         var $obj = $('#topfooterLayoutGrid-divider-top');
-         if (!$obj.hasClass('show') && $obj.inViewPort(false))
-         {
-            $obj.addClass('show');
-         }
-      }
-      onScrolltopfooterLayoutGridDividerTop();
-      $(window).scroll(function(event)
-      {
-         onScrolltopfooterLayoutGridDividerTop();
-      });
-      searchParseURL('SiteSearch');
-      searchAutoComplete('SiteSearch', 0, '_parent');
-      $("#CardContainer1").owlCarousel({autoplayTimeout:10000, margin: 16, autoplay: true, nav: false, loop: true, dots: true, responsive: {0: {items: 1},320: {items: 1},480: {items: 1}, slideBy: 1}});
-      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
-      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
-      {
-         event.preventDefault();
-         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
       });
       $("#Tabs2").tabs(
       {
@@ -1591,73 +1555,84 @@
          event.preventDefault();
          $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid71').offset().top-88 }, 600, 'easeOutCirc');
       });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
    });
 </script>
 </head>
 <body>
-   <div id="wb_HeaderLayoutGrid">
-      <div id="HeaderLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_home_logo">
-                  <a href="./index.html"><img src="images/Flying_Wings_Academy.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="198"></a>
+   <div id="FlexContainer3">
+      <div id="wb_EmbeddedPage1">
+         <div id="PanelLayer">
+            <div id="wb_IconFont2">
+               <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+            </div>
+            <div id="wb_Image1">
+               <img src="images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
+            </div>
+            <div id="wb_Heading20">
+               <h2 id="Heading20">Rockside SDA Church</h2>
+            </div>
+            <div id="wb_OverlayMenu2">
+               <div class="OverlayMenu2">
+                  <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                     <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                     <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
+                     <li><a role="menuitem" href="./Adventurer.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Young-Adult.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                     <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                     <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Record&nbsp;Cards</a></li>
+                     <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                     <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect">Organization&nbsp;Charts</a></li>
+                  </ul>
                </div>
             </div>
-            <div class="col-2">
-               <div id="wb_Header">
-                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:24px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:24px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:35px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
-               </div>
-               <div id="wb_Text5">
-                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:13px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:13px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:12px;"><strong><em>The way to Success</em></strong></span>
-               </div>
-               <div id="wb_Text6">
-                  <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:17px;"><strong>FLYING WINGS </strong></span><span style="color:#FFFFFF;font-family:'Bookman Old Style';font-size:17px;"><strong>ACADEMY</strong></span><span style="background-color:#FFFFFF;color:#FFFFFF;font-family:'Alan Den';font-size:13px;"><strong><br></strong></span><span style="color:#6A5ACD;font-family:'Comic Sans MS';font-size:13px;"><strong><em>The way to Success</em></strong></span>
-               </div>
+            <div id="wb_Text40">
+               <span style="color:#FFD700;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Rockside Seventh-Day Adventist Church.&nbsp; All Rights Reserved</span>
             </div>
-            <div class="col-3">
-               <div id="wb_EmbeddedPage1">
-                  <div id="wb_menuPanel">
-                     <a href="#PanelLayer" id="menuPanel">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                     </a>
+         </div>
+         <div id="wb_HeaderLayoutGrid">
+            <div id="HeaderLayoutGrid">
+               <div class="row">
+                  <div class="col-1">
+                     <div id="wb_home_logo">
+                        <a href="./index.html"><img src="images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
+                     </div>
                   </div>
-                  <div id="PanelLayer">
-                     <div id="wb_IconFont2">
-                        <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+                  <div class="col-2">
+                     <div id="wb_Header">
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:24px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:24px;"><strong>CHURCH</strong></span>
                      </div>
-                     <div id="wb_Image1">
-                        <img src="images/Flying_Wings_Academy.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="250">
+                     <div id="wb_Text2">
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:17px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:17px;"><strong>CHURCH</strong></span>
                      </div>
-                     <div id="wb_Heading20">
-                        <h2 id="Heading20">Flying Wings Academy</h2>
+                     <div id="wb_Text3">
+                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br></strong></span><span style="color:#FFA500;font-family:'Bookman Old Style';font-size:13px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:13px;"><strong>CHURCH</strong></span>
                      </div>
-                     <div id="wb_OverlayMenu2">
-                        <div class="OverlayMenu2">
-                           <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
-                              <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
-                              <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-cloud-download overlay-icon"></i>Study&nbsp;Center</a></li>
-                              <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
-                              <li><a role="menuitem" href="Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Student&nbsp;Portal</a></li>
-                              <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-gears overlay-icon"></i>Flying&nbsp;Reader</a></li>
-                              <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Business&nbsp;Time</a></li>
-                              <li><a role="menuitem" href="Player/New Player.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Music&nbsp;Player</a></li>
-                              <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Game&nbsp;Center</a></li>
-                              <li><a role="menuitem" href="#" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Upcoming&nbsp;Events</a></li>
-                              <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
-                              <li><a role="menuitem" href="./About.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>About&nbsp;Us</a></li>
-                              <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-phone overlay-icon"></i>Contact&nbsp;Us</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div id="wb_Text40">
-                        <span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+                  </div>
+                  <div class="col-3">
+                     <div id="wb_menuPanel">
+                        <a href="#PanelLayer" id="menuPanel">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+      </div>
+   </div>
+   <div id="FlexContainer2">
+      <div id="wb_Text5">
+         <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;line-height:16px;"><strong>Our Skills Programs</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:13px;line-height:15px;">Come and experience our skill touch in style</span>
       </div>
    </div>
    <div id="wb_mainLayoutGrid">
@@ -10330,100 +10305,6 @@ CMT is based on the Adventist Youth Ministry Training (AYMT) curriculum, develop
          </div>
       </div>
    </div>
-   <div id="wb_topfooterLayoutGrid">
-      <div id="topfooterLayoutGrid-divider-top">
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 25" preserveAspectRatio="none">
-            <path class="divider-fill" d="m 0,0 v 3.8265306 c 0,0 393.8,0 483.4,0 9.2,0 16.6,9.4387754 16.6,21.1734694 0,-11.607143 7.4,-21.1734694 16.6,-21.1734694 89.6,0 483.4,0 483.4,0 V 0 Z"/>
-         </svg>
-      </div>
-      <div id="topfooterLayoutGrid">
-         <div class="row">
-            <div class="col-1">
-               <div id="wb_searchlinksText">
-                  <span style="color:#696969;"><strong>Search this site</strong></span>
-               </div>
-               <form name="SiteSearch_form" id="SiteSearch_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
-                  <input type="text" id="SiteSearch" name="SiteSearch1" value="" spellcheck="false" placeholder="Search this website" role="searchbox"></form>
-               <input type="button" id="searchButton" onclick="searchPage();return false;" name="Search" value="Search">
-               <div id="FlexContainer4">
-                  <a id="Button1" href="./Assessment.html">Tests</a>
-                  <a id="Button2" href="#">Updates</a>
-                  <a id="Button3" href="./Download.html">Download</a>
-               </div>
-            </div>
-            <div class="col-2">
-               <div id="wb_upcomingactivitieslinksText">
-                  <span style="color:#696969;letter-spacing:0.07px;"><strong>Upcoming&nbsp;&nbsp; &nbsp;&nbsp; Activities</strong></span>
-               </div>
-               <div id="wb_EmbeddedPage3">
-                  <div id="FlexContainer1">
-                     <div id="CardContainer1" class="owl-carousel owl-theme">
-                        <div id="wb_Card1" class="card">
-                           <div id="Card1-card-body">
-                              <div id="Card1-card-item0">The Opening of the School</div>
-                              <div id="Card1-card-item1">Monday 4 September, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card2" class="card">
-                           <div id="Card2-card-body">
-                              <div id="Card2-card-item0">Independence Day</div>
-                              <div id="Card2-card-item1">Tuesdsay 24 October, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card6" class="card">
-                           <div id="Card6-card-body">
-                              <div id="Card6-card-item0">National Day of Prayer</div>
-                              <div id="Card6-card-item1">Wednesday 18 October, 2023 </div>
-                           </div>
-                        </div>
-                        <div id="wb_Card3" class="card">
-                           <div id="Card3-card-body">
-                              <div id="Card3-card-item0">Christmas Day</div>
-                              <div id="Card3-card-item1">Monday 25 December, 2023 </div>
-                           </div>
-                        </div>
-                        <div id="wb_Card4" class="card">
-                           <div id="Card4-card-body">
-                              <div id="Card4-card-item0">Beginning of the End of Term 3 Assessments</div>
-                              <div id="Card4-card-item1">Monday November 20, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card5" class="card">
-                           <div id="Card5-card-body">
-                              <div id="Card5-card-item0">Collection of results and Closing of the School for term 2</div>
-                              <div id="Card5-card-item1">Friday December 1, 2023</div>
-                           </div>
-                        </div>
-                        <div id="wb_Card7" class="card">
-                           <div id="Card7-card-body">
-                              <div id="Card7-card-item0">Graduation Day</div>
-                              <div id="Card7-card-item1">Friday November 1, 2023 </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-3">
-               <div id="wb_workingdaysText">
-                  <span style="color:#696969;letter-spacing:0.07px;"><strong>Working&nbsp;&nbsp; &nbsp;&nbsp; Days</strong></span>
-               </div>
-               <div id="workingdaysFlexContainer">
-                  <table id="Table1">
-                     <tr>
-                        <td class="cell0"><p><span style="font-weight:bold;">Working Days</span></p></td>
-                        <td class="cell1"><p>06:00 - 18:00</p></td>
-                     </tr>
-                     <tr>
-                        <td class="cell2"><p><span style="font-weight:bold;">Weekends</span></p></td>
-                        <td class="cell3"><p>Closed</p></td>
-                     </tr>
-                  </table>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
    <div id="wb_lowerfooterLayoutGrid">
       <div id="lowerfooterLayoutGrid">
          <div class="row">
@@ -10431,7 +10312,7 @@ CMT is based on the Adventist Youth Ministry Training (AYMT) curriculum, develop
                <div id="wb_locationText">
                   <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
                </div>
-               <div id="wb_Text3">
+               <div id="wb_Text7">
                   <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
                </div>
             </div>

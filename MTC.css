@@ -500,7 +500,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: #A9A9A9;
+   background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
    border-radius: 0px;
@@ -587,7 +587,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
-   margin: 0;
+   margin: 15px 0 0 0 ;
    text-align: center;
 }
 #wb_Header div
@@ -597,7 +597,7 @@ body
 #wb_Header
 {
    display: block;
-   margin: 0;
+   margin: 15px 0 0 0 ;
    box-sizing: border-box;
    width: 100%;
 }
@@ -834,8 +834,8 @@ body
 #wb_EmbeddedPage1
 {
    display: inline-block;
-   width: 1286px;
-   height: 659px;
+   width: 970px;
+   height: 63px;
    z-index: 14;
 }
 #wb_EmbeddedPage2
@@ -975,8 +975,8 @@ body
 }
 #wb_EmbeddedPage1
 {
-   width: 320px;
-   height: 47px;
+   width: 635px;
+   height: 617px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -985,7 +985,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 38px;
+   width: 40px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -994,7 +994,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 38px;
+   width: 40px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -1004,7 +1004,7 @@ body
 #wb_menuPanel a
 {
    color: #F7F7F7;
-   border: 1px solid rgba(105,105,105,0.00);
+   border: 1px solid #696969;
    border-radius: 0px;
    background-color: rgba(62,62,62,0.39);
    font-family: Arial;
@@ -1112,7 +1112,6 @@ body
    visibility: visible;
    display: table;
    background-color: transparent;
-   background-image: none;
    background-image: none;
 }
 #wb_HeaderLayoutGrid

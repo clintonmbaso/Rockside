@@ -1,0 +1,1480 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flychurch.css" rel="stylesheet">
+<link href="Flying_Music.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("a[href*='#LayoutGrid17']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid17').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog31').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#Tabs4").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#mainLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_mainLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $("#Tabs5").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("#Tabs1").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid27']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid27').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog19').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#Tabs2").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid1']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog3').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#Tabs3").tabs(
+      {
+         show: false,
+         hide: false,
+         event: 'click',
+         collapsible: false
+      });
+      $("a[href*='#LayoutGrid2']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid2').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog1').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid3']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog2').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid4']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog4').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid5']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid5').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog5').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid6']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid6').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog6').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid7']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid7').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog7').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid8']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid8').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog8').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid9']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid9').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog9').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("a[href*='#LayoutGrid10']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid10').offset().top-88 }, 600, 'easeOutCirc');
+      });
+      $('#Blog10').each(function()
+      {
+         var currentPage = 0;
+         var numPerPage = 1;
+         var $blog = $(this);
+         var repaginate = function()
+         {
+            $blog.find('.blogitem').hide()
+                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
+                 .show();
+         };
+         var numRows = $blog.find('.blogitem').length;
+         var numPages = Math.ceil(numRows / numPerPage);
+         var $pager = $('<div class="pager"></div>');
+         for (var page = 0; page < numPages; page++)
+         {
+            $('<span class="page-number"></span>').text(page + 1)
+            .bind('click', {newPage: page}, function(event)
+            {
+               currentPage = event.data['newPage'];
+               repaginate();
+               $(this).addClass('active').siblings().removeClass('active');
+            }).appendTo($pager).addClass('clickable');
+         }
+         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
+         repaginate();
+      });
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer3">
+      <div id="wb_EmbeddedPage1">
+         <div id="PanelLayer">
+            <div id="wb_IconFont2">
+               <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+            </div>
+            <div id="wb_Image1">
+               <img src="images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
+            </div>
+            <div id="wb_Heading20">
+               <h2 id="Heading20">Rockside SDA Church</h2>
+            </div>
+            <div id="wb_OverlayMenu2">
+               <div class="OverlayMenu2">
+                  <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                     <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                     <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
+                     <li><a role="menuitem" href="./Adventurer.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
+                     <li><a role="menuitem" href="./Young-Adult.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                     <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                     <li><a role="menuitem" href="#" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Record&nbsp;Cards</a></li>
+                     <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                     <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect">Organization&nbsp;Charts</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div id="wb_Text40">
+               <span style="color:#FFD700;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Rockside Seventh-Day Adventist Church.&nbsp; All Rights Reserved</span>
+            </div>
+         </div>
+         <div id="wb_HeaderLayoutGrid">
+            <div id="HeaderLayoutGrid">
+               <div class="row">
+                  <div class="col-1">
+                     <div id="wb_home_logo">
+                        <a href="./index.html"><img src="images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
+                     </div>
+                  </div>
+                  <div class="col-2">
+                     <div id="wb_Header">
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:24px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:24px;"><strong>CHURCH</strong></span>
+                     </div>
+                     <div id="wb_Text2">
+                        <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:17px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:17px;"><strong>CHURCH</strong></span>
+                     </div>
+                     <div id="wb_Text3">
+                        <span style="color:#4169E1;font-family:'Bookman Old Style';font-size:13px;"><strong><br></strong></span><span style="color:#FFA500;font-family:'Bookman Old Style';font-size:13px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:13px;"><strong>CHURCH</strong></span>
+                     </div>
+                  </div>
+                  <div class="col-3">
+                     <div id="wb_menuPanel">
+                        <a href="#PanelLayer" id="menuPanel">
+                           <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="FlexContainer2">
+      <div id="wb_Text5">
+         <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;line-height:16px;"><strong>Our Skills Programs</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:13px;line-height:15px;">Come and experience our skill touch in style</span>
+      </div>
+   </div>
+   <div id="wb_mainLayoutGrid">
+      <div id="mainLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_servicesHeading">
+                     <h2 id="servicesHeading">Music Course</h2>
+                  </div>
+                  <div id="Tabs5">
+                     <ul>
+                        <li role="presentation"><a href="#tabs5-page-1"><span>Singing</span></a></li>
+                        <li role="presentation"><a href="#tabs5-page-2"><span>Music</span></a></li>
+                        <li role="presentation"><a href="#tabs5-page-3"><span>Composition</span></a></li>
+                        <li role="presentation"><a href="#tabs5-page-4"><span>Production</span></a></li>
+                     </ul>
+                     <div id="tabs5-page-1">
+                        <div id="Tabs4">
+                           <ul>
+                              <li role="presentation"><a href="#tabs4-page-1"><span>1st</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-2"><span>2nd</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-3"><span>3rd</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-4"><span>4th</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-5"><span>5th</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-6"><span>6th</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-7"><span>7th</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-8"><span>8th</span></a></li>
+                              <li role="presentation"><a href="#tabs4-page-9"><span>9th</span></a></li>
+                           </ul>
+                           <div id="tabs4-page-1">
+                              <div id="wb_LayoutGrid17">
+                                 <div id="LayoutGrid17">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text7">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Basics</strong></span>
+                                             </div>
+                                             <div id="Blog31">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;">&nbsp;&nbsp; - Breathing Techniques: Teach diaphragmatic breathing for better control and support.<br>
+&nbsp;&nbsp; - Pitch Awareness: Develop ear training to recognize and produce pitches accurately.<br>
+&nbsp;&nbsp; - Vocal Warm-ups: Include exercises to relax the vocal cords and prepare the voice.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Breathing Techniques</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;">&nbsp;&nbsp; - Diaphragmatic Breathing: Emphasize the importance of breathing from the diaphragm rather than shallow chest breathing. Guide students to feel the expansion of the lower abdomen during inhalation.<br>
+                                                      <br>
+&nbsp;&nbsp; - Breath Support: Teach the concept of breath support to sustain notes and phrases. Focus on maintaining a steady stream of air for consistent sound production.<br>
+                                                      <br>
+&nbsp;&nbsp; - Exercises: Introduce breathing exercises like &quot;panting breaths,&quot; &quot;lip trills,&quot; and sustained note exercises to build strength and control in the respiratory muscles.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Breathing%20Techniques">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Pitch Awareness</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;">&nbsp;&nbsp; - Ear Training: Conduct exercises to improve pitch recognition. Use scales, intervals, and simple melodies to train the ear.<br>
+                                                      <br>
+&nbsp;&nbsp; - Matching Pitches: Practice singing or playing a note and have students match it. Gradually increase difficulty with more complex melodies.<br>
+                                                      <br>
+&nbsp;&nbsp; - Pitch Control Exercises: Engage in exercises that involve sliding between pitches smoothly and hitting target pitches accurately.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Pitch%20Awareness">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Vocal Warm-ups</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="line-height:17px;"><span style="color:#000000;"/>&nbsp;&nbsp; - Physical Warm-ups: Begin with gentle physical warm-ups to relax the body, especially the neck, shoulders, and jaw.</span><br>
+                                                   <span style="line-height:17px;"></span><br>
+                                                   <span style="line-height:17px;">&nbsp;&nbsp; - Lip Trills and Tongue Exercises: Incorporate lip trills and tongue exercises to release tension in the vocal mechanism.</span><br>
+                                                   <span style="line-height:17px;"></span><br>
+                                                   <span style="line-height:17px;">&nbsp;&nbsp; - Scale and Arpeggio Warm-ups: Progress from simple to complex scales and arpeggios to prepare the vocal cords for a range of pitches.</span><br>
+                                                   <span style="line-height:17px;"></span><br>
+                                                   <span style="line-height:17px;">Remember: Establishing a solid foundation in these basics sets the stage for more advanced vocal development. Encourage consistent practice and provide constructive feedback to help students progress in their singing journey.</span><br>
+                                                   <br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Vocal%20Warm%2dups">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-2">
+                              <div id="wb_LayoutGrid3">
+                                 <div id="LayoutGrid3">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text4">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Fundamentals</strong></span>
+                                             </div>
+                                             <div id="Blog2">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Vocal Range: Identify and expand each individual's vocal range.<br>
+&nbsp;&nbsp; - Pitch Control: Work on maintaining a steady pitch and avoiding pitch variations.<br>
+&nbsp;&nbsp; - Tone Quality: Focus on achieving a clear and resonant tone.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Vocal Range</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Identification: Help students identify their vocal range by exploring the lowest and highest comfortable notes they can sing.<br>
+                                                      <br>
+&nbsp;&nbsp; - Expansion: Introduce exercises to gradually expand their vocal range both upward and downward. This may include sirens, octave jumps, and scale variations.<br>
+                                                      <br>
+&nbsp;&nbsp; - Tessitura: Discuss the concept of tessitura, the range of notes where the voice feels most comfortable, and work on exercises within this range.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Vocal%20Range">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Pitch Control</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Steady Pitch: Focus on maintaining a steady pitch without wavering. Use sustained note exercises and gradually increase the duration.<br>
+                                                      <br>
+&nbsp;&nbsp; - Pitch Variations: Address pitch variations and guide students to achieve intentional pitch changes for expressive purposes.<br>
+                                                      <br>
+&nbsp;&nbsp; - Pitch Correction: Provide feedback on pitch accuracy and suggest corrective exercises, such as using a piano or a digital tuner for reference.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Pitch%20Control">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Tone Quality</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Resonance: Teach students how to produce resonance by adjusting the placement of sound in different resonating spaces, such as chest, head, and nasal cavities.<br>
+                                                      <br>
+&nbsp;&nbsp; - Timbre: Explore the concept of timbre and how it can be modified for different styles of singing. Work on achieving a clear and vibrant tone.<br>
+                                                      <br>
+&nbsp;&nbsp; - Vowel Modification: Guide students in modifying vowels to improve clarity and resonance, especially in different parts of their vocal range.<br>
+                                                      <br>
+Remember: Building strong fundamentals ensures that singers have a solid grasp of essential elements like vocal range, pitch control, and tone quality. Encourage regular practice and provide positive reinforcement as they refine these fundamental skills.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Tone%20Quality">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-3">
+                              <div id="wb_LayoutGrid5">
+                                 <div id="LayoutGrid5">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text9">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Techniques</strong></span>
+                                             </div>
+                                             <div id="Blog5">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Vocal Exercises: Introduce various vocal exercises to strengthen different aspects of the voice.<br>
+&nbsp;&nbsp; - Diction and Pronunciation: Emphasize clear enunciation and proper pronunciation.<br>
+&nbsp;&nbsp; - Vibrato and Dynamics: Teach control over vibrato and the ability to sing with varying dynamics.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Vocal Exercises</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                         <em>a. Breath Control Exercises: <br>
+                                                         </em></strong>Continue to refine breath control through exercises like sustained notes, staccato phrases, and controlled releases of breath.<br>
+                                                      <br>
+                                                      <strong><em>b. Articulation Exercises:<br>
+                                                         </em></strong>Incorporate exercises focusing on clear articulation, including tongue twisters and diction drills.<br>
+                                                      <br>
+                                                      <strong><em>c. Scale and Interval Exercises:<br>
+                                                         </em></strong>Use scales and intervals to strengthen pitch accuracy, control, and agility. Gradually increase the complexity of the exercises.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Vocal%20Exercises">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Scale Exercises</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><br>
+a. Major Scale:<br>
+Have the singers practice ascending and descending through the major scale, starting with a reference note. This helps them internalize the sequence of whole and half steps.<br>
+                                                      <br>
+b. Scale Degrees:<br>
+Play a random note from the major scale and ask singers to identify its scale degree (e.g., tonic, dominant). This sharpens their ability to recognize pitches within a scale context.<br>
+                                                      <br>
+Scale degrees are a way of referring to the individual pitches within a musical scale. They provide a numerical representation of each note's position within the scale, offering a framework for understanding and communicating musical relationships. Let's explore this concept in detail:<br>
+                                                      <br>
+                                                      <em>i. Major Scale Degrees:<br>
+                                                      </em>&nbsp;&nbsp; - Tonic (1st degree): The first note of the scale, serving as the central and most stable pitch.<br>
+&nbsp;&nbsp; - Supertonic (2nd degree): The second note, a whole step above the tonic.<br>
+&nbsp;&nbsp; - Mediant (3rd degree): The third note, positioned between the tonic and dominant.<br>
+&nbsp;&nbsp; - Subdominant (4th degree): The fourth note, creating a sense of tension leading to the dominant.<br>
+&nbsp;&nbsp; - Dominant (5th degree): The fifth note, often associated with a strong and stable sound.<br>
+&nbsp;&nbsp; - Submediant (6th degree): The sixth note, offering a transitional quality between the dominant and tonic.<br>
+&nbsp;&nbsp; - Leading Tone (7th degree): The seventh note, leading strongly to the tonic due to its close proximity.<br>
+                                                      <br>
+                                                      <em>ii. Natural Minor Scale Degrees:<br>
+                                                      </em>&nbsp;&nbsp; - Tonic (1st degree): Functions similarly to the major scale, providing stability.<br>
+&nbsp;&nbsp; - Supertonic (2nd degree): The second note, a whole step above the tonic.<br>
+&nbsp;&nbsp; - Mediant (3rd degree): The third note, similar to the major scale but with a different character in the minor key.<br>
+&nbsp;&nbsp; - Subdominant (4th degree): The fourth note, contributing to the melancholic feel of the minor scale.<br>
+&nbsp;&nbsp; - Dominant (5th degree): The fifth note, often creating tension in the minor scale as well.<br>
+&nbsp;&nbsp; - Submediant (6th degree): The sixth note, offering a contrasting emotional color.<br>
+&nbsp;&nbsp; - Leading Tone (7th degree): In the natural minor scale, the seventh degree is a whole step below the tonic, creating a weaker pull compared to the major scale.<br>
+                                                      <br>
+                                                      <em>iii. Application:<br>
+                                                      </em>&nbsp;&nbsp; - Chord Building: Scale degrees are fundamental to building chords. For instance, a triad built on the tonic would use the 1st, 3rd, and 5th degrees.<br>
+&nbsp;&nbsp; - Melodic Development: Composers and improvisers use scale degrees to craft melodies, exploring the unique qualities of each degree for expressive purposes.<br>
+&nbsp;&nbsp; - Harmonic Progression: Understanding scale degrees aids in analyzing and creating harmonic progressions by recognizing the relationships between chords.<br>
+                                                      <br>
+                                                      <em>iv. Modal Considerations:<br>
+                                                      </em>&nbsp;&nbsp; - Modes: Each mode (e.g., Dorian, Mixolydian) has its own set of scale degrees, providing distinct tonal characteristics.<br>
+&nbsp;&nbsp; - Alterations: Modal alterations involve adjusting certain scale degrees, introducing chromaticism or unique tonal flavors.<br>
+                                                      <br>
+Remember: Scale degrees form the foundation for understanding and creating music. Whether analyzing chords, crafting melodies, or exploring different modes, a solid grasp of scale degrees is essential for musicians and singers alike.<br>
+                                                      <br>
+c. Scale Jumps:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Introduce jumps within the scale, skipping notes and returning. This exercise enhances their ability to navigate intervals within a scale.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Scale%20Exercises">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Interval Exercises</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><br>
+- Interval Recognition:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Play two notes consecutively and ask singers to identify the interval between them (e.g., major third, perfect fifth). Gradually increase difficulty by including various intervals.<br>
+                                                      <br>
+- Melodic Intervals:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Create short melodic sequences using different intervals. Singers then replicate these sequences, focusing on the specific intervals between notes.<br>
+                                                      <br>
+- Harmonic Intervals:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Have singers practice singing harmonies by starting on a given pitch and then adding a harmony note, emphasizing common harmonic intervals like thirds and sixths.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Interval%20Exercises">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Combined Scale and Interval Exercises</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><br>
+- Scale + Interval Singing:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Combine scale and interval exercises by having singers ascend or descend through a scale while incorporating specific intervals at designated points. This reinforces both scale awareness and interval recognition.<br>
+                                                      <br>
+- Melodic Dictation:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Play a short melody and ask singers to write down or sing back the sequence. This challenges their ability to recognize both the pitch relationships and the overall melodic structure.<br>
+                                                      <br>
+- Interval Training with Scales:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - Create exercises that involve singing a scale and then transitioning to specific intervals. For example, sing a major scale and then follow it with a descending minor third. This integrates both scale and interval awareness.<br>
+                                                      <br>
+These exercises should be approached progressively, starting with simpler patterns and gradually increasing complexity as singers become more comfortable with pitch recognition. Regular practice of these exercises will significantly enhance their pitch awareness and ear training skills.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Combined%20Scale%20and%20Interval%20Exercises">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Diction and Pronunciation</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Phonetics: Break down lyrics into phonetic components to help singers understand and pronounce words accurately.<br>
+                                                      <br>
+&nbsp;&nbsp; - Consonant Clarity: Emphasize the importance of clear consonant sounds while maintaining a smooth and connected vocal line.<br>
+                                                      <br>
+&nbsp;&nbsp; - Vowel Formation: Guide singers in forming vowels consistently and in a way that enhances the resonance of their voice.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Diction%20and%20Pronunciation">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Vibrato and Dynamics</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Vibrato Control: Teach singers how to control and apply vibrato appropriately, considering the style and emotion of the song.<br>
+                                                      <br>
+&nbsp;&nbsp; - Dynamic Contrast: Work on variations in volume to convey emotion and expression. Practice singing passages with different dynamic levels.<br>
+                                                      <br>
+&nbsp;&nbsp; - Crescendo and Decrescendo: Explore techniques for smoothly increasing and decreasing volume within phrases for added musicality.<br>
+                                                      <br>
+Remember: Technique plays a crucial role in refining a singer's abilities. Encourage regular practice of vocal exercises and provide specific feedback on breath control, articulation, and dynamic expression to help singers master the technical aspects of their craft.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Vibrato%20and%20Dynamics">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-4">
+                              <div id="wb_LayoutGrid4">
+                                 <div id="LayoutGrid4">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text8">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Song Interpretation</strong></span>
+                                             </div>
+                                             <div id="Blog4">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong>4. Song Interpretation:<br>
+                                                      </strong>&nbsp;&nbsp; - Emotional Expression: Guide singers on how to convey emotions through their voice.<br>
+&nbsp;&nbsp; - Phrasing: Teach the importance of phrasing to enhance musicality.<br>
+&nbsp;&nbsp; - Interpretation: Help singers understand and interpret the lyrics of a song.<br>
+                                                      <br>
+                                                      <strong>Emotional Expression:<br>
+                                                      </strong>&nbsp;&nbsp; - Understanding Lyrics: Encourage singers to deeply understand the meaning behind the lyrics. Discuss the emotions conveyed in the song and how to connect with them personally.<br>
+                                                      <br>
+&nbsp;&nbsp; - Characterization: Help singers adopt the persona of the song's character or narrator. This adds authenticity to their performance.<br>
+                                                      <br>
+&nbsp;&nbsp; - Body Language: Guide students in using body language to enhance the emotional expression of the song. Facial expressions, gestures, and posture contribute to a compelling performance.<br>
+                                                      <br>
+                                                      <strong>Phrasing:<br>
+                                                      </strong>&nbsp;&nbsp; - Breath Management: Emphasize the importance of strategic breaths to support longer phrases. Teach when and where to take breaths without disrupting the flow.<br>
+                                                      <br>
+&nbsp;&nbsp; - Dynamic Phrasing: Explore how dynamics contribute to phrasing. Discuss how varying volume can emphasize different parts of a phrase.<br>
+                                                      <br>
+&nbsp;&nbsp; - Expressive Phrasing: Encourage singers to use vocal nuances like legato, staccato, and rubato to convey emotion and add interest to their interpretation.<br>
+                                                      <br>
+                                                      <strong>Interpretation:<br>
+                                                      </strong>&nbsp;&nbsp; - Personal Connection: Guide singers to find personal connections to the song, allowing for a more authentic and sincere interpretation.<br>
+                                                      <br>
+&nbsp;&nbsp; - Musical Choices: Discuss various musical choices, such as tempo, key, and style, and how these decisions impact the overall interpretation of the song.<br>
+                                                      <br>
+&nbsp;&nbsp; - Experimentation: Encourage experimentation with different interpretations. This helps singers find their unique voice and style.<br>
+                                                      <br>
+Remember: Song interpretation is about more than just hitting the right notes—it's about conveying emotion and telling a story through the music. Foster a supportive environment for singers to explore their interpretations and express themselves creatively.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-5">
+                              <div id="wb_LayoutGrid6">
+                                 <div id="LayoutGrid6">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text10">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Harmony</strong></span>
+                                             </div>
+                                             <div id="Blog6">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong>5. Harmony and Ensemble Singing:<br>
+                                                      </strong>&nbsp;&nbsp; - Harmony Basics: Introduce the concept of harmonizing and singing in parts.<br>
+&nbsp;&nbsp; - Listening Skills: Develop the ability to blend voices in a group setting.<br>
+&nbsp;&nbsp; - Ensemble Dynamics: Teach singers to work together to create a cohesive sound.<br>
+                                                      <br>
+                                                      <strong>Harmony Basics:<br>
+                                                      </strong>&nbsp;&nbsp; - Introduce Harmonies: Teach the concept of harmonies, explaining how different voices can sing complementary notes to create a richer sound.<br>
+                                                      <br>
+&nbsp;&nbsp; - Identify Harmony Parts: Help singers distinguish between melody and harmony parts. Practice singing individual harmony lines to build familiarity.<br>
+                                                      <br>
+&nbsp;&nbsp; - Chord Progressions: Explore common chord progressions and how harmonies align with these progressions.<br>
+                                                      <br>
+                                                      <strong>Listening Skills:<br>
+                                                      </strong>&nbsp;&nbsp; - Blend and Balance: Emphasize the importance of blending voices to create a harmonious sound. Practice achieving a balanced blend within the ensemble.<br>
+                                                      <br>
+&nbsp;&nbsp; - Listening to Each Other: Encourage singers to actively listen to their fellow ensemble members. This helps in maintaining pitch and timing cohesion.<br>
+                                                      <br>
+&nbsp;&nbsp; - Adjusting Harmony Parts: Teach singers to adjust their harmony parts based on the overall sound of the ensemble. This flexibility is crucial for a cohesive performance.<br>
+                                                      <br>
+                                                      <strong>Ensemble Dynamics:<br>
+                                                      </strong>&nbsp;&nbsp; - Entry and Exit Points: Work on precision in entering and exiting phrases. Practice the coordination of different vocal parts for smooth transitions.<br>
+                                                      <br>
+&nbsp;&nbsp; - Dynamics within Harmony: Explore how dynamics play a role in ensemble singing. Discuss when to emphasize certain harmonies for added musicality.<br>
+                                                      <br>
+&nbsp;&nbsp; - Rehearsal Techniques: Develop effective rehearsal techniques for ensemble singing, including sectionals, focused harmonization, and overall ensemble polishing.<br>
+                                                      <br>
+Remember: Harmony and ensemble singing require attentive listening, teamwork, and an understanding of each singer's role. Encourage a collaborative and supportive atmosphere where singers can explore the beauty of harmonizing together.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-6">
+                              <div id="wb_LayoutGrid7">
+                                 <div id="LayoutGrid7">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text11">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Advanced Techniques</strong></span>
+                                             </div>
+                                             <div id="Blog7">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong>6. Advanced Techniques:<br>
+                                                      </strong>&nbsp;&nbsp; - Belting and Falsetto: Explore advanced vocal techniques for different styles of singing.<br>
+&nbsp;&nbsp; - Melisma and Ornamentation: Introduce embellishments and intricate vocal ornamentation.<br>
+&nbsp;&nbsp; - Extended Techniques: Explore unconventional vocal techniques for creative expression.<br>
+                                                      <br>
+                                                      <strong>Belting and Falsetto:<br>
+                                                      </strong>&nbsp;&nbsp; - Belting Techniques: Introduce belting as a powerful and dynamic singing style. Teach proper vocal placement and breath support for belting without straining.<br>
+                                                      <br>
+&nbsp;&nbsp; - Falsetto Control: Guide singers in developing control over falsetto, exploring its use in different genres and emphasizing seamless transitions between registers.<br>
+                                                      <br>
+&nbsp;&nbsp; - Mixed Voice: Work on achieving a balanced and controlled mixed voice, blending chest and head voice for a versatile and powerful sound.<br>
+                                                      <br>
+                                                      <strong>Melisma and Ornamentation:<br>
+                                                      </strong>&nbsp;&nbsp; - Melisma Exercises: Practice melismatic passages, emphasizing precision and clarity in navigating multiple notes within a single syllable.<br>
+                                                      <br>
+&nbsp;&nbsp; - Ornamentation Styles: Explore ornamentation techniques such as runs, trills, and grace notes. Discuss when and how to tastefully incorporate these embellishments into songs.<br>
+                                                      <br>
+&nbsp;&nbsp; - Expressive Ornamentation: Guide singers in using ornamentation to enhance expressiveness, allowing for creative interpretation of melodies.<br>
+                                                      <br>
+                                                      <strong>Extended Techniques:<br>
+                                                      </strong>&nbsp;&nbsp; - Vocal Fry and Growl: Introduce extended vocal techniques like vocal fry and growling for stylistic effects, particularly in genres like rock and blues.<br>
+                                                      <br>
+&nbsp;&nbsp; - Whistle Register: Explore the whistle register for achieving extremely high pitches. Provide exercises to help singers access and control this register.<br>
+                                                      <br>
+&nbsp;&nbsp; - Experimental Sounds: Encourage singers to experiment with unconventional vocal sounds, fostering creativity and expanding their vocal palette.<br>
+                                                      <br>
+Remember: Advanced techniques add depth and versatility to a singer's repertoire. Emphasize the importance of healthy vocal practices while exploring these advanced skills, and encourage singers to integrate these techniques tastefully into their performances.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-7">
+                              <div id="wb_LayoutGrid8">
+                                 <div id="LayoutGrid8">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text12">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Performance Skills</strong></span>
+                                             </div>
+                                             <div id="Blog8">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong>7. Performance Skills:<br>
+                                                      </strong>&nbsp;&nbsp; - Stage Presence: Work on confidence, body language, and connecting with the audience.<br>
+&nbsp;&nbsp; - Microphone Technique: Teach effective use of microphones in live performances.<br>
+&nbsp;&nbsp; - Handling Nervousness: Offer strategies for overcoming stage fright.<br>
+                                                      <br>
+                                                      <strong>Stage Presence:<br>
+                                                      </strong>&nbsp;&nbsp; - Confidence Building: Work on building confidence through stage presence exercises, including maintaining eye contact with the audience and projecting a positive demeanor.<br>
+                                                      <br>
+&nbsp;&nbsp; - Movement and Gesture: Guide singers on how to use movement and gestures to enhance their performance, ensuring that physical expressions align with the mood of the song.<br>
+                                                      <br>
+&nbsp;&nbsp; - Connection with the Audience: Stress the importance of connecting emotionally with the audience to create a more engaging and memorable performance.<br>
+                                                      <br>
+                                                      <strong>Microphone Technique:<br>
+                                                      </strong>&nbsp;&nbsp; - Proximity and Distance: Teach singers how to adjust their distance from the microphone based on the dynamics of the song. Practice maintaining consistent volume levels.<br>
+                                                      <br>
+&nbsp;&nbsp; - Handling Microphone Feedback: Provide tips for avoiding and addressing microphone feedback issues, such as adjusting the microphone angle and distance.<br>
+                                                      <br>
+&nbsp;&nbsp; - Use of Microphone Features: Instruct on utilizing microphone features like proximity effect for added warmth and EQ adjustments for optimal sound.<br>
+                                                      <br>
+                                                      <strong>Handling Nervousness:<br>
+                                                      </strong>&nbsp;&nbsp; - Pre-Performance Rituals: Discuss the benefits of establishing pre-performance rituals to help calm nerves and build focus.<br>
+                                                      <br>
+&nbsp;&nbsp; - Breathing Techniques: Revisit and reinforce breathing techniques as a tool to manage nervousness. Deep, controlled breaths can help alleviate anxiety.<br>
+                                                      <br>
+&nbsp;&nbsp; - Positive Visualization: Encourage positive visualization exercises, where singers visualize successful performances to instill confidence.<br>
+                                                      <br>
+Remember: Performance skills go beyond vocal technique—they encompass the entire stage presence and how singers connect with their audience. Provide opportunities for live performances, constructive feedback, and emphasize the enjoyment of the performance process.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-8">
+                              <div id="wb_LayoutGrid9">
+                                 <div id="LayoutGrid9">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text13">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Repertoire Building</strong></span>
+                                             </div>
+                                             <div id="Blog9">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong>8. Repertoire Building:<br>
+                                                      </strong>&nbsp;&nbsp; - Diversify Genres: Explore various musical genres to broaden the singers' repertoire.<br>
+&nbsp;&nbsp; - Sight Reading: Develop sight-reading skills for learning new music quickly.<br>
+                                                      <br>
+                                                      <strong>Diversify Genres:<br>
+                                                      </strong>&nbsp;&nbsp; - Explore Various Genres: Introduce singers to a diverse range of musical genres, including pop, classical, jazz, musical theater, and more.<br>
+                                                      <br>
+&nbsp;&nbsp; - Identify Personal Preferences: Encourage singers to explore different genres to identify their personal preferences and strengths.<br>
+                                                      <br>
+&nbsp;&nbsp; - Cross-Genre Fusion: Experiment with cross-genre arrangements to showcase versatility and creativity.<br>
+                                                      <br>
+                                                      <strong>Sight Reading:<br>
+                                                      </strong>&nbsp;&nbsp; - Basic Sight Reading: Begin with basic sight-reading exercises, focusing on simple melodies and rhythms.<br>
+                                                      <br>
+&nbsp;&nbsp; - Progressive Difficulty: Gradually increase the difficulty of sight-reading material, incorporating more complex rhythms, intervals, and key changes.<br>
+                                                      <br>
+&nbsp;&nbsp; - Ensemble Sight Reading: Practice sight reading within an ensemble to develop collaborative reading skills.<br>
+                                                      <br>
+                                                      <strong>Performance Preparation:<br>
+                                                      </strong>&nbsp;&nbsp; - Thematic Sets: Organize thematic sets of songs for performances, connecting songs based on a common theme or narrative.<br>
+                                                      <br>
+&nbsp;&nbsp; - Showcases: Plan showcases that feature a variety of genres and styles, allowing singers to display their range and versatility.<br>
+                                                      <br>
+&nbsp;&nbsp; - Original Arrangements: Encourage singers to create their arrangements of songs, fostering creativity and personal expression.<br>
+                                                      <br>
+Remember: Repertoire building is about creating a diverse and engaging collection of songs that showcase a singer's skills and interests. Tailor repertoire choices to each singer's strengths while encouraging exploration of new genres and styles.<br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="tabs4-page-9">
+                              <div id="wb_LayoutGrid10">
+                                 <div id="LayoutGrid10">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text14">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>Recording Techniques</strong></span>
+                                             </div>
+                                             <div id="Blog10">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Introduction</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Studio Etiquette: Provide insights into recording studio practices.<br>
+&nbsp;&nbsp; - Layering and Overdubbing: Teach techniques for recording multiple vocal tracks.<br>
+                                                      <br>
+Remember to tailor the pace and content to the group's skill level and interests, and always encourage a positive and supportive learning environment.<br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                      <br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Introduction">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Studio Etiquette</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Preparation: Emphasize the importance of being well-prepared before entering the studio, including knowing the song inside out and having a clear vision for the recording.<br>
+                                                      <br>
+&nbsp;&nbsp; - Time Management: Teach efficient use of studio time, balancing precision with spontaneity to capture authentic performances.<br>
+                                                      <br>
+&nbsp;&nbsp; - Collaboration: Discuss effective communication with recording engineers and other studio personnel to achieve the desired sound.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Studio%20Etiquette">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Layering and Overdubbing</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Layering Vocals: Explore techniques for layering vocals to create a fuller sound. Discuss the nuances of singing harmonies and doubling parts.<br>
+                                                      <br>
+&nbsp;&nbsp; - Overdubbing: Teach singers how to overdub, recording additional vocal tracks to enhance the overall texture of the song.<br>
+                                                      <br>
+&nbsp;&nbsp; - Panning and EQ: Introduce basic panning and EQ techniques to give each vocal layer its space in the mix.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Layering%20and%20Overdubbing">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">Expressive Recording</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, December 28, 2023<br></div>
+                                                   <span style="color:#000000;"><strong><br>
+                                                      </strong>&nbsp;&nbsp; - Microphone Techniques: Discuss the impact of microphone choice and placement on the recorded sound. Experiment with different microphones to achieve the desired tone.<br>
+                                                      <br>
+&nbsp;&nbsp; - Emotional Delivery: Guide singers to convey emotion effectively in a recording setting, as subtle nuances can be crucial in conveying the intended message.<br>
+                                                      <br>
+&nbsp;&nbsp; - Take Variations: Encourage singers to explore different interpretations in multiple takes, allowing for creative choices during the editing process.<br>
+                                                      <br>
+Remember: Recording techniques involve both technical and artistic considerations. Provide opportunities for singers to experience the recording process, offering guidance on how to deliver a compelling performance that translates well in a recorded format.<br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Expressive%20Recording">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs5-page-2">
+                        <div id="Tabs3">
+                           <ul>
+                              <li role="presentation"><a href="#tabs3-page-1"><span>1st</span></a></li>
+                           </ul>
+                           <div id="tabs3-page-1">
+                              <div id="wb_LayoutGrid2">
+                                 <div id="LayoutGrid2">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text18">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>MUSIC LESSON</strong></span>
+                                             </div>
+                                             <div id="Blog1">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">AY HONORS | MUSIC</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#2F5496;">Music Definition<br>
+                                                   </span><span style="color:#000000;">Music, artful arrangement of sounds across time.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;">THE ELEMENTS OF MUSIC<br>
+                                                   </span><span style="color:#000000;">At its simplest, music consists of a short, unaccompanied melody, known as monophony. But even the simplest melody consists of many important components. Some of the most obvious of these are the varying heights or pitches of the tones, their durations, their loudnesses, their tone colors or timbres, and their articulations.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">Pitch <br>
+                                                   </span><span style="color:#000000;">Although most musical cultures share the concept of highness and lowness of pitch, awareness of this concept is not inborn. Psychological studies have demonstrated that few five-year-olds understand the concept of high and low pitch, whereas most nine-year-olds do. Pitch depends on the rate of vibration, or frequency, of sound waves that produce a particular tone. Higher pitches have a higher frequency (greater rapidity of vibrations) than lower pitches. Most musical cultures recognize the octave, a unique relationship of two pitches. <br>
+Two pitches are an octave apart when their rates of vibration form an exact 1:2 ratio. Tones an octave apart blend together so smoothly that listeners often confuse the two tones or think they are hearing a single tone.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">b.Scale <br>
+                                                   </span><span style="color:#000000;">Arranging notes into a series by order of pitch results in a musical scale. The modern system of scale building is based on the chromatic scale, which is composed of 12 equally divided semitones.<br>
+                                                      <br>
+Types of scales<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>The chromatic scale<br>
+                                                      </em></span><span style="color:#000000;">The chromatic scale contains 12 notes in an octave. Every interval between notes is a half step. This scale contains all the notes—natural, sharp, and flat— commonly used in Western music.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>2.Diatonic Major Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic major scale has seven notes in an octave. In the major scale, the intervals between notes 3 and 4, and 7 and 8 are half steps. The intervals between all other notes are a whole step.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>3.Diatonic (Melodic Minor) Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic scale has seven notes in an octave. In the melodic minor scale the pattern of intervals between notes is different in ascent and descent. The intervals between notes 2 and 3 and 7 and 8 (here, d and e, and b and c) are half steps in ascent, but in descent the half steps fall between notes 2 and 3 and 5 and 6 (d and e, and g and a). The intervals between all other notes are whole steps.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>4.Whole tone scale <br>
+                                                      </em></span><span style="color:#000000;">Each note in a whole tone scale is separated from the next note by an interval of a whole step. Since all the intervals are the same, there is no clear tonal center. The romantic period composer Claude Debussy frequently used this type of scale to create the effect of tonal ambiguity. Modern composers of the 20th century who experimented with tonality also used whole tone scales.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>5.A pentatonic scale <br>
+                                                      </em></span><span style="color:#000000;">A pentatonic scale uses only five pitches in an octave. There are many possible five-note scales. Pentatonic scales are particularly important in the traditional music of China, Japan, and other countries in east Asia, but they are also found worldwide in a variety of genres from folk to classical.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">c.Time<br>
+                                                   </span><span style="color:#000000;">Musical rhythm is defined broadly as everything having to do with the way music uses time. More specifically, this includes characteristics such as durations of tones and silences, and patterns of durations, both of which can focus attention on certain tones making them more prominent than others. These more-prominent or accented tones often mark regular patterns that enable listeners to perceive tones as members of larger groups. We can illustrate this sort of perceptual grouping with a simple visual example. Look at the string of numbers in the first line and the string of letters in the second line for a minute, and see if you can see any patterns: <br>
+                                                      <br>
+The numbers form a simple sequence that repeats itself every three numbers. Rather than saying this is a string of 12 integers, we can recognize that this is a group of three elements each repeated four times. Since the numeral 1 is the first member of each new group, we may pay a little more attention to it. The recurring pattern that enables us to think of these numbers in groups is similar to musical meter (the grouping of beats). In this case, the three-element repetitions are analogous to a common pattern in Western music, triple meter, represented by the metric signature µ. <em>See </em>Musical Rhythm.<br>
+                                                      <br>
+The string of letters is also fairly simple, because the pattern repeats every four letters. This repeating pattern of four is analogous to quadruple meter, represented by the metric signature ¹. As with the repetition of sets of numbers, the first element in each new pattern claims attention and is more accented and emphatic. But in this sequence a second pattern of emphasis is added by the capital letters. This pattern draws attention away from the expected pattern of accents by shifting the stress to a normally weak beat. This device, known as syncopation, is found in music of many cultures. <br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">d.Harmony<br>
+                                                   </span><span style="color:#000000;">In most music, and especially in Western music, important and style-defining patterns are formed by pitches that overlap with one another in time, producing a chord, or harmony<em>. </em>Two or more tones that occur at the same time form a harmonic relationship called a block chord. These tones are called broken chords or arpeggios when heard separately but in sufficiently rapid succession that the listener perceives them as part of the same harmony.<br>
+                                                   </span><span style="color:#000000;"><br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=AY%20HONORS%20%7c%20MUSIC">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs5-page-3">
+                        <div id="Tabs2">
+                           <ul>
+                              <li role="presentation"><a href="#tabs2-page-1"><span>1st</span></a></li>
+                           </ul>
+                           <div id="tabs2-page-1">
+                              <div id="wb_LayoutGrid1">
+                                 <div id="LayoutGrid1">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text1">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>MUSIC LESSON</strong></span>
+                                             </div>
+                                             <div id="Blog3">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">AY HONORS | MUSIC</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#2F5496;">Music Definition<br>
+                                                   </span><span style="color:#000000;">Music, artful arrangement of sounds across time.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;">THE ELEMENTS OF MUSIC<br>
+                                                   </span><span style="color:#000000;">At its simplest, music consists of a short, unaccompanied melody, known as monophony. But even the simplest melody consists of many important components. Some of the most obvious of these are the varying heights or pitches of the tones, their durations, their loudnesses, their tone colors or timbres, and their articulations.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">Pitch <br>
+                                                   </span><span style="color:#000000;">Although most musical cultures share the concept of highness and lowness of pitch, awareness of this concept is not inborn. Psychological studies have demonstrated that few five-year-olds understand the concept of high and low pitch, whereas most nine-year-olds do. Pitch depends on the rate of vibration, or frequency, of sound waves that produce a particular tone. Higher pitches have a higher frequency (greater rapidity of vibrations) than lower pitches. Most musical cultures recognize the octave, a unique relationship of two pitches. <br>
+Two pitches are an octave apart when their rates of vibration form an exact 1:2 ratio. Tones an octave apart blend together so smoothly that listeners often confuse the two tones or think they are hearing a single tone.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">b.Scale <br>
+                                                   </span><span style="color:#000000;">Arranging notes into a series by order of pitch results in a musical scale. The modern system of scale building is based on the chromatic scale, which is composed of 12 equally divided semitones.<br>
+                                                      <br>
+Types of scales<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>The chromatic scale<br>
+                                                      </em></span><span style="color:#000000;">The chromatic scale contains 12 notes in an octave. Every interval between notes is a half step. This scale contains all the notes—natural, sharp, and flat— commonly used in Western music.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>2.Diatonic Major Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic major scale has seven notes in an octave. In the major scale, the intervals between notes 3 and 4, and 7 and 8 are half steps. The intervals between all other notes are a whole step.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>3.Diatonic (Melodic Minor) Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic scale has seven notes in an octave. In the melodic minor scale the pattern of intervals between notes is different in ascent and descent. The intervals between notes 2 and 3 and 7 and 8 (here, d and e, and b and c) are half steps in ascent, but in descent the half steps fall between notes 2 and 3 and 5 and 6 (d and e, and g and a). The intervals between all other notes are whole steps.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>4.Whole tone scale <br>
+                                                      </em></span><span style="color:#000000;">Each note in a whole tone scale is separated from the next note by an interval of a whole step. Since all the intervals are the same, there is no clear tonal center. The romantic period composer Claude Debussy frequently used this type of scale to create the effect of tonal ambiguity. Modern composers of the 20th century who experimented with tonality also used whole tone scales.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>5.A pentatonic scale <br>
+                                                      </em></span><span style="color:#000000;">A pentatonic scale uses only five pitches in an octave. There are many possible five-note scales. Pentatonic scales are particularly important in the traditional music of China, Japan, and other countries in east Asia, but they are also found worldwide in a variety of genres from folk to classical.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">c.Time<br>
+                                                   </span><span style="color:#000000;">Musical rhythm is defined broadly as everything having to do with the way music uses time. More specifically, this includes characteristics such as durations of tones and silences, and patterns of durations, both of which can focus attention on certain tones making them more prominent than others. These more-prominent or accented tones often mark regular patterns that enable listeners to perceive tones as members of larger groups. We can illustrate this sort of perceptual grouping with a simple visual example. Look at the string of numbers in the first line and the string of letters in the second line for a minute, and see if you can see any patterns: <br>
+                                                      <br>
+The numbers form a simple sequence that repeats itself every three numbers. Rather than saying this is a string of 12 integers, we can recognize that this is a group of three elements each repeated four times. Since the numeral 1 is the first member of each new group, we may pay a little more attention to it. The recurring pattern that enables us to think of these numbers in groups is similar to musical meter (the grouping of beats). In this case, the three-element repetitions are analogous to a common pattern in Western music, triple meter, represented by the metric signature µ. <em>See </em>Musical Rhythm.<br>
+                                                      <br>
+The string of letters is also fairly simple, because the pattern repeats every four letters. This repeating pattern of four is analogous to quadruple meter, represented by the metric signature ¹. As with the repetition of sets of numbers, the first element in each new pattern claims attention and is more accented and emphatic. But in this sequence a second pattern of emphasis is added by the capital letters. This pattern draws attention away from the expected pattern of accents by shifting the stress to a normally weak beat. This device, known as syncopation, is found in music of many cultures. <br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">d.Harmony<br>
+                                                   </span><span style="color:#000000;">In most music, and especially in Western music, important and style-defining patterns are formed by pitches that overlap with one another in time, producing a chord, or harmony<em>. </em>Two or more tones that occur at the same time form a harmonic relationship called a block chord. These tones are called broken chords or arpeggios when heard separately but in sufficiently rapid succession that the listener perceives them as part of the same harmony.<br>
+                                                   </span><span style="color:#000000;"><br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=AY%20HONORS%20%7c%20MUSIC">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="tabs5-page-4">
+                        <div id="Tabs1">
+                           <ul>
+                              <li role="presentation"><a href="#tabs1-page-1"><span>1st</span></a></li>
+                           </ul>
+                           <div id="tabs1-page-1">
+                              <div id="wb_LayoutGrid27">
+                                 <div id="LayoutGrid27">
+                                    <div class="row">
+                                       <div class="col-1">
+                                          <div class="col-1-padding">
+                                             <div id="wb_Text6">
+                                                <span style="color:#750CAB;font-family:Georgia;font-size:16px;"><strong>MUSIC LESSON</strong></span>
+                                             </div>
+                                             <div id="Blog19">
+                                                <div class="blogitem">
+                                                   <span class="blogsubject">AY HONORS | MUSIC</span>
+                                                   <div class="no-thumb"></div>
+                                                   <div class="blogdate">Thursday, November 09, 2023<br></div>
+                                                   <span style="color:#2F5496;">Music Definition<br>
+                                                   </span><span style="color:#000000;">Music, artful arrangement of sounds across time.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;">THE ELEMENTS OF MUSIC<br>
+                                                   </span><span style="color:#000000;">At its simplest, music consists of a short, unaccompanied melody, known as monophony. But even the simplest melody consists of many important components. Some of the most obvious of these are the varying heights or pitches of the tones, their durations, their loudnesses, their tone colors or timbres, and their articulations.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">Pitch <br>
+                                                   </span><span style="color:#000000;">Although most musical cultures share the concept of highness and lowness of pitch, awareness of this concept is not inborn. Psychological studies have demonstrated that few five-year-olds understand the concept of high and low pitch, whereas most nine-year-olds do. Pitch depends on the rate of vibration, or frequency, of sound waves that produce a particular tone. Higher pitches have a higher frequency (greater rapidity of vibrations) than lower pitches. Most musical cultures recognize the octave, a unique relationship of two pitches. <br>
+Two pitches are an octave apart when their rates of vibration form an exact 1:2 ratio. Tones an octave apart blend together so smoothly that listeners often confuse the two tones or think they are hearing a single tone.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">b.Scale <br>
+                                                   </span><span style="color:#000000;">Arranging notes into a series by order of pitch results in a musical scale. The modern system of scale building is based on the chromatic scale, which is composed of 12 equally divided semitones.<br>
+                                                      <br>
+Types of scales<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>The chromatic scale<br>
+                                                      </em></span><span style="color:#000000;">The chromatic scale contains 12 notes in an octave. Every interval between notes is a half step. This scale contains all the notes—natural, sharp, and flat— commonly used in Western music.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>2.Diatonic Major Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic major scale has seven notes in an octave. In the major scale, the intervals between notes 3 and 4, and 7 and 8 are half steps. The intervals between all other notes are a whole step.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>3.Diatonic (Melodic Minor) Scale<br>
+                                                      </em></span><span style="color:#000000;">A diatonic scale has seven notes in an octave. In the melodic minor scale the pattern of intervals between notes is different in ascent and descent. The intervals between notes 2 and 3 and 7 and 8 (here, d and e, and b and c) are half steps in ascent, but in descent the half steps fall between notes 2 and 3 and 5 and 6 (d and e, and g and a). The intervals between all other notes are whole steps.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>4.Whole tone scale <br>
+                                                      </em></span><span style="color:#000000;">Each note in a whole tone scale is separated from the next note by an interval of a whole step. Since all the intervals are the same, there is no clear tonal center. The romantic period composer Claude Debussy frequently used this type of scale to create the effect of tonal ambiguity. Modern composers of the 20th century who experimented with tonality also used whole tone scales.<br>
+                                                      <br>
+                                                   </span><span style="color:#2F5496;"><em>5.A pentatonic scale <br>
+                                                      </em></span><span style="color:#000000;">A pentatonic scale uses only five pitches in an octave. There are many possible five-note scales. Pentatonic scales are particularly important in the traditional music of China, Japan, and other countries in east Asia, but they are also found worldwide in a variety of genres from folk to classical.<br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">c.Time<br>
+                                                   </span><span style="color:#000000;">Musical rhythm is defined broadly as everything having to do with the way music uses time. More specifically, this includes characteristics such as durations of tones and silences, and patterns of durations, both of which can focus attention on certain tones making them more prominent than others. These more-prominent or accented tones often mark regular patterns that enable listeners to perceive tones as members of larger groups. We can illustrate this sort of perceptual grouping with a simple visual example. Look at the string of numbers in the first line and the string of letters in the second line for a minute, and see if you can see any patterns: <br>
+                                                      <br>
+The numbers form a simple sequence that repeats itself every three numbers. Rather than saying this is a string of 12 integers, we can recognize that this is a group of three elements each repeated four times. Since the numeral 1 is the first member of each new group, we may pay a little more attention to it. The recurring pattern that enables us to think of these numbers in groups is similar to musical meter (the grouping of beats). In this case, the three-element repetitions are analogous to a common pattern in Western music, triple meter, represented by the metric signature µ. <em>See </em>Musical Rhythm.<br>
+                                                      <br>
+The string of letters is also fairly simple, because the pattern repeats every four letters. This repeating pattern of four is analogous to quadruple meter, represented by the metric signature ¹. As with the repetition of sets of numbers, the first element in each new pattern claims attention and is more accented and emphatic. But in this sequence a second pattern of emphasis is added by the capital letters. This pattern draws attention away from the expected pattern of accents by shifting the stress to a normally weak beat. This device, known as syncopation, is found in music of many cultures. <br>
+                                                      <br>
+                                                   </span><span style="color:#1F3763;">d.Harmony<br>
+                                                   </span><span style="color:#000000;">In most music, and especially in Western music, important and style-defining patterns are formed by pitches that overlap with one another in time, producing a chord, or harmony<em>. </em>Two or more tones that occur at the same time form a harmonic relationship called a block chord. These tones are called broken chords or arpeggios when heard separately but in sufficiently rapid succession that the listener perceives them as part of the same harmony.<br>
+                                                   </span><span style="color:#000000;"><br>
+                                                   </span><br>
+                                                   <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=AY%20HONORS%20%7c%20MUSIC">Lesson Evaluation</a></div>
+                                                </div>
+                                                <div class="clearfix visible-col1"></div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_lowerfooterLayoutGrid">
+      <div id="lowerfooterLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_locationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Location</strong></span>
+               </div>
+               <div id="wb_Text15">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">Kabwe, Mukobeko<br>Email: flyingwingsacademy7@gmail.com<br>Phone: <a href="tel:+260975273790">(+260) 97 5 273 790</a></span>
+               </div>
+            </div>
+            <div class="col-2">
+               <div id="wb_contactsText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Contacts</strong></span>
+               </div>
+               <div id="wb_emailFontAwesomeIcon">
+                  <a href="mailto:flyingwingsacademy7@gmail.com"><div id="emailFontAwesomeIcon"><i class="fa fa-envelope-o"></i></div></a>
+               </div>
+               <div id="wb_facebookFontAwesomeIcon">
+                  <a href="https://www.facebook.com/briclintons"><div id="facebookFontAwesomeIcon"><i class="fa fa-facebook"></i></div></a>
+               </div>
+               <div id="wb_callFontAwesomeIcon">
+                  <a href="tel:+260975273790"><div id="callFontAwesomeIcon"><i class="fa fa-volume-control-phone"></i></div></a>
+               </div>
+               <div id="wb_whatsappFontAwesomeIcon">
+                  <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><div id="whatsappFontAwesomeIcon"><i class="fa fa-whatsapp"></i></div></a>
+               </div>
+               <div id="wb_smsFontAwesomeIcon">
+                  <a href="sms:+260975273790"><div id="smsFontAwesomeIcon"><i class="fa fa-commenting-o"></i></div></a>
+               </div>
+            </div>
+            <div class="col-3">
+               <div id="wb_informationText">
+                  <span style="color:#FFFFFF;font-family:Georgia;font-size:19px;"><strong>Information</strong></span>
+               </div>
+               <div id="wb_inforText">
+                  <span style="color:#FFFFFF;font-family:Share;font-size:16px;">We offer educational and career activities meant to develop learners' spiritual, cognitive, social, moral, physical and psychological values for their success.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_copywriteLayoutGrid">
+      <div id="copywriteLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div id="wb_copywriteText">
+                  <span style="color:#FFFFFF;">Copyright © 2023 Flying Wings Academy.&nbsp; All Rights Reserved</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

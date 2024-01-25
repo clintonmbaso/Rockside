@@ -993,57 +993,6 @@ body
    color: inherit;
    text-decoration: none;
 }
-#wb_facebookIconFont
-{
-   background-color: #1E90FF;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   animation: twister-down-in 2000ms ease 0ms 1 normal both;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-}
-#wb_facebookIconFont a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_facebookIconFont:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-}
-#facebookIconFont
-{
-   height: 15px;
-   width: 15px;
-}
-#facebookIconFont i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 15px;
-   line-height: 15px;
-   vertical-align: middle;
-   width: 14px;
-}
-#wb_facebookIconFont:hover #facebookIconFont i
-{
-   color: #4F4F4F;
-}
-#wb_facebookIconFont
-{
-   transition: all 500ms linear 0ms;
-}
 #wb_menuPanel a, #menuPanel_markup li a
 {
    display: block;
@@ -1564,7 +1513,7 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 25;
+   z-index: 23;
 }
 #wb_home_logo
 {
@@ -1609,15 +1558,6 @@ body
    width: calc(100% - 20px);
    z-index: 22;
 }
-#Html4
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 22px;
-   height: 21px;
-   z-index: 23;
-}
 #wb_Card10
 {
    display: flex;
@@ -1651,16 +1591,7 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 44;
-}
-#wb_EmbeddedPage2
-{
-   position: absolute;
-   left: 417px;
-   top: 132px;
-   width: 22px;
-   height: 21px;
-   z-index: 43;
+   z-index: 41;
 }
 #wb_Card13
 {
@@ -1680,17 +1611,6 @@ body
    width: 970px;
    height: 63px;
    z-index: 12;
-}
-#wb_facebookIconFont
-{
-   position: absolute;
-   left: 0px;
-   top: 33px;
-   width: 15px;
-   height: 15px;
-   visibility: hidden;
-   text-align: center;
-   z-index: 24;
 }
 #wb_IconFont2
 {
@@ -2249,15 +2169,6 @@ body
 {
    text-align: center;
 }
-#wb_EmbeddedPage2
-{
-   left: 320px;
-   top: 0px;
-   width: 22px;
-   height: 21px;
-   visibility: visible;
-   display: inline;
-}
 #wb_EmbeddedPage4
 {
    left: 320px;
@@ -2278,8 +2189,8 @@ body
 }
 #wb_EmbeddedPage1
 {
-   width: 52px;
-   height: 43px;
+   width: 320px;
+   height: 47px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -2288,7 +2199,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 6px;
+   width: 41px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -2297,7 +2208,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 6px;
+   width: 41px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -2518,68 +2429,7 @@ body
    padding: 10px 0 10px 0;
 }
 }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    #bottomSheet {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      border-radius: 20px 20px 0 0;
-      width: 100%;
-      height: 50%;
-      background-color: rgba(255,245,249,0.9);
-      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-      padding: 5px;
-      box-sizing: border-box;
-      align-content:center;
-    }
-    #bottomSheet button {
-      background: none;
-      border: none;
-      padding: 0;
-      margin: 0 10px;
-      cursor: pointer;
-      
-    }
-    .openicon, #openButton {
-      position: fixed;
-      bottom: 15px;
-      right: 15px;
-      width: 50px;
-      height: 50px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 1;
-      background: transparent;
-    }
-  
-  .icons {
-    width: 40px;
-    height: 40px;
-    margin: 0px;
-  }
-  
-  #icons {
-    width: 20px;
-    height: 20px;
-  }
-    .bridget {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            filter: blur(20px);
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust background color and opacity as needed */
-            z-index: 0;
-        }
-        
-      #countdown {
+    #countdown {
       position: fixed;
       top: 60px;
       left: 5px;

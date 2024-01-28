@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="flychurch.css" rel="stylesheet">
+<link href="Student_Search.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>   
+   $(document).ready(function()
+   {
+      $("#PanelLayer").panel({animate: true, animationDuration: 500, animationEasing: 'easeOutCirc', dismissible: true, display: 'overlay', position: 'left'});
+      $('.OverlayMenu2 .item-has-children').children('a').on('click', function(event)
+      {
+         event.preventDefault();
+         $(this).toggleClass('submenu-open').next('.sub-menu').slideToggle(0,'linear').end().parent('.item-has-children').siblings('.item-has-children').children('a').removeClass('submenu-open').next('.sub-menu').slideUp(0,'linear');
+      });
+      $("a[href*='#aboutusLayoutGrid']").click(function(event)
+      {
+         event.preventDefault();
+         $('html, body').stop().animate({ scrollTop: $('#wb_aboutusLayoutGrid').offset().top-88 }, 600, 'easeOutCirc');
+      });
+   });
+</script>
+</head>
+<body>
+   <div id="FlexContainer2">
+      <div id="PanelLayer">
+         <div id="wb_IconFont2">
+            <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
+         </div>
+         <div id="wb_Image1">
+            <img src="images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
+         </div>
+         <div id="wb_Heading20">
+            <h2 id="Heading20">Rockside SDA Church</h2>
+         </div>
+         <div id="wb_OverlayMenu2">
+            <div class="OverlayMenu2">
+               <ul class="OverlayMenu2" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="menu">
+                  <li><a role="menuitem" href="./Assessment.html" onclick="window.location.href='./Assessment.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-pencil overlay-icon"></i>Quiz&nbsp;Pool</a></li>
+                  <li><a role="menuitem" href="./Church_Lessons.html" class="OverlayMenu2-effect"><i class="fa fa-signal overlay-icon"></i>Church&nbsp;Study</a></li>
+                  <li><a role="menuitem" href="./Adventurer.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
+                  <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
+                  <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
+                  <li><a role="menuitem" href="./Young-Adult.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                  <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                  <li><a role="menuitem" href="./Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Affiliation&nbsp;Forms</a></li>
+                  <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
+                  <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect"><i class="fa fa-street-view overlay-icon"></i>Organization&nbsp;Charts</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="wb_Text40">
+            <span style="color:#FFD700;font-family:Arial;font-size:13px;line-height:16px;">Copyright © 2024 Rockside Seventh-Day Adventist Church.&nbsp; All Rights Reserved</span>
+         </div>
+      </div>
+      <div id="wb_HeaderLayoutGrid">
+         <div id="HeaderLayoutGrid">
+            <div class="row">
+               <div class="col-1">
+                  <div id="wb_home_logo">
+                     <a href="./index.html"><img src="images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div id="wb_Header">
+                     <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:24px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:24px;"><strong>CHURCH</strong></span>
+                  </div>
+                  <div id="wb_Text2">
+                     <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:17px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:17px;"><strong>CHURCH</strong></span>
+                  </div>
+                  <div id="wb_Text3">
+                     <span style="color:#FFA500;font-family:'Bookman Old Style';font-size:13px;"><strong>ROCKSIDE SDA </strong></span><span style="color:#008000;font-family:'Bookman Old Style';font-size:13px;"><strong>CHURCH</strong></span>
+                  </div>
+                  <div id="wb_Text1">
+                     <span style="color:#4B0082;font-family:'Bookman Old Style';font-size:13px;"><strong>Youth Ministry</strong></span>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div id="wb_menuPanel">
+                     <a href="#PanelLayer" id="menuPanel">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_aboutusLayoutGrid">
+      <div id="aboutusLayoutGrid">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <div id="wb_LayoutGrid2">
+                     <div id="LayoutGrid2">
+                        <div class="row">
+                           <div class="col-1">
+                              <div id="wb_Text7">
+                                 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>Student Search<br></strong></span><span style="color:#FFFF00;font-family:'Trebuchet MS';font-size:15px;">Enter the login details you have been provided with, for you to access your child's details.</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>   <form action="#" method="post" onsubmit="return openHTMLFile()">
+      <br>
+      <label id="">First Name:</label>
+      <input name="firstName" required>
+      <label id="">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required><br>
+      <label id="">Member ID:</label>
+      <input type="text" id="studentId" name="studentId" required><br>
+      <label id="">Login Code:</label>
+      <input type="text" id="phoneNumber" name="phoneNumber" required><br>
+      <button type="submit" value="Search">Submit</button>
+        
+   </form>
+   <script>   
+           function openHTMLFile() {
+               const studentId = document.getElementById('studentId').value;
+               const phoneNumber = document.getElementById('phoneNumber').value;
+               const fileName = studentId + phoneNumber + '.html';
+   
+               // Opening the existing HTML file
+               window.open(fileName, '_blank');
+   
+               // Preventing the form from submitting
+               return false;
+           }
+       
+   </script>

@@ -1289,10 +1289,10 @@ body
 {
    background-color: #EEEEEE;
 }
-#wb_Text1 
+#wb_Text16 
 {
    background-color: transparent;
-   background-image: url('images/Flying_Music_Text1_bkgrnd.png');
+   background-image: url('images/Flying_Music_Text16_bkgrnd.png');
    background-repeat: repeat;
    background-position: left top;
    border: 0px solid #000000;
@@ -1301,11 +1301,11 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Text1 div
+#wb_Text16 div
 {
    text-align: center;
 }
-#wb_Text1
+#wb_Text16
 {
    display: block;
    margin: 0;
@@ -4554,6 +4554,28 @@ body
    margin-right: auto;
    vertical-align: top;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: none;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_Text5 
 {
    background-color: rgba(128,128,128,0.39);
@@ -4577,7 +4599,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 161;
+   z-index: 162;
 }
 #wb_OverlayMenu2
 {
@@ -4593,7 +4615,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 83;
+   z-index: 84;
 }
 #wb_home_logo
 {
@@ -4638,7 +4660,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 160;
+   z-index: 161;
 }
 #Blog7
 {
@@ -4648,7 +4670,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 84;
+   z-index: 85;
 }
 #Blog6
 {
@@ -4658,7 +4680,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 70;
+   z-index: 71;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -4666,13 +4688,13 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 163;
+   z-index: 164;
 }
 #Tabs3
 {
    display: inline-block;
    width: 100%;
-   z-index: 74;
+   z-index: 75;
 }
 #Blog5
 {
@@ -4684,13 +4706,13 @@ body
    width: 4px;
    height: 48px;
    text-align: center;
-   z-index: 9;
+   z-index: 10;
 }
 #Tabs2
 {
    display: inline-block;
    width: 100%;
-   z-index: 78;
+   z-index: 79;
 }
 #Blog4
 {
@@ -4700,7 +4722,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 82;
+   z-index: 83;
 }
 #Blog3
 {
@@ -4721,7 +4743,7 @@ body
    display: inline-block;
    width: 970px;
    height: 63px;
-   z-index: 12;
+   z-index: 13;
 }
 #Blog2
 {
@@ -4745,7 +4767,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 159;
+   z-index: 160;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4753,857 +4775,9 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 162;
+   z-index: 163;
 }
-@media only screen and (min-width: 480px) and (max-width: 969px)
-{
-body
-{
-   background-color: #FFFFFF;
-   background-image: none;
-}
-#wb_LayoutGrid17
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid17
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid17
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid17 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog31
-{
-   visibility: visible;
-   display: block;
-}
-#Blog31 .blogcolumn
-{
-   width: 100%;
-}
-#Blog31 .visible-col1
-{
-   display: block;
-}
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text7
-{
-   margin: 0;
-   padding: 0;
-}
-#Tabs4
-{
-   width: 100%;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_mainLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_mainLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#mainLayoutGrid
-{
-   height: auto;
-   padding: 0 2px 0 2px;
-}
-#mainLayoutGrid .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#wb_servicesHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#Tabs5
-{
-   width: 100%;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#Tabs1
-{
-   width: 100%;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_LayoutGrid27
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid27
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid27
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid27 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog19
-{
-   visibility: visible;
-   display: block;
-}
-#Blog19 .blogcolumn
-{
-   width: 100%;
-}
-#Blog19 .visible-col1
-{
-   display: block;
-}
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text6
-{
-   margin: 0;
-   padding: 0;
-}
-#Tabs2
-{
-   width: 100%;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_LayoutGrid1
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid1
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid1
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid1 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog3
-{
-   visibility: visible;
-   display: block;
-}
-#Blog3 .blogcolumn
-{
-   width: 100%;
-}
-#Blog3 .visible-col1
-{
-   display: block;
-}
-#wb_Text1
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text1
-{
-   margin: 0;
-   padding: 0;
-}
-#Tabs3
-{
-   width: 100%;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid2
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog1
-{
-   visibility: visible;
-   display: block;
-}
-#Blog1 .blogcolumn
-{
-   width: 100%;
-}
-#Blog1 .visible-col1
-{
-   display: block;
-}
-#wb_Text18
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text18
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid3
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid3
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid3
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid3 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog2
-{
-   visibility: visible;
-   display: block;
-}
-#Blog2 .blogcolumn
-{
-   width: 100%;
-}
-#Blog2 .visible-col1
-{
-   display: block;
-}
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid4
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid4
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid4
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid4 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog4
-{
-   visibility: visible;
-   display: block;
-}
-#Blog4 .blogcolumn
-{
-   width: 100%;
-}
-#Blog4 .visible-col1
-{
-   display: block;
-}
-#wb_Text8
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text8
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid5
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid5
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid5
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid5 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog5
-{
-   visibility: visible;
-   display: block;
-}
-#Blog5 .blogcolumn
-{
-   width: 100%;
-}
-#Blog5 .visible-col1
-{
-   display: block;
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid6
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid6
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid6
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid6 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog6
-{
-   visibility: visible;
-   display: block;
-}
-#Blog6 .blogcolumn
-{
-   width: 100%;
-}
-#Blog6 .visible-col1
-{
-   display: block;
-}
-#wb_Text10
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text10
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid7
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid7
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid7
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid7 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog7
-{
-   visibility: visible;
-   display: block;
-}
-#Blog7 .blogcolumn
-{
-   width: 100%;
-}
-#Blog7 .visible-col1
-{
-   display: block;
-}
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text11
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid8
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid8
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid8
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid8 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog8
-{
-   visibility: visible;
-   display: block;
-}
-#Blog8 .blogcolumn
-{
-   width: 100%;
-}
-#Blog8 .visible-col1
-{
-   display: block;
-}
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text12
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid9
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid9
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid9
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid9 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog9
-{
-   visibility: visible;
-   display: block;
-}
-#Blog9 .blogcolumn
-{
-   width: 100%;
-}
-#Blog9 .visible-col1
-{
-   display: block;
-}
-#wb_Text13
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text13
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_LayoutGrid10
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid10
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid10
-{
-   height: auto;
-   padding: 2px 2px 2px 2px;
-}
-#LayoutGrid10 .row
-{
-   margin-right: -2px;
-   margin-left: -2px;
-}
-#Blog10
-{
-   visibility: visible;
-   display: block;
-}
-#Blog10 .blogcolumn
-{
-   width: 100%;
-}
-#Blog10 .visible-col1
-{
-   display: block;
-}
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text14
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_lowerfooterLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_lowerfooterLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#lowerfooterLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 10px 15px;
-}
-#lowerfooterLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_locationText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_locationText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text15
-{
-   margin: 0;
-   padding: 5px 0 5px 0;
-}
-#wb_informationText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_informationText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#facebookFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#smsFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#callFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#whatsappFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#emailFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_inforText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_inforText
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_contactsText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_contactsText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_copywriteLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_copywriteLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#copywriteLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 0 15px;
-}
-#copywriteLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_copywriteText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_copywriteText
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 5px 0 5px 0 ;
-   padding: 0;
-   text-align: center;
-}
-}
-@media only screen and (max-width: 479px)
+@media only screen and (max-width: 969px)
 {
 body
 {
@@ -5896,12 +5070,12 @@ body
 {
    display: block;
 }
-#wb_Text1
+#wb_Text16
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text16
 {
    margin: 0 0 5px 0 ;
    padding: 0;
@@ -6794,7 +5968,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 45px;
+   width: 41px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -6803,7 +5977,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 45px;
+   width: 41px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -6985,7 +6159,7 @@ body
 }
 #wb_Text3
 {
-   margin: 0;
+   margin: 10px 0 0 0 ;
    padding: 0;
 }
 #wb_Text2
@@ -7003,6 +6177,16 @@ body
    width: 100%;
    visibility: visible;
    display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
    margin: 0;
    padding: 0;
 }

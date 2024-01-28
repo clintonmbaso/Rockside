@@ -46,66 +46,6 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_topMarquee 
-{
-   background-color: #EEEEEE;
-   background-image: none;
-   border: 1px solid #C0C0C0;
-   border-radius: 0px;
-   height: 19px;
-   overflow-y: hidden;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-   box-shadow: 0px 0px 10px #008B8B;
-}
-#wb_topMarquee
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_topMarquee div
-{
-   text-align: center;
-}
-#wb_topMarquee
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_topMarquee
-{
-   overflow: hidden;
-   position: relative;
-}
-#topMarquee
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   animation: topMarquee-marquee 10000ms linear infinite;
-}
-@keyframes topMarquee-marquee
-{
-   0%
-   {
-   transform: translateX(100%);
-   }
-   100%
-   {
-   transform: translateX(-100%);
-   }
-}
-#wb_topMarquee:hover #topMarquee
-{
-   animation-play-state: paused;
-}
 #FlexContainer3
 {
    display: flex;
@@ -613,6 +553,28 @@ body
    margin-right: auto;
    vertical-align: top;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: none;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #FlexContainer2
 {
    display: flex;
@@ -755,7 +717,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 26;
+   z-index: 28;
 }
 #wb_menuPanel
 {
@@ -763,7 +725,7 @@ body
    width: 4px;
    height: 48px;
    text-align: center;
-   z-index: 9;
+   z-index: 10;
 }
 #wb_Heading20
 {
@@ -776,7 +738,7 @@ body
    display: inline-block;
    width: 970px;
    height: 63px;
-   z-index: 12;
+   z-index: 13;
 }
 #wb_IconFont2
 {
@@ -853,21 +815,6 @@ body
    font-size: 20px;
    text-align: center;
 }
-#wb_topMarquee
-{
-   height: 17px;
-   visibility: visible;
-   display: block;
-}
-#wb_topMarquee
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
 #FlexContainer3
 {
    visibility: visible;
@@ -896,7 +843,7 @@ body
 }
 #wb_menuPanel
 {
-   width: 45px;
+   width: 41px;
    height: 41px;
    visibility: visible;
    display: inline-block;
@@ -905,7 +852,7 @@ body
 #menuPanel
 {
    line-height: 41px;
-   width: 45px;
+   width: 41px;
    height: 41px;
 }
 #menuPanel .line:first-child
@@ -1087,7 +1034,7 @@ body
 }
 #wb_Text3
 {
-   margin: 0;
+   margin: 10px 0 0 0 ;
    padding: 0;
 }
 #wb_Text2
@@ -1105,6 +1052,16 @@ body
    width: 100%;
    visibility: visible;
    display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
    margin: 0;
    padding: 0;
 }

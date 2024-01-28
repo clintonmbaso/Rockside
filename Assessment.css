@@ -303,7 +303,7 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_Text1 
+#wb_Text9 
 {
    background-color: rgba(128,128,128,0.39);
    background-image: none;
@@ -313,11 +313,11 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_Text1 div
+#wb_Text9 div
 {
    text-align: center;
 }
-#wb_Text1
+#wb_Text9
 {
    display: block;
    margin: 0;
@@ -1350,575 +1350,6 @@ body
    float: none;
    width: 100% !important;
 }
-}
-#wb_lowerfooterLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #2C3E50;
-   background-image: none;
-   border: 0px solid #2C3E50;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#lowerfooterLayoutGrid
-{
-   box-sizing: border-box;
-   padding: 0 15px 10px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#lowerfooterLayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   float: left;
-}
-#lowerfooterLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 33.33333333%;
-   text-align: center;
-}
-#lowerfooterLayoutGrid:before,
-#lowerfooterLayoutGrid:after,
-#lowerfooterLayoutGrid .row:before,
-#lowerfooterLayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#lowerfooterLayoutGrid:after,
-#lowerfooterLayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   float: none;
-   width: 100%;
-}
-}
-#wb_informationText 
-{
-   background-color: rgba(255,255,255,0.08);
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: none;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 99px;
-   border-top-right-radius: 99px;
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-   border-radius: 10px;
-   padding: 5px 0 5px 0;
-   margin: 5px 0 0 0 ;
-   text-align: center;
-}
-#wb_informationText div
-{
-   text-align: center;
-}
-#wb_informationText
-{
-   display: block;
-   margin: 5px 0 0 0 ;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_facebookFontAwesomeIcon
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_facebookFontAwesomeIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_facebookFontAwesomeIcon:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#facebookFontAwesomeIcon
-{
-   height: 26px;
-   width: 26px;
-}
-#facebookFontAwesomeIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_facebookFontAwesomeIcon:hover #facebookFontAwesomeIcon i
-{
-   color: #1E90FF;
-}
-#wb_facebookFontAwesomeIcon
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_facebookFontAwesomeIcon:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_smsFontAwesomeIcon
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_smsFontAwesomeIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_smsFontAwesomeIcon:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#smsFontAwesomeIcon
-{
-   height: 26px;
-   width: 26px;
-}
-#smsFontAwesomeIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_smsFontAwesomeIcon:hover #smsFontAwesomeIcon i
-{
-   color: #00CED1;
-}
-#wb_smsFontAwesomeIcon
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_smsFontAwesomeIcon:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_callFontAwesomeIcon
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_callFontAwesomeIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_callFontAwesomeIcon:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#callFontAwesomeIcon
-{
-   height: 26px;
-   width: 26px;
-}
-#callFontAwesomeIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_callFontAwesomeIcon:hover #callFontAwesomeIcon i
-{
-   color: #F0E68C;
-}
-#wb_callFontAwesomeIcon
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_callFontAwesomeIcon:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_whatsappFontAwesomeIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_whatsappFontAwesomeIcon:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#whatsappFontAwesomeIcon
-{
-   height: 26px;
-   width: 26px;
-}
-#whatsappFontAwesomeIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_whatsappFontAwesomeIcon:hover #whatsappFontAwesomeIcon i
-{
-   color: #3CB371;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_whatsappFontAwesomeIcon:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_emailFontAwesomeIcon
-{
-   background-color: #2C3E50;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-   border-radius: 50%;
-   text-align: center;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_emailFontAwesomeIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_emailFontAwesomeIcon:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 2px solid #FFFFFF;
-}
-#emailFontAwesomeIcon
-{
-   height: 26px;
-   width: 26px;
-}
-#emailFontAwesomeIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 26px;
-   line-height: 26px;
-   vertical-align: middle;
-   width: 25px;
-}
-#wb_emailFontAwesomeIcon:hover #emailFontAwesomeIcon i
-{
-   color: #FF4500;
-}
-#wb_emailFontAwesomeIcon
-{
-   transform: rotate(0deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_emailFontAwesomeIcon:hover
-{
-   transform: rotate(360deg) ;
-   transition: transform 500ms linear 0ms;
-}
-#wb_inforText 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0 10px 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_inforText div
-{
-   text-align: center;
-}
-#wb_inforText
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_contactsText 
-{
-   background-color: rgba(255,255,255,0.08);
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: none;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 99px;
-   border-top-right-radius: 99px;
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-   border-radius: 10px;
-   padding: 5px 0 5px 0;
-   margin: 5px 0 0 0 ;
-   text-align: center;
-}
-#wb_contactsText div
-{
-   text-align: center;
-}
-#wb_contactsText
-{
-   display: block;
-   margin: 5px 0 0 0 ;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_copywriteLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #233140;
-   background-image: none;
-   border: 0px solid #233140;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#copywriteLayoutGrid
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#copywriteLayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   float: left;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: left;
-}
-#copywriteLayoutGrid:before,
-#copywriteLayoutGrid:after,
-#copywriteLayoutGrid .row:before,
-#copywriteLayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#copywriteLayoutGrid:after,
-#copywriteLayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#copywriteLayoutGrid > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
-}
-#wb_copywriteText 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 5px 0 5px 0 ;
-   text-align: center;
-}
-#wb_copywriteText
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 15px;
-}
-#wb_copywriteText div
-{
-   text-align: center;
-}
-#wb_copywriteText
-{
-   display: block;
-   margin: 5px 0 5px 0 ;
-   box-sizing: border-box;
-   width: 100%;
 }
 #Button4
 {
@@ -3259,6 +2690,28 @@ body
    margin-right: auto;
    vertical-align: top;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: none;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_Text7 
 {
    background-color: rgba(128,128,128,0.39);
@@ -3276,32 +2729,917 @@ body
 {
    text-align: center;
 }
+#wb_lowerfooterLayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #2C3E50;
+   background-image: none;
+   border: 0px solid #2C3E50;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#lowerfooterLayoutGrid
+{
+   box-sizing: border-box;
+   padding: 0 15px 10px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#lowerfooterLayoutGrid > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   float: left;
+}
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#lowerfooterLayoutGrid:before,
+#lowerfooterLayoutGrid:after,
+#lowerfooterLayoutGrid .row:before,
+#lowerfooterLayoutGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#lowerfooterLayoutGrid:after,
+#lowerfooterLayoutGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_informationText 
+{
+   background-color: rgba(255,255,255,0.08);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: none;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 99px;
+   border-top-right-radius: 99px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+   border-radius: 10px;
+   padding: 5px 0 5px 0;
+   margin: 5px 0 0 0 ;
+   text-align: center;
+}
+#wb_informationText div
+{
+   text-align: center;
+}
+#wb_informationText
+{
+   display: block;
+   margin: 5px 0 0 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Icon1
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon1:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#Icon1
+{
+   height: 26px;
+   width: 26px;
+}
+#Icon1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_Icon1:hover #Icon1 i
+{
+   color: #1E90FF;
+}
+#wb_Icon1
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon1:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon2
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon2 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon2:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#Icon2
+{
+   height: 26px;
+   width: 26px;
+}
+#Icon2 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_Icon2:hover #Icon2 i
+{
+   color: #00CED1;
+}
+#wb_Icon2
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon2:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon3
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon3 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon3:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#Icon3
+{
+   height: 26px;
+   width: 26px;
+}
+#Icon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_Icon3:hover #Icon3 i
+{
+   color: #F0E68C;
+}
+#wb_Icon3
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon3:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon4
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon4 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon4:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#Icon4
+{
+   height: 26px;
+   width: 26px;
+}
+#Icon4 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_Icon4:hover #Icon4 i
+{
+   color: #3CB371;
+}
+#wb_Icon4
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon4:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon5
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_Icon5 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_Icon5:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#Icon5
+{
+   height: 26px;
+   width: 26px;
+}
+#Icon5 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_Icon5:hover #Icon5 i
+{
+   color: #FF4500;
+}
+#wb_Icon5
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_Icon5:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_inforText 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_inforText div
+{
+   text-align: center;
+}
+#wb_inforText
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_contactsText 
+{
+   background-color: rgba(255,255,255,0.08);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: none;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 99px;
+   border-top-right-radius: 99px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+   border-radius: 10px;
+   padding: 5px 0 5px 0;
+   margin: 5px 0 0 0 ;
+   text-align: center;
+}
+#wb_contactsText div
+{
+   text-align: center;
+}
+#wb_contactsText
+{
+   display: block;
+   margin: 5px 0 0 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text6 
+{
+   background-color: rgba(255,255,255,0.08);
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: none;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 99px;
+   border-top-right-radius: 99px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+   border-radius: 10px;
+   padding: 5px 0 5px 0;
+   margin: 5px 0 0 0 ;
+   text-align: center;
+}
+#wb_Text6 div
+{
+   text-align: center;
+}
+#wb_Text6
+{
+   display: block;
+   margin: 5px 0 0 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_smsFontAwesomeIcon
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_smsFontAwesomeIcon a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_smsFontAwesomeIcon:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#smsFontAwesomeIcon
+{
+   height: 26px;
+   width: 26px;
+}
+#smsFontAwesomeIcon i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_smsFontAwesomeIcon:hover #smsFontAwesomeIcon i
+{
+   color: #00CED1;
+}
+#wb_smsFontAwesomeIcon
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_smsFontAwesomeIcon:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_whatsappFontAwesomeIcon
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_whatsappFontAwesomeIcon a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_whatsappFontAwesomeIcon:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#whatsappFontAwesomeIcon
+{
+   height: 26px;
+   width: 26px;
+}
+#whatsappFontAwesomeIcon i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_whatsappFontAwesomeIcon:hover #whatsappFontAwesomeIcon i
+{
+   color: #3CB371;
+}
+#wb_whatsappFontAwesomeIcon
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_whatsappFontAwesomeIcon:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_callFontAwesomeIcon
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_callFontAwesomeIcon a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_callFontAwesomeIcon:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#callFontAwesomeIcon
+{
+   height: 26px;
+   width: 26px;
+}
+#callFontAwesomeIcon i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_callFontAwesomeIcon:hover #callFontAwesomeIcon i
+{
+   color: #F0E68C;
+}
+#wb_callFontAwesomeIcon
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_callFontAwesomeIcon:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_facebookFontAwesomeIcon
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_facebookFontAwesomeIcon a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_facebookFontAwesomeIcon:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#facebookFontAwesomeIcon
+{
+   height: 26px;
+   width: 26px;
+}
+#facebookFontAwesomeIcon i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_facebookFontAwesomeIcon:hover #facebookFontAwesomeIcon i
+{
+   color: #1E90FF;
+}
+#wb_facebookFontAwesomeIcon
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_facebookFontAwesomeIcon:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_emailFontAwesomeIcon
+{
+   background-color: #2C3E50;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+   border-radius: 50%;
+   text-align: center;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_emailFontAwesomeIcon a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_emailFontAwesomeIcon:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 2px solid #FFFFFF;
+}
+#emailFontAwesomeIcon
+{
+   height: 26px;
+   width: 26px;
+}
+#emailFontAwesomeIcon i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 26px;
+   line-height: 26px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_emailFontAwesomeIcon:hover #emailFontAwesomeIcon i
+{
+   color: #FF4500;
+}
+#wb_emailFontAwesomeIcon
+{
+   transform: rotate(0deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_emailFontAwesomeIcon:hover
+{
+   transform: rotate(360deg) ;
+   transition: transform 500ms linear 0ms;
+}
+#wb_copywriteLayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #233140;
+   background-image: none;
+   border: 0px solid #233140;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#copywriteLayoutGrid
+{
+   box-sizing: border-box;
+   padding: 0 15px 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#copywriteLayoutGrid > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#copywriteLayoutGrid > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#copywriteLayoutGrid > .row > .col-1
+{
+   float: left;
+}
+#copywriteLayoutGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: left;
+}
+#copywriteLayoutGrid:before,
+#copywriteLayoutGrid:after,
+#copywriteLayoutGrid .row:before,
+#copywriteLayoutGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#copywriteLayoutGrid:after,
+#copywriteLayoutGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#copywriteLayoutGrid > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 5px 0 5px 0 ;
+   text-align: center;
+}
+#wb_Text8
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+}
+#wb_Text8 div
+{
+   text-align: center;
+}
+#wb_Text8
+{
+   display: block;
+   margin: 5px 0 5px 0 ;
+   box-sizing: border-box;
+   width: 100%;
+}
 #Button13
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 41;
+   z-index: 42;
 }
 #Button23
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 39;
+   z-index: 40;
 }
 #Button4
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 29;
+   z-index: 30;
 }
 #wb_quizinstructionHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 27;
+   z-index: 28;
+}
+#wb_callFontAwesomeIcon
+{
+   display: inline-block;
+   width: 26px;
+   height: 26px;
+   text-align: center;
+   z-index: 119;
 }
 #backtotopStickyLayer
 {
@@ -3313,35 +3651,27 @@ body
    bottom: 110px;
    width: 41px;
    height: 41px;
-   z-index: 131;
-}
-#wb_callFontAwesomeIcon
-{
-   display: inline-block;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 103;
+   z-index: 129;
 }
 #Button34
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 44;
+   z-index: 45;
 }
 #Button10
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 36;
+   z-index: 37;
 }
 #wb_quizlinksTabMenu
 {
    display: inline-block;
    width: 321px;
-   z-index: 21;
+   z-index: 22;
    overflow: hidden;
 }
 #wb_OverlayMenu2
@@ -3357,35 +3687,35 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 110;
+   z-index: 102;
 }
 #Button35
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 45;
+   z-index: 46;
 }
 #Button11
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 37;
+   z-index: 38;
 }
 #Button21
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 30;
+   z-index: 31;
 }
 #wb_Shape3
 {
    display: inline-block;
    width: 112px;
    height: 3px;
-   z-index: 26;
+   z-index: 27;
    position: relative;
 }
 #wb_home_logo
@@ -3414,13 +3744,13 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 46;
+   z-index: 47;
 }
 #wb_Card14
 {
    display: flex;
    width: 100%;
-   z-index: 28;
+   z-index: 29;
 }
 #PanelLayer
 {
@@ -3431,14 +3761,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 50;
+   z-index: 51;
 }
 #Button37
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 47;
+   z-index: 48;
 }
 #wb_Slidehead
 {
@@ -3448,7 +3778,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 42;
+   z-index: 43;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -3456,33 +3786,33 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 102;
+   z-index: 120;
 }
 #Button31
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 52;
+   z-index: 53;
 }
 #wb_integratedscienceCard
 {
    display: flex;
    width: 100%;
-   z-index: 38;
+   z-index: 39;
 }
 #Button32
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 51;
+   z-index: 52;
 }
 #wb_quizHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 25;
+   z-index: 26;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -3490,7 +3820,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 105;
+   z-index: 117;
 }
 #top
 {
@@ -3501,7 +3831,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 43;
+   z-index: 44;
 }
 #wb_menuPanel
 {
@@ -3509,7 +3839,7 @@ body
    width: 4px;
    height: 48px;
    text-align: center;
-   z-index: 9;
+   z-index: 10;
 }
 #wb_EmbeddedPage4
 {
@@ -3518,21 +3848,21 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 132;
+   z-index: 130;
 }
 #Button29
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 58;
+   z-index: 59;
 }
 #Button18
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 40;
+   z-index: 41;
 }
 #wb_Heading20
 {
@@ -3545,14 +3875,14 @@ body
    display: inline-block;
    width: 970px;
    height: 63px;
-   z-index: 12;
+   z-index: 13;
 }
 #Button28
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 57;
+   z-index: 58;
 }
 #wb_IconFont8
 {
@@ -3560,7 +3890,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 20;
+   z-index: 21;
 }
 #wb_IconFont5
 {
@@ -3568,7 +3898,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 19;
+   z-index: 20;
 }
 #wb_IconFont4
 {
@@ -3576,7 +3906,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 18;
+   z-index: 19;
 }
 #wb_IconFont3
 {
@@ -3584,7 +3914,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 17;
+   z-index: 18;
 }
 #wb_IconFont2
 {
@@ -3599,7 +3929,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 35;
+   z-index: 36;
 }
 #wb_emailFontAwesomeIcon
 {
@@ -3607,34 +3937,34 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 101;
+   z-index: 121;
 }
 #Button27
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 56;
+   z-index: 57;
 }
 #wb_englishlanguageCard
 {
    display: flex;
    width: 100%;
-   z-index: 49;
+   z-index: 50;
 }
 #Button38
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 48;
+   z-index: 49;
 }
 #Button8
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 34;
+   z-index: 35;
 }
 #wb_top
 {
@@ -3650,28 +3980,36 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 55;
+   z-index: 56;
 }
 #Button7
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 33;
+   z-index: 34;
 }
 #Button25
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 54;
+   z-index: 55;
 }
 #Button6
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 32;
+   z-index: 33;
+}
+#wb_whatsappFontAwesomeIcon
+{
+   display: inline-block;
+   width: 26px;
+   height: 26px;
+   text-align: center;
+   z-index: 118;
 }
 #wb_backtotopIcon
 {
@@ -3681,1579 +4019,23 @@ body
    width: 16px;
    height: 15px;
    text-align: center;
-   z-index: 109;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   display: inline-block;
-   width: 26px;
-   height: 26px;
-   text-align: center;
-   z-index: 104;
+   z-index: 101;
 }
 #Button24
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 53;
+   z-index: 54;
 }
 #Button5
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 31;
+   z-index: 32;
 }
-@media only screen and (min-width: 480px) and (max-width: 969px)
-{
-body
-{
-   background-color: #FFFFFF;
-   background-image: none;
-}
-#wb_Slidehead
-{
-   visibility: visible;
-   display: block;
-}
-#Slidehead_back
-{
-   top: 46%;
-}
-#Slidehead_next
-{
-   top: 46%;
-}
-#wb_Slidehead
-{
-   margin: 0;
-   height: 350px;
-}
-#Slidehead .carousel-item-inner
-{
-   padding: 0 0 50px 0;
-}
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_Text1
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text1
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_LayoutGrid2
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid2
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid2
-{
-   height: auto;
-   padding: 0 15px 0 15px;
-}
-#LayoutGrid2 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid2 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_LayoutGrid11
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid11
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid11
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#LayoutGrid11 .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
-#LayoutGrid11 > .row > .col-1
-{
-   padding-right: 5px;
-   padding-left: 5px;
-}
-#LayoutGrid11 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_LayoutGrid5
-{
-   visibility: visible;
-   display: table;
-}
-#wb_LayoutGrid5
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid5
-{
-   height: auto;
-   padding: 5px 10px 5px 10px;
-}
-#LayoutGrid5 .row
-{
-   margin-right: -10px;
-   margin-left: -10px;
-}
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2, #LayoutGrid5 > .row > .col-3, #LayoutGrid5 > .row > .col-4
-{
-   padding-right: 10px;
-   padding-left: 10px;
-}
-#LayoutGrid5 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid5 > .row > .col-2
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid5 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#LayoutGrid5 > .row > .col-4
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_IconFont3
-{
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-}
-#IconFont3
-{
-   width: 20px;
-   height: 20px;
-}
-#IconFont3 i
-{
-   line-height: 20px;
-   font-size: 20px;
-   width: 19px;
-}
-#wb_IconFont4
-{
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-}
-#IconFont4
-{
-   width: 20px;
-   height: 20px;
-}
-#IconFont4 i
-{
-   line-height: 20px;
-   font-size: 20px;
-   width: 19px;
-}
-#wb_IconFont5
-{
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-}
-#IconFont5
-{
-   width: 20px;
-   height: 20px;
-}
-#IconFont5 i
-{
-   line-height: 20px;
-   font-size: 20px;
-   width: 19px;
-}
-#wb_IconFont6
-{
-   width: 30px;
-   height: 30px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#IconFont6
-{
-   width: 30px;
-   height: 30px;
-}
-#IconFont6 i
-{
-   line-height: 30px;
-   font-size: 30px;
-   width: 24px;
-}
-#wb_IconFont7
-{
-   width: 30px;
-   height: 30px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 10px 10px 10px 10px;
-}
-#IconFont7
-{
-   width: 30px;
-   height: 30px;
-}
-#IconFont7 i
-{
-   line-height: 30px;
-   font-size: 30px;
-   width: 29px;
-}
-#wb_IconFont8
-{
-   width: 20px;
-   height: 20px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 5px 5px 5px 5px;
-}
-#IconFont8
-{
-   width: 20px;
-   height: 20px;
-}
-#IconFont8 i
-{
-   line-height: 20px;
-   font-size: 20px;
-   width: 19px;
-}
-#wb_quizlinkContainer
-{
-   visibility: visible;
-   display: block;
-}
-#quizlinkContainer
-{
-   min-height: 0;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   padding: 10px 10px 10px 10px;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: stretch;
-   align-content: stretch;
-}
-#wb_quizlinksTabMenu
-{
-   width: 323px;
-   height: auto;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   flex-grow: 0;
-   flex-shrink: 0;
-   align-self: auto;
-}
-#wb_Marquee1
-{
-   height: 17px;
-   visibility: visible;
-   display: block;
-}
-#wb_Marquee1
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#wb_top
-{
-   left: 480px;
-   top: 3px;
-   width: 62px;
-   height: 72px;
-   visibility: visible;
-   display: inline;
-}
-#wb_quiztitleGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_quiztitleGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#quiztitleGrid
-{
-   height: auto;
-   padding: 10px 15px 10px 15px;
-}
-#quiztitleGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_quizinstructionHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0 0 0;
-}
-#wb_quizHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0 0 10px 0;
-}
-#wb_Shape3
-{
-   width: 112px;
-   height: 3px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#Shape3
-{
-   width: 112px;
-   height: 3px;
-}
-#wb_integratedscienceCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#integratedscienceCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#integratedscienceCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#integratedscienceCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_integratedscienceCard
-{
-   text-align: left;
-}
-#wb_quizgrid1
-{
-   visibility: visible;
-   display: table;
-}
-#wb_quizgrid1
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#quizgrid1
-{
-   height: auto;
-   padding: 5px 15px 5px 15px;
-}
-#quizgrid1 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_lowerfooterLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_lowerfooterLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#lowerfooterLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 10px 15px;
-}
-#lowerfooterLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_informationText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_informationText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#facebookFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#smsFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#callFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#whatsappFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#emailFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_inforText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_inforText
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_contactsText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_contactsText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_copywriteLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_copywriteLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#copywriteLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 0 15px;
-}
-#copywriteLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_copywriteText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_copywriteText
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 5px 0 5px 0 ;
-   padding: 0;
-   text-align: center;
-}
-#Button4
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button4
-{
-   line-height: 21px;
-}
-#Button5
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button5
-{
-   line-height: 21px;
-}
-#Button6
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button6
-{
-   line-height: 21px;
-}
-#Button7
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button7
-{
-   line-height: 21px;
-}
-#Button8
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button8
-{
-   line-height: 21px;
-}
-#Button9
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button9
-{
-   line-height: 21px;
-}
-#Button10
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button10
-{
-   line-height: 21px;
-}
-#Button11
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button11
-{
-   line-height: 21px;
-}
-#Button13
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button13
-{
-   line-height: 21px;
-}
-#Button14
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button14
-{
-   line-height: 21px;
-}
-#Button24
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button24
-{
-   line-height: 21px;
-}
-#Button25
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button25
-{
-   line-height: 21px;
-}
-#Button26
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button26
-{
-   line-height: 21px;
-}
-#Button27
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button27
-{
-   line-height: 21px;
-}
-#Button28
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button28
-{
-   line-height: 21px;
-}
-#Button29
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button29
-{
-   line-height: 21px;
-}
-#Button31
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button31
-{
-   line-height: 21px;
-}
-#Button32
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button32
-{
-   line-height: 21px;
-}
-#Button33
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button33
-{
-   line-height: 21px;
-}
-#Button34
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button34
-{
-   line-height: 21px;
-}
-#Button35
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button35
-{
-   line-height: 21px;
-}
-#Button36
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button36
-{
-   line-height: 21px;
-}
-#Button37
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button37
-{
-   line-height: 21px;
-}
-#Button38
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button38
-{
-   line-height: 21px;
-}
-#wb_englishlanguageCard
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#englishlanguageCard-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#englishlanguageCard-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#englishlanguageCard-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_englishlanguageCard
-{
-   text-align: left;
-}
-#wb_Card14
-{
-   width: 100%;
-   visibility: visible;
-   display: flex;
-   margin: 0;
-}
-#Card14-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: 150px;
-}
-#Card14-card-item1
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 24px;
-}
-#Card14-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 5px 0 ;
-   padding: 0;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#wb_Card14
-{
-   text-align: left;
-}
-#Button17
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button17
-{
-   line-height: 21px;
-}
-#Button18
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button18
-{
-   line-height: 21px;
-}
-#Button21
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button21
-{
-   line-height: 21px;
-}
-#Button23
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: #3370B7;
-   background-image: none;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-}
-#Button23
-{
-   line-height: 21px;
-}
-#backtotopStickyLayer
-{
-   width: 50px;
-   height: 50px;
-   visibility: visible;
-   display: block;
-}
-#wb_backtotopIcon
-{
-   left: 9px;
-   top: 9px;
-   width: 24px;
-   height: 24px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   color: #FFFFFF;
-   border-radius: 0px;
-}
-#backtotopIcon
-{
-   width: 24px;
-   height: 24px;
-}
-#backtotopIcon i
-{
-   line-height: 24px;
-   font-size: 24px;
-   width: 23px;
-   color: #FFFFFF;
-}
-#backtotopIcon:hover i
-{
-   color: #007BFF;
-}
-#wb_EmbeddedPage4
-{
-   left: 491px;
-   top: 80px;
-   width: 21px;
-   height: 28px;
-   visibility: visible;
-   display: inline;
-}
-#wb_EmbeddedPage1
-{
-   width: 797px;
-   height: 619px;
-   visibility: visible;
-   display: inline;
-   flex-grow: 0;
-   flex-shrink: 0;
-   align-self: auto;
-}
-#wb_menuPanel
-{
-   width: 41px;
-   height: 41px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#menuPanel
-{
-   line-height: 41px;
-   width: 41px;
-   height: 41px;
-}
-#menuPanel .line:first-child
-{
-   margin-top: 12px;
-}
-#wb_menuPanel a
-{
-   color: #F7F7F7;
-   border: 1px solid #696969;
-   border-radius: 0px;
-   background-color: rgba(62,62,62,0.39);
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   text-decoration: none;
-   text-align: center;
-}
-#wb_menuPanel a:hover
-{
-   color: #F7F7F7;
-   background-color: rgba(255,255,255,0.00);
-   border: 1px solid rgba(105,105,105,0.00);
-}
-#PanelLayer
-{
-   left: 491px;
-   top: 1px;
-   width: 306px;
-}
-#PanelLayer
-{
-   padding: 0;
-}
-#wb_IconFont2
-{
-   width: 30px;
-   height: 30px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 6px 6px 6px 6px;
-}
-#IconFont2
-{
-   width: 30px;
-   height: 30px;
-}
-#IconFont2 i
-{
-   line-height: 30px;
-   font-size: 30px;
-   width: 29px;
-}
-#wb_Image1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_Heading20
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0 15px 10px 15px;
-   color: #FFFFFF;
-}
-#wb_Heading20
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   text-align: left;
-}
-#Heading20
-{
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 21px;
-   text-align: left;
-}
-#wb_OverlayMenu2
-{
-   width: 306px;
-   height: 377px;
-   visibility: visible;
-   display: inline-block;
-   margin: 15px 0 15px 0 ;
-}
-#OverlayMenu2-overlay ul
-{
-   font-size: 16px;
-   text-align: left;
-}
-#wb_Text40
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text40
-{
-   margin: 0;
-   padding: 30px 0 15px 0;
-}
-#wb_HeaderLayoutGrid
-{
-   visibility: visible;
-   display: table;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_HeaderLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#HeaderLayoutGrid
-{
-   height: auto;
-   padding: 0;
-}
-#HeaderLayoutGrid .row
-{
-   margin-right: 0px;
-   margin-left: 0px;
-}
-#HeaderLayoutGrid > .row > .col-1, #HeaderLayoutGrid > .row > .col-2, #HeaderLayoutGrid > .row > .col-3
-{
-   padding-right: 0px;
-   padding-left: 0px;
-}
-#HeaderLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#HeaderLayoutGrid > .row > .col-2
-{
-   display: block;
-   width: 58.33333333%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#HeaderLayoutGrid > .row > .col-3
-{
-   display: block;
-   width: 16.66666667%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_Header
-{
-   visibility: hidden;
-   display: none;
-}
-#wb_Header
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   visibility: hidden;
-   display: none;
-}
-#wb_Text3
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   margin: 20px 0 0 0 ;
-   padding: 0;
-}
-#wb_home_logo
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#wb_Text7
-{
-   width: auto;
-   height: auto;
-   visibility: visible;
-   display: inline;
-   flex-grow: 1;
-   flex-shrink: 1;
-   align-self: auto;
-   background-color: rgba(128,128,128,0.39);
-   background-image: none;
-}
-#wb_Text7
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-}
-@media only screen and (max-width: 479px)
+@media only screen and (max-width: 969px)
 {
 body
 {
@@ -5324,12 +4106,12 @@ body
    margin: 0;
    padding: 10px 0 10px 0;
 }
-#wb_Text1
+#wb_Text9
 {
    visibility: visible;
    display: block;
 }
-#wb_Text1
+#wb_Text9
 {
    margin: 0;
    padding: 10px 0 10px 0;
@@ -5755,232 +4537,6 @@ body
 {
    margin-right: -15px;
    margin-left: -15px;
-}
-#wb_lowerfooterLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_lowerfooterLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#lowerfooterLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 10px 15px;
-}
-#lowerfooterLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1, #lowerfooterLayoutGrid > .row > .col-2, #lowerfooterLayoutGrid > .row > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#lowerfooterLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-2
-{
-   display: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#lowerfooterLayoutGrid > .row > .col-3
-{
-   display: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: center;
-}
-#wb_informationText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_informationText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#facebookFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#facebookFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#smsFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#smsFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#callFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#callFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#whatsappFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#whatsappFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-   visibility: visible;
-   display: inline-block;
-   margin: 10px 5px 10px 5px;
-   padding: 5px 5px 5px 5px;
-}
-#emailFontAwesomeIcon
-{
-   width: 26px;
-   height: 26px;
-}
-#emailFontAwesomeIcon i
-{
-   line-height: 26px;
-   font-size: 26px;
-   width: 25px;
-}
-#wb_inforText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_inforText
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_contactsText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_contactsText
-{
-   margin: 5px 0 0 0 ;
-   padding: 5px 0 5px 0;
-}
-#wb_copywriteLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_copywriteLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#copywriteLayoutGrid
-{
-   height: auto;
-   padding: 0 15px 0 15px;
-}
-#copywriteLayoutGrid .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#copywriteLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_copywriteText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_copywriteText
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 9.3px;
-   margin: 5px 0 5px 0 ;
-   padding: 0;
-   text-align: center;
 }
 #Button4
 {
@@ -6801,7 +5357,7 @@ body
 }
 #wb_Text3
 {
-   margin: 0;
+   margin: 10px 0 0 0 ;
    padding: 0;
 }
 #wb_Text2
@@ -6822,6 +5378,16 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
 #wb_Text7
 {
    width: auto;
@@ -6838,6 +5404,364 @@ body
 {
    margin: 0;
    padding: 10px 0 10px 0;
+}
+#wb_lowerfooterLayoutGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_lowerfooterLayoutGrid
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#lowerfooterLayoutGrid
+{
+   height: auto;
+   padding: 0 15px 10px 15px;
+}
+#lowerfooterLayoutGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#lowerfooterLayoutGrid > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_informationText
+{
+   visibility: visible;
+   display: block;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+}
+#wb_informationText
+{
+   margin: 5px 0 0 0 ;
+   padding: 5px 0 5px 0;
+}
+#wb_Icon1
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#Icon1
+{
+   width: 26px;
+   height: 26px;
+}
+#Icon1 i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_Icon2
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#Icon2
+{
+   width: 26px;
+   height: 26px;
+}
+#Icon2 i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_Icon3
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#Icon3
+{
+   width: 26px;
+   height: 26px;
+}
+#Icon3 i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_Icon4
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#Icon4
+{
+   width: 26px;
+   height: 26px;
+}
+#Icon4 i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_Icon5
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#Icon5
+{
+   width: 26px;
+   height: 26px;
+}
+#Icon5 i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_inforText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_inforText
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_contactsText
+{
+   visibility: visible;
+   display: block;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+}
+#wb_contactsText
+{
+   margin: 5px 0 0 0 ;
+   padding: 5px 0 0 0;
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+}
+#wb_Text6
+{
+   margin: 5px 0 0 0 ;
+   padding: 5px 0 0 0;
+}
+#wb_smsFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#smsFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+}
+#smsFontAwesomeIcon i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_whatsappFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#whatsappFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+}
+#whatsappFontAwesomeIcon i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_callFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#callFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+}
+#callFontAwesomeIcon i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_facebookFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#facebookFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+}
+#facebookFontAwesomeIcon i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_emailFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+   visibility: visible;
+   display: inline-block;
+   margin: 10px 5px 10px 5px;
+   padding: 5px 5px 5px 5px;
+}
+#emailFontAwesomeIcon
+{
+   width: 26px;
+   height: 26px;
+}
+#emailFontAwesomeIcon i
+{
+   line-height: 26px;
+   font-size: 26px;
+   width: 25px;
+}
+#wb_copywriteLayoutGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_copywriteLayoutGrid
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#copywriteLayoutGrid
+{
+   height: auto;
+   padding: 0 15px 0 15px;
+}
+#copywriteLayoutGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#copywriteLayoutGrid > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#copywriteLayoutGrid > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text8
+{
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 9.3px;
+   margin: 5px 0 5px 0 ;
+   padding: 0;
+   text-align: center;
 }
 }
     #countdown {

@@ -9,103 +9,6 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_mainHeading
-{
-   background-color: rgba(0,139,139,0.16);
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: none;
-   border-left-style: solid;
-   border-top-color: #BA55D3;
-   border-right-color: #BA55D3;
-   border-bottom-color: #BA55D3;
-   border-left-color: #BA55D3;
-   border-top-left-radius: 50px;
-   border-top-right-radius: 50px;
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-   border-color: rgba(186,85,211,0.32) rgba(186,85,211,0.32) rgba(186,85,211,0.32) rgba(186,85,211,0.32);
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 5px 0 0 0 ;
-   padding: 10px 0 10px 0;
-   text-align: center;
-}
-#mainHeading
-{
-   color: #000000;
-   font-family: Georgia;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 32px;
-   margin: 0;
-   text-align: center;
-}
-#wb_topMarquee 
-{
-   background-color: #EEEEEE;
-   background-image: none;
-   border: 1px solid #C0C0C0;
-   border-radius: 0px;
-   height: 19px;
-   overflow-y: hidden;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-   box-shadow: 0px 0px 10px #008B8B;
-}
-#wb_topMarquee
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_topMarquee div
-{
-   text-align: center;
-}
-#wb_topMarquee
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_topMarquee
-{
-   overflow: hidden;
-   position: relative;
-}
-#topMarquee
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   animation: topMarquee-marquee 10000ms linear infinite;
-}
-@keyframes topMarquee-marquee
-{
-   0%
-   {
-   transform: translateX(100%);
-   }
-   100%
-   {
-   transform: translateX(-100%);
-   }
-}
-#wb_topMarquee:hover #topMarquee
-{
-   animation-play-state: paused;
-}
 #FlexContainer3
 {
    display: flex;
@@ -613,6 +516,28 @@ body
    margin-right: auto;
    vertical-align: top;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   display: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: none;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #FlexContainer2
 {
    display: flex;
@@ -632,77 +557,6 @@ body
    box-sizing: border-box;
    font-size: 0;
 }
-#wb_toplinksLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#toplinksLayoutGrid
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#toplinksLayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#toplinksLayoutGrid > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#toplinksLayoutGrid > .row > .col-1
-{
-   float: left;
-}
-#toplinksLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#toplinksLayoutGrid:before,
-#toplinksLayoutGrid:after,
-#toplinksLayoutGrid .row:before,
-#toplinksLayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#toplinksLayoutGrid:after,
-#toplinksLayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#toplinksLayoutGrid > .row > .col-1
-{
-   float: none;
-   width: 100%;
-}
-}
 #wb_Text5 
 {
    background-color: rgba(128,128,128,0.39);
@@ -719,6 +573,114 @@ body
 #wb_Text5 div
 {
    text-align: center;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #383838;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 99px;
+   border-top-right-radius: 99px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13 div
+{
+   text-align: center;
+}
+#wb_Text13
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
 }
 #wb_OverlayMenu2
 {
@@ -751,19 +713,13 @@ body
 {
    text-align: right;
 }
-#wb_mainHeading
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 26;
-}
 #wb_menuPanel
 {
    display: inline-block;
    width: 4px;
    height: 48px;
    text-align: center;
-   z-index: 9;
+   z-index: 10;
 }
 #wb_Heading20
 {
@@ -776,7 +732,7 @@ body
    display: inline-block;
    width: 970px;
    height: 63px;
-   z-index: 12;
+   z-index: 13;
 }
 #wb_IconFont2
 {
@@ -792,81 +748,6 @@ body
 {
    background-color: #FFFFFF;
    background-image: none;
-}
-#wb_mainHeading
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 5px 0 0 0 ;
-   padding: 10px 0 10px 0;
-   font-size: 20px;
-   font-family: Georgia;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 50px;
-   border-top-right-radius: 50px;
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-}
-#wb_mainHeading
-{
-   background-color: rgba(0,139,139,0.16);
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 0px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #000000;
-   border-right-color: #000000;
-   border-bottom-color: #000000;
-   border-left-color: #000000;
-   border-top-left-radius: 50px;
-   border-top-right-radius: 50px;
-   border-bottom-right-radius: 0px;
-   border-bottom-left-radius: 0px;
-   text-align: center;
-}
-#mainHeading
-{
-   color: #000000;
-   font-family: Georgia;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 20px;
-   text-align: center;
-}
-#wb_topMarquee
-{
-   height: 17px;
-   visibility: visible;
-   display: block;
-}
-#wb_topMarquee
-{
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 13px;
-   margin: 0;
-   padding: 0;
-   text-align: center;
 }
 #FlexContainer3
 {
@@ -1087,7 +968,7 @@ body
 }
 #wb_Text3
 {
-   margin: 0;
+   margin: 10px 0 0 0 ;
    padding: 0;
 }
 #wb_Text2
@@ -1108,6 +989,16 @@ body
    margin: 0;
    padding: 0;
 }
+#wb_Text1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
 #FlexContainer2
 {
    visibility: visible;
@@ -1123,40 +1014,6 @@ body
    justify-content: space-around;
    align-items: center;
    align-content: flex-start;
-}
-#wb_toplinksLayoutGrid
-{
-   visibility: visible;
-   display: table;
-}
-#wb_toplinksLayoutGrid
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#toplinksLayoutGrid
-{
-   height: auto;
-   padding: 0 5px 0 5px;
-}
-#toplinksLayoutGrid .row
-{
-   margin-right: -5px;
-   margin-left: -5px;
-}
-#toplinksLayoutGrid > .row > .col-1
-{
-   padding-right: 5px;
-   padding-left: 5px;
-}
-#toplinksLayoutGrid > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
 }
 #wb_Text5
 {
@@ -1174,6 +1031,66 @@ body
 {
    margin: 0;
    padding: 10px 0 10px 0;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #000000;
+   border-right-color: #000000;
+   border-bottom-color: #000000;
+   border-left-color: #000000;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+#wb_LayoutGrid2
+{
+   height: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2
+{
+   height: auto;
+   padding: 25px 15px 25px 15px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text13
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text13
+{
+   margin: 0;
+   padding: 0;
 }
 }
     /* Add your existing styles here */

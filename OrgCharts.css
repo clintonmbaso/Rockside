@@ -1760,8 +1760,8 @@ body
 }
 #wb_EmbeddedPage1
 {
-   width: 635px;
-   height: 617px;
+   width: 320px;
+   height: 47px;
    visibility: visible;
    display: inline;
    flex-grow: 0;
@@ -1872,7 +1872,7 @@ body
 #wb_OverlayMenu2
 {
    width: 306px;
-   height: 371px;
+   height: 455px;
    visibility: visible;
    display: inline-block;
    margin: 15px 0 15px 0 ;

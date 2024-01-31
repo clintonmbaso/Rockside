@@ -7,43 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="flychurch.css" rel="stylesheet">
 <link href="Ministry_Affiliation.css" rel="stylesheet">
-<script>   
-   document.addEventListener('DOMContentLoaded', function(event)
-   {
-      var progressbar1 = document.querySelector('#progressbar1 .progress-bar');
-      var progressbar1_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar1_observer.observe(progressbar1);
-      var progressbar2 = document.querySelector('#progressbar2 .progress-bar');
-      var progressbar2_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar2_observer.observe(progressbar2);
-      var progressbar3 = document.querySelector('#progressbar3 .progress-bar');
-      var progressbar3_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar3_observer.observe(progressbar3);
-      var progressbar4 = document.querySelector('#progressbar4 .progress-bar');
-      var progressbar4_observer = new window.ResizeObserver(entries => 
-      {
-         var val = Math.round(((entries[0].target.clientWidth/entries[0].target.offsetParent.clientWidth)*100));
-         entries[0].target.innerText = val + '%';
-         entries[0].target.setAttribute('aria-valuenow', val);
-      });
-      progressbar4_observer.observe(progressbar4);
-   });
-</script>
 </head>
 <body>
    <div id="wb_Form1">
@@ -71,18 +34,6 @@
          <input type="text" id="teachertitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
          <div id="wb_Text16">
             <span style="color:#000000;font-family:'Times New Roman';font-size:13px;"><strong>Club Director's Signature</strong></span></div>
-         <div id="progressbar1">
-            <div class="progress-bar" role="progressbar" aria-valuenow="15" title="15%" aria-valuemin="0" aria-valuemax="100">15%</div>
-         </div>
-         <div id="progressbar2">
-            <div class="progress-bar" role="progressbar" aria-valuenow="71" title="71%" aria-valuemin="0" aria-valuemax="100">71%</div>
-         </div>
-         <div id="progressbar3">
-            <div class="progress-bar" role="progressbar" aria-valuenow="87" title="87%" aria-valuemin="0" aria-valuemax="100">87%</div>
-         </div>
-         <div id="progressbar4">
-            <div class="progress-bar" role="progressbar" aria-valuenow="42" title="42%" aria-valuemin="0" aria-valuemax="100">42%</div>
-         </div>
          <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Residential Address">
          <picture id="wb_teacherpic">
             <source media="(max-width:969px)" srcset="">
@@ -110,135 +61,6 @@
          <div id="wb_Text21">
             <span style="color:#000000;font-family:Share;font-size:11px;">Class Lessons:</span></div>
          <input type="text" id="classInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Class">
-         <div id="wb_Image7">
-            <a href="https://api.whatsapp.com/send?phone=260968084570&text=Hi, Flying Wings Academy, I need more information about your school. Please contact me."><img src="images/whatsapp.png" id="Image7" alt="WhatsApp" width="36" height="36"></a></div>
-         <div id="wb_Image6">
-            <a href="http://www.facebook.com/lastadventstudio"><img src="images/facebook.png" id="Image6" alt="facebook" width="36" height="36"></a></div>
-         <div id="wb_Image5">
-            <a href="https://www.google.com/maps/?q=-15.22,28.26"><img src="images/google%20maps.png" id="Image5" alt="Google Map" width="36" height="36"></a></div>
-         <div id="wb_Image4">
-            <a href="tel:"><img src="images/call.png" id="Image4" alt="Call" width="36" height="36"></a></div>
-         <div id="wb_Image3">
-            <a href="sms:"><img src="images/mail.png" id="Image3" alt="email" width="36" height="36"></a></div>
-         <div id="Html2">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSV Form</title>
-</head>
-<body>
-            <script>            
-                let csvData = [];
-                let currentRow = 0;
-            
-                function loadCSV() {
-                  const xhr = new XMLHttpRequest();
-                  xhr.onreadystatechange = function () {
-                    if (xhr.readyState === XMLHttpRequest.DONE) {
-                      if (xhr.status === 200) {
-                        csvData = parseCSV(xhr.responseText);
-                        displayRow();
-                      } else {
-                        console.error('Failed to load CSV file.');
-                      }
-                    }
-                  };
-                  xhr.open('GET', 'flyacade.csv', true);
-                  xhr.send();
-                }
-            
-                function parseCSV(content) {
-                  const rows = content.split('\n');
-                  return rows.map(row => row.split(','));
-                }
-            
-                function displayRow() {
-                  const idInput = document.getElementById('idInput');
-                  const firstnameInput = document.getElementById('firstnameInput');
-                  const lastnameInput = document.getElementById('lastnameInput');
-                  const classInput = document.getElementById('classInput');
-                  const classpic = document.getElementById('classpic');
-                  const learnerpic = document.getElementById('learnerpic');
-                  const teacherpic = document.getElementById('teacherpic');
-                  const teachertitle = document.getElementById('teachertitle');
-                  const teacher = document.getElementById('teacher');
-                  const parentpic = document.getElementById('parentpic');
-                  const phone = document.getElementById('phone');
-                  const parenttitle = document.getElementById('parenttitle');
-                  const parentname = document.getElementById('parentname');
-                  const typeInput = document.getElementById('typeInput');
-                  const status = document.getElementById('status');
-                  const dobInput = document.getElementById('dobInput');
-                  const doeInput = document.getElementById('doeInput');
-                  const emailInput = document.getElementById('emailInput');
-                  const term1 = document.getElementById('term1');
-                  const classpic1 = document.getElementById('classpic1');
-                  const term3 = document.getElementById('term3');
-                  const classdescription = document.getElementById('classdescription');
-            
-            
-            
-                  // Assuming the CSV has three columns: ID, Name, Email
-                  const rowData = csvData[currentRow];
-                  idInput.value = rowData[0];
-                  firstnameInput.value = rowData[1];
-                  lastnameInput.value = rowData[2];
-                  classInput.value = rowData[3];
-                  
-                  const classpicURL = rowData[4]; 
-                  classpic.src = classpicURL;
-                  
-                  const learnerpicURL = rowData[5];
-                  learnerpic.src = learnerpicURL;
-                  
-                  const teacherpicURL = rowData[6];
-                  teacherpic.src = teacherpicURL;
-                  
-                  teachertitle.value = rowData[7];
-                  teacher.value = rowData[8];
-                  
-                  const parentpicURL = rowData[9];
-                  parentpic.src = parentpicURL;
-                  
-                  phone.value = rowData[10];
-                  parenttitle.value = rowData[11];
-                  parentname.value = rowData[12];
-                  typeInput.value = rowData[13];
-                  status.value = rowData[14];
-                  dobInput.value = rowData[15];
-                  doeInput.value = rowData[16];
-                  emailInput.value = rowData[17];
-                  term1.value = rowData[18];
-                  
-                  const classpic1URL = rowData[19];
-                  classpic1.src = classpic1URL;
-                  
-                  term3.value = rowData[20];
-                  classdescription.value = rowData[21];
-                }
-            
-                function previousRow() {
-                  if (currentRow > 0) {
-                    currentRow--;
-                    displayRow();
-                  }
-                }
-            
-                function nextRow() {
-                  if (currentRow < csvData.length - 1) {
-                    currentRow++;
-                    displayRow();
-                  }
-                }
-            
-                // Load CSV data when the page loads
-                loadCSV();
-              
-            </script>
-</body>
-</html></div>
          <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Prev">
          <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next">
          <div id="wb_Image2">
@@ -268,12 +90,10 @@
          </a>
          <div id="wb_Text13">
             <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Applicant Details</span></div>
-         <div id="wb_Checkbox1">
-            <input type="checkbox" id="Checkbox1" name="Checkbox11" value="on" disabled><label for="Checkbox1"></label></div>
-         <div id="wb_Checkbox2">
-            <input type="checkbox" id="Checkbox2" name="Checkbox4" value="on" disabled><label for="Checkbox2"></label></div>
-         <div id="wb_Checkbox3">
-            <input type="checkbox" id="Checkbox3" name="Checkbox11" value="on" disabled><label for="Checkbox3"></label></div>
+         <div id="wb_femaleb">
+            <input type="checkbox" id="femaleb" name="Checkbox4" value="on" disabled><label for="femaleb"></label></div>
+         <div id="wb_maleb">
+            <input type="checkbox" id="maleb" name="Checkbox11" value="on" disabled><label for="maleb"></label></div>
          <div id="wb_Heading1">
             <h3 id="Heading1"></h3></div>
          <div id="wb_frb">
@@ -297,8 +117,8 @@
             <span style="color:#000000;font-family:Arial;font-size:13px;">I have been in&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; before:</span></div>
          <div id="wb_rab">
             <input type="checkbox" id="rab" name="Checkbox11" value="on" disabled><label for="rab"></label></div>
-         <div id="wb_Checkbox5">
-            <input type="checkbox" id="Checkbox5" name="Checkbox11" value="on" disabled><label for="Checkbox5"></label></div>
+         <div id="wb_yesb">
+            <input type="checkbox" id="yesb" name="Checkbox11" value="on" disabled><label for="yesb"></label></div>
          <div id="wb_Text39">
             <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Yes</span></div>
          <div id="wb_vob">
@@ -309,8 +129,8 @@
             <span style="color:#000000;font-family:Arial;font-size:13px;">Pathfinder&#8217;s Signature:<br><br>Signature (Parent/Guardian)</span></div>
          <div id="wb_Text40">
             <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">No</span></div>
-         <div id="wb_Checkbox6">
-            <input type="checkbox" id="Checkbox6" name="Checkbox10" value="on" disabled><label for="Checkbox6"></label></div>
+         <div id="wb_nob">
+            <input type="checkbox" id="nob" name="Checkbox10" value="on" disabled><label for="nob"></label></div>
          <div id="wb_Text45">
             <span style="color:#000000;font-family:Arial;font-size:13px;">I have a full uniform:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Yes:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; No:</span></div>
          <div id="wb_gub">
@@ -355,39 +175,257 @@
          <div id="wb_Text49">
             <span style="color:#000000;font-family:'Times New Roman';font-size:17px;">Applicant's Learning Details</span></div>
          <hr id="Line3">
-         <div id="wb_uyb">
-            <input type="checkbox" id="uyb" name="Checkbox11" value="on" disabled><label for="uyb"></label></div>
-         <div id="wb_unb">
-            <input type="checkbox" id="unb" name="Checkbox11" value="on" disabled><label for="unb"></label></div>
-         <div id="wb_Checkbox4">
-            <input type="checkbox" id="Checkbox4" name="Checkbox11" value="on" disabled><label for="Checkbox4"></label></div>
-         <div id="wb_Checkbox7">
-            <input type="checkbox" id="Checkbox7" name="Checkbox11" value="on" disabled><label for="Checkbox7"></label></div>
-         <div id="wb_Checkbox8">
-            <input type="checkbox" id="Checkbox8" name="Checkbox11" value="on" disabled><label for="Checkbox8"></label></div>
-         <div id="wb_Checkbox9">
-            <input type="checkbox" id="Checkbox9" name="Checkbox11" value="on" disabled><label for="Checkbox9"></label></div>
-         <div id="wb_Checkbox10">
-            <input type="checkbox" id="Checkbox10" name="Checkbox11" value="on" disabled><label for="Checkbox10"></label></div>
-         <div id="wb_Checkbox11">
-            <input type="checkbox" id="Checkbox11" name="Checkbox11" value="on" disabled><label for="Checkbox11"></label></div>
+         <div id="wb_yes1b">
+            <input type="checkbox" id="yes1b" name="Checkbox11" value="on" disabled><label for="yes1b"></label></div>
+         <div id="wb_no1b">
+            <input type="checkbox" id="no1b" name="Checkbox11" value="on" disabled><label for="no1b"></label></div>
+         <div id="wb_llb">
+            <input type="checkbox" id="llb" name="Checkbox11" value="on" disabled><label for="llb"></label></div>
+         <div id="wb_ebb">
+            <input type="checkbox" id="ebb" name="Checkbox11" value="on" disabled><label for="ebb"></label></div>
+         <div id="wb_bbb">
+            <input type="checkbox" id="bbb" name="Checkbox11" value="on" disabled><label for="bbb"></label></div>
+         <div id="wb_sbb">
+            <input type="checkbox" id="sbb" name="Checkbox11" value="on" disabled><label for="sbb"></label></div>
+         <div id="wb_bub">
+            <input type="checkbox" id="bub" name="Checkbox11" value="on" disabled><label for="bub"></label></div>
+         <div id="wb_hhb">
+            <input type="checkbox" id="hhb" name="Checkbox11" value="on" disabled><label for="hhb"></label></div>
          <div id="wb_Text6">
             <span style="color:#000000;font-family:Arial;font-size:11px;">L.Lamb&nbsp;&nbsp;&nbsp; E.Beaver&nbsp;&nbsp;&nbsp;&nbsp; B.Bee&nbsp;&nbsp;&nbsp;&nbsp; S.Beam&nbsp;&nbsp;&nbsp;&nbsp; Builder&nbsp;&nbsp;&nbsp;&nbsp; H.Hand</span></div>
-         <div id="wb_Checkbox12">
-            <input type="checkbox" id="Checkbox12" name="Checkbox11" value="on" disabled><label for="Checkbox12"></label></div>
-         <div id="wb_Checkbox13">
-            <input type="checkbox" id="Checkbox13" name="Checkbox11" value="on" disabled><label for="Checkbox13"></label></div>
-         <div id="wb_Checkbox15">
-            <input type="checkbox" id="Checkbox15" name="Checkbox11" value="on" disabled><label for="Checkbox15"></label></div>
-         <div id="wb_Checkbox17">
-            <input type="checkbox" id="Checkbox17" name="Checkbox11" value="on" disabled><label for="Checkbox17"></label></div>
+         <div id="wb_seb">
+            <input type="checkbox" id="seb" name="Checkbox11" value="on" disabled><label for="seb"></label></div>
+         <div id="wb_mob">
+            <input type="checkbox" id="mob" name="Checkbox11" value="on" disabled><label for="mob"></label></div>
+         <div id="wb_chb">
+            <input type="checkbox" id="chb" name="Checkbox11" value="on" disabled><label for="chb"></label></div>
+         <div id="wb_btb">
+            <input type="checkbox" id="btb" name="Checkbox11" value="on" disabled><label for="btb"></label></div>
          <div id="wb_Text7">
             <span style="color:#000000;font-family:Arial;font-size:11px;">Seminars&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Modules&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Church Heritage&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Bible Truth</span></div>
          <input type="text" id="classdescription" name="NameOfChurch" value="" readonly disabled autocomplete="off" spellcheck="false" placeholder="ministry">
+         <div id="wb_Text2">
+            <span style="color:#000000;font-family:'Times New Roman';font-size:17px;"><strong>KABWE EAST MISSION DISTRICT</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#000000;font-family:Georgia;font-size:13px;">ADVENTIST YOUTH MINISTRIES<br></span><span style="color:#000000;font-family:'Comic Sans MS';font-size:13px;"><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#CD5C5C;font-family:'MS Sans Serif';font-size:12px;">MEMBERSHIP APPLICATION FORM</span></div>
+         <div id="Html2">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV Form</title>
+  </head>
+<body>
+            <script>            
+                let csvData = [];
+                let currentRow = 0;
+            
+                function loadCSV() {
+                  const xhr = new XMLHttpRequest();
+                  xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                      if (xhr.status === 200) {
+                        csvData = parseCSV(xhr.responseText);
+                        displayRow();
+                        initContactIcons(); // Initialize icons after loading CSV
+                      } else {
+                        console.error('Failed to load CSV file.');
+                      }
+                    }
+                  };
+                  xhr.open('GET', 'rockside.csv', true);
+                  xhr.send();
+                }
+            
+                function parseCSV(content) {
+                  const rows = content.split('\n');
+                  return rows.map(row => row.split(','));
+                }
+            
+                function displayRow() {
+                  const idInput = document.getElementById('idInput');
+                  const firstnameInput = document.getElementById('firstnameInput');
+                  const lastnameInput = document.getElementById('lastnameInput');
+                  const classInput = document.getElementById('classInput');
+                  const classpic = document.getElementById('classpic');
+                  const learnerpic = document.getElementById('learnerpic');
+                  const teacherpic = document.getElementById('teacherpic');
+                  const teachertitle = document.getElementById('teachertitle');
+                  const teacher = document.getElementById('teacher');
+                  const parentpic = document.getElementById('parentpic');
+                  const phone = document.getElementById('phone');
+                  const parenttitle = document.getElementById('parenttitle');
+                  const parentname = document.getElementById('parentname');
+                  const typeInput = document.getElementById('typeInput');
+                  const status = document.getElementById('status');
+                  const dobInput = document.getElementById('dobInput');
+                  const doeInput = document.getElementById('doeInput');
+                  const emailInput = document.getElementById('emailInput');
+                  const term1 = document.getElementById('term1');
+                  const classpic1 = document.getElementById('classpic1');
+                  const term3 = document.getElementById('term3');
+            
+                  const progressbar1 = document.getElementById('progressbar1');
+                  const progressbar2 = document.getElementById('progressbar2');
+                  const progressbar3 = document.getElementById('progressbar3');
+                  const progressbar4 = document.getElementById('progressbar4');
+                  
+                  const maleb = document.getElementById('maleb');
+                  const femaleb = document.getElementById('femaleb');
+                  
+                  const yesb = document.getElementById('yesb');
+                  const nob = document.getElementById('nob');
+                  
+                  const llb = document.getElementById('llb');
+                  const ebb = document.getElementById('ebb');
+                  const bbb = document.getElementById('bbb');
+                  const sbb = document.getElementById('sbb');
+                  const bub = document.getElementById('bub');
+                  const hhb = document.getElementById('hhb');
+                  
+                  const frb = document.getElementById('frb');
+                  const cob = document.getElementById('cob');
+                  const exb = document.getElementById('exb');
+                  const rab = document.getElementById('rab');
+                  const vob = document.getElementById('vob');
+                  const gub = document.getElementById('gub');
+                  
+                  const seb = document.getElementById('seb');
+                  const mob = document.getElementById('mob');
+                  const chb = document.getElementById('chb');
+                  const btb = document.getElementById('btb');
+                  
+                  const yes1b = document.getElementById('yes1b');
+                  const no1b = document.getElementById('no1b');
+            
+                  // Assuming the CSV has eleven columns: ID, Name, Email, PictureURL, Slider1, Slider2, Checkbox1, Checkbox2, Tel, Email
+                  const rowData = csvData[currentRow];
+                  idInput.value = rowData[0];
+                  firstnameInput.value = rowData[1];
+                  lastnameInput.value = rowData[2];
+                  classInput.value = rowData[3];
+                  
+                  const classpicURL = rowData[4]; 
+                  classpic.src = classpicURL;
+                  
+                  const learnerpicURL = rowData[5];
+                  learnerpic.src = learnerpicURL;
+                  
+                  const teacherpicURL = rowData[6];
+                  teacherpic.src = teacherpicURL;
+                  
+                  teachertitle.value = rowData[7];
+                  teacher.value = rowData[8];
+                  
+                  const parentpicURL = rowData[9];
+                  parentpic.src = parentpicURL;
+                  
+                  phone.value = rowData[10];
+                  parenttitle.value = rowData[11];
+                  parentname.value = rowData[12];
+                  typeInput.value = rowData[13];
+                  status.value = rowData[14];
+                  dobInput.value = rowData[15];
+                  doeInput.value = rowData[16];
+                  emailInput.value = rowData[17];
+                  term1.value = rowData[18];
+                  classpic1.value = rowData[19];
+                  term3.value = rowData[20];
+                  progressbar1.value = rowData[22];
+                  progressbar2.value = rowData[23];
+                  progressbar3.value = rowData[24];
+                  progressbar4.value = rowData[25];
+                  
+                  slider1Value.textContent = `${rowData[22]}`;
+                  slider2Value.textContent = `${rowData[23]}`;
+                  slider3Value.textContent = `${rowData[24]}`;
+                  slider4Value.textContent = `${rowData[25]}`;
+                  
+                  maleb.checked = rowData[26] === 'true';
+                  femaleb.checked = rowData[27] === 'true';
+                  
+                  yesb.checked = rowData[28] === 'true';
+                  nob.checked = rowData[29] === 'true';
+                  
+                  llb.checked = rowData[30] === 'true';
+                  ebb.checked = rowData[31] === 'true';
+                  bbb.checked = rowData[32] === 'true';
+                  sbb.checked = rowData[33] === 'true';
+                  bub.checked = rowData[34] === 'true';
+                  hhb.checked = rowData[35] === 'true';
+                  
+                  frb.checked = rowData[36] === 'true';
+                  cob.checked = rowData[37] === 'true';
+                  rab.checked = rowData[38] === 'true';
+                  exb.checked = rowData[39] === 'true';
+                  vob.checked = rowData[40] === 'true';
+                  gub.checked = rowData[41] === 'true';
+                  
+                  seb.checked = rowData[42] === 'true';
+                  mob.checked = rowData[43] === 'true';
+                  chb.checked = rowData[44] === 'true';
+                  btb.checked = rowData[45] === 'true';
+                  
+                  yes1b.checked = rowData[46] === 'true';
+                  no1b.checked = rowData[47] === 'true';
+            
+                  // Assuming Tel and Email are in the ninth and tenth columns
+                  telIcon.href = 'tel:' + rowData[48];
+                  emailIcon.href = 'mailto:' + rowData[49];
+                }
+            
+                function initContactIcons() {
+                  const telIcon = document.getElementById('telIcon');
+                  const emailIcon = document.getElementById('emailIcon');
+            
+                  telIcon.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default behavior for anchors
+                    window.location.href = telIcon.href;
+                  });
+            
+                  emailIcon.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    window.location.href = emailIcon.href;
+                  });
+                }
+            
+                function previousRow() {
+                  if (currentRow > 0) {
+                    currentRow--;
+                    displayRow();
+                  }
+                }
+            
+                function nextRow() {
+                  if (currentRow < csvData.length - 1) {
+                    currentRow++;
+                    displayRow();
+                  }
+                }
+            
+                // Load CSV data when the page loads
+                loadCSV();
+              
+            </script>
+            <input type="range" id="progressbar1" min="0" max="100" disabled>
+            <span id="slider1Value">%</span>
+            <br>
+            <input type="range" id="progressbar2" min="0" max="100" disabled>
+            <span id="slider2Value">%</span>
+            <br>
+            <input type="range" id="progressbar3" min="0" max="100" disabled>
+            <span id="slider3Value">%</span>
+            <br>
+            <input type="range" id="progressbar4" min="0" max="100" disabled>
+            <span id="slider4Value">$</span>
+            <br>
+            <form id="csvForm">
+    <!-- Icons for tel and email -->
+               <a href="#" id="telIcon" class="contact-icon">&#x260E;</a>
+               <a href="#" id="emailIcon" class="contact-icon">&#x2709;</a>
+            </form>
+</body>
+</html></div>
       </form>
-   </div>
-   <div id="wb_Text2">
-      <span style="color:#000000;font-family:'Times New Roman';font-size:19px;"><strong>KABWE EAST MISSION DISTRICT</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#000000;font-family:Georgia;font-size:16px;">ADVENTIST YOUTH MINISTRIES</span><span style="color:#000000;font-family:Georgia;font-size:13px;"><br></span><span style="color:#000000;font-family:'Comic Sans MS';font-size:13px;"><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#CD5C5C;font-family:'MS Sans Serif';font-size:12px;">MEMBERSHIP APPLICATION FORM</span>
    </div>
 </body>
 </html>

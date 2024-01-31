@@ -1,3 +1,22 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -596px;
+   float:left
+}
+div#container
+{
+   width: 970px;
+   height: 1193px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
 body
 {
    background-color: #FFFFFF;
@@ -1586,132 +1605,6 @@ body
 {
    text-align: left;
 }
-#Select1
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select1:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Select4
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select4:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Select5
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select5:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Select2
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select2:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Select3
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select3:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
-#Select6
-{
-   border: 1px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   box-sizing: border-box;
-}
-#Select6:focus
-{
-   border-color: #66AFE9;
-   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
-   outline: 0;
-}
 #wb_Text45 
 {
    background-color: transparent;
@@ -2802,6 +2695,147 @@ body
    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
    outline: 0;
 }
+#honor2
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor2:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor5
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor5:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor3
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor3:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor6
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor6:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor4
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 16px;
+   margin: 0;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+}
+#honor4:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#honor6
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 92;
+}
 #progressbar4
 {
    position: absolute;
@@ -2839,6 +2873,15 @@ body
    position: absolute;
    left: 0;
    top: 0;
+}
+#honor1
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 89;
 }
 #slider3Value
 {
@@ -2879,7 +2922,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 86;
+   z-index: 80;
 }
 #sbb
 {
@@ -2907,7 +2950,7 @@ body
    width: 22px;
    height: 15px;
    text-align: center;
-   z-index: 59;
+   z-index: 56;
 }
 #wb_exb
 {
@@ -2955,6 +2998,15 @@ body
    text-align: right;
    z-index: 19;
 }
+#honor3
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 90;
+}
 #wb_chb
 {
    position: absolute;
@@ -2962,7 +3014,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 88;
+   z-index: 82;
 }
 #no1b
 {
@@ -2977,7 +3029,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 77;
+   z-index: 71;
 }
 #Line4
 {
@@ -2985,7 +3037,7 @@ body
    left: 2px;
    top: 376px;
    width: 1000px;
-   z-index: 72;
+   z-index: 66;
 }
 #wb_signParent
 {
@@ -2994,7 +3046,7 @@ body
    top: 218px;
    width: 145px;
    height: 142px;
-   z-index: 68;
+   z-index: 62;
 }
 #wb_Text41
 {
@@ -3043,6 +3095,15 @@ body
    text-align: center;
    z-index: 0;
 }
+#honor2
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 88;
+}
 #classdescription
 {
    position: absolute;
@@ -3050,7 +3111,7 @@ body
    top: 318px;
    width: 314px;
    height: 18px;
-   z-index: 91;
+   z-index: 85;
 }
 #wb_mob
 {
@@ -3059,7 +3120,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 87;
+   z-index: 81;
 }
 #bub
 {
@@ -3074,7 +3135,7 @@ body
    top: 858px;
    width: 306px;
    height: 30px;
-   z-index: 71;
+   z-index: 65;
 }
 #wb_signApplicant
 {
@@ -3083,7 +3144,7 @@ body
    top: 218px;
    width: 145px;
    height: 142px;
-   z-index: 67;
+   z-index: 61;
 }
 #wb_vob
 {
@@ -3092,7 +3153,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 56;
+   z-index: 53;
 }
 #wb_yesb
 {
@@ -3101,7 +3162,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 54;
+   z-index: 51;
 }
 #femaleb
 {
@@ -3155,7 +3216,7 @@ body
    width: 311px;
    height: 12px;
    text-align: center;
-   z-index: 85;
+   z-index: 79;
 }
 #bbb
 {
@@ -3171,7 +3232,7 @@ body
    width: 311px;
    height: 12px;
    text-align: center;
-   z-index: 63;
+   z-index: 60;
 }
 #wb_femaleb
 {
@@ -3208,7 +3269,7 @@ body
    width: 311px;
    height: 12px;
    text-align: center;
-   z-index: 90;
+   z-index: 84;
 }
 #wb_bub
 {
@@ -3217,7 +3278,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 83;
+   z-index: 77;
 }
 #wb_sbb
 {
@@ -3226,7 +3287,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 82;
+   z-index: 76;
 }
 #wb_nob
 {
@@ -3235,7 +3296,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 60;
+   z-index: 57;
 }
 #wb_Text44
 {
@@ -3244,7 +3305,7 @@ body
    top: 938px;
    width: 250px;
    height: 15px;
-   z-index: 57;
+   z-index: 54;
 }
 #frb
 {
@@ -3286,7 +3347,7 @@ body
    top: 1066px;
    width: 284px;
    height: 15px;
-   z-index: 61;
+   z-index: 58;
 }
 #wb_Text13
 {
@@ -3330,7 +3391,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 81;
+   z-index: 75;
 }
 #Line3
 {
@@ -3338,7 +3399,7 @@ body
    left: 2px;
    top: 376px;
    width: 1000px;
-   z-index: 76;
+   z-index: 70;
 }
 #wb_Text46
 {
@@ -3348,16 +3409,7 @@ body
    width: 412px;
    height: 21px;
    text-align: center;
-   z-index: 73;
-}
-#Select6
-{
-   position: absolute;
-   left: 163px;
-   top: 1023px;
-   width: 147px;
-   height: 27px;
-   z-index: 66;
+   z-index: 67;
 }
 #gub
 {
@@ -3372,7 +3424,7 @@ body
    top: 799px;
    width: 194px;
    height: 15px;
-   z-index: 52;
+   z-index: 49;
 }
 #wb_maleb
 {
@@ -3419,7 +3471,7 @@ body
    width: 320px;
    height: 92px;
    text-align: center;
-   z-index: 92;
+   z-index: 86;
 }
 #seb
 {
@@ -3441,16 +3493,7 @@ body
    width: 312px;
    height: 89px;
    text-align: justify;
-   z-index: 74;
-}
-#Select5
-{
-   position: absolute;
-   left: 163px;
-   top: 991px;
-   width: 147px;
-   height: 27px;
-   z-index: 65;
+   z-index: 68;
 }
 #wb_cob
 {
@@ -3511,7 +3554,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 89;
+   z-index: 83;
 }
 #wb_llb
 {
@@ -3520,16 +3563,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 79;
-}
-#Select4
-{
-   position: absolute;
-   left: 163px;
-   top: 959px;
-   width: 147px;
-   height: 27px;
-   z-index: 64;
+   z-index: 73;
 }
 #wb_Text48
 {
@@ -3538,7 +3572,7 @@ body
    top: 1214px;
    width: 250px;
    height: 74px;
-   z-index: 58;
+   z-index: 55;
 }
 #maleb
 {
@@ -3580,7 +3614,7 @@ body
    width: 412px;
    height: 21px;
    text-align: center;
-   z-index: 75;
+   z-index: 69;
 }
 #term3
 {
@@ -3589,22 +3623,13 @@ body
    top: 318px;
    width: 312px;
    height: 16px;
-   z-index: 70;
+   z-index: 64;
 }
 #yesb
 {
    position: absolute;
    left: 0;
    top: 0;
-}
-#Select3
-{
-   position: absolute;
-   left: 7px;
-   top: 1023px;
-   width: 147px;
-   height: 27px;
-   z-index: 51;
 }
 #wb_Text21
 {
@@ -3647,16 +3672,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 62;
-}
-#Select2
-{
-   position: absolute;
-   left: 7px;
-   top: 991px;
-   width: 147px;
-   height: 27px;
-   z-index: 50;
+   z-index: 59;
 }
 #teacher
 {
@@ -3680,7 +3696,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 84;
+   z-index: 78;
 }
 #wb_no1b
 {
@@ -3689,7 +3705,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 78;
+   z-index: 72;
 }
 #wb_signLeader
 {
@@ -3698,22 +3714,13 @@ body
    top: 218px;
    width: 145px;
    height: 142px;
-   z-index: 69;
+   z-index: 63;
 }
 #vob
 {
    position: absolute;
    left: 0;
    top: 0;
-}
-#Select1
-{
-   position: absolute;
-   left: 7px;
-   top: 959px;
-   width: 147px;
-   height: 27px;
-   z-index: 49;
 }
 #wb_Heading1
 {
@@ -3751,6 +3758,15 @@ body
    height: 16px;
    z-index: 5;
 }
+#honor5
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 91;
+}
 #slider1Value
 {
    position: absolute;
@@ -3765,7 +3781,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 53;
+   z-index: 50;
 }
 #wb_Text24
 {
@@ -3776,6 +3792,15 @@ body
    height: 15px;
    text-align: center;
    z-index: 2;
+}
+#honor4
+{
+   position: absolute;
+   left: 672px;
+   top: 318px;
+   width: 312px;
+   height: 16px;
+   z-index: 93;
 }
 #slider2Value
 {
@@ -3792,7 +3817,7 @@ body
    width: 22px;
    height: 15px;
    text-align: center;
-   z-index: 55;
+   z-index: 52;
 }
 #cob
 {
@@ -3825,7 +3850,7 @@ body
    top: 99px;
    width: 296px;
    height: 15px;
-   z-index: 93;
+   z-index: 87;
 }
 #wb_ebb
 {
@@ -3834,7 +3859,7 @@ body
    top: 434px;
    width: 22px;
    height: 16px;
-   z-index: 80;
+   z-index: 74;
 }
 #exb
 {
@@ -3872,6 +3897,11 @@ body
 }
 @media only screen and (max-width: 969px)
 {
+div#container
+{
+   width: 320px;
+   height: 1649px;
+}
 body
 {
    background-color: #FFFFFF;
@@ -4084,7 +4114,7 @@ body
 #typeInput
 {
    left: 169px;
-   top: 237px;
+   top: 247px;
    width: 130px;
    height: 16px;
    visibility: visible;
@@ -4610,7 +4640,7 @@ body
 #status
 {
    left: 169px;
-   top: 391px;
+   top: 401px;
    width: 69px;
    height: 16px;
    visibility: visible;
@@ -4642,7 +4672,7 @@ body
 #wb_learnerpic
 {
    left: 169px;
-   top: 256px;
+   top: 266px;
    width: 140px;
    height: 140px;
    visibility: visible;
@@ -4672,7 +4702,7 @@ body
 #idInput
 {
    left: 169px;
-   top: 256px;
+   top: 266px;
    width: 131px;
    height: 12px;
    visibility: visible;
@@ -5221,72 +5251,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#Select1
-{
-   left: 5px;
-   top: 1159px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#Select4
-{
-   left: 161px;
-   top: 1159px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#Select5
-{
-   left: 161px;
-   top: 1191px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#Select2
-{
-   left: 5px;
-   top: 1191px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#Select3
-{
-   left: 5px;
-   top: 1223px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-}
-#Select6
-{
-   left: 161px;
-   top: 1223px;
-   width: 147px;
-   height: 27px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
 }
 #wb_Text45
 {
@@ -6001,6 +5965,114 @@ body
    height: 19px;
    visibility: visible;
    display: inline;
+}
+#honor2
+{
+   left: 162px;
+   top: 1159px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor2
+{
+   line-height: 17px;
+}
+#honor5
+{
+   left: 6px;
+   top: 1223px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor5
+{
+   line-height: 17px;
+}
+#honor3
+{
+   left: 6px;
+   top: 1191px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor3
+{
+   line-height: 17px;
+}
+#honor1
+{
+   left: 6px;
+   top: 1159px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor1
+{
+   line-height: 17px;
+}
+#honor6
+{
+   left: 162px;
+   top: 1223px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor6
+{
+   line-height: 17px;
+}
+#honor4
+{
+   left: 162px;
+   top: 1191px;
+   width: 135px;
+   height: 17px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.59);
+   background-image: none;
+}
+#honor4
+{
+   line-height: 17px;
 }
 }
     /* Customize the appearance of the sliders */

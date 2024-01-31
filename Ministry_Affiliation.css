@@ -2885,6 +2885,7 @@ body
 }
 #slider3Value
 {
+   align-text: right;
    position: absolute;
    left: 10px;
    top: 577px;
@@ -3542,6 +3543,7 @@ body
 }
 #slider4Value
 {
+   align-text: right;
    position: absolute;
    left: 10px;
    top: 592px;
@@ -3769,6 +3771,7 @@ body
 }
 #slider1Value
 {
+   align-text: right;
    position: absolute;
    left: 10px;
    top: 547px;
@@ -3804,6 +3807,7 @@ body
 }
 #slider2Value
 {
+   align-text: right;
    position: absolute;
    left: 10px;
    top: 562px;
@@ -3909,9 +3913,9 @@ body
 }
 #wb_Text17
 {
-   left: 27px;
+   left: 14px;
    top: 606px;
-   width: 261px;
+   width: 283px;
    height: 15px;
    visibility: visible;
    display: inline;
@@ -3975,9 +3979,9 @@ body
 }
 #wb_Text24
 {
-   left: 42px;
+   left: 14px;
    top: 564px;
-   width: 103px;
+   width: 155px;
    height: 15px;
    visibility: visible;
    display: inline;
@@ -4008,9 +4012,9 @@ body
 }
 #wb_Text23
 {
-   left: 42px;
+   left: 13px;
    top: 522px;
-   width: 103px;
+   width: 157px;
    height: 15px;
    visibility: visible;
    display: inline;
@@ -4041,9 +4045,9 @@ body
 }
 #wb_Text14
 {
-   left: 207px;
+   left: 183px;
    top: 564px;
-   width: 71px;
+   width: 115px;
    height: 15px;
    visibility: visible;
    display: inline;
@@ -4171,7 +4175,7 @@ body
 #wb_Text31
 {
    margin: 0;
-   padding: 0;
+   padding: 0 0 1px 0;
 }
 #phone
 {
@@ -4208,7 +4212,7 @@ body
 #lastnameInput
 {
    left: 156px;
-   top: 488px;
+   top: 486px;
    width: 146px;
    height: 19px;
    visibility: visible;
@@ -4253,7 +4257,23 @@ body
    display: inline;
    margin: 0;
    padding: 4px 4px 4px 4px;
-   text-align: left;
+   text-align: center;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #D3D3D3;
+   border-right-color: #D3D3D3;
+   border-bottom-color: #D3D3D3;
+   border-left-color: #D3D3D3;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 #doeInput
 {
@@ -4314,9 +4334,9 @@ body
 }
 #wb_Text16
 {
-   left: 123px;
-   top: 1535px;
-   width: 184px;
+   left: 90px;
+   top: 1562px;
+   width: 124px;
    height: 15px;
    visibility: visible;
    display: inline;
@@ -4336,7 +4356,23 @@ body
    display: inline;
    margin: 0;
    padding: 4px 4px 4px 4px;
-   text-align: left;
+   text-align: center;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #D3D3D3;
+   border-right-color: #D3D3D3;
+   border-bottom-color: #D3D3D3;
+   border-left-color: #D3D3D3;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 #term1
 {
@@ -4356,8 +4392,8 @@ body
 #wb_Text19
 {
    left: 3px;
-   top: 703px;
-   width: 74px;
+   top: 702px;
+   width: 114px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -4370,8 +4406,8 @@ body
 #wb_Text18
 {
    left: 9px;
-   top: 673px;
-   width: 68px;
+   top: 672px;
+   width: 108px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -4384,7 +4420,7 @@ body
 #firstnameInput
 {
    left: 13px;
-   top: 488px;
+   top: 486px;
    width: 132px;
    height: 19px;
    visibility: visible;
@@ -4429,7 +4465,23 @@ body
    display: inline;
    margin: 0;
    padding: 4px 4px 4px 4px;
-   text-align: left;
+   text-align: center;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #D3D3D3;
+   border-right-color: #D3D3D3;
+   border-bottom-color: #D3D3D3;
+   border-left-color: #D3D3D3;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 #dobInput
 {
@@ -4506,8 +4558,8 @@ body
 #wb_Text20
 {
    left: 0px;
-   top: 718px;
-   width: 77px;
+   top: 717px;
+   width: 117px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -4521,7 +4573,7 @@ body
 {
    left: 5px;
    top: 687px;
-   width: 72px;
+   width: 112px;
    height: 12px;
    visibility: visible;
    display: inline;
@@ -4533,15 +4585,31 @@ body
 }
 #classInput
 {
-   left: 184px;
+   left: 183px;
    top: 578px;
-   width: 114px;
+   width: 115px;
    height: 16px;
    visibility: visible;
    display: inline;
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: center;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #D3D3D3;
+   border-right-color: #D3D3D3;
+   border-bottom-color: #D3D3D3;
+   border-left-color: #D3D3D3;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
 }
 #classInput
 {
@@ -4725,7 +4793,7 @@ body
 }
 #wb_classpic1
 {
-   left: 267px;
+   left: 273px;
    top: 137px;
    width: 36px;
    height: 36px;
@@ -4841,7 +4909,7 @@ body
 #wb_Text22
 {
    left: 7px;
-   top: 933px;
+   top: 919px;
    width: 217px;
    height: 15px;
    visibility: visible;
@@ -5349,9 +5417,9 @@ body
 }
 #wb_signLeader
 {
-   left: 123px;
+   left: 210px;
    top: 1550px;
-   width: 185px;
+   width: 98px;
    height: 39px;
    visibility: visible;
    display: inline;
@@ -5934,15 +6002,16 @@ body
 }
 #classdescription
 {
-   left: 93px;
-   top: 933px;
-   width: 71px;
+   left: 2px;
+   top: 934px;
+   width: 200px;
    height: 15px;
    visibility: visible;
    display: inline;
    margin: 0;
    padding: 0 4px 0 4px;
-   text-align: center;
+   text-align: left;
+   color: #800080;
    font-size: 12px;
    font-family: Arial;
    font-weight: normal;
@@ -6114,13 +6183,26 @@ body
       text-decoration: none;
       color: #333;
       position:absolute;
-      top: 670px;
+
     }
     #emailIcon {
       left: 80px;
+      top: 670px;
     }
     
     #telIcon {
       left: 50px;
+      top: 670px;
+    }
+    
+    }
+    #emailIcon1 {
+      left: 80px;
+      top: 1400px;
+    }
+    
+    #telIcon1 {
+      left: 50px;
+      top: 1400px;
     }
   

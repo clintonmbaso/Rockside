@@ -35,16 +35,16 @@
             <input type="email" id="emailInput" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="email address">
             <input type="text" id="teachertitle" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Title">
             <div id="wb_Text16">
-               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;"><strong>Club Director's Signature</strong></span></div>
+               <span style="color:#000000;font-family:'Times New Roman';font-size:13px;">Leader's Signature</span></div>
             <input type="text" id="term1" oninput="calculateTotal();return false;" name="Editbox2" value="" readonly autocomplete="off" spellcheck="false" placeholder="Residential Address">
             <picture id="wb_teacherpic">
                <source media="(max-width:969px)" srcset="">
                <img src="images/avatar_green.jpg" id="teacherpic" alt="" width="79" height="79">
             </picture>
             <div id="wb_Text19">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Church Heritage:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Heritage:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <div id="wb_Text18">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Honours:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Honours:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <input type="text" id="firstnameInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="First Name">
             <input type="datetime" id="dobInput" name="Student_DoB" value="" readonly autocomplete="off" spellcheck="false" placeholder="Date of Birth">
             <div id="wb_Text1">
@@ -59,9 +59,9 @@
             <div id="wb_Text5">
                <span style="color:#000000;font-family:'Times New Roman';font-size:19px;">Instructor's Details</span></div>
             <div id="wb_Text20">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Awards:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Awards:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <div id="wb_Text21">
-               <span style="color:#000000;font-family:Share;font-size:11px;">Class Lessons:</span></div>
+               <span style="color:#000000;font-family:Share;font-size:11px;">Classes:&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="color:#000000;font-family:Share;font-size:9.3px;">%</span></div>
             <input type="text" id="classInput" name="learners_first_name" value="" readonly autocomplete="off" spellcheck="false" placeholder="Class">
             <input type="button" id="Button2" onclick="previousRow();return false;" name="" value="Prev">
             <input type="button" id="Button1" onclick="nextRow();return false;" name="" value="Next">
@@ -107,7 +107,7 @@
             <div id="wb_exb">
                <input type="checkbox" id="exb" name="Checkbox11" value="on" disabled><label for="exb"></label></div>
             <div id="wb_Text22">
-               <span style="color:#000000;font-family:Arial;font-size:13px;">I have been in&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; before:</span></div>
+               <span style="color:#000000;font-family:Arial;font-size:13px;">I have been a member of the</span></div>
             <div id="wb_rab">
                <input type="checkbox" id="rab" name="Checkbox11" value="on" disabled><label for="rab"></label></div>
             <div id="wb_yesb">
@@ -155,7 +155,7 @@
             <div id="wb_Text46">
                <span style="color:#000000;font-family:'Times New Roman';font-size:17px;">Affirmation</span></div>
             <div id="wb_Text47">
-               <span style="color:#000000;font-family:Arial;font-size:13px;">I would like to join the Pathfinder Ministry at </span><span style="color:#800080;font-family:Arial;font-size:13px;"><strong><u>Rockside</u></strong> </span><span style="color:#000000;font-family:Arial;font-size:13px;">SDA Church. I will attend meetings, hikes, camping, field trips, outreach activities and other activities as required. I agree to be guided by the rules of a club as well as the Pledge and Law.</span></div>
+               <span style="color:#000000;font-family:Arial;font-size:13px;">I would like to join the Youth Ministry at </span><span style="color:#800080;font-family:Arial;font-size:13px;"><strong>Rockside</strong> </span><span style="color:#000000;font-family:Arial;font-size:13px;">SDA Church. I will attend meetings, hikes, camping, field trips, outreach activities and other activities as required. I agree to be guided by the rules of the ministry, the Pledge, Aim, Motto and Mission.</span></div>
             <div id="wb_Text49">
                <span style="color:#000000;font-family:'Times New Roman';font-size:17px;">Applicant's Learning Details</span></div>
             <hr id="Line3">
@@ -290,7 +290,9 @@
                
                      const classdescription = document.getElementById('classdescription');
                
-               
+                     const signApplicant = document.getElementById('signApplicant');
+                     const signParent = document.getElementById('signParent');
+                     const signLeader = document.getElementById('signLeader');
                
                
                
@@ -382,11 +384,27 @@
                      emailIcon.href = 'mailto:' + rowData[55];
                      
                      classdescription.value = rowData[56];
+                     
+                     const signApplicantURL = rowData[57]; 
+                     signApplicant.src = signApplicantURL;
+                     
+                     const signParentURL = rowData[58];
+                     signParent.src = signParentURL;
+                     
+                     const signLeaderURL = rowData[59];
+                     signLeader.src = signLeaderURL;
+                     
+                     telIcon1.href = 'tel:' + rowData[60];
+                     emailIcon1.href = 'mailto:' + rowData[61];
                    }
                
                    function initContactIcons() {
                      const telIcon = document.getElementById('telIcon');
                      const emailIcon = document.getElementById('emailIcon');
+               
+                     const telIcon1 = document.getElementById('telIcon1');
+                     const emailIcon1 = document.getElementById('emailIcon1');
+               
                
                      telIcon.addEventListener('click', function(event) {
                        event.preventDefault(); // Prevent default behavior for anchors
@@ -396,6 +414,16 @@
                      emailIcon.addEventListener('click', function(event) {
                        event.preventDefault();
                        window.location.href = emailIcon.href;
+                     });
+                     
+                     telIcon1.addEventListener('click', function(event) {
+                       event.preventDefault(); // Prevent default behavior for anchors
+                       window.location.href = telIcon1.href;
+                     });
+               
+                     emailIcon1.addEventListener('click', function(event) {
+                       event.preventDefault();
+                       window.location.href = emailIcon1.href;
                      });
                    }
                
@@ -433,6 +461,9 @@
     <!-- Icons for tel and email -->
                   <a href="#" id="telIcon" class="contact-icon">&#x260E;</a>
                   <a href="#" id="emailIcon" class="contact-icon">&#x2709;</a>
+    
+                  <a href="#" id="telIcon1" class="contact-icon">&#x260E;</a>
+                  <a href="#" id="emailIcon1" class="contact-icon">&#x2709;</a>
                </form>
 </body>
 </html></div>

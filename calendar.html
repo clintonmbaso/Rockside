@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+#calendar-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-size: 10px;
+  padding: 5px;
+  margin: 20px;
+  width: 90vw; /* Set width to 85% of viewport width */
+  max-width: 600px; /* Set a maximum width to prevent content overflow */
+}
+
+#calendar {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed; /* Ensure the table has a fixed layout */
+  text-align: center;
+}
+
+#calendar th, #calendar td {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ddd;
+  word-wrap: break-word; /* Allow words to break onto the next line if needed */
+}
+
+#month-year {
+  font-size: 20px;
+  margin-bottom: 3px;
+  cursor: default;
+  text-align: center;
+  padding: 5px;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+  bottom: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.current-day {
+  background-color: #b3d9ff; /* Highlight color for the current day */
+}
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+    }
+
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .close-button {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    #navigation-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    #navigation-buttons button {
+      background-color: #4285f4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+  
+    #prevbtn {
+      border-radius: 16px 1px;
+      margin-right: 10px;
+      width: 70px;
+    }
+  
+    #nextbtn {
+      border-radius: 1px 16px;
+      margin-left: 10px;
+      width: 70px;
+    }
+  
+  </style>
+  <title>Customizable Calendar</title>
+</head>
+<body>
+  <div id="navigation-buttons">
+    <button id="prevbtn" onclick="showPreviousMonth()">Previous</button>
+    <div id="month-year"></div>
+    <button id="nextbtn" onclick="showNextMonth()">Next</button>
+  </div>
+
+  <div id="calendar-container">
+    <div id="month-year" onclick="openDatePicker"></div>
+ 
+    <table id="calendar">
+      <thead>
+        <tr>
+          <th onclick="openDatePicker()">Sun</th>
+          <th onclick="openDatePicker()">Mon</th>
+          <th onclick="openDatePicker()">Tue</th>
+          <th onclick="openDatePicker()">Wed</th>
+          <th onclick="openDatePicker()">Thu</th>
+          <th onclick="openDatePicker()">Fri</th>
+          <th onclick="openDatePicker()">Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <!-- Calendar dates will be added here dynamically -->
+      </tbody>
+    </table>
+  </div>
+
+  <div id="eventModal" class="modal">
+    <div class="modal-content">
+      <h2>Title</h2>
+      <p>Event Details:</p>
+      <ul id="eventList"></ul>
+      <p>Additional Details or Description</p>
+    </div>
+  </div>
+
+  <script>
+    function displayCalendar(inputDate) {
+      const calendarBody = document.getElementById('calendar-body');
+      const monthYearElement = document.getElementById('month-year');
+
+      const currentDate = inputDate || new Date();
+      currentDate.setDate(1); // Set to the first day of the month
+
+      const monthOptions = { month: 'long' };
+      const monthName = currentDate.toLocaleString('en-US', { month: 'long' });
+      const year = currentDate.getFullYear();
+      monthYearElement.textContent = `${monthName} ${year}`;
+
+      const firstDay = currentDate.getDay();
+      const daysInMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+
+      const calendarDates = [];
+
+      for (let i = 1 - firstDay; i <= daysInMonth; i++) {
+        const day = i > 0 ? i : '';
+        const events = getEventsForDay(currentDate.getFullYear(), currentDate.getMonth(), day);
+        calendarDates.push({ day, events });
+      }
+
+      calendarBody.innerHTML = '';
+
+      let row;
+      calendarDates.forEach((date, index) => {
+        if (index % 7 === 0) {
+          row = calendarBody.insertRow();
+        }
+
+        const cell = row.insertCell();
+        cell.textContent = date.day;
+
+        // Remove the .current-day class from all cells
+        cell.classList.remove('current-day');
+
+        if (date.events.length > 0) {
+          const dot = document.createElement('div');
+          dot.className = 'dot';
+          cell.appendChild(dot);
+
+          dot.addEventListener('click', function () {
+            openModal(date.events);
+          });
+        }
+
+        if (
+          currentDate.getDate() === date.day &&
+          currentDate.getMonth() === inputDate.getMonth() &&
+          currentDate.getFullYear() === inputDate.getFullYear()
+        ) {
+          cell.classList.add('current-day');
+        }
+      });
+    }
+
+    function getEventsForDay(year, month, day) {
+      
+      //January
+      if (month === 0 && day === 1) {
+        return [`New Year on ${year}-01-${day}`];
+      } 
+      
+      else if (month === 0 && day === 27) {
+        return [`Rockside Induction Ceremony on ${year}-01-${day}`];
+      } 
+      
+      
+      //February
+      else if (month === 1 && day === 18) {
+        return [`KEMD - Leadership Seminar on ${year}-02-${day}`];
+      } 
+      
+      else if (month === 1 && day === 25) {
+        return [`KEMD - Adventurer Bible Quiz on ${year}-02-${day}`];
+      } 
+      
+      
+      //March
+      else if (month === 2 && day === 16) {
+        return [`Global Youth Day on ${year}-03-${day}`,`Adventurer Community Service on ${year}-03-${day}`];
+      }
+
+      else if (month === 2 && day === 31) {
+        return [`KEMD - Pathfinder Fair on ${year}-03-${day}`];
+      }
+      
+      else if (month === 2 && day === 71) {
+        return [`KEMD - Big Sabbath / Uniform Launch on ${year}-03-${day}`];
+      }
+      
+      
+      //April
+      else if (month === 3 && day === 66) {
+        return [`KEMD - Music Rotations (Zone B - Zone A) on ${year}-04-${day}`];
+      }
+
+      else if (month === 3 && day === 81) {
+        return [`KEMD - Honor Assessments on ${year}-04-${day}`];
+      }
+      
+      else if (month === 3 && day === 71) {
+        return [`KEMD - Music Fellowship on ${year}-04-${day}`];
+      }
+      
+      else if (month === 3 && day === 71) {
+        return [`KEMD - Expendition (Silver/Gold Award) on ${year}-04-${day}`];
+      }
+      
+      
+      
+      //May
+      else if (month === 4 && day === 26) {
+        return [`KEMD - Adventurer Arts and Skills Day on ${year}-05-${day}`,`KEMD - Pathfinder Bible Quiz and Spelling Bee on ${year}-05-${day}`];
+      }
+      
+      else if (month === 4 && day === 71) {
+        return [`KEMD - Album Promotion on ${year}-05-${day}`];
+      }
+      
+      else if (month === 4 && day === 71) {
+        return [`KEMD - Ambassador Community Service on ${year}-05-${day}`];
+      }
+      
+      else if (month === 4 && day === 66) {
+        return [`KEMD - Church Heritage Exams on ${year}-05-${day}`];
+      }
+
+      
+      
+      //June
+      
+      
+      
+      
+      
+      //July
+      else if (month === 6 && day === 81) {
+        return [`KEMD - Ambassador Education tour on ${year}-07-${day}`];
+      }
+      
+      else if (month === 6 && day === 71) {
+        return [`KEMD - Senior Youth Picnic on ${year}-07-${day}`];
+      }
+      
+      else if (month === 6 && day === 21) {
+        return [`KEMD - Adventurer Sports Day tour on ${year}-07-${day}`];
+      }
+      
+      else if (month === 6 && day === 28) {
+        return [`KEMD - Pathfinder Assessments on ${year}-07-${day}`];
+      }
+      
+      
+      //August
+      else if (month === 7 && day === 71) {
+        return [`KEMD - Honour Exams on ${year}-08-${day}`];
+      }
+      
+      
+      
+      //September
+      else if (month === 8 && day === 81) {
+        return [`KEMD - Senior Youth Fundraising braii tour on ${year}-09-${day}`];
+      }
+      
+      else if (month === 8 && day === 71) {
+        return [`KEMD - Ambassador Trip tour on ${year}-09-${day}`];
+      }
+      
+      else if (month === 8 && day === 88) {
+        return [`KEMD - Church Heritage Exams on ${year}-09-${day}`];
+      }
+      
+      else if (month === 8 && day === 15) {
+        return [`KEMD - Adventurer Fun Day on ${year}-09-${day}`];
+      }
+      
+      else if (month === 8 && day === 22) {
+        return [`KEMD - Pathfinder Back to School Community Service on ${year}-09-${day}`];
+      }
+      
+      
+      
+      //October
+      else if (month === 9 && day === 81) {
+        return [`KEMD - Senior Youth Fundraising braii tour on ${year}-10-${day}`];
+      }
+      
+      else if (month === 9 && day === 71) {
+        return [`KEMD - Ambassador Trip tour on ${year}-10-${day}`];
+      }
+      
+      else if (month === 9 && day === 88) {
+        return [`KEMD - Church Heritage Exams on ${year}-10-${day}`];
+      }
+      
+      else if (month === 9 && day === 15) {
+        return [`KEMD - Adventurer Fun Day on ${year}-10-${day}`];
+      }
+      
+      
+      
+      //October
+      else if (month === 11 && day === 28) {
+        return [`KEMD - Pathfinder Big Sabbath tour on ${year}-12-${day}`];
+      }
+      
+      else if (month === 11 && day === 31) {
+        return [`KEMD - Music Crossover tour on ${year}-12-${day}`];
+      }
+      
+      
+      
+      return [];
+    }
+
+    function openModal(events) {
+      const modal = document.getElementById('eventModal');
+      const eventList = document.getElementById('eventList');
+
+      eventList.innerHTML = '';
+
+      events.forEach(event => {
+        const listItem = document.createElement('li');
+        listItem.textContent = event;
+        eventList.appendChild(listItem);
+      });
+
+      modal.style.display = 'block';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('eventModal');
+      modal.style.display = 'none';
+    }
+
+    function showPreviousMonth() {
+      const currentDate = new Date(document.getElementById('month-year').textContent);
+      currentDate.setMonth(currentDate.getMonth() - 1);
+      displayCalendar(currentDate);
+    }
+
+    function showNextMonth() {
+      const currentDate = new Date(document.getElementById('month-year').textContent);
+      currentDate.setMonth(currentDate.getMonth() + 1);
+      displayCalendar(currentDate);
+    }
+
+    // Display the calendar when the page loads
+    displayCalendar();
+  </script>
+</body>
+</html>

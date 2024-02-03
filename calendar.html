@@ -81,11 +81,12 @@
     }
 
     .modal-content {
-      background-color: #fff;
+      background-color: rgba(75,78,77,0.9);
       padding: 20px;
       border-radius: 5px;
       max-width: 400px;
       text-align: center;
+      border-radius: 0px 0px 30px 30px;
     }
 
     .close-button {
@@ -156,12 +157,10 @@
     </table>
   </div>
 
-  <div id="eventModal" class="modal">
+  <div id="eventModal" class="modal" onclick="closeModal()">
     <div class="modal-content">
-      <h2>Title</h2>
-      <p>Event Details:</p>
-      <ul id="eventList"></ul>
-      <p>Additional Details or Description</p>
+      <h4 text-color="blue">EVENT</h4>
+      <p id="eventList"></p>
     </div>
   </div>
 
@@ -237,7 +236,7 @@
       
       //February
       else if (month === 1 && day === 18) {
-        return [`KEMD - Leadership Seminar on ${year}-02-${day}`];
+        return [`KEMD - Leadership Seminar on ${year}-02-${day}`,,`All leaders should attend this program without fail. The only exception are the Pathfinder directors and their committees for the conference has organized for them a CMT specifically for them. All other members are welcome to attend.`];
       } 
       
       else if (month === 1 && day === 25) {
@@ -391,7 +390,7 @@
       eventList.innerHTML = '';
 
       events.forEach(event => {
-        const listItem = document.createElement('li');
+        const listItem = document.createElement('p');
         listItem.textContent = event;
         eventList.appendChild(listItem);
       });

@@ -45,7 +45,7 @@
                      <li><a role="menuitem" href="./Adventurer.html" class="OverlayMenu2-effect"><i class="fa fa-puzzle-piece overlay-icon"></i>Adventurer&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
-                     <li><a role="menuitem" href="./Young-Adult.html" onclick="window.location.href='./About.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-book overlay-icon"></i>Young&nbsp;Adult</a></li>
+                     <li><a role="menuitem" href="./Young-Adult.html" class="OverlayMenu2-effect"><i class="fa fa-line-chart overlay-icon"></i>Young&nbsp;Adult</a></li>
                      <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
                      <li><a role="menuitem" href="./Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Affiliation&nbsp;Forms</a></li>
                      <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
@@ -131,12 +131,8 @@
    
          // Add data rows
          data.addRows([
-         //Pastor
-         [{v:'KEMD Pastor', f:'<div class="node" onclick="showDetails(\'Pastor Mwiya\', \'Kabwe East Mission District\', \'images/KEMD Pastor.jpg\', \'+260977330091\')"><img src="images/KEMD Pastor.jpg" class="node-image"><div class="node-label">KEMD Pastor</div></div>'}, '', 'KEMD Pastor', 'images/KEMD Pastor.jpg'],
-   		
-            
-         // President
-   		[{v:'President', f:'<div class="node" onclick="showDetails(\'Rabson Musonda\', \'Rockside SDA Church\', \'images/rabson.jpg\', \'+260974133437\')"><img src="images/rabson.jpg" class="node-image"><div class="node-label">President</div></div>'}, 'KEMD Pastor', 'KEMD President', 'images/rabson.jpg'],
+           // President
+   		[{v:'President', f:'<div class="node" onclick="showDetails(\'Rabson Musonda\', \'Rockside SDA Church\', \'images/rabson.jpg\', \'+260974133437\')"><img src="images/rabson.jpg" class="node-image"><div class="node-label">President</div></div>'}, '', 'KEMD President', 'images/rabson.jpg'],
    		
    		// Vice President
    		[{v:'Vice President A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/PresidentA.jpg\', \'+260000000000\')"><img src="images/PresidentA.jpg" class="node-image"><div class="node-label">Vice President A</div></div>'}, 'President', 'KEMD-Zone A Vice President', 'images/PresidentA.jpg'],
@@ -149,14 +145,14 @@
    		[{v:'Vice Secretary B', f:'<div class="node" onclick="showDetails(\'Mweemba Mutinta\', \'SDA Church\', \'images/Vice SecretaryB.jpg\', \'+260000000000\')"><img src="images/Vice SecretaryB.jpg" class="node-image"><div class="node-label">Vice Secretary B</div></div>'}, 'Vice President B', 'KEMD-Zone B Vice Secretary', 'images/Vice SecretaryB.jpg'],
    		  
    		// Treasurer
-   		[{v:'Treasurer A', f:'<div class="node" onclick="showDetails(\'Elizabeth Maila\', \'SDA Church\', \'images/TreasurerA.jpg\', \'+260978858087\')"><img src="images/TreasurerA.jpg" class="node-image"><div class="node-label">Treasurer A</div></div>'}, 'Vice President A', 'KEMD-Zone A Treasurer', 'images/TreasurerA.jpg'],
+   		[{v:'Treasurer A', f:'<div class="node" onclick="showDetails(\'Choolwe\', \'SDA Church\', \'images/TreasurerA.jpg\', \'+260978858087\')"><img src="images/TreasurerA.jpg" class="node-image"><div class="node-label">Treasurer A</div></div>'}, 'Vice President A', 'KEMD-Zone A Treasurer', 'images/TreasurerA.jpg'],
    		[{v:'Treasurer B', f:'<div class="node" onclick="showDetails(\'Namfukwe Sylvia\', \'Rockside SDA Church\', \'images/Sylvia.jpg\', \'+260769959833\')"><img src="images/Sylvia.jpg" class="node-image"><div class="node-label">Treasurer B</div></div>'}, 'Vice President B', 'KEMD-Zone B Treasurer', 'images/Sylvia.jpg'],
    		[{v:'Vice Treasurer A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Vice TreasurerA.jpg\', \'+260000000000\')"><img src="images/Vice TreasurerA.jpg" class="node-image"><div class="node-label">Treasurer A</div></div>'}, 'Treasurer A', 'KEMD-Zone A Treasurer', 'images/Vice TreasurerA.jpg'],
    		[{v:'Vice Treasurer B', f:'<div class="node" onclick="showDetails(\'Viness Mulenga\', \'SDA Church\', \'images/Vice TreasurerB.jpg\', \'+260000000000\')"><img src="images/Vice TreasurerB.jpg" class="node-image"><div class="node-label">Treasurer B</div></div>'}, 'Treasurer B', 'KEMD-Zone B Treasurer', 'images/Vice TreasurerB.jpg'],
    		  
    		// Parliamentarian
    		[{v:'Parliamentarian A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/ParliamentarianA.jpg\', \'+260000000000\')"><img src="images/ParliamentarianA.jpg" class="node-image"><div class="node-label">Parliamentarian A</div></div>'}, 'Vice President A', 'KEMD-Zone A Parliamentarian', 'images/ParliamentarianA.jpg'],
-   		[{v:'Parliamentarian B', f:'<div class="node" onclick="showDetails(\'Marvin Miyoba\', \'Muteteshi SDA Church\', \'images/ParliamentarianB.jpg\', \'+260975174686\')"><img src="images/ParliamentarianB.jpg" class="node-image"><div class="node-label">Parliamentarian B</div></div>'}, 'Vice President B', 'KEMD-Zone B Parliamentarian', 'images/ParliamentarianB.jpg'],
+   		[{v:'Parliamentarian B', f:'<div class="node" onclick="showDetails(\'Marvin\', \'Muteteshi SDA Church\', \'images/ParliamentarianB.jpg\', \'+260000000000\')"><img src="images/ParliamentarianB.jpg" class="node-image"><div class="node-label">Parliamentarian B</div></div>'}, 'Vice President B', 'KEMD-Zone B Parliamentarian', 'images/ParliamentarianB.jpg'],
    		  
    		// Chaplain
    		[{v:'Chaplain A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/ChaplainA.jpg\', \'+260000000000\')"><img src="images/ChaplainA.jpg" class="node-image"><div class="node-label">Chaplain A</div></div>'}, 'Vice President A', 'KEMD-Zone A Chaplain', 'images/ChaplainA.jpg'],
@@ -166,13 +162,13 @@
    		  
    		  
    		// Ambassador Ministry
-   		[{v:'Ambassador A', f:'<div class="node" onclick="showDetails(\'Steady Chibela\', \'SDA Church\', \'images/AmbassadorA.jpg\', \'+260978640579\')"><img src="images/AmbassadorA.jpg" class="node-image"><div class="node-label">Ambassador A</div></div>'}, 'Secretary A', 'KEMD-Zone A Ambassador', 'images/AmbassadorA.jpg'],
+   		[{v:'Ambassador A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/AmbassadorA.jpg\', \'+260000000000\')"><img src="images/AmbassadorA.jpg" class="node-image"><div class="node-label">Ambassador A</div></div>'}, 'Secretary A', 'KEMD-Zone A Ambassador', 'images/AmbassadorA.jpg'],
    		[{v:'Ambassador B', f:'<div class="node" onclick="showDetails(\'Lombe Mwamba\', \'Rockside SDA Church\', \'images/AmbassadorB.jpg\', \'+260760609938\')"><img src="images/AmbassadorB.jpg" class="node-image"><div class="node-label">Ambassador B</div></div>'}, 'Secretary B', 'KEMD-Zone B Ambassador', 'images/AmbassadorB.jpg'],
    		[{v:'Vice Ambassador A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Vice AmbassadorA.jpg\', \'+260000000000\')"><img src="images/Vice AmbassadorA.jpg" class="node-image"><div class="node-label">Vice Ambassador A</div></div>'}, 'Ambassador A', 'KEMD-Zone A Vice Ambassador', 'images/Vice AmbassadorA.jpg'],
    		[{v:'Vice Ambassador B', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Vice AmbassadorB.jpg\', \'+260000000000\')"><img src="images/Vice AmbassadorB.jpg" class="node-image"><div class="node-label">Vice Ambassador B</div></div>'}, 'Ambassador B', 'KEMD-Zone B Vice Ambassador', 'images/Vice AmbassadorB.jpg'],
    		  
    		// Pathfinder Ministry
-   		[{v:'Pathfinder A', f:'<div class="node" onclick="showDetails(\'Mwangelwa Silimi\', \'SDA Church\', \'images/PathfinderA.jpg\', \'+260000000000\')"><img src="images/PathfinderA.jpg" class="node-image"><div class="node-label">Pathfinder A</div></div>'}, 'Secretary A', 'KEMD-Zone A Pathfinder', 'images/PathfinderA.jpg'],
+   		[{v:'Pathfinder A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/PathfinderA.jpg\', \'+260000000000\')"><img src="images/PathfinderA.jpg" class="node-image"><div class="node-label">Pathfinder A</div></div>'}, 'Secretary A', 'KEMD-Zone A Pathfinder', 'images/PathfinderA.jpg'],
    		[{v:'Pathfinder B', f:'<div class="node" onclick="showDetails(\'Bwalya Moris\', \'Rockside SDA Church\', \'images/Moris.jpg\', \'+260766613234\')"><img src="images/Moris.jpg" class="node-image"><div class="node-label">Pathfinder B</div></div>'}, 'Secretary B', 'KEMD-Zone B Pathfinder', 'images/Moris.jpg'],
    		[{v:'Vice Pathfinder A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Vice PathfinderA.jpg\', \'+260000000000\')"><img src="images/Vice PathfinderA.jpg" class="node-image"><div class="node-label">Vice Pathfinder A</div></div>'}, 'Pathfinder A', 'KEMD-Zone A Vice Pathfinder', 'images/Vice PathfinderA.jpg'],
    		[{v:'Vice Pathfinder B', f:'<div class="node" onclick="showDetails(\'Cheelo Japhet\', \'Kamiswa SDA Church\', \'images/Vice PathfinderB.jpg\', \'+260764346785\')"><img src="images/Vice PathfinderB.jpg" class="node-image"><div class="node-label">Vice Pathfinder B</div></div>'}, 'Pathfinder B', 'KEMD-Zone B Vice Pathfinder', 'images/Vice PathfinderB.jpg'],
@@ -202,8 +198,8 @@
    		[{v:'Music Director B', f:'<div class="node" onclick="showDetails(\'Mwiinga Juliet\', \'Kabufumu SDA Church\', \'images/Music DirectorB.jpg\', \'+260962580925\')"><img src="images/Music DirectorB.jpg" class="node-image"><div class="node-label">Music Director B</div></div>'}, 'Vice Ambassador B', 'KEMD-Zone B Music Director', 'images/Music DirectorB.jpg'],
    		  
    		// Planning / Projects
-   		[{v:'Planning/Projects A', f:'<div class="node" onclick="showDetails(\'Given Mate\', \'SDA Church\', \'images/Planning/ProjectsA.jpg\', \'+260972331861\')"><img src="images/Planning/ProjectsA.jpg" class="node-image"><div class="node-label">Planning/Projects A</div></div>'}, 'Education A', 'KEMD-Zone A Planning/Projects', 'images/Planning/ProjectsA.jpg'],
-   		[{v:'Planning/Projects B', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Planning/ProjectsB.jpg\', \'+260000000000\')"><img src="images/Planning/ProjectsB.jpg" class="node-image"><div class="node-label">Planning/Projects B</div></div>'}, 'Education B', 'KEMD-Zone B Planning/Projects', 'images/Planning/ProjectsB.jpg'],
+   		[{v:'Planning/Projects A', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Planning/ProjectsA.jpg\', \'+260000000000\')"><img src="images/Planning/ProjectsA.jpg" class="node-image"><div class="node-label">Music Director A</div></div>'}, 'Education A', 'KEMD-Zone A Music Director', 'images/Planning/ProjectsA.jpg'],
+   		[{v:'Planning/Projects B', f:'<div class="node" onclick="showDetails(\'Unknown\', \'SDA Church\', \'images/Planning/ProjectsB.jpg\', \'+260000000000\')"><img src="images/Planning/ProjectsB.jpg" class="node-image"><div class="node-label">Music Director B</div></div>'}, 'Education B', 'KEMD-Zone B Music Director', 'images/Planning/ProjectsB.jpg'],
    		
            // ... (similar lines for other positions)
          ]);

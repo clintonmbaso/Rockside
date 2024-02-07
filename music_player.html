@@ -13,7 +13,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #f4f4f4;
+      background-color: rgb(100,240,100);
 }
 
 .player-container {
@@ -25,13 +25,13 @@
 }
 
 .player {
-    background-color: #fff;
-    border-radius: 10px;
+    background-color: rgba(39,39,39,0.8);
+    border-radius: 0 0 30px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 320px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     position: fixed;
     z-index: 999;
@@ -44,11 +44,21 @@
     margin-bottom: 10px;
 }
 
+  .artist-image {
+    display: inline-block;
+  vertical-align: top; /* Aligns the image to the top */
+    width: 30%; 
+}
+  
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: inline-block;
+    vertical-align: bottom; /* Aligns the controls to the bottom */
+    width: 65%; /* Adjust the width as needed */
+    margin: 2px;
 }
 
 button {
@@ -56,7 +66,7 @@ button {
     border: none;
     color: #4CAF50;
     padding: 0;
-    font-size: 24px;
+    font-size: 18px;
     margin: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -67,21 +77,37 @@ button:hover {
     transform: scale(1.1);
 }
 
+	marquee {
+	color: #4CAF50;
+    padding: 2px 30px;
+    font-size: 10px;
+    margin: 0;
+	border-radius: 10px;
+	background-color: rgba(148,185,156,0.24);
+	}
 	
-input[type=range] {
-    width: 100%;
-    margin: 10px 0;
-    cursor: pointer;
-    //-webkit-appearance: none;
+  
+input.volume-slider {
+  width: 75%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input.progress-slider {
+  width: 100%; /* Adjust the width as needed */
+  margin-top: 0; /* You can adjust the margin if necessary */
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 input[type=range]::-webkit-slider-thumb {
-    //-webkit-appearance: none;
+    -webkit-appearance: none;
     appearance: none;
-    width: 16px;
-    height: 16px;
-    background-color: #4CAF50;
-    border-radius: 50%;
+    width: 15px;
+    height: 8px;
+    background-color: #4CAF90;
+    border-radius: 10%;
     cursor: pointer;
 }
 
@@ -90,17 +116,26 @@ input[type=range]::-webkit-slider-thumb:hover {
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    height: 4px;
+    height: 8px;
     background-color: #ccc;
     border-radius: 2px;
 }
 
-  
+
+	h2 {
+		padding: 5px;
+		margin-top: -10px;
+	background-color: rgba(161,122,187,0.25);
+    cursor: pointer;
+	margin: 5px 0;
+	border-radius: 30px 30px 0 0;
+	}
+	
 .song-info {
-    margin-top: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  display: inline-block;
+  width: 70%; /* Adjust the width as needed */
+  vertical-align: top; /* Aligns the marquee to the top */
+  
 }
   
   
@@ -111,8 +146,7 @@ input[type=range]::-webkit-slider-runnable-track {
   padding: 20px;
   max-width: 320px;
   width: 100%;
-  max-height: calc(100vh - 140px);
-  margin-top: 300px;
+  margin-top: 180px;
   
 }
 
@@ -128,60 +162,82 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 .song-list ul li {
-    padding: 10px 0;
+    padding: 10px 8px;
+	background-color: rgba(122,148,187,0.27);
     cursor: pointer;
+	margin: 5px 0;
+	border-radius: 20px;
 }
 
 .song-list ul li:hover {
     background-color: #f0f0f0;
 }
 
-		#TextArea1
+#TextArea1
 {
    border: 1px solid #CCCCCC;
    border-radius: 4px;
-   background-color: #FFFFFF;
-   background-image: none;
+   background-color: rgba(13,3,3,0.15);
    color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
    text-align: left;
    padding: 4px 4px 4px 4px;
-   margin: 0;
+   margin-bottom: 10px;
    overflow: auto;
    resize: none;
 }
 	
+	h4 {
+		text-align: center;
+		color: #FF00D6;
+		margin: 0 4px 10px;
+		background-color: bisque;
+		border-radius: 0 0 20px 20px;
+		padding: 3px 0;
+	}
+	
+  .volume-slider {
+    padding: 1px; 
+    vertical-align: bottom; /* Aligns the marquee to the top */
+  
+  }
+  
 </style>
 </head>
 <body>
 <audio id="audioPlayer" controls style="display: none;"></audio>
+	
+	
 <div class="player">
   <div class="artist-image">
     <img id="artistImage" src="" alt="Artist Image">
+        
   </div>
+	
+	
   <div class="controls">
-    <button class="shuffle-button" title="Shuffle"><i class="fas fa-random"></i></button>
+    <marquee class="song-info">Song Title - Artist</marquee>
+   	<button class="shuffle-button" title="Shuffle"><i class="fas fa-random"></i></button>
     <button class="prev-button" title="Previous"><i class="fas fa-step-backward"></i></button>
     <button class="play-button" title="Play"><i class="far fa-play-circle"></i></button>
     <button class="next-button" title="Next"><i class="fas fa-step-forward"></i></button>
     <button class="repeat-button" title="Repeat"><i class="fas fa-redo"></i></button>
+    
+    <hr>
     <button class="mute-button" title="Mute"><i class="fas fa-volume-up"></i></button>
     <input type="range" class="volume-slider" min="0" max="100" value="50">
-    <input type="range" class="progress-slider" min="0" max="100" value="0">
-    <marquee class="song-info">Song Title - Artist</marquee>
+    
   </div>
+  <input type="range" class="progress-slider" min="0" max="100" value="0">
+    
 </div>
 <div class="song-list">
-  <h2>Song List</h2>
+  <h2>SONG LIST</h2>
 	
 	   <div id="TextArea1">
 	
   <ul>
 	  
-    <!-- Clinton Album 1 -->
+    <h4>Clinton Mbaso - Album 1</h4>
     <li data-src="audio/01. Ndalombozya Kuya Kwesu.mp3" data-title="Ndalombozya Kuya Kwesu" data-artist="Mbaso Clinton" data-image="1.jpg">01. Ndalombozya Kuya Kwesu</li>
     <li data-src="audio/02. Libizo.mp3" data-title="Libizo - The Voice of the Lord is calling, hearken to His voice." data-artist="Mbaso Clinton" data-image="1.jpg">02. Libizo</li>
 	<li data-src="audio/03. Ndiyozumanana.mp3" data-title="Ndiyozumanana" data-artist="Mbaso Clinton" data-image="1.jpg">03. Ndiyozumanana</li>
@@ -194,13 +250,16 @@ input[type=range]::-webkit-slider-runnable-track {
 	<li data-src="audio/10. Wretched Man.mp3" data-title="Wretched Man" data-artist="Mbaso Clinton" data-image="1.jpg">10. Wretched Man</li>
 	<li data-src="audio/11. Tisankale Monga.mp3" data-title="Tisankale Monga" data-artist="Mbaso Clinton" data-image="1.jpg">11. Tisankale Monga</li>
 	<li data-src="audio/12. Ndilekelele.mp3" data-title="Ndilekelele" data-artist="Mbaso Clinton" data-image="1.jpg">12. Ndilekelele</li>
-	  
-	  
-	  
-	  
-	<!-- Clinton Album 2 -->
+	</ul>  
+	</div>
+	
+	
+	<div id="TextArea1">
+	<ul> 
+		
+	<h4>Clinton Mbaso - Album 2</h4>
 	<li data-src="audio/01. Nkaka kambo.mp3" data-title="Nkaka kambo" data-artist="Mbaso Clinton" data-image="2.jpg">01. Nkaka kambo</li>
-    <li data-src="audio/02. I have found Peace.mp3" data-title="I have found Peace" data-artist="Mbaso Clinton" data-image="2.jpg">02. I have found Peace</li>
+    <li data-src="audio/02. I have found Peace.mp3" data-title="I have found Peace" data-artist="Mbaso Clinton" data-image="3.jpg">02. I have found Peace</li>
     <li data-src="audio/03. Wilalila.mp3" data-title="Wilalila" data-artist="Mbaso Clinton" data-image="2.jpg">03. Wilalila</li>
     <li data-src="audio/04. Munzi Mubotu.mp3" data-title="Munzi Mubotu" data-artist="Mbaso Clinton" data-image="2.jpg">04. Munzi Mubotu</li>
     <li data-src="audio/05. Teach Me how to Pray.mp3" data-title="Teach Me how to Pray" data-artist="Mbaso Clinton" data-image="2.jpg">05. Teach Me how to Pray</li>
@@ -341,7 +400,7 @@ input[type=range]::-webkit-slider-runnable-track {
   const audio = document.getElementById('audioPlayer');
   audio.addEventListener('timeupdate', updateProgress);
 
-  loadAndPlaySong();
+ loadAndPlaySong();
 
 </script>
 </body>

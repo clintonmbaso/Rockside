@@ -201,6 +201,12 @@ input[type=range]::-webkit-slider-runnable-track {
   
   }
   
+		        .page {
+            display: none;
+            transition: opacity 0.5s ease-in-out;
+        }
+	
+	
 </style>
 </head>
 <body>
@@ -230,53 +236,133 @@ input[type=range]::-webkit-slider-runnable-track {
   <input type="range" class="progress-slider" min="0" max="100" value="0">
     
 </div>
-<div class="song-list">
+	
+	
+ <div class="song-list">
   <h2>SONG LIST</h2>
 	
-	   <div id="TextArea1">
+	  
+<div id="page-container">
 	
+<div class="page" id="page1">
+ <div id="TextArea1">
   <ul>
 	  
     <h4>Clinton Mbaso - Album 1</h4>
-    <li data-src="audio/01. Ndalombozya Kuya Kwesu.ogg" data-title="Ndalombozya Kuya Kwesu" data-artist="Mbaso Clinton" data-image="1.jpg">01. Ndalombozya Kuya Kwesu</li>
-    <li data-src="audio/02. Libizo.ogg" data-title="Libizo - The Voice of the Lord is calling, hearken to His voice." data-artist="Mbaso Clinton" data-image="1.jpg">02. Libizo</li>
+ <li data-src="audio/01. Ndalombozya Kuya Kwesu.ogg" data-title="Ndalombozya Kuya Kwesu" data-artist="Mbaso Clinton" data-image="1.jpg">01. Ndalombozya Kuya Kwesu</li>
+ <li data-src="audio/02. Libizo.ogg" data-title="Libizo" data-artist="Mbaso Clinton" data-image="1.jpg">02. Libizo</li>
 	<li data-src="audio/03. Ndiyozumanana.ogg" data-title="Ndiyozumanana" data-artist="Mbaso Clinton" data-image="1.jpg">03. Ndiyozumanana</li>
 	<li data-src="audio/04. Moyo Wangu.ogg" data-title="Moyo Wangu" data-artist="Mbaso Clinton" data-image="1.jpg">04. Moyo Wangu</li>
-	<li data-src="audio/05. Ndemubishi.mp3" data-title="Ndemubishi" data-artist="Mbaso Clinton" data-image="1.jpg">05. Ndemubishi</li>
-	<li data-src="audio/06. Yesu Yesu.mp3" data-title="Yesu Yesu" data-artist="Mbaso Clinton" data-image="1.jpg">06. Yesu Yesu</li>
-	<li data-src="audio/07. Hena Nkambo Nzi.mp3" data-title="Hena Nkambo Nzi" data-artist="Mbaso Clinton" data-image="1.jpg">07. Hena Nkambo Nzi</li>
-	<li data-src="audio/08. Sankha Umoyo.mp3" data-title="Sankha Umoyo" data-artist="Mbaso Clinton" data-image="1.jpg">08. Sankha Umoyo</li>
-	<li data-src="audio/09. Tuyakwiimba Ambabo.mp3" data-title="Tuyakwiimba Ambabo" data-artist="Mbaso Clinton" data-image="1.jpg">09. Tuyakwiimba Ambabo</li>
-	<li data-src="audio/10. Wretched Man.mp3" data-title="Wretched Man" data-artist="Mbaso Clinton" data-image="1.jpg">10. Wretched Man</li>
-	<li data-src="audio/11. Tisankale Monga.mp3" data-title="Tisankale Monga" data-artist="Mbaso Clinton" data-image="1.jpg">11. Tisankale Monga</li>
-	<li data-src="audio/12. Ndilekelele.mp3" data-title="Ndilekelele" data-artist="Mbaso Clinton" data-image="1.jpg">12. Ndilekelele</li>
+	<li data-src="audio/05. Ndemubishi.ogg" data-title="Ndemubishi" data-artist="Mbaso Clinton" data-image="1.jpg">05. Ndemubishi</li>
+	<li data-src="audio/06. Yesu Yesu.ogg" data-title="Yesu Yesu" data-artist="Mbaso Clinton" data-image="1.jpg">06. Yesu Yesu</li>
+	<li data-src="audio/07. Hena Nkambo Nzi.ogg" data-title="Hena Nkambo Nzi" data-artist="Mbaso Clinton" data-image="1.jpg">07. Hena Nkambo Nzi</li>
+	<li data-src="audio/08. Sankha Umoyo.ogg" data-title="Sankha Umoyo" data-artist="Mbaso Clinton" data-image="1.jpg">08. Sankha Umoyo</li>
+	<li data-src="audio/09. Tuyakwiimba Ambabo.ogg" data-title="Tuyakwiimba Ambabo" data-artist="Mbaso Clinton" data-image="1.jpg">09. Tuyakwiimba Ambabo</li>
+	<li data-src="audio/10. Wretched Man.ogg" data-title="Wretched Man" data-artist="Mbaso Clinton" data-image="1.jpg">10. Wretched Man</li>
+	<li data-src="audio/11. Tisankale Monga.ogg" data-title="Tisankale Monga" data-artist="Mbaso Clinton" data-image="1.jpg">11. Tisankale Monga</li>
+	<li data-src="audio/12. Ndilekelele.ogg" data-title="Ndilekelele" data-artist="Mbaso Clinton" data-image="1.jpg">12. Ndilekelele</li>
 	</ul>  
 	</div>
+	
+	
 	
 	
 	<div id="TextArea1">
 	<ul> 
 		
 	<h4>Clinton Mbaso - Album 2</h4>
-	<li data-src="01. Nkaka kambo.ogg" data-title="Nkaka kambo" data-artist="Mbaso Clinton" data-image="2.jpg">01. Nkaka kambo</li>
+	   <li data-src="audio/01. Nkaka kambo.ogg" data-title="Nkaka kambo" data-artist="Mbaso Clinton" data-image="2.jpg">01. Nkaka kambo</li>
     <li data-src="audio/02. I have found Peace.ogg" data-title="I have found Peace" data-artist="Mbaso Clinton" data-image="2.jpg">02. I have found Peace</li>
     <li data-src="audio/03. Wilalila.ogg" data-title="Wilalila" data-artist="Mbaso Clinton" data-image="2.jpg">03. Wilalila</li>
     <li data-src="audio/04. Munzi Mubotu.ogg" data-title="Munzi Mubotu" data-artist="Mbaso Clinton" data-image="2.jpg">04. Munzi Mubotu</li>
-    <li data-src="audio/05. Teach Me how to Pray.mp3" data-title="Teach Me how to Pray" data-artist="Mbaso Clinton" data-image="2.jpg">05. Teach Me how to Pray</li>
-    <li data-src="audio/06. Taciko Ciindi.mp3" data-title="Taciko Ciindi" data-artist="Mbaso Clinton" data-image="2.jpg">06. Taciko Ciindi</li>
-    <li data-src="audio/07. The Greatest Story.mp3" data-title="The Greatest Story" data-artist="Mbaso Clinton" data-image="2.jpg">07. The Greatest Story</li>
-    <li data-src="audio/08. Nako yene Yatapelo.mp3" data-title="Nako yene Yatapelo" data-artist="Mbaso Clinton" data-image="2.jpg">08. Nako yene Yatapelo</li>
-    <li data-src="audio/09. Our Greatest Need.mp3" data-title="Our Greatest Need" data-artist="Mbaso Clinton" data-image="2.jpg">09. Our Greatest Need</li>
-    <li data-src="audio/10. Nditole Mulumbe.mp3" data-title="Nditole Mulumbe" data-artist="Mbaso Clinton" data-image="2.jpg">10. Nditole Mulumbe</li>
-    <li data-src="audio/11. Tazyili zyano.mp3" data-title="Tazyili zyano" data-artist="Mbaso Clinton" data-image="2.jpg">11. Tazyili zyano</li>
-    <li data-src="audio/12. At the Sound.mp3" data-title="At the Sound" data-artist="Mbaso Clinton" data-image="2.jpg">12. At the Sound</li>
+    <li data-src="audio/05. Teach Me how to Pray.ogg" data-title="Teach Me how to Pray" data-artist="Mbaso Clinton" data-image="2.jpg">05. Teach Me how to Pray</li>
+    <li data-src="audio/06. Taciko Ciindi.ogg" data-title="Taciko Ciindi" data-artist="Mbaso Clinton" data-image="2.jpg">06. Taciko Ciindi</li>
+    <li data-src="audio/07. The Greatest Story.ogg" data-title="The Greatest Story" data-artist="Mbaso Clinton" data-image="2.jpg">07. The Greatest Story</li>
+    <li data-src="audio/08. Nako yene Yatapelo.ogg" data-title="Nako yene Yatapelo" data-artist="Mbaso Clinton" data-image="2.jpg">08. Nako yene Yatapelo</li>
+    <li data-src="audio/09. Our Greatest Need.ogg" data-title="Our Greatest Need" data-artist="Mbaso Clinton" data-image="2.jpg">09. Our Greatest Need</li>
+    <li data-src="audio/10. Nditole Mulumbe.ogg" data-title="Nditole Mulumbe" data-artist="Mbaso Clinton" data-image="2.jpg">10. Nditole Mulumbe</li>
+    <li data-src="audio/11. Tazyili zyano.ogg" data-title="Tazyili zyano" data-artist="Mbaso Clinton" data-image="2.jpg">11. Tazyili zyano</li>
+    <li data-src="audio/12. At the Sound.ogg" data-title="At the Sound" data-artist="Mbaso Clinton" data-image="2.jpg">12. At the Sound</li>
     
     
-    <!-- Add more songs as needed -->
+    
 	  
-  </ul>
-		    </div>
+    </ul>
+  </div>
 </div>
+	
+	
+<!-- Add more songs as needed -->
+  <div id="TextArea1">
+   <ul>
+	<div class="page" id="page2">
+  <h4>Church Heritage - Section 1</h4>
+	   <li data-src="audio/01. Nkaka kambo.ogg" data-title="Nkaka kambo" data-artist="Mbaso Clinton" data-image="2.jpg">01. Nkaka kambo</li>
+    <li data-src="audio/02. I have found Peace.ogg" data-title="I have found Peace" data-artist="Mbaso Clinton" data-image="2.jpg">02. I have found Peace</li>
+    <li data-src="audio/03. Wilalila.ogg" data-title="Wilalila" data-artist="Mbaso Clinton" data-image="2.jpg">03. Wilalila</li>
+    <li data-src="audio/04. Munzi Mubotu.ogg" data-title="Munzi Mubotu" data-artist="Mbaso Clinton" data-image="2.jpg">04. Munzi Mubotu</li>
+    <li data-src="audio/05. Teach Me how to Pray.ogg" data-title="Teach Me how to Pray" data-artist="Mbaso Clinton" data-image="2.jpg">05. Teach Me how to Pray</li>
+    <li data-src="audio/06. Taciko Ciindi.ogg" data-title="Taciko Ciindi" data-artist="Mbaso Clinton" data-image="2.jpg">06. Taciko Ciindi</li>
+    <li data-src="audio/07. The Greatest Story.ogg" data-title="The Greatest Story" data-artist="Mbaso Clinton" data-image="2.jpg">07. The Greatest Story</li>
+    <li data-src="audio/08. Nako yene Yatapelo.ogg" data-title="Nako yene Yatapelo" data-artist="Mbaso Clinton" data-image="2.jpg">08. Nako yene Yatapelo</li>
+    <li data-src="audio/09. Our Greatest Need.ogg" data-title="Our Greatest Need" data-artist="Mbaso Clinton" data-image="2.jpg">09. Our Greatest Need</li>
+    <li data-src="audio/10. Nditole Mulumbe.ogg" data-title="Nditole Mulumbe" data-artist="Mbaso Clinton" data-image="2.jpg">10. Nditole Mulumbe</li>
+    <li data-src="audio/11. Tazyili zyano.ogg" data-title="Tazyili zyano" data-artist="Mbaso Clinton" data-image="2.jpg">11. Tazyili zyano</li>
+    <li data-src="audio/12. At the Sound.ogg" data-title="At the Sound" data-artist="Mbaso Clinton" data-image="2.jpg">12. At the Sound</li>
+    
+    </div>
+   </ul>
+  </div>
+	
+	
+  <div id="TextArea1">
+   <ul>
+	<div class="page" id="page3">
+            <h4>Page 3</h4>
+            <p>Content for page 3 goes here.</p>
+    </div>
+   </ul>
+  </div>
+
+
+  <div id="TextArea1">
+   <ul>
+	<div class="page" id="page4">
+            <h4>Page 4</h4>
+            <p>Content for page 4 goes here.</p>
+    </div>
+   </ul>
+  </div>
+        
+
+  <div id="TextArea1">
+   <ul>
+	<div class="page" id="page5">
+            <h4>Page 5</h4>
+            <p>Content for page 5 goes here.</p>
+    </div>
+   </ul>
+  </div>	
+
+        
+  <div id="TextArea1">
+   <ul>
+	<div class="page" id="page6">
+            <h4>Page 6</h4>
+            <p>Content for page 5 goes here.</p>
+    </div>
+   </ul>
+  </div>
+              
+	
+	
+</div>
+</div>
+	
+	
+	
+<script src="https://hammerjs.github.io/dist/hammer.js"></script>
+	
 <script>
   const songs = document.querySelectorAll('.song-list ul li');
   let currentSongIndex = 0;
@@ -400,8 +486,50 @@ input[type=range]::-webkit-slider-runnable-track {
   const audio = document.getElementById('audioPlayer');
   audio.addEventListener('timeupdate', updateProgress);
 
- loadAndPlaySong();
+ //loadAndPlaySong();
 
+</script>
+	
+	
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+            showPage(1);
+
+            const pageContainer = document.getElementById('page-container');
+            const hammer = new Hammer(pageContainer);
+
+            hammer.on('swipeleft', function () {
+                navigate('next');
+            });
+
+            hammer.on('swiperight', function () {
+                navigate('prev');
+            });
+        });
+
+        let currentPage = 1;
+
+        function navigate(direction) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.style.display = 'none');
+
+            if (direction === 'prev' && currentPage > 1) {
+                currentPage--;
+            } else if (direction === 'next' && currentPage < pages.length) {
+                currentPage++;
+            }
+
+            showPage(currentPage);
+        }
+
+        function showPage(pageNumber) {
+            const currentPageElement = document.getElementById(`page${pageNumber}`);
+            currentPageElement.style.display = 'block';
+            currentPageElement.style.opacity = 1;
+        }	
+	
+	
+	
 </script>
 </body>
 </html>

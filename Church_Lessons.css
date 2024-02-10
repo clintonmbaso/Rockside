@@ -2726,113 +2726,6 @@ body
 {
    background-color: #EEEEEE;
 }
-#lg2_page26
-{
-   background-color: rgba(255,255,255,0.78);
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 10px;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   margin: 0;
-   text-align: left;
-   line-height: 1.2;
-   display: inline-block;
-   position: relative;
-   width: 100%;
-}
-#lg2_page26 .blogitem
-{
-   margin-bottom: 13px;
-   margin-bottom: 6px;
-   padding: 5px;
-   text-align: left;
-}
-#lg2_page26 .blogdate
-{
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 11px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: none;
-}
-#lg2_page26 .blogsubject
-{
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 16px;
-   color: #666666;
-   font-style: normal;
-   text-decoration: none;
-}
-#lg2_page26 .blogcomments
-{
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
-   color: #000000;
-   font-style: normal;
-   text-decoration: none;
-}
-#lg2_page26 .blogsubject a:link, #lg2_page26 .blogsubject a:visited, #lg2_page26 .blogsubject a:hover
-{
-   color: inherit;
-   text-decoration: inherit;
-}
-#lg2_page26 .blogcomments a:link, #lg2_page26 .blogcomments a:visited, #lg2_page26 .blogcomments a:hover
-{
-   color: inherit;
-   text-decoration: inherit;
-}
-#lg2_page26 .blogcomments
-{
-   text-decoration: none;
-}
-#lg2_page26 .no-thumb
-{
-   display: none;
-}
-#lg2_page26 .blogsubject
-{
-   display: block;
-   margin: 0;
-   padding: 0;
-}
-#lg2_page26 .blogthumb
-{
-   margin: 0 0 5px 0;
-   float: right;
-   padding: 0 5px 0 0;
-}
-#lg2_page26 .blogthumb img
-{
-   border-width: 0px;
-   width: 120px;
-   height: auto;
-   margin: 0px 0px 0px 0px;
-}
-#lg2_page26 .pager
-{
-   margin: 2px 0px 2px 0px;
-}
-#lg2_page26 .page-number
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   color: #000000;
-   text-decoration: none;
-   padding: 1px 4px 1px 4px;
-   cursor: pointer;
-   border: 1px #EEEEEE solid;
-   margin-right: 2px;
-}
-#lg2_page26 .active 
-{
-   background-color: #EEEEEE;
-}
 #lg1_page2
 {
    background-color: rgba(255,255,255,0.78);
@@ -8259,7 +8152,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid10 > .row > .col-1, #LayoutGrid10 > .row > .col-2, #LayoutGrid10 > .row > .col-3
+#LayoutGrid10 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -8268,7 +8161,7 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid10 > .row > .col-1, #LayoutGrid10 > .row > .col-2, #LayoutGrid10 > .row > .col-3
+#LayoutGrid10 > .row > .col-1
 {
    float: left;
 }
@@ -8282,38 +8175,6 @@ body
    text-align: center;
 }
 #LayoutGrid10 > .row > .col-1 > .col-1-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 0;
-}
-#LayoutGrid10 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   display: none;
-   width: 0;
-   text-align: left;
-}
-#LayoutGrid10 > .row > .col-2 > .col-2-padding
-{
-   box-sizing: border-box;
-   width: 100%;
-   padding: 0;
-}
-#LayoutGrid10 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   display: none;
-   width: 0;
-   text-align: left;
-}
-#LayoutGrid10 > .row > .col-3 > .col-3-padding
 {
    box-sizing: border-box;
    width: 100%;
@@ -8334,7 +8195,7 @@ body
 }
 @media (max-width: 120px)
 {
-#LayoutGrid10 > .row > .col-1, #LayoutGrid10 > .row > .col-2, #LayoutGrid10 > .row > .col-3
+#LayoutGrid10 > .row > .col-1
 {
    float: none;
    width: 100%;
@@ -9755,7 +9616,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 97;
+   z-index: 96;
 }
 #lg2_page8
 {
@@ -9789,7 +9650,7 @@ body
    top: 71px;
    width: 29px;
    height: 29px;
-   z-index: 131;
+   z-index: 130;
 }
 #wb_Icon11
 {
@@ -9797,7 +9658,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 115;
+   z-index: 114;
 }
 #prevButton1
 {
@@ -9855,7 +9716,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 117;
+   z-index: 116;
 }
 #lg2_page7
 {
@@ -9874,7 +9735,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 116;
+   z-index: 115;
 }
 #lg2_page4
 {
@@ -9886,7 +9747,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 119;
+   z-index: 118;
 }
 #lg3_page9
 {
@@ -9902,7 +9763,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 118;
+   z-index: 117;
 }
 #lg3_page8
 {
@@ -9949,10 +9810,6 @@ body
    overflow: hidden;
 }
 #lg2_page2
-{
-   overflow: hidden;
-}
-#lg2_page26
 {
    overflow: hidden;
 }
@@ -10072,7 +9929,7 @@ body
    display: inline-block;
    width: 155px;
    height: 35px;
-   z-index: 98;
+   z-index: 97;
 }
 #lg1_page19
 {
@@ -11190,44 +11047,6 @@ body
    width: 100%;
 }
 #lg2_page25 .visible-col1
-{
-   display: block;
-}
-#lg2_page26
-{
-   visibility: visible;
-   display: block;
-}
-#lg2_page26
-{
-   font-family: Arial;
-   font-size: 13px;
-}
-#lg2_page26 .blogdate
-{
-   font-family: Tahoma;
-   font-size: 11px;
-}
-#lg2_page26 .blogsubject
-{
-   font-family: Tahoma;
-   font-size: 13px;
-}
-#lg2_page26 .blogcomments
-{
-   font-family: "Times New Roman";
-   font-size: 11px;
-}
-#lg2_page26 .page-number
-{
-   font-family: Arial;
-   font-size: 13px;
-}
-#lg2_page26 .blogcolumn
-{
-   width: 100%;
-}
-#lg2_page26 .visible-col1
 {
    display: block;
 }
@@ -13291,7 +13110,7 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid10 > .row > .col-1, #LayoutGrid10 > .row > .col-2, #LayoutGrid10 > .row > .col-3
+#LayoutGrid10 > .row > .col-1
 {
    padding-right: 15px;
    padding-left: 15px;
@@ -13305,30 +13124,6 @@ body
    text-align: left;
 }
 #LayoutGrid10 > .row > .col-1 > .col-1-padding
-{
-   width: 100%;
-   padding: 0 -5px 0 -5px;
-}
-#LayoutGrid10 > .row > .col-2
-{
-   display: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid10 > .row > .col-2 > .col-2-padding
-{
-   width: 100%;
-   padding: 0 -5px 0 -5px;
-}
-#LayoutGrid10 > .row > .col-3
-{
-   display: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid10 > .row > .col-3 > .col-3-padding
 {
    width: 100%;
    padding: 0 -5px 0 -5px;

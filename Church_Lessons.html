@@ -690,33 +690,6 @@
          $pager.prependTo($blog).find('span.page-number:first').addClass('active');
          repaginate();
       });
-      $('#lg2_page26').each(function()
-      {
-         var currentPage = 0;
-         var numPerPage = 1;
-         var $blog = $(this);
-         var repaginate = function()
-         {
-            $blog.find('.blogitem').hide()
-                 .slice(currentPage * numPerPage, (currentPage + 1) * numPerPage)
-                 .show();
-         };
-         var numRows = $blog.find('.blogitem').length;
-         var numPages = Math.ceil(numRows / numPerPage);
-         var $pager = $('<div class="pager"></div>');
-         for (var page = 0; page < numPages; page++)
-         {
-            $('<span class="page-number"></span>').text(page + 1)
-            .bind('click', {newPage: page}, function(event)
-            {
-               currentPage = event.data['newPage'];
-               repaginate();
-               $(this).addClass('active').siblings().removeClass('active');
-            }).appendTo($pager).addClass('clickable');
-         }
-         $pager.prependTo($blog).find('span.page-number:first').addClass('active');
-         repaginate();
-      });
       $('#lg1_page2').each(function()
       {
          var currentPage = 0;
@@ -2013,14 +1986,6 @@
                                  <div id="wb_Text8">
                                     <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong>28 Fundamental Beliefs</strong></span>
                                  </div>
-                              </div>
-                           </div>
-                           <div class="col-2">
-                              <div class="col-2-padding">
-                              </div>
-                           </div>
-                           <div class="col-3">
-                              <div class="col-3-padding">
                               </div>
                            </div>
                         </div>
@@ -10656,18 +10621,6 @@ The Sabbath is at the heart of God’s final message to His people in Revelation
 Do you wish to be one of these last-day Christians who “obey God’s commandments” and “hold to the testimony of Jesus”? Why not make that decision just now?<br>
                         </span><br>
                         <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=4.%20GOD&#8217;S%20CHURCH%20IN%20OUR%20DAY">Lesson Evaluation</a></div>
-                     </div>
-                     <div class="clearfix visible-col1"></div>
-                  </div>
-                  <div id="lg2_page26" class="term2">
-                     <div class="blogitem">
-                        <span class="blogsubject">Death and Resurrection</span>
-                        <div class="no-thumb"></div>
-                        <div class="blogdate">Sunday, April 02, 2023<br></div>
-                        <span style="color:#000000;"><br>
-The wages of sin is death. But God, who alone is immortal, will grant eternal life to His redeemed. Until that day death is an unconscious state for all people. When Christ, who is our life, appears, the resurrected righteous and the living righteous will be glorified and caught up to meet their Lord. The second resurrection, the resurrection of the unrighteous, will take place a thousand years later. (Job 19:25-27; Ps. 146:3, 4; Eccl. 9:5, 6, 10; Dan. 12:2, 13; Isa. 25:8; John 5:28, 29; 11:11-14; Rom. 6:23; 16; 1 Cor. 15:51-54; Col. 3:4; 1 Thess. 4:13-17; 1 Tim. 6:15; Rev. 20:1-10.)<br>
-                        </span><br>
-                        <div class="blogcomments"><a href="mailto:flyingwingsacademy7@gmail.com?subject=Death%20and%20Resurrection">Lesson Evaluation</a></div>
                      </div>
                      <div class="clearfix visible-col1"></div>
                   </div>

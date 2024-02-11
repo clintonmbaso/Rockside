@@ -1351,131 +1351,6 @@ body
    width: 100% !important;
 }
 }
-#Button4
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button4:focus
-{
-   outline: 0;
-}
-#Button5
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button5:focus
-{
-   outline: 0;
-}
-#Button6
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button6:focus
-{
-   outline: 0;
-}
-#Button7
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button7:focus
-{
-   outline: 0;
-}
-#Button8
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button8:focus
-{
-   outline: 0;
-}
 #Button9
 {
    box-sizing: border-box;
@@ -2100,31 +1975,6 @@ body
 }
 }
 #Button18:focus
-{
-   outline: 0;
-}
-#Button21
-{
-   box-sizing: border-box;
-   line-height: 21px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #2E6DA4;
-   border-radius: 4px;
-   background-color: #3370B7;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0 1px 0 1px;
-}
-}
-#Button21:focus
 {
    outline: 0;
 }
@@ -3611,21 +3461,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 42;
+   z-index: 36;
 }
 #Button23
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 40;
-}
-#Button4
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 30;
+   z-index: 34;
 }
 #wb_quizinstructionHeading
 {
@@ -3639,7 +3482,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 119;
+   z-index: 107;
 }
 #backtotopStickyLayer
 {
@@ -3651,21 +3494,21 @@ body
    bottom: 110px;
    width: 41px;
    height: 41px;
-   z-index: 129;
+   z-index: 117;
 }
 #Button34
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 45;
+   z-index: 39;
 }
 #Button10
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 37;
+   z-index: 31;
 }
 #wb_quizlinksTabMenu
 {
@@ -3687,28 +3530,21 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 102;
+   z-index: 90;
 }
 #Button35
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 46;
+   z-index: 40;
 }
 #Button11
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 38;
-}
-#Button21
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 31;
+   z-index: 32;
 }
 #wb_Shape3
 {
@@ -3744,7 +3580,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 47;
+   z-index: 41;
 }
 #wb_Card14
 {
@@ -3761,14 +3597,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 51;
+   z-index: 45;
 }
 #Button37
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 48;
+   z-index: 42;
 }
 #wb_Slidehead
 {
@@ -3778,7 +3614,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 43;
+   z-index: 37;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -3786,27 +3622,27 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 120;
+   z-index: 108;
 }
 #Button31
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 53;
+   z-index: 47;
 }
 #wb_integratedscienceCard
 {
    display: flex;
    width: 100%;
-   z-index: 39;
+   z-index: 33;
 }
 #Button32
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 52;
+   z-index: 46;
 }
 #wb_quizHeading
 {
@@ -3820,7 +3656,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 117;
+   z-index: 105;
 }
 #top
 {
@@ -3831,7 +3667,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 44;
+   z-index: 38;
 }
 #wb_menuPanel
 {
@@ -3848,21 +3684,21 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 130;
+   z-index: 118;
 }
 #Button29
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 59;
+   z-index: 53;
 }
 #Button18
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 41;
+   z-index: 35;
 }
 #wb_Heading20
 {
@@ -3882,7 +3718,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 58;
+   z-index: 52;
 }
 #wb_IconFont8
 {
@@ -3929,7 +3765,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 36;
+   z-index: 30;
 }
 #wb_emailFontAwesomeIcon
 {
@@ -3937,34 +3773,27 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 121;
+   z-index: 109;
 }
 #Button27
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 57;
+   z-index: 51;
 }
 #wb_englishlanguageCard
 {
    display: flex;
    width: 100%;
-   z-index: 50;
+   z-index: 44;
 }
 #Button38
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 49;
-}
-#Button8
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 35;
+   z-index: 43;
 }
 #wb_top
 {
@@ -3973,35 +3802,21 @@ body
    top: 0px;
    width: 62px;
    height: 72px;
-   z-index: 128;
+   z-index: 116;
 }
 #Button26
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 56;
-}
-#Button7
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 34;
+   z-index: 50;
 }
 #Button25
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 55;
-}
-#Button6
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 33;
+   z-index: 49;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4009,7 +3824,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 118;
+   z-index: 106;
 }
 #wb_backtotopIcon
 {
@@ -4019,21 +3834,14 @@ body
    width: 16px;
    height: 15px;
    text-align: center;
-   z-index: 101;
+   z-index: 89;
 }
 #Button24
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 54;
-}
-#Button5
-{
-   display: inline-block;
-   width: 25px;
-   height: 25px;
-   z-index: 32;
+   z-index: 48;
 }
 @media only screen and (max-width: 969px)
 {
@@ -4538,91 +4346,6 @@ body
    margin-right: -15px;
    margin-left: -15px;
 }
-#Button4
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button4
-{
-   line-height: 21px;
-}
-#Button5
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button5
-{
-   line-height: 21px;
-}
-#Button6
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button6
-{
-   line-height: 21px;
-}
-#Button7
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button7
-{
-   line-height: 21px;
-}
-#Button8
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button8
-{
-   line-height: 21px;
-}
 #Button9
 {
    width: 25px;
@@ -5063,23 +4786,6 @@ body
    border-radius: 99px;
 }
 #Button18
-{
-   line-height: 21px;
-}
-#Button21
-{
-   width: 25px;
-   height: 25px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0 1px 0 1px;
-   padding: 1px 6px 1px 6px;
-   background-color: rgba(51,112,183,0.39);
-   background-image: none;
-   border: 1px solid #193441;
-   border-radius: 99px;
-}
-#Button21
 {
    line-height: 21px;
 }

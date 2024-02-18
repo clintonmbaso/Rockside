@@ -1902,13 +1902,13 @@
                      <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Young-Adult.html" class="OverlayMenu2-effect"><i class="fa fa-line-chart overlay-icon"></i>Young&nbsp;Adult</a></li>
-                     <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                     <li><a role="menuitem" href="./Honours.html" class="OverlayMenu2-effect"><i class="fa fa-language overlay-icon"></i>Honors</a></li>
                      <li><a role="menuitem" href="./Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Affiliation&nbsp;Forms</a></li>
                      <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
                      <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect"><i class="fa fa-street-view overlay-icon"></i>Organization&nbsp;Charts</a></li>
                      <li><a role="menuitem" href="./Report.html" class="OverlayMenu2-effect"><i class="fa fa-calculator overlay-icon"></i>Report</a></li>
                      <li><a role="menuitem" href="calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
-                     <li><a role="menuitem" href="music_player.html" class="OverlayMenu2-effect">Music&nbsp;Player</a></li>
+                     <li><a role="menuitem" href="music_player.html" class="OverlayMenu2-effect"><i class="fa fa-music overlay-icon"></i>Music&nbsp;Player</a></li>
                   </ul>
                </div>
             </div>
@@ -17187,8 +17187,7 @@ Resource materials to help Adventist Youth Ministries leadership are available f
               const currentPage = {
                   lg1: 1,
                   lg2: 1,
-                  lg3: 1,
-                  lg4: 1
+                  lg3: 1
               };
       
               const hideAllPages = (lg, termClass) => {
@@ -17247,25 +17246,18 @@ Resource materials to help Adventist Youth Ministries leadership are available f
               });
       
       
-              // Navigation for lg4
-              document.getElementById('prevButton4').addEventListener('click', function () {
-                  navigate('prev', 'lg4', 'term4');
-              });
       
-              document.getElementById('nextButton4').addEventListener('click', function () {
-                  navigate('next', 'lg4', 'term4');
-              });
       
       
       
               hideAllPages('lg1', 'term1');
               hideAllPages('lg2', 'term2');
               hideAllPages('lg3', 'term3');
-              hideAllPages('lg4', 'term4');
+      
               showPage(1, 'lg1', 'term1');
               showPage(1, 'lg2', 'term2');
               showPage(1, 'lg3', 'term3');
-              showPage(1, 'lg4', 'term4');
+      
           });
       </script></div>
 </body>

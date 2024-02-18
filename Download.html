@@ -27,144 +27,6 @@
 </head>
 <body>
    <div id="container">
-      <div id="wb_EmbeddedPage4">
-         <div id="Html1">
-  
-            <div id="countdown" onclick="showPopup('School Open - Jan 8, 2024', 'Civilian Day - Feb 9, 2024', 'images/767048.jpg')"></div>
-    <!-- Popups container and blurred background -->
-            <div class="popups-container" id="popupsContainer">
-               <div id="popups" class="popups">
-                  <img id="popupsImage" src="" alt="Current Event">
-                  <p id="popupsCaption">
-                  <p id="popupsDetails">
-                  <button onclick="closePopup()">Close</button>
-               </div>
-            </div>
-            <div id="blurredBackground" class="blurred-background" onclick="closePopup()"></div>
-            <script>            
-              // Array of events with their respective dates and reminder thresholds
-              const events = [
-                { name: "KEMD Adventurer Bible Quiz", date: new Date("Fed 25, 2024 08:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
-                { name: "MEZC Leadership Seminar", date: new Date("Mar 7, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "MEZC GYD Part 1", date: new Date("Mar 12, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "MEZC GYD Part 2", date: new Date("Mar 16, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-            	{ name: "Youth Week of Prayer", date: new Date("Mar 17, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-                { name: "KEMD Big Sabbath", date: new Date("Mar 30, 2024 08:00:00").getTime(), reminderDays: 5, reminderHours: 12 },
-            	{ name: "MEZC I Love my Neighbor/KEMD Pathfinder Fair", date: new Date("Mar 31, 2024 08:00:00").getTime(), reminderDays: 2, reminderHours: 12 },
-            	{ name: "Collecting Results", date: new Date("Apr 19, 2024 08:00:00").getTime(), reminderDays: 3, reminderHours: 12 },
-            	{ name: "Closing School", date: new Date("Apr 19, 2024 12:00:00").getTime(), reminderDays: 0, reminderHours: 2 }
-              ];
-            
-              let currentEventIndex = 0;
-            
-              function updateCountdown() {
-                // Get the current date and time
-                const now = new Date().getTime();
-            
-                // Get the details of the current event
-                const currentEvent = events[currentEventIndex];
-            
-                // Calculate the time remaining for the current event
-                const distance = currentEvent.date - now;
-            
-                // Calculate days, hours, minutes, and seconds
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-                // Display the countdown for the current event with the event name as a link
-                document.getElementById("countdown").innerHTML =
-                  "<a href='#' onclick='openPopup()' style='text-decoration: none;'><strong>" + currentEvent.name + "</strong></a><br>" +
-                  days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-            
-                // Check if it's time to show a reminder
-                if (distance > 0) {
-                  if (days === currentEvent.reminderDays && hours === currentEvent.reminderHours) {
-                    showReminder(currentEvent.name);
-                  }
-                }
-            
-                // If the countdown for the current event is over, move to the next event
-                if (distance < 0) {
-                  currentEventIndex++;
-                  // If all events are completed, display a message
-                  if (currentEventIndex >= events.length) {
-                    document.getElementById("countdown").innerHTML = "All events completed!";
-                  } else {
-                    // Update the countdown for the next event
-                    updateCountdown();
-                  }
-                }
-              }
-            
-              // Function to show a reminder
-              function showReminder(eventName) {
-                const notificationOptions = {
-                  body: "Your event '" + eventName + "' is approaching!",
-                  icon: "icons/fwa.png" // Provide the path to an icon image
-                };
-            
-                // Check if the browser supports notifications
-                if ("Notification" in window) {
-                  // Request permission to show notifications
-                  Notification.requestPermission().then(function (permission) {
-                    if (permission === "granted") {
-                      // Show the notification
-                      const notification = new Notification("Event Reminder", notificationOptions);
-            
-                      // Vibrate for 1 second
-                      if ("vibrate" in navigator) {
-                        navigator.vibrate(1000);
-                      }
-            
-                      // Play a sound (may not work in all browsers)
-                      const audio = new Audio("path/to/sound.mp3"); // Provide the path to a sound file
-                      audio.play();
-                    }
-                  });
-                }
-              }
-            
-              // Update the countdown every 1 second
-              setInterval(updateCountdown, 1000);
-            
-                    // Function to show the popup with image, caption, and details
-                    function showPopup(caption, details, imageUrl) {
-                        document.getElementById('popupsImage').src = imageUrl;
-                        document.getElementById('popupsCaption').innerHTML = caption;
-                        document.getElementById('popupsDetails').innerHTML = details;
-                        document.getElementById('popupsContainer').style.display = 'block';
-                        document.getElementById('blurredBackground').style.display = 'block'; // Show blurred background
-                    }
-            
-                    // Function to close the popups
-                    function closePopup() {
-                        document.getElementById('popupsContainer').style.display = 'none';
-                        document.getElementById('blurredBackground').style.display = 'none'; // Hide blurred background
-                    }
-            
-              let lastScrollPosition = 0;
-              const countdown = document.getElementById('countdown');
-            
-              window.addEventListener('scroll', () => {
-                const currentScrollPosition = window.scrollY;
-            
-                if (currentScrollPosition > lastScrollPosition && currentScrollPosition > 100) {
-                  countdown.classList.add('hide');
-                } else {
-                  countdown.classList.remove('hide');
-                }
-            
-                lastScrollPosition = currentScrollPosition;
-              });
-                    
-                    // Close the popup and blurred background on page load
-                    window.onload = function() {
-                        closePopup();
-                    };
-            </script></div>
-      </div>
    </div>
    <div id="FlexContainer3">
       <div id="wb_EmbeddedPage1">
@@ -187,13 +49,13 @@
                      <li><a role="menuitem" href="./Pathfinder.html" class="OverlayMenu2-effect"><i class="fa fa-bullhorn overlay-icon"></i>Pathfinder&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Ambassador.html" class="OverlayMenu2-effect"><i class="fa fa-diamond overlay-icon"></i>Ambassador&nbsp;Ministry</a></li>
                      <li><a role="menuitem" href="./Young-Adult.html" class="OverlayMenu2-effect"><i class="fa fa-line-chart overlay-icon"></i>Young&nbsp;Adult</a></li>
-                     <li><a role="menuitem" href="./Honours.html" onclick="window.location.href='#';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-bell-o overlay-icon"></i>Honours</a></li>
+                     <li><a role="menuitem" href="./Honours.html" class="OverlayMenu2-effect"><i class="fa fa-language overlay-icon"></i>Honors</a></li>
                      <li><a role="menuitem" href="./Student_Search.html" class="OverlayMenu2-effect"><i class="fa fa-child overlay-icon"></i>Affiliation&nbsp;Forms</a></li>
                      <li><a role="menuitem" href="./Download.html" onclick="window.location.href='./Download.html';HidePanel('PanelLayer', event);return false;" class="OverlayMenu2-effect"><i class="fa fa-download overlay-icon"></i>Downloads</a></li>
                      <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect"><i class="fa fa-street-view overlay-icon"></i>Organization&nbsp;Charts</a></li>
                      <li><a role="menuitem" href="./Report.html" class="OverlayMenu2-effect"><i class="fa fa-calculator overlay-icon"></i>Report</a></li>
                      <li><a role="menuitem" href="calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
-                     <li><a role="menuitem" href="music_player.html" class="OverlayMenu2-effect">Music&nbsp;Player</a></li>
+                     <li><a role="menuitem" href="music_player.html" class="OverlayMenu2-effect"><i class="fa fa-music overlay-icon"></i>Music&nbsp;Player</a></li>
                   </ul>
                </div>
             </div>
@@ -244,19 +106,117 @@
    </div>
    <div id="wb_FlexContainer2">
       <div id="FlexContainer2">
+		  
+		  
+		 <!-- Adventurer -->
          <div id="wb_Heading1">
-            <h3 id="Heading1">Pathfinder Documents</h3>
+            <h3 id="Heading1">Adventurer Documents</h3>
          </div>
-         <a id="Button1" href="Pathfinder_Friend.html">Friend</a>
-         <a id="Button2" href="Pathfinder_Companion.html">Companion</a>
-         <a id="Button3" href="Pathfinder_Explorer.html">Explorer</a>
-         <a id="Button4" href="Pathfinder_Ranger.html">Ranger</a>
-         <a id="Button5" href="Pathfinder_Voyager.html">Voyager</a>
-         <a id="Button6" href="Pathfinder_Guide.html">Guide</a>
-         <a id="Button7" href="Pathfinder_Story.html">Pathfinder Story</a>
-         <a id="Button8" href="Pathfinder_THP.html">The Happy Path</a>
-         <a id="Button9" href="Pathfinder_Manual.html">Admin Manual</a>
-         <a id="Button10" href="Pathfinder_Drills.html">Drills Manual</a>
+         <a id="Button1" href="Documents/1. Adventurer/1. Little Lamb Manual.pdf">Little Lamb</a>
+         <a id="Button2" href="Documents/1. Adventurer/2. Early Bird Instructor Manual.pdf">Eager Beaver</a>
+         <a id="Button3" href="Documents/1. Adventurer/3. Busy Bee Activity Book.pdf">Busy Bee</a>
+         <a id="Button4" href="Documents/1. Adventurer/4. Sunbeam Manual.pdf">Sunbeam</a>
+         <a id="Button5" href="Documents/1. Adventurer/5. Builder Activity Book.pdf">Builder</a>
+         <a id="Button6" href="Documents/1. Adventurer/6. Helping Hands.pdf">Helping Hand</a>
+         <a id="Button9" href="Documents/1. Adventurer/0. adv_adm_manual.html.pdf">Admin Manual</a>
+		  
+		  
+		 <!-- Pathfinder -->
+         <div id="wb_Heading2">
+            <h3 id="Heading2">Pathfinder Documents</h3>
+         </div>
+         <a id="Button11" href="Documents/2. Pathfinder/1. Manual-Friend.pdf">Friend</a>
+         <a id="Button12" href="Documents/2. Pathfinder/2. Manual-Companion.pdf">Companion</a>
+         <a id="Button13" href="Documents/2. Pathfinder/3. Manual-Explorer.pdf">Explorer</a>
+         <a id="Button14" href="Documents/2. Pathfinder/4. Manual-Ranger.pdf">Ranger</a>
+         <a id="Button15" href="Documents/2. Pathfinder/5. Manual-Voyager.pdf">Voyager</a>
+         <a id="Button16" href="Documents/2. Pathfinder/6. Manual-Guide.pdf">Guide</a>
+         <a id="Button17" href="Documents/2. Pathfinder/Pathfinder Story.pdf">Pathfinder Story</a>
+         <a id="Button18" href="Documents/2. Pathfinder/the_happy_path.pdf">The Happy Path</a>
+         <a id="Button19" href="Documents/2. Pathfinder/Pathfinder-Administrative-Manual_5-2004.pdf">Admin Manual</a>
+         <a id="Button20" href="Documents/2. Pathfinder/Pathfinder-Drill-Manual-SDACC_Approved.pdf">Drills Manual</a>
+		  
+		  
+		 <!-- Ambassador -->
+         <div id="wb_Heading3">
+            <h3 id="Heading3">Ambassador Documents</h3>
+         </div>
+         <a id="Button26" href="Documents/3. Ambassador/0. Ambassadors-Administrative-Manual.pdf">Admin Manual</a>
+         <a id="Button27" href="Documents/3. Ambassador/iCOR-Brochure-ENG-reduced.pdf">iCor Values</a>
+         <a id="Button7" href="Documents/3. Ambassador/Module-1-Leader - Discipleship.pdf">Module 1 - L</a>
+         <a id="Button33" href="Documents/3. Ambassador/Module-1-Participant - Discipleship.pdf">Module 1 - P</a>
+         <a id="Button30" href="Documents/3. Ambassador/Module-2-Leader - Leadership.pdf">Module 2 - L</a>
+         <a id="Button32" href="Documents/3. Ambassador/Module-2-Participant - Leadership.pdf">Module 2 - P</a>
+         <a id="Button31" href="Documents/3. Ambassador/Module-3-Leader - Outreach.pdf">Module 3 - L</a>
+         <a id="Button8" href="Documents/3. Ambassador/Module-3-Participant - Outreach.pdf">Module 3 - P</a>
+         <a id="Button29" href="Documents/3. Ambassador/Module-4-Leaders - Outdoor.pdf">Module 4 - L</a>
+         <a id="Button22" href="Documents/3. Ambassador/Module-4-Participant - Outdoor.pdf">Module 4 - P</a>
+         <a id="Button35" href="Documents/3. Ambassador/Module-5-Leader - Vocation.pdf">Module 5 - L</a>
+         <a id="Button24" href="Documents/3. Ambassador/Module-5-Participant - Vocation.pdf">Module 5 - P</a>
+         <a id="Button28" href="Documents/3. Ambassador/Module-6-Leader - Relationship.pdf">Module 6 - L</a>
+         <a id="Button25" href="Documents/3. Ambassador/Module-6-Participant - Relationship.pdf">Module 6 - P</a>
+         <a id="Button34" href="Documents/3. Ambassador/Module-7-Leader - Community.pdf">Module 7 - L</a>
+         <a id="Button10" href="Documents/3. Ambassador/Module-7-Participant - Community.pdf">Module 7 - P</a>
+         <a id="Button23" href="Documents/3. Ambassador/Seminar 01 - Introduction to Youth Ministry.pdf">Seminar 1</a>
+         <a id="Button21" href="Documents/3. Ambassador/Seminar 02 - Youth Development.pdf">Seminar 2</a>
+         <a id="Button39" href="Documents/3. Ambassador/Seminar 03 - Current Issues.pdf">Seminar 3</a>
+         <a id="Button36" href="Documents/3. Ambassador/Seminar 04 - Leadership.pdf">Seminar 4</a>
+         <a id="Button37" href="Documents/3. Ambassador/Seminar 05 - Mentoring.pdf">Seminar 5</a>
+         <a id="Button38" href="Documents/3. Ambassador/Seminar 06 - Church Planning.pdf">Seminar 6</a>
+         <a id="Button43" href="Documents/3. Ambassador/Seminar 07 - Creative Youth Ministry.pdf">Seminar 7</a>
+         <a id="Button41" href="Documents/3. Ambassador/Seminar 08 - Serving.pdf">Seminar 8</a>
+         <a id="Button42" href="Documents/3. Ambassador/Seminar 09 - Youth Outreach.pdf">Seminar 9</a>
+         <a id="Button40" href="Documents/3. Ambassador/Seminar 10 - Digital Ministry.pdf">Seminar 10</a>
+		  
+		  
+		 <!-- Young Adults -->
+         <div id="wb_Heading4">
+            <h3 id="Heading4">Young Adult Documents</h3>
+         </div>
+         <a id="Button44" href="Documents/4. Young Adults/AY Youth Ministry Handbook.pdf">AY Handbook</a>
+         <a id="Button45" href="Documents/4. Young Adults/AY-Story.pdf">AY Story</a>
+         <a id="Button46" href="Documents/4. Young Adults/Foundations-of-Senior-Youth-Ministry-November-2013-FINAL.pdf">AY Foundations</a>
+         <a id="Button47" href="Documents/4. Young Adults/MB 1 - Incorperating Mentoring in Your Youth Ministry.pdf">MB 1</a>
+         <a id="Button48" href="Documents/4. Young Adults/MB 2 - The Need for Being Connected.pdf">MB 2</a>
+         <a id="Button49" href="Documents/4. Young Adults/MB 3 - Definitions and Types of Mentoring.pdf">MB 3</a>
+         <a id="Button50" href="Documents/4. Young Adults/MB 4 - Benefits of Mentoring.pdf">MB 4</a>
+         <a id="Button51" href="Documents/4. Young Adults/MB 5 - Being a Mentor.pdf">MB 5</a>
+         <a id="Button52" href="Documents/4. Young Adults/MB 6 - Being a Mentor Partner.pdf">MB 6</a>
+         <a id="Button53" href="Documents/4. Young Adults/MB 7 - Passing on Values.pdf">MB 7</a>
+         <a id="Button54" href="Documents/4. Young Adults/MB 8 - Listening Skills.pdf">MB 8</a>
+         <a id="Button55" href="Documents/4. Young Adults/THE AY LEGION HONOUR 1.pdf">Legion of Honor</a>
+		  
+		  
+		 <!-- Master Guide -->
+         <div id="wb_Heading5">
+            <h3 id="Heading5">Master Guide Documents</h3>
+         </div>
+         <a id="Button56" href="Documents/5. Master Guide/01. Pathfinder Basic Staff Training Course.pdf">PBST</a>
+         <a id="Button57" href="Documents/5. Master Guide/02. Bible_truths.pdf">Bible Truth</a>
+         <a id="Button58" href="Documents/5. Master Guide/03. Church Heritage.pdf">Church Heritage</a>
+         <a id="Button59" href="Documents/5. Master Guide/04. 28_Beliefs.pdf">28 Beliefs</a>
+         <a id="Button60" href="Documents/5. Master Guide/05. Pathfinder-Story.pdf">Pathfinder Story</a>
+         <a id="Button61" href="Documents/5. Master Guide/06. The-Happy-Path-small.pdf">Happy Path</a>
+         <a id="Button62" href="Documents/5. Master Guide/07. Master Guide Manual.pdf">MG Manual</a>
+         <a id="Button63" href="Documents/5. Master Guide/08. MG-curriculum-manual.pdf">MG Curriculum</a>
+		 <a id="Button69" href="Documents/5. Master Guide/09. MG-Requirements-Card.pdf">Requirement Card</a>
+		  
+		  
+		 <!-- SYL -->
+         <div id="wb_Heading6">
+            <h3 id="Heading6">SYL Documents</h3>
+         </div>
+         <a id="Button64" href="Documents/6. SYL/01. Pastors-and-Elders-manual-on-youth-ministry.pdf">P&E Manual/AYM</a>
+         <a id="Button65" href="Documents/6. SYL/02. Revived_by_His_Word_Calendar-2012-2015.pdf">Devotional Guide</a>
+         <a id="Button66" href="Documents/6. SYL/03. Steps-to-Discipleship-FINAL-inside-text.pdf">Steps-Discipleship</a>
+         <a id="Button67" href="Documents/6. SYL/04. SYL18-Final-HIGHres.pdf">SYL Curriculum</a>
+		 <a id="Button70" href="Documents/6. SYL/06. Adventism in Zambia.pdf">SDA in Zambia</a>
+		 <a id="Button70" href="Documents/6. SYL/07. AFRICAN_CHURCH_HERITAGE_2016.pdf">African Heritage</a>
+         <a id="Button68" href="Documents/6. SYL/05. SYL-Requirements-Card.pdf">Requirement Card</a>
+		  
+		  
+		  
+		  
       </div>
    </div>
    <div id="wb_lowerfooterLayoutGrid">

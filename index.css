@@ -226,7 +226,7 @@ a:hover
    padding: 0;
    margin: 0;
    position: absolute;
-   margin-left: -168px;
+   margin-left: -420px;
    left: 50%;
    vertical-align: middle;
    z-index: 999;
@@ -398,6 +398,114 @@ a:hover
 {
    background-color: transparent;
    background-image: url('images/8a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-9
+{
+   background-color: transparent;
+   background-image: url('images/9a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-10
+{
+   background-color: transparent;
+   background-image: url('images/10a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-11
+{
+   background-color: transparent;
+   background-image: url('images/11a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-12
+{
+   background-color: transparent;
+   background-image: url('images/12a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-13
+{
+   background-color: transparent;
+   background-image: url('images/13a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-14
+{
+   background-color: transparent;
+   background-image: url('images/14a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-15
+{
+   background-color: transparent;
+   background-image: url('images/15a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-16
+{
+   background-color: transparent;
+   background-image: url('images/16a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-17
+{
+   background-color: transparent;
+   background-image: url('images/17a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-18
+{
+   background-color: transparent;
+   background-image: url('images/18a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-19
+{
+   background-color: transparent;
+   background-image: url('images/19a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-20
+{
+   background-color: transparent;
+   background-image: url('images/20a.jpg');
    background-repeat: repeat;
    background-position: center center;
    background-attachment: scroll;
@@ -2286,7 +2394,7 @@ a:hover
 {
    outline: 0;
 }
-#wb_shaelynMbaso1 
+#shaelynMbaso1 
 {
    background-color: rgba(238,238,238,0.39);
    background-image: none;
@@ -2299,52 +2407,23 @@ a:hover
    text-align: center;
    box-shadow: 0px 0px 10px #008B8B;
 }
-#wb_shaelynMbaso1
+#shaelynMbaso1
 {
    color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
 }
-#wb_shaelynMbaso1 div
+#shaelynMbaso1 div
 {
    text-align: center;
 }
-#wb_shaelynMbaso1
+#shaelynMbaso1
 {
    display: block;
    margin: 0;
    box-sizing: border-box;
    width: 100%;
-}
-#wb_shaelynMbaso1
-{
-   overflow: hidden;
-   position: relative;
-}
-#shaelynMbaso1
-{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   animation: shaelynMbaso1-marquee 10000ms linear infinite;
-}
-@keyframes shaelynMbaso1-marquee
-{
-   0%
-   {
-   transform: translateX(100%);
-   }
-   100%
-   {
-   transform: translateX(-100%);
-   }
-}
-#wb_shaelynMbaso1:hover #shaelynMbaso1
-{
-   animation-play-state: paused;
 }
 #wb_babyclassImage
 {
@@ -3881,30 +3960,285 @@ body
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Text9 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text10 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text11 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Text11
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text12 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12 div
+{
+   text-align: center;
+}
+#wb_Text12
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text13 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13 div
+{
+   text-align: center;
+}
+#wb_Text13
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text14 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14 div
+{
+   text-align: center;
+}
+#wb_Text14
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text15 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15 div
+{
+   text-align: center;
+}
+#wb_Text15
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text16 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text16 div
+{
+   text-align: center;
+}
+#wb_Text16
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text17 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_Text17
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text18 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text18 div
+{
+   text-align: center;
+}
+#wb_Text18
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text19 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text19 div
+{
+   text-align: center;
+}
+#wb_Text19
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text20 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text20 div
+{
+   text-align: center;
+}
+#wb_Text20
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #wb_currentDate
 {
    display: inline-block;
    width: 100%;
-   z-index: 58;
+   z-index: 70;
 }
 #wb_grade4Image
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 50;
+   z-index: 62;
 }
 #wb_grade4Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 49;
+   z-index: 61;
 }
 #wb_grade2Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 43;
+   z-index: 55;
+}
+#shaelynMbaso1
+{
 }
 #backtotopStickyLayer
 {
@@ -3916,7 +4250,7 @@ body
    bottom: 130px;
    width: 41px;
    height: 41px;
-   z-index: 158;
+   z-index: 170;
 }
 #wb_callFontAwesomeIcon
 {
@@ -3924,14 +4258,14 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 81;
+   z-index: 93;
 }
 #downloadButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 71;
+   z-index: 83;
 }
 #wb_backtoTop
 {
@@ -3940,19 +4274,19 @@ body
    top: 3px;
    width: 41px;
    height: 42px;
-   z-index: 155;
+   z-index: 167;
 }
 #wb_Card1
 {
    display: flex;
    width: 100%;
-   z-index: 54;
+   z-index: 66;
 }
 #wb_linksTabMenu
 {
    display: inline-block;
    width: 291px;
-   z-index: 25;
+   z-index: 37;
    overflow: hidden;
 }
 #wb_OverlayMenu2
@@ -3968,20 +4302,20 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 147;
+   z-index: 159;
 }
 #searchButton
 {
    display: inline-block;
    width: 557px;
    height: 25px;
-   z-index: 74;
+   z-index: 86;
 }
 #wb_servicesHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 59;
+   z-index: 71;
 }
 #wb_home_logo
 {
@@ -4009,7 +4343,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 32;
+   z-index: 44;
 }
 #PanelLayer
 {
@@ -4019,7 +4353,7 @@ body
 {
    display: inline-block;
    width: 100%;
-   z-index: 31;
+   z-index: 43;
 }
 #wb_Slidehead
 {
@@ -4028,13 +4362,13 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 52;
+   z-index: 64;
 }
 #wb_grade3Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 46;
+   z-index: 58;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -4042,27 +4376,27 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 82;
+   z-index: 94;
 }
 #testsButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 69;
+   z-index: 81;
 }
 #SiteSearch
 {
    display: block;
    width: 100%;
    height: 26px;
-   z-index: 73;
+   z-index: 85;
 }
 #wb_receptionclassHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 37;
+   z-index: 49;
 }
 #backtoTop
 {
@@ -4073,19 +4407,19 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 38;
+   z-index: 50;
 }
 #wb_middleclassHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 34;
+   z-index: 46;
 }
 #wb_mainHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 26;
+   z-index: 38;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -4093,7 +4427,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 79;
+   z-index: 91;
 }
 #SiteSearch_form
 {
@@ -4112,7 +4446,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 44;
+   z-index: 56;
 }
 #wb_EmbeddedPage5
 {
@@ -4121,7 +4455,7 @@ body
    top: 0px;
    width: 22px;
    height: 22px;
-   z-index: 160;
+   z-index: 172;
 }
 #wb_EmbeddedPage4
 {
@@ -4130,13 +4464,13 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 159;
+   z-index: 171;
 }
 #wb_Heading2
 {
    display: inline-block;
    width: 100%;
-   z-index: 56;
+   z-index: 68;
 }
 #wb_Heading20
 {
@@ -4164,7 +4498,7 @@ body
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 47;
+   z-index: 59;
 }
 #wb_emailFontAwesomeIcon
 {
@@ -4172,33 +4506,33 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 83;
+   z-index: 95;
 }
 #updatesButton
 {
    display: block;
    width: 60px;
    height: 20px;
-   z-index: 70;
+   z-index: 82;
 }
 #wb_dailyText
 {
    display: inline-block;
    width: 100%;
-   z-index: 57;
+   z-index: 69;
 }
 #wb_goalCard
 {
    display: flex;
    width: 100%;
-   z-index: 53;
+   z-index: 65;
 }
 #wb_grade1Image
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 41;
+   z-index: 53;
 }
 #wb_backtotopIcon
 {
@@ -4208,7 +4542,7 @@ body
    width: 16px;
    height: 15px;
    text-align: center;
-   z-index: 84;
+   z-index: 96;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4216,20 +4550,20 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 80;
+   z-index: 92;
 }
 #wb_grade1Heading
 {
    display: inline-block;
    width: 100%;
-   z-index: 40;
+   z-index: 52;
 }
 #wb_middleclassImage
 {
    display: inline-block;
    width: 100%;
    height: auto;
-   z-index: 35;
+   z-index: 47;
 }
 @media only screen and (max-width: 975px)
 {
@@ -5138,7 +5472,7 @@ body
    visibility: visible;
    display: block;
 }
-#wb_shaelynMbaso1
+#shaelynMbaso1
 {
    font-family: Arial;
    font-weight: 400;
@@ -5534,7 +5868,7 @@ body
 }
 #wb_EmbeddedPage4
 {
-   left: 325px;
+   left: 320px;
    top: 58px;
    width: 20px;
    height: 28px;
@@ -5909,6 +6243,126 @@ body
    margin: 5px 0 5px 0 ;
    padding: 0;
    text-align: center;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text13
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text13
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text18
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text19
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text20
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text20
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
 }
 }
     #countdown {

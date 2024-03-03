@@ -60,7 +60,7 @@ body
 }
 #wb_Slidehead
 {
-   height: 300px;
+   height: 355px;
 }
 #Slidehead
 {
@@ -150,7 +150,7 @@ body
    padding: 0;
    margin: 0;
    position: absolute;
-   margin-left: -63px;
+   margin-left: -420px;
    left: 50%;
    vertical-align: middle;
    z-index: 999;
@@ -221,10 +221,10 @@ body
 }
 #Slidehead .frame
 {
-   width: 970px;
+   width: 976px;
    display: inline-block;
    float: left;
-   height: 300px;
+   height: 355px;
 }
 #Slidehead .carousel-control-next, #Slidehead .carousel-control-prev
 {
@@ -258,92 +258,182 @@ body
 #Slidehead .frame-1
 {
    background-color: transparent;
-   background-image: url('images/8a.jpg');
+   background-image: url('images/1a.jpg');
    background-repeat: repeat;
-   background-position: center bottom;
+   background-position: center center;
    background-attachment: scroll;
    background-size: contain;
 }
 #Slidehead .frame-2
 {
    background-color: transparent;
-   background-image: url('images/6a.jpg');
+   background-image: url('images/2a.jpg');
    background-repeat: repeat;
-   background-position: left top;
+   background-position: center center;
    background-attachment: scroll;
    background-size: contain;
 }
 #Slidehead .frame-3
 {
    background-color: transparent;
-   background-image: url('images/4a.jpg');
+   background-image: url('images/3a.jpg');
    background-repeat: repeat;
-   background-position: left top;
+   background-position: center center;
    background-attachment: scroll;
    background-size: contain;
 }
-#wb_Text4 
+#Slidehead .frame-4
 {
-   background-color: rgba(128,128,128,0.39);
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0 10px 0;
-   margin: 0;
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/4a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text4 div
+#Slidehead .frame-5
 {
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/5a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text4
+#Slidehead .frame-6
 {
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
+   background-color: transparent;
+   background-image: url('images/6a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text9 
+#Slidehead .frame-7
 {
-   background-color: rgba(128,128,128,0.39);
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0 10px 0;
-   margin: 0;
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/7a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text9 div
+#Slidehead .frame-8
 {
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/8a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text9
+#Slidehead .frame-9
 {
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
+   background-color: transparent;
+   background-image: url('images/9a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text5 
+#Slidehead .frame-10
 {
-   background-color: rgba(128,128,128,0.39);
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0 10px 0;
-   margin: 0;
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/10a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text5 div
+#Slidehead .frame-11
 {
-   text-align: center;
+   background-color: transparent;
+   background-image: url('images/11a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
-#wb_Text5
+#Slidehead .frame-12
 {
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
+   background-color: transparent;
+   background-image: url('images/12a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-13
+{
+   background-color: transparent;
+   background-image: url('images/13a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-14
+{
+   background-color: transparent;
+   background-image: url('images/14a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-15
+{
+   background-color: transparent;
+   background-image: url('images/15a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-16
+{
+   background-color: transparent;
+   background-image: url('images/16a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-17
+{
+   background-color: transparent;
+   background-image: url('images/17a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-18
+{
+   background-color: transparent;
+   background-image: url('images/18a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-19
+{
+   background-color: transparent;
+   background-image: url('images/19a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
+}
+#Slidehead .frame-20
+{
+   background-color: transparent;
+   background-image: url('images/20a.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: contain;
 }
 #wb_LayoutGrid2
 {
@@ -3959,32 +4049,452 @@ body
 {
    outline: 0;
 }
+#wb_slideText3 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText3 div
+{
+   text-align: center;
+}
+#wb_slideText3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText1 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText1 div
+{
+   text-align: center;
+}
+#wb_slideText1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText4 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText4 div
+{
+   text-align: center;
+}
+#wb_slideText4
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText5 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText5 div
+{
+   text-align: center;
+}
+#wb_slideText5
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText2 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText2 div
+{
+   text-align: center;
+}
+#wb_slideText2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText6 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText6 div
+{
+   text-align: center;
+}
+#wb_slideText6
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_slideText8 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_slideText8 div
+{
+   text-align: center;
+}
+#wb_slideText8
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text4 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Text4
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text9 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text10 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text11 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Text11
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text12 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text12 div
+{
+   text-align: center;
+}
+#wb_Text12
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text13 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13 div
+{
+   text-align: center;
+}
+#wb_Text13
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text14 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14 div
+{
+   text-align: center;
+}
+#wb_Text14
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text15 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15 div
+{
+   text-align: center;
+}
+#wb_Text15
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text16 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text16 div
+{
+   text-align: center;
+}
+#wb_Text16
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text17 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text17 div
+{
+   text-align: center;
+}
+#wb_Text17
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text18 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text18 div
+{
+   text-align: center;
+}
+#wb_Text18
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text19 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text19 div
+{
+   text-align: center;
+}
+#wb_Text19
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text20 
+{
+   background-color: rgba(128,128,128,0.39);
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 10px 0 10px 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text20 div
+{
+   text-align: center;
+}
+#wb_Text20
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
 #Button4
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 54;
+   z-index: 71;
 }
 #Button13
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 45;
+   z-index: 62;
 }
 #Button23
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 43;
+   z-index: 60;
 }
 #wb_quizinstructionHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 28;
+   z-index: 45;
 }
 #wb_callFontAwesomeIcon
 {
@@ -3992,7 +4502,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 147;
+   z-index: 164;
 }
 #backtotopStickyLayer
 {
@@ -4004,41 +4514,41 @@ body
    bottom: 110px;
    width: 41px;
    height: 41px;
-   z-index: 157;
+   z-index: 174;
 }
 #Button3
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 57;
+   z-index: 74;
 }
 #Button34
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 48;
+   z-index: 65;
 }
 #Button22
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 36;
+   z-index: 53;
 }
 #Button10
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 31;
+   z-index: 48;
 }
 #wb_quizlinksTabMenu
 {
    display: inline-block;
    width: 321px;
-   z-index: 22;
+   z-index: 39;
    overflow: hidden;
 }
 #wb_OverlayMenu2
@@ -4054,42 +4564,42 @@ body
    top: 0px;
    width: 21px;
    height: 28px;
-   z-index: 130;
+   z-index: 147;
 }
 #Button2
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 56;
+   z-index: 73;
 }
 #Button35
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 49;
+   z-index: 66;
 }
 #Button21
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 35;
+   z-index: 52;
 }
 #Button11
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 32;
+   z-index: 49;
 }
 #wb_Shape3
 {
    display: inline-block;
    width: 112px;
    height: 3px;
-   z-index: 27;
+   z-index: 44;
    position: relative;
 }
 #wb_home_logo
@@ -4118,34 +4628,34 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 69;
+   z-index: 86;
 }
 #Button1
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 55;
+   z-index: 72;
 }
 #Button36
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 50;
+   z-index: 67;
 }
 #Button20
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 34;
+   z-index: 51;
 }
 #wb_Card14
 {
    display: flex;
    width: 100%;
-   z-index: 29;
+   z-index: 46;
 }
 #PanelLayer
 {
@@ -4156,14 +4666,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 66;
+   z-index: 83;
 }
 #Button37
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 51;
+   z-index: 68;
 }
 #wb_Slidehead
 {
@@ -4173,14 +4683,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 46;
+   z-index: 63;
 }
 #Button30
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 39;
+   z-index: 56;
 }
 #wb_facebookFontAwesomeIcon
 {
@@ -4188,54 +4698,54 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 148;
+   z-index: 165;
 }
 #Button15
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 70;
+   z-index: 87;
 }
 #Button31
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 59;
+   z-index: 76;
 }
 #wb_integratedscienceCard
 {
    display: flex;
    width: 100%;
-   z-index: 42;
+   z-index: 59;
 }
 #Button41
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 40;
+   z-index: 57;
 }
 #Button32
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 67;
+   z-index: 84;
 }
 #Button40
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 37;
+   z-index: 54;
 }
 #wb_quizHeading
 {
    display: inline-block;
    width: 100%;
-   z-index: 26;
+   z-index: 43;
 }
 #wb_smsFontAwesomeIcon
 {
@@ -4243,7 +4753,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 145;
+   z-index: 162;
 }
 #top
 {
@@ -4254,7 +4764,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 47;
+   z-index: 64;
 }
 #wb_menuPanel
 {
@@ -4269,7 +4779,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 41;
+   z-index: 58;
 }
 #wb_EmbeddedPage4
 {
@@ -4278,21 +4788,21 @@ body
    top: 358px;
    width: 21px;
    height: 28px;
-   z-index: 158;
+   z-index: 175;
 }
 #Button29
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 65;
+   z-index: 82;
 }
 #Button18
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 44;
+   z-index: 61;
 }
 #wb_Heading20
 {
@@ -4312,14 +4822,14 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 64;
+   z-index: 81;
 }
 #Button19
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 33;
+   z-index: 50;
 }
 #wb_IconFont8
 {
@@ -4327,7 +4837,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 21;
+   z-index: 38;
 }
 #wb_IconFont5
 {
@@ -4335,7 +4845,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 20;
+   z-index: 37;
 }
 #wb_IconFont4
 {
@@ -4343,7 +4853,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 19;
+   z-index: 36;
 }
 #wb_IconFont3
 {
@@ -4351,7 +4861,7 @@ body
    width: 20px;
    height: 20px;
    text-align: center;
-   z-index: 18;
+   z-index: 35;
 }
 #wb_IconFont2
 {
@@ -4366,7 +4876,7 @@ body
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 30;
+   z-index: 47;
 }
 #wb_emailFontAwesomeIcon
 {
@@ -4374,34 +4884,34 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 149;
+   z-index: 166;
 }
 #Button8
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 73;
+   z-index: 90;
 }
 #Button27
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 63;
+   z-index: 80;
 }
 #wb_englishlanguageCard
 {
    display: flex;
    width: 100%;
-   z-index: 58;
+   z-index: 75;
 }
 #Button38
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 52;
+   z-index: 69;
 }
 #wb_top
 {
@@ -4410,42 +4920,42 @@ body
    top: 0px;
    width: 62px;
    height: 72px;
-   z-index: 156;
+   z-index: 173;
 }
 #Button7
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 71;
+   z-index: 88;
 }
 #Button26
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 62;
+   z-index: 79;
 }
 #Button39
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 38;
+   z-index: 55;
 }
 #Button6
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 68;
+   z-index: 85;
 }
 #Button25
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 61;
+   z-index: 78;
 }
 #wb_whatsappFontAwesomeIcon
 {
@@ -4453,7 +4963,7 @@ body
    width: 26px;
    height: 26px;
    text-align: center;
-   z-index: 146;
+   z-index: 163;
 }
 #wb_backtotopIcon
 {
@@ -4463,28 +4973,28 @@ body
    width: 16px;
    height: 15px;
    text-align: center;
-   z-index: 129;
+   z-index: 146;
 }
 #Button12
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 72;
+   z-index: 89;
 }
 #Button24
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 60;
+   z-index: 77;
 }
 #Button5
 {
    display: inline-block;
    width: 25px;
    height: 25px;
-   z-index: 53;
+   z-index: 70;
 }
 @media only screen and (max-width: 969px)
 {
@@ -4541,41 +5051,11 @@ body
 #wb_Slidehead
 {
    margin: 0;
-   height: 263px;
+   height: 264px;
 }
 #Slidehead .carousel-item-inner
 {
    padding: 0 0 50px 0;
-}
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
 }
 #wb_LayoutGrid2
 {
@@ -6454,6 +6934,206 @@ body
 #Button42
 {
    line-height: 21px;
+}
+#wb_slideText3
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText3
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText1
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText1
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText4
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText5
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText2
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText6
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText6
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_slideText8
+{
+   visibility: visible;
+   display: block;
+}
+#wb_slideText8
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text13
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text13
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text18
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text18
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text19
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text19
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
+}
+#wb_Text20
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text20
+{
+   margin: 0;
+   padding: 10px 0 10px 0;
 }
 }
     #countdown {

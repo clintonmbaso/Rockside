@@ -13,6 +13,7 @@
 <script src="popper.min.js"></script>
 <script src="bootstrap.min.js"></script>
 <script src="jquery-1.12.4.min.js"></script>
+<script src="skrollr.min.js"></script>
 <script src="jquery-ui.min.js"></script>
 <script src="wb.panel.min.js"></script>
 <script src="wwb18.min.js"></script>
@@ -25,6 +26,11 @@
 <script>   
    $(document).ready(function()
    {
+      function skrollrInit()
+      {
+         skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+      }
+      skrollrInit();
       $("a[href*='#top']").click(function(event)
       {
          event.preventDefault();
@@ -123,26 +129,162 @@
             <li data-bs-target="#Slidehead" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#Slidehead" data-bs-slide-to="1"></li>
             <li data-bs-target="#Slidehead" data-bs-slide-to="2"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="3"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="4"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="5"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="6"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="7"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="8"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="9"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="10"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="11"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="12"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="13"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="14"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="15"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="16"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="17"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="18"></li>
+            <li data-bs-target="#Slidehead" data-bs-slide-to="19"></li>
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item frame-1 active">
                <div class="carousel-item-inner">
-                  <div id="wb_Text9">
-                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Voice of Prophecy</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We are yet to include this set of questions for VOP</span>
+                  <div id="wb_slideText1">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Educational </strong></span><span style="color:#FFFFFF;font-family:'MS Serif';font-size:21px;line-height:26px;"><strong>Tour</strong></span><span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>s</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">There is no beauty than beholding nature in history</span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;line-height:18px;">.</span>
                   </div>
                </div>
             </div>
             <div class="carousel-item frame-2">
                <div class="carousel-item-inner">
-                  <div id="wb_Text5">
-                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Grade 3</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">All quiz questions on this page are based on lessons learnt in class.</span>
+                  <div id="wb_slideText2">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Drills</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We keep fit all the time as we physically grow.</span>
                   </div>
                </div>
             </div>
             <div class="carousel-item frame-3">
                <div class="carousel-item-inner">
+                  <div id="wb_slideText3">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Ambassador Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">16 to 21 is an age range of fully packed lessons.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-4">
+               <div class="carousel-item-inner">
+                  <div id="wb_slideText4">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Campus Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Even outside home, spiritual grooming continues.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-5">
+               <div class="carousel-item-inner">
+                  <div id="wb_slideText5">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Adventurer Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">4 to 9 is an age range of fun and interractive time.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-6">
+               <div class="carousel-item-inner">
+                  <div id="wb_slideText6">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Pathfinder Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">10 to 15 is all about adventure, exploration and fun.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-7">
+               <div class="carousel-item-inner">
                   <div id="wb_Text4">
-                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Youth Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We have a number of quiz question for most classes, honours and more</span>
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Young Adult Ministry</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Welcome to the World of Leaderhip and Mentorship.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-8">
+               <div class="carousel-item-inner">
+                  <div id="wb_slideText8">
+                     <span style="color:#FFFFFF;font-family:'MS Serif';font-size:21px;line-height:26px;"><strong>Interactive Learning</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We make sure that all learners are fully engaged.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-9">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text9">
+                     <span style="color:#FFFFFF;font-family:Calibri;font-size:21px;line-height:26px;"><strong>Picnic Outings</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Outdoor fun is perfected social cohesion.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-10">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text10">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Hiking</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We are not always indoors, we love outdoor hikes.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-11">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text11">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Music</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We believe that praising God is best done in Rythem</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-12">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text12">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Church Heritage</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">The past is the best staring point to know the future.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-13">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text13">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Bible Truth</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We value Basic Instructions Before Leaving Earth.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-14">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text14">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Skills Training</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Besides formal education, we need practical skills.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-15">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text15">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Community Service</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Taking care of the people in need is our service.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-16">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text16">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Induction Ceremony</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Each year is a renewed experience with Jesus.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-17">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text17">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Refresher Course</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We keep updating our knowledge each day.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-18">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text18">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Pathfinder Fair</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">We showcase our attained skills in style.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-19">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text19">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Bible Quiz</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">How much of Bible truth do you remember?</span>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item frame-20">
+               <div class="carousel-item-inner">
+                  <div id="wb_Text20">
+                     <span style="color:#FFFFFF;font-family:Arial;font-size:21px;line-height:24px;"><strong>Camping</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;line-height:18px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:15px;line-height:18px;">Outdoor leaving opens doors for more nature study.</span>
                   </div>
                </div>
             </div>

@@ -16,51 +16,52 @@
             height: 100%;
             overflow: auto; /* Enable scrolling */
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
         }
-        #pdf-canvas {
+        .pdf-page {
+            margin: 10px 0;
             max-width: 100%;
             max-height: 100%;
         }
     </style>
 </head>
 <body>
-    <div id="pdf-viewer">
-        <canvas id="pdf-canvas"></canvas>
-    </div>
+    <div id="pdf-viewer"></div>
 
     <!-- Include PDF.js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
     <script>
         // Load PDF file
-        const pdfUrl = 'Documents/2. Pathfinder/1. Manual-Friend.pdf';
+        const pdfUrl = 'Documents/2. Pathfinder/1. Manual-Friend.pdf'; // Replace 'your_pdf_file.pdf' with the filename of your PDF file
         
         // Fetch the PDF document
         pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
-            // Fetch the first page
-            pdf.getPage(1).then(page => {
-                const scale = 1.5;
-                const viewport = page.getViewport({ scale });
+            const numPages = pdf.numPages;
+            const pdfViewer = document.getElementById('pdf-viewer');
+            
+            for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+                pdf.getPage(pageNum).then(page => {
+                    const scale = 1.5;
+                    const viewport = page.getViewport({ scale });
 
-                // Prepare canvas using PDF page dimensions
-                const canvas = document.getElementById('pdf-canvas');
-                const context = canvas.getContext('2d');
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
+                    // Prepare canvas using PDF page dimensions
+                    const canvas = document.createElement('canvas');
+                    const context = canvas.getContext('2d');
+                    canvas.className = 'pdf-page';
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
 
-                // Render PDF page into canvas context
-                const renderContext = {
-                    canvasContext: context,
-                    viewport: viewport
-                };
-                page.render(renderContext).promise.then(() => {
-                    // Adjust canvas size
-                    const pdfViewer = document.getElementById('pdf-viewer');
-                    canvas.style.width = pdfViewer.offsetWidth + 'px';
-                    canvas.style.height = pdfViewer.offsetHeight + 'px';
+                    // Render PDF page into canvas context
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    page.render(renderContext).promise.then(() => {
+                        pdfViewer.appendChild(canvas);
+                    });
                 });
-            });
+            }
         });
     </script>
 </body>

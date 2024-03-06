@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #pdf-viewer {
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scrolling */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #pdf-canvas {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="pdf-viewer">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
+
+    <!-- Include PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script>
+        // Load PDF file
+        const pdfUrl = 'https://github.com/clintonmbaso/Rockside/raw/main/Documents/2.%20Pathfinder/1.%20Manual-Friend.pdf';
+        
+        // Fetch the PDF document
+        pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+            // Fetch the first page
+            pdf.getPage(1).then(page => {
+                const scale = 1.5;
+                const viewport = page.getViewport({ scale });
+
+                // Prepare canvas using PDF page dimensions
+                const canvas = document.getElementById('pdf-canvas');
+                const context = canvas.getContext('2d');
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+
+                // Render PDF page into canvas context
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext).promise.then(() => {
+                    // Adjust canvas size
+                    const pdfViewer = document.getElementById('pdf-viewer');
+                    canvas.style.width = pdfViewer.offsetWidth + 'px';
+                    canvas.style.height = pdfViewer.offsetHeight + 'px';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

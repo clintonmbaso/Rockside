@@ -273,7 +273,7 @@
      });
    });
    
-// Load PDF function
+// Load PDF function with adjusted rendering scale
 function loadPDF(pdfUrl) {
   // Close the currently opened PDF viewer
   var pdfViewer = document.getElementById('pdf-viewer');
@@ -291,7 +291,7 @@ function loadPDF(pdfUrl) {
     // Render pages sequentially
     function renderPage(pageNum) {
       pdf.getPage(pageNum).then(page => {
-        const scale = 1.5;
+        const scale = 1; // Adjust scale for faster loading
         const viewport = page.getViewport({ scale });
 
         // Prepare canvas using PDF page dimensions

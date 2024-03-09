@@ -273,48 +273,56 @@
      });
    });
    
-   // Load PDF function
-   function loadPDF(pdfUrl) {
-     // Close the currently opened PDF viewer
-     var pdfViewer = document.getElementById('pdf-viewer');
-     pdfViewer.innerHTML = ''; // Remove any existing PDF content
-     pdfViewer.style.display = 'none';
-   
-     // Show PDF viewer
-     pdfViewer.style.display = 'block';
-   
-     // Fetch the PDF document
-     pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
-       const numPages = pdf.numPages;
-       const pdfContainer = document.createElement('div');
-   
-       for (let pageNum = 1; pageNum <= numPages; pageNum++) {
-         pdf.getPage(pageNum).then(page => {
-           const scale = 1.5;
-           const viewport = page.getViewport({ scale });
-   
-           // Prepare canvas using PDF page dimensions
-           const canvas = document.createElement('canvas');
-           const context = canvas.getContext('2d');
-           canvas.className = 'pdf-page';
-           canvas.width = viewport.width;
-           canvas.height = viewport.height;
-   
-           // Render PDF page into canvas context
-           const renderContext = {
-             canvasContext: context,
-             viewport: viewport
-           };
-           page.render(renderContext).promise.then(() => {
-             pdfContainer.appendChild(canvas);
-           });
-         });
-       }
-   
-       // Append PDF container to viewer
-       pdfViewer.appendChild(pdfContainer);
-     });
-   }
+// Load PDF function
+function loadPDF(pdfUrl) {
+  // Close the currently opened PDF viewer
+  var pdfViewer = document.getElementById('pdf-viewer');
+  pdfViewer.innerHTML = ''; // Remove any existing PDF content
+  pdfViewer.style.display = 'none';
+
+  // Show PDF viewer
+  pdfViewer.style.display = 'block';
+
+  // Fetch the PDF document
+  pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+    const numPages = pdf.numPages;
+    const pdfContainer = document.createElement('div');
+
+    // Render pages sequentially
+    function renderPage(pageNum) {
+      pdf.getPage(pageNum).then(page => {
+        const scale = 1.5;
+        const viewport = page.getViewport({ scale });
+
+        // Prepare canvas using PDF page dimensions
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.className = 'pdf-page';
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+
+        // Render PDF page into canvas context
+        const renderContext = {
+          canvasContext: context,
+          viewport: viewport
+        };
+        page.render(renderContext).promise.then(() => {
+          pdfContainer.appendChild(canvas);
+          // Render next page if available
+          if (pageNum < numPages) {
+            renderPage(pageNum + 1);
+          } else {
+            // Append PDF container to viewer once all pages are rendered
+            pdfViewer.appendChild(pdfContainer);
+          }
+        });
+      });
+    }
+
+    // Start rendering the first page
+    renderPage(1);
+  });
+}
    </script>
 </body>
 </html>

@@ -1276,14 +1276,31 @@ function startQuiz() {
         }
 
         function checkAnswer(selectedOptionIndex, isCorrect) {
-            const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
-            if (isCorrect) {
-                selectedOption.classList.add('correct');
-                score++;
-            } else {
-                selectedOption.classList.add('incorrect');
-            }
+    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
+    
+    // Check if the option has already been answered
+    if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
+        if (isCorrect) {
+            selectedOption.classList.add('correct');
+            score++; // Increment score only for correct answers
+        } else {
+            selectedOption.classList.add('incorrect');
+            // Find the correct option index in the original options array
+            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
+            // Find the index of the correct option in the shuffled options array
+            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
+            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            // Highlight the correct option in the shuffled list
+            shuffledOptions[correctShuffledIndex].classList.add('correct');
         }
+
+        // Disable all options after answering
+        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        allOptions.forEach(option => {
+            option.style.pointerEvents = 'none';
+        });
+    }
+}
 
         function startTimer() {
     let totalTime = numQuestions * 20; // Total time for the quiz in seconds

@@ -97,8 +97,9 @@ button:hover {
 #result-container {
     max-width: 600px;
     margin: 20px auto;
+    height: auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left; /* Adjusted alignment */
@@ -106,6 +107,8 @@ button:hover {
 
 #result-container h2 {
     margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgba(24,56,26,0.2);
     text-align: center; /* Centered heading */
 }
 
@@ -268,7 +271,7 @@ ul li:hover {
 
 /* Hide the slider handle */
 .noUi-handle {
-    display: none;
+    display: block;
 }
 
 /* Color of the active part of the slider track */
@@ -322,7 +325,6 @@ ul li:hover {
         <h2>Quiz Results</h2>
         <p id="result-text"></p>
     </div>
-
     <script>
         let name;
         let email;

@@ -3,26 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honors Page</title>
-    <style>
-        body {
-            background: url('images/nature1.jpg') center;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #007bff;
+    <title>KEMD - AYM Honours</title>
+      <style>
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-attachment: fixed; /* Keep the background image fixed in place */
+
+    /* Center the background image */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+/* Base styles for header */
+.site-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+
+}
+
+/* Optional: Apply rounded corners to the header */
+.site-header {
+    border-radius: 0px; /* Adjust the radius value for more or less curvature */
+    }
+
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.title {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: bottom;
+    margin-top: 5px;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+
+
+
+        .site-footer {
+            background-color: #333;
             color: #fff;
-            padding: 10px 20px;
+            padding: 20px;
             text-align: center;
         }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-navigation ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-navigation ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-navigation ul li a:hover {
+            color: #FF5733; /* Hover color */
+        }
+  
+  .main-content {
+    text-align: justify;
+    margin: 170px 10px 10px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 7px;
+    
+    z-index: 1;
+    
+  }
+  
+.logo-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  
+  
+  
         nav {
             background: url('images/nature.jpg');
             background-size: cover;
@@ -62,14 +170,12 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h2 {
-            color: #0056b3;
-        }
+
 
         /* Hamburger menu button */
         .menu-btn {
             position: fixed;
-            top: 10px;
+            top: 60px;
             right: 10px;
             z-index: 1000;
             cursor: pointer;
@@ -80,7 +186,7 @@
         .menu-btn .bar {
             width: 30px;
             height: 3px;
-            background-color: #333;
+            background-color: #fff;
             margin: 6px 0;
             transition: transform 0.3s ease;
         }
@@ -107,18 +213,15 @@
             background-color: #004080;
         }
 
-        /* Logo placeholder */
-        .logo-container {
-            margin-bottom: 20px;
-        }
-.logo-img {
+.logs-img {
     width: 100%; /* Set the width to 100% */
     height: auto; /* Let the height adjust proportionally based on the width */
     max-width: 300px; /* Set a maximum width to prevent image overflow */
     margin: -10px auto -20px; /* Center the image horizontally with bottom margin */
+    display: flex;
 }
 
-.logo-img img {
+.logs-img img {
     display: block; /* Ensure the image behaves as a block element */
     width: 100%; /* Ensure the image fills its container */
     height: auto; /* Allow the height to adjust proportionally */
@@ -126,14 +229,33 @@
   
   #sidebarlinks {
     background-color: rgba(194,57,83,0.2);
+    margin-top: 120px;
   }
+  
   
     </style>
 </head>
 <body>
-    <header>
-        <h1>AYM Honors</h1>
-    </header>
+
+<header class="site-header">
+  
+     <div class="logo-container">
+        <img src="images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+  
+    <div class="logo title">
+        <img src="images/0. SDA Logo.png" alt="Logo">
+        <h2><span style="color: green;">AYM</span> - <span style="color: orange;">Honours</span></h2>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</header>
+  
     <button class="menu-btn" onclick="toggleNav()">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -142,7 +264,7 @@
     <nav id="sideNav">
 
         <div class="logo-container">
-            <div class="logo-img"><img src="images/aym.png"></div>
+            <div class="logs-img"><img src="images/aym.png"></div>
             
         </div>
       <div id="sidebarlinks">
@@ -161,49 +283,68 @@
         <a href="#" onclick="loadContent('Vocational')">Vocational</a>
       </div>
     </nav>
-    <main>
-        <article  id="mainContent">
-            <p>
-                Each honor is designed to be a course of study that introduces a subject. 
-                This subject should have practical value and should enhance the lifestyle 
-                of the person pursuing the honor. Honor study should assist the person in 
-                his/her development as a well-rounded Christian by directly affecting the 
-                social, emotional, physical, and spiritual aspects of life.
-            </p>
-          
-            <p class="article-content">
-                The full content goes here. This can include additional details and 
-                information related to the subject introduced in the honor course of study.
-            </p>
-            <a href="#" class="read-more" onclick="toggleContent(event)">Read More</a>
-        </article>
 
-    </main>
 
-    <script>
-        function toggleNav() {
-            var sideNav = document.getElementById("sideNav");
-            sideNav.classList.toggle("active");
-        }
-    </script>
+<div id="mainContent" class="main-content">
+<h3>Philosophy of the Pathfinder Honors</h3>
+    <p>
+      Each honor is designed to be a course of study that introduces a subject.
+    This subject should have practical value and should enhance the lifestyle
+    of the person pursuing the honor. Honor study should assist the person in
+    his/her development as a well-rounded Christian by directly affecting the
+    social, emotional, physical, and spiritual aspects of life. The study of an
+    honor should direct the person to a deeper love of the Creator and should
+    increase ones interest in committing their life in service to God and to the
+      community.
+    </p>
+    <p>
+      Honor study is intended to help the persons spiritual character
+    development. Therefore, every honor should be designed to require high
+    standards of excellence by clearly stating in all requirements what tasks
+    are to be accomplished. Fulfilling the requirements should be interesting
+    and fun, while at the same time providing the person with a sense of
+      achievement.
+    </p>
+    <p>
+      The study of an honor should provide a person with an attractive way
+    to learn about their surroundings or widen their exposure to new horizons
+    of adventures. Such study topics might include learning about hobbies, a
+    special interest, or being introduced to a new vocation. Each honor should be
+    designed to accomodate group study of a club meeting, family, or individual
+    study by a highly motivated person. The entire content of the honor should
+    be capable of being completed in less than three months.</p>
+    <p>
+      Because Pathfinder honors are a part of a church-sponsored program,
+    all facets of course study should be in harmony with basic church standards.
+    For this reason honor study would normally avoid topics with requirements
+    calling for destruction of plant or animal life as well as types of armed
+    of unarmed defense. Also, subjects should be avoided that could only be
+    studied by a small group of people in a single local area.</p>
+    <p>
+    It is the purpose of all honors to help the person to "increase in wisdom
+    and stature and in favor with God and man."</p>
+  </div>
 
-    <script>
-        function toggleContent(event) {
-            event.preventDefault(); // Prevent default anchor behavior
-            var articleContent = event.target.previousElementSibling; // Get the sibling <p> element
-            if (articleContent.style.display === 'none') {
-                articleContent.style.display = 'block'; // Show full content
-                event.target.textContent = 'Read Less'; // Change button text
-            } else {
-                articleContent.style.display = 'none'; // Hide full content
-                event.target.textContent = 'Read More'; // Change button text
-            }
-        }
-    </script>
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2024</p>
+        <nav class="footer-navigation">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     <script>
         var contentMap = {
+          
+        
+          
 //Master Guide Required Honors
 'MGR': [
      { 
@@ -513,7 +654,8 @@
 
 <p>Mastering drill and ceremony techniques not only instills discipline and unity but also cultivates reverence for tradition and national symbols. By understanding and applying these principles, individuals contribute to a culture of respect, precision, and honor within military or ceremonial settings.</p>     `,
      },
-          
+  
+            
      { 
            title: 'Stewardship',
                  content: `
@@ -777,7 +919,8 @@
 
 <p>By mastering these wilderness skills and adopting responsible outdoor practices, young adventurers can embrace natures beauty while honoring the principles of stewardship and conservation. Let the wilderness be both a classroom and sanctuary for growth, learning, and spiritual reflection.</p>       `,
      },
-          
+  
+            
      { 
            title: 'Camping Skills II - Level 1',
                  content: `
@@ -1007,7 +1150,8 @@
 
 <p>By mastering these advanced camping skills, you will embark on outdoor expeditions with confidence, respect for nature, and a deep appreciation for the wilderness. Let every camping trip be an opportunity for growth, exploration, and communion with Gods magnificent creation.</p>       `,
      },
-          
+  
+            
      { 
            title: 'Basic Resue - Level 1',
                  content: `
@@ -1072,11 +1216,9 @@
 <p>By mastering these emergency rescue skills, adventurers can respond effectively to crisis situations, ensuring the safety and well-being of individuals in need. Let every outdoor expedition be an opportunity to cultivate preparedness, compassion, and lifesaving expertise.</p>       `,
      }
           
-
-          
-          
             ],
-
+  
+          
 //SYL Required Honors
 'SYLR': [
      { 
@@ -1286,8 +1428,8 @@
        `,
      }
             ],
-
-//Honor Category 4
+          
+  //Honor Category 4
 'Household': [
      { 
            title: 'Household-Content 1-1',
@@ -1421,8 +1563,9 @@
        `,
      }
             ],
-          
-//Honor Category 9
+  
+  
+  //Honor Category 9
 'Spiritual': [
      { 
            title: 'Spiritual-Content 1-1',
@@ -1475,12 +1618,9 @@
        `,
      }
             ],
-          
-          
         };
 
-
-// Function to toggle the sidebar
+  // Function to toggle the sidebar
 function toggleNav() {
     var sideNav = document.getElementById("sideNav");
     sideNav.classList.toggle("active");
@@ -1498,6 +1638,26 @@ document.addEventListener('click', function(e) {
 });
 
 // Function to load content and close sidebar
+function loadContent(contentName) {
+    var mainContent = document.getElementById('mainContent');
+    var subContents = contentMap[contentName];
+
+    if (subContents) {
+        // Initialize with the first sub-content
+        var initialSubContent = subContents[0];
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${initialSubContent.title}</h2>
+                                    <p>${initialSubContent.content}</p>
+                                </div>`;
+        enableSwipeNavigation(subContents);
+
+        // Close sidebar after loading content
+        toggleNav();
+    }
+}
+  
+  
+  // Function to load content and close sidebar
 function loadContent(contentName) {
     var mainContent = document.getElementById('mainContent');
     var subContents = contentMap[contentName];
@@ -1546,6 +1706,50 @@ function enableSwipeNavigation(subContents) {
 }
 
     </script>
+  <script>
+    // JavaScript for handling sub-menu visibility
+    document.addEventListener('DOMContentLoaded', function() {
+        const parentLinks = document.querySelectorAll('.main-navigation ul li');
 
+        parentLinks.forEach(function(parentLink) {
+            const subMenu = parentLink.querySelector('.sub-menu');
+            if (subMenu) {
+                // Add event listener to toggle sub-menu visibility on click
+                parentLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    subMenu.style.display = (subMenu.style.display === 'block') ? 'none' : 'block';
+                });
+            }
+        });
+    });
+      
+$(document).ready(function() {
+    var lastScrollTop = 0;
+    var delta = 10; // Adjust as needed
+    var navbarHeight = $('.main-navigation').outerHeight();
+
+    $(window).scroll(function() {
+        var st = $(this).scrollTop();
+
+        // Scroll down
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll down and hide navbar
+            $('.main-navigation').addClass('hidden');
+        } else {
+            // Scroll up or near the top, show navbar
+            if (st + $(window).height() < $(document).height()) {
+                $('.main-navigation').removeClass('hidden');
+            }
+        }
+
+        lastScrollTop = st;
+    });
+});
+      
+</script>
+  
 </body>
 </html>

@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-
-<!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,7 +10,6 @@
 
   gtag('config', 'G-Q2T721CW7G');
 </script>
-   
 <meta charset="utf-8">
 <title>KEMD | Home</title>
 <meta name="description" content="This is the website for flying wings academy">
@@ -1892,5 +1890,128 @@
          </div>
       </div>
    </div>
+
+  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        #linkbar {
+            position: fixed;
+            right: 0;
+            color: white;
+            transition: transform 0.9s, opacity 0.1s;
+            opacity: 1;
+            top: 250px;
+            z-index: 9999;
+        }
+
+        #linkbar.inactive {
+            transform: translateX(35px);
+            opacity: 0.4;
+            
+        }
+
+        #linkbar.active {
+            transform: translateX(0);
+        }
+
+        #logoset {
+            width: 70px;
+            height: auto;
+            background-color: rgba(55,55,55,0.2);
+            border-radius: 10px 0px 0px 10px;
+            padding: 2px 3px; /* Add padding around the text */
+        }
+
+.logo-link {
+    display: none; /* Initially hide logo links */
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: opacity 0.9s;
+    font-size: 14px; /* Adjust the font size */
+    padding: 4px 6px; /* Add padding around the text */
+    border-radius: 10px 0 0 10px; /* Rounded corners for the right side */
+    background-color: rgba(23,45,134,0.3);
+    
+}
+
+  .logo-link img {
+  width: 20px;
+  height: auto;
+    vertical-align: middle;
+  }
+    .logo-link a {
+  
+  }
+  
+  
+  
+.logo-link.active {
+    display: block; /* Show logo links when active */
+    opacity: 1; /* Ensure full opacity when active */
+}
+
+        .logo-link.inactive {
+            opacity: 0; /* Hide logo links with fade out effect */
+            
+        }
+    </style>
+</head>
+<body>
+<div id="linkbar" class="inactive">
+    <img id="logoset" src="images/Last Advent Logo.png" alt="Logo">
+    <a class="logo-link" href="cmt.html"><img src="images/CMT.png" alt="CMT"> CMT</a>
+    <a class="logo-link" href="mg.html"><img src="images/3. Master Guide Logo.png" alt="MG"> MG</a>
+    <a class="logo-link" href="syl.html"><img src="images/6. SYL.png" alt="SYL"> SYL</a>
+</div>
+
+    <script>
+        let linkbar = document.getElementById('linkbar');
+        let logoLinks = document.querySelectorAll('.logo-link');
+        let isActive = false;
+        let timer;
+
+        function activateLinkbar() {
+            linkbar.classList.remove('inactive');
+            linkbar.classList.add('active');
+            logoLinks.forEach(link => link.classList.add('active'));
+            clearTimeout(timer);
+            timer = setTimeout(deactivateLinkbar, 10000);
+            isActive = true;
+        }
+
+        function deactivateLinkbar() {
+            linkbar.classList.remove('active');
+            linkbar.classList.add('inactive');
+            logoLinks.forEach(link => link.classList.remove('active'));
+            isActive = false;
+        }
+
+        linkbar.addEventListener('mouseenter', () => {
+            if (!isActive) {
+                activateLinkbar();
+            }
+        });
+
+        linkbar.addEventListener('mouseleave', () => {
+            if (isActive) {
+                timer = setTimeout(deactivateLinkbar, 10000);
+            }
+        });
+
+        linkbar.addEventListener('click', () => {
+            if (isActive) {
+                deactivateLinkbar();
+            } else {
+                activateLinkbar();
+            }
+        });
+    </script>
 </body>
 </html>

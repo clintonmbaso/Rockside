@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD - AYM Reports</title>
+      <style>
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-attachment: fixed; /* Keep the background image fixed in place */
+
+    /* Center the background image */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+/* Base styles for header */
+.site-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+
+}
+
+/* Optional: Apply rounded corners to the header */
+.site-header {
+    border-radius: 0px; /* Adjust the radius value for more or less curvature */
+    }
+
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+    
+}
+
+.title {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+/* Main navigation styles */
+.main-navigation {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right within the nav */
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.main-navigation.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+  
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation li {
+    position: relative; /* Enable absolute positioning for child elements */
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation a i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+/* Position each main link as desired */
+.PBST {
+    position: absolute;
+    top: 30px; /* Adjust top position */
+    left: -150px; /* Adjust left position */
+}
+
+.Counselor {
+    position: absolute;
+    top: -5px; /* Adjust top position */
+    left: -80px; /* Adjust left position */
+    
+}
+
+.Instructor {
+    position: absolute;
+    top: -40px; /* Adjust top position */
+    left: -10px; /* Adjust left position */
+}
+
+.Secretary {
+    position: absolute;
+    top: -70px; /* Adjust top position */
+    left: 60px; /* Adjust left position */
+}
+
+.Director {
+    position: absolute;
+    top: -97px; /* Adjust top position */
+    left: 130px; /* Adjust left position */
+}
+  
+/* Sub-menu styles */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position sub-menu below parent item */
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+
+        /* Sub-menu styles */
+        .sub-menu {
+            display: none;
+            position: absolute;
+            height: auto;
+            left: 0;
+            background-color: rgba(167,79,45,0.1);
+            padding: 5px;
+            z-index: 999;
+            border-radius: 3px;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+.main-navigation ul li {
+    position: relative; /* Enable relative positioning for child elements */
+}
+  
+        /* Show sub-menu when parent li is hovered */
+        .main-navigation ul li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu ul {
+            list-style: none;
+            padding: 0;
+            
+          
+        }
+
+        .sub-menu ul li {
+            margin-top: 10px;
+           flex-direction: row;
+           
+        }
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 75px;
+        width: auto;
+        margin-top: 10px;
+    }
+}
+
+/* Media query for even smaller screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .main-navigation ul {
+        font-size: 14px;
+    }
+}
+        .site-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-navigation ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-navigation ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-navigation ul li a:hover {
+            color: #FF5733; /* Hover color */
+        }
+  
+  .main-content {
+    text-align: justify;
+    margin: 170px 10px 10px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 7px;
+    z-index: 1;
+  }
+  
+.logo-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  img {
+            width: 70%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto; /* Center horizontally */
+        }
+  
+.logoshi {
+  height: 20px;
+  width: auto;
+  border-radius: 50px;
+}
+  
+.cmtlogos {
+  border-radius: 150px;
+  height: 200px;
+  width: auto;
+}
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+  
+     <div class="logo-container">
+        <img src="images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+  
+    <div class="logo title">
+        <img src="images/CMT.png" alt="Logo">
+        <h2><span style="color: green;">KEMD</span> - <span style="color: orange;">AYM Reports</span></h2>
+    </div>
+
+    <nav class="main-navigation">
+    <ul>
+      
+        <li class="PBST">
+            <a href="#" onclick="loadContent('PBST')">
+                <img src="images/CMT-PBST.jpg" alt="PBST" class="logoshi"> PBST
+            </a>
+        </li>
+      
+        <li class="Counselor">
+            <a href="#" onclick="loadContent('Counselor')">
+                <img src="images/CMT-Counselor.jpg" alt="Counselor" class="logoshi"> Counselor
+            </a>
+        </li>
+      
+        <li class="Instructor">
+            <a href="#" onclick="loadContent('Instructor')">
+                <img src="images/CMT-Instructor.jpg" alt="Instructor" class="logoshi"> Instructor
+            </a>
+        </li>
+      
+        <li class="Secretary ">
+            <a href="#" onclick="loadContent('Secretary')">
+                <img src="images/CMT-Secretary.jpg" alt="Secretary" class="logoshi"> Secretary
+            </a>
+        </li>
+      
+        <li class="Director">
+            <a href="#" onclick="loadContent('Director')">
+                <img src="images/CMT-Director.jpg" alt="Director" class="logoshi"> Director
+            </a>
+        </li>
+      
+
+    </ul>
+</nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</header>
+  
+
+  
+<div id="mainContent" class="main-content">
+    <img src="images/CMT.png" alt="Club Ministry Training">
+    <h3>INTRODUCTION</h3>
+    <p>Club Ministries Training (CMT) is a curriculum framework that provides in-depth training for club staff in specific roles. The certifications are designed to be completed within one year, and are meant to equip leaders of all varieties for the ministries in which they serve. They are not levels of Investiture Achievement such as Sunbeam, Friend, or Guide, but rather opportunities for individuals to learn more about being an effective director, instructor, counselor, etc. Certifications are earned by attending workshops, working with a mentor, doing fieldwork, and preparing a documentation Portfolio.</p>
+
+    <h4>Enhancing Transparency and Accountability</h4>
+
+    <p>The role of secretaries and treasurers in any youth ministry is multifaceted. A report page offers them a structured platform to document meeting minutes, financial summaries, and membership updates. This not only enhances transparency within the ministry but also ensures accountability in resource management and decision-making processes.</p>
+    <p>CMT is based on the Adventist Youth Ministry Training (AYMT) certifications, developed by the North American Division.</p>
+  
+    <h4>Optional</h4>
+    <p>For Divisions that would like to recognize leaders that achieve these certifications, a pin with the achieved certification could be included in the official sash.
+    <p>Shops, the participant is eligible to receive an enameled pin and certificate of completion.</p>
+
+    <h4>Notes</h4>
+      <ol>
+        <li>CMT certifications are replacing the Pathfinder Leadership Award (PLA) and Advanced Pathfinder Leadership Award (APLA)/Pathfinder Instructor Award (PIA).</li>
+        <li>Receiving a CMT pin is not considered investiture, but rather, awarding of a certificate. The highest investiture in Club Ministries continues to be Master Guide.</li>
+        <li>CMT certifications are connected to a club role or position, meaning that there is no point to achieve them all unless you are the only leader in a club. CMT certifications are intended for all members of a team.</li>
+      </ol>
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script>
+        var contentMap = {
+  //Secretariat Category
+'PBST': [
+     { 
+           title: 'Prerequisites',
+                 content: `
+           <img class="cmtlogos" src="images/CMT-PBST.jpg" alt="PBST">
+       <ol>
+         <li>Commit to the Youth/Children’s Ministry Volunteer Code of Conduct</li>
+         <li>Be currently approved by the child protection screening verification of your Conference/ Mission</li>
+       </ol>    
+       
+       
+       <h3>Overview of Workshops</h3>
+       <h4>Club Ministry: Purpose & History | PFAD 001</h4>
+       <p>This workshop gives an overview of club ministry with an emphasis on Pathfinders. It compares the programs, uniforms, and insignia of Adventurers, Pathfinders, and Master</p> 
+       <p>Guide, and then discusses the role of club ministry in faith development. Finally, it provides a brief history of youth ministry in the Seventh-day Adventist church and illustrates God’s leading and care.</p>
+       
+       <h4>Club Organization | PFAD 002</h4>
+       <p>This workshop explores the structure of a club, from unit to executive committee. It outlines job descriptions for various roles and the qualities of a servant-leader. It also covers regulations on the operation of a club such as membership, records, finances, uniforms, and insurance.</p> 
+       
+       <h4>Programming and Planning | PFAD 003</h4>
+       <p>This workshop covers planning Pathfinder programs. It discusses the typical elements of a Pathfinder year including Induction, Pathfinder Sabbath, community service, Investiture, and conference events. It examines the components of regular meetings: opening ceremonies, Investiture Achievement, and honors.</p> 
+
+       <h4>Club Outreach | PFAD 004</h4>
+       <p>Mentoring youth as evangelists to serve their community is a core goal of club ministry. This workshop explores faith development within the Investiture Achievement curriculum, particularly in the Personal Growth, Spiritual Discovery, and Serving Others sections. It discusses techniques for integrating outreach into all Pathfinder activities. Many honors from the Spiritual Growth, Outreach, and Heritage categories provide opportunities for reaching your community.</p> 
+
+       <h4>Ceremonies & Drill | PFAD 005</h4>
+       <p>This workshop provides a practical introduction to using ceremonies and drill in a Pathfinder club. Included topics are fundamental stationary and marching commands, lead opening ceremonies, and understand flag etiquette.</p> 
+
+       <h4>Developmental Growth | PYSO 104</h4>
+       <p>This workshop investigates the stages of development in youth ages 10-15 and how to effectively relate to them. It will include methods for mentoring them as disciples of Jesus, nurturing them as they mature into the full stature of Christ.</p> 
+
+       <h4>Introduction to Teaching | EDUC 001</h4>
+       <p>This seminar introduces teaching concepts and educational objectives. It covers learning styles and teaching styles. It gives a summary of Investiture Achievement objectives and encourages the use of outdoor and experiential learning.</p>
+
+      <h4>Medical, Risk Management, and Child Safety Issues | MEDI 100</h4>
+       <p>This workshop covers introductory information on medical forms, release forms, abuse prevention, conference volunteer screening requirements, staffing levels, transportation guidelines, emergency plans, and supervision issues.</p>
+
+       <h4>Required Fieldwork</h4>
+       <p>Create a portfolio that contains the handouts and your personal notes from the workshops that you attend.</p>
+
+       <h4>Recognition of Completion</h4>
+       <p>Upon completion of the required workshops, the participant is eligible to receive an enameled pin and certificate of completion.</p>
+       `,
+     },
+          
+     { 
+           title: 'Purpose & History - PFAD 001',
+                 content: `
+ <h3>Description</h3>
+  <p>This workshop gives an overview of club ministry with an emphasis on Pathfinders. It compares the programs, uniforms, and insignia of Adventurers, Pathfinders, and Master Guide, and then discusses the role of club ministry in faith development. Finally, it provides a brief history of youth ministry in the Seventh-day Adventist church and illustrates God’s leading and care.</p>
+       
+ <h4>Audience/Participants</h4>
+  <p>New Pathfinder staff and individuals completing the prerequisites for Master Guide</p>
+
+ <h4>Resource Material</h4>
+       <ul>
+         <li><a href="https://drive.google.com/file/d/1_v9_G3ZKGyM0OEMQT3ccLE9BGxCypgst/view?usp=drivesdk">The Pathfinder Story</a></li>
+         <li><a href="https://drive.google.com/file/d/1_snkkwPJWnOOhvNQTJ2EaEpzk_pZG2UQ/view?usp=drivesdk">Pathfinder Administrative Manual</a></li>
+       </ul>
+       
+ <h4>What Your Participants Will Learn</h4>
+       <ul>
+         <li>The basics of Pathfinder club ministry including ages and goals</li>
+         <li>History of Pathfinder Club Ministry</li>
+         <li>Pathfinder Song, Pledge, Law and meaning of flag</li>
+       </ul>
+
+ <h3>Workshop Content</h3>
+    <h4>Club Ministries and Purposes</h4>
+       <p>This workshop is about understanding how club ministries work to grow a child in Christ and keep them connected to the church. The focus of this training is Pathfinders.</p>
+       <ul>
+         <li>Adventurer Ministries includes children from ages four through nine. The focus of this ministry is strengthening the family in their faith in Jesus Christ.</li>
+         <li>Pathfinder Ministries includes children from ages 10 through 15. The focus of this ministry is to develop the faith of children and teens in Jesus Christ and provide them with lifelong mentors.</li>
+         <li>Master Guide Ministries includes adults from age 18 and above. The focus of this ministry is to train adults for leadership in Adventurer, Pathfinder, Youth, and Young Adult ministries for nurture and outreach for Jesus Christ.</li>
+       </ul>
+       
+    <h4>Pathfinder Club Ministry and Staff Roles</h4>
+       <p>Review the philosophy, objectives and goals of Pathfinder club ministry. The strength and effectiveness of Pathfinder club ministry is directly proportional to the influence of the staff. How staff model the Pathfinder Pledge and Law, and their facilitation of the Pathfinder mission and goals will determine the strength of their club ministry.</p>
+
+     <h4>Pathfinder Club Philosophy</h4>
+       <p>The Seventh-day Adventist Church is committed to understanding young people and training its youth for leadership and service to humanity.</p>
+       <p>The Pathfinder Club is a church-centered spiritual-recreational-activity program designed for young people 10 to 15 years of age. Pathfindering appeals to this age group because its program features activities that meet their needs and interests. Much of the Pathfinder Club program is built around physical action. This is because youth from 10 to 15 years of age are in a fast-growing physical stage of development. It is filled with action, adventure, challenge, group activities, and provides opportunities for the development of new attitudes and skills that produce personal growth, team or community spirit and a sense of loyalty and respect for God, His creation, and His church.</p>
+       <p>While the Pathfinder Club exists primarily for youth, one of its basic purposes is to also bring together parents and church members through active involvement with the club and its members. Here the so-called generation gap disappears as young and old worship, work, and play together in a bond of common experience. Meaningful relationships are forged as leaders and counselors join with Pathfinders in sharing, building confidence, and working together.</p>
+       <p>The whole philosophy of Pathfindering is built on the premise that “children learn best by example, rather than by precept.” As they see leaders and parents model spiritual and social values, they too will aspire to develop high moral principles, loving and caring attitudes, and determination to excel in all their various pursuits.</p>
+       <p>Young people learn most effectively in a positive, happy, and secure atmosphere. The attitude of the club leaders is therefore a vital ingredient in guaranteeing the success and effectiveness of this ministry to youth. A failure to listen to and to understand the needs of the young people will erect barriers to real spiritual growth and development and may prove to be a contributing factor in making the church and its mission unattractive to the youth.</p>
+
+    <h4>Objectives</h4>
+       <ol>
+         <li>Help the young people to understand that God and His church love them, care for them, and appreciate them. As Pathfinders are accepted and affirmed, they will appreciate the love of God revealed through the church and its ministry, and feel a need to be more committed to and involved with its program.</li>
+         <li>Encourage Pathfinders to discover their own God-given potential and to use their gifts and abilities to fulfill God’s expectations for them and the part they can play in the great plan of salvation.</li>
+         <li>Inspire young people to give personal expression of their love for God by uniting them together in various outreach activities.</li>
+         <li>Make the number one priority of your club program the personal salvation of every Pathfinder. The Pathfinder age is a time when many decisions are being made that will affect the youth’s future relationships and his or her own personal development. The peak time for discovering and making a relationship with God appears to be around 12 years of age.</li>
+         <li>Build into a Pathfinder’s life a healthy appreciation and love for God’s creation by enjoying outdoor activity (campouts, nature walks, nature honors, etc.). Pathfinders will be encouraged to experience a sense of wonder and worship as they observe and explore the beauty, the majesty, and the creative power in nature. Fellowship with God becoming more meaningful.</li>
+       </ol>
+
+    <h4>Mission Statement</h4>
+       <p>Pathfinder Ministry is an organization of the Seventh-day Adventist Church, dedicated to meeting the mental, physical, social and spiritual developmental needs of youth ages 10-15 by challenging the Pathfinder to experience a personal relationship with Christ, have a sense of achievement and responsibility, develop respect for God’s creation, and care for each member of God’s family.</p>
+
+    <h4>Goals</h4>
+       <p>Pathfinder Ministries seeks to meet the Pathfinder’s present and unfolding needs, to the end that we bring them to self-fulfillment and maturity in Christian faith, characterized by their decision to:</p>
+       <ul>
+         <li>Accept Jesus Christ as a personal Savior and Lord</li>
+         <li>Reflect internalized Christian values through mature decision making and behavior</li>
+         <li>Exhibit the righteousness, true holiness, and fullness of stature of Christ</li>
+         <li>Demonstrate leadership skills, enabled and empowered to become full partners in active, selfless service supporting the mission of the church</li>
+       </ul>
+       
+    <h4>Goals</h4>
+       <p>Pathfinder Ministries seeks to meet the Pathfinder’s present and unfolding needs, to the end that we bring them to self-fulfillment and maturity in Christian faith, characterized by their decision to:</p>
+       <ul>
+         <li>Facilitate a group discussion of specific ways staff can meet the goals and objectives of Pathfinder club ministry. Look specifically at the verbs (action words) in the goals and objectives.</li>
+         <li>Give time for participants to write at least three ways they plan to personally emulate the Pathfinder club ministry goals to their Pathfinders.</li>
+       </ul>
+       
+    <h4>Pathfinder History</h4>
+       <p>Groups began forming in the late 1800s, however, it wasn’t until 1907 that groups became officially organized when the General Conference established its youth department under Elder M. E. Kern.</p>
+  
+    <h4>Suggest Dates to Include</h4>
+       <p><strong>1852</strong> - James White edited the first The Youth’s Instructor magazine.</p>
+       <p><strong>1879</strong> - First Young People’s Society took place in Hazelton, Michigan, USA, by teenagers Luther Warren and Harry Fenner.</p>
+       <p><strong>1907</strong> - A Young People’s Department was created. Later that year the name “Seventh-day Adventist Young People’s Society of Missionary Volunteers” was chosen, also known as Missionary Volunteers (MV).</p>
+       <p><strong>1909</strong> - Junior Missionary Volunteer Societies were organized (JMV).</p>
+       <p><strong>1916</strong> - First MV census results had 1,230 senior and junior societies with 24,638 members.</p>
+       <p><strong>1919</strong> - Arthur W. Spalding organized a small group of boys in Tennessee, USA, into a club he called “Mission Scouts”. Spalding also wrote a JMV Pledge and Law which became official GC 1921.</p>
+       <p><strong>1922</strong> - JMV progressive classes involving outdoor activities were introduced by Spalding and Harriet M. Holt: Friend, Companion, Comrade, and Master Comrade.</p>
+       <p><strong>1927</strong> - First Conference-sponsored Pathfinder club started, Anaheim, CA; directed by John McKim and Willa Steen, whom are believed to have introduced the “Pathfinder” name.</p>
+       <p><strong>1928</strong> - Arthur Spalding and Harriet Holt with other professionals wrote the first 16 Vocational Merits(Honors) that were introduced (Automobile Repair, Bird Study, Christian Storytelling, Colportage, Cooking, Flower Study, Gardening, Health and Healing, Laundry Art, Needlecraft, Photography, Poultry Raising, Radio, Shoe Repair, Star Study, Tree Study).</p>
+       <p><strong>1930</strong> - Pre-JMV/AJY classes, Busy Bee, Sunbeam, Builder and Helping Hand were developed.</p>
+       <p><strong>1946</strong> - Pathfinder Club triangle emblem was designed by John H. Hancock.</p>
+       <p><strong>1948</strong> - Henry T. Bergh, youth director for the Central California Conference, started 23 Pathfinder clubs. Bergh also appointed the first Area Pathfinder Coordinators.</p>
+       <p><strong>1949</strong> - Henry T. Bergh wrote the Pathfinder Song.</p>
+       <p><strong>1950</strong> - General Conference official authorized establishment of JMV Pathfinder Clubs for world field.</p>
+       <p><strong>1951</strong> - Comrade class was changed to Guide, and Master Comrade was changed to Master Guide.</p>
+       <p><strong>1953</strong> - First Conference Pathfinder Camporee, Southern New England Conference, was held in Camp Winnekeag, Ashburnham, Massachusetts.</p>
+       <p><strong>1956</strong> - Explorer Class was added.</p>
+       <p><strong>1958</strong> - Silver Award was developed by L. A. Skinner (challenges Adventist Youth to be the finest in physical fitness and have cultural and spiritual excellence).</p>
+       <p><strong>1959</strong> - Gold Award was developed by L. A. Skinner (Advanced and challenging achievement standards for college-age young people).</p>
+       <p><strong>1965</strong> - Eager Beaver program was instituted (later added to Adventurer Club).</p>
+       <p><strong>1966</strong> - Pioneer class was added (Renamed Ranger 1970).</p>
+       <p><strong>1971</strong> - First Division Pathfinder Camporee: Northern Europe-West Africa Division (today’s Trans-Europe an Division) held this event in Vasterang, Sweden.</p>
+       <p><strong>1979</strong> - MV was changed to AY, JMV to AJY, Pre-AJY to Adventurers.</p>
+       <p><strong>1982</strong> - Voyager class was added between Ranger and Guide classes.</p>
+       <p><strong>1985</strong> - First North American Division Pathfinder Camporee was held, Camp Hale, Colorado.</p>
+       <p><strong>1989</strong> - Pathfinder Leadership Award curriculum was developed (P.L.A.) Pathfinder Instructors Award curriculum developed (P.I.A.)</p>
+       <p><strong>1991</strong> - Pathfinder Basic Staff Training Course was developed.</p>
+       <p><strong>1992</strong> - Center of Youth Evangelism was established at Andrews University.</p>
+       <p><strong>1994</strong> - Dare to Care—First NAD International Pathfinder Camporee, was held in Morrison, Colorado.</p>
+       <p><strong>1999</strong> - Discover the Power—International Pathfinder Camporee, was held in Oshkosh, Wisconsin.</p>
+       <p><strong>2004</strong> - Faith on Fire—International Pathfinder Camporee, was held in Oshkosh, WI.</p>
+       <p><strong>2009</strong> - Courage to Stand—International Camporee, was held in Oshkosh, WI.</p>
+       <p><strong>2014</strong> - Forever Faithful—International Pathfinder Camporee, was held in Oshkosh, WI.</p>
+       <p><strong>2019</strong> - Chosen—International Pathfinder Camporee, was held in Oshkosh, WI. With around 57,000 participants together, it became one of the largest Camporees of all times for any scout organization. Two Guinness World Records were achieved in this event: The Largest Master Guide Scarf (2.204 m2) and the Largest Human Image of a Cross (13,309 people)</p>
+       <p><strong>2019</strong> - South American Division Pathfinder Camporees—With around 95,000 participants divided into two events (47,000 in Alpha and 48,000 in Omega), it became one of the largest combined Camporees of all times, for any scout organization.</p>
+       <p><strong>2020</strong> - Master Guide Club was voted by North American Division as an official ministry.</p>
+       <p><strong>2020</strong> - World pandemic: Pathfinder Clubs from all around the world did amazing efforts to keep sharing The Advent Message to All the World in My Generation.</p>
+       <p><emphasis>This history continues because of you.</emphasis></p>
+       <p><strong>THANK YOU!</strong></p>
+
+       <p>Today Pathfinders continues to evolve with honor and resource additions and revisions. Revised and updated by Dixie L. Plata, Pathfinder Historian, based on the previous document created by Dr. David Trim (Office of Archives, Statistics, and Research).</p>
+       
+       
+       <h3>Pathfinder Logo, Pledge, Law, and Song</h3>
+       <h4>Pathfinder Triangle Logo</h4>
+       <p>The Pathfinder Triangle was designed by Elder John Hancock in 1946. Each of its components has significant meaning. Teach participants each of the components and its meaning.</p>       
+
+       <h4>Pathfinder Pledge and Law</h4>
+       <p>The Pathfinder Pledge and Law are to be recited at every Pathfinder ceremony and are the standard to which all Pathfinders and staff are to live.</p>       
+
+       <h4>Pathfinder Song</h4>
+       <p>The Pathfinder Song was written by Elder Henry T. Bergh in 1949. It has been translated into many languages and is sung around the world.</p>       
+
+       <h4>Activities</h4>
+       <ul>
+         <li>Set up a timeline around your meeting room. You can adjust the size according to the space available. You can use paper or index cards. Print the date on one side and the event on the other. Hand them out to participants. As you go through the dates, have the participants read and then attach their date to the timeline. Also, share one or two interesting stories. You can also include dates of interest from your local conference.</li>
+         <li>Practice the Pathfinder Pledge, Law, and Song with the participants. Demonstrate opening ceremonies of a club meeting. Use the meaning of the Pathfinder Logo as the worship thought.</li>
+         <li>Use the meaning of the Pathfinder Logo as the worship thought. (Flag or graphic).</li>
+         <li>Demonstrate opening ceremonies of a club meeting.</li>
+       </ul>
+       `,
+     },
+          
+     { 
+           title: 'Club Organization - PFAD 002',
+                 content: `
+       <h3>Description</h3>
+       <p>This workshop explores the structure of a club, from unit to executive committee. It outlines job descriptions for various roles and the qualities of a servant-leader. It also covers regulations on the operation of a club, such as membership, records, finances, uniforms, and insurance.</p>       
+
+       <h3>Audience/Participants</h3>
+       <p>New Pathfinder staff and individuals completing the prerequisites for Master Guide</p>       
+
+       <h3>Resource Material</h3>
+       <p>Pathfinder Administrative Manual</p>       
+
+       <h3>What Your Participants Will Learn</h3>
+       <ul>
+         <li>Know what must be done to start or restart a Pathfinder Club</li>
+         <li>Understand the club staff tasks and organize your staff accordingly</li>
+         <li>Know the pieces of the Pathfinder uniforms, where to purchase them, and what they cost</li>
+         <li>Learn the components of a club merit system and how it is used to determine awards</li>
+       </ul>
+       
+       <h4>Workshop Content</h4>
+       <h5>Introduction to Club Organization</h5>
+       <ul>
+         <li>Give each participant a handout based on the local Conference guidelines on how to start or re-start a Pathfinder Club.</li>
+         <li>Encourage participants to meet with their pastor, conference Pathfinder director, and Pathfinder area coordinator on a regular basis for guidance and direction as they begin building their church’s Pathfinder club ministry. Get Church Board Approval to Start a Pathfinder Club Ministry.</li>
+         <li>Because having a Pathfinder Club is an outreach ministry of your local church, it is required that your church board approves it with recorded actions in the board minutes.</li>
+         <li>Work with your pastor and put together a proposal to present to your church board.</li>
+         <li>Get signatures from church board members as needed to obtain a Certificate of Operation from your conference Pathfinder office and mail or fax the completed form to your conference office.</li>
+       </ul>
+       
+       <h5>Gather Your Club Leadership Team</h5>
+       <ul>
+         <li>Get the support of your pastor and the church board, and recruit church members to become active as staff. Share the need, vision, and enthusiasm of what a Pathfinder club ministry can do for your youth and the larger community around your church.</li>
+         <li>Ask your area coordinator to join you for staff organization meetings to help teach the fundamentals of Pathfinder club ministry and to build the vision of your staff.</li>
+       </ul>
+       
+       <h5>Recruit Pathfinders</h5>
+       <ul>
+         <li>Announce Pathfinder club ministry during the worship service. The church congregation can give support and enthusiasm for this ministry as you begin organizing.</li>
+         <li>You and your staff should talk with potential Pathfinders and their parents. Tell them what Pathfinder club ministry is and the club’s plans for the year.</li>
+         <li>Gather names of individuals in your church who can support the club by sponsoring a uniform for a Pathfinder, instructing a specific honor, and helping with fundraising, etc.</li>
+         <li>Give participants the forms needed to register their clubs with the conference. Let them know what specific guidelines the conference has for Pathfinder club ministry.</li>
+       </ul>
+       
+       <h5>Staff Organization and Tasks</h5>
+       <p>Pathfinder leaders are volunteers who receive no pay for their service to the church. In many cases, those who volunteer to be leaders are highly committed to Christian ideals. This is the way it should be, since the Pathfinder leader often plays a larger part in providing a Christian role model to young people than any other person in the church.</p>       
+       
+       <h5>Activity</h5>
+       <p>Review the flow charts in the Pathfinder Administrative Manual. Give each participant time to draw the flow chart for their club including the specific names of individuals in each position.</p>
+       
+       <h5>Staff Training and Approval</h5>
+       <p>To understand Pathfinder club ministry, all staff should undergo basic training to help them minister to Pathfinders. To continue effective ministry, continuing education is available.</p>
+       <p>Because of the significant influence and responsibility that Pathfinder staff are given by parents, as well as church leaders, all volunteers working with minors must be approved by their conference prior to participating in Pathfinder club ministry. Let participants know what is required for volunteer approval in their conference.</p>         
+       
+       <h5>Club Leadership Team</h5>
+       <p>The Pathfinder Club leadership team consists of a director, at least one deputy director, unit counselors and instructors, and a secretary and treasurer. These are the primary roles and each of them have specific tasks as organized by the club director.</p>
+       <p>Review the qualities of a good leader (Pathfinder Administrative Manual).</p>
+       <ul>
+       <li>Love God supremely</li>
+       <li>Love children sincerely</li>
+       <li>Serve with enthusiasm</li>
+       <li>Possess emotional stability</li>
+       <li>Enjoy being outdoors</li>
+       <li>Know the essential characteristics of adolescents</li>
+       <li>Learn a variety of skills</li>
+       <li>Develop the ability to organize</li>
+       <li>Maintain good relations with fellow workers</li>
+       <li>Radiate a dignity of presence that assures order</li>
+       <li>Have a sense of humor</li>
+       <li>Be resourceful and creative</li>
+       </ul>
+       
+   <h5>Activity</h5>
+       <p>Review duties of specific club staff positions. (Pathfinder Administrative Manual)</p>      
+       <p>If a participant has not been designated a specific role in his/her club, encourage that person to identify a role of interest and discuss it with the club director.</p>
+
+       <h5>Sample Weekly Club Meeting Outline</h5>
+       <p>Demonstrate opening ceremonies with your participants.</p>
+       
+       <h5>Club Budget and Uniforms</h5>
+       <p>Club Budget (Pathfinder Administrative Manual) - Every successful Pathfinder club operates within a financial budget. There are common components to a club budget. The finances that flow through the Pathfinder club are managed by the club treasurer in cooperation with the church treasurer. It is important for staff to be aware of how their club’s finances work</p>
+       
+       <h5>Activity</h5>
+       <p>Review the sample budgets in the Pathfinder Administrative Manual as well as possible sources of income. It is imperative that clubs operate with fiscal responsibility. Expenses should never exceed income.</p>
+       
+       <h5>Uniforms</h5>
+       <p>Review the purpose of the uniform and when it should and should not be worn.</p>     
+       <p>Review the uniform standards under the www.gcyouthministries.org website.</p>
+       <p>Review specific uniform standards for your local conference.</p>
+       <p>Calculate the cost for a uniform for a Pathfinder and an adult, including items specific to your conference.</p>
+       <p>Uniforms can have a major impact on a club budget. Each club should have a good plan for how they will manage uniform costs.</p>
+       <p>Clubs have options when considering uniform expenses. They may require parents to purchase the uniform, the club may purchase the uniforms and operate an exchange or rental program, or the club may purchase certain pieces requiring the parents to purchase the remaining items. Clubs may also find sponsors willing to cover the cost of a uniform for a Pathfinder.</p>        
+
+       <h5>Merit System and Awards</h5>
+       <p>A club merit system provides a club a process for fairly awarding their Pathfinders in participation, progress, and development. Good Conduct Award and Pathfinder of the Year Awards have requirements that are met by using the club’s merit system. Use the Pathfinder Administrative Manual for each section below:</p>
+       
+       <h5>Merit System and Points</h5>
+       <p>Each Pathfinder Club should have a Merit System for their Pathfinder Club and develop their own Merit System point values which are agreed upon by all Staff members and understood by all Pathfinders and parents. The club’s Merit System will help Staff to fairly determine awards to be given to their Pathfinders throughout the Pathfinder year. Simplicity is the key to a good merit system. Review the guidelines in the Pathfinder Administrative Manual.</p>
+              
+       <h5>Good Conduct Award & Pathfinder of the Year Award</h5>
+       <p>The Club’s Investiture service is the place to reward club members for completing AY Investiture Achievement levels, honors, and special awards such as the Good Conduct Award and the Pathfinder of the Year Award.</p>
+       
+       <h5>Activity</h5>
+       <p>Give each participant the guidelines for these awards from the Pathfinder Administrative Manual. Also include any guidelines and/or forms needed by the local conference office.</p>
+       
+       `,
+     },
+          
+     { 
+           title: 'Programming & Planning - PFAD 003',
+                 content: `
+Description
+This workshop covers planning Pathfinder programs. It discusses the typical elements of a Pathfinder 
+year including Induction, Pathfinder Sabbath, community service, Investiture, and conference events. 
+It examines the components of regular meetings: opening ceremonies, Investiture Achievement, and 
+honors. 
+       
+Audience/Participants
+New Pathfinder staff and individuals completing the prerequisites for Master Guide.
+Resource Material
+• Pathfinder Administrative Manual
+• Achievement classes
+• Pathfinder honors
+       
+Handouts to be prepared based on local Conference guidelines
+1. Handout: Calendar of Conference Events (If available)
+2. Handout: Sample of a Local Club Year Calendar
+3. Handout: Investiture Achievement Record Card, Friend requirements which distinguishes between Friend and Trail Friend
+4. Handout: Honor Requirement Sheets for required Friend level honors (Camping Skills 1, Christian Citizenship, Red Alert, Seeds)
+5. Handout: Sample Weekly Meeting Outline. (Samples available in this document)
+6. Handout: Sample Staff Meeting Agenda
+7. Handout: Investiture Achievement Overview Chart, instead of Investiture Achievement: A Director’s Guide
+       
+What Your Participants Will Learn
+1. Evaluate the club’s mission and goals and relate it to your club planning
+2. Build a yearly club calendar that incorporates your conference and school calendars
+3. Incorporate aspects of Investiture Achievement into yearly club calendar
+4. Plan weekly club meetings with opening and closing ceremonies 
+      
+Workshop Content
+Club Mission, Goals, and Planning
+The purpose of the Pathfinder club is to introduce young people to Jesus Christ and to 
+help them grow in Him. The Pathfinder club 
+program will help them develop their body, 
+mind and spirit. With these skills, our young 
+people are able to carry on the work of the 
+church and bring others to the feet of Jesus. 
+More than just skills, we want young people 
+to build a relationship with Christ as their 
+Lord and Savior, thus giving them the relational experience with Jesus that they need 
+to lead their friends to know Him too.
+       
+Review the Pathfinder mission statement and goals. 
+       Discuss how these are important 
+to keep in mind when planning club meetings and activities.
+Building a Club Calendar
+It is challenging to develop the Pathfinder 
+club yearly calendar. It takes time and effort 
+to gather all the planning details and people 
+together to make a plan, but it must be done 
+if your club is going to succeed. Know that 
+your club’s calendar planning is crucial for 
+the success of your club.
+       
+When planning your club’s calendar, begin by 
+gathering other calendars that you will need 
+to coordinate with. These include church 
+school and conference calendars. Distribute 
+a copy of the Conference Pathfinder newsletter and review the yearly calendar specifying 
+the events that are mandatory and those that 
+are optional. Handout—Calendar of Conference Events. 
+Once you have gathered all necessary information, begin to set your meeting schedule, what day of the week you will meet at 
+what time. Some clubs meet every week, and 
+some meet twice a month. Determine what 
+schedule works for your club. Once you know 
+your weekly schedule, begin planning major 
+programs such as Induction, Pathfinder Sabbath, club campouts, fundraisers, Investiture, 
+etc. Go over a possible year calendar. Handout—Sample Club Year Calendar.
+       
+Weekly Club Meeting Programming
+Most Pathfinder clubs meet on a weekly basis; however, some only meet twice a month. 
+How often a club meets, when it meets, and 
+where it meets should determine duration of a club meeting. 
+       
+Activities
+• Review the Handout—Sample Weekly Club Meeting Outline.
+• Demonstrate opening ceremonies with your participants. 
+       
+Church Board Approval
+The church board must approve the Pathfinder Club’s annual calendar. This provides two 
+important advantages for the club. First, it 
+builds board members’ respect for the Pathfinder Club. When the board is aware of the 
+club’s plans, the club is in a better position 
+to ask for monetary considerations when the 
+board develops the annual church budget. 
+Second, the church board must approve all 
+Pathfinder activities in order for them to be 
+covered by the church’s insurance. 
+       
+Investiture Achievement Planning
+Investiture Achievement (IA) is the core curriculum for Pathfinder club ministry. Most 
+activities and events can be developed and 
+planned to fulfill the requirements throughout the Pathfinder year. Therefore, it is important that you spend time grasping the 
+scope and sequence of Investiture Achievement. Area Coordinators and other experienced Pathfinder staff are available to help 
+you learn how to implement the many Investiture Achievement tasks into your club’s 
+planning and programming. Introduce the six 
+basic Investiture Achievement titles and their 
+corresponding grade level.
+       
+Activity
+Give each participant the scope and sequence Friend and Trail Friend. Go over the 
+Handout Friend Requirements which distinguishes between Friend and Trail Friend, and 
+show how they can be incorporated into the 
+weekly meetings. Note that some activities 
+are seasonal.
+       
+Handout—Honor Requirement Sheets for 
+Friend Honors (Camping Skills 1, Christian 
+Citizenship, Red Alert, Seeds)
+       
+Staff Meetings
+In addition to club meetings, Pathfinder Club 
+Staff should meet at least once per month or 
+more to plan all the details for club nights as 
+well as other events and activities. Staff meetings are crucial to the success of a Pathfinder 
+club! The club mission and goals should determine the regularity of staff meetings rather than the convenience of time.
+Give each participant Handout—Sample 
+Staff Meeting Agenda and Follow-up Minutes. Note the importance of an agenda, and 
+the function of meeting minutes.
+       
+Staff meetings should include but are not limited to the following:
+• Opening prayer
+• Treasurer’s report
+• Investiture Achievement
+• Honors
+• Special programs (Induction, Pathfinder Sabbath, Investiture, etc.)
+• Outreach projects
+• Calendar events and changes
+• Conference events
+• Specific items of interest for your club
+• Planning session for at least 3 to 6 months in advance
+• Closing prayer Activities
+• Build your yearly club calendar that incorporates your conference and school calendars. 
+• Incorporate aspects of Investiture Achievement into your yearly club calendar. Refer to Handout -Sample Year Calendar (which incorporates both Investiture Achievement and honors over a school year).
+• Plan a weekly club meeting with opening and closing ceremonies. (Handout—Sample Weekly Meeting Outline).
+• Outline the agenda for a single staff meeting preparing for a Friend honor, Camping Skills 1.
+
+       <img src="images/simple club program 1.png" alt="Simple Club Program 1">
+
+       <h5>Notes</h5>
+       <ol>
+         <li>The Pathfinders are in full class A dress uniform because of the guest speaker.</li>
+         <li>Every program should have a purpose. Today’s program was to help us see we have to live by law (man’s law, recreational laws, God’s law and the Pathfinder law).</li>
+         <li>Keep on time according to schedule provided.</li>
+         <li>All adult staff members should have a copy of the program.</li>
+         <li>Where possible, mentor Pathfinder participation in leadership roles.</li>
+       </ol>
+
+    <h5>Notes</h5>
+       <ol>
+         <li>The Pathfinder full class A dress uniform does not need to be worn at all club meetings.</li>
+         <li>This morning focused on honors.</li>
+         <li>Keep on time according to schedule provided.</li>
+         <li>All adult staff members should have a copy of the program.</li>
+         <li>When the weather permits, have the opening and closing ceremony outdoors.</li>
+         <li>Select an honorable Pathfinder to bring in the national flag.</li>
+         <li>File all program schedules for reference purposes.</li>
+         <li>Where possible, mentor Pathfinder participation in leadership roles.</li>
+       </ol>
+
+       
+       
+       `,
+     }
+          
+
+            ],
+          
+          //Treasury Category
+'Counselor': [
+     { 
+           title: 'Counselor-Content 1-1',
+                 content: `
+           <img class="cmtlogos" src="images/CMT-Counselor.jpg" alt="Counselor">
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          
+            //Ministries Category
+'Instructor': [
+     { 
+           title: 'Instructor-Content 1-1',
+                 content: `
+           <img class="cmtlogos" src="images/CMT-Instructor.jpg" alt="Instructor">
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          //Other Category
+'Secretary': [
+     { 
+           title: 'Secretary-Content 1-1',
+                 content: `
+           <img class="cmtlogos" src="images/CMT-Secretary.jpg" alt="Secretary">
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+            //Ministries Category
+'Director': [
+     { 
+           title: 'Director-Content 1-1',
+                 content: `
+           <img class="cmtlogos" src="images/CMT-Director.jpg" alt="Director">
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+
+
+                  };
+
+  
+  // Function to load content and close sidebar
+function loadContent(contentName) {
+    var mainContent = document.getElementById('mainContent');
+    var subContents = contentMap[contentName];
+
+    if (subContents) {
+        // Initialize with the first sub-content
+        var initialSubContent = subContents[0];
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${initialSubContent.title}</h2>
+                                    <p>${initialSubContent.content}</p>
+                                </div>`;
+        enableSwipeNavigation(subContents);
+
+        // Close sidebar after loading content
+        toggleNav();
+    }
+}
+
+// Function to enable swipe navigation
+function enableSwipeNavigation(subContents) {
+    var mainContent = document.getElementById('mainContent');
+    var hammertime = new Hammer(mainContent);
+
+    var subContentIndex = 0;
+
+    hammertime.on('swiperight', function() {
+        if (subContentIndex > 0) {
+            subContentIndex--;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    hammertime.on('swipeleft', function() {
+        if (subContentIndex < subContents.length - 1) {
+            subContentIndex++;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    function updateSubContent(subContent) {
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${subContent.title}</h2>
+                                    <p>${subContent.content}</p>
+                                </div>`;
+    }
+}
+
+    </script>
+  <script>
+    // JavaScript for handling sub-menu visibility
+    document.addEventListener('DOMContentLoaded', function() {
+        const parentLinks = document.querySelectorAll('.main-navigation ul li');
+
+        parentLinks.forEach(function(parentLink) {
+            const subMenu = parentLink.querySelector('.sub-menu');
+            if (subMenu) {
+                // Add event listener to toggle sub-menu visibility on click
+                parentLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    subMenu.style.display = (subMenu.style.display === 'block') ? 'none' : 'block';
+                });
+            }
+        });
+    });
+      
+$(document).ready(function() {
+    var lastScrollTop = 0;
+    var delta = 10; // Adjust as needed
+    var navbarHeight = $('.main-navigation').outerHeight();
+
+    $(window).scroll(function() {
+        var st = $(this).scrollTop();
+
+        // Scroll down
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll down and hide navbar
+            $('.main-navigation').addClass('hidden');
+        } else {
+            // Scroll up or near the top, show navbar
+            if (st + $(window).height() < $(document).height()) {
+                $('.main-navigation').removeClass('hidden');
+            }
+        }
+
+        lastScrollTop = st;
+    });
+});
+      
+</script>
+  
+</body>
+</html>

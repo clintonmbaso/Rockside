@@ -266,10 +266,45 @@ img {
             display: block; /* Remove extra space below image */
             margin: 0 auto; /* Center horizontally */
         }
+  
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 70%;
+        overflow-y: auto;
+        opacity: 0.9;
+        border-radius: 20px;
+    }
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #popupContent {
+        text-align: justify;
+    }
+  
     </style>
 </head>
 <body>
 
+
+  
+
+  
+  
 <header class="site-header">
   
      <div class="logo-container">
@@ -325,15 +360,21 @@ img {
         </li>
     </ul>
 </nav>
+  
+
+  
+  
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </header>
+
+
+
+
 <div id="mainContent" class="main-content">
     <h3>ABOUT MASTER GUIDE</h3>
     <p>This is one of the most current leadership development program for youth ministry in the Seventh-day Adventist Church. The Master Guide is the foundation for youth ministry leadership, then builds two levels of continuing education that will help keep youth leaders sharp.</p>
-  <p>The Master Guide (MG) curriculum is one of the leadership programs that the General Conference Youth Ministries Department uses to train people for youth leadership. It is the “Ph.D.” of youth ministry in the field. You cannot earn your Master Guide without taking at least one Basic Staff Training (BST) course.</p>
-  <p>The Master Guide is the expert, the advisor, the promoter for Adventurers and Pathfinders. As such, MG is NOT a Pathfinder program, it is a Youth Ministry Leadership Program.</p>
-  <p>With one click, you can have one of the most current leadership development programs for youth ministry in the Seventh-day Adventist Church. This concept uses the Master Guide curriculum as the foundation for junior youth ministry leadership and helps keep youth leaders sharp, up-to-date, and focused on why we are in this business anyway. </p>
-  <p>We are now improving the MG Curriculum for release at the 2013 Impact South Africa youth congress. </p>
+  <p>The Master Guide (MG) curriculum is one of the leadership programs that the General Conference Youth Ministries Department uses to train people for youth leadership. You cannot earn your Master Guide without taking at least one Basic Staff Training (BST) course.</p>
+  <p>The Master Guide is the advisor and the promoter for Adventurers and Pathfinders. As such, MG is NOT a Pathfinder program, it is a Youth Ministry Leadership Program.</p>
   <h3>MASTER GUIDE LEADERSHIP</h3>
   <p>This continues to be the highest level of leadership within the Adventurer/ Pathfinder programs of the church. It focuses on one’s personal spiritual life and growth first and foremost. General leadership skills are then woven into the sharpening of those skills, which are specifically geared to leading youth in God-ordained areas of development: understanding God’s world of nature, outreach ministry, service to others and a life-style that denotes healthy living.</p>
   <p>As one church leader of the past put it so simply: “You can’t teach what you don’t know, and you can’t lead where you won’t go.” As leaders we must not only be good at spouting theory if we expect to see success with our youth ministry; we must live what we preach and demonstrate it. </p>
@@ -352,18 +393,7 @@ img {
     <p><strong>Six Stars (AY Classes)</strong> - Representing the six levels: Friend, Companion, Explorer, Ranger, Voyager, and Guide. This is the original primary goal for the Master Guide ministry. However, without abandoning this objective, the Master Guide ministry is also intended to serve other classes (like Adventurer Club levels) and all ministries in the Seventh-day Adventist Church as needed. </p>
     <p>About the stars symbol, Ellen White mentioned, “There will be no one saved in heaven with a starless crown. If you enter, there will be some soul in the courts of glory that has found an entrance there through your instrumentality.” (Last Day Events, p. 282) </p>
 
-<footer class="site-footer">
-    <div class="footer-content">
-        <p>&copy; 2024</p>
-        <nav class="footer-navigation">
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</footer>
+
 
   
       <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
@@ -375,24 +405,24 @@ img {
            title: 'Master Guide Prerequisites',
                  content: `
     <h3>Requirements:</h3>
-    <ul>
+    <ol>
         <li>Be a baptized member, in regular standing, of the Seventh-day Adventist Church.</li>
-        <li>Provide a copy of a document such as:
+        <p>Provide a copy of a document such as:
             <ul>
                 <li>Baptismal certificate.</li>
                 <li>Photo of your baptism.</li>
                 <li>Church bulletin that includes your baptism by name.</li>
                 <li>Letter from church clerk or pastor confirming membership.</li>
             </ul>
-        </li>
+        </p>
         <li>Be at least 16 years of age to start this card and 18 years of age at Investiture.</li>
-        <ul>
-          <li>Include a copy of an official ID to verify your age.</li>
-        </ul>
+        
+          <p>Include a copy of an official ID to verify your age.</p>
+        
         <li>Complete a background check and child protection course if 18+ years old.
-            <ul>
-                <li>Instructor signature for the child protection course.</li>
-            </ul>
+            
+                <p>Instructor signature for the child protection course.</p>
+            
         </li>
         <li>Write a one-page report or video on what it means to be a Master Guide and why you want to become a Master Guide.</li>
         <li>Complete each of the following workshops with verification:
@@ -407,15 +437,38 @@ img {
                 <li>Medical, Risk Management and Child Safety Issues</li>
             </ul>
         </li>
-        <li><a href="https://drive.google.com/drive/folders/1BVjUMh5QlBvfcdO-ZC9Z0w1jJGsJkXOj?usp=drive_link">Adventurer Basic Staff Training.</a></li>
-        <li><a href="https://drive.google.com/drive/folders/1x5i6n93dq_Xji5uJs4qGRj4rbkDFGYMV?usp=drive_link">Pathfinder Basic Staff Training.</a></li>
-    </ul>
+      <p><a href="https://drive.google.com/drive/folders/1BVjUMh5QlBvfcdO-ZC9Z0w1jJGsJkXOj?usp=drive_link">Adventurer Basic Staff Training.</a></p>
+        <p><a href="https://drive.google.com/drive/folders/1x5i6n93dq_Xji5uJs4qGRj4rbkDFGYMV?usp=drive_link">Pathfinder Basic Staff Training.</a></p>
+    </ol>
     <p><strong>Additional Notes:</strong> Your progress as a candidate is under the supervision of your Conference/Mission. If under 18 years of age, you must be supervised by an adult when working with minors.</p>
-    <p><em>All prerequisites must be completed prior to beginning the program.</em></p>       `,
+    <p><em>All prerequisites must be completed prior to beginning the program.</em></p>     
+       
+<!-- A Mentor -->
+<button onclick="showPopup('<h2>Who is a Mentor?</h2>',
+  '<p>A mentor is any Master Guide or leader authorized by your Conference/Mission to guide you through the completion of Master Guide requirements; should be accessible for assistance. The wisdom of experience cannot easily be replaced. The General Conference advises that each candidate select or be assigned a mentor, a Master Guide or experienced youth leader available to guide them through their journey as a candidate. Although the candidate will do the study and work in preparation for Investiture on their own, it is critical that they work under the guidance and review of their mentor.</p><p>This mentor will oversee the completion of the curriculum requirements. The mentor is not there to complete the requirements for the participant, but to gently look over their shoulder and give constructive advice and encourage practical application of lessons learned. It is hoped that participants will continue their relationship with their mentor beyond Investiture so that when life situations present themselves, their mentor will be a positive resource for guidance and counsel.</p><p>While mentors should be Master Guides, they do not have to have completed all levels of Adventurer and Pathfinder classwork. In some cases, distance or other factors may make it impossible to be mentored by a Master Guide. In such situations, the Conference/Mission should seek out trained pastors or teachers to fulfill this mentorship role.</p><img src=\'clinton.jpg\' alt=\'Clinton\' width=\'200\'>')">A Mentor</button>
+<div class="overlay" id="overlay"></div>
+
+<div class="popup" id="popup">
+    <div id="popupContent"></div>
+</div>
+       
+<!-- A Mentor -->
+<button onclick="showPopup('<h2>Who is a Mentor?</h2>',
+  '<p>A mentor is any Master Guide or leader authorized by your Conference/Mission to guide you through the completion of Master Guide requirements; should be accessible for assistance. The wisdom of experience cannot easily be replaced. The General Conference advises that each candidate select or be assigned a mentor, a Master Guide or experienced youth leader available to guide them through their journey as a candidate. Although the candidate will do the study and work in preparation for Investiture on their own, it is critical that they work under the guidance and review of their mentor.</p><p>This mentor will oversee the completion of the curriculum requirements. The mentor is not there to complete the requirements for the participant, but to gently look over their shoulder and give constructive advice and encourage practical application of lessons learned. It is hoped that participants will continue their relationship with their mentor beyond Investiture so that when life situations present themselves, their mentor will be a positive resource for guidance and counsel.</p><p>While mentors should be Master Guides, they do not have to have completed all levels of Adventurer and Pathfinder classwork. In some cases, distance or other factors may make it impossible to be mentored by a Master Guide. In such situations, the Conference/Mission should seek out trained pastors or teachers to fulfill this mentorship role.</p><img src=\'clinton.jpg\' alt=\'Clinton\' width=\'200\'>')">A Mentor</button>
+<div class="overlay" id="overlay"></div>
+
+<div class="popup" id="popup">
+    <div id="popupContent"></div>
+</div>
+       
+       
+       `,
      },
           
+          
+          
           { 
-           title: 'LEADERSHIP IDENTITY & GROWTH [WISDOM]',
+           title: 'I. LEADERSHIP IDENTITY & GROWTH [WISDOM]',
                  content: `
     
     <p>Complete each of the following Conference/Mission approved leadership training workshops (materials available in the Master Guide Curriculum Manual):</p>
@@ -486,8 +539,249 @@ img {
 </li>
 </ul>
        `,
-     }
+     },
           
+     { 
+           title: 'II. LIFESTYLE DEVELOPMENT [STATURE]',
+                 content: `
+
+Choose ONE of the following and record your progress:
+
+Have or earn the Physical Fitness honor. 
+
+Have or earn the Sportsman Master Award (To receive the Sportsman Master Award, earn any seven of the honors listed under the criteria in the link)
+
+Complete the physical fitness section of the AY Silver Award or Gold Award.
+
+In consultation with your Master Guide Mentor, choose a fitness app and complete at least a three-month program.
+
+Complete a three-month physical fitness program recommended by your doctor.
+
+In your Portfolio:
+
+Include your answers and materials collected for the Physical Fitness honor OR Sportsman Master award. Include the physical records achieved for your AY Silver or Gold Award, include a report of dates and training sessions, or Include a written recommendation from a medical professional of an appropriate physical fitness program for your physical/medical needs.
+
+Have or earn EACH of the following honors:
+
+Basic Water Safety
+
+Camp Safety
+
+Temperance
+
+Drilling & Marching
+
+Stewardship
+
+Camping Skills I
+
+Camping Skills II
+
+Camping Skills III
+
+Camping Skills IV
+
+Basic Rescue
+
+In your Portfolio:
+
+Include all your answers and materials collected for these honors.
+
+Have or earn AT LEAST THREE of the following honors:
+
+Backpacking
+
+Orienteering
+
+Knot Tying
+
+Ecology
+
+Fire Building & Camp Cookery
+
+Nutrition
+
+Earing honors is a good way to develop the gifts God has given us. These honors will provide a new level of expertise in the desired area, perhaps related to the missional emphasis in your Conference/Mission. Every honor has a purpose, so before selecting, ask yourself what honors are related to your personal skills and will be most useful for your community. 
+
+Include in your Portfolio all your answers and materials collected for the three honors you selected.
+
+Hold a current Red Cross First Aid & CPR certificate or its equivalent.
+
+First Aid Basic
+
+CPR Honor
+
+A current certificate is defined as one earned within the past two years or the time limit given before the certificate expires. Every few years, each volunteer should take a First Aid and CPR training course in order to update their certification and be ready for any situation.
+
+The International Federation of Red Cross and Red Crescent Societies offers a number of free online training tools that they call “Learning Platform.” They are offered in different languages. You can find them at https://ifrc.csod.com/client/ifrc/default.aspx. Their site can also provide you with contact information on almost 200 Red Cross or Red Crescent Societies around the world. You can find them at http://www.ifrc.org/en/who-weare/directory/
+
+Include in your Portfolio all your materials collected for this certificate or honor.
+       
+       `,
+     },
+          
+     { 
+           title: 'III. SPIRITUAL GROWTH [FAVOR WITH GOD]',
+                 content: `       
+
+Choose ONE of the following and do two Share Section options:
+
+Read or listen to the four Gospels and The Desire of Ages by Ellen G. White. (Desire of Ages Audiobook) 
+
+Read or listen to the Encounter Plan, Series 1: Christ the Way.
+
+In your Portfolio:
+
+Provide evidence of two Share Section options and Record which chapters you read each day. 
+
+Keep a devotional journal for at least ONE MONTH, summarizing what you learn in your devotional time and outlining how you are growing in your faith.
+
+You may choose to study the Gospels, The Desire of Ages, and the 28 Fundamental Beliefs during your devotional time, and thus partially complete multiple requirements from the III. Spiritual Growth (Favor with God) simultaneously. This is permissible and encouraged.
+
+In your Portfolio:
+
+ Include the journal, or a link to access it, in your Portfolio.
+
+Read or listen to the book Steps to Christ by Ellen G. White and do two Share Section options.
+
+ Audio of many Ellen G. White writings, including the book Steps to Christ, are available in multiple languages at http://ellenwhiteaudio.org  
+
+Find the book Steps to Christ at https://m.egwwritings.org/en/book/108/info 
+
+In your Portfolio:
+
+ Provide evidence of two Share Section options and record which chapters you read or listen to each day.
+
+Write a one-paragraph personal reflection on EACH of the 28 Fundamental Beliefs.
+
+Visit the official website of the Seventh-day Adventist Church to access the list of beliefs: https://www.adventist.org/beliefs/ 
+
+In your Portfolio:
+
+Include in every paragraph the key verse(s) connected to each Fundamental Belief.
+
+Even if at first sight this requirement seems simple, to summarize an entire Fundamental Belief requires a thorough knowledge of the subject, and reflection should include how the belief informs your walk with God, so you have a ready answer to those who inquire about your faith.
+
+Choose ONE of the following:
+
+Teach a THREE MONTH Bible class/baptismal study
+
+Teach FIVE of the following beliefs at a church-approved program:
+
+ Creation
+
+ The Experience of Salvation
+
+ Growing in Christ
+
+The Remnant and its Mission
+
+ Baptism
+
+ Spiritual Gifts and Ministries
+
+ The Sabbath
+
+ Christ’s Ministry in the Heavenly Sanctuary
+
+ The Second Coming of Christ
+
+ Death and Resurrection
+
+(These lessons may be taught in a Bible class/baptismal study, Sabbath School class, or Adventurer/Pathfinder Investiture Achievement coursework. This requirement gives an abridged list of the beliefs most critical and unique to the Adventist perspective)
+
+In your Portfolio: 
+
+Provide a copy of the completed presentations in your Portfolio. If you participated in a group evangelistic effort, include a short report of the program and outcome. • If you are teaching a Bible class or baptismal study, list the topics that were taught and the materials used for it. Also, the place, dates and a short description of the activity 
+
+6. Choose ONE of the following and do two Share Section options:
+
+Have or earn the Sanctuary honor.
+
+Attend a Conference/Mission approved workshop about the Sanctuary.
+
+Include in your Portfolio all your answers and materials collected for this honor or for a workshop explaining the Sanctuary approved by your Conference/Mission. 
+
+7. Choose ONE of the following and do two Share Section options:
+
+ Have or earn the Adventist Pioneer Heritage honor.
+
+ Watch the series Tell the World. (Watch Tell The World on YouTube)
+
+ Watch the series Keepers of the Flame. (Watch Keepers of the Flame Series on YouTube)
+
+ Read or listen to a book on church heritage approved by your Conference/Mission.
+
+Church Heritage Resources:
+
+Download Church Heritage Manual (2002 Edition)
+
+Download Church Heritage Book Summary
+
+Download Adventism in Zambia - Dr Cornelius Matandiko
+
+Download Summarized and Updated 2020 Church Heritage Teaching Aid
+
+Download African Church Heritage Teaching Aid (2016. Ps Daniel Sicheka)
+
+Listen to Church Heritage Manual Audiobook
+
+Current Affairs (2024)
+
+In your Portfolio: 
+
+Include in your Portfolio all your answers and materials collected for this requirement.
+
+The one-page summary should include the conclusions achieved by the group as well as the main spiritual lessons obtained.
+
+Complete the Share Section. More information about this at the end of this curriculum
+
+       
+       `,
+     },
+          
+     { 
+           title: 'IV. COMMUNITY DEVELOPMENT [FAVOR WITH MAN]',
+                 content: `
+
+Have or earn the Personal Evangelism honor.
+
+Have or earn THREE of the following honors:
+
+ Cultural Diversity Appreciation
+
+ Peacemaker
+
+Social Media
+
+ One ADRA honor not previously earned
+
+ One Household Arts honor not previously earned
+
+In your Portfolio:
+
+Include in your Portfolio all your answers and materials collected for the three honors selected. 
+
+Participate in organizing three social/fellowship events with your local church.
+
+With this said, a Master Guide candidate should be involved with the community of the local church, and social/fellowship activities are part of it. Church activities include strengthening friendships within the church, such as potlucks, church picnics, birthdays, and wedding celebrations (John 2:1-12), Sabbath afternoon nature hikes, visiting the elderly or sick, etc. These activities help us connect with the great family of the church without compromising our Bible principles.
+
+In your Portfolio:
+
+Include a full description of the activities, including dates, places, and your role.
+
+Choose ONE of the following and when possible, involve your club or youth group:
+
+Meet with a local government agency, non-profit, or other organization and participate in a community service project. 
+
+Work in an outreach initiative with your local coordinator of ADRA (or an equivalent ministry) for a minimum of three months.
+
+In your Portfolio:
+
+Evidence of your participation may include a photo of you in the event, a full report of the activity (date, venue, what was the mission, number of participants, how did you support the activities, etc.)
+       
+       `,
+     }
           
           
             ],
@@ -777,5 +1071,27 @@ $(document).ready(function() {
       
 </script>
   
+<script>
+    function showPopup(title, details, imageSrc) {
+        var popupContent = document.getElementById('popupContent');
+        popupContent.innerHTML = title + details; // Set the title and details
+
+        if (imageSrc) {
+            var image = document.createElement('img');
+            image.src = imageSrc;
+            popupContent.appendChild(image); // Append the image
+        }
+
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+    }
+
+    document.getElementById('overlay').addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    });
+</script>
+      
+      
 </body>
 </html>

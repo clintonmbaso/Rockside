@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD - SYL Course</title>
+      <style>
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-attachment: fixed; /* Keep the background image fixed in place */
+
+    /* Center the background image */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+/* Base styles for header */
+.site-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+
+}
+
+/* Optional: Apply rounded corners to the header */
+.site-header {
+    border-radius: 0px; /* Adjust the radius value for more or less curvature */
+    }
+
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+    
+}
+
+.title {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+/* Main navigation styles */
+.main-navigation {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right within the nav */
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.main-navigation.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+  
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation li {
+    position: relative; /* Enable absolute positioning for child elements */
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation a i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+/* Position each main link as desired */
+.secretariat {
+    position: absolute;
+    top: 50px; /* Adjust top position */
+    left: -130px; /* Adjust left position */
+}
+
+.treasury {
+    position: absolute;
+    top: 15px; /* Adjust top position */
+    left: -50px; /* Adjust left position */
+    
+}
+
+.ministries {
+    position: absolute;
+    top: -13px; /* Adjust top position */
+    left: 25px; /* Adjust left position */
+}
+
+.other {
+    position: absolute;
+    top: -40px; /* Adjust top position */
+    left: 110px; /* Adjust left position */
+}
+
+/* Sub-menu styles */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position sub-menu below parent item */
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+
+        /* Sub-menu styles */
+        .sub-menu {
+            display: none;
+            position: absolute;
+            height: auto;
+            left: 0;
+            background-color: rgba(167,79,45,0.1);
+            padding: 5px;
+            z-index: 999;
+            border-radius: 3px;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+.main-navigation ul li {
+    position: relative; /* Enable relative positioning for child elements */
+}
+  
+        /* Show sub-menu when parent li is hovered */
+        .main-navigation ul li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu ul {
+            list-style: none;
+            padding: 0;
+            
+          
+        }
+
+        .sub-menu ul li {
+            margin-top: 10px;
+           flex-direction: row;
+           
+        }
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 5px;
+    }
+}
+
+/* Media query for even smaller screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .title h2 {
+        font-size: 20px;
+    }
+
+    .main-navigation ul {
+        font-size: 14px;
+    }
+}
+        .site-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-navigation ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-navigation ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-navigation ul li a:hover {
+            color: #FF5733; /* Hover color */
+        }
+  
+  .main-content {
+    text-align: justify;
+    margin: 170px 10px 10px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 7px;
+    
+    z-index: 1;
+    
+  }
+  
+.logo-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  
+.logoes {
+  height: 100px;
+  width: auto;
+}
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+  
+     <div class="logo-container">
+        <img src="images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+  
+    <div class="logo title">
+        <img src="images/6. SYL.png" alt="Logo">
+        <h2><span style="color: green;">KEMD</span> - <span style="color: orange;">SYL Course</span></h2>
+    </div>
+
+    <nav class="main-navigation">
+    <ul>
+      
+        <li class="secretariat">
+            <a href="#" onclick="loadContent('Secretariat')">
+                <i class="fas fa-users"></i> Checklist
+            </a>
+        </li>
+      
+        <li class="treasury">
+            <a href="#" onclick="loadContent('Treasury')">
+                <i class="fas fa-money-bill-wave"></i> Curriculum
+            </a>
+        </li>
+      
+        <li class="ministries">
+            <a href="#" onclick="loadContent('Ministries')">
+                <i class="fas fa-building"></i> Ministries
+            </a>
+
+        </li>
+        <li class="other">
+            <a href="#" onclick="loadContent('Other')">
+                <i class="fas fa-ellipsis-h"></i> Other
+            </a>
+
+        </li>
+    </ul>
+</nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</header>
+  
+
+  
+<div id="mainContent" class="main-content">
+        <img class="logoes" src="images/6. syl.png" alt="Logo">
+    <h3>About the SYL Course</h3>
+    <p>The Senior Youth Leader (SYL) curriculum is for individuals (approved by the church board) who wish to take Senior Youth Ministry to the next level using Biblical principles and contemporary methods.  After completion of the SYL such individuals may be called upon to lead the Ambassador Ministry, Young Adult Ministry, and Public Campus Ministry at the local church.</p>
+
+    <h4>Relationship to Master Guide</h4>
+    <p>Both the Master Guide (Junior Youth) and the Senior Youth Leader (Senior Youth) curriculums have some similar requirements and prerequisites. Candidates can attend some lessons together though each curriculum will dictate the emphasis (junior or senior) thus affecting specialization. Those who already completed the Master Guide program may be exempted from some SYL requirements. The diagram below shows the Youth Ministries structure. Please remember that the SYL and MG are not new levels of the department, they are leadership curriculums for Senior Youth and Junior Youth respectively that complement the structure.</p>
+
+    <h4>Senior Youth Pledge</h4>
+    <p>Loving the Lord Jesus, I promise to take an active part in the youth ministry of the church, doing what I can to help others and to finish the work of the Gospel in all the world.</p>
+  
+  
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script>
+        var contentMap = {
+  //Secretariat Category
+'Secretariat': [
+     { 
+           title: 'Important Notes:',
+                 content: `
+       <p>The Senior Youth Leader curriculum must be completed in a minimum of one year and a maximum of three years.</p>
+       <p>Those completing the Senior Youth Leader curriculum must do so under the supervision of the Conference/Mission Youth Ministries Director or his/her designated Pastor or Qualified Youth Ministries Leader.</p>
+       <p>Seminars should be at least 60 minutes in length. All the seminar facilitators must be approved by the Conference/Mission Youth Director or his/her designee.</p>
+       <p>It would be advantageous for a Senior Youth Leader candidate to have a working knowledge of both Ambassadors and Young Adults Ministries.</p>
+       <p>Choose only one type of filing, Digital (recording) or Paper (writing).</p>
+       <a href="https://drive.google.com/file/d/1XrKL0s9zq65jZoa6QOhWyPpz0sylmnqn/view?usp=sharing">Download the SYL Curriculum</a>
+       `,
+     },
+          
+          
+          
+     { 
+           title: 'PREREQUISITES',
+                 content: `
+       <ol>
+         <li>Be a <strong>baptized member in regular standing</strong> of the Seventh-day Adventist Church.</li>
+         <li>Have a written <strong>recommendation</strong> from your local Church Board.</li>
+         <li>Be at least <strong>16 years of age</strong> to start the Senior Youth Leader Curriculum</li>
+         <li>Be an active staff member/supporter of an Ambassador or Young Adults Ministry.</li>
+         <li>Complete the <a href="https://drive.google.com/drive/folders/1Tjn6iCMlk9AuZoShVHBTpa2QKkV_rXQ_?usp=sharing">10 Hour Senior Youth Seminars</a> and be involved for a minimum of one year.</li>
+         </ol>
+       `,
+     },
+          
+     { 
+           title: 'YOU AND GOD',
+                 content: `
+       
+       <ol>
+       <li>Discover your Spiritual Gift by taking the test found on <a href="youth.adventist.org">youth.adventist.org</a> (Attach filled survey)</li>
+       <li>After studying the Bible and the Spirit of Prophecy teachings on Spiritual Gifts, write a brief Summary (250 words) of how your spiritual gifts can most effectively be used in Youth Ministry.</li>
+         <li><a href="https://drive.google.com/open?id=1Ns7bk6iesMLdFqPbPLOs_r46r8Oa9LFq">Read</a> or <a href="https://drive.google.com/open?id=1HMqHnkyaxH-7XNqND_PIYYI6Jrdi_I_o">listen</a> to the book Steps to Christ and submit a summary (250 words), focusing on the reading and the benefits.</li>
+         <li>Complete the devotional guide <a href="https://drive.google.com/open?id=1IvHmg-29a3tHMCpSFDK1UgZtZwipY0s4">Encounter Series I, Christ the Way</a>, or complete another year long Bible reading plan that covers the four Gospels and submit a summary from your reading.</li>
+         <li>Complete <a href="https://drive.google.com/open?id=16iotnjlpKJrOBrbPS3Iw7lXzUu1_xzvf">Reading</a> or <a href="https://drive.google.com/open?id=1yv0z4rtw62lVn57ESu8mKUI6WJn3QMju">listening</a> to the book Desire of Ages and submit a summary.</li>
+         <li>Do ONE of the following;</li>
+         <ul>
+           <li>Keep a devotional journal for a minimum of six months, summarizing what you learned in your devotional time and outlining how you are growing in your faith (Attach devotional and summary).</li>
+           <li>Complete the <a href="https://drive.google.com/open?id=1EyH3IAt4fL7QA9D7Z9BKlstTBNXHlUk1">Steps to Discipleship</a> personal spirituality curriculum.</li>
+           <li>Summarize, critique and evaluate (500 words) the <a href="https://www.gcyouthministries.org/resources/week-of-prayers/e-week-of-prayer/">eWeek of Prayer</a> of the current year.</li>
+           </ul>
+         <li>Read and give a summary of each of the <a href="https://drive.google.com/open?id=1HKflCiow-QlvtzufSE-P4ymxJRK9bl7P">28 Fundamental Beliefs</a>.</li>
+       </ol>
+       
+       `,
+     },
+          
+     { 
+           title: 'YOU AND YOU',
+                 content: `
+ <h4>1. Do the following:</h4>
+  <ul>
+    <li>In view of Colossians 1:16, develop your own life vision and mission</li>
+    <li>Identify three current roles in your life, at least one of which is spiritually oriented, and write three goals or objectives for each.</li>
+  </ul>
+
+  <h4>2. Have and teach the following honors (Attach certificates):</h4>
+  <ul>
+    <li>Physical Fitness</li>
+    <li>Nutrition</li>
+    <li>Outdoor Leadership</li>
+    <li>Stewardship</li>
+    <li>Counsels on Stewardship</li>
+    <li>First Aid (A current Red Cross First Aid and Safety Certificate or its equivalent)</li>
+    <li>Literature Evangelism</li>
+  </ul>
+
+  <h4>3. <a href="https://www.egwwritings.org">Read</a> or listen to the book Education or Messages to Young People by E. White.</h4>
+  <h4>4. Demonstrate your Leadership Skills by doing TWO of the following:</h4>
+  <ul>
+    <li>Develop and conduct three creative worship sessions for Ambassadors or Young Adults.</li>
+    <li>Participate in a leadership role with your Local Church Youth group in a Conference/Mission sponsored event.</li>
+    <li>Lead Ambassadors through one module to certification.</li>
+    <li>Be an active Ambassador, Young Adult or Sabbath School Staff member for at least one year and attend at least 	75% of all staff meetingse.</li>
+    <li>Be a Literature Evangelist for a minimum of 60 hours in liaison with the Publishing Department of the Local 	Conference.</li>
+  </ul>
+
+  <h4>5. Participate in a personal physical fitness plan by completing ONE of the following:</h4>
+  <ul>
+    <li>The physical components of the AY Silver Award. If you already have the AY Silver Award, then move on to the AY Gold Award.</li>
+    <li>A college physical fitness program. (Or any other like local AY program such as morning watch etc)</li>
+    <li>A personal physical fitness program based on a fitness book of your choice or a workout program in consultation 	with your Conference/Mission Youth Ministries Director or the designated Pastor/Qualified Youth Ministries Leader.</li>
+  </ul>
+       `,
+     },
+          
+     { 
+           title: 'YOU AND YOUTH',
+                 content: `
+<h4>1. Participate in Small Groups dialogue (for 30 minutes on each topic) and submit a Reaction Paper (1000 words) or Recording (20 minutes) on 10 of the following topics:</h4>
+  <ul>
+    <li>Church’s Relationship to Government</li>
+    <li>Music and Worship</li>
+    <li>Sex and Romance</li>
+    <li>Care for the Environment</li>
+    <li>Dating and Marriage</li>
+    <li>Service and Volunteering</li>
+    <li>Ethics</li>
+    <li>Health and Temperance</li>
+    <li>Social Justice</li>
+    <li>Religious Freedom</li>
+    <li>Youth Evangelism</li>
+    <li>Violence and Peace</li>
+    <li>Christian Dress</li>
+    <li>Gossip and Profanity</li>
+    <li>AIDS/Cancer</li>
+    <li>Recreation and Amusement</li>
+    <li>Lesbian Gay Bisexual Trans-sexual (LGBT)</li>
+    <li>Unemployment and Entrepreneurship</li>
+    <li>Prejudice and Racism/Discrimination</li>
+    <li>Morality</li>
+    <li>Human Rights</li>
+    <li>Money Consumerism</li>
+  </ul>
+  <h4>2. Complete a two-page (500 words minimum) research paper about a standard temperament analysis program and complete the affiliated temperament inventory (Module 4, Ambassadors).</h4>
+  <h4>3. Attend a Union or Conference Wide training on Safety Planning and Insurance.</h4>
+       `,
+     },
+          
+     { 
+           title: 'YOU AND THE CHURCH',
+                 content: `
+  <h4>1. Know and understand the 10 iCOR values.</h4>
+  <p><a href="http://icor.church">Visit iCOR website</a> for more details.</p>
+  <p>Write the iCOR values summary:...</p> <!-- You can add a summary here -->
+
+  <h4>2. Do TWO of the following:</h4>
+  <ul>
+    <li>Teach the Sabbath School lesson to a group of Senior Youth for a minimum of one quarter within one year.</li>
+    <li>Participate fully in the Youth Initiatives of Global Church or the Higher Organization (Global Youth Day, Youth Week of Prayer, Youth Commitment Day, Home Coming Sabbath, etc.)</li>
+  </ul>
+
+  <h4>3. Do ONE of the following:</h4>
+  <ul>
+    <li>Plan and direct/co-direct a weekend church or campus Senior Youth retreat or a Spiritual Emphasis week for youth. Where necessary subdivide the group.</li>
+    <li>Plan and direct at least two Senior Youth recreational activities covering a total time span for at least six hours. Where necessary subdivide the group.</li>
+  </ul>
+
+  <h4>4. Write and Pass Church Heritage Exam (75% Pass required) using Church Heritage Manual</h4>
+
+  <h4>5. Enhance your knowledge of Church Heritage by completing TWO of the following:</h4>
+  <ul>
+    <li>Read a book called The AY Story.</li>
+    <li>Write or record the history of a local church in consultation with the Conference/Mission Youth Ministries Director or Designated Pastor/Qualified Youth Ministries Leader.</li>
+  </ul>
+       `,
+     },
+          
+     { 
+           title: 'YOU AND THE COMMUNITY',
+                 content: `
+  <h4>1. Identify 10 needs in your community</h4>
+  <p>Develop a plan on how to be relevant for your community</p>
+
+  <h4>2. Choose any TWO from the following, endeavoring to lead one or more people to Christ:</h4>
+  <ul>
+    <li>Identify one young person who has stopped attending church and establish a relationship with him/her</li>
+    <li>Prepare and run GYD. Be sure to make follow up after Global Youth Day</li>
+    <li>Organize or present sermons for an evangelistic campaign (public evangelism, minimum 2 weeks).</li>
+    <li>Engage in Personal Evangelism through Friendship Ministry, Small Group Ministry, etc.</li>
+    <li>Serve as an Adventist Youth Task Force volunteer for 6 months</li>
+    <li>Serve as a Student Missionary or OYIM volunteer for 6 months</li>
+    <li>Give a series of Christ-Centered Bible studies covering at least fifteen major doctrines.</li>
+    <li>Direct or co-direct a community Better Living or Youth Alive for a minimum of ten days.</li>
+  </ul>
+       
+              `,
+     },
+          
+     { 
+           title: '10-HOUR SENIOR YOUTH SEMINARS',
+                 content: `
+       <p>Attend a 10-hour conference-sponsored Youth Society Seminar addressing the following areas of youth ministry:</p>
+ <ol>
+    <li>The Youth Leader as a Spiritual Leader, Mentor and Friend</li>
+    <li>Understanding the History, Philosophy, Vision, Objectives and Structure of Adventist Youth Ministry</li>
+    <li>Developing a Purpose Driven Model for Youth Ministry in the Local Church</li>
+    <li>Mentoring, Ownership and Empowerment in Youth Ministry</li>
+    <li>Comprehensive Evangelism</li>
+    <li>The Need for Specialized Youth Ministry</li>
+    <li>Creative Youth Ministry (to include programming)</li>
+    <li>Maximizing the Opportunities Offered by Social Media While Circumventing Its Hazards</li>
+    <li>Spiritual Giftedness and Service</li>
+    <li>Understanding the Youth</li>
+  </ol>
+       
+       `,
+     }
+            ],
+          
+          //Treasury Category
+'Treasury': [
+     { 
+           title: '10-HOUR SENIOR YOUTH SEMINARS',
+                 content: `
+
+Attend a 10-hour conference-sponsored Youth Society Seminar addressing the following areas of youth ministry:
+
+1. The Youth Leader as a Spiritual Leader, Mentor and Friend
+
+2. Understanding the History, Philosophy, Vision, Objectives and Structure of Adventist Youth Ministry
+
+3. Developing a Purpose Driven Model for Youth Ministry in the Local Church
+
+4. Mentoring, Ownership and Empowerment in Youth Ministry
+
+5. Comprehensive Evangelism
+
+6. The Need for Specialized Youth Ministry
+
+7. Creative Youth Ministry (to include programming)
+
+8. Maximizing the Opportunities Offered by Social Media While Circumventing Its Hazards
+
+9. Spiritual Giftedness and Service
+
+10. Understanding the Youth       
+       `,
+     }
+
+            ],
+          
+            //Ministries Category
+'Ministries': [
+     { 
+           title: 'Ministries-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          //Other Category
+'Other': [
+     { 
+           title: 'Other-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+         
+
+  //Adventurer Category
+'Adventurer': [
+     { 
+           title: 'Adventurer-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          //Pathfinder Category
+'Pathfinder': [
+     { 
+           title: 'Pathfinder-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          
+            //Ambassador Category
+'Ambassador': [
+     { 
+           title: 'Ambassador-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+
+  //Young Adult Category
+'Young Adult': [
+     { 
+           title: 'Young Adult-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          //PCM Category
+'PCM': [
+     { 
+           title: 'PCM-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          
+            //Education Category
+'Education': [
+    { 
+           title: 'Education Report on Leadership Seminar - March 3rd, 2024',
+                 content: `
+
+    <p><strong>Introduction</strong></p>
+    <p>On March 3rd, 2024, a highly successful seminar was conducted at Kohima SDA Church from 10 to 16 hours specifically tailored for Adventist Youth Ministries Leaders and all interested participants within the District. The seminar focused on crucial topics of leadership, mentorship, conflict resolution, and basic staff training relevant to AYM and leadership roles.</p>
+
+    <p><strong>Seminar Overview</strong></p>
+    <p>The seminar was designed to equip attendees with essential skills and knowledge necessary for effective leadership within the district. They were empowered with practical insights and strategies to enhance their roles in mentoring and guiding the youths.</p>
+
+    <p><strong>Attendees</strong></p>
+    <p>The seminar attracted 43 attendees from various congregations of our two zones, all dedicated to strengthening their leadership abilities and impact within the church community. The participants exhibited enthusiasm and a strong commitment to youth ministry. Among the attendees was our special guest and instructor: MG Mokwani Nawa, a representative from Midlands East Zambia Conference.</p>
+
+    <p><strong>Key Lessons Covered</strong></p>
+    <ol>
+        <li><strong>Leadership:</strong> An interactive session led by MG Mokwani focused on leadership styles suitable for youth engagement, effective communication with young people, decision-making in ministry contexts, and motivating youth involvement in church activities.</li>
+        <li><strong>Mentorship:</strong> The mentorship segment led by our KEMD Youth President MG Rabson emphasized the importance of mentorship in nurturing young believers. Attendees learned how to establish meaningful mentor-mentee relationships and guide youth through their spiritual journeys.</li>
+        <li><strong>Conflict Resolution:</strong> Practical strategies were shared by our Chaplain MG Melvin Mwila to help leaders identify and address conflicts within church settings positively and constructively. Real-life examples provided hands-on experience in resolving conflicts among youth.</li>
+        <li><strong>Basic Staff Training for Youth Leaders:</strong> Participants were introduced to essential staff training principles applicable to youth ministry, including effective onboarding techniques for new volunteers, skills development workshops, and performance management strategies for youth leaders by our Secretary Loveness Mwanza and Parliamentarian MG Morris Chibale.</li>
+    </ol>
+
+    <p><strong>Certifications</strong></p>
+    <p>As a result of their dedication and proficiency demonstrated during the seminar, 21 leaders were awarded certifications in leadership, conflict resolution, and mentorship within our District during the Youth Day on March 16, 2024. These certifications acknowledge their commitment to enhancing AYM practices and fostering positive growth within their respective congregations.</p>
+
+    <p><strong>Conclusion</strong></p>
+    <p>The seminar held on March 3rd, 2024, served as a valuable platform for leaders within KEMD to acquire practical skills and insights tailored to their unique ministry roles. The program's success underscores the importance of continuous education and development for effective youth leadership in the church.</p>
+
+    <p>We extend our appreciation to all attendees, instructors, and organizers for their contributions to making this seminar a meaningful and impactful event for our District. We anticipate the positive ripple effects of this seminar on youth engagement and spiritual growth within our congregations.</p>
+
+    <p><strong>Sincerely,</strong></p>
+    <p>Maxwell Mwiinga : Education Chair - Zone A<br>
+    <a href="tel:+260761468300">+260761468300</a></p>
+    
+    <p>Mbaso Clinton : Education Chair - Zone B<br>
+    <a href="tel:+260968084570">+260968084570</a></p>
+       `,
+     },
+          
+     { 
+           title: 'Report on Assessments in Church Heritage',
+                 content: `
+
+    <p><strong>Church Heritage Mock Exam - March 25, 2024</strong></p>
+    <p>A mock exam in Church Heritage was conducted on March 25, 2024, across our two Zones. The exams were held at Lukanga SDA Church in Zone A and Rockside SDA Church in Zone B. A total of 16 candidates participated in these assessments, with only 3 candidates successfully passing. This results in a pass rate of 18.75%.</p>
+
+    <p><strong>MEZC Final Exams - April 7, 2024</strong></p>
+    <p>The final exams organized by Midlands East Zambia Conference (MEZC) were held on April 7, 2024, at Kabwe Adventist School (KAS) and Rockside SDA Church. The KAS center accommodated 10 candidates, while Rockside had 18 candidates. Out of the 28 candidates who sat for the exams, a commendable 20 candidates successfully passed. This results in a pass rate of approximately 71.43%.</p>
+
+    <p><strong>Comment</strong></p>
+    <p>It is with great pleasure that we acknowledge the improvement in participant numbers and pass rates in these assessments. The increase in successful candidates reflects the dedication and commitment of the participants and the effectiveness of the preparation and support provided by our leaders in various churches.</p>
+
+    <p><strong>Next Steps</strong></p>
+    <p>For those who did not succeed in these assessments and others who wish to sit for the same exams, it is important to continue preparing diligently. The education team is preparing to request another exam session from the conference to provide further opportunities for candidates to demonstrate their knowledge and skills.</p>
+
+    <p>We encourage all interested parties to engage actively in their studies and take advantage of the upcoming exam opportunity to showcase their understanding of Church Heritage.</p>
+
+    <p><strong>Sincerely,</strong></p>
+    <p>Maxwell Mwiinga : Education Chair - Zone A<br>
+    <a href="tel:+260761468300">+260761468300</a></p>
+    
+    <p>Mbaso Clinton : Education Chair - Zone B<br>
+    <a href="tel:+260968084570">+260968084570</a></p>
+       `,
+     },
+     { 
+           title: 'Chaplain-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+          
+          
+            ],
+
+  //Chaplain Category
+'Chaplain': [
+     { 
+           title: 'Chaplain-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          //Projects Category
+'Projects': [
+     { 
+           title: 'Projects-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+                  };
+
+  
+  // Function to load content and close sidebar
+function loadContent(contentName) {
+    var mainContent = document.getElementById('mainContent');
+    var subContents = contentMap[contentName];
+
+    if (subContents) {
+        // Initialize with the first sub-content
+        var initialSubContent = subContents[0];
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${initialSubContent.title}</h2>
+                                    <p>${initialSubContent.content}</p>
+                                </div>`;
+        enableSwipeNavigation(subContents);
+
+        // Close sidebar after loading content
+        toggleNav();
+    }
+}
+
+// Function to enable swipe navigation
+function enableSwipeNavigation(subContents) {
+    var mainContent = document.getElementById('mainContent');
+    var hammertime = new Hammer(mainContent);
+
+    var subContentIndex = 0;
+
+    hammertime.on('swiperight', function() {
+        if (subContentIndex > 0) {
+            subContentIndex--;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    hammertime.on('swipeleft', function() {
+        if (subContentIndex < subContents.length - 1) {
+            subContentIndex++;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    function updateSubContent(subContent) {
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${subContent.title}</h2>
+                                    <p>${subContent.content}</p>
+                                </div>`;
+    }
+}
+
+    </script>
+  <script>
+    // JavaScript for handling sub-menu visibility
+    document.addEventListener('DOMContentLoaded', function() {
+        const parentLinks = document.querySelectorAll('.main-navigation ul li');
+
+        parentLinks.forEach(function(parentLink) {
+            const subMenu = parentLink.querySelector('.sub-menu');
+            if (subMenu) {
+                // Add event listener to toggle sub-menu visibility on click
+                parentLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    subMenu.style.display = (subMenu.style.display === 'block') ? 'none' : 'block';
+                });
+            }
+        });
+    });
+      
+$(document).ready(function() {
+    var lastScrollTop = 0;
+    var delta = 10; // Adjust as needed
+    var navbarHeight = $('.main-navigation').outerHeight();
+
+    $(window).scroll(function() {
+        var st = $(this).scrollTop();
+
+        // Scroll down
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll down and hide navbar
+            $('.main-navigation').addClass('hidden');
+        } else {
+            // Scroll up or near the top, show navbar
+            if (st + $(window).height() < $(document).height()) {
+                $('.main-navigation').removeClass('hidden');
+            }
+        }
+
+        lastScrollTop = st;
+    });
+});
+      
+</script>
+  
+</body>
+</html>

@@ -9,15 +9,18 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
         header {
             background-color: #333;
             color: #fff;
-            padding: 20px;
+            padding: 7px;
             text-align: center;
         }
+        .container {
+            display: flex;
+        }
         nav {
-            float: left;
             width: 20%;
             background-color: #f4f4f4;
             height: 100vh;
@@ -34,12 +37,45 @@
             background-color: #ddd;
         }
         section {
-            float: left;
-            width: 80%;
-            padding: 20px;
-        }
-        .sublinks {
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 80vh; /* Set a fixed height */
+}
+        .popup-overlay {
             display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            backdrop-filter: blur(5px);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 3;
+            max-width: 80%;
+            max-height: 80%;
+            overflow: auto;
+        }
+        .popup a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        .popup a:hover {
+            background-color: #ddd;
         }
     </style>
 </head>
@@ -49,46 +85,128 @@
     <h1>KEMD - Executive Page</h1>
 </header>
 
-<nav>
-    <a href="#2024">2024</a>
-    <a href="#2025">2025</a>
-    <a href="#2026">2026</a>
-    <a href="#2027">2027</a>
-    <a href="#2028">2028</a>
-</nav>
+<div class="container">
+    <nav>
+        <a href="#popup2024">2024</a>
+        <a href="#popup2025">2025</a>
+        <a href="#popup2026">2026</a>
+        <a href="#popup2027">2027</a>
+        <a href="#popup2028">2028</a>
+    </nav>
 
+    <section>
+        <div class="popup-overlay" id="popupOverlay"></div>
+        <div id="popup2024" class="popup">
+            <a href="#" class="popup-link" data-info="<body>
+    <h4>Minutes of the Kabwe East Mission District Youth Executive Meeting</h4>
+    <h5>Date: May 5th, 2024</h5>
+    <h5>Venue: Lukanga Main SDA Church</h5>
+    <h5>Time: 11:09 AM</h5>
+
+    <h5>Opening</h5>
+    <p>The meeting was called to order at 11:09 AM by Pastor Mwiya.</p>
+    <p>Opening prayer was offered by Br. Morris Bwalya.</p>
+
+    <h5>Roll Call</h5>
+    <ul>
+        <li>Br. Genesis Rabson Musonda - President</li>
+        <li>Sr. Elizabeth Maila Choolwe - General Secretary</li>
+        <li>Br. Mwangelwa Silimi - Pathfinder Director</li>
+        <li>Br. Clinton Mbaso - Education Chair Zone B</li>
+        <li>Br. Steady Chibela - Ambassador Leader</li>
+        <li>Br. Stainly Mubenga - Vice Ambassador Leader</li>
+        <li>Br. Morris Chibale - Parliamentarian</li>
+        <li>Br. Morris Bwalya - Pathfinder Director Zone B</li>
+        <li>Sr. Loveness Mwanza - Associate Secretary</li>
+        <li>Br. Maxwell Mwinga - Education Chair Zone A</li>
+        <li>Sr. Given Simate - Planning</li>
+    </ul>
+
+    <h5>Apologies</h5>
+    <p>Apologies were received from:</p>
+    <ul>
+        <li>Sr. Rosemary Lukwele Phiri - Vice President</li>
+        <li>Sr. Emeldah Hansebele - Vice Pathfinder Director</li>
+        <li>Sr. Chipo Musonda - Adventure Director</li>
+        <li>Sr. Beatrice</li>
+    </ul>
+
+    <h5>Main Agenda: How Are We Operating?</h5>
+    <p>Several issues were highlighted regarding the operation of the executive:</p>
+    <ul>
+        <li>Clubs and departments operating independently</li>
+        <li>Lack of unity within the executive group</li>
+        <li>Lack of orientation in positions and departments</li>
+        <li>Poor communication skills</li>
+        <!-- Add other issues here -->
+    </ul>
+
+    <h5>Recommendations</h5>
+    <p>To address the above issues, the following recommendations were made:</p>
+    <ul>
+        <li>Enhance cooperation and coordination among executive members</li>
+        <li>Implement a weekly review policy for interactive meetings</li>
+        <li>Accept and fulfill assigned responsibilities</li>
+        <li>Respect each other's capacities, personalities, and temperaments</li>
+        <!-- Add other recommendations here -->
+    </ul>
+
+    <h5>Any Other Business (AOB)</h5>
+    <p>The Pathfinder club proposed running promotions across all churches for an upcoming community service event.</p>
+
+    <h5>Closing</h5>
+    <p>Elder Moonga, the district secretary, concluded the meeting with a closing prayer.</p>
+
+    <p>These minutes were recorded by [Secretary's Name], General Secretary.</p>
+
+    <h5>Next Meeting</h5>
+    <p>Date: [Insert Date]</p>
+    <p>Venue: [Insert Venue]</p>
+    <p>Time: [Insert Time]</p>">1st Quarter</a>
+            <a href="#" class="popup-link" data-info="<p>Information related to Option 2 for 2024</p>">2nd Quarter</a>
+            <a href="#" class="popup-link" data-info="<p>Information related to Option 3 for 2024</p>">3rd Quarter</a>
+        </div>
+        <!-- Add similar divs for other years -->
+        <div id="contentArea">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</div>
+    </section>
+</div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const years = document.querySelectorAll('.year');
+        const links = document.querySelectorAll('nav a');
+        const popupOverlay = document.getElementById('popupOverlay');
 
-        years.forEach(year => {
-            const sublinks = year.querySelector('.sublinks');
-            const links = sublinks.querySelectorAll('a');
-
-            links.forEach(link => {
-                link.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    sublinks.style.display = 'none';
-                });
-            });
-
-            let timeoutId;
-
-            year.addEventListener('mouseover', function() {
-                sublinks.style.display = 'block';
-                clearTimeout(timeoutId);
-            });
-
-            year.addEventListener('mouseout', function() {
-                timeoutId = setTimeout(function() {
-                    sublinks.style.display = 'none';
-                }, 10000); // 10 seconds
+        links.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const popupId = link.getAttribute('href').substring(1);
+                const popup = document.getElementById(popupId);
+                popupOverlay.style.display = 'block';
+                popup.style.display = 'block';
             });
         });
+
+        document.querySelectorAll('.popup-link').forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+                const info = event.target.getAttribute('data-info');
+                document.getElementById('contentArea').innerHTML = info;
+                closePopup();
+            });
+        });
+
+        popupOverlay.addEventListener('click', function() {
+            closePopup();
+        });
+
+        function closePopup() {
+            popupOverlay.style.display = 'none';
+            document.querySelectorAll('.popup').forEach(popup => {
+                popup.style.display = 'none';
+            });
+        }
     });
 </script>
 
 </body>
-
 </html>

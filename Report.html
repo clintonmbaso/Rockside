@@ -292,6 +292,7 @@ body {
                 <i class="fas fa-money-bill-wave"></i> Treasury
             </a>
         </li>
+      
         <li class="ministries">
             <a href="#">
                 <i class="fas fa-building"></i> Ministries
@@ -306,6 +307,7 @@ body {
                 </ul>
             </div>
         </li>
+      
         <li class="other">
             <a href="#">
                 <i class="fas fa-ellipsis-h"></i> Other
@@ -315,9 +317,11 @@ body {
                     <li><a href="#" onclick="loadContent('Education')">Education</a></li>
                     <li><a href="#" onclick="loadContent('Chaplain')">Chaplain</a></li>
                     <li><a href="#" onclick="loadContent('Projects')">Projects</a></li>
+
                 </ul>
             </div>
         </li>
+      
     </ul>
 </nav>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -327,7 +331,7 @@ body {
   
 <div id="mainContent" class="main-content">
     <h3>The Purpose of this Page</h3>
-
+                
     <p>In the dynamic realm of Adventist Youth Ministries, effective communication and coordination are pivotal for fostering growth and impact. One essential tool within this framework is the dedicated report page—a centralized hub that streamlines updates, progress tracking, and accountability across various departments and ministries. Let’s delve into why report pages are indispensable for secretaries, treasurers, and individual ministries like Adventurers, Pathfinders, Ambassadors, and Young Adults, as well as for broader departments within the youth ministry scope.</p>
 
     <h4>Enhancing Transparency and Accountability</h4>
@@ -693,4 +697,130 @@ $(document).ready(function() {
 </script>
   
 </body>
+      
+
+  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        #linkbar {
+            position: fixed;
+            right: 0;
+            color: white;
+            transition: transform 0.9s, opacity 0.1s;
+            opacity: 1;
+            top: 250px;
+            z-index: 9999;
+        }
+
+        #linkbar.inactive {
+            transform: translateX(35px);
+            opacity: 0.4;
+            
+        }
+
+        #linkbar.active {
+            transform: translateX(0);
+        }
+
+        #logoset {
+            width: 70px;
+            height: auto;
+            background-color: rgba(55,55,55,0.2);
+            border-radius: 10px 0px 0px 10px;
+            padding: 2px 3px; /* Add padding around the text */
+        }
+
+.logo-link {
+    display: none; /* Initially hide logo links */
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: opacity 0.9s;
+    font-size: 14px; /* Adjust the font size */
+    padding: 4px 6px; /* Add padding around the text */
+    border-radius: 10px 0 0 10px; /* Rounded corners for the right side */
+    background-color: rgba(23,45,134,0.3);
+    
+}
+
+  .logo-link img {
+  width: 20px;
+  height: auto;
+    vertical-align: middle;
+  }
+    .logo-link a {
+  
+  }
+  
+  
+  
+.logo-link.active {
+    display: block; /* Show logo links when active */
+    opacity: 1; /* Ensure full opacity when active */
+}
+
+        .logo-link.inactive {
+            opacity: 0; /* Hide logo links with fade out effect */
+            
+        }
+    </style>
+</head>
+<body>
+<div id="linkbar" class="inactive">
+    <img id="logoset" src="images/Last Advent Logo.png" alt="Logo">
+    <a class="logo-link" href="board.html"><img src="images/board.png" alt="board">Board</a>
+    <a class="logo-link" href="flywings.c1.is/login.php"><img src="images/executive.png" alt="executive">Executive</a>
+    <a class="logo-link" href="council.html"><img src="images/council.png" alt="council">Council</a>
+</div>
+
+    <script>
+        let linkbar = document.getElementById('linkbar');
+        let logoLinks = document.querySelectorAll('.logo-link');
+        let isActive = false;
+        let timer;
+
+        function activateLinkbar() {
+            linkbar.classList.remove('inactive');
+            linkbar.classList.add('active');
+            logoLinks.forEach(link => link.classList.add('active'));
+            clearTimeout(timer);
+            timer = setTimeout(deactivateLinkbar, 10000);
+            isActive = true;
+        }
+
+        function deactivateLinkbar() {
+            linkbar.classList.remove('active');
+            linkbar.classList.add('inactive');
+            logoLinks.forEach(link => link.classList.remove('active'));
+            isActive = false;
+        }
+
+        linkbar.addEventListener('mouseenter', () => {
+            if (!isActive) {
+                activateLinkbar();
+            }
+        });
+
+        linkbar.addEventListener('mouseleave', () => {
+            if (isActive) {
+                timer = setTimeout(deactivateLinkbar, 10000);
+            }
+        });
+
+        linkbar.addEventListener('click', () => {
+            if (isActive) {
+                deactivateLinkbar();
+            } else {
+                activateLinkbar();
+            }
+        });
+    </script>
+</body>
+      
 </html>

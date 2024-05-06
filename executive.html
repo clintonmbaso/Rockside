@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD - Executive Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            float: left;
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: auto;
+        }
+        nav a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+            float: left;
+            width: 80%;
+            padding: 20px;
+        }
+        .sublinks {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KEMD - Executive Page</h1>
+</header>
+
+<nav>
+    <a href="#2024">2024</a>
+    <a href="#2025">2025</a>
+    <a href="#2026">2026</a>
+    <a href="#2027">2027</a>
+    <a href="#2028">2028</a>
+</nav>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const years = document.querySelectorAll('.year');
+
+        years.forEach(year => {
+            const sublinks = year.querySelector('.sublinks');
+            const links = sublinks.querySelectorAll('a');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    sublinks.style.display = 'none';
+                });
+            });
+
+            let timeoutId;
+
+            year.addEventListener('mouseover', function() {
+                sublinks.style.display = 'block';
+                clearTimeout(timeoutId);
+            });
+
+            year.addEventListener('mouseout', function() {
+                timeoutId = setTimeout(function() {
+                    sublinks.style.display = 'none';
+                }, 10000); // 10 seconds
+            });
+        });
+    });
+</script>
+
+</body>
+
+</html>

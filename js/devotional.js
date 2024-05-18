@@ -1,7 +1,7 @@
            document.addEventListener("DOMContentLoaded", function() {
                // Array of daily texts
                const shaelynMbaso1 = [
-   "Day Zero",
+   //"Day Zero",
    // January
    "God is love; and he that dwelleth in love dwelleth in God, and God in him. 1 John 4:16.",
    "And God saw everything that he had made, and, behold, it was very good. And the evening and the morning were the sixth day. Genesis 1:31.",
@@ -390,7 +390,9 @@
    "And they brought up an evil report of the land which they had searched unto the children of Israel, saying, The land, through which we have gone to search it, is a land that eateth up the inhabitants thereof. Numbers 13:32.",
    "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you. John 14:26.",
    "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away. Revelation 21:4.",
-   
+   
+
+
    // Add more texts for each day
                ];
    

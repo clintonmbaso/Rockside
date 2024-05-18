@@ -590,7 +590,1544 @@ document.addEventListener("DOMContentLoaded", function () {
    "<p>Look at our world today, you who claim to be Christians. Are you awake to the situation as you see how the kindness and love of a long-forbearing God is treated with contempt and absolute rejection? Finite, fallen human beings in need of pardon and peace, and all are invited to come. The Lord Jesus, the Great Teacher, gives the invitation, but often it is met with frivolous excuses or turned from with jesting and contempt. All who will may come and respond to the gracious invitation. Why cannot people see the importance of accepting the call and making their peace with God? </p>" +
    "<p>The devil is not dead. He is working with all his attractive allurements to persuade people to close their ears that they shall not hear, and thousands who ought to be giving this testing message to the world are hiding their talents in the earth. They are making no use of their powers to draw souls to the bountifully spread table. Unfaithful, slothful servants! God will call you to account. But we thank God that there are some faithful voices heard, that there are some who feel their responsibility, and who are at work with every means in their power to compel them to come in.—Letter 89, 1898.</p>",
    
-   
+      
+    //March
+    //1
+"<p><b>Character Makes a Difference in Life</b></p>" +
+"<p>The Lord knoweth the days of the upright: and their inheritance shall be for ever.... For such as be blessed of him shall inherit the earth; and they that be cursed of him shall be cut off. Psalm 37:18-22.</p>" +
+"<p>The reverence manifested by Shem and Japheth for their father, and thus for the divine statutes, promised a brighter future for their descendants. Concerning these sons it was declared: 'Blessed be Jehovah, God of Shem; and Canaan shall be his servant. God shall enlarge Japheth, and he shall dwell in the tents of Shem; and Canaan shall be his servant.' The line of Shem was to be that of the chosen people, of God's covenant, of the promised Redeemer. Jehovah was the God of Shem. From him would descend Abraham, and the people of Israel, through whom Christ was to come. 'Happy is that people, whose God is the Lord.' And Japheth 'shall dwell in the tents of Shem.' In the blessings of the gospel the descendants of Japheth were especially to share....</p>"+
+"<p>The prophecy of Noah was no arbitrary denunciation of wrath or declaration of favor. It did not fix the character and destiny of his sons. But it showed what would be the result of the course of life they had severally chosen and the character they had developed. It was an expression of God's purpose toward them and their posterity in view of their own character and conduct. As a rule, children inherit the dispositions and tendencies of their parents, and imitate their example; so that the sins of the parents are practiced by the children from generation to generation. Thus the vileness and irreverence of Ham were reproduced in his posterity, bringing a curse upon them for many generations. 'One sinner destroyeth much good.'</p>"+
+"<p>On the other hand, how richly rewarded was Shem's respect for his father; and what an illustrious line of holy people appears in his posterity! 'The Lord knoweth the days of the upright,' 'and his seed is blessed.' 'Know therefore that the Lord thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations.'—Patriarchs and Prophets, 117, 118 CTr 67 - CTr 67.4</p>",
+    
+    //2
+"<p><b>An Evil Character Leads to Apostasy</b></p>" +
+"<p>Cursed be Canaan; a servant of servants shall he be unto his brethren. Genesis 9:25.</p>" +
+"<p>To repeople the desolate earth, which the Flood had so lately swept from its moral corruption, God had preserved but one family, the household of Noah, to whom He had declared, 'Thee have I seen righteous before me in this generation.' Yet in the three sons of Noah was speedily developed the same great distinction seen in the world before the Flood. In Shem, Ham, and Japheth, who were to be the founders of the human race, was foreshadowed the character of their posterity.</p>" +
+"<p>Noah, speaking by divine inspiration, foretold the history of the three great races to spring from these fathers of the human race. Tracing the descendants of Ham, through the son rather than the father, he declared, 'Cursed be Canaan; a servant of servants shall he be unto his brethren.' ... Evil characteristics were perpetuated in Canaan and his posterity, whose continued guilt called upon them the judgments of God....</p>" +
+"<p>Though the prophetic curse had doomed them to slavery, the doom was withheld for centuries. God bore with their impiety and corruption until they passed the limits of divine forbearance. Then they were dispossessed, and became bondmen to the descendants of Shem and Japheth....</p>" +
+"<p>For a time the descendants of Noah continued to dwell among the mountains where the ark had rested. As their numbers increased, apostasy soon led to division. Those who desired to forget their Creator and to cast off the restraint of His law felt a constant annoyance from the teaching and example of their God-fearing associates, and after a time they decided to separate from the worshipers of God. Accordingly they journeyed to the plain of Shinar, on the banks of the river Euphrates. They were attracted by the beauty of the situation and the fertility of the soil, and upon this plain they determined to make their home.</p>" +
+"<p>Here they decided to build a city, and in it a tower of such stupendous height as should render it the wonder of the world. These enterprises were designed to prevent the people from scattering abroad in colonies. God had directed men and women to disperse throughout the earth, to replenish and subdue it; but these Babel builders determined to keep their community united in one body, and to found a monarchy that should eventually embrace the whole earth.... The magnificent tower, reaching to the heavens, was intended to stand as a monument of the power and wisdom of its builders, perpetuating their fame to the latest generations.—Patriarchs and Prophets, 117-119 CTr 68.1 - CTr 68.6</p>",
+    
+    //3
+"<p><b>Some Go to Great Lengths to Avoid God</b></p>" +
+"<p>Let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad. Genesis 11:4.</p>" +
+"<p>Some of the descendants of Noah soon began to apostatize.... They journeyed a distance ... and selected a large plain wherein to dwell. There they built a city, and then conceived the idea of erecting a large tower to reach unto the clouds, that they might dwell together in the city and tower, and be no more scattered. They reasoned that they would secure themselves in case of another flood, for they would build their tower to a much greater height than the waters prevailed in the time of the Flood, and all the world would honor them.... Before the work of building was accomplished, people dwelt in the tower. Rooms gorgeously furnished and decorated were devoted to their idols....—The Signs of the Times, March 20, 1879.</p>" +
+"<p>But among the people of Babel there were living some God-fearing persons who had been deceived by the pretensions of the ungodly and drawn into their schemes. These would not join this confederacy to thwart the purposes of God. They refused to be deceived by the wonderful representations and the grand outlook. For the sake of these faithful ones, the Lord delayed His judgments and gave the people time to reveal their true character....</p>" +
+"<p>This confederacy was born of rebellion against God. The dwellers on the plain of Shinar established their kingdom for self-exaltation, and not for the glory of God.... Determined individuals, inspired by the first great rebel, would have been urged on by him and would have permitted nothing to interfere with their plans or to stop them in their evil course. In the place of the divine precepts they would have substituted laws framed in accordance with the desires of their selfish hearts, in order that they might carry out their purposes.</p>" +
+"<p>But God never leaves the world without witnesses for Him. Those who loved and feared Him at the time of the first great apostasy after the Flood humbled themselves and cried unto Him. 'O God,' they pleaded, 'interpose Thyself between Thy cause and the plans and methods of men.' 'And the Lord came down to see the city and the tower, which the children of men builded.' ...</p>" +
+"<p>God bears long with the perversity of human beings, giving them ample opportunity for repentance, but He marks all their devices to resist the authority of His just and holy law. As an evidence of His displeasure over the building of this tower, He confounded the language of the builders, so that none could understand the words of fellow workers.—Manuscript 94, 1903 CTr 69.1 - CTr 69.6</p>",
+    
+    //4
+"<p><b>Babel Builders Still Exist</b></p>" +
+"<p>The Lord bringeth the counsel of the heathen to nought: he maketh the devices of the people of none effect. The counsel of the Lord standeth for ever, the thoughts of his heart to all generations. Psalm 33:10, 11.</p>" +
+"<p>The schemes of the Babel builders ended in shame and defeat. The monument to their pride became the memorial of their folly. Yet people today are continually pursuing the same course—depending upon self, and rejecting God's law. It is the principle that Satan tried to carry out in heaven; the same that governed Cain in presenting his offering.</p>" +
+"<p>There are tower builders in our time. Infidels construct their theories from the supposed deductions of science and reject the revealed Word of God. They presume to pass sentence upon God's moral government; they despise His law and boast of the sufficiency of human reason. Then, 'because sentence against an evil work is not executed speedily, therefore the heart of the sons of men is fully set in them to do evil.'</p>" +
+"<p>In the professedly Christian world many turn away from the plain teachings of the Bible and build up a creed from human speculations and pleasing fables, and they point to their tower as a way to climb up to heaven. People hang with admiration upon the lips of eloquence while it teaches that the transgressor shall not die, that salvation may be secured without obedience to the law of God. If the professed followers of Christ would accept God's standard, it would bring them into unity; but so long as human wisdom is exalted above His Holy Word, there will be divisions and dissension.</p>" +
+"<p>The existing confusion of conflicting creeds and sects is fitly represented by the term 'Babylon,' which prophecy applies to the world-loving churches of the last days. Many seek to make a heaven for themselves by obtaining riches and power. They 'speak wickedly concerning oppression: they speak loftily,' trampling upon human rights and disregarding divine authority. The proud may be for a time in great power, and may see success in all that they undertake, but in the end they will find only disappointment and wretchedness.</p>" +
+"<p>The time of God's investigation is at hand. The Most High will come down to see that which rebel humans have builded. His sovereign power will be revealed; the works of human pride will be laid low.... 'The Lord bringeth the counsel of the heathen to nought: he maketh the devices of the people of none effect. The counsel of the Lord standeth forever, the thoughts of his heart to all generations.'—Patriarchs and Prophets, 123, 124 CTr 70.1 - CTr 70.6</p>",
+    
+    //5
+"<p><b>Abraham's Faith Tested</b></p>" +
+"<p>I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing. Genesis 12:2.</p>" +
+"<p>It was not a small trial to Abraham to be called to leave his home and acquaintances and go into a land that he knew not. When he came into that land, he found that the Canaanites were there, and he would have all their idolatry to meet.</p>" +
+"<p>This was a severe trial to Abraham's faith. He could not see any possession that he could claim as his own. But in his perplexity the God of heaven condescended to preach the gospel to him and show him the possession that he should have for an eternal inheritance.</p>" +
+"<p>Abraham moved from place to place, as it seemed advisable for him, in order to obtain a support for his family, and his family was not small. His trained servants numbered more than four hundred. At every place where he pitched his tent, close beside it he erected an altar; so he worshiped God in every place where he was called to be. In thus doing he was training his family to love and fear God....</p>" +
+"<p>All God's followers, wherever they shall go, should carry the true principles of their religion with them. If sin, forgetfulness of God, and idolatry exist in the places where they shall go, then is the time for them to show their true principles.</p>" +
+"<p>When we set ourselves where all is convenience and ease, we do not feel so much the necessity of depending moment by moment upon God. God in His providence brings us into positions where we shall feel our necessity of His help and strength....</p>" +
+"<p>Now, the Lord has a controversy with His people, and He wants every one of us to come into obedience to His requirements. We are none of us, when duty is laid out before us, to question, 'Is it convenient or will it please me to do this?' If God says it, it is enough. We are to take our Bibles; we are to study and see what the will of God is concerning us, and then to follow as Abraham did, in faith and confidence.</p>" +
+"<p>Now, you see, the first test was a very close test for Abraham—to leave everything and go into a land of strangers.... There were adverse circumstances that followed Abraham for a time that brought him into positions of trial and where he was proved of God.... When the Lord opened before him the view of immortal life, of this earth purified, which was to be his home, he was satisfied.—Manuscript 19, 1886 (see also In Heavenly Places, 112; Manuscript Releases 10:120, 121 CTr 71.1 - CTr 71.8</p>",
+    
+    //6
+"<p><b>The Effect of Choices</b></p>" +
+"<p>If thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left. Genesis 13:9.</p>" +
+"<p>Abraham was tested to see whether he would hear the voice of God and obey. The Lord saw that it was not for his best spiritual interest to remain in his country and among his relatives, where he could not exert that influence over them that would be a blessing. He told him to leave them. Abraham was a rich man, but in the greatest simplicity he obeyed God and went out, a sojourner into a strange country. As he left his home and his kindred, God assured him that he would have earthly greatness and prosperity in the land of Canaan.</p>" +
+"<p>Why did not Abraham make use of all his means to bring about this prosperity? Why did he not invest his means to enrich himself with wealth and influence above anyone with whom he was brought in contact? Abraham did not do anything to glorify himself. He did not aim at power. He did not aspire to greatness by building up cities and calling them by his name. He was content.</p>" +
+"<p>The record tells us that Abraham took Lot, his nephew, with him, and for a time they lived together. But their families were large, and there was a quarrel between the herdsmen of Abraham and the herdsmen of Lot over their cattle. 'And Abraham said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren. Is not the whole land before thee?' ...</p>" +
+"<p>Lot's choice was the land of Sodom. Abraham dwelt in the land of Canaan and Lot in the cities of the plain, and he pitched his tent toward Sodom. But the men of Sodom sinned before the Lord exceedingly.</p>" +
+"<p>Here is brought to view another separation. It makes a great difference when and how a separation takes place. It was Lot's privilege to inquire, to be very careful where he should go, very careful in regard to the society he chose for his family. But without reference to the inhabitants, he chose a land that was beautiful in situation, that promised great returns. Lot went in rich, and came forth with nothing as the result of his choice. It makes every difference whether people place themselves in positions where they will have the very best help of correct influences or whether they choose temporal advantages. There are many ways that lead to Sodom. We all need anointed eyesight, that we may discern the way that leads CTr 72.1 - CTr 72.6</p>",
+    
+    //7
+"<p><b>Lot's Experience Serves as a Warning</b></p>" +
+"<p>Then Lot chose him all the plain of Jordan; and Lot journeyed east: and they separated themselves the one from the other. Genesis 13:11.</p>" +
+"<p>We see the marked traits in Abraham's character when the strife commenced between the herdsmen, and Abraham said, 'Let there be no strife, I pray thee, between me and thee.... Separate thyself, I pray thee, from me: if thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left.'</p>" +
+"<p>Lot saw that the country near Sodom was most favorable for his worldly and temporal prosperity, and he chose that location. If Lot had manifested the same courtesy that Abraham had, he would have given him the choice. But Abraham did not take the position that he was superior to everyone around him; he took a humble position. It was the right of Abraham to make his choice, and to be first, but he chose to be courteous in this matter.</p>" +
+"<p>Lot, instead of inquiring whether this would be the most favorable for his morality and godliness, thought only of his worldly prosperity. But the time came when Lot was placed in a most trying position because of the wickedness of the inhabitants of Sodom. When Lot and his family were taken by those who came in to conquer Sodom and Gomorrah, Abraham went to deliver him from his captors. When the king of Sodom would have Abraham take some gifts of the spoils, he there again showed the true nobility of his character. He said he would not take so much as a thread or a shoe tie lest they should say, 'I have made Abraham rich.' God had given to Abraham the promise that he should have great riches, and he would not have anyone say that the wicked had given him the treasures he possessed. We see that every step with Abraham was one of faith.</p>" +
+"<p>We read in Genesis 18 of visitors coming to Abraham as he was sitting in the door of his tent.... These were angels of God, and one of them was no less than the Son of God. When these guests came up to his tent, they were strangers, but he observed the rules of true courtesy toward them. The Word of God tells us to 'be not forgetful to entertain strangers: for thereby some have entertained angels unawares.' Abraham did this. And when the heavenly guests made themselves known to Abraham, they told him what their purpose was in regard to Sodom.... And while Abraham was not in Sodom, was not connected with Sodom, yet we see that he had an intense interest that Sodom should not be destroyed if God could CTr 73.1 - CTr 73.5</p>",
+    
+    //8
+"<p><b>Importance of Choosing Our Location Carefully</b></p>" +
+"<p>And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where. Genesis 13:10.</p>" +
+"<p>The eyes of Abraham's understanding were not closed when he decided that the best thing he could do was to separate from Lot, although he had been to him as a father. But contention and strife he could not endure, even among the herdsmen. He could not have his peace of mind disturbed by unpleasant differences. Separation was painful to him, but it must be.</p>" +
+"<p>Abraham gave Lot the choice of where he would go so that afterward Lot should not be tempted to think that in the separation Abraham had his own interest in view. Lot chose a beautiful location near Sodom. The land of his choice possessed every natural advantage, but he failed to investigate the morals and religion of the Sodomites. We have on record his after-history. The time came when he had to flee from the corrupt city, which was dark with crime of every stripe and type. He was permitted to warn his daughters and sons-in-law, but they would not heed this warning any more than they had heeded his instruction. They mocked at his faith in God, and they perished in the destruction of Sodom.</p>" +
+"<p>This is a lesson for us all. We should move carefully in the selection of homes for our families. We should seek the help of the Lord in the training of our children and their choice of a lifework. Every family should constantly look to God, trusting in Him to guide aright. Sharp discrimination is necessary in order to avoid following a wrong course for the sake of worldly gain.</p>" +
+"<p>The Lord's will is to be our will. God must be made first and last and best in everything. We are to be as teachable as a little child, moving carefully and with entire trust in God. Our eternal interests are involved in the steps we take, whether we move heavenward toward the city whose maker and builder is God, or earthward toward Sodom's beautiful attractions.</p>" +
+"<p>God does not consult our opinions or preferences. He knows what human beings do not know—the future results of every movement—and therefore our eyes should be directed to Him and not to the worldly advantages presented by Satan.—Manuscript 50, 1893 (Sermons and Talks, 1:219, 220 CTr 74.1 - CTr 74.6)</p>",
+    
+    //9
+"<p><b>God Hears Our Intercessory Prayers</b></p>" +
+"<p>And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked? Genesis 18:23.</p>" +
+"<p>We are told that Abraham drew near and said: 'Wilt thou also destroy the righteous with the wicked?' While Abraham had a true sense of humility that every child of God should possess, yet he had an intense interest in the souls of sinners. He is represented as drawing near. He steps close to those heavenly messengers and pleads with them as a child would plead with its parents. He remembers that Lot has made his home in Sodom and that Lot has connections all through Sodom by marriage. Therefore Abraham commences at fifty, and the Lord tells him that He will spare it for fifty; then he goes down to ten, and the Lord tells him that He will spare it for ten's sake. He does not make any further appeal, but he does hope that there will be found ten righteous persons in Sodom.</p>" +
+"<p>But when the angels came to Sodom, they could not find even five righteous ones in that splendid city, so we may reason that there may be the most splendid cities, having the greatest wealth, and yet there may not be found five righteous in them. As we are seeking for the future immortal life, every one of us should have everything connected with us as favorable as we can make it for the development of Christian character. God frequently calls us to break every tie that binds us to unholy influences and to come out from among them.</p>" +
+"<p>Here Abraham stands as one who is a representative for God, and his history is brought down along the line to our time. Abraham's interest and anxiety for Sodom is a lesson to us that we should have an intense interest for those around us. Although we should hate the sin, we should love the souls of those for whom Christ died. And then we should feel most grateful to God that we have One who is pleading in the heavens above in our behalf.</p>" +
+"<p>Jesus knows the worth of every soul because it is He who paid the price for everyone. When He was in His agony at the crucifixion, He prayed there for His enemies and He said, 'Father, forgive them; for they know not what they do.' And here, as we see in the case of Abraham, He pleads for the guilty as one person pleads for another. We should offer that same earnest prayer for those who are in darkness.—Manuscript 19, 1886 CTr 75.1 - CTr 75.5</p>",
+    
+    //10
+"<p><b>Angels Are Limited in What They Can Do for Us</b></p>" +
+"<p>And there came two angels to Sodom at even: and Lot sat in the gate of Sodom: and Lot seeing them rose up to meet them; and he bowed himself with his face toward the ground. Genesis 19:1.</p>" +
+"<p>Lot had been kept with Abraham's household, and he had become so molded that he had the same courteous spirit that Abraham manifested. These men the angels appeared just like other men when they came to Lot, and if a spirit of courtesy had not been cultivated by Lot, he might have perished with the rest of Sodom. The wickedness of the inhabitants of Sodom was so great that they would have abused the men who brought this message and were entertained by Lot. But angels of God protected Lot from being torn in pieces by the rabble that were outside his door. They smote them with blindness so that they could not find the door.</p>" +
+"<p>After this exhibition of wickedness the angels opened to Lot the object of their visit. They told Lot that if he had any sons or daughters in that place to bring them out of the city. Lot was permitted to go to his relatives and tell them that the city was to be destroyed and that they must flee from it. But all his entreaties and all his warnings were of no avail with them. They mocked at what they called his superstitious fears. Why, here was Sodom just as it had been, and there was no evidence in anything their eyes beheld that led them to think there was a destruction before them.</p>" +
+"<p>But the angel, as Lot returned, was in haste, and bade them flee out of Sodom. Lot was, as it were, stupefied at the thought that he must go without his property, and with only his wife and two children with him. The angels laid hold upon them and led them out of the city.... As soon as they were out of the city and on their way toward the mountain, the angel said to them, 'Flee for your life, and tarry not in all the plain.' The command was 'Look not behind you.' ...</p>" +
+"<p>The wife of Lot turned her eyes toward the city, looking for what she had left there; the curse of God came upon her, and she was turned into a pillar of salt.... We can see that Lot made a mistake when he made his home in Sodom. Here he lost not only all his possessions; he lost all but two of his children. This is a lesson that we should take to heart. There may be very flattering openings for the children of God, but they must look on every side of the question before deciding. The very first question with every one of us should be 'How will it be with my soul?'—Manuscript 19a, 1886. CTr 76.1 - CTr 76.5</p>",
+    
+    //11
+"<p><b>Give Nothing Less Than Loving Obedience to God</b></p>" +
+"<p>Whoever says, 'I have come to know him,' but does not obey his commandments, is a liar, and in such a person the truth does not exist. 1 John 2:4, NRSV.</p>" +
+"<p>I have been reported as saying you could not be saved unless you kept the Sabbath. Does it indeed seem meaningless, the requirement of the fourth commandment? Does not the habitual subjection to our heavenly Master's will lead the obedient to ask constantly and earnestly, not 'What is pleasing?' not 'What is the most convenient or agreeable to self or those around us?' but 'What does my Lord require? What is the will of God concerning me?'</p>" +
+"<p>Is it anything strange that one should do this or that under the conviction of the Spirit of God, under a sense of the fact that a refusal or neglect to do so would endanger the soul's salvation? Is this a matter hard to comprehend, that obedience on our part to all God's law is absolutely essential to eternal life? Is this an unfathomable mystery to the Christian—to secure the soul's salvation at any cost to self or selfish interest? Does the Word of God give us any assurance that we can get to heaven just as well transgressing the law as obeying it? If so, the whole requirement of God as a condition of salvation is an entire mistake.</p>" +
+"<p>Were the inhabitants of the old world who perished in the Flood punished for their disobedience of God's requirements? Or were they washed by the waters of the deluge straight into glory because our merciful God is too good to execute the final penalty of transgressing His law? Were the Sodomites punished for their disobedience and only Lot saved? Or were the inhabitants of Sodom winged by the fire that fell from heaven straight into glory?</p>" +
+"<p>Has God commanded? Then we must obey—without hesitating and seeking to find some way to be saved without obedience; this would be climbing up some other way. 'I am the way, the truth, and the life.' 'I have kept my Father's commandments,' says the Majesty of heaven....</p>" +
+"<p>We should not obey the commandments merely to secure heaven, but to please Him who died to save sinners from the penalty of the transgression of the Father's law. The sinner's salvation depends upon ... ceasing to transgress and obedience to that transgressed law. No one should venture or presume upon the mercy of God, feeling at liberty to sin as much as they dare.... It is a sad resolve to follow Christ as far off as possible, venturing as near the verge of perdition as possible without falling in. CTr 77.1 - CTr 77.6</p>",
+    
+    //12
+"<p><b>Seek Bible Truth at Any Cost</b></p>" +
+"<p>For this is the love of God, that we keep his commandments: and his commandments are not grievous. 1 John 5:3.</p>" +
+"<p>It was a great sacrifice Christ made for us in dying for us upon the cross. What are we willing to sacrifice for His love? Jesus says, 'If ye love me, keep my commandments' not to select out one or two or nine, but the whole ten. All His commandments must be kept. John tells us of those who pretend to love but do not obey God's requirements. 'He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him.' 'For this is the love of God, that we keep his commandments: and his commandments are not grievous.'</p>" +
+"<p>You may say, So you believe that all the learned world is wrong and that a poor company, greatly in the minority, looked upon as ignorant, common people, are all that will be saved? I answer, Jesus was among the lowly of the earth. He did not take His position by the side of the learned rabbis or the rulers. He was not found among the potentates of earth, but among the lowly ones. The truth was never found among the majority. It was ever found among the minority.</p>" +
+"<p>The angels from heaven did not come to the school of the prophets and sing their anthems over the Temple or synagogues, but they went to those who were humble enough to receive the message. They sang the glad tidings of a Saviour over Bethlehem's plains while the great, the rulers, and the honorable were left in darkness because they were perfectly satisfied with their position and felt no need of a piety greater than that which they possessed. Teachers in the schools of the prophets, the scribes and priests and rulers, were the worst persecutors of Christ. Those who made the highest pretensions to spiritual light were the very ones who slighted and rejected and crucified Christ.</p>" +
+"<p>Great men and women and professedly very good people may do terrible deeds in their bigotry and self-exalted position, and flatter themselves that they are doing God service. It will not do to rely upon them. Truth, Bible truth, you and I want at any cost. Like the noble Bereans we want to search the Scriptures daily with earnest prayer, to know what is truth, and then obey the truth at any cost to ourselves, without reference to prominent people or good people. If truth is in the Bible, we can find it there as well as the good and great ones of earth. God help us to be wise unto salvation is my prayer.— CTr 78.1 - CTr 78.5</p>",
+    
+    
+    
+    //13
+"<p><b>Do Not Resist Salvation's Invitation</b></p>" +
+"<p>To day if ye will hear his voice, harden not your hearts. Hebrews 3:15.</p>" +
+"<p>Who will describe to you the lamentations that will arise when, at the boundary line that parts time and eternity, the righteous Judge will lift up His voice and declare, 'It is too late.' Long have the wide gates of heaven stood open, and the heavenly messengers have invited and entreated: 'Whosoever will, let him take the water of life freely.' 'To day if ye will hear his voice, harden not your hearts.' But at length the mandate goes forth: 'He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still.'</p>" +
+"<p>The heavenly gate closes, the invitation of salvation ceases. In heaven it is said, 'It is done.' Such a time is not far distant. I plead with you to make sure work for eternity, to lay hold on the hope set before you in the gospel. Strive to enter in at the strait gate, for if you merely seek, you will not be able.</p>" +
+"<p>The world is loaded down with the curse that sin brings. It is literally deluged with sin, with violence and corruption, as in the days of Noah. And yet at this fearful period of our world's history many are asleep. They cease to make efforts to become Christians. Self-gratification and carnal security still imperil the eternal welfare. Is not this foolhardy? Satan's followers may call it honorable, praiseworthy, to manifest that independence of mind that will lead you to regard with indifference your former instructions and make you think you have found a better way. As you listen to these suggestions, you are becoming hardened through the deceitfulness of sin....</p>" +
+"<p>What shall worldly pleasures avail you when all the world shall be overwhelmed as was Sodom and destroyed like Gomorrah? These cities are set forth as examples to other sinners that they may know that their day is coming.</p>" +
+"<p>Too late will sinners realize that they have sold their birthright. The crown that they might have had shines upon the brow of another. The inheritance that they might have had is lost. Beware how you trifle with temptation. Beware how you boast of your strength. Christ is your ever-lasting strength; confide in God, lay hold of His strength, and He will bring you off conqueror and you will wear the crown of victory.—Letter 21, 1867 CTr 79.1 - CTr 79.6</p>",
+    
+    
+    
+    //4
+"<p><b>Strive for a Heavenly Inheritance</b></p>" +
+"<p>If the mighty works, which have been done in thee, had been done in Sodom, it would have remained until this day. Matthew 11:23.</p>" +
+"<p>God promised to Abraham, and his seed after him, that they should have possessions and lands, and yet they were only strangers and sojourners. The inheritance and lands that are to be given not only to Abraham but to the children of Abraham will not be until after this earth is purified. Abraham will then receive the title to his farm, his possessions; and the children of Abraham will have a title to their possessions. Every one of us should constantly bear in mind that this earth is not our dwelling place, but that we are to have an inheritance in the earth made new. The destruction of Sodom and Gomorrah symbolizes to us how this world will be destroyed by fire. It is not safe for any one of us to build our hopes in this life. We want first to seek the kingdom of God and His righteousness....</p>" +
+"<p>Sodom and Gomorrah were like the Garden of Eden. The Lord had lavished His blessings upon that portion of the earth. Everything was beautiful; everything was lovely; and yet it did not lead people to honor the Giver. When the Lord rained the fire and brimstone from heaven to consume Sodom and Gomorrah, what a desolation! How easily could the blast of God make that beautiful situation an unsightly place.</p>" +
+"<p>There is a lesson in this destruction of Sodom to those who lived in Christ's day, and the message comes down the lines to our time. Matthew 11:20-24 quoted. We can see that their guilt was measured according to the proportion of light that shone upon them. And this is a lesson to every one of us before whom God has opened the precious light of truth....</p>" +
+"<p>You may feel that you have accepted the truth, that you understand it, and you may stop there and go no further. It is one thing to accept and hold the truth, and another thing to have the truth as it is in Jesus. While you are engaged in labor, while your hands and minds are employed in doing useful work, there is a necessity for meditation and reflection and earnest prayer. You want this light that comes down from heaven to do something for you. You want that faith that is represented as gold. You want to cultivate the love of Jesus in your heart, and you want to bear in mind that the very angels that appeared to Abraham and to Lot may be in</p>",
+    
+    //15
+"<p><b>Guard Against Losing Communion With God</b></p>" +
+"<p>I know him, that he will command his children and his household after him, and they shall keep the way of the Lord, to do justice and judgment. Genesis 18:19.</p>" +
+"<p>There is hope for every one of us, but only in one way—by fastening ourselves to Christ and exerting every energy to attain to the perfection of His character. This goody-goody religion that makes light of sin, and that is forever dwelling upon the love of God to the sinner, encourages sinners to believe that God will save them while they continue in sin and know it to be sin. This is the way that many are doing who profess to believe present truth. The truth is kept apart from their life, and that is the reason it has no more power to convict and convert the soul. There must be a straining of every nerve and spirit and muscle to leave the world, its customs, its practices, and its fashions....</p>" +
+"<p>The lives of many show that they have no living connection with God. They are drifting into the channel of the world. In reality they have no part or lot with Christ. They love amusement and are filled with selfish plans, hopes, and ambitions. They serve the enemy under the pretense of serving God. They are in bondage to a taskmaster, and this bondage they choose, making themselves willing slaves of Satan....</p>" +
+"<p>Are there not reasons the Spirit of God does not work with His people? Truth is kept in the outer court. Communion with God is forfeited to please worldly relations and friends whose hearts are constantly in opposition to the truth....</p>" +
+"<p>God's blessing was upon Abraham because he would cultivate home religion. He who blesses the habitation of the righteous says, 'I know him, that he will command his ... household after him.' There will be no betraying of the truth on his part....</p>" +
+"<p>If you want the blessing of God, parents, do as did Abraham. Repress the evil, and encourage the good. Some commanding may be necessary in the place of consulting the inclination and pleasure of the children. Blind affection will not be the rule of the house. Indulgence, which is the veriest cruelty, will not be practiced.... Bring your children with you into the house of God.... Satan will surely take possession of them if you are not on your guard. Do not encourage their association with the ungodly. Draw them away. Come out from among them yourselves, and show them that you will be on the Lord's side.</p>",
+    
+    //16
+    "hi",
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    //31
+    "hi",
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // April
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    
+    
+    
+    // May
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+"<p><b>The Fruits of a Soft Answer</b></p>" +
+"<p>A soft answer turneth away wrath: but grievous words stir up anger. Proverbs 15:1.</p>" +
+"<p>Abigail's manner and conciliatory gifts softened the spirit of David. He declared that it had been his intention to destroy Nabal and his household, but that now he would refrain from vengeance, for he believed that she had been sent by the Lord to prevent him from doing so great an evil. He promised that her request should be ever remembered, even when he should sit as ruler over Israel, and he would never seek retaliation for the insult of Nabal.</p>" +
+"<p>Although Nabal had refused the needy company of David and his men, yet that very night he made an extravagant feast for himself and his riotous friends, and indulged in eating and drinking till he sank in drunken stupor. The next day after the effects of his drunken debauch had somewhat passed away, his wife told him of how near he had been to death, and of how the calamity had been averted.... Palsied with horror, he sat down and never recovered from the shock.</p>" +
+"<p>From this history we can see that there are circumstances under which it is proper for a woman to act promptly and independently, moving with decision in the way she knows to be the way of the Lord. The wife is to stand by the side of the husband as his equal, sharing all the responsibilities of life, rendering due respect to him who has selected her for his life-long companion. 'For the husband is the head of the wife, even as Christ is the head of the church: and he referring to Christ is the saviour of the body,' or church.... When the Spirit of Christ controls the husband, the wife's subjection will result only in rest and benefit, for he will require from her only that which will result in good, and in the same way that Christ requires submission from the church....</p>" +
+"<p>When the husband has the nobility of character, purity of heart, and elevation of mind that every true Christian must possess, it will be made manifest in the marriage relation. If he has the mind of Christ he will not be a destroyer of the body, but will be full of tender love, seeking to reach the highest standard in Christ. He will seek to keep his wife in health and courage....</p>" +
+"<p>The Lord Jesus has not been correctly represented in His relation to the church by many husbands in their relation to their wives, for they do not keep the way of the Lord.... It was not the design of God that the husband should have control, as head of the house, when he himself does not submit to Christ.—Manuscript 17, 1891 (Manuscript Releases 21:214, 215). CTr 145.1 - CTr 145.6</p>",
+    
+    //19
+"<p><b>Instruction of God to Be Carefully Cherished</b></p>" +
+"<p>How long wilt thou mourn for Saul, seeing I have rejected him from reigning over Israel? fill thine horn with oil, and go, I will send thee to Jesse the Beth-lehemite: for I have provided me a king among his sons. 1 Samuel 16:1.</p>" +
+"<p>When God called David from his father's sheepfold to anoint him king of Israel, He saw in him one to whom He could impart His Spirit. David was susceptible to the influence of the Holy Spirit, and the Lord in His providence trained him for His service, preparing him to carry out His purposes....</p>" +
+"<p>How joyfully David triumphs in God and his relation to Him. 'Who is a rock save our God? ... The Lord liveth; and blessed be my rock; and let the God of my salvation be exalted.' He is my strength, my power. He is the source and foundation of all my blessings. He is to be as the shadow of a great rock in a weary land. He is my strength, my support. He it is who keeps me safe. In Him will I trust....</p>" +
+"<p>After David had been made king of Israel, God did not compliment him on his exalted position or his dignity and the extent of his power, but instructed him in regard to the obligations resting on him. This instruction was to be carefully cherished as the Word of the Lord for all who should follow David as rulers of the people. They were to be often repeated as lessons of counsel to future generations....</p>" +
+"<p>The heavier the responsibilities that people bear, the more humble should they be and the more jealous of themselves, lest they withdraw their confidence from God and become haughty, overbearing, presumptuous, and self-exalted. This is the danger threatening those who have been especially favored by God. Unless they become wise in the wisdom of God, and strive constantly to reveal the attributes of God, they are in danger of thinking themselves sufficient for all things....</p>" +
+"<p>Those placed in positions of responsibility should be men and women who fear God, who realize that they are humans only, not God. They should be people who will rule under God and for Him. Will they give expression to the will of God for His people? Do they allow selfishness to tarnish word and action? Do they, after obtaining the confidence of the people as leaders of wisdom who fear God and keep His commandments, belittle the exalted position that the people of God should occupy in these days of peril? Will they through self-confidence become false guideposts, pointing the way to friendship with the world instead of the way to heaven?—Manuscript 163, 1902 CTr 146.1 - CTr 146.6</p>",
+    
+    //20
+"<p><b>One Sin Often Forces Another</b></p>" +
+"<p>And David's anger was greatly kindled against the man; and he said to Nathan, As the Lord liveth, the man that hath done this thing shall surely die. 2 Samuel 12:5.</p>" +
+"<p>The Bible has little to say in praise of mortals. Little space is given to recounting the virtues of even the best men and women who have ever lived. This silence is not without purpose; it is not without a lesson. All the good qualities that people possess are the gift of God; their good deeds are performed by the grace of God through Christ....</p>" +
+"<p>It was the spirit of self-confidence and self-exaltation that prepared the way for David's fall.... According to the customs prevailing among Eastern rulers, crimes not to be tolerated in subjects were uncondemned in the king; the monarch was not under obligation to exercise the same self-restraint as the subject. All this tended to lessen David's sense of the exceeding sinfulness of sin.... As soon as Satan can separate the soul from God, the only Source of strength, he will seek to arouse the unholy desires of humanity's carnal nature....</p>" +
+"<p>When in ease and self-security he let go his hold upon God, David yielded to Satan and brought upon his soul the stain of guilt.... Bathsheba, whose fatal beauty had proved a snare to the king, was the wife of Uriah the Hittite, one of David's bravest and most faithful officers.... Every effort that David made to conceal his guilt proved unavailing. He had betrayed himself into the power of Satan.... There appeared but one way of escape, and in his desperation he was hurried on to add murder to adultery....</p>" +
+"<p>Nathan the prophet was bidden to bear a message of reproof to David. It was a message terrible in its severity. To few sovereigns could such a reproof be given but at the price of certain death to the reprover.... Appealing to David as the divinely appointed guardian of his people's rights, the prophet repeated a story of wrong and oppression that demanded redress....</p>" +
+"<p>Nathan fixed his eyes upon the king; then, lifting his right hand to heaven, he solemnly declared, 'Thou art the man.' 'Wherefore,' he continued, 'hast thou despised the commandment of the Lord, to do evil in his sight?' The guilty may attempt, as David had done, to conceal their crime ...; they may seek to bury the evil deed forever from human sight or knowledge; but 'all things are naked and opened unto the eyes of him with whom we have to do.' ...</p>" +
+"<p>The prophet's rebuke touched the heart of David; conscience was aroused; his guilt appeared in all its enormity. His soul was bowed in penitence before God. With trembling lips he said, 'I have sinned against the Lord.'—Patriarchs and Prophets, 717-722 CTr 147.1 - CTr 147.7</p>",
+    
+    //21
+"<p><b>In Adversity the Character Is Revealed</b></p>" +
+"<p>And David said unto all his servants that were with him at Jerusalem, Arise, and let us flee; for we shall not else escape from Absalom. 2 Samuel 15:14.</p>" +
+"<p>David was never more worthy of admiration than in his hour of adversity. Never was this cedar of God truly greater than when wrestling with the storm and tempest.... With spirits broken and in tearful emotion, but without one expression of repining, he turns his back upon the scenes of his glory and also of his crime, and pursues his flight for his life.</p>" +
+"<p>Shimei comes forth as David passes and, with a storm of curses, hurls against him invectives, throwing stones and dirt. Said one of David's faithful men, 'Let me go over, I pray thee, and take off his head.' David in his sorrow and humility says, 'Let him curse, because the Lord hath said unto him, Curse David.' ...</p>" +
+"<p>When the march of the procession is arrested by Zadok and Abiathar with the Levites who come bearing the ark of God, the symbol of God's presence, David for a moment sees the star of hope amid the clouds, for with this precious token with him, he may greatly improve his situation....</p>" +
+"<p>But how unselfish, how noble, is the man David! In his overwhelming affliction, David's resolution is taken. He, like the tall cedar of Lebanon, looks toward heaven. The royal command is 'Carry back the ark of God into the city.' ... His reverence and respect for the ark of God would not allow him to consent that it should be imperiled by his vicissitudes in his hasty flight....</p>" +
+"<p>To rob the city of that symbol that gives it the name of the 'Mount of Holiness,' he could not consent. Had he possessed selfish motives and a high opinion of himself, he would gladly have gathered everything that would build up his sinking fortunes and give him power to secure his safety. But he sends back to its place the sacred chest and will make no advancement until he sees the priests returning with the hallowed burden, to place it in the tabernacle of Zion....</p>" +
+"<p>The voice of conscience, more terrible than Shimei, was bringing his sins to his mind. Uriah was continually before his eyes. His great crime was the sin of adultery.... Although he did not with his own hand kill Uriah, he knew that the guilt of his death rested upon him....</p>" +
+"<p>He recalled how ofttimes God had worked for him, and thought, 'If He accepts my repentance, He may yet give me His favor and turn my mourning to joy.... On the other hand, if He has no delight in me, if He has forgotten me, if He will leave me to exile or to perish, I will not murmur. I deserve His judgments and will submit to it all.'—Letter 6, 1880 CTr 148.1 - CTr 148.8</p>",
+    
+    //22
+"<p><b>David's Remorse Was As Great As Was His Guilt</b></p>" +
+"<p>I dwell in the high and holy place, and also with those who are contrite and humble in spirit, to revive the spirit of the humble, and to revive the heart of the contrite. Isaiah 57:15, NRSV.</p>" +
+"<p>Sinners seldom feel right in regard to reproof.... How little sympathy they feel for the one who has carried the heavy load the Lord has laid upon him! They assume the role of a martyr and think they deserve great pity, because they are reproved and counseled contrary to their own ideas and feelings. They may admit some things, but with dogged persistency they hold fast to their errors, their own ideas. 'For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry.' To all intents and purposes the Word of God is rejected....</p>" +
+"<p>How different was the character of David! Though he had sinned, when God sent him sharp rebukes he always bowed under the chastisement of the Lord. David was beloved of God, not because he was a perfect man, but because he did not cherish stubborn resistance to God's expressed will. His spirit did not rise up in rebellion against reproof....</p>" +
+"<p>David erred greatly, but he was just as greatly humbled and his contrition was as profound as his guilt. There was never a person more humble than David under a sense of his sin. He showed himself a strong man, not in always resisting temptation, but in the contrition of soul and sincere penitence manifested. He never lost his confidence in God, who put the stern rebuke in the mouth of His prophet. He had no hatred for the prophet of God. He was beloved, also, because he relied upon the mercy of a God whom he had loved and served and honored.</p>" +
+"<p>To whom much is forgiven, the same loveth much. David did not take counsel of associates who were sinning against God. This is where many fail. They are left in midnight darkness because they choose to counsel with those who walk not in the counsel of the Lord. They will excuse sin in the sinner when it is not repented of, and pass over wrongs when God has not forgiven them. David trusted in God more than in humans. The decision of God was accepted as just and merciful. Oh, how many are walking in blindness and leading others in the same path, where both must perish because they will not heed the reproofs of the Spirit of God!—Manuscript 1a, 1890 CTr 149.1 - CTr 149.5</p>",
+    
+    //23
+"<p><b>To Receive God's Pardon Is to Receive His Justification</b></p>" +
+"<p>Happy are those whose transgression is forgiven, whose sin is covered. Happy are those to whom the Lord imputes no iniquity, and in whose spirit there is no deceit. Psalm 32:1, 2, NRSV.</p>" +
+"<p>Many commit the error of trying to define minutely the fine points of distinction between justification and sanctification. Into the definitions of these two terms they often bring their own ideas and speculations. Why try to be more minute than is Inspiration on the vital question of righteousness by faith? Why try to work out every minute point, as if the salvation of the soul depended upon all having exactly your understanding of this matter? All cannot see in the same line of vision. You are in danger of making a world of an atom, and an atom of a world.</p>" +
+"<p>As penitent sinners, contrite before God, discern Christ's atonement in their behalf, and accept this atonement as their only hope in this life and the future life, their sins are pardoned. This is justification by faith. Every believing soul is to conform his or her will entirely to God's will, and keep in a state of repentance and contrition, exercising faith in the atoning merits of the Redeemer, and advancing from strength to strength, from glory to glory. Pardon and justification are one and the same thing....</p>" +
+"<p>Justification is the opposite of condemnation. God's boundless mercy is exercised toward those who are wholly undeserving. He forgives transgressions and sins for the sake of Jesus, who has become the propitiation for our sins. Through faith in Christ the guilty transgressor is brought into favor with God and into the strong hope of life eternal....</p>" +
+"<p>David was pardoned of his transgression because he humbled his heart before God in repentance and contrition of soul and believed that God's promise to forgive would be fulfilled. He confessed his sin, repented, and was reconverted. In the rapture of the assurance of forgiveness he exclaimed, 'Blessed is he whose transgression is forgiven, whose sin is covered. Blessed is the man unto whom the Lord imputeth not iniquity, and in whose spirit there is no guile.' The blessing comes because of pardon; pardon comes through faith that the sin, confessed and repented of, is borne by the great Sin-bearer. Thus from Christ cometh all our blessings. His death is an atoning sacrifice for our sins. He is the great medium through whom we receive the mercy and favor of God. He, then, is indeed the Originator, the Author, as well as the Finisher, of our faith.—Manuscript 21, 1891 CTr 150.1 - CTr 150.5</p>",
+    
+    //24
+"<p><b>David's Experiences Were Like Ours</b></p>" +
+"<p>Unto thee will I cry, O Lord my rock; be not silent to me: lest, if thou be silent to me, I become like them that go down into the pit. Psalm 28:1.</p>" +
+"<p>David was a representative human being. His history is of interest to every soul who is striving for eternal victories. In his life two powers struggled for the mastery. Unbelief marshaled its forces, and tried to eclipse the light shining upon him from the throne of God. Day by day the battle went on in his heart, Satan disputing every step of advance made by the forces of righteousness. David understood what it meant to fight against principalities and powers, against the rulers of the darkness of this world. At times it seemed that the enemy must gain the victory. But in the end, faith conquered, and David rejoiced in the saving power of Jehovah.</p>" +
+"<p>The struggle that David went through, every other follower of Christ must go through. Satan has come down with great power, knowing that his time is short. The controversy is being waged in full view of the heavenly universe, and angels stand ready to lift up for God's hard-pressed soldiers a standard against the enemy, and to put into their lips songs of victory and rejoicing.—Manuscript 38, 1905 (The Seventh-day Adventist Bible Commentary, vol. 3, pp. 1142, 1143, Ellen G. White Comments).</p>" +
+"<p>Wherever the will of God is violated by nations or by individuals a day of retribution comes. Many set aside the wisdom of God and prefer the wisdom of worldly people and adopt some human invention or device. David placed the Word of God beside him on his throne. He was then immovable. But forsaking its doctrines he sullied one of the fairest reputations....</p>" +
+"<p>We must bring our religion to the Bible standard. We must not place ourselves where we claim wisdom to welcome or reject God's words at pleasure. Never let the world think that the Christian and the world are the same in mind and judgment. There is a line drawn between the eternal God and the church on one side and the world on the other. There is no unity between the two. One chooses the way of the Lord, the other the ways of Satan. There will always be found a necessity to contend for the faith once delivered to the saints....</p>" +
+"<p>People of the world hate the Bible because it will not let them sin just as they please and carry along with them their hereditary and cultivated traits of character. They want their own ideas to be cherished as the mind of God. They oppose the Word of God for the same reason that the Jews cried 'Away with Christ!' because He rebuked their sins and laid bare their iniquities.—Letter 16, 1888 (Manuscript Releases 21:169 CTr 151.1 - CTr 151.6)</p>",
+    
+    //25
+"<p><b>God's Punishments—Preferable to Those of Mortals?</b></p>" +
+"<p>Then David said to Gad, 'I am in great distress: let us fall into the hand of the Lord, for his mercy is great; but let me not fall into human hands.' 2 Samuel 24:14, NRSV.</p>" +
+"<p>It was an insult to God when David numbered Israel. God's rebuke rested upon him, for he made himself as God, as though he could tell the strength of the armies of Israel by their numbers. 'This is the word of the Lord unto Zerubbabel, saying, Not by might, nor by power, but by my spirit, saith the Lord of hosts.' God looks not on the numbers of Israel for the success of His work. His armies number thousands of thousands, and ten thousand times ten thousand. These cooperate with the people who will connect with God to be channels of light.—Manuscript 17, 1898.</p>" +
+"<p>The soul that is conscious of sincere and honest intentions finds less to fear from God than from people who have hearts of steel. The soul wrenched with human agony turns away from the misjudgment and condemnation of people who cannot read the heart, yet have taken it upon them to judge their associates. He turns to One who is without a shadow of misapprehension, One who knows all the impulses of the heart, who is acquainted with all the circumstances of temptation. God knows every deed of the past life, and yet in consideration of all this, the troubled soul is ready to trust his or her case with God, knowing that He is a God of mercy and compassion.</p>" +
+"<p>When David was bidden to choose the punishment for his sin, he said, 'Let us fall now into the hand of the Lord; for his mercies are great: and let me not fall into the hand of man.' He felt that God knew the struggle and anguish of the soul. When people are enabled to catch a glimpse of the character of God, they see not in Him the heartless, vindictive spirit manifested by human agents; they see that affliction and trial are God's appointed means of disciplining His children, and teaching them His way, that they may lay hold of His grace.... As poor backsliding souls are led to the river of God's love, they exclaim, When He hath tried me, I shall come forth as gold purified. Suffering souls are made patient, trustful, triumphant in God under adverse circumstances....</p>" +
+"<p>When finite, erring human beings give evidence that they regard themselves as of greater importance than God, when they think themselves righteous, yet do not manifest the tenderness of spirit that characterized the life of our Lord Jesus, we may know that unless they repent, the candlestick will quickly be removed out of its place.—Manuscript 7, 1895 (Testimonies to Ministers and Gospel Workers, 354-356 CTr 152.1 - CTr 152.5)</p>",
+    
+    //26
+"<p><b>Our Ideas of God Are Based on Our Experiences</b></p>" +
+"<p>I will remember the works of the Lord: surely I will remember thy wonders of old. I will meditate also of all thy work, and talk of thy doings. Psalm 77:11, 12.</p>" +
+"<p>Be careful how you interpret Scripture. Read it with a heart opened to the entrance of God's Word, and it will express Heaven's light, giving understanding unto the simple. This does not mean the weak-minded but those who do not stretch themselves beyond their measure and ability in trying to be original and independent in reaching after knowledge above that which constitutes true knowledge....</p>" +
+"<p>The psalmist David in his experience had many changes of mind. At times as he obtained views of God's will and ways, he was highly exalted. Then as he caught sight of the reverse of God's mercy and changeless love, everything seemed to be shrouded in a cloud of darkness.... When he meditated upon the difficulties and dangers of life, they looked so forbidding that he thought himself abandoned by God because of his sins. He viewed his sin in such a strong light that he exclaimed, 'Will the Lord cast off for ever? and will he be favourable no more?'</p>" +
+"<p>As he wept and prayed, he obtained a clearer view of the character and attributes of God, and being educated by heavenly agencies, he decided that his ideas of God's justice and severity were exaggerated.... As David considered His God's pledges and promises to them Israel, knowing they were for all who need them as much as for Israel, he appropriated them to himself....</p>" +
+"<p>As David appropriated these promises and privileges to himself, he decided that he would no longer be hasty in judgment, becoming discouraged and casting himself down in helpless despair. His soul took courage as he contemplated the general character of God as displayed in His teaching, His forbearance, His surpassing greatness and mercy, and he saw that the works and wonders of God are to have no confined application.</p>" +
+"<p>But again David's experience changed. As he saw that transgressors and sinners were allowed to receive blessings and favors, while those who really loved God were compassed with difficulties and perplexities that the open sinner did not have, he thought that God's ways were not equal....'For I was envious at the foolish, when I saw the prosperity of the wicked.... They are not in trouble as other men.'</p>" +
+"<p>David could not understand this till he went into the sanctuary of God, and then, he says, 'Understood I their end.' 'Surely thou didst set them in slippery places: thou castedst them down into destruction.... It is good for me to draw near to God.'— CTr 153.1 - CTr 153.7</p>",
+    
+    //27
+"<p><b>Churches to Be Built to God's Glory</b></p>" +
+"<p>Thus Solomon finished the house of the Lord ... and all that came into Solomon's heart to make in the house of the Lord, and in his own house, he prosperously effected. 2 Chronicles 7:11.</p>" +
+"<p>Nearly three thousand years ago by divine appointment the temple was built in Jerusalem. The nation of God's choice had been greatly favored; they dwelt in costly houses while they still worshiped God in the curtained tabernacle. Here the Shekinah, the visible emblem of God's presence, dwelt between the cherubim, and out of the perfection of beauty God shined....</p>" +
+"<p>There have been times when it seemed necessary to worship God in very humble places; but the Lord did not withhold His Spirit nor refuse His presence because of this. It was the best His people could do at the time, and if they worshiped Him in Spirit and in truth, He never reproved or condemned their efforts....</p>" +
+"<p>The Lord reminded David of the lowly position he was in when He called him and entrusted him with great responsibilities, and He would have him ever bear in mind that his prosperity and success came through the blessing of God and not through any inherited goodness that he possessed. Although God did not allow him to carry out the wish of his heart, He granted him the next highest honor, that of entrusting the work to his son.</p>" +
+"<p>Solomon received special wisdom from God. Yet Solomon did not find among the workers of his nation and religion those qualifications, that fine skill, that he deemed essential to carry forward the work of building a temple for the God of heaven. He was therefore obliged to send away for artisans, people who would do justice to the responsible work entrusted to them....</p>" +
+"<p>We have no command from God to erect a building that will compare for richness and splendor with the temple. But we are to build a humble house of worship, plain and simple, neat and perfect in its design. Then let those who have means look to it that they are as liberal and tasteful in erecting a temple wherein we may worship God as they have been in locating and building and furnishing their own houses. Let them manifest a willingness and a desire to show greater honor to God than themselves. Let them build with nicety, but not with extravagance. Let the house be built conveniently and thoroughly so that when it is presented to God He can accept it and let His Spirit rest upon the worshipers who have an eye single to His glory.... Let everyone, old and young, bring gifts and donations to help in building a house for God.—Manuscript 23, 1886 CTr 154.1 - CTr 154.6</p>",
+    
+    //28
+"<p><b>Churches Should Be Suitable Dwelling Places for God</b></p>" +
+"<p>The king David said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains. 2 Samuel 7:2.</p>" +
+"<p>David, while dwelling in his palace of cedar, felt disturbed in his conscience as he considered that there was no suitable dwelling place for the ark of God, which symbolized His presence. It still rested in the tabernacle which had been constructed in the wilderness, and borne all the way from Horeb to Jerusalem in a pilgrimage of nearly forty years. But now the nation had ended their pilgrimage and obtained a permanent location. David looked around him upon the costly buildings of cedar, the homes of the inhabitants settled in the goodly land of Canaan, and conceived the idea that a temple should be built, more worthy for the residence of God. The site of the building was indicated and the most complete instructions were given, and Solomon entered upon the great work....</p>" +
+"<p>The people that built the temple were many and the house that they built was large and grand; and the Lord God of heaven honored them because they had built Him a sanctuary where they could meet to worship Him. Those that worshiped Him sincerely had His blessing.</p>" +
+"<p>The first tabernacle, built according to God's directions, was indeed blessed of Him. The people thus were preparing themselves to worship in the temple not made with hands—a temple in the heavens. The stones of the temple built by Solomon were all prepared at the quarry and then brought to the temple site. They came together without the sound of ax or hammer. The timbers were also fitted in the forest. The furniture was likewise brought to this house all prepared for use.</p>" +
+"<p>Even so, the mighty cleaver of truth has taken out a people from the quarry of the world and is fitting this people, who profess to be the children of God, for a place in His heavenly temple. We want the cleaver of truth to do its work for us.... We are here as probationers, and we must pass under the hand of God. All rough edges and rough surfaces must be removed, and we must be stones fitted for the building. We are brought into church capacity with defects of character, but we must not retain them. We must be fitted and squared for the building. We must be 'labourers together with God,' for we are 'God's husbandry,' we are 'God's building.' In view of this we must see that the temple is not defiled with sin. We should be lively stones, not dead ones, but live ones that will reflect the image of Christ. We must be worshipers in spirit and in truth.— CTr 155.1 - CTr 155.5</p>",
+    
+    //29
+"<p><b>Leaders With Various Talents Are Needed in God's Church</b></p>" +
+"<p>Keep and seek for all the commandments of the Lord your God: that ye may possess this good land, and leave it for an inheritance for your children after you for ever. 1 Chronicles 28:8.</p>" +
+"<p>The last great work of David in his official position was to call the attention of the people once more to their solemn relation to God as subjects of His theocracy....</p>" +
+"<p>Fidelity to God is required for the reception of the blessings that He has promised to impart to all who obey His instruction. All who are accepted in His service are required to do His commandments. If with heart and mind and soul they do His holy will, they become representatives of His kingdom.</p>" +
+"<p>David's solemn charge should be kept in mind by those who are in positions of trust today, for it is as verily binding upon these people as it was upon Solomon at the time it was given. In this our day of probation God's people are being tested and tried as surely as they were in the days of Solomon.</p>" +
+"<p>This whole chapter 1 Chronicles 28 is of importance to all the people of God living in this age.... God's service is not committed to one person's judgment and option, but is divided among those who are willing to labor interestedly and self-sacrificingly. Thus all, according to the skill and ability God has given them, bear the responsibilities that He has appointed to them. The important interests of a great nation were entrusted to leaders whose talents fitted them to handle these responsibilities. Some were chosen to direct the business affairs; others were chosen to look after spiritual matters connected with the worship of God. All the religious service and every branch of the business was to bear the signature of heaven. 'Holiness Unto the Lord' was to be the motto of the laborers in every department. It was regarded as essential that everything be conducted with regularity, propriety, fidelity, and dispatch.</p>" +
+"<p>To all who are engaged in His service, the Lord gives wisdom. The tabernacle to be borne in the wilderness, and the temple at Jerusalem, were built in accordance with special directions from God. In the very beginning He was particular as to the design and the accomplishment of His work. In this age of the world He has given His people much light and instruction in regard to how His work is to be carried forward—on an elevated, refined, ennobling basis.— CTr 156.1 - CTr 156.6</p>",
+    
+    //30
+"<p><b>Exercise Care in Forming Friendships</b></p>" +
+"<p>If any of you is lacking in wisdom, ask God, who gives to all generously and ungrudgingly, and it will be given you. James 1:5, NRSV.</p>" +
+"<p>All the wisdom that people possess is God's gift, and He can and will impart wisdom to every person who asks it of Him in faith. Solomon sought wisdom from God, and it was given him in large measure. But how did the universe of heaven look upon him when he perverted that wisdom and employed God's great and holy gift to exalt himself? God chose him to build the temple, but how he perverted the sacred trust! He leagued himself with idolatrous nations. Thus he, who at the dedication of the temple had prayed that their hearts might be undividedly given to the Lord, himself began to separate his heart from God. He imperiled his soul's interest by the formation of friendships with the Lord's enemies.</p>" +
+"<p>What carefulness should be exercised in the formation of friendship! Companionship with the world will surely lower the standard of religious principle. Solomon's heathen wives turned away his heart from God. His finer sensibilities were blunted, and he became hardhearted, for he lost his sympathy for humankind and his love for God. His conscience was seared, and his rule became tyranny.</p>" +
+"<p>Solomon prepared the way for his own ruin when he sought for wise artisans from other nations to build the temple. God had been the educator of His people, and He designed that they should stand in His wisdom, and with His imparted talents they should be second to none. If they had the clean hands, the pure heart, and the noble, sanctified purpose, the Lord would communicate to them His grace. But Solomon looked to worldlings instead of God, and he found his supposed strength to be weakness. He brought to Jerusalem the leaven of the evil influences that were perpetuated in polygamy and idolatry. It was no question as to who made Israel to sin.</p>" +
+"<p>Although Solomon afterward repented, his repentance could not abolish the idolatrous practices that he had brought into the nation. We shall individually transmit an inheritance of either good or evil. The silver of Tarshish and the gold of Ophir were obtained by Solomon at a terrible expense, even the betrayal of sacred trusts. The evil communications with heathen nations corrupted good manners. When the Lord's people turn from the God of all wisdom, and look to people who love not God, in order to obtain wisdom and arrive at decisions, the Lord will allow them to follow that wisdom that is not from above but from beneath.—Manuscript 44, 1894 (The General Conference Bulletin, February 25, 1895 CTr 157.1 - CTr 157.5</p>",
+    
+    //31
+"<p><b>Departure From Integrity May Imperil the Soul</b></p>" +
+"<p>And the Lord magnified Solomon exceedingly in the sight of all Israel, and bestowed upon him such royal majesty as had not been on any king before him in Israel. 1 Chronicles 29:25.</p>" +
+"<p>Solomon, who had once solemnly charged the people at the dedication of the temple, 'Let your heart therefore be perfect with the Lord our God,' chose his own way and in his heart separated from God. He might have linked himself with God and have received more and still more of the knowledge of God, but he betrayed his trust and wandered farther and farther from God....</p>" +
+"<p>Looking upon this picture, we see what human beings become when they separate from God. One false step prepares the way for a second and a third, and every step is taken more easily than the last. Let us beware of imperiling the soul by departing from the principles of integrity. There is no safety in tampering with the divine safeguards of peace and righteousness.</p>" +
+"<p>Did the Lord make a mistake in placing Solomon in a position of so great responsibility? Nay; God prepared him to bear these responsibilities and promised him grace and strength on condition of obedience. 'Then shalt thou prosper,' David said to him, 'if thou takest heed to fulfil the statutes and judgments which the Lord charged Moses with concerning Israel: be strong, and of good courage; dread not, nor be dismayed.'</p>" +
+"<p>The Lord sets people in responsible places, not to act out their own wills, but His will. So long as they cherish His pure principles of government, He will bless and strengthen them, recognizing them as His instrumentalities. God never forsakes the one who is true to principle.</p>" +
+"<p>Let those in positions of responsibility remember that we are approaching the perils of the last days. The whole world is passing in review before God.... Let none make erring, finite beings their guide. God is the one who stands behind mortals, the one from whom all receive the wisdom and knowledge that enable them to do anything good. And God is willing to help everyone. He is no respecter of persons.</p>" +
+"<p>Let those upon whom the Lord bestows rich gifts be guarded, lest pride and self-sufficiency obtain the control. The person who exerts a wide influence, the one that people are willing to follow, needs to be constantly prayed for and admonished by other workers. Let them pray that he or she may be kept from pride and self-exaltation.— CTr 158.1 - CTr 158.7</p>",
+    
+    
+    
+    
+    // June
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // July
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // August
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // September
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // October
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // November
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    // December
+    // 1
+    "hi",
+    
+    
+    //2
+    "hi",
+    
+    
+    //3
+    "hi",
+    
+    
+    //4
+    "hi",
+    
+    
+    //5
+    "hi",
+    
+    
+    //6
+    "hi",
+    
+    
+    //7
+    "hi",
+    
+    
+    
+    //8
+    "hi",
+    
+    
+    
+    //9
+    "hi",
+    
+    
+    
+    //10
+    "hi",
+    
+    
+    
+    //11
+    "hi",
+    
+    
+    
+    //12
+    "hi",
+    
+    
+    
+    //13
+    "hi",
+    
+    
+    
+    //14
+    "hi",
+    
+    
+    
+    //15
+    "hi",
+    
+    
+    //16
+    "hi",
+    
+    
+    
+    //17
+    "hi",
+    
+    
+    //18
+    "hi",
+    
+    
+    //19
+    "hi",
+    
+    
+    //20
+    "hi",
+    
+    
+    //21
+    "hi",
+    
+    
+    
+    //22
+    "hi",
+    
+    
+    
+    //23
+    "hi",
+    
+    
+    
+    //24
+    "hi",
+    
+    
+    
+    //25
+    "hi",
+    
+    
+    
+    //26
+    "hi",
+    
+    
+    
+    //27
+    "hi",
+    
+    
+    
+    //28
+    "hi",
+    
+    
+    
+    //29
+    "hi",
+    
+    
+    //30
+    "hi",
+    
+    
+    //31
+    "hi",
+    
+    
+    
+    
+    
+    
+    
    
    
        // Add more texts for each day

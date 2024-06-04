@@ -117,7 +117,7 @@
      
      
          	   { name: "KEMD Church Heritage Exams", 
-         	     date: new Date("Jun 99, 2024 08:00:00").getTime(), 
+         	     date: new Date("Dec 9, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "KEMD Church Heritage Exams", 
                details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
@@ -128,8 +128,8 @@
                date: new Date("Jun 29, 2024 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "KEMD Silver Award Expedition", 
-               details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
-               imageUrl: "images/KEMD CH Exams.jpg" 	     
+               details: "Join us for an unforgettable Ambassador and Young Adult Silver Award Expedition Camp and Sabbath in the serene woods! Embrace nature, forge new connections, and elevate your leadership skills. June 29th-30th. Book your spot now for just K120 full package and K50 just attendance!",
+                imageUrl: "images/KEMD-expedition.jpg" 	     
          	   },
      
          	   { name: "KEMD Investiture", 

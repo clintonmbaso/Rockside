@@ -117,7 +117,7 @@
      
      
          	   { name: "KEMD Church Heritage Exams", 
-         	     date: new Date("Dec 9, 2024 08:00:00").getTime(), 
+         	     date: new Date("May 2, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "KEMD Church Heritage Exams", 
                details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 

@@ -133,11 +133,11 @@
          	   },
 
                   
-               { name: "KEMD Silver Award Expedition", 
+               { name: "KEMD Picnic", 
                date: new Date("Jul 7, 2024 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "KEMD Picnic", 
-               details: "Join us on July 7, 2024, for a vibrant picnic tailored for ambassadors and young adults. Connect and mingle through activities designed to foster camaraderie, including boat cruising, a delightful braai, egg and sac races, invigorating volleyball matches, and engaging lessons. Secure your spot with a registration fee of $100, covering access and participation, alongside $80 for transport arrangements and an optional $120 for the scenic boat cruising experience. Don't miss this opportunity to unwind and forge new connections in a picturesque setting!",
+               details: "Join us on July 7, 2024, for a vibrant picnic tailored for ambassadors and young adults. Connect and mingle through activities designed to foster camaraderie, including boat cruising, a delightful braai, egg and sac races, invigorating volleyball matches, and engaging lessons. Secure your spot with a registration fee of K100, covering access and participation, alongside K80 for transport arrangements and an optional K120 for the scenic boat cruising experience. Don't miss this opportunity to unwind and forge new connections in a picturesque setting!",
                 imageUrl: "images/KEMD-picnic.jpg" 	     
          	   },
      

@@ -131,6 +131,15 @@
                details: "Join us for an unforgettable Ambassador and Young Adult Silver Award Expedition Camp and Sabbath in the serene woods! Embrace nature, forge new connections, and elevate your leadership skills. June 29th-30th. Book your spot now for just K120 full package and K50 just attendance!",
                 imageUrl: "images/KEMD-expedition.jpg" 	     
          	   },
+
+                  
+               { name: "KEMD Silver Award Expedition", 
+               date: new Date("Jul 7, 2024 08:00:00").getTime(), 
+               reminderDays: 3, reminderHours: 12,
+               caption: "KEMD Picnic", 
+               details: "Join us on July 7, 2024, for a vibrant picnic tailored for ambassadors and young adults. Connect and mingle through activities designed to foster camaraderie, including boat cruising, a delightful braai, egg and sac races, invigorating volleyball matches, and engaging lessons. Secure your spot with a registration fee of $100, covering access and participation, alongside $80 for transport arrangements and an optional $120 for the scenic boat cruising experience. Don't miss this opportunity to unwind and forge new connections in a picturesque setting!",
+                imageUrl: "images/KEMD-picnic.jpg" 	     
+         	   },
      
          	   { name: "KEMD Investiture", 
          	     date: new Date("Jul 27, 2024 06:00:00").getTime(), 

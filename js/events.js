@@ -141,12 +141,12 @@
                 imageUrl: "images/KEMD-picnic.jpg" 	     
          	   },
      
-         	   { name: "KEMD Investiture", 
-         	     date: new Date("Jul 27, 2024 06:00:00").getTime(), 
+         	   { name: "MEZC Church Heritage Exams", 
+         	     date: new Date("Jul 21, 2024 06:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "KEMD Investiture", 
-               details: "Description of KEMD Investiture", 
-               imageUrl: "images/KEMD Investiture.jpg" 	     
+               caption: "MEZC Church Heritage Exams", 
+               details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
+               imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   }
 
      

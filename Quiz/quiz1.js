@@ -1,5 +1,6 @@
 const questions = [
 
+// Old Testament
 {
     question: "According to Genesis 26:5, what did Abraham do regarding God's commandments?",
     options: [
@@ -181,7 +182,7 @@ const questions = [
     hint: "Identify the familiar name given to the preserved writings."
 },
 {
-    question: "According to the text, what did the sacrifice in the Old Testament symbolize?",
+    question: "What did the sacrifice in the Old Testament symbolize?",
     options: [
         { text: "The Lamb of God", isCorrect: true },
         { text: "Human obedience", isCorrect: false },
@@ -210,6 +211,8 @@ const questions = [
     ],
     hint: "Consider the symbolic act that represented faith in God's salvation plan."
 },
+
+// New Testament
 {
     question: "What was the attitude of the New Testament church towards the law of God?",
     options: [
@@ -421,7 +424,7 @@ const questions = [
     hint: "Consider the impact of cultural and traditional influences on the church's reception of Jesus."
 },
 {
-    question: "According to the text, which church doctrines were not taught by the Lord Jesus Christ?",
+    question: "Which church doctrines were not taught by the Lord Jesus Christ?",
     options: [
         { text: "Immortality of the soul, worship of the saints, purgatory, and observance of Sunday", isCorrect: true },
         { text: "Strict adherence to the Sabbath", isCorrect: false },
@@ -471,7 +474,7 @@ const questions = [
     hint: "Identify the specific quality of faith described among the faithful remnant."
 },
 {
-    question: "According to the text, what were some church doctrines that were not originally taught by Jesus?",
+    question: "What were some church doctrines that were not originally taught by Jesus?",
     options: [
         { text: "Immortality of the soul and worship of the saints", isCorrect: true },
         { text: "Fasting and prayer", isCorrect: false },
@@ -521,7 +524,7 @@ const questions = [
     hint: "Identify the exclusive source of salvation emphasized by the apostles."
 },
 {
-    question: "According to the text, what was emphasized as the faithful remnant's response to apostasy?",
+    question: "What was emphasized as the faithful remnant's response to apostasy?",
     options: [
         { text: "Keeping the commandments of God", isCorrect: true },
         { text: "Embracing new doctrines", isCorrect: false },
@@ -581,7 +584,7 @@ const questions = [
     hint: "Identify the core message preached by the apostles to the early Christian church."
 },
 {
-    question: "What historical source is mentioned for the observance of Sunday as a Christian institution?",
+    question: "What is the historical source for the observance of Sunday as a Christian institution?",
     options: [
         { text: "Paganism", isCorrect: true },
         { text: "Judaism", isCorrect: false },
@@ -611,7 +614,7 @@ const questions = [
     hint: "Consider the primary focus of belief among the faithful remnant."
 },
 {
-    question: "According to the text, what were some church doctrines that originated from paganism?",
+    question: "What were some church doctrines that originated from paganism?",
     options: [
         { text: "Observance of Sunday as a Christian institution", isCorrect: true },
         { text: "Celebration of Passover", isCorrect: false },
@@ -641,7 +644,7 @@ const questions = [
     hint: "Identify the main motivation for studying the Scriptures mentioned in the passage."
 },
 {
-    question: "What does the text suggest about the observance of Sunday as a Christian institution?",
+    question: "Which statement is true about the observance of Sunday as a Christian institution?",
     options: [
         { text: "It originated from paganism", isCorrect: true },
         { text: "It was introduced by the apostles", isCorrect: false },
@@ -650,6 +653,8 @@ const questions = [
     ],
     hint: "Consider the historical context of Sunday observance."
 },
+
+// Dark Ages
 {
     question: "What was the strong leadership over most Christian churches by the sixth century known as?",
     options: [
@@ -661,7 +666,7 @@ const questions = [
     hint: "Identify the term used to describe the leadership of the bishops of Rome."
 },
 {
-    question: "According to the text, when did the period of papal supremacy end?",
+    question: "When did the period of papal supremacy end?",
     options: [
         { text: "In 1798", isCorrect: true },
         { text: "In 538", isCorrect: false },
@@ -701,7 +706,7 @@ const questions = [
     hint: "Consider the metaphorical comparison made by J.A. Wylie regarding the papacy."
 },
 {
-    question: "According to the text, what was the attitude of certain individuals during the Dark Ages towards faith in Christ?",
+    question: "What was the attitude of certain individuals during the Dark Ages towards faith in Christ?",
     options: [
         { text: "They cherished faith in Christ as the only mediator between God and man", isCorrect: true },
         { text: "They rejected faith in Christ", isCorrect: false },
@@ -761,7 +766,7 @@ const questions = [
     hint: "Consider the lasting impact of witnesses for God on future generations."
 },
 {
-    question: "According to the text, what motivated witnesses for God to stand firm during the Dark Ages?",
+    question: "What motivated witnesses for God to stand firm during the Dark Ages?",
     options: [
         { text: "Their faith in Christ as the only mediator", isCorrect: true },
         { text: "Their allegiance to the church hierarchy", isCorrect: false },
@@ -881,7 +886,7 @@ const questions = [
     hint: "Consider the primary reason motivating witnesses for God to withstand adversity during the Dark Ages."
 },
 {
-    question: "According to the text, where did bodies of Christians exist that remained almost wholly free from papal corruption?",
+    question: "Where did bodies of Christians exist that remained almost wholly free from papal corruption?",
     options: [
         { text: "In lands beyond the jurisdiction of Rome", isCorrect: true },
         { text: "Within the city of Rome", isCorrect: false },
@@ -1041,7 +1046,7 @@ const questions = [
     hint: "Consider the foundational belief of witnesses for the truth during a challenging historical period."
 },
 {
-    question: "According to the text, who was heralded as the reformer for all Christendom?",
+    question: "Who was heralded as the reformer for all Christendom?",
     options: [
         { text: "John Wycliffe", isCorrect: true },
         { text: "John Huss", isCorrect: false },
@@ -1061,7 +1066,7 @@ const questions = [
     hint: "Identify the subject of John Wycliffe's investigation that led to significant reform efforts."
 },
 {
-    question: "According to the text, what work had God appointed to John Wycliffe?",
+    question: "What work had God appointed to John Wycliffe?",
     options: [
         { text: "To proclaim the word of truth", isCorrect: true },
         { text: "To master the learning of the schools", isCorrect: false },
@@ -1381,7 +1386,7 @@ const questions = [
     hint: "Consider the impact of Bible translations on the geographical spread of the Reformation."
 },
 {
-    question: "According to the text, what was replaced by the Scriptures during the Reformation?",
+    question: "What was replaced by the Scriptures during the Reformation?",
     options: [
         { text: "Ignorance", isCorrect: true },
         { text: "Papal authority", isCorrect: false },

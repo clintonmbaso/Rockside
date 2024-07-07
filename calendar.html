@@ -185,7 +185,10 @@
       monthYearElement.textContent = `${monthName} ${year}`;
 
       const firstDay = currentDate.getDay();
+      currentDate.setDate(0);
+      const daysInPrevMonth = currentDate.getDate();
       const daysInMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+      const daysInNextMonth = 42 - (daysInMonth + firstDay);
 
       const calendarDates = [];
 

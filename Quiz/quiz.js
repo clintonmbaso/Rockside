@@ -190,7 +190,20 @@ function showHint(currentQuestion) {
         comment = "Keep practicing! You'll improve.";
     }
 
-    const resultText = `Name: ${name}\nEmail: ${email}\nChurch: ${church}\nScore: ${score}/${numQuestions}\nPercentage: ${percentage.toFixed(2)}%\nComment: ${comment}`;
+const resultText = `Thank you for participating in the mock exams ${name}\nYou have scored: ${score}/${numQuestions}.\n${comment}`;
+            
+
+    // Update percentage text in the SVG
+    const percentageText = document.getElementById('percentage-text');
+    percentageText.textContent = `${percentage.toFixed(2)}%`;
+
+    // Animate the donut chart based on percentage
+    const donutCircle = document.getElementById('donut-circle');
+    const circumference = 2 * Math.PI * 80; // 2 * pi * radius
+    const strokeDashOffset = circumference - (percentage / 100) * circumference;
+
+    donutCircle.style.strokeDasharray = `${circumference}, ${circumference}`;
+    donutCircle.style.strokeDashoffset = strokeDashOffset;
 
     // Send quiz results to PHP script using AJAX
     const xhr = new XMLHttpRequest();

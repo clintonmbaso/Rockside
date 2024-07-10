@@ -13,6 +13,29 @@ body {
             align-items: center;
         }
 
+#donut-chart {
+    display: block;
+    margin: 20px auto;
+}
+
+#donut-circle-bg {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 20;
+}
+
+#donut-circle {
+    fill: none;
+    stroke: #3498db; /* Color for the donut chart */
+    stroke-width: 20;
+    stroke-dasharray: 0, 1000;
+    transition: stroke-dasharray 1s ease-out;
+}
+
+#percentage-text {
+    fill: #333;
+}
+
 /* Quiz container */
 #quiz {
     background-color: rgba(255, 255, 255, 0.9);

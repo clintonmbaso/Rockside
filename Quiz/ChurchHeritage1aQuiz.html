@@ -60,15 +60,19 @@
 
     <div id="result-container" style="display: none;">
         <h2>Quiz Results</h2>
-        <p id="result-text"></p>
-    </div>
-
-
-     </div>
-
-    <div id="result-container" style="display: none;">
-        <h2>Quiz Results</h2>
-        <p id="result-text"></p>
+    <div id="result-text"></div>
+    <svg id="donut-chart" width="200" height="200">
+        <defs>
+            <radialGradient id="scoreGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                <stop offset="0%" style="stop-color: red;" />
+                <stop offset="100%" style="stop-color: gold;" />
+            </radialGradient>
+        </defs>
+        <circle id="donut-circle-bg" cx="100" cy="100" r="80"></circle>
+        <circle id="donut-circle" cx="100" cy="100" r="80" stroke="url(#scoreGradient)"></circle>
+        <text id="percentage-text" x="100" y="110" text-anchor="middle" dominant-baseline="middle" font-size="20">0%</text>
+    </svg>
+</div>
     </div>
 
     <script>

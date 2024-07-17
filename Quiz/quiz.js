@@ -190,7 +190,7 @@ function showHint(currentQuestion) {
         comment = "Keep practicing! You'll improve.";
     }
 
-const resultText = `Thank you for participating in the mock exams\n ${name}\nYou have scored: ${score}/${numQuestions}.\n${comment}`;
+const resultText = `Thank you for participating in the quiz\n ${name}\nYou have scored: ${score}/${numQuestions}.\n${comment}`;
             
 
     // Update percentage text in the SVG

@@ -230,7 +230,7 @@ const resultText = `Thank you for participating in the mock exams ${name}\nYou h
 
     // Send quiz results to PHP script using AJAX
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "send_email.php", true);
+    xhr.open("POST", "http://flywings.c1.is/Quiz/send_email.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function () {
         console.log("Ready state:", xhr.readyState);

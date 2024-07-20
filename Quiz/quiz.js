@@ -1,5 +1,5 @@
         let currentQuestionIndex = 0;
-        const numQuestions = 12; // Total number of questions
+        const numQuestions = 10; // Total number of questions
         let timerInterval;
         let score = 0;
 
@@ -41,39 +41,64 @@ function startQuiz() {
             }
         },
         tooltips: false, // Show tooltips
-       // pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
+        pips: { mode: 'values', values: [0, 25, 50, 75, 100], density: 3 } // Customize pips (optional)
     });
 }
 
-        function initializeQuiz() {
-            shuffleArray(questions);
-            currentQuestionIndex = 0;
-            score = 0;
-            showQuestion(currentQuestionIndex);
-        }
+let shuffledQuestions = []; // To store questions with shuffled options
 
-        function showQuestion(index) {
-            const quizContainer = document.getElementById('question-container');
-            quizContainer.innerHTML = '';
+function initializeQuiz() {
+    // Shuffle questions
+    shuffleArray(questions);
 
-            const questionDiv = document.createElement('div');
-            const currentQuestion = questions[index];
+    // Shuffle options for each question and store them
+    shuffledQuestions = questions.map(question => {
+        return {
+            ...question,
+            options: shuffleArray([...question.options])
+        };
+    });
 
-            const shuffledOptions = shuffleArray([...currentQuestion.options]);
+    // Reset state
+    currentQuestionIndex = 0;
+    score = 0;
 
-            questionDiv.innerHTML = `
-                <h3>${index + 1}. ${currentQuestion.question}</h3>
-                <ul>
-                    ${shuffledOptions.map((opt, i) => `<li onclick="checkAnswer(${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
-                </ul>
-            `;
-            quizContainer.appendChild(questionDiv);
+    // Render all questions
+    const quizContainer = document.getElementById('question-container');
+    quizContainer.innerHTML = '';
 
-            const prevBtn = document.getElementById('prev-btn');
+    shuffledQuestions.forEach((question, index) => {
+        // Create a container for each question
+        const questionDiv = document.createElement('div');
+        questionDiv.classList.add('question');
+        questionDiv.style.display = index === 0 ? 'block' : 'none'; // Show only the first question
+
+        questionDiv.innerHTML = `
+            <h3>${index + 1}. ${question.question}</h3>
+            <ul>
+                ${question.options.map((opt, i) => `<li onclick="checkAnswer(${index}, ${i}, ${opt.isCorrect})">${opt.text}</li>`).join('')}
+            </ul>
+        `;
+        quizContainer.appendChild(questionDiv);
+    });
+
+    // Show the first question
+    showQuestion(currentQuestionIndex);
+}
+
+function showQuestion(index) {
+    const questions = document.querySelectorAll('#question-container .question');
+    
+    questions.forEach((questionDiv, i) => {
+        questionDiv.style.display = i === index ? 'block' : 'none';
+    });
+
+    // Update navigation buttons
+    const prevBtn = document.getElementById('prev-btn');
             const nextBtn = document.getElementById('next-btn');
 
             if (index > 0) {
-                prevBtn.style.display = 'none';
+                prevBtn.style.display = 'inline-block';
             } else {
                 prevBtn.style.display = 'none';
             }
@@ -100,9 +125,9 @@ function startQuiz() {
             }
         }
 
-        function checkAnswer(selectedOptionIndex, isCorrect) {
-    const selectedOption = document.getElementById('question-container').querySelectorAll('li')[selectedOptionIndex];
-    
+function checkAnswer(questionIndex, selectedOptionIndex, isCorrect) {
+    const selectedOption = document.querySelectorAll('#question-container .question')[questionIndex].querySelectorAll('li')[selectedOptionIndex];
+
     // Check if the option has already been answered
     if (!selectedOption.classList.contains('correct') && !selectedOption.classList.contains('incorrect')) {
         if (isCorrect) {
@@ -111,16 +136,14 @@ function startQuiz() {
         } else {
             selectedOption.classList.add('incorrect');
             // Find the correct option index in the original options array
-            const correctOptionIndex = questions[currentQuestionIndex].options.findIndex(option => option.isCorrect);
-            // Find the index of the correct option in the shuffled options array
-            const shuffledOptions = document.getElementById('question-container').querySelectorAll('li');
-            const correctShuffledIndex = Array.from(shuffledOptions).findIndex(option => option.textContent === questions[currentQuestionIndex].options[correctOptionIndex].text);
+            const correctOptionIndex = shuffledQuestions[questionIndex].options.findIndex(option => option.isCorrect);
             // Highlight the correct option in the shuffled list
-            shuffledOptions[correctShuffledIndex].classList.add('correct');
+            const shuffledOptions = document.querySelectorAll('#question-container .question')[questionIndex].querySelectorAll('li');
+            shuffledOptions[correctOptionIndex].classList.add('correct');
         }
 
         // Disable all options after answering
-        const allOptions = document.getElementById('question-container').querySelectorAll('li');
+        const allOptions = document.querySelectorAll('#question-container .question')[questionIndex].querySelectorAll('li');
         allOptions.forEach(option => {
             option.style.pointerEvents = 'none';
         });
@@ -190,7 +213,7 @@ function showHint(currentQuestion) {
         comment = "Keep practicing! You'll improve.";
     }
 
-const resultText = `Thank you for participating in the quiz\n ${name}\nYou have scored: ${score}/${numQuestions}.\n${comment}`;
+const resultText = `Thank you for participating in the mock exams ${name}\nYou have scored: ${score}/${numQuestions}.\n${comment}`;
             
 
     // Update percentage text in the SVG

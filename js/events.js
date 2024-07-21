@@ -11,6 +11,7 @@
             },
      
      
+// February
              { name: "KEMD Adventurer Bible Quiz", 
                date: new Date("Feb 25, 2024 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
@@ -19,6 +20,8 @@
                imageUrl: "images/KEMD Adventurer Bible Quiz.jpg" 
              },
      
+
+// March
              { name: "MEZC Leadership Seminar", 
                date: new Date("Mar 7, 2024 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
@@ -67,6 +70,8 @@
                imageUrl: "images/MEZC I Love my Neighbor.jpg" 	     
          	   },
      
+
+// April
          	   { name: "KEMD Pathfinder Fair", 
          	     date: new Date("Apr 21, 2024 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
@@ -83,6 +88,8 @@
                imageUrl: "images/MEZC CMT Camp.jpg" 	     
          	   },
      
+
+// May
          	   { name: "KEMD Adventurer Quiz Day", 
          	     date: new Date("May 5, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
@@ -116,37 +123,35 @@
        	     },
      
      
+// June
          	   { name: "KEMD Church Heritage Exams", 
-         	     date: new Date("May 2, 2024 08:00:00").getTime(), 
+         	     date: new Date("Jul 21, 2024 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
                caption: "KEMD Church Heritage Exams", 
                details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
-
-               { name: "KEMD Silver Award Expedition", 
-               date: new Date("Jun 29, 2024 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "KEMD Silver Award Expedition", 
-               details: "Join us for an unforgettable Ambassador and Young Adult Silver Award Expedition Camp and Sabbath in the serene woods! Embrace nature, forge new connections, and elevate your leadership skills. June 29th-30th. Book your spot now for just K120 full package and K50 just attendance!",
-                imageUrl: "images/KEMD-expedition.jpg" 	     
-         	   },
-
-                  
-               { name: "KEMD Picnic", 
-               date: new Date("Jul 7, 2024 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "KEMD Picnic", 
-               details: "Join us on July 7, 2024, for a vibrant picnic tailored for ambassadors and young adults. Connect and mingle through activities designed to foster camaraderie, including boat cruising, a delightful braai, egg and sac races, invigorating volleyball matches, and engaging lessons. Secure your spot with a registration fee of K100, covering access and participation, alongside K80 for transport arrangements and an optional K120 for the scenic boat cruising experience. Don't miss this opportunity to unwind and forge new connections in a picturesque setting!",
-                imageUrl: "images/KEMD-picnic.jpg" 	     
-         	   },
      
-         	   { name: "MEZC Church Heritage Exams", 
-         	     date: new Date("Jul 21, 2024 06:00:00").getTime(), 
+
+// July
+
+
+
+// August
+         	   { name: "KEMD Family Life", 
+         	     date: new Date("Aug 11, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "MEZC Church Heritage Exams", 
-               details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
-               imageUrl: "images/KEMD CH Exams.jpg" 	     
+               caption: "KEMD Family Life", 
+               details: "Join us for an enriching Youth Family Life Program on August 11th! This event is designed to foster strong family bonds and promote personal growth through engaging activities and insightful discussions. Whether you are looking to strengthen connections with loved ones or gain valuable life skills, this program offers something for everyone. Do not miss this opportunity to be part of a supportive community and enjoy a day of learning, connection, and fun. Mark your calendar and come be a part of this transformative experience!", 
+               imageUrl: "images/KEMD Family Life.jpg" 	     
+         	   },
+
+         	   { name: "KEMD Honour Assessments", 
+         	     date: new Date("Aug 25, 2024 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "KEMD Honour Assessments", 
+               details: "Education Honour Assessment Day", 
+               imageUrl: "images/KEMD Assessment.jpg" 	     
          	   }
 
      

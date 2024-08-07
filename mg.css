@@ -1,0 +1,290 @@
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-attachment: fixed; /* Keep the background image fixed in place */
+
+    /* Center the background image */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+/* Base styles for header */
+.site-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+
+}
+
+/* Optional: Apply rounded corners to the header */
+.site-header {
+    border-radius: 0px; /* Adjust the radius value for more or less curvature */
+    }
+
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+    
+}
+
+.title {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+/* Main navigation styles */
+.main-navigation {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right within the nav */
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.main-navigation.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+  
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation li {
+    position: relative; /* Enable absolute positioning for child elements */
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation a i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+/* Position each main link as desired */
+.secretariat {
+    position: absolute;
+    top: 50px; /* Adjust top position */
+    left: -130px; /* Adjust left position */
+}
+
+.treasury {
+    position: absolute;
+    top: 15px; /* Adjust top position */
+    left: -50px; /* Adjust left position */
+    
+}
+
+.ministries {
+    position: absolute;
+    top: -13px; /* Adjust top position */
+    left: 25px; /* Adjust left position */
+}
+
+.other {
+    position: absolute;
+    top: -40px; /* Adjust top position */
+    left: 110px; /* Adjust left position */
+}
+
+/* Sub-menu styles */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position sub-menu below parent item */
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+
+        /* Sub-menu styles */
+        .sub-menu {
+            display: none;
+            position: absolute;
+            height: auto;
+            left: 0;
+            background-color: rgba(167,79,45,0.1);
+            padding: 5px;
+            z-index: 999;
+            border-radius: 3px;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+.main-navigation ul li {
+    position: relative; /* Enable relative positioning for child elements */
+}
+  
+        /* Show sub-menu when parent li is hovered */
+        .main-navigation ul li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu ul {
+            list-style: none;
+            padding: 0;
+            
+          
+        }
+
+        .sub-menu ul li {
+            margin-top: 10px;
+           flex-direction: row;
+           
+        }
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 5px;
+    }
+}
+
+/* Media query for even smaller screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .title {
+        font-size: 14px;
+    }
+
+    .main-navigation ul {
+        font-size: 14px;
+    }
+}
+        .site-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-navigation ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-navigation ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-navigation ul li a:hover {
+            color: #FF5733; /* Hover color */
+        }
+  
+  .main-content {
+    text-align: justify;
+    margin: 170px 10px 10px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 7px;
+    
+    z-index: 1;
+    
+  }
+  
+.logo-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  
+img {
+            width: 70%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto; /* Center horizontally */
+        }
+  
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 70%;
+        overflow-y: auto;
+        opacity: 0.9;
+        border-radius: 20px;
+    }
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #popupContent {
+        text-align: justify;
+    }

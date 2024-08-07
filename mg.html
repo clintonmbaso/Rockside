@@ -1,302 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SGB13276C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4SGB13276C');
+</script>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEMD - MG Course</title>
-      <style>
-  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
-    background-size: cover; /* Cover the entire body with the background image */
-    background-attachment: fixed; /* Keep the background image fixed in place */
-
-    /* Center the background image */
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set the body height to full viewport height */
-}
-
-/* Base styles for header */
-.site-header {
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    /* Replace background color with background image */
-    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
-    background-size: cover; /* Cover the entire header with the background image */
-    background-color: transparent; /* Set a transparent background color */
-    color: #fff;
-
-}
-
-/* Optional: Apply rounded corners to the header */
-.site-header {
-    border-radius: 0px; /* Adjust the radius value for more or less curvature */
-    }
-
-.logo img {
-    width: 80px; /* Adjust size as needed */
-    margin-right: 30px;
-    
-}
-
-.title {
-    /* To ensure the title aligns with the logo */
-    display: flex;
-    align-items: center;
-}
-
-.title h2 {
-    font-size: 24px;
-    margin: 0;
-}
-
-
-
-/* Main navigation styles */
-.main-navigation {
-    display: flex;
-    justify-content: flex-end; /* Align items to the right within the nav */
-    align-items: center;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    transform: translateY(0);
-    opacity: 1;
-}
-
-
-
-.main-navigation.hidden {
-    transform: translateY(-100%);
-    opacity: 0;
-}
-  
-.main-navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.main-navigation li {
-    position: relative; /* Enable absolute positioning for child elements */
-}
-
-.main-navigation a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
-
-.main-navigation a i {
-    margin-right: 5px; /* Adjust spacing between icon and text */
-}
-
-/* Position each main link as desired */
-.secretariat {
-    position: absolute;
-    top: 50px; /* Adjust top position */
-    left: -130px; /* Adjust left position */
-}
-
-.treasury {
-    position: absolute;
-    top: 15px; /* Adjust top position */
-    left: -50px; /* Adjust left position */
-    
-}
-
-.ministries {
-    position: absolute;
-    top: -13px; /* Adjust top position */
-    left: 25px; /* Adjust left position */
-}
-
-.other {
-    position: absolute;
-    top: -40px; /* Adjust top position */
-    left: 110px; /* Adjust left position */
-}
-
-/* Sub-menu styles */
-.sub-menu {
-    display: none;
-    position: absolute;
-    top: 100%; /* Position sub-menu below parent item */
-    left: 0;
-    background-color: #fff;
-    padding: 10px;
-    
-}
-
-
-        /* Sub-menu styles */
-        .sub-menu {
-            display: none;
-            position: absolute;
-            height: auto;
-            left: 0;
-            background-color: rgba(167,79,45,0.1);
-            padding: 5px;
-            z-index: 999;
-            border-radius: 3px;
-            align-items: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-
-
-.main-navigation ul li {
-    position: relative; /* Enable relative positioning for child elements */
-}
-  
-        /* Show sub-menu when parent li is hovered */
-        .main-navigation ul li:hover .sub-menu {
-            display: block;
-        }
-
-        .sub-menu ul {
-            list-style: none;
-            padding: 0;
-            
-          
-        }
-
-        .sub-menu ul li {
-            margin-top: 10px;
-           flex-direction: row;
-           
-        }
-
-/* Media query for smaller screens (e.g., tablets) */
-@media (max-width: 768px) {
-    .site-header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo {
-        margin: 5px;
-    }
-}
-
-/* Media query for even smaller screens (e.g., mobile devices) */
-@media (max-width: 480px) {
-    .title {
-        font-size: 14px;
-    }
-
-    .main-navigation ul {
-        font-size: 14px;
-    }
-}
-        .site-footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .footer-navigation ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .footer-navigation ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        .footer-navigation ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .footer-navigation ul li a:hover {
-            color: #FF5733; /* Hover color */
-        }
-  
-  .main-content {
-    text-align: justify;
-    margin: 170px 10px 10px 10px;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.5);
-    padding: 7px;
-    
-    z-index: 1;
-    
-  }
-  
-.logo-container {
-    position: fixed;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    display: flex;
-    flex-direction: row;
-    align-items: center; /* Center align vertically within .logo-container */
-}
-
-.logos {
-    width: auto; /* Allow logos to maintain aspect ratio */
-    height: 25px; /* Set a fixed height for logos */
-    margin-right: -7px; /* Adjust spacing between logos */
-    align-self: flex-start; /* Prevent logos from stretching vertically */
-}
-  
-img {
-            width: 70%; /* Adjust width as needed */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Remove extra space below image */
-            margin: 0 auto; /* Center horizontally */
-        }
-  
-    .popup {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        border: 1px solid #ccc;
-        padding: 20px;
-        max-width: 100%;
-        width: 80%;
-        max-height: 70%;
-        overflow-y: auto;
-        opacity: 0.9;
-        border-radius: 20px;
-    }
-    .overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    #popupContent {
-        text-align: justify;
-    }
-  
-    </style>
+<link href="mg.css" rel="stylesheet">
 </head>
 <body>
 
@@ -375,6 +93,7 @@ img {
     <p>This is one of the most current leadership development program for youth ministry in the Seventh-day Adventist Church. The Master Guide is the foundation for youth ministry leadership, then builds two levels of continuing education that will help keep youth leaders sharp.</p>
   <p>The Master Guide (MG) curriculum is one of the leadership programs that the General Conference Youth Ministries Department uses to train people for youth leadership. You cannot earn your Master Guide without taking at least one Basic Staff Training (BST) course.</p>
   <p>The Master Guide is the advisor and the promoter for Adventurers and Pathfinders. As such, MG is NOT a Pathfinder program, it is a Youth Ministry Leadership Program.</p>
+  
   <h3>MASTER GUIDE LEADERSHIP</h3>
   <p>This continues to be the highest level of leadership within the Adventurer/ Pathfinder programs of the church. It focuses on one’s personal spiritual life and growth first and foremost. General leadership skills are then woven into the sharpening of those skills, which are specifically geared to leading youth in God-ordained areas of development: understanding God’s world of nature, outreach ministry, service to others and a life-style that denotes healthy living.</p>
   <p>As one church leader of the past put it so simply: “You can’t teach what you don’t know, and you can’t lead where you won’t go.” As leaders we must not only be good at spouting theory if we expect to see success with our youth ministry; we must live what we preach and demonstrate it. </p>
@@ -404,10 +123,19 @@ img {
      { 
            title: 'Master Guide Prerequisites',
                  content: `
-    <h3>Requirements:</h3>
+    <h3>PREREQUISITES</h3>
+       <p style="color:blue;"><em>All prerequisites must be completed prior to beginning the program.</em></p>
     <ol>
-        <li>Be a baptized member, in regular standing, of the Seventh-day Adventist Church.</li>
-        <p>Provide a copy of a document such as:
+        <li><b>BE A BAPTIZED MEMBER, IN REGULAR STANDING, OF THE SEVENTH-DAY ADVENTIST CHURCH</b></li>
+      <p>Becoming a Master Guide is a major recognition of youth leadership by the church; therefore, it is expected that all participants will not only be baptized members of the church, 
+but will also model a viable, dynamic lifestyle exemplifying the best of Christian standards. 
+While baptism may be the visible, measurable fulfillment of this prerequisite, a clear reflection of Christ in the life of the participant is the ultimate objective.</p>
+      <p>The Master Guide program is not intended for training of secular or non-Christian leaders. It is intended to provide training for Adventists who desire to lead and mentor youth 
+and serve in the church. As such, you need to be committed to the Seventh-day Adventist 
+church and its unique beliefs. This commitment is exhibited not only in your Christian walk, 
+but in your regular participation within the life and ministry of the local church.</p>
+      <p><b>PORTFOLIO COMPLETION</b></p>
+      <p><em>Provide a copy of a document such as:</em>
             <ul>
                 <li>Baptismal certificate.</li>
                 <li>Photo of your baptism.</li>
@@ -415,33 +143,119 @@ img {
                 <li>Letter from church clerk or pastor confirming membership.</li>
             </ul>
         </p>
-        <li>Be at least 16 years of age to start this card and 18 years of age at Investiture.</li>
+      <br>
+      
+        <li><b>BE AT LEAST 16 YEARS OF AGE TO START THIS CARD AND 18 YEARS OF AGE AT INVESTITURE</b></li>
+      <p>While most who participate in the Master Guide program are young adults, this course is 
+a natural sequence following the Guide class. Therefore, it is open to individuals 16 or 17 
+years of age who have found fulfillment in Adventurer and Pathfinder ministries and wish to 
+continue developing their skills and interests as club staff. Adults of any age may become 
+candidates for investiture as a Master Guide, as long as they fulfill all prerequisites of the 
+curriculum.</p>
+      <p>As most jurisdictions require individuals to be at least 18 years of age before they can assume the full role and responsibilities of an adult, it naturally follows that a Master Guide 
+should fit the same legal requirements. This in no way minimizes the amazing skills, passion 
+and commitment of many teenage leaders, but simply recognizes the legal implications of 
+leadership.</p>
+            <p><b>PORTFOLIO COMPLETION</b></p>
+      <ul>
+          <li>Include a copy of an official ID to verify your age.</li>
+      </ul>
+      <br>
+      
+        <li><b>COMPLETE A BACKGROUND CHECK AND CHILD 
+PROTECTION COURSE, AND BE APPROVED BY 
+YOUR CONFERENCE/MISSION</b></li>
+      <p>Jesus placed a high value on the protection of children (Matthew 18:1-6); therefore, child 
+protection is an essential element in all church-sponsored children’s activities. As leaders, 
+we have a moral and civil duty to protect the children and youth entrusted to us. “Church 
+should be a safe place to bring our children. Everyone involved with children who are minors 
+must meet all Church and legal standards and requirements.” (Church Manual, Edition 19, 
+174-175). The Seventh-day Adventist Church is committed to providing safe worship and 
+educational environments to help children and youth learn to love and follow Jesus Christ.</p>
+      <p>The main goal for a background check is to uncover criminal records, specifically sex offender records, which could represent a threat for children and youth. The way to perform a background check varies from country to country, so the candidate should consult your 
+local Conference/Mission and identify the standard procedure for your area. Although a 
+report from the local church board could be a valuable reference, an official background 
+check is preferable when possible</p>
+      <p>The child protection course should be approved by your Conference/Mission based on the 
+regulations of your country. The course may be offered as one of the basic staff training 
+workshops.</p>
+      <p><b>RESOURCES</b></p>
+                <p><em>We recommend that the instructor of the child protection course visit <a href="www.adventistrisk.org">www.adventistrisk.org</a>, select their own country and language, and type Pathfinders on the search engine. 
+This procedure will provide more accurate information for the local area from a legal perspective. Most of the principles of safety used for Pathfinders will also apply to Adventurers 
+since participants of both groups are minors.</em></p>
+            <p><b>PORTFOLIO COMPLETION</b></p>
+      <ul>
+        <li>A certificate or letter from your Conference/Mission or the issuing organization stating 
+the candidate has passed the background check.</li>
+      <li>Instructor signature for the child protection course.</li>
+      </ul>
+      <br>
+      
+        <li><b>WITH YOUR MENTOR, PRAYERFULLY DISCUSS 
+WHAT IT MEANS TO BE A MASTER GUIDE AND 
+WHY YOU WANT TO BECOME A MASTER GUIDE. 
+INCLUDE A WRITTEN ONE-PAGE REPORT OR 
+VIDEO IN YOUR PORTFOLIO</b></li>
+      <p>Prayer is the first step for any major decision in the life of a Christian. God says: “I will instruct 
+you and teach you in the way you should go; I will counsel you with my loving eye on you.” 
+(Psalm 32:8, NIV). God’s direction and advice are always our best option, so praying before 
+making decisions as a leader will always be the right procedure. A candidate should also 
+seek the advice of a respected mentor, and ask questions to fully understand the decision 
+about to be made. This conversation sets the foundation for the leadership development 
+journey of the candidate.</p>
+      <p>The candidate and mentor should discuss questions such as the following:</p>
+      <ul>
+        <li>What is the meaning of Master Guide?</li>
+        <li>Why do you want to become a Master Guide?</li>
+        <li>How would you use your training for God and the church after investiture?</li>
+      </ul>
+      
+        <p><b>PORTFOLIO COMPLETION</b></p>
+      <ul>
+        <li>Write a one-page report or record a video summarizing the discussion and your answers to the questions above. Include the date, location, and name of the mentor with 
+whom you met.</li>
+    </ul>
+      <br>
         
-          <p>Include a copy of an official ID to verify your age.</p>
-        
-        <li>Complete a background check and child protection course if 18+ years old.
-            
-                <p>Instructor signature for the child protection course.</p>
-            
-        </li>
-        <li>Write a one-page report or video on what it means to be a Master Guide and why you want to become a Master Guide.</li>
-        <li>Complete each of the following workshops with verification:
-            <ul>
-                <li>Club Ministry: Purpose & History</li>
-                <li>Club Organization</li>
-                <li>Programming & Planning</li>
-                <li>Club Outreach</li>
-                <li>Ceremonies & Drill</li>
-                <li>Developmental Growth</li>
-                <li>Introduction to Teaching</li>
-                <li>Medical, Risk Management and Child Safety Issues</li>
-            </ul>
-        </li>
+      
+        <li><b>COMPLETE EACH OF THE FOLLOWING CMT BASIC STAFF TRAINING WORKSHOPS (AVAILABLE IN 
+THE MASTER GUIDE CURRICULUM MANUAL) OR 
+ITS EQUIVALENT FOR ADVENTURER LEADERS:</b></li>
+            <ol>
+                <li><a href="okay">Club Ministry: Purpose & History</a></li>
+                <li><a href="okay">Club Organization</a></li>
+                <li><a href="okay">Programming & Planning</a></li>
+                <li><a href="okay">Club Outreach</a></li>
+                <li><a href="okay">Ceremonies & Drill</a></li>
+                <li><a href="okay">Developmental Growth</a></li>
+                <li><a href="okay">Introduction to Teaching</a></li>
+                <li><a href="okay">Medical, Risk Management and Child Safety Issues</a></li>
+            </ol>
+      <p>The purpose of basic training is to acquaint every volunteer with the fundamentals of ministry in their Adventurer Club or Pathfinder Club. Each workshop should provide candidates 
+with useful information and resources that they can use in their local field. Workshops may 
+be adapted and/or substituted by the local Conference/Mission to provide the most thorough, relevant training to candidates. The recommended workshop length is 75-90 minutes, and should include a balance of lecture (theory), discussion (processing the information), and practice (applying the lessons). Each workshop should be taught by instructors 
+trained and approved by the Conference/Mission.</p>
+      <p><b>RESOURCES</b></p>
+      <p><em>The workshops listed above can be found on Appendix A of this Manual. Or just simply click each of them as they are saved as links.</em></p>
+      <p><b>PORTFOLIO COMPLETION</b></p>
+      <ul>
+        <li>Include verification of completion for each workshop such as a signature page with the 
+workshop name, date, and instructor signature.</li>
+      </ul>
+      
+      <p><b>Additional Notes:</b></p>
+      <p><em>Your progress as a candidate is under the supervision of your Conference/Mission. If 
+under 18 years of age, you do not have to complete a background check, but you must be supervised by 
+an adult when working with minors. Final approval is at the determination of the reviewing Master Guide 
+following the guidelines of the local Conference/Mission Youth Director or their designated representative.
+      </em></p>
+      
       <p><a href="https://drive.google.com/drive/folders/1BVjUMh5QlBvfcdO-ZC9Z0w1jJGsJkXOj?usp=drive_link">Adventurer Basic Staff Training.</a></p>
         <p><a href="https://drive.google.com/drive/folders/1x5i6n93dq_Xji5uJs4qGRj4rbkDFGYMV?usp=drive_link">Pathfinder Basic Staff Training.</a></p>
     </ol>
-    <p><strong>Additional Notes:</strong> Your progress as a candidate is under the supervision of your Conference/Mission. If under 18 years of age, you must be supervised by an adult when working with minors.</p>
-    <p><em>All prerequisites must be completed prior to beginning the program.</em></p>     
+       
+    <p><b>REMEMBER:</b></p>
+       <p style="color:blue;"><em>All prerequisites must be completed prior to beginning the program.</em></p>     
        
 
        
@@ -695,10 +509,10 @@ h. Front angel High</p>
          <li>Hold a current Red Cross First Aid & CPR certificate or its equivalent.</li> 
            <ul>
              <li><a href="https://wiki.pathfindersonline.org/w/AY_Honors/First_Aid,_Basic">First Aid Basic</a>
-               <p><strong>Overview</strong>: hfhfhdbdh</p>
+               <p><strong>Overview</strong>: Do you know what to do if someone needs immediate medical attention? This honor will teach you how to handle a medical situation until professionals arrive.</p>
              </li>
              <li><a href="https://wiki.pathfindersonline.org/w/AY_Honors/CPR">CPR Honor</a>
-               <p><strong>Overview</strong>: hfhfhdbdh</p>
+               <p><strong>Overview</strong>: When a persons heart stops beating, they do not immediately die. Compressing their chest will supply oxygen to their brain while you wait for the paramedics, and could easily be the difference between life and death. Thousands of people have had their lives saved by this technique.</p>
              </li>
            </ul>
            <p>A current certificate is defined as one earned within the past two years or the time limit given before the certificate expires. Every few years, each volunteer should take a First Aid and CPR training course in order to update their certification and be ready for any situation.</p>
@@ -720,9 +534,12 @@ h. Front angel High</p>
        <li>Choose ONE of the following and do two Share Section options:</li>
        
          <ul>
-           <li><a href="fhhfcgff">Read</a> or <a href="fhhfcgff">listen</a> to the four Gospels of the Bible: Matthew, Mark, Luke and John.</li>
+             <li><a href="fhhfcgff">Read</a> or <a href="fhhfcgff">listen</a> to the four Gospels of the Bible: Matthew, Mark, Luke and John.</li>
+           <p><strong>Overview</strong>: hgfdrg</p>
              <li><a href="https://drive.google.com/file/d/1jcGlvNK9Qn0JH9xbYA6ohyFpmRclra2r/view?usp=drivesdk">Read</a> or <a href="https://ellenwhiteaudio.org/desire-of-ages/">listen</a> to The Desire of Ages by Ellen G. White.</li>
-           <li><a href="https://drive.google.com/file/d/1QjpkUXiNWcwF9nll9jKmNTdno_p0dirC/view?usp=sharing">Read</a> or <a href="fhhfcgff">listen</a> to the Encounter Plan, Series 1: Christ the Way.</li>
+           <p><strong>Overview</strong>: hgfdrg</p>
+             <li><a href="https://drive.google.com/file/d/1QjpkUXiNWcwF9nll9jKmNTdno_p0dirC/view?usp=sharing">Read</a> or <a href="fhhfcgff">listen</a> to the Encounter Plan, Series 1: Christ the Way.</li>
+           <p><strong>Overview</strong>: hgfdrg</p>
          </ul>
 
        <p><strong>In your Portfolio</strong>: Provide evidence of two Share Section options and Record which chapters you read each day.</p>
@@ -832,10 +649,1532 @@ h. Front angel High</p>
           //Treasury Category
 'Treasury': [
      { 
-           title: 'Treasury-Content 1-1',
+           title: 'Vision, Mission and Motivation',
                  content: `
-                 <p>This is the content of Sub-Content 1-1.</p>
-                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       <h3>Motivating Individuals</h3>                
+       <p>
+One of the prime shortcomings of any group is the inactivity of certain group
+members. Any member’s inactivity causes many problems to the group and the group
+leader. The obvious problem is the lost resources of inactive group members, which
+lessens the effectiveness of the group as a unit. But perhaps the more critical problem is
+the demoralizing effect that inactive members have on other members. Their failure to
+                   participate and shoulder their share of the load dampens enthusiasm and may eventually
+                   result in a marked negative effect on the group. The primary reason some group members
+are inactive is that they do not understand the task to be accomplished or what part they are
+supposed to play. In many instances, they do not receive sufficient motivation to move
+them into action. The fault does not lie within the members. They will usually respond to
+the motivation they receive– frequently none at all, or it is applied without regard for the
+member’s personal interests or views.
+                 </p>
+       
+       Basic Motivational Principles
+Motivation is the source of all action, and inactivity results from a lack of motivation. This
+does not necessarily mean a lack of motivational effort; however, mere effort to motivate
+does not, of its own accord, produce motivation.
+Group action is the result of motivation of the individuals within the group. At times the
+varying effects of motivational effort of one type or another may result in confusion or
+indifference. Many times when confusion or conflict occurs within the group, it is because
+the leader has failed to motivate each individual within the group. It has been rightly stated
+that you do not lead groups; rather, you lead the people that make up the group, each as an
+individual.
+We can draw a parallel between a group leader and a salesman. Salesmanship requires a
+great deal of individual motivation. In fact, that is what it is all about. A successful
+salesperson “helps” a client “discover” a “desire” for the salesperson’s product or service
+before closing the sale. Salespeople who see only their own desire for making the sale
+(income) and do not spend adequate time relating to their prospect’s desires soon discover
+that they are no longer selling.
+The same is true when motivating a group. When the leader disregards the desires of the
+individuals within the group, he soon finds he is no longer leading. The members have
+received no motivation that meet their needs, and they respond by doing nothing.
+“There is no such thing as a group member who cannot be motivated. Every living person
+is motivated everyday to do something. Once a person links himself emotionally with a
+group as a result of interest shown in his individual desires, he can be motivated to do
+many things that are contrary to his own personal desires in order to benefit the group.
+When that point is reached, he finds fulfillment in achieving for the group rather than for
+himself.”
+As a leader, you must be able to get your group and its individual members moving– and
+keep them moving– in the desired direction.
+In attempting to motivate individuals, we need to recognize that individual needs are
+especially important and play a major role in determining what “gets people going.”
+       
+Current research suggests that people usually motivate themselves by responding to their
+inner needs. Leaders need to understand these needs and how they operate so that they can
+work with human nature, not against it.
+Abraham Maslow, in his concept of a hierarchy of needs, suggests that individual needs are
+arranged in order of priority, with the stronger needs desiring satisfaction before other
+needs can be met.
+Physiological 
+Safety 
+Social 
+Esteem 
+Self-Actualization
+Physiological needs– These are a person’s physical needs for food, shelter, warmth, sexual
+gratification and other basic body functions.
+Safety– These include the need to feel safe from physical danger and the need for physical,
+mental and emotional security.
+Social– These include the need for friendships and interaction with other people, a sense of
+belonging and acceptance within a social circle.
+Esteem– These needs fall into two closely-related categories– self esteem and the esteem of
+others. The first includes our need to respect ourselves, to feel personal worth, adequacy
+and competence. The second embraces our need for respect, praise, recognition and status
+in the eyes of others.
+Self-actualization– The need to achieve as much as possible, to fully develop one’s gifts or
+potential.
+Maslow makes two interesting points about these needs. First, if one of our stronger needs
+is threatened, we jump back down the steps to defend it. You do not worry about status,
+for example, if you are starving. Therefore, if you appear to threaten people’s security by
+your proposed changes as a leader, you should expect a stoutly defended response.
+Second, a satisfied need ceases to motivate. When one area of need is met, the person
+concerned becomes aware of another set of needs. These in turn now begin to motivate
+him or her. There is obviously a lot of truth in this theory. In particular, when the
+physiological and security needs have been satisfied, they do not move us so strongly.
+How far this principle extends up the scale is a matter for discussion.
+Elsewhere in his work, Maslow postulated other hierarchies of need, which he identified
+like galaxies in the vast reaches of the unconscious mind: cognitive needs (curiosity, the
+need to discover and understand) and aesthetic needs (the need for beauty, order and
+elegance). In later life he also talked about what could be called spiritual needs, the need to
+escape from oneself and feel part of some larger transcendent unity above the self. As a
+       
+secular humanist, Maslow did not give the name “God” to this Welcoming Other in which
+self is both lost and found, but the influence of the Jewish tradition in which he was reared
+is clearly evident. Certainly there are great human needs behind the search for God.
+Another expression of this understanding of humans as essentially self-motivating was
+suggested by Herzberg, who believed that the following five motivators provide
+satisfaction to individual needs:
+1. Achievement
+· A sense of personal achievement in the work being accomplished
+and brought to a successful conclusion.
+· A sense that one is making a worthwhile contribution to the
+objectives of the group.
+· The sense of achievement is in proportion to the size of the
+challenge.
+2. Recognition
+· Acknowledging a person’s contribution.
+· Appreciating the work being done.
+· Receiving adequate recognition for achievements.
+3. Interest
+· A feeling that the work is challenging and demanding the best from
+the individual.
+4. Responsibility
+· Being allowed to control the work being done.
+· Being trusted.
+· Having authority to make decisions and being accountable for work
+done.
+5. Advancement
+· A feeling that as an individual, one is developing and advancing in
+experience and ability.
+· The prospect of promotion or advancement.
+· Providing the right climate and opportunities for meeting these
+needs for each individual in the group is possibly the most difficult
+and certainly the most challenging and rewarding task of the group
+leader.
+Group Activity:
+Ask the group to identify four major problem persons presently encountered in their club or
+unit. Use the resources of the group to arrive at a solution/understanding of how to
+motivate these individuals.
+       
+Motivating Young Adolescents
+
+Build Relationships
+
+Provide environment.
+
+They must believe that adults are important to them.
+
+Be honestly supported or rejected by others as a person capable of directing his
+or her future behavior.
+
+Personal encouragement– caring one-on-one relationship.
+
+Be a Model
+
+Adults whom they like and respect for their behavior and attitudes.
+
+Adults with a development of logical reasoning.
+
+Be Careful of Stereotypes
+
+Don’t assume that early physical developers will act more maturely than peers
+who have yet begun to grow.
+
+Don’t assume that physically attractive adolescents are intelligent and
+responsible.
+
+Don’t assume that unattractive or overweight adolescents are undisciplined,
+irresponsible, or lazy.
+
+Adult expectations of them, “We act like we are treated.”
+
+Provide Opportunities for Youth to Take Initiative
+
+Provide activities that teach-- self-motivating.
+
+Let them assume responsibility for shaping their environment.
+
+Provide consistent limits for acceptable behavior.
+
+Give them enough structure so that initiative can most likely be met.
+
+Relinquish the amount of control they can successfully handle and appreciate.
+
+Involve Youth in Decision-making
+
+Structure ways to give increasing amounts of autonomy
+° in establishing rules
+° in selecting and planning programs
+° in negotiating individual and group contracts
+° in selecting group rewards
+° in actually conducting activities
+° in evaluating the program
+
+Balance youth autonomy and adult control as to capabilities of the individuals.
+
+Allow as much control as they can manage.
+
+Provide controls that are necessary to protect youth from harm due to their own
+inexperience, but reduce adult-imposed controls as young people gain
+experience and responsibility.
+
+Make Peer Influence Positive
+
+While peers do have an increasing influence on behavior, most adolescents retain
+their family values.
+
+Can be a motivator
+° Make rules that govern behavior
+       
+       
+Plan activities that require collaboration rather than competitive efforts.
+° Set group goals and rewards that require cooperation.
+° Plan activities where the peer group receives recognition for helping or
+making a contribution.
+° Engage groups in role-playing and simulation games.
+° Peer counseling.
+° Peer tutoring.
+
+Tap Young Adolescents’ Desire to Make Commitments
+
+Short-term goal or provide an honorable out.
+
+Commitment should be of one’s own choosing.
+
+“Choice” contributes to sense of personal autonomy.
+
+Should be truly meaningful to them or to others.
+
+Provide Safe Opportunities for Risk-taking
+
+Risk-taking is a normal part of growing up.
+
+Risk can help young adolescents grow, test their physical, cognitive and social
+skills against reality and feel good about themselves.
+
+Risk provides challenge. As long as the situation is not too threatening, risktaking provides help in motivating, is constructed to promote self-esteem
+and protects them from physical or emotional harm.
+Using Enthusiasm to Motivate Others
+One of the best tools of personality development is enthusiasm. If you are really
+excited about life, you will be bubbling over with enthusiasm. Enthusiasm is a way to
+attract people so that they will become immediately interested in you and what you are
+saying. Once you capture this enthusiasm, you will no longer be lonely.
+Enthusiasm is a welcome commodity. Everyone needs it. It fills a personal demand. It
+enhances the feeling of well-being. It inspires the efforts of others and helps them to renew
+their efforts. It steps up their power-drive, as well as yours. It washes away
+discouragement and gives a refreshing new desire to move ahead. It neutralizes
+selfishness, anger and hatred. Enthusiasm inspires confidence. It establishes rapport
+achieved in no other way, and because people need direction, they are attracted to the
+enthusiastic personality.
+
+How to Develop Your Enthusiasm
+1) Have faith in yourself and others. “Faith,” as one psychologist puts it, “is
+the inner core of self-confidence, optimism, and enthusiasm.”
+2) Combat skepticism with positive thinking... then convert your thoughts
+into action. Track down solutions instead of concentrating on the dire
+consequences of defeat.
+3) Smile– A smile is the most potent weapon. Take a tip from Mark Twain,
+who said, “Wrinkles should merely indicate where smiles have been.”
+       
+4) Give generously of yourself. The enthusiast is fond of people, has time
+to help others, and has energy to spare.
+5) Focus on the advantages instead of dwelling on reasons why a project or
+idea won’t succeed. Find ways to make it work!
+6) Don’t let obstacles get you down. Beethoven was deaf. Edison was a
+failure at school. Teddy Roosevelt was a physical wreck as a youth. Fanny
+Crosby was blind. Helen Keller could not speak, hear or see. Booker T.
+Washington overcame prejudice. All these people had one thing in
+common– they were determined to succeed and believed that they could and
+would succeed. It was enough to carry them on.
+7) Rally others to your cause. Enthusiasts are born leaders. People are
+drawn naturally and willingly to their enthusiasm and go-go-go.
+You may be wondering how you can generate enthusiasm. Maybe you think you are not
+the enthusiastic type. Well, you can believe it’s not true, because in every personality there
+is a degree of enthusiasm. Would you like to build a higher degree of enthusiasm or would
+you rather let the world pass you by? (That’s one of those choice situation questions
+referred to earlier in this course, right?)
+Here are some practical pointers that can help you develop enthusiasm:
+
+Color everything you do or say– consciously ignite your smile, your “hello,”
+your eyes and your words. Make your conversation sparkle. Color everything you do with
+friendliness. Let the warmth and friendliness of your personality shine.
+
+Know what you are saying or doing– shy or embarrassed people often speak
+without thinking. Some nervous people feel that they must speak and become very
+confused in their expression. To develop the depth of your enthusiasm, know what you are
+saying and doing at all times.
+
+Praise people. Be warm. Be kind. Be sincere. Compliment people for what
+they do. Spread compliments in all directions. Wherever you are, whatever you are doing,
+make someone feel your enthusiasm through praise. People hunger for praise. Praise is
+power– but be sure you mean it.
+
+Don’t be opinionated– enthusiastic people do not push their opinion onto people.
+They stimulate listeners with the positive approach and at no time inflict personal beliefs.
+
+Look for good things in and about people– refuse to listen to negative talk from
+yourself or others. Don’t listen to gossip, jump to conclusions or harbor grudges. Doubts
+promote misunderstanding and anchor personality to everything negative. Look for the
+best in everyone.
+
+Sleep well and eat properly– sleep and proper nutrition play a role in the brighter
+personal approach to people. To ensure your best personality performance, keep physically
+fit. Enthusiasm has its beginnings in the foundation that supports it. Keep well, sleep well
+and you won’t have to be artificial about enthusiasm.
+
+Find interests in common with others– decide what you are interested in and join
+       
+a club that caters to your special interest. You will meet new friends and find a great boost
+to your personality development.
+
+Don’t worry– delete gossip and everything nasty in your life. Do not dispense
+worry, anger or hate. Wash out everything negative from your life. Transmit happiness to
+all. Remember the Pathfinder Law– “Keep a song in my heart.”
+
+Be amusing, be happy– the enthusiastic person has a sense of humor. It bubbles
+over from a fountain of friendliness. Be happy and make others happy.
+
+Offer encouragement– nothing makes others see you as an enthusiastic person
+better than your ability to encourage them. Listen to people. Help them with their
+problems. Let them complain and get the misery out of their souls, and fill their aching
+void with hope and courage and the feeling of success. Make them feel better because of
+your presence, your interest and your encouragement.
+
+Make others feel important– everyone wants to feel that she/he has a place in the
+world, a place to be recognized. Through your enthusiasm, you can show others they are
+important.
+
+Render personalized attention– in the enthusiastic approach there is nothing
+better than personalized attention. This attention must be defined. Talk and do in terms of
+the other person’s understanding. Give pleasure. Make your friends know you care.
+
+Fourteen Practical Values of Enthusiasm
+1)
+Enthusiasm is a sign that you are no longer in a rut.
+2)
+Enthusiasm permits no room for anything derogatory.
+3)
+Enthusiasm helps you develop an attractive personality.
+4)
+Enthusiasm is a gracious and genteel bid for attention.
+5)
+Enthusiasm recognizes the values of everything.
+6)
+Enthusiasm leaves no room for boredom.
+7)
+Enthusiasm is a method of diplomacy and persuasion.
+8)
+Enthusiasm is the key that opens doors and anticipates ideas.
+9)
+Enthusiasm is a portrait of praise and indicates self-confidence and control.
+10)
+Enthusiasm is a way to get others to want to help themselves to help you.
+11)
+Enthusiasm establishes spirit and cooperation at little or no cost.
+12)
+Enthusiasm leaves no opportunity for sarcasm.
+13)
+Enthusiasm leaves no opportunity for anger, sadness or hate.
+14)
+Enthusiasm makes other people feel good, too.
+
+Apply Your Enthusiasm
+People who live enthusiastically possess a mystic quality that most others find attractive.
+Such people are human dynamo-- alert, active, enterprising, always excited about some
+new venture or endeavor. This can be YOU.
+Obviously they are picturesque, powerful personalities, potential leaders, with vital,
+inquiring minds. What they do they undertake with zest and enthusiasm. They cannot fail
+       
+to create a good impression either in the social or business worlds.
+If you are enthusiastic and want to make friends, by all means show it. Do not stifle that
+important and attractive quality under the blankets of reserve and self-consciousness.
+
+Stabilize Your Enthusiasm
+· Place new ideas immediately on paper. Work out a plan of action. Put
+your ideas to work. Ideas are a stimulant to enthusiastic living and give you
+new power.
+· Permit controlled excitement to mount in you. It raises your energy level.
+· Utilize action to step up body function. Ideas don’t just happen. Someone
+makes them happen, and someone puts them into action.
+· Keep an “anticipation pad.” Write down all ideas that come to you. Leave
+the idea for a few hours while your subconscious thinks it over, and then
+work on it again.
+
+Add This Last Ingredient Now
+In achieving goals enthusiastically, it is vital to know what is most valuable and important
+to you. When you know what you want, go after it. Don’t get bogged down in details.
+Don’t be anchored by waste or boredom. If you want to find happiness and have peace of
+mind, become enthusiastic.
+       `,
+     },
+          
+     { 
+           title: 'Communication Skills',
+                 content: `
+– 2 hours
+Objective
+To learn how to effectively communicate with individuals of all ages.
+Explanation
+Participants will acquire a fundamental understanding of the communication process in
+effective and meaningful interpersonal relationships by involvement in group discussion
+and activities that will facilitate the development of personal skills in:
+A. Communication Process
+
+40 minutes
+1. What Communication Is
+2. Five Levels of Communication
+3. The Conversation-angle of Communication
+4. Barriers to Effective Speech
+5. Rules for Effective Speaking
+B. Active Listening
+
+40 minutes
+1. The Listening Angle of Communication
+2. Barriers to Effective Listening
+3. Effective methods of Listening
+4. Rules for Effective Listening
+5. Solving Conflicts
+C. Feedback
+
+20 minutes
+1. Feedback as the Process of Providing Information
+2. Two Distinct Types of Feedback
+3. Getting Help from Feedback
+4. When Feedback Can Best Be Given
+5. When Feedback Can Best Be Received
+6. How to More Effectively Give and Receive Feedback
+7. Feedback Process
+8. The Feedback Model
+D. One-way Communication
+
+10 minutes
+E. Two-way Communication
+
+10 minutes
+Possible information to be presented:
+A. Communication Process
+
+40 minutes
+1. What Communication Is
+We often assume that if someone’s lips are moving, communication is taking place.
+It involves more than talking. It is the receiving or listening process, as well. To this
+twofold process we should add a third dimension– understanding. Frequently we think we
+       
+understand what someone is saying, but what we hear is not what she/he meant. We want
+other people to listen to and understand what we have to say.
+2. Five Levels of Communication
+In his book Why Am I Afraid to Tell You Who I Am? author John Powell describes
+five levels on which we can communicate. Understanding these five levels is essential.
+· Level 1-Small Talk. At this level shallow conversation takes place, such as, “How
+are you?” “What have you been doing?” “How are things going?” Such
+conversation borders on the meaningless, but it can sometimes be better
+than embarrassed silence. When communication remains on this level, it is
+boring and leads to frustration and resentment in relationships.
+· Level 2-Factual Conversation. At this level information is shared, but there are no
+personal comments along with it. You tell what has happened but do not
+reveal how you feel about it. Men are more apt to settle for this level than
+women, as they are often less able to express their feelings.
+· Level 3-Ideas and Opinions. Real intimacy begins here, for on this level you risk
+exposing your own thoughts, feelings and opinions. Because you feel free
+to express yourself and verbalize personal ideas, your partner has a better
+chance to know you intimately.
+· Level 4-Feelings and Emotions. Communication at this level describes what is
+going on inside you, how you feel about someone else or a situation. You
+verbalize feelings of frustration, anger, resentment or happiness. If you
+honestly share with someone else in a give-and-take manner, showing
+interest in his/her feelings, as well as in expressing your own, this will
+enrich and enlarge your relationship. You will feel worthy, noticed, loved
+and appreciated. You will gain flashes of insight into your friend’s
+character that will give you real understanding of how she/he thinks and
+feels. A good combination is to alternate between the levels of
+ideas/opinions and feelings/emotions.
+· Level 5-Deep Insight. Rare insightful moments will occur when you are perfectly
+in tune with another in understanding, depth and emotional satisfaction.
+Usually a peak experience or something deeply personal is related.
+Communication about such experiences often makes a deep impression on
+both parties and enriches the relationship. Mutual sharing of personal ideas
+and feelings is the ultimate goal in communication especially in mental
+relationships.
+For thought: What level of communication occurs in your relationships now? Do you want and need a
+deeper and more intimate sharing?
+3. The Conversation-angle of Communication
+We spend approximately 70 percent of our waking hours in communication–
+      speaking, listening, reading or writing. Thirty-three percent of this time is devoted to
+talking. This element of our time becomes very important, for talk brings people together
+in a relationship.
+The avenue of speech goes beyond the exchange of words or information. Through
+talking we can express our feelings, convey our emotions, clarify our thinking, reinforce
+our ideas and make contact with others. It is a pleasant way of passing time, getting to
+know one another, releasing tension and expressing opinions. The most basic function of
+speaking, then, is not the giving of information but the establishing of a relationship with
+others. The quality of this relationship will depend a great deal on the ability of each
+person to express themselves verbally.
+4. Barriers to Effective Speech
+
+The “solution sender” weighs down his speech with orders, directions and commands.
+“Get over here.” “Hurry up.” Warning and threats comprise more solutions. “If
+you ever do that again, I’ll...” Another is moralizing. “Don’t you know enough not
+to...” Most of us resent being told that we must, should, or had better do
+something.
+
+Many of us resort to “put-downs” in spite of the fact that we know what it feels like to
+be put down. Put-downs judge, criticize and blame: “That’s not a bad idea,
+considering you thought of it.” They name, ridicule and shame: “You’re a slob.”
+They interpret, diagnose and psychoanalyze: “You only say that because...” They
+attempt to teach and instruct.
+
+Then there is the “corrector.” For example, while the club member tells a story to
+friends, his leader helps him keep the facts straight:
+“We left on Wednesday night...”
+“No, I think it was Thursday night just before the holiday.”
+“OK, we left Thursday right after we got home from school.”
+“No, it was late that evening when we got away.”
+“Well, anyway... oh, you tell it...”
+“No, you’re doing fine.”
+A corrector has a compulsion to concentrate on proper reporting. Such remarks are
+often attempts to draw attention to self, and they show a lack of sensitivity in
+allowing someone else to tell a story the way one perceives and remembers it.
+
+The “monologuer” has the compulsive need to talk and frequently insists on having the
+last word. She/he can’t bear to be corrected and so maintains a know-it-all attitude.
+Often monologuers have a desperate need to be popular, but the more they
+monopolize conversations, the more they bore others and cut themselves off from
+forming close attachments.
+
+The “silent treatment” uses silence as a weapon or a form of control. When a male is
+silent, strong emotions, such as fear or anger, are building up inside. A female
+usually uses silence to get even for some injustice done to her or when she reaches
+       
+the stage of total despair and desperation. The silent treatment may be given
+because one person refused to listen last time, or the silent one may be suffering
+from a deep hurt. Some Christians feel that it isn’t right to say what they think.
+But bottling this emotion takes its toll physically, mentally and spiritually.
+5. Rules for Effective Speaking
+
+Choose the right time to communicate to your friend. Your subject may
+be well-taken, but your timing may be off. If you have something
+personal from levels three or four to share, don’t unload just as your
+friend walks in. If you want to talk with your friend in an intimate
+way, select a time when your friend can respond pleasantly.
+
+Develop a pleasant tone of voice. It isn’t always what you say, but how
+you say it that counts. It is soothing to be around someone with a
+soft, calm voice. Make sure you are easy to listen to.
+
+Be clear and specific. Many misunderstandings arise from muddled talk.
+Try to think as you speak, and state clearly what you mean. You
+can solve the problem of muddled communication by making “a
+statement of intent.” For example, “I would like to invite the
+Browns over for dinner Sunday. Do you mind?”
+
+Be positive. In many homes, eighty percent of all communication is
+negative. These families become so used to hearing fault-finding,
+blaming, judging, name-calling and other negative elements that
+such behavior becomes normal. Be less negative and more positive
+and appreciative.
+
+Be courteous and respectful of your friend’s opinion. You can do this
+even when you don’t agree. Care as much about their comfort as
+you do about your own. And, be willing to listen. You should talk
+no more than fifty percent of the time.
+
+Be sensitive to the needs and feelings of your friend. Develop patience
+and sensitivity in responding to what your friend says. If your friend
+hurts, you can understand the hurt and even hurt with him/her. Tune
+into the needs and feelings of fear, anger, despair and anxiety of your
+friend. Likewise, if your friend is happy over a new development,
+enjoy that happiness with him/her.
+
+Develop the art of conversation. Conversation is an art, and
+opportunities to develop it should be encouraged. Discussion on
+interesting topics enriches a relationship.
+       
+B. Active Listening
+
+40 minutes
+1. The Listening Angle of Communication
+“Faulty listening,” says one psychoanalyst, “is usually at the root of most
+communication problems. Sometimes it merely causes annoyance or irritation. But when
+a person is talking about something important, trying to get a problem resolved, or seeking
+emotional support, poor listening can have disastrous results.”
+Yet, most of us prefer to talk rather than listen. We enjoy expressing our ideas and
+telling what we know and how we feel about things. We expend more energy expressing
+our own thoughts rather than giving full attention when others are expressing theirs.
+Listening seems like such a simple thing to do; yet, most of us are poor listeners because
+listening is hard work.
+2. Barriers to Effective Listening
+
+The “bored listener” has heard it all before. When someone rehashes complaints about
+his job, you may think, “Here we go again,” and put your brain in neutral. But on
+the rare occasion when they say something new and look to you for support and
+encouragement, they probably won’t get it.
+
+A “selective listener” picks out bits and pieces of conversation that interest him and
+rejects the rest. For instance, you may be doing something while your friend is
+talking. Most of what they say goes in one ear and out the other, but when they
+mention something that vitally affects you, you become all ears. Other people do
+not want to hear anything disagreeable, upsetting or different. We do not gain
+anything by rejecting what we do not wish to hear. In many situations we need all
+the facts in order to make a decision.
+
+A “defensive listener” twists everything said into a personal attack on self.
+
+Those who interrupt spend their time forming a reply to what they hear; they do not pay
+close attention to what is being said. Interested only in their own ideas, they pay
+little attention to the words of others and wait only for a split second when they can
+break in with, “Oh, that’s nothing. You should hear what...” Or, “That reminds me
+of...”
+3. Effective Methods of Listening
+Emphasis on effective listening is not new, but until recently more emphasis has
+been placed on the ability and willingness to speak freely than on effective listening.
+Today, however, some schools teach listening skills along with the “three R’s.”
+Corporations are encouraging employees to take certain courses to improve their listening
+skills. Family counselors are teaching people to listen within the family circle. Following
+are some techniques suggested by a collection of experts to help you and your friends
+       
+enhance your listening abilities.
+· Be alert to body language. We communicate by the spoken word, but we also
+communicate by what we do not say. Fifty-five percent of what we
+communicate is expressed through facial expressions– a pout, a sigh, a
+grimace or a squint of the eyes. Such body language speaks louder than
+words. Other nonverbal messages are caught through body postures or
+gestures– a nervous tapping of the foot, tightly clenched teeth or a motion of
+irritation. Such behavior patterns offer keys to feelings behind the words
+and set up barriers before conversation begins.
+· Be a door-opener. A good listening technique is found in responding with a “door
+opener” or the invitation to say more. These responses do not communicate
+any of your own ideas or feelings, yet they invite your friend to share their
+thoughts. Some of the simplest “door openers” are: “I see.” “You don’t
+say.” “Tell me more.” “I’d be interested in your point of view.” “Tell me
+the whole story.” In this way you encourage the other person to talk and do
+not give the idea that you can hardly wait to snatch the conversation away.
+They convey respect by implying: “I might learn something from you. Your
+ideas are important to me. I am interested in what you have to say.”
+· Listen actively. “Deliberate listening” is the ability to process information,
+analyze it, recall it at a later time and draw conclusions from it, but “active
+listening” hears the feelings of the speaker first and processes information
+secondarily. Both deliberate and active listening skills are necessary in
+effective communication, but listening with feeling is far more important in
+relationships.
+Active listening is particularly useful when you sense your friend has a problem,
+such as anger, resentment, loneliness, discouragement, frustration or hurt. Your first
+reaction to such feelings may be negative. You may want to argue, defend yourself,
+withdraw or fight back. But in active listening you catch what has been said and then
+restate what you think the feeling is, not the facts that have been stated.
+4. Rules for Effective Listening
+
+Maintain good eye contact. Focus your full attention on your friend.
+
+Sit attentively. For a few minute act as if nothing else in the world
+matters except hearing what your friend has to say. Block all other
+distractions from your mind. Lean forward in your chair.
+
+Act interested in what you are about to hear. Raise your eyebrows, nod
+your head, smile, or laugh when appropriate.
+
+Be attentive and listen with appropriate phrases to show agreement,
+interest, and understanding. Your friend wants to know that you
+understand the ideas he’s presenting. Try to think through what he
+       
+is saying and fit it into your own experience.
+
+Ask well-phrased questions. Give encouragement by asking questions
+that illustrate your interest.
+
+Listen a little longer. Just when you think you are through listening,
+listen.
+Personal activity:
+
+Do you have a communication problem? During the next week, focus your
+attention not on your friends’ failures but on your own. Being aware is only the first step.
+Next, set about to correct the problem. And finally, follow through in an attempt to
+upgrade your communication with your friends. If you are uncertain whether a problem
+exists, ask your friend what they dislike the most about the way you talk or listen. 
+5. Solving Conflicts
+Conflicts in relationships are inevitable. People view things differently, and
+relationships would be very dull in they didn’t. However, out of these differences
+disagreements and conflicts arise that can result in highly emotional states of frustration
+and anger.
+Often, people view conflict with horror, believing it threatens their relationship. This
+misconception causes some to avoid conflict by refusing to acknowledge its presence, by
+running from it, and by forcing feelings underground. But ignoring conflicts does not solve
+them. In fact, serious problems sometimes develop when problems are bottled up inside
+and are not released. A few simple rules can lead to constructive problem-solving.
+· Choose the best time and place. It is best to keep calm when handling conflicts,
+but if either of you is angry or unreasonable, then postpone the discussion.
+Don’t delay it for too long, however, and if your friend does not bring up the
+issue again, then you take the initiative to solve the problem. Guard against
+unnecessary interruptions when discussing major issues.
+· Say it straight. State your feelings openly and respectfully through the effective
+use of I-messages. Speak directly, clearly and concisely without anger.
+Include reasons why you feel the way you do. Explain how you think the
+problem can be solved and what is at stake. Speak calmly and in as
+controlled a manner as possible, lowering your voice rather than raising it.
+· Stay on the subject. Stick with one problem until you solve it. The more
+problems brought up at one time, the less likely that any of them will be
+solved. Make a rule that additional problems cannot be brought up until the
+first one has been dealt with. Avoid dragging up old scores and arguments.
+Agree that if the accusation is more than six months old, it is inadmissible
+evidence.
+       
+Show respect. You may not agree with your friend’s position; in fact, you may be
+violently opposed. However, you can still respect his right to have his
+opinion. Here are some no-no’s: name-calling, wild threats, put-downs
+concerning appearance or intelligence, physical violence, yelling and
+interrupting. Words spoken in anger can never be recalled. Nothing can
+erase the effects of a threatening ultimatum or bitter remarks spoken in
+anger. Speak and listen with respect.
+· List possible solutions. When feelings have been described constructively and
+openly, you will see the issues at stake and work out rational alternatives.
+Brainstorm every possible solution, regardless of how far-fetched it may
+seem. But do not appraise them at this time.
+· Evaluate the solution. Once all available information has been aired, the two of
+you can make an intelligent choice as to the course of action most likely to
+succeed. Go back through the list and share thoughts on the consequences
+as you evaluate each solution.
+· Choose the most acceptable solution. Commit yourselves to choosing the solution
+closest to meeting the needs of the one hurting the most. This choice may
+take a good measure of negotiation and compromise. Winning should not
+be the goal, because where there is a winner there must also be a loser, and
+no one likes to lose.
+Solutions can be reached by one person yielding, by both compromising or
+by one giving in to the other rather than just giving in. Take care to see that
+one of you does not always do the yielding. It takes two to make a conflict
+and two to resolve it. Giving in to another in the midst of conflict takes real
+maturity, because in effect, you are admiring that your analysis of the
+situation was wrong and that you are now ready to change your mind.
+· Implement the decision. Decide who is to do what, where and when. Once you
+reach a decision, remember that two persons often perceive agreements
+differently. Only friendly negotiation can solve some conflicts. Often if one
+gives in, the other feels resentful and may be in a very bad mood for the rest
+of the day, refusing to speak. The other person can be just as stubborn.
+Each feels justified in supporting his or her own decision. But does it really
+matter who is right and who is wrong? Friends who care about each other
+should be able to work things out according to how important each one
+considers his or her needs at the time. A solution can be reached more
+easily when each person is willing to see the problem from the other
+person’s viewpoint.
+When Your Friend Breaks the Rules:
+Although you may try to avoid arguments, you will occasionally be drawn into
+them. When you see one coming, you can prevent it by following a simple formula.
+Rather than responding with words that throw you into the heat of battle, choose not to
+       
+argue.
+If your friend reads something hostile into a perfectly legitimate request, choose not
+to argue but state calmly and reasonably: “I’m sorry it sounded like that. What I meant to
+convey is that...”
+If your friend has a special gift for sarcasm, tell him openly: “It hurts me to hear
+remarks like that about me. I know I do things that hurt you, also, but let’s try to avoid
+such things in the future.”
+If your friend is a faultfinder, don’t defend yourself. Instead, take notes on your
+“sins.” When they have gotten it all off their chest, say something like this: “OK, let’s go
+back to the first thing you mentioned. If I’m really at fault here, I’m willing to talk it over
+with you. I’ll ask the same of you, too.”
+When a friend makes a ridiculous exaggeration, rather than correcting the
+statement, try: “I know this upsets you and that you feel it happens too often. I’ll try not to
+let it happen again.”
+Unfair fighting techniques can destroy a relationship, but when your friend forgets
+and breaks the rules, you can learn to stay reasonable. Choose not to argue, but calmly and
+quietly confront your friend with the reality of the situation. With controlled aggression,
+reassert your own thoughts, feelings and convictions. You can avoid many potential
+arguments by choosing not to argue and by responding in a reasonable, concerned and
+tactful manner.
+C. Feedback
+
+20 minutes
+1. Feedback as the Process of Providing Information
+( What is feedback?)
+
+Feedback is the process of providing information through which a person can
+discover the impact of his actions and words upon individuals or the group.
+Since each person’s behavior is their response to another person’s actions and words, as
+they interpret them in light of their background, experience, attitudes, values, etc., it is
+possible that they often misunderstand or misinterpret your intentions toward them. There
+is no way we can truly know what feelings we have aroused in the person unless they tell
+you. We may guess, but their feelings are personal, deep inside, beyond our command.
+We have no chance of changing what they feel unless the feelings are shared, prompting
+you to change your behavior and communicate with them more closely your intended
+message. Without feedback, a distortion between your intentions could grow into an
+unnecessary argument or disagreement.
+       
+2. Two Distinct Types/Categories of Feedback
+
+Unplanned Feedback
+Unplanned feedback may emerge in a number of ways:
+· Conscious– nodding assent
+· Unconscious– nodding asleep
+· Spontaneous– “Thanks a lot”
+· Solicited– “Yes, it did help”
+· Verbal– “No”
+· Nonverbal– leaving the room
+· Informal– hand-clapping
+
+Planned Feedback
+· Reflection– The group appoints a process observer who does not engage in
+the group task but watches how the group goes about its task and for
+the impact of different actions by group members. The group allows
+time for him to ask questions about things that seem significant to
+him. The group reflects and discusses these situations as they wish.
+· Self-analysis– Tape recorders or video tapes are used, and the person has
+an opportunity to hear or see the impact of his behavior on others.
+· Coaching– A fellow member observes another member in action and then
+coaches him on how he can be more effective.
+· Personal feedback– This is most direct and effective if given with the
+intention of helping. A number of guidelines have been developed
+to help in giving and receiving feedback.
+3. Getting Help from Feedback
+
+Reinforces-- Feedback may confirm behavior by encouraging its repetition.
+“You really helped when you clarified.”
+
+Correction-- Feedback can help bring behavior in line with intention. “It would
+have helped me more if you had stood up to talk.”
+
+Identifies-- Feedback may help identify persons and their relationships. “Joe, I
+thought we were enemies, but we’re not, are we?”
+
+Descriptive-- It is descriptive rather than evaluative. By describing one’s own
+reaction, it leaves the individual free to use information as he sees
+fit. By avoiding evaluative language, it reduces the need for the
+individual to react defensively.
+
+Specific--
+It is specific rather than general. To be told that one is
+“dominating” will probably not be as useful as to be told, “Just now
+when we were deciding the issue, you did not listen to what others
+said, and I felt forced to accept your arguments or face attack from
+you.”
+
+Appropriate-- It takes into account the needs of both the receiver and giver of
+       
+       
+feedback and can be destructive when it serves only our own needs
+and fails to consider the needs of the other person.
+
+Usable--
+It is directed toward behavior which the receiver can do something
+about. Frustration is only increased when a person is reminded of
+some short coming over which he has no control.
+
+Requested-- It is solicited rather than imposed. Feedback is most useful when
+the receiver himself has formulated the kind of question which those
+observing him can answer.
+
+Timely--
+It is well-timed. In general, feedback is most useful at the earliest
+opportunity after the behavior (depending, of course, on the person’s
+readiness to hear it, support available from others, etc.).
+
+Clear--
+It is checked to insure clear communication. One way of doing
+this is to have the receiver try to rephrase the feedback he has
+received to see if it corresponds to what the sender had in mind.
+
+Accurate-- When feedback is given in a training group, both giver and
+receiver have opportunity to check with others in the group the
+accuracy of the feedback. Is this one man’s impression or an
+impression shared by others?
+4. When Feedback Can Best Be Given
+· In an atmosphere of trust where there is a trusting, warm relationship.
+· With concern for the other person as an individual.
+· In small bits.
+· By being sensitive to its reception.
+· When it is timely and appropriate.
+· As experience rather than supposition or interpretation.
+· When motivated by accepting affectionate, helping impulses.
+· When it is specific and derives from the group experience.
+· When it is kept within the group.
+· When it is requested and wanted.
+5. When Feedback Can Best Be Received
+· When one is open and ready to receive it, as when it is requested.
+· When one is ready to change.
+· From a person who is respected by the receiver.
+· When one’s filters are bypassed as much as possible.
+· When one is least defensive.
+· When it is verified by others in the group.
+· When one feels trusting of the group.
+· When it does not violate one’s personal integrity.
+· When one is free to reject it if they wish.
+       
+When it is truly meant to be helpful and not punitive.
+· When it is directed toward behavior one is able to change.
+· When it describes what the person is doing rather than placing a value
+upon it.
+For example– “When you yell at me, it makes me feel that I don’t want to
+talk to you anymore,” rather than–“It’s awful for you to yell at me.”
+6. How To More Effectively Give and Receive Feedback
+· Have deeper personal relationships.
+· Have more satisfying personal relationships.
+· Learn of one’s impact on others.
+· Increase the validity of one’s communication.
+· Align self-image with reality.
+· Become more open to new experiences.
+· Become more unique or differentiated as an individual.
+7. Feedback Process
+Leveling– Letting another person or persons know how I feel about myself.
+“I feel tired.” “I feel bored.” “I feel happy.”
+Confrontation– Letting another person or persons know how I feel about them.
+“I’m trying to be helpful by explaining it.” “When you... I feel cut
+off.”
+Encounter– A relationship of dialogue between persons in which both are leveling
+and confronting.
+8. The Feedback Model
+Helpful feedback requires a person to be aware and in control of his
+feelings. A model for giving feedback is “When you... (state behavior), I
+feel...” This provides data for the other person or group without arousing
+their defenses and leaves them free to deal with it as they choose.
+D. One-way Communication
+       
+Diagram 1
+Instructions: Study the series of rectangles below. With your back to the group, you are to
+direct the participants in how they are to draw the figures. Begin with the top figure and
+describe each in succession, taking particular note of the relationship of each to the
+preceding one. No questions are allowed.
+       
+E. Two-way Communication
+
+10 minutes
+Instructions: Study the series of figures below. Facing the group, you are to direct the
+participants in how they are to draw the figures. Begin with the top figure and describe
+each in succession, taking particular note of the relation of each to the preceding one.
+Answer all questions from participants and repeat if necessary
+       
+       
+       
+       `,
+     },
+          
+     { 
+           title: 'Developing Creative Teaching Resources',
+                 content: `
+
+
+15 minutes
+Individual class requirements form a part of a total package of information and
+experiences designed to encourage participants to develop their full potential. Each
+requirement generally allows for a variety of teaching methods. However, teachers need
+not feel restricted in teaching the requirements. A good teacher will evaluate the
+requirement, class, venue, and other factors, and then choose the most effective teaching
+method, including the use of appropriate teaching aids.
+Teachers need to be aware of the value in developing effective teaching resources that they
+can use to assist them in completing the requirements. They need to assess what they have
+on hand, what they can call on, and what they may need to find in order to meet their
+needs.
+1. Types of Resources
+There are many places where teaching resources may be found:
+
+Personnel– People are one of the most valuable resources to the club leader.
+Many people have chosen a specialist profession or career and are often
+more than ready to share their expertise. Doctors, engineers, nurses, and
+trades people may, and should, be used to teach selected requirements.
+Teachers may be able to find members of their church or community who
+have a special interest in some area of life-- e.g., social concerns, nature,
+etc. Others may have an interesting hobby or craft which they can share.
+Some people may have chosen a special area of study and may be willing to
+share in specialized classes-- e.g., church history, sex and dating, church
+doctrines, etc.
+These people are valuable resource personnel! A personal presentation by
+these specialists will probably be the most effective and helpful to the class
+situation. However, teachers should remember that a cassette or CD, video,
+or other audiovisual will also serve the purpose if a person cannot be there
+in person.
+
+Places– Most clubs will be close to many venues that can provide excellent
+       
+resources for classwork. Schools, both primary and secondary, may be able
+to offer assistance. Tertiary-level schools often have small research
+museums available. Specialized clubs, libraries, hospitals, government
+offices, and special training centers may also be available. Museums, art
+galleries, and culture centers can often help the enquiring teacher. Parks,
+gardens, factories, and tourist bureaus may offer excellent materials– just
+the things to make the class a real winner.
+
+Materials– Teachers should also recognize the value of the written word.
+Books and articles are probably the handiest source for information and
+pictures; magazines and periodicals are also valuable in this area.
+Videos, cassettes, CD’s, DVD’s, and the Internet are popular and valuable
+as teaching resources. Teachers need to keep a current file of what is
+available from video companies and rental stores and select appropriate
+materials to fit the various requirements and their objectives.
+2. Factors That Affect Resource Selection
+There are several factors that should be considered when choosing resources for a
+particular class or lesson theme:
+
+Venue– The place where you meet regularly for your program will have some
+bearing on your choice of resources. If you meet in a large open hall with
+lots of room, you will be able to use certain types of resources that would be
+less effective in a small, crowded room. If you can’t darken your room for
+showing films, they cease to be an important resource. On the other hand, if
+a particular film is critical to your program, you will need to find another
+suitable meeting place for the occasion.
+It may also be important to evaluate the security of your room and consider
+whether the hall has enough space and security for all your material
+resources.
+
+Number of participants– The number of participants in your care will also
+affect the number and style of resources you use. If your class is small, you
+will not need as many resources as you might need for a larger class.
+However, variety and creativity are extremely important, and you need to
+provide as many new experiences for your class as possible.
+
+Qualifications and experience– If you have been assigned to teach a class, your
+choice and selection of resources will probably reflect your experience in
+the teaching area. If you are a new teacher, you may be unsure just where to
+       
+start! You may need to call on more experienced teachers and get their
+guidance and help. Ask them, as resource people, to take some segments
+for you. You may be able to find a qualified school teacher who can help
+you select materials.
+3. Developing a Resource File
+When you, as the teacher, see the area you need to care for, you can then start
+building a resource file that can be expanded each time you discover something new.
+Write down any ideas you get and file them away. When you see a book that you think
+would be valuable, ask your club to purchase it for you. Copy down the names of any good
+films you see, speakers you hear, and games you play. Even if you can’t use a particular
+resource immediately, it may eventually be just what you need. Keeping a current file of
+great things and ideas is an invaluable practice.
+C. How to Develop Creative Worships
+
+55 minutes
+At the heart of every Christian is a relationship– a relationship with Jesus Christ.
+This relationship will usually be expressed in some form of praise, often with a group of
+people who think about Jesus in a similar way. We usually call it worship, because it
+centers around a person’s need to be alive and dynamic. Participants will value and enjoy
+their involvement in praise and celebration if they sense that someone has put effort into
+making it fun and meaningful.
+
+Enjoyable worship periods address two major factors– attitudes and creativity.
+1. Developing Positive Attitudes Toward Worship
+Young people need to learn things besides facts and skills– they need to develop
+healthy attitudes. Attitudes largely determine what youth learn. Attitudes determine not
+only a person’s willingness to learn but also how the knowledge will be used. Since a
+teacher’s goal is to provide knowledge that young people can and will use, being sensitive
+to attitudes is critical.
+Developing positive attitudes is a fundamental concern for the teacher for many reasons:
+
+No one can be forced to learn anything if he/she does not want to learn.
+
+Even if people learn and discover important things, the primary concern of
+continuing learning is lost when they do not develop positive attitudes.
+
+Vocational choices are largely dependent on attitudes.
+
+Application of ideas, in a large measure, depends on positive attitudes.
+
+Positive attitudes will reflect favorably on the teacher and on the club as a whole.
+       
+The basic way to help individuals develop positive attitudes toward worship is to
+provide pleasant experiences for learning about God, themselves, their world and their
+church. We are all willing to give time, effort and money to activities that we enjoy. We
+avoid and put off those things that are unpleasant. Our favorite activities are usually ones
+we do successfully and comfortably and that bring us in contact with people we enjoy. The
+implication for teachers is clear! Worship needs to be an enjoyable time– able to provide
+good memories.
+Further, the teacher’s outlook on worship as an important, dynamic, and valuable time must
+be real and genuine; his/her attitude toward his class members must be sympathetic and
+understanding; their interest in learning must be great; and their enthusiasm for teaching
+must be sincere. If the teacher’s attitudes or interests are less favorable or the same as those
+of the student, no one will generate enthusiasm, and genuine creative worship demands
+enthusiasm.
+Teachers will learn to make worship more significant and develop greater positive attitudes
+to worship by setting out to:
+· Develop an appreciation for the nature of worship. Understanding its
+components, its themes, and its focal point, who is God.
+· Nourish curiosity in all aspects of worship. Provide opportunities to discover new
+ideas; make each worship time significant for the participants; assign openended questions and problems for thought and exploration.
+· Build loyalty and confidence in God. Be a person people can accept and want to
+associate with; work with patience and kindness so that time spent together
+is meaningful and successful.
+· Make worship times a pleasure. Present the material so that it can be understood;
+use a variety of materials and methods that provide student participation in
+discovery and discussion.
+· Nourish respect for worship times. Stress the times and things the participants
+involve themselves in during worship periods; avoid punishing or
+humiliating them in worship settings.
+2. Creativity in Worship
+Worship offers unique opportunities for creative and original thinking. It centers on
+a relationship, and there are endless ways to strengthen and deepen relationships. Teachers
+will discover a freshness and excitement in the club’s worship segments if they have room
+for creative activities.
+The leader can encourage members to investigate and explore by providing materials,
+topics, problems, reading matter, games, etc. Any discovery in an individual’s relationship
+with God should be recognized and encouraged. Often, members need time and solitude to
+bring creativeness to the surface, and freedom for independent work and expression should
+be provided in the worship periods whenever possible. It is important, too, that the
+“climate” makes the individual feel their qualities are valued by other members of the
+group, as well as by the teacher, and feels enough confidence in his relationship with others
+to be different and express his own ideas.
+If students are only given facts and rules in worship, then the teacher has no reason to
+expect creative thinking. If teachers think there is only one solution to a problem or only
+one way to describe an idea, then class members will have little or no incentive to be
+creative. The following principles of teaching are well worth considering when making
+plans for worship occasions. Teachers ought to check that:
+
+Students are actively looking for concepts through reflective thinking, problem
+solving, experimentation with new experiences, and analysis.
+
+Students are encouraged to ask questions, discuss different opinions, and
+propose new ideas with their classmates.
+
+Students are encouraged to give reasons for answers, statements, methods.
+
+They have materials, illustrations, and lesson objects that will enhance the
+students’ understanding of a concept or idea.
+
+They show enthusiasm for the class members and their different ideas.
+3. Places and Times of Worship
+Worship happens in many places and occasions within the club program. Doing
+something different, unique, special, and making it enjoyable isn’t going to be easy every
+time; in fact, it may not be easy at all! Many teachers will need to take time and effort to do
+something out of the ordinary, but it’s worth it! There is a real need for committed teachers
+and leaders who will be prepared to do all that is necessary to make worship for club
+members a most enjoyable and valuable time.
+4. Developing a Creative Approach to Worship Preparation
+There are several principles that the teacher can keep in mind when preparing a
+worship period:
+
+Accept the challenge of doing it differently from the way it is usually done. If
+your worship has followed a set pattern, try a new way of presenting the
+same material. Rearrange the segments. Assess the value of each
+component, and find a better way of sharing the ideas.
+
+Be imaginative. Picture the details of the story you’re planning to tell– the
+details of the time, place, personnel, etc. Imagine the feelings, the
+atmosphere, the fears, the excitement. Relive the occasion and then attempt
+to carry some of those feelings into your worship time. Recreate the
+       
+atmosphere through drama, mime, music, and dress.
+
+Look at the idea from a variety of angles! Ask how, when, where, and why–
+what was and was not said. Seek parallels, modify, magnify, rearrange.
+Take one idea at a time and follow it through to a conclusion. Then tie
+everything together.
+
+Include opportunities for participation. Individuals need to be involved, and
+worship should actively involve them as much as possible.
+
+Make application to the present. It’s the now that the worship is speaking to.
+People need to deal with the current times, and all worship should have
+something to say for today.
+The following selection of material provides just some ideas for alternative
+worships. They might/should spark ideas in your mind for greater ways of making worship
+all that it can be.
+       `,
+     },
+          
+     { 
+           title: 'Developing Creativity Through AY Honors',
+                 content: `
+
+
+30 minutes
+1. Purpose of Teaching AY Honors
+The Adventist Youth/Pathfinder (AY) Honors have one objective: to develop the
+physical, mental, and spiritual capacities of the youth or adult.
+The first 16 AY Honors were introduced in 1928; since then, more than 240 honors have
+been added to the program. Students study honors to obtain awards for knowledge,
+proficiency, and life skills. In preparing to receive the honor, the participating person,
+group, or family unit will experience fun through creativity and achievement.
+Each AY Honor is designed to introduce a practical subject that aids the person’s
+development as a Christian by affecting the social, emotional, physical and spiritual aspects
+of his life. Studying AY Honors should direct a person to a deeper love of his heavenly
+Creator and increase his interest in committing his life to God and community. All honors
+are designed to help students “increase in wisdom and stature and in favor with God and
+man.”
+Honor study is designed to help the person’s spiritual character development, and every
+honor requires high standards of excellence by clearly stating what tasks are to be
+accomplished. Fulfilling the requirements should be interesting and fun while instilling a
+sense of achievement.
+The study of an AY Honor should provide the person with an attractive way to learn about
+his surroundings or widen his exposure to new horizons or adventures. Such study topics
+might include learning about hobbies, special interests, or being introduced to a new
+vocation. An interested, devoted student could complete an entire honor in less than three
+months.
+Because AY honors are part of a church-sponsored program, all facets of course study
+should harmonize with basic church standards. For this reason, honor study avoids topics
+requiring the destruction of plant or animal life, or types of armed or unarmed defense.
+Each honor also has broad appeal, avoiding subjects that could be studied by only a small
+group of people in a single local area.
+The AY Honors enable young people to gain proficiency in many areas. Sometimes honor
+study leads to the adoption of a vocation or at least a useful hobby. Some students think the
+AY Honors are just a lot of study, theory, and book work; they forget that each honor is
+based on the philosophy: “An ounce of theory to a pound of patience.”
+2. Exploring the Interests and Creativity of the Individual  
+Through the years, the Master Guide program has developed into the leadership track for
+the Pathfinder Club; the AY Honors have likewise become one of the two basic support
+columns of the Pathfinder curriculum. Although these two are primarily focused on the
+club, they are not exclusive to it. Anyone who desires to expand their horizons through
+these two programs is welcome to do so.
+There are tremendous possibilities within the framework of the AY Honors. To gain the
+maximum benefit from the AY Honor program, it is essential for Pathfinder Club directors
+and church youth leaders to keep the following five suggestions in mind:
+· High Standards– As youth leaders, keep the AY Honor standard high. That’s
+where it belongs. Do not permit careless work, and make sure you set a good example. AY
+Honors are top-value features. Keep them there.
+· Serious Study– Encourage serious, not monotonous, study of AY Honor
+requirements. Make it interesting and pleasant for the participant. Let it be real,
+worthwhile fun. Enjoy it yourself, and make sure you put the ideas across so they stick in
+their minds.
+· Real Interest– Encourage youth to search beyond the requirements for the
+particular AY Honor. Add points of interest outside the minimum requirements. Get them
+really interested in meeting the requirements.
+· Worthy Recognition– Be sure successful candidates receive their AY Honor
+certificates and/or patches as soon as possible and at a service worthy of the effort they
+have expended.
+· Wide Choice– Demonstrate various crafts frequently. Until they see a
+demonstration, many youth don’t even know that some AY Honors exist or how interesting
+they can be. There are eight categories of AY Honors available for study, representing
+fields of interest for any youth or adult.
+AY Honors will transform the Pathfinder Club or youth group into an interesting workshop
+where youth can learn to serve their church in many ways.
+Requirement limitations: Much effort has gone into evaluating all the requirements for each
+honor, assuring its timeliness, usefulness, and applicability in a world-wide program.
+However, there may be requirements occasionally that are irrelevant to a particular setting
+or not possible due to personal limitations, etc. When this occurs, the requirement should
+not dropped but rather be substituted with a requirement of equal strength.
+3. Teaching AY Honors
+Some AY Honors require special highly-skilled instructors. All learning must, in
+those cases, be carried on under careful supervision by a person or persons clearly qualified
+to teach the material. These honors are so indicated in the honor handbook. The instructor
+may be any person in the church, school, or community whose expertise qualifies them.
+       
+When the person is not a church member, they should be carefully informed of our lifestyle,
+as well as the concepts and requirements that need to be covered. Each honor has an
+advanced level, which is represented by the placing of a small silver star on the appropriate
+patch. Persons who are instructors for any given honor may place a small bronze diamond
+on the patch as well.
+       
+       
+       
+       
+       
+       `,
+     },
+          
+     { 
+           title: 'Child and Youth Evangelism',
+                 content: `
+– 2 hours
+Objectives
+To make the participant aware of the role of child and youth evangelism.
+To further develop the philosophy by explaining that Children and Youth Ministries should
+be evangelistic in nature.
+Explanation
+The participant is required to attend a two-hour seminar (sponsored by the conference
+Youth Ministries Department) on child and youth evangelism. This can be part of the New
+Skills Development for Master Guides.
+A. Youth Evangelism
+
+25 minutes
+B. Doctrine of Spiritual Gifts
+
+40 minutes
+C. Types of Community Outreach Programming
+
+40 minutes
+D. Materials and Resources
+
+15 minutes
+Possible information to be presented:
+A. Youth Evangelism
+
+25 minutes
+Objective: To create an awareness of the scope of Child and Youth Evangelism and
+in so doing, emphasize the importance of the acceptance of an evangelistic approach to
+Adventurer, Pathfinder, and Youth Ministries.
+_ Definition and scope............
+_ Purpose of evangelism.........
+_ Gospel commission identified....
+_ Record your ministry role and goals....................................
+       
+1. Adventurer Ministries
+	
+Mission Statement:
+The___________________________ Adventurer Ministries program serves an
+(Name of your field)
+intercultural community of children ages 6-9 (grades____________), their parents and caregivers through a holistic ministry. The purpose of the program is to support parents and
+care-givers in leading and encouraging their children in a growing, joyful love relationship
+with Jesus Christ. It offers instructional curriculum, supplementary resources, family
+enrichment, and volunteer training from within a Seventh-day Adventist philosophy.
+2. Camping Ministries
+	
+Mission Statement:
+Adventist Camp Ministries (ACM) provides an intentional Christian environment
+committed to strengthening each camper’s relationship with God and all His Creation
+through scripture, nature, and recreation.
+∆ Philosophy:
+ACM believes that in a camp setting, the study of the Bible and nature, in the
+context of wholesome relationships and recreation, will place campers and guests in a
+Christ-centered environment that promotes social, physical, mental, and spiritual
+development.
+∆ Goals:
+
+
+To be an integral part of the mission and life of the church
+
+To be a servant of the Gospel in outreach and to be a resource to the community
+
+To provide programming that focuses on God’s creative and redemptive love
+
+To recruit and train qualified staff for the camp operation and program
+
+To develop in campers a sense of responsibility for the environment
+
+To maintain a safe, functional, and environmentally sensitive facility
+
+To encourage networking that will enable camps to share resources and
+information
+
+To provide meeting facilities for conference training seminars, conventions, and
+retreats for local churches and schools
+
+To encourage Director Certification and camp accreditation
+3. Pathfinder Ministries
+	
+Mission Statement:
+The __________________________Pathfinder Ministries is an organization of the
+(Name of your field/Conference)
+Seventh-day Adventist Church, dedicated to meeting the social, physical, mental, and
+spiritual needs of junior and teen youth by challenging the Pathfinder to experience a
+personal relationship with Christ, having a sense of achievement and responsibility, and
+developing respect for God’s creation including his fellow man.
+∇ Goals:
+Pathfinder Ministries seeks to meet the Pathfinder’s present and unfolding needs, to
+the end that we bring them to self-fulfillment and maturity in Christian faith, characterized
+by their decision to:
+
+
+Accept Jesus Christ as personal Saviour and Lord.
+
+Reflect internalized Christian values through mature decision-making and
+behavior.
+
+Exhibit the righteousness, true holiness, and fullness of stature of Christ.
+
+Demonstrate leadership skills, enabled and empowered to become full partners in
+active, selfless service supporting the mission of the church.
+The basic Adventurer, Pathfinder, and Youth philosophies require leaders to:
+
+Help the youth to understand that the church loves them, cares for them, and
+appreciates them. They should know that they are needed in its total
+program.
+
+Share with club members the destiny that God has planned for each of them and
+expand the knowledge of their part in the great plan of salvation. Help them
+want to live up to God’s expectation for their lives.
+
+Train and organize youth for active service. Teach them that witnessing is not a
+once-a-week or once-a-month project, but that it should be incorporated into
+their everyday lives.
+
+Work for the salvation of each individual.
+
+Understand the purpose of God’s assignment to man.
+
+       `,
+     },
+          
+     { 
+           title: 'Doctrine of Spiritual Gifts',
+                 content: `
+
+
+40 minutes
+Note: Present the Doctrine of Spiritual Gifts. Allow participants to discover their own spiritual gifts.
+Objective:
+To enable the leader to appreciate that all individuals are different both in personality and
+in talent and that God has a place in His work for each one.
+       
+Explanation:
+Each person has natural talents and skills that are acquired, but God also gives spiritual
+gifts to each one. The leader not only needs to understand the Biblical principles of the
+doctrine of spiritual gifts, but should also have access to tools that will enable him to help
+young people to identify their own gifts and encourage them to use these in a way that not
+only gives enjoyment but also promotes spiritual growth.
+Teaching Resource:
+Church Ministries/Personal Ministries “Inventory of Spiritual Gifts”
+
+What is a Spiritual Gift? 
+Is there a difference between a spiritual gift and a talent? Is it important to recognize the
+difference? Will it help me discover my own spiritual gifts if I can distinguish between the
+two?
+The answer to all three is Yes! And recognizing the differences between talents and
+spiritual gifts can be one of the keys to finding those spiritual gifts God has given to you.
+Let’s look at talents, or natural abilities. A natural ability may be something you’re born
+with, like physical coordination. Or it may be a talent you’ve developed through the years,
+such as playing a musical instrument. These natural abilities or talents may be useful or
+entertaining. But they deal primarily with the surface of life. The root concern of one’s
+relationship to God is left untouched. Abilities and talents affect people on a temporary
+basis, not an eternal basis. And, spiritual growth isn’t necessary for their development.
+A woman who frequently opens her home for dinner guests and social gatherings may not
+have the gift of hospitality. Why not? Because spiritual gifts differ from natural abilities in
+two important respects:
+1) The motivation for the gift is based on love for God and love for humanity. Selfglory or gain can never be the incentive. Paul tells us that one’s communication,
+knowledge, and faith might all be perfect, but they are worthless unless love is the motive
+(1 Cor. 13:1-3).
+2) The goal of spiritual gifts differs from that of natural abilities. Spiritual gifts are
+granted “for the common good,” “to equip the saints for the work of ministry, for building
+up the body of Christ” (1 Cor. 12:7; Eph. 4:12).
+Keep in mind this motivation and goal as you seek to discover your gifts. Ask yourself,
+“What is my motivation and goal in this area?” Remind yourself that these gifts form the
+basis for our individual and collective service for God.
+(Remember, too, that hardly anyone discovers all his/her gifts at the beginning of the
+Christian experience. A period of time or a special set of circumstances may be required to
+bring your gifts to light. Be willing to try your hand in new areas. Your spiritual gifts can
+be confirmed only in the actual setting where they are put to use.)
+
+Spiritual Gifts in the Church 
+God has placed within the church various gifts, which have been given to each one of us to
+perform our work of ministry.
+	
+Three Key Passages Concerning Spiritual Gifts:
+Eph. 4:7-13; 1Cor. 12:1-11, 28-31; Rom. 12:1-8
+	
+Ellen G. White References Concerning Spiritual Gifts:
+COL 327: possession of gifts depends on reception of Spirit
+9T 144,145: contrast must not hinder unity
+GW 481: different gifts placed in church
+DA 823: not all imparted to every believer
+COL 328: poorest and most ignorant believer may have gifts
+COL 327: promised to every servant of Christ
+Ev 256: subject frequently neglected
+6T 291-293: unity and cooperation essential in use of gifts
+	
+Definition of Spiritual Gifts
+A spiritual gift is a special ability given to a member of the body of Christ
+by the Holy Spirit that enables him/her to work effectively with joy in
+helping the church carry out its mission in the world.
+Do not confuse:
+Spiritual Gifts with natural talents– All people, whether Christians
+or not, have natural talents. Only Christians receive spiritual gifts.
+These gifts enable the Christian to minister in such a way that He
+will have a power that will tell upon hearts.
+Spiritual Gifts with fruit of the Spirit– (Gal. 5:22, 23). The fruit of
+the Spirit is reproduced in each Christian by the Holy Spirit. All
+Christians are to have all of the fruits of the Spirit, but not every
+spiritual gift is given to every Christian.
+Spiritual Gifts with Christian roles– I may be an evangelist, while
+someone else has the gift of teaching; yet we are all witnesses (Acts
+1:8). Witnessing is not a special gift of the Spirit given to select
+persons. It is a role that all Christians share. Every Christian is to
+show and tell what Christ through His Word and Spirit has done in
+his/her own heart and life.
+Genuine Gifts with Counterfeits– The devil always has a counterfeit
+for that which is genuine. Counterfeit gifts are more often associated
+with the more directly miraculous, such as miracles, healings,
+speaking in tongues, and prophecy. Being more spectacular, they
+have greater power to catch attention. Miracle working is one of the
+signs of the end. Manifestations of this order must be carefully
+tested by the church, for there will be miracles on both the side of
+truth and the side of error in the last days. Only by the Scriptures can
+they be tested.
+	
+List of Spiritual Gifts
+1) Administration– The ability to organize, manage, and supervise working
+with and through others to achieve goals. Its meaning is “to steer,”
+as the helmsman or pilot of a ship. The ability to plan and launch
+projects, to meet the needs of God’s cause.
+2) Apostleship– This is a title not normally used in church today. However,
+it means to be sent out, especially commissioned to represent the
+church in a broader ministry. This gift may be represented today by
+the spirit-given ability to begin the work that may lead to new
+churches being established.
+3) Discernment– The analytical capacity to discern between truth and error,
+right and wrong.
+4) Evangelism– The ability to so persuasively present the gospel of Jesus
+that people are led to become His disciples.
+5) Exhortation– This word is derived from the same word that Jesus used for
+the Comforter (Holy Spirit), one who comes alongside to encourage.
+Also, it is the ability to stimulate people to action in the service of
+God.
+6) Faith– The ability to see a vision of what God wants done and the
+unswerving confidence to accomplish it regardless of the obstacles.
+7) Giving– The ability to share personal assets with joy and eagerness so that
+people are helped and God’s work is advanced.
+8) Helps– The ability to unselfishly meet the needs of others through some
+type of practical help. The exercise of this gift often releases those
+with teaching and preaching gifts to minister the word of God.
+9) Hospitality– The ability to open one’s home graciously so that guests are
+put at ease and are refreshed both physically and spiritually.
+10) Intercession– The practice of praying earnestly and sincerely on behalf
+of others and their special needs.
+11) Knowledge– The ability to easily master a body of truth. It is also the
+ability to store and recall a fund of knowledge from God’s Word to
+meet the need at hand.
+12) Leadership– The ability to inspire and lead others in various ministries
+within the body of Christ. This gift is exercised with the attitude of a
+servant.
+13) Serving– The unusual desire and capacity to render service to others.
+       14) Mercy– The capacity to feel sympathy with those in need (especially
+those who are suffering and miserable) and to manifest this sympathy
+in some practical way with a cheerful spirit so as to encourage and
+help those in need.
+15) Missionary– The ability to minister across cultures.
+16) Pastoring– (Shepherding) The ability to shepherd, counsel, and
+encourage believers in their walk with Christ and in their service to
+the church and community.
+17) Prophecy– Primarily this refers to the gift bestowed on one who is called
+to receive divine revelation from God to be communicated to man.
+Secondarily, to the capacity to preach so that the Bible comes alive to
+the hearer.
+18) Teaching– The ability to instruct and explain the Bible truths so clearly
+in such a detailed way that those willing to learn will understand.
+19) Wisdom– The ability to penetrate into a matter, seeing the situation in its
+larger relationships, and imparting wise counsel from God’s Word.
+	
+How to discover your Spiritual Gifts
+
+Pray earnestly that God will reveal them to you.
+
+Consider the desires of your heart.
+
+Get active in the work of God.
+
+Listen to comments of Christian friends; someone else should be able to
+recognize your gifts.
+
+Evaluate your success.
+	
+Results of discovering your Spiritual Gifts
+
+You will know God’s will for your life and where you best fit into the
+work of the church.
+
+You will know better how to cope with diversity and conflict in personal
+relationships.
+
+You will have a greater sense of identity and partnership with Jesus.
+
+You will have greater joy in service for the Lord because you will be
+matched to the work you enjoy most.
+
+You will be better equipped to win your friends and relatives to Jesus.
+	
+The Spiritual Gifts Inventory– a survey
+Note:
+The next five pages comprise a self-testing survey of Spiritual Gifts as mentioned in the Bible.
+Each participant will want to read the directions carefully then proceed as indicated.
+       
+       
+       
+       
        `,
      }
 

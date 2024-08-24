@@ -50,6 +50,7 @@ header {
     cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
     transition: background-color 0.3s; /* Adds a transition effect for background color */
     text-decoration: none;
+    font-size: 15px;
 }
 
 .honours-item:hover {

@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Custom font */
+    background-color: #e0f7fa; /* Background color for the page */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.category {
+    margin-left: 30px;
+    color: yellow;
+    margin-bottom: -11px;
+    background-color: rgb(233,134,53);
+    padding: 2px 5px;
+    border-radius: 10px;
+    width: 250px;
+    z-index: 2;
+}
+/* Styles for the honours container */
+.honours {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    gap: 10px; /* Adds spacing between items */
+    margin: 10px; /* Adds margin around the container */
+    overflow: hidden; /* Hides overflow content if necessary */
+    border: 1px solid rgb(233,134,53);
+    border-radius: 10px;
+    padding: 20px 10px 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    z-index: 1;
+}
+
+/* Styles for individual honour items */
+.honours a {
+     /* Allows items to grow and shrink as needed */
+    min-width: 150px; /* Sets a minimum width for each honour item */
+    width: 100%; /* Sets a maximum width for each honour item */
+    text-align: left; /* Centers text within each item */
+    padding: 10px; /* Adds padding inside each honour item */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    border: 1px solid #ddd; /* Adds a border around each honour item */
+    border-radius: 5px; /* Rounds the corners of the border */
+    background-color: #f9f9f9; /* Sets a background color for each honour item */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+    transition: background-color 0.3s; /* Adds a transition effect for background color */
+    text-decoration: none;
+}
+
+.honours-item:hover {
+    background-color: #e0e0e0; /* Changes background color on hover */
+}
+
+/* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Black with opacity */
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: rgba(0,0,0,0.8);
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 30px 10px 20px 10px; /* Padding inside the modal */
+    border: 1px solid #888; /* Border around the content */
+    width: 90%; /* Width of the content box */
+    max-width: 600px; /* Maximum width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    color: #fff;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    margin-top: -30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Question Formatting */
+.question {
+    margin-bottom: 10px; /* Space between questions */
+    padding: 10px; /* Padding around each question */
+    background-color: #f7f7f7; /* Background color for each question */
+    border-radius: 5px; /* Rounded corners for questions */
+    border: 1px solid #ddd; /* Border around each question */
+    
+}
+
+/* Question Text */
+.question p {
+    font-size: 16px; /* Font size for the question text */
+    color: #333; /* Text color */
+    margin: 0 0 5px; /* Margin around the question text */
+}
+
+/* Option Formatting */
+.question label {
+    display: block; /* Display options as block elements */
+    margin-bottom: 10px; /* Space between options */
+    font-size: 14px; /* Font size for options */
+    color: #555; /* Text color for options */
+}
+
+/* Submit Button */
+#submit-quiz {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #4caf50; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+#submit-quiz:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Results Section */
+.results {
+    text-align: center; /* Center align the results */
+    margin-top: 20px; /* Space above the results */
+}
+
+.results h2 {
+    font-size: 24px; /* Font size for the score */
+    color: #fff; /* Text color */
+    margin-bottom: 20px; /* Space below the score */
+}
+
+/* Doughnut Chart */
+canvas {
+    max-width: 100%; /* Make canvas responsive */
+    margin: 20px 0; /* Space above and below the chart */
+}
+
+.percentage {
+    font-size: 40px;
+    font-family: times new romans;
+    margin-top: -185px;
+    margin-bottom: 130px;
+    color: yellow;
+    font-weight: bold;
+}
+
+#review-quiz {
+    width: 100%; /* Sets a maximum width for each honour item */
+    text-align: left; /* Centers text within each item */
+    padding: 10px; /* Adds padding inside each honour item */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    border: 1px solid #ddd; /* Adds a border around each honour item */
+    border-radius: 5px; /* Rounds the corners of the border */
+    background-color: #f9f9f9; /* Sets a background color for each honour item */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+    transition: background-color 0.3s; /* Adds a transition effect for background color */
+    text-decoration: none;
+}

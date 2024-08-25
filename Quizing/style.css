@@ -190,4 +190,5 @@ canvas {
         border-radius: 0 0 20px 0;
         width: 60%;
         background-color:rgba(0,40,45,0.9);
+        font-size: 16px;
     }

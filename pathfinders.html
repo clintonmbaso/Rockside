@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD - Pathfinders</title>
+      <style>
+  /* Font Awesome icons (assuming you are using Font Awesome for icons) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/nature1.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire body with the background image */
+    background-attachment: fixed; /* Keep the background image fixed in place */
+
+    /* Center the background image */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+/* Base styles for header */
+.site-header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* Replace background color with background image */
+    background-image: url('images/header.png'); /* Replace 'path_to_your_image.png' with the path to your background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-color: transparent; /* Set a transparent background color */
+    color: #fff;
+
+}
+
+/* Optional: Apply rounded corners to the header */
+.site-header {
+    border-radius: 0px; /* Adjust the radius value for more or less curvature */
+    }
+
+.logo img {
+    width: 80px; /* Adjust size as needed */
+    margin-right: 30px;
+    
+}
+
+.title {
+    /* To ensure the title aligns with the logo */
+    display: flex;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+/* Main navigation styles */
+.main-navigation {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right within the nav */
+    align-items: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+.main-navigation.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+  
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation li {
+    position: relative; /* Enable absolute positioning for child elements */
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation a i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+/* Position each main link as desired */
+.secretariat {
+    position: absolute;
+    top: 50px; /* Adjust top position */
+    left: -130px; /* Adjust left position */
+}
+
+.treasury {
+    position: absolute;
+    top: 15px; /* Adjust top position */
+    left: -50px; /* Adjust left position */
+    
+}
+
+.ministries {
+    position: absolute;
+    top: -13px; /* Adjust top position */
+    left: 25px; /* Adjust left position */
+}
+
+.other {
+    position: absolute;
+    top: -40px; /* Adjust top position */
+    left: 110px; /* Adjust left position */
+}
+
+/* Sub-menu styles */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position sub-menu below parent item */
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+
+        /* Sub-menu styles */
+        .sub-menu {
+            display: none;
+            position: absolute;
+            height: auto;
+            left: 0;
+            background-color: rgba(167,79,45,0.1);
+            padding: 5px;
+            z-index: 999;
+            border-radius: 3px;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+.main-navigation ul li {
+    position: relative; /* Enable relative positioning for child elements */
+}
+  
+        /* Show sub-menu when parent li is hovered */
+        .main-navigation ul li:hover .sub-menu {
+            display: block;
+        }
+
+        .sub-menu ul {
+            list-style: none;
+            padding: 0;
+            
+          
+        }
+
+        .sub-menu ul li {
+            margin-top: 10px;
+           flex-direction: row;
+           
+        }
+
+/* Media query for smaller screens (e.g., tablets) */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 5px;
+    }
+}
+
+/* Media query for even smaller screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .title {
+        font-size: 14px;
+    }
+
+    .main-navigation ul {
+        font-size: 14px;
+    }
+}
+        .site-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-navigation ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .footer-navigation ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-navigation ul li a:hover {
+            color: #FF5733; /* Hover color */
+        }
+  
+  .main-content {
+    text-align: justify;
+    margin: 170px 10px 10px 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    padding: 7px;
+    
+    z-index: 1;
+    
+  }
+  
+.logo-container {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align vertically within .logo-container */
+}
+
+.logos {
+    width: auto; /* Allow logos to maintain aspect ratio */
+    height: 25px; /* Set a fixed height for logos */
+    margin-right: -7px; /* Adjust spacing between logos */
+    align-self: flex-start; /* Prevent logos from stretching vertically */
+}
+  
+img {
+            width: 70%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove extra space below image */
+            margin: 0 auto; /* Center horizontally */
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+  
+     <div class="logo-container">
+        <img src="images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+  
+    <div class="logo title">
+      <a href="index.html"><img src="images/2. Pathfinder Logo.png" alt="Logo"></a>
+        <h2><span style="color: green;">KEMD</span> - <span style="color: orange;">Pathfinder</span></h2>
+    </div>
+
+    <nav class="main-navigation">
+    <ul>
+        <li class="secretariat">
+            <a href="#" onclick="loadContent('Secretariat')">
+                <i class="fas fa-users"></i> Checklist
+            </a>
+        </li>
+        <li class="treasury">
+            <a href="#" onclick="loadContent('Treasury')">
+                <i class="fas fa-money-bill-wave"></i> Curriculum
+            </a>
+        </li>
+        <li class="ministries">
+            <a href="#">
+                <i class="fas fa-building"></i> Honours
+            </a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#" onclick="loadContent('Adventurer')">Adventurer</a></li>
+                    <li><a href="#" onclick="loadContent('Pathfinder')">Pathfinder</a></li>
+                    <li><a href="#" onclick="loadContent('Ambassador')">Ambassador</a></li>
+                    <li><a href="#" onclick="loadContent('Young Adult')">Young Adult</a></li>
+                    <li><a href="#" onclick="loadContent('PCM')">PCM</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="other">
+            <a href="#">
+                <i class="fas fa-ellipsis-h"></i> Resources
+            </a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="#" onclick="loadContent('Education')">Education</a></li>
+                    <li><a href="#" onclick="loadContent('Chaplain')">Chaplain</a></li>
+                    <li><a href="#" onclick="loadContent('Projects')">Projects</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</header>
+<div id="mainContent" class="main-content">
+    <h3>ABOUT PATHFINDER MINISTRY</h3>
+    <p>The Pathfinder Ministry is a worldwide program organized and directed by the Youth Department of the General Conference of the Seventh-day Adventist Church. It offers a wide range of learning experiences for young people 10 to 15 years of age and is operated by the local Seventh-day Adventist church under the direction and control of the local conference youth director. Each Pathfinder Club is administered by a club director, deputy directors, counselors, instructors, chaplain, secretary, and treasurer. The club is divided into separate units, each unit averaging between six to eight Pathfinders, including a captain and scribe.</p>
+  
+  <img src="images/Pathfinder Day.jpg" alt="Pathfinder Day">
+
+    <hr>
+  <h3>Pathfinder Aim</h3>
+  <p>The Advent Message to all the world in my generation.</p>
+  <p>Explanation:  My relationship to Jesus Christ is of such a nature that it compels me to share with any who will receive it, the gospel—the good news of His soon return.</p>
+  
+    <hr>
+ <h3>Pathfinder Motto</h3>
+  <p>The love of Christ compels us.</p>
+  <p>Explanation: I am drawn to Him by His exemplary life, the symbolic act of His crucifixion, His conquering resurrection, and His promise of an earth made new in the pattern of the original creation.  The closer I find myself to Him, the closer I find myself identifying with the needs of my fellow human beings.</p>
+
+  <hr>
+   <h3>Pathfinder Pledge</h3>
+  <ul>
+  <li>By the grace of God,</li>
+  <li>I will be pure and kind and true.</li>
+  <li>I will keep the Pathfinder Law.</li>
+  <li>I will be a servant of God</li>
+  <li>and a friend to man.</li>
+  </ul>
+  <p>Explanation:</p>
+  <p><strong>By the grace of God</strong> - Only as we rely on God to help us can we do His will.</p> 
+  <p><strong>I will be pure</strong> - I will fill my mind with everything that is right and true and spend my time in activities that will build a strong, clean character.</p> 
+  <p><strong>I will be kind</strong> - I will be considerate and kind, not only to my fellow man, but also to all of God's creation.</p> 
+  <p><strong>I will be true</strong> - I will be honest and upright in study, work and play and can always be counted upon to do my very best.</p> 
+  <p><strong>I will keep the Pathfinder Law</strong> - I will seek to understand the meaning of the Law and will strive to live up to it's spirit, realizing that obedience to law is essential in any organization</p> 
+  <p><strong>I will be a servant to God</strong> - I will pledge myself to serve God first, last, and best in everything I am called upon to be or do.</p> 
+  <p><strong>I will be a friend to man</strong> - I will live to bless others and do unto them as I would have them do unto me.</p> 
+
+    <hr>
+   <h3>Pathfinder Law</h3>
+  <p>The Pathfinder Law is for me to:</p>
+  <ul>
+  <li>Keep the morning watch.</li>
+  <li>Do my honest part.</li>
+  <li>Care for my body.</li>
+  <li>Keep a level eye.</li>
+  <li>Be courteous and obedient.</li>
+  <li>Walk softly in the sanctuary.</li>
+  <li>Keep a song in my heart.</li>
+  <li>Go on God’s errands.</li>
+  </ul>
+  <p>Explanation:</p>
+  <p><strong>Keep the Morning Watch</strong> - I will have prayer and personal bible study each day.</p> 
+  <p><strong>Do my honest part</strong> - By the power of God I will help others, and do my duty and my honest share, wherever I may be.</p> 
+  <p><strong>Care for my body</strong> - I will be temperate in all things and strive to reach a higher standard of physical fitness.</p> 
+  <p><strong>Keep a level eye</strong> - I will not lie, cheat or deceive, and will despise dirty talk or evil thinking.</p> 
+  <p><strong>Be courteous and obedient</strong> - I will be kind and thoughtful of others, reflecting the love of Jesus in all my association with others.</p> 
+  <p><strong>Walk softly in the sanctuary</strong> - In any devotional exercise I will be quiet, careful and reverent.</p> 
+  <p><strong>Keep a song in my heart</strong> - I will be cheerful and happy and let the influence of my life be as sunshine to others.</p> 
+  <p><strong>Go on Gods errands</strong> - I will always be ready to share my faith and go about doing good as Jesus did.</p> 
+
+  <hr>
+  <h4>Pathfinder Flag</h4>
+  <img src="images/Pathfinder Flag.jpg" alt="Pathfinder Flag">
+  <p>Explanation:</p>
+  <p>The Pathfinder flag is made from one of several materials, cotton bunting, rayon, or nylon. The flag is divided through the center both vertically and horizontally making four equal parts.</p>
+  <p>The background colors are royal blue and white alternately sewed together with the upper left hand corner being royal blue. The Pathfinder emblem is centered in the heart of the background.</p>
+  <p>The colors are descriptive of the purposes and ideals of Pathfindering. White means purity, blue means loyalty, red reminds us of the shed blood of Christ (sacrifice), and gold means excellence.</p>
+  <p>The symbols also have meanings. The shield is the protection of God, the sword is his word, the Bible, and the triangle represents completeness. Completeness of the Godhead (Father, Son, and Holy Spirit), and completeness of the three parts of education (Mental, Physical, and Spiritual).</p>
+  
+ <hr>
+    <h4>Pathfinder Emblem</h4>
+  <img src="images/2. Pathfinder Logo.png" alt="Pathfinder Logo">
+    <h4>Meaning of the Pathfinder Emblem</h4>
+  
+    <p><strong><span style="color: red;">RED (SACRIFICE)</span></strong> - Reminds us of Christ. “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.” (John 3:16) “Present your bodies a living sacrifice, holy, acceptable unto God” (Rom. 12: 1).</p>
+    <p><strong><span style="color: gold;">GOLD (EXCELLENCE)</span></strong> - “I counsel thee to buy of me gold tried in the fire, that thou mayest be rich” (Rev. 3:18). Standard of measurement. The Pathfinder Club has high standards to help build strong character for the kingdom of heaven.</p>
+    <p><strong><span style="color: white;">WHITE (PURITY)</span></strong> - “He that overcometh, the same shall be clothed in white raiment” (Rev. 3:5). We desire to have the purity and righteousness of Christ’s life in our lives.</p>
+    <p><strong><span style="color: blue;">BLUE (LOYALTY)</span></strong> - It is the purpose of the Pathfinder Club to help teach us to be loyal to: Our God in heaven. Our parents. Our church. Loyalty is defined as a reflection of the character of our True Master Guide.</p>
+    <p><strong>THREE SIDES</strong> - Completeness of the Trinity — Father, Son, Holy Spirit. Tripod of education: Mental Crafts and Honors Physical Campouts, work bee, health focus Spiritual Outreach and personal spiritual development.</p>
+    <p><strong>SHIELD (PROTECTION)</strong> - In the Scripture God is often called the shield of His people.(Protection) “Fear not… I am thy shield” (Gen. 15:1) “Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.” (Eph. 6:16)</p>
+    <p><strong>SWORD (BIBLE)</strong> - The sword is used in warfare. A battle is always won by offense. We are in a battle against sin, and our weapon is the Word of God. The sword of the Spirit is the Word of God. (see Eph. 6:17)</p>
+    <p><strong>INVERTED TRIANGLE</strong> - The inverted order of importance Jesus taught which is contrary to that taught by the world. Sacrificing of one’s self by placing the needs of others ahead of our own.</p>
+    <p><strong>PATHFINDER CLUB</strong> - The Pathfinder Club is one of the organizations of the world youth ministry of the Seventh-day AdventistChurch.</p>
+  
+    <h4>Pathfinder Anthem</h4>
+  <p>Oh, we are the Pathfinders strong, The servants of God are we. Faithful as we march along, In kindness, truth, and purity. A Message to tell to the world, A truth that will set us free!. King Jesus the Savior's coming back, For you, and me!.</p>
+
+  
+  
+<footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2024</p>
+        <nav class="footer-navigation">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script>
+        var contentMap = {
+  //Secretariat Category
+'Secretariat': [
+     { 
+           title: 'Master Guide Prerequisites',
+                 content: `
+    <h3>Requirements:</h3>
+    <ul>
+        <li>Be a baptized member, in regular standing, of the Seventh-day Adventist Church.</li>
+        <li>Provide a copy of a document such as:
+            <ul>
+                <li>Baptismal certificate.</li>
+                <li>Photo of your baptism.</li>
+                <li>Church bulletin that includes your baptism by name.</li>
+                <li>Letter from church clerk or pastor confirming membership.</li>
+            </ul>
+        </li>
+        <li>Be at least 16 years of age to start this card and 18 years of age at Investiture.</li>
+        <ul>
+          <li>Include a copy of an official ID to verify your age.</li>
+        </ul>
+        <li>Complete a background check and child protection course if 18+ years old.
+            <ul>
+                <li>Instructor signature for the child protection course.</li>
+            </ul>
+        </li>
+        <li>Write a one-page report or video on what it means to be a Master Guide and why you want to become a Master Guide.</li>
+        <li>Complete each of the following workshops with verification:
+            <ul>
+                <li>Club Ministry: Purpose & History</li>
+                <li>Club Organization</li>
+                <li>Programming & Planning</li>
+                <li>Club Outreach</li>
+                <li>Ceremonies & Drill</li>
+                <li>Developmental Growth</li>
+                <li>Introduction to Teaching</li>
+                <li>Medical, Risk Management and Child Safety Issues</li>
+            </ul>
+        </li>
+        <li><a href="https://drive.google.com/drive/folders/1BVjUMh5QlBvfcdO-ZC9Z0w1jJGsJkXOj?usp=drive_link">Adventurer Basic Staff Training.</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1x5i6n93dq_Xji5uJs4qGRj4rbkDFGYMV?usp=drive_link">Pathfinder Basic Staff Training.</a></li>
+    </ul>
+    <p><strong>Additional Notes:</strong> Your progress as a candidate is under the supervision of your Conference/Mission. If under 18 years of age, you must be supervised by an adult when working with minors.</p>
+    <p><em>All prerequisites must be completed prior to beginning the program.</em></p>       `,
+     },
+          
+          { 
+           title: 'LEADERSHIP IDENTITY & GROWTH [WISDOM]',
+                 content: `
+    
+    <p>Complete each of the following Conference/Mission approved leadership training workshops (materials available in the Master Guide Curriculum Manual):</p>
+    <ul>
+        <li>Vision. Mission. Motivation</li>
+        <li>Christian Leadership</li>
+        <li>Discipline & Discipleship</li>
+        <li>Child & Youth Evangelism</li>
+        <li>Creating Effective Worships</li>
+        <li>Communication: Theory & Practice</li>
+        <li>Education: Theory & Practice</li>
+        <li>Resources for Creative Instruction</li>
+    </ul>
+    
+    <p>The Master Guide Leadership Training, Workshop Resources for Presenters, General Conference 2021 Edition includes guides for each of the eight workshops under the section Leadership Identity and Growth of the Master Guide Card. Each of the workshop guides includes a description of the content, participants, resource material, what participants will learn, basic content for the workshop, and suggested activities.</p>
+    <p>The resources included for these workshops should be adapted to the local conference policies and guidelines. Presenters responsible for these workshops have the opportunity to both communicate information, and to incorporate practical activities and handouts for participants to use in their clubs. </p>
+    
+    <li><a href="https://drive.google.com/file/d/1YWL8jk_P3R4zC9AiNhIb3qIAZuhPMO_x/view?usp=drivesdk">Master Guide Curriculum Manual</a></li>
+            
+<ul>
+<li>
+<h5>In your Portfolio</h5>
+<p>Include verification of completion such as a signature page with the workshop name, date, and instructor signature for each of the eight workshops.</p>
+</li>
+<li>
+<h4>Reflection on Education by Ellen White</h4>
+<p><a href="https://drive.google.com/file/d/1ecn-jaWmpYICXmjgwvrKxw2XmPP9PsmB/view?usp=drivesdk">Read</a> or <a href="https://ellenwhiteaudio.org/education/">Listen</a> to the book Education by Ellen White. Write a one-page reflection on what you have learned and how you can apply it in your ministry.</p>
+  <h5>In your Portfolio</h5>
+<p>Include verification of completion such as a signature page with the workshop name, date, and instructor signature for each of the eight workshops.</p>
+
+</li>
+<li>
+<h4>Adventist Leadership Book</h4>
+<p><a href="https://drive.google.com/file/d/1ZBtJXdK06zYrW-RzshtVFKw3sVue73Eg/view?usp=sharing">Read</a> or Listen to a book about Adventist leadership selected by your Conference/Mission and complete two Share Section options.</p>
+<ul>
+<li>
+<h4>Cindy Tutsch - Ellen White on Leadership</h4>
+<p>Provide evidence of two Share Section options.</p>
+<p>Record which chapters you read each day.</p>
+</li>
+</ul>
+</li>
+<li>
+<h3>Spiritual Gifts and Personalities Reflection</h3>
+<p>Complete a survey and write a two-page reflection paper on:</p>
+<ul>
+<li><a href="https://www.gcyouthministries.org/resources/spiritual-gifts-assessment/spiritual-gifts-questionnaire/">Spiritual Gifts</a></li>
+<li><a href="http://www.simplypsychology.org/big-five-personality.html">Personalities</a></li>
+</ul>
+  <h5>In your Portfolio</h5>
+<p>Include your two-page reflection on spiritual gifts, and your two-page reflection on personalities. Reflect on gifts you identify in yourself and other leaders, how this knowledge will assist you in youth ministry, and how it will strengthen your church for the work God has called it to do.</p>
+</li>
+<li>
+<h3>Practical Experience</h3>
+<p>For at least one year, be an active staff member in an Adventurer or Pathfinder Club or teach a Sabbath School for these age groups.</p>
+<p>Complete each of the following:</p>
+<ul>
+<li>
+<p>Attend at least 75% of all staff meetings.</p>
+</li>
+<li>
+<p>Teach three <a href="https://drive.google.com/file/d/1fKbzl2nWyOYqqTEZL7TXPSVArs7PMVOm/view?usp=drivesdk">Adventurer awards</a> or two <a href="https://wiki.pathfindersonline.org/w/AY_Honors">Pathfinder honors</a>.</p>
+</li>
+<li>
+<p>Have or earn the <a href="https://wiki.pathfindersonline.org/w/AY_Honors/Christian_Storytelling">Christian Storytelling</a> honor.</p>
+</li>
+</ul>
+</li>
+</ul>
+       `,
+     }
+          
+          
+          
+            ],
+          
+          //Treasury Category
+'Treasury': [
+     { 
+           title: 'Treasury-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          
+            //Ministries Category
+'Ministries': [
+     { 
+           title: 'Ministries-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          //Other Category
+'Other': [
+     { 
+           title: 'Other-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+         
+
+  //Adventurer Category
+'Adventurer': [
+     { 
+           title: 'Adventurer-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          //Pathfinder Category
+'Pathfinder': [
+     { 
+           title: 'Pathfinder-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+
+            ],
+          
+            //Ambassador Category
+'Ambassador': [
+     { 
+           title: 'Ambassador-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+
+  //Young Adult Category
+'Young Adult': [
+     { 
+           title: 'Young Adult-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          //PCM Category
+'PCM': [
+     { 
+           title: 'PCM-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          
+            //Education Category
+'Education': [
+    { 
+           title: 'Education Report on Leadership Seminar - March 3rd, 2024',
+                 content: `
+
+    <p><strong>Introduction</strong></p>
+    <p>On March 3rd, 2024, a highly successful seminar was conducted at Kohima SDA Church from 10 to 16 hours specifically tailored for Adventist Youth Ministries Leaders and all interested participants within the District. The seminar focused on crucial topics of leadership, mentorship, conflict resolution, and basic staff training relevant to AYM and leadership roles.</p>
+
+    <p><strong>Seminar Overview</strong></p>
+    <p>The seminar was designed to equip attendees with essential skills and knowledge necessary for effective leadership within the district. They were empowered with practical insights and strategies to enhance their roles in mentoring and guiding the youths.</p>
+
+    <p><strong>Attendees</strong></p>
+    <p>The seminar attracted 43 attendees from various congregations of our two zones, all dedicated to strengthening their leadership abilities and impact within the church community. The participants exhibited enthusiasm and a strong commitment to youth ministry. Among the attendees was our special guest and instructor: MG Mokwani Nawa, a representative from Midlands East Zambia Conference.</p>
+
+    <p><strong>Key Lessons Covered</strong></p>
+    <ol>
+        <li><strong>Leadership:</strong> An interactive session led by MG Mokwani focused on leadership styles suitable for youth engagement, effective communication with young people, decision-making in ministry contexts, and motivating youth involvement in church activities.</li>
+        <li><strong>Mentorship:</strong> The mentorship segment led by our KEMD Youth President MG Rabson emphasized the importance of mentorship in nurturing young believers. Attendees learned how to establish meaningful mentor-mentee relationships and guide youth through their spiritual journeys.</li>
+        <li><strong>Conflict Resolution:</strong> Practical strategies were shared by our Chaplain MG Melvin Mwila to help leaders identify and address conflicts within church settings positively and constructively. Real-life examples provided hands-on experience in resolving conflicts among youth.</li>
+        <li><strong>Basic Staff Training for Youth Leaders:</strong> Participants were introduced to essential staff training principles applicable to youth ministry, including effective onboarding techniques for new volunteers, skills development workshops, and performance management strategies for youth leaders by our Secretary Loveness Mwanza and Parliamentarian MG Morris Chibale.</li>
+    </ol>
+
+    <p><strong>Certifications</strong></p>
+    <p>As a result of their dedication and proficiency demonstrated during the seminar, 21 leaders were awarded certifications in leadership, conflict resolution, and mentorship within our District during the Youth Day on March 16, 2024. These certifications acknowledge their commitment to enhancing AYM practices and fostering positive growth within their respective congregations.</p>
+
+    <p><strong>Conclusion</strong></p>
+    <p>The seminar held on March 3rd, 2024, served as a valuable platform for leaders within KEMD to acquire practical skills and insights tailored to their unique ministry roles. The program's success underscores the importance of continuous education and development for effective youth leadership in the church.</p>
+
+    <p>We extend our appreciation to all attendees, instructors, and organizers for their contributions to making this seminar a meaningful and impactful event for our District. We anticipate the positive ripple effects of this seminar on youth engagement and spiritual growth within our congregations.</p>
+
+    <p><strong>Sincerely,</strong></p>
+    <p>Maxwell Mwiinga : Education Chair - Zone A<br>
+    <a href="tel:+260761468300">+260761468300</a></p>
+    
+    <p>Mbaso Clinton : Education Chair - Zone B<br>
+    <a href="tel:+260968084570">+260968084570</a></p>
+       `,
+     },
+          
+     { 
+           title: 'Report on Assessments in Church Heritage',
+                 content: `
+
+    <p><strong>Church Heritage Mock Exam - March 25, 2024</strong></p>
+    <p>A mock exam in Church Heritage was conducted on March 25, 2024, across our two Zones. The exams were held at Lukanga SDA Church in Zone A and Rockside SDA Church in Zone B. A total of 16 candidates participated in these assessments, with only 3 candidates successfully passing. This results in a pass rate of 18.75%.</p>
+
+    <p><strong>MEZC Final Exams - April 7, 2024</strong></p>
+    <p>The final exams organized by Midlands East Zambia Conference (MEZC) were held on April 7, 2024, at Kabwe Adventist School (KAS) and Rockside SDA Church. The KAS center accommodated 10 candidates, while Rockside had 18 candidates. Out of the 28 candidates who sat for the exams, a commendable 20 candidates successfully passed. This results in a pass rate of approximately 71.43%.</p>
+
+    <p><strong>Comment</strong></p>
+    <p>It is with great pleasure that we acknowledge the improvement in participant numbers and pass rates in these assessments. The increase in successful candidates reflects the dedication and commitment of the participants and the effectiveness of the preparation and support provided by our leaders in various churches.</p>
+
+    <p><strong>Next Steps</strong></p>
+    <p>For those who did not succeed in these assessments and others who wish to sit for the same exams, it is important to continue preparing diligently. The education team is preparing to request another exam session from the conference to provide further opportunities for candidates to demonstrate their knowledge and skills.</p>
+
+    <p>We encourage all interested parties to engage actively in their studies and take advantage of the upcoming exam opportunity to showcase their understanding of Church Heritage.</p>
+
+    <p><strong>Sincerely,</strong></p>
+    <p>Maxwell Mwiinga : Education Chair - Zone A<br>
+    <a href="tel:+260761468300">+260761468300</a></p>
+    
+    <p>Mbaso Clinton : Education Chair - Zone B<br>
+    <a href="tel:+260968084570">+260968084570</a></p>
+       `,
+     },
+     { 
+           title: 'Chaplain-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+          
+          
+            ],
+
+  //Chaplain Category
+'Chaplain': [
+     { 
+           title: 'Chaplain-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+          //Projects Category
+'Projects': [
+     { 
+           title: 'Projects-Content 1-1',
+                 content: `
+                 <p>This is the content of Sub-Content 1-1.</p>
+                 <p>More detailed information can be provided under nested sub-subtitles.</p>
+       `,
+     }
+            ],
+                  };
+
+  
+  // Function to load content and close sidebar
+function loadContent(contentName) {
+    var mainContent = document.getElementById('mainContent');
+    var subContents = contentMap[contentName];
+
+    if (subContents) {
+        // Initialize with the first sub-content
+        var initialSubContent = subContents[0];
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${initialSubContent.title}</h2>
+                                    <p>${initialSubContent.content}</p>
+                                </div>`;
+        enableSwipeNavigation(subContents);
+
+        // Close sidebar after loading content
+        toggleNav();
+    }
+}
+
+// Function to enable swipe navigation
+function enableSwipeNavigation(subContents) {
+    var mainContent = document.getElementById('mainContent');
+    var hammertime = new Hammer(mainContent);
+
+    var subContentIndex = 0;
+
+    hammertime.on('swiperight', function() {
+        if (subContentIndex > 0) {
+            subContentIndex--;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    hammertime.on('swipeleft', function() {
+        if (subContentIndex < subContents.length - 1) {
+            subContentIndex++;
+            updateSubContent(subContents[subContentIndex]);
+        }
+    });
+
+    function updateSubContent(subContent) {
+        mainContent.innerHTML = `<div class="sub-content">
+                                    <h2>${subContent.title}</h2>
+                                    <p>${subContent.content}</p>
+                                </div>`;
+    }
+}
+
+    </script>
+  <script>
+    // JavaScript for handling sub-menu visibility
+    document.addEventListener('DOMContentLoaded', function() {
+        const parentLinks = document.querySelectorAll('.main-navigation ul li');
+
+        parentLinks.forEach(function(parentLink) {
+            const subMenu = parentLink.querySelector('.sub-menu');
+            if (subMenu) {
+                // Add event listener to toggle sub-menu visibility on click
+                parentLink.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    subMenu.style.display = (subMenu.style.display === 'block') ? 'none' : 'block';
+                });
+            }
+        });
+    });
+      
+$(document).ready(function() {
+    var lastScrollTop = 0;
+    var delta = 10; // Adjust as needed
+    var navbarHeight = $('.main-navigation').outerHeight();
+
+    $(window).scroll(function() {
+        var st = $(this).scrollTop();
+
+        // Scroll down
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
+
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll down and hide navbar
+            $('.main-navigation').addClass('hidden');
+        } else {
+            // Scroll up or near the top, show navbar
+            if (st + $(window).height() < $(document).height()) {
+                $('.main-navigation').removeClass('hidden');
+            }
+        }
+
+        lastScrollTop = st;
+    });
+});
+      
+</script>
+  
+</body>
+</html>

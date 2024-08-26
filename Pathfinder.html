@@ -31,6 +31,7 @@
             background-color: #f4f4f4;
             height: 100vh;
             overflow: auto;
+            z-index:2;
         }
         nav a {
             display: block;
@@ -126,6 +127,8 @@
         width: 50%;
         background-color:rgba(0,40,45,0.9);
     }
+    
+
     </style>
 </head>
 <body>
@@ -295,5 +298,68 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+</body>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="linkbar" class="inactive">
+        <img id="logoset" src="images/3. Master Guide Logo.png" alt="Logo">
+        <a class="logo-link" href="1friendCard.html"><img src="images/1friend.png" alt="friend">Friend Card</a>
+        <a class="logo-link" href="2companionCard.html"><img src="images/2companion.png" alt="companion"> Companion Card</a>
+        <a class="logo-link" href="3explorerCard.html"><img src="images/3explorer.png" alt="explorer"> Explorer Card</a>
+        <a class="logo-link" href="4rangerCard.html"><img src="images/4ranger.png" alt="ranger">Ranger Card</a>
+        <a class="logo-link" href="5voyagerCard.html"><img src="images/5voyager.png" alt="voyager"> Voyager Card</a>
+        <a class="logo-link" href="6guideCard.html"><img src="images/6guide.png" alt="guide"> Guide Card</a>
+    </div>
+
+    <script>
+        let linkbar = document.getElementById('linkbar');
+        let logoLinks = document.querySelectorAll('.logo-link');
+        let isActive = false;
+        let timer;
+
+        function activateLinkbar() {
+            linkbar.classList.remove('inactive');
+            linkbar.classList.add('active');
+            logoLinks.forEach(link => link.classList.add('active'));
+            document.body.classList.add('dimmed');
+            document.body.classList.add('active'); // Trigger the transition for dimming and blur
+            clearTimeout(timer);
+            timer = setTimeout(deactivateLinkbar, 10000);
+            isActive = true;
+        }
+
+        function deactivateLinkbar() {
+            linkbar.classList.remove('active');
+            linkbar.classList.add('inactive');
+            logoLinks.forEach(link => link.classList.remove('active'));
+            document.body.classList.remove('active'); // Trigger the transition back
+            setTimeout(() => {
+                document.body.classList.remove('dimmed'); // Remove dimming class after transition
+            }, 500); // Wait for the fade-out effect to complete before removing the class
+            isActive = false;
+        }
+
+        linkbar.addEventListener('mouseenter', () => {
+            if (!isActive) {
+                activateLinkbar();
+            }
+        });
+
+        linkbar.addEventListener('mouseleave', () => {
+            if (isActive) {
+                timer = setTimeout(deactivateLinkbar, 10000);
+            }
+        });
+
+        linkbar.addEventListener('click', () => {
+            if (isActive) {
+                deactivateLinkbar();
+            } else {
+                activateLinkbar();
+            }
+        });
+    </script>
 </body>
 </html>

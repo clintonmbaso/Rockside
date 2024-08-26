@@ -66,30 +66,35 @@ header {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow: hidden; /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.6); /* Black with opacity */
 }
 
 /* Modal Content Box */
 .modal-content {
     background-color: rgba(0,0,0,0.8);
-    margin: 10% auto; /* 10% from the top and centered */
+    margin: 12% auto; /* 10% from the top and centered */
     padding: 30px 10px 20px 10px; /* Padding inside the modal */
     border: 1px solid #888; /* Border around the content */
-    width: 90%; /* Width of the content box */
+    width: 90%;
+    height: 90%;
     max-width: 600px; /* Maximum width */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
     color: #fff;
+    overflow: auto; 
 }
 
 /* Close Button */
 .close {
     color: #aaa;
     float: right;
-    margin-top: -30px;
-    font-size: 28px;
+    right: 15px;
+    margin-top: -40px;
+    font-size: 50px;
     font-weight: bold;
+    position: fixed;
+    color: red;
 }
 
 .close:hover,
@@ -125,13 +130,14 @@ header {
 
 /* Submit Button */
 #submit-quiz {
+    position: sticky;
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: #4caf50; /* Button color */
     color: white; /* Text color */
     border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s; /* Smooth color transition */

@@ -150,11 +150,18 @@
          	     date: new Date("Aug 25, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "KEMD Honour Assessments", 
-               details: "Education Honour Assessment Day", 
+               details: "We are excited to invite you to the Honours Assessment Day for the Education Committee on August 25th! This pivotal event will showcase the achievements and hard work of our dedicated individuals as they present their projects and assessments. Join us to celebrate their commitment to excellence in education and witness firsthand the innovative ideas and strategies shaping the future of learning. Your presence will support and inspire our candidates as they strive for honours and contribute to the advancement of educational excellence. Do not miss this opportunity to be part of a significant day in our educational community!", 
                imageUrl: "images/KEMD Assessment.jpg" 	     
+         	   },
+
+              	   { name: "Pathfinder Week", 
+         	     date: new Date("Sep 14, 2024 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Pathfinder Week of Prayer", 
+               details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
+               imageUrl: "images/PathfinderWeekOfPrayer.jpg" 	     
          	   }
 
-     
      
             // Add other events here
          ];

@@ -181,8 +181,8 @@ document.addEventListener("DOMContentLoaded", function() {
         questions = mgHonours18;
     } else if (honour === 'sylHonours03') {
         questions = sylHonours03;
-    } else if (honour === 'sylHonours04') {
-        questions = sylHonours04;
+    } else if (honour === 'mgHonours07') {
+        questions = mgHonours07;
     } else if (honour === 'sylHonours05') {
         questions = sylHonours05;
     } else if (honour === 'sylHonours06') {

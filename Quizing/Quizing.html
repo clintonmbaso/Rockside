@@ -17,8 +17,116 @@
     <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <link href="../indexes.css" rel="stylesheet">
+      
+          <style>
+           .blurred-background {
+            filter: blur(0px); /* Blurs the background when the popup is visible */
+        }
+
+        .compelling-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            width: 100%;
+            
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #ff6f61, #ff9671);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            animation: pulse 1.5s infinite;
+            text-decoration: none;
+            z-index: 1300;
+        }
+
+        .compelling-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .compelling-button:active {
+            transform: scale(0.95);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        /* Popup styles */
+        .popup {
+            position: fixed;
+            top: 1.5%;
+            left: 10px;
+//            transform: translate(-150%, 100%);
+            display: none;
+            width: 83%;
+            
+            flex-direction: column;
+            border-radius: 10px;
+            align-items: flex-start;
+            padding: 20px;
+            backdrop-filter: blur(20px);
+            background-color: rgba(0,0,0,0.7);
+            z-index: 1000;
+            overflow: auto; /* Prevents scroll when the popup is open */
+        }
+
+        .icon-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            opacity: 0;
+            animation: slideIn 0.5s forwards;
+         color: white;
+        }
+
+        .icon-item img {
+            width: 24px;
+            height: auto;
+            margin-right: 10px;
+         color: white;
+        }
+
+        .icon-item a {
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* Overlay to blur the background */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3); /* Slight overlay to enhance blur effect */
+            backdrop-filter: blur(5px);
+            z-index: 999;
+            display: none;
+        }
+    </style>
 </head>
-<body>
+<body id="body">
     <header>
 <div class="bridget-shaelyn">
 
@@ -40,6 +148,192 @@
       <div style="background-color:rgba(23,55,29,0.4);text-align:center;width:95%;padding:5px;margin: 1% auto;">
             <p>Select a quiz category, answer the questions, submit your answers, and review your performance with a score and a detailed comparison of your answers.</p>
       </div>
+      
+    <button class="compelling-button" onclick="openPopup()">Choose Your Assessment Here!</button>
+
+    <!-- Popup overlay -->
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <!-- Popup content -->
+    <div class="popup" id="popup">
+         <h3 class="category" style="margin:1px;border-radius:5px;">Wednesday, September 11, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Basic_Water_Safety.png">
+            <a href="https://quizzory.in/id/66b9e6594e913c07a7c5a864">Basic Water Safety - Level 1</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Temperance.png">
+            <a href="https://quizzory.in/id/66c191a746a8e071a777ba3c">Temperance - Level 2</a>
+        </div>
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Friday, September 13, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Camp_Safety.png">
+            <a href="https://quizzory.in/id/66bb8eb34e913c07a7c77954">Camp Safety - Level 2</a>
+        </div>
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Sunday, September 15, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Camping_Skills_I.png">
+            <a href="https://quizzory.in/id/66c21e11e5e3bb71ad976ba3">Camping Skills I</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Camping_Skills_II.png">
+            <a href="https://quizzory.in/id/66c2234e22759171c7f9de46">Camping Skills II</a>
+        </div>
+     
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Wednesday, September 18, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Camping_Skills_III.png">
+            <a href="https://quizzory.in/id/66c235eae5e3bb71ad9777fc">Camping Skills III</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Camping_Skills_IV.png">
+            <a href="https://quizzory.in/id/66c2cf96a8dcf771ed04cf01">Camping Skills IV</a>
+        </div>
+     
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Friday, September 20, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Stewardship.png">
+            <a href="https://quizzory.in/id/66c209be22759171c7f9c9cd">Stewardship</a>
+        </div>
+     
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Sunday, September 22, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Backpacking.png">
+            <a href="https://quizzory.in/id/66c4b00d46a8e071a779c042">Backpacking</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Housekeeping.png">
+            <a href="https://quizzory.in/id/66c438a5a8dcf771ed058a74">Housekeeping</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Basic_Rescue.png">
+            <a href="https://quizzory.in/id/66c21cb473818071ce4ad3d6">Basic Rescue</a>
+        </div>
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Wednesday, September 25, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Drilling_and_Marching.png">
+            <a href="https://quizzory.in/id/66c198f93b5059720e03a9e3">Drilling & Marching - Level 1</a></li>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Knot_Tying.png">
+            <a href="https://quizzory.in/id/66c4b06a46a8e071a779c062">Knot Tying - Level 2</a></li>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Ecology.png">
+            <a href="https://quizzory.in/id/66c43337792fcd71e77111a9">Ecology</a></li>
+        </div>
+     
+     
+         <h3 class="category" style="margin:1px;border-radius:5px;">Friday, September 27, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Fire_Building.png">
+            <a href="https://quizzory.in/id/66c4b04a46a8e071a779c058">Fire Building/Camp Cookery</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Nutrition.png">
+            <a href="https://quizzory.in/id/66c44b8235f2957207d70588">Nutrition</a>
+        </div>
+     
+
+         <h3 class="category" style="margin:1px;border-radius:5px;">Sunday, September 29, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Christian_Storytelling.png">
+            <a href="https://quizzory.in/id/66c37e3e35f2957207d6a9a5">Christian Storytelling</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Physical_Fitness.png">
+            <a href="https://quizzory.in/id/66c3817422759171c7fab335">Physical Fitness</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Cultural_Diversity.png">
+            <a href="https://quizzory.in/id/66c4afa873818071ce4c5c0a">Cultural Diversity Appreciation</a>
+        </div>
+     
+
+         <h3 class="category" style="margin:1px;border-radius:5px;">Wednesday, October 2, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Sanctuary.png">
+            <a href="https://quizzory.in/id/66c436c6792fcd71e771140e">Sanctuary</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Peacemaker.png">
+            <a href="https://quizzory.in/id/66c43b5946a8e071a77969f7">Peacemaker</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Social_Media.png">
+            <a href="https://quizzory.in/id/66c4afd673818071ce4c5c17">Social Media</a>
+        </div>
+     
+
+         <h3 class="category" style="margin:1px;border-radius:5px;">Friday, October 4, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Personal_Evangelism.png">
+            <a href="https://quizzory.in/id/66c43aeb22759171c7faf810">Personal Evangelism</a>
+        </div>
+     
+
+         <h3 class="category" style="margin:1px;border-radius:5px;">Sunday, October 6, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/CPR.png">
+            <a href="https://quizzory.in/id/66c474c835f2957207d7228d">CPR - Level 2</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Prayer.png">
+            <a href="https://quizzory.in/id/66c43ad4a8dcf771ed058dbd">Prayer</a>
+        </div>
+     
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Orienteering.png">
+            <a href="https://quizzory.in/id/66c43048792fcd71e7710efb">Orienteering </a>
+        </div>
+
+
+         <h3 class="category" style="margin:1px;border-radius:5px;">Wednesday, October 9, 2024</h3>
+        <div class="icon-item" style="animation-delay: 0s;">
+            <img alt="icon" src="../images/honourIcons/Community_Development.png">
+            <a href="https://quizzory.in/id/66e10ef8a1b39a131cc2aee5">Community Development</a>
+        </div>
+
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        // Function to open the popup
+        function openPopup() {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('popup').style.display = 'flex';
+            document.body.classList.add('blurred-background'); // Blurs the background
+        }
+
+        // Function to close the popup
+        function closePopup() {
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+            document.body.classList.remove('blurred-background'); // Removes the blur effect
+        }
+    </script>
+      
     <h3 class="category">Church Heritage</h3>
     <section class="honours">
         <a href="#" class="honour-link" data-honour="chSection01">1. The Christian Church through the Ages</a>

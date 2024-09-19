@@ -160,9 +160,25 @@
                caption: "Pathfinder Week of Prayer", 
                details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
                imageUrl: "images/PathfinderWeekOfPrayer.jpg" 	     
+         	   },
+
+	   { name: "Pathfinder Day", 
+         	     date: new Date("Sep 21, 2024 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Global Pathfinder Day", 
+               details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
+               imageUrl: "images/pathfinderDay.jpg" 	     
+         	   },
+     
+            { name: "Welcome Lusaka", 
+         	     date: new Date("Oct 19, 2024 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Lusaka Youth Visit KEMD", 
+               details: "21 churches of Lusaka Conference will visit the Kabwe East Mission District. You are welcome to KEMD.", 
+               imageUrl: "images/visitation.jpg" 	     
          	   }
 
-     
+
             // Add other events here
          ];
 

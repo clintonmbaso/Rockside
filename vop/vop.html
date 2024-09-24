@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q2T721CW7G');
+</script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD - V.O.P Page</title>
+    <link href="../indexes.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+        nav {
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: auto;
+            z-index:2;
+        }
+        nav a {
+            display: block;
+            padding: 10px 5px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+       nav a.active {
+    background-color: #333;  /* Highlight color */
+    color: white;            /* Text color when active */
+}
+        section {
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 90vh; /* Set a fixed height */
+            text-align: justify;
+            margin-top: 15px;
+}
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            backdrop-filter: blur(5px);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 3;
+            max-width: 600px;
+            max-height: 80%;
+            width: 90%;
+            overflow: auto;
+        }
+        .popup a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        .popup a:hover {
+            background-color: #ddd;
+        }
+  #contentArea {
+    
+  }
+    .clubLogo {
+        width: 50px;
+        height: auto;
+        margin: 5px 10px;
+    }
+    .bottom {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 0 0 10px 10px;
+        color: grey;
+        bottom: 2px;
+        margin-left: -2px;
+    }
+    .top {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 10px 10px 0 0;
+        color: grey;
+        margin-top: -15px;
+        margin-left: -2px;
+    }
+    .thead {
+        margin:5px 0 0 0;
+        left: 0;
+        position:fixed;
+        z-index:999;
+        padding: 0 10px 2px 10px;
+        border-radius: 0 0 20px 0;
+        width: 50%;
+        background-color:rgba(0,40,45,0.9);
+    }
+    
+
+    </style>
+</head>
+<body>
+    <header>
+<div class="bridget-shaelyn">
+
+     <div class="log-clinton">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+          <h3 class="thead"><span style="color:greenyellow;">Voice Of</span> <span style="color: orange;">Prophecy</span></h3>
+
+</div>
+ 
+    </header>
+
+<div class="container">
+    <nav>
+        <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
+
+<a href="#" class="story-link" data-story="story1">Guide 1</a>
+<a href="#" class="story-link" data-story="story2">Guide 2</a>
+<a href="#" class="story-link" data-story="story3">Guide 3</a>
+<a href="#" class="story-link" data-story="story4">Guide 4</a>
+<a href="#" class="story-link" data-story="story5">Guide 5</a>
+<a href="#" class="story-link" data-story="story6">Guide 6</a>
+<a href="#" class="story-link" data-story="story7">Guide 7</a>
+<a href="#" class="story-link" data-story="story8">Guide 8</a>
+<a href="#" class="story-link" data-story="story9">Guide 9</a>
+<a href="#" class="story-link" data-story="story10">Guide 10</a>
+<a href="#" class="story-link" data-story="story11">Guide 11</a>
+<a href="#" class="story-link" data-story="story12">Guide 12</a>
+<a href="#" class="story-link" data-story="story13">Guide 13</a>
+<a href="#" class="story-link" data-story="story14">Guide 14</a>
+<a href="#" class="story-link" data-story="story15">Guide 15</a>
+<a href="#" class="story-link" data-story="story16">Guide 16</a>
+<a href="#" class="story-link" data-story="story17">Guide 17</a>
+<a href="#" class="story-link" data-story="story18">Guide 18</a>
+<a href="#" class="story-link" data-story="story19">Guide 19</a>
+<a href="#" class="story-link" data-story="story20">Guide 20</a>
+<a href="#" class="story-link" data-story="story21">Guide 21</a>
+<a href="#" class="story-link" data-story="story22">Guide 22</a>
+<a href="#" class="story-link" data-story="story23">Guide 23</a>
+<a href="#" class="story-link" data-story="story24">Guide 24</a>
+<a href="#" class="story-link" data-story="story25">Guide 25</a>
+<a href="#" class="story-link" data-story="story26">Guide 26</a>
+        <br>
+        <br>
+        <script>
+    // Select all navigation links
+const navLinks = document.querySelectorAll('nav a');
+
+// Function to handle the active link
+function setActiveLink(event) {
+    // Remove 'active' class from all links
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+    });
+    
+    // Add 'active' class to the clicked link
+    event.target.classList.add('active');
+}
+
+// Add click event listener to all nav links
+navLinks.forEach(link => {
+    link.addEventListener('click', setActiveLink);
+});
+        </script>
+    </nav>
+
+    <section>
+        <div class="top">Hi</div>
+        <div class="bottom">Hi</div>
+    <h1 id="story-title">Story Title</h1>
+
+        <!-- Add similar divs for other years -->
+    <div class="book-section" id="story-part">
+        <!-- Story part will be dynamically inserted here -->
+    </div>
+
+    <button id="previous-button">Previous</button>
+    <button id="next-button">Next</button>
+    <button id="view-questions">Questions</button>
+
+    <!-- Question Modal -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="modal-close">&times;</span>
+            <div id="questions-container"></div>
+        </div>
+    </div>
+<!-- Feedback Modal -->
+<div id="feedback-modals" class="modals">
+  <div class="modals-contents">
+    <span id="close-feedback-modals" class="modal-close">&times;</span>
+    <h2>Quiz Results</h2>
+    
+    <!-- Chart Container -->
+    <canvas id="resultsChart" width="200" height="300"></canvas>
+    
+    <!-- Feedback Info -->
+    <p id="score-percentage"></p>
+    <p id="marks-obtained"></p>
+    <p id="comment"></p>
+  </div>
+</div>
+
+    </section>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

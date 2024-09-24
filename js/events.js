@@ -170,7 +170,7 @@
                imageUrl: "images/pathfinderDay.jpg" 	     
          	   },
      
-            { name: "KEMD welcomes LWMD in", 
+            { name: "LNMD visits KEMD", 
          	     date: new Date("Oct 19, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Lusaka Youth Visit KEMD", 

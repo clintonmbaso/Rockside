@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Messages with Bible Verses</title>
+    <link rel="stylesheet" href="quarterly.css">
+</head>
+<body>
+
+
+
+    <!-- Link to open daily message modal -->
+    <a href="#" id="openModalLink">Open Daily Message</a>
+
+<!-- Blur Layer -->
+<div id="blurLayer"></div>
+
+<!-- Main Modal for Daily Message -->
+<div id="messageModal" class="modal message-modal">
+    <div class="message-content">
+    <span class="close">&times;</span>
+    <div id="dailyMessage"></div>
+    <button id="prevMessage">Previous</button>
+    <button id="nextMessage">Next</button>
+    </div>
+</div>
+
+<!-- Bible Verse Modal -->
+<div id="bibleVerseModal" class="modal verse-modal">
+    <div class="verse-content">
+    <span class="close-bible"></span>
+    <div id="bibleVerseContent"></div>
+    </div>
+</div>
+    
+    
+    
+    <script src="verseBank1.js"></script>
+    <script src="verseBank2.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    <script src="dailyMessages.js"></script>
+    <script src="quarterly.js"></script>
+
+</body>
+</html>
+

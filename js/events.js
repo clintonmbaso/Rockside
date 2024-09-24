@@ -170,11 +170,11 @@
                imageUrl: "images/pathfinderDay.jpg" 	     
          	   },
      
-            { name: "Welcome Lusaka", 
+            { name: "KEMD welcomes LWMD in", 
          	     date: new Date("Oct 19, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Lusaka Youth Visit KEMD", 
-               details: "21 churches of Lusaka Conference will visit the Kabwe East Mission District. You are welcome to KEMD.", 
+               details: "20 churches of Lusaka West Mission District will visit the Kabwe East Mission District. You are welcome to KEMD.", 
                imageUrl: "images/visitation.jpg" 	     
          	   }
 

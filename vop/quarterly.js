@@ -28,6 +28,7 @@ openModalLink.onclick = function(event) {
 
 // Close the text modal (main modal)
 closeButton.onclick = function() {
+    blurLayer.style.display = 'none';
     modal.style.display = 'none'; // Hide the text modal
     checkBlurLayerVisibility(); // Check if blur layer should be hidden
 };
@@ -41,6 +42,7 @@ closeBibleButton.onclick = function() {
 // Close modal when clicking outside of the modal
 window.onclick = function(event) {
     if (event.target === modal) {
+        blurLayer.style.display = 'none';
         modal.style.display = 'none'; // Hide the main modal
         checkBlurLayerVisibility(); // Check if blur layer should be hidden
     } else if (event.target === bibleVerseModal) {

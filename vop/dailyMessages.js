@@ -131,6 +131,87 @@ const dailyMessages = [
             <li>Dwell more on the great hope that Jesus’ resurrection offers us. Read <strong><span class="bible-verse" data-verse="1 Corinthians 15">1 Corinthians 15</span></strong>. How much importance does Paul put on the resurrection of Jesus?</li>
         </ol>
     `
+},
+{
+    date: new Date(2024, 8, 27),
+    lesson: "13",
+    title: "Inside Story",
+    text: `
+        <h3>A Church Built on Garbage</h3>
+        <p><strong>By Andrew McChesney</strong></p>
+
+        <p>Purna faced a seemingly impossible task. He had volunteered to plant a church in an unentered district of a major South Asian city, and he didn’t know where to start. He had moved to the district after volunteering to serve as a Global Mission pioneer. But how could he share his love for Christ with his non-Christian neighbors?</p>
+
+        <p>“God, please help,” he prayed.</p>
+
+        <p>Purna prayed for a week, but he still didn’t know where to start. But he did know one thing. He couldn’t stand the stench on the road outside his house. Piles of garbage and puddles of dirty rainwater mingled on the road. One morning, he saw that the garbage had blocked the gutters, and filthy water was overflowing onto the road. He decided to do something. Taking a long bamboo pole, he began picking away the trash from the gutters.</p>
+
+        <p>As he worked, the neighbors noticed.</p>
+
+        <p>“Did the city government send you to clean the road?” someone asked.</p>
+
+        <p>Purna replied that he had not been hired to clean the road and that he simply lived on it. The neighbors were impressed. Nobody had ever cleaned the road before.</p>
+
+        <p>“You’re a good man,” a neighbor said. “We need you here.”</p>
+
+        <p>“Don’t ever leave here,” another said.</p>
+
+        <p>As he cleaned the road, Purna became a local celebrity. Everyone knew him and was talking about him. People invited him into their homes.</p>
+
+        <p>As he met the neighbors, he learned that one man was paralyzed on his left side. Purna, who had been trained in massage, offered to help. The man agreed, and Purna began to give massages. Every time they met, Purna prayed and then gave a massage. The man recovered fully.</p>
+
+        <p>Neighbors were amazed to see the man in such good health.</p>
+
+        <p>“Who healed you?” they asked.</p>
+
+        <p>“Oh, it was the good man who cleans our road!” the man replied.</p>
+
+        <p>Then the neighbors really wanted to get to know Purna. They began to ask for prayers and massages.</p>
+
+        <p>Today, Purna has accomplished the seemingly impossible and planted a church. Eleven people have been baptized, and 20 others are studying the Bible. “Please pray for God to help us serve Him more and more,” Purna said. “Even today, I am cleaning the road. If I see garbage stuck in the drains, I clean it up.”</p>
+
+        <p>Purna lives in a veiled country that Adventist Mission is not identifying so as to protect his work among a population often hostile to Christianity. Learn more about Global Mission pioneers on the Adventist Mission website: <a href="https://bit.ly/GMPioneers">bit.ly/GMPioneers</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 8, 27),
+    lesson: "13",
+    title: "Teacher Comments",
+    text: `
+        <h4>Part I: Overview</h4>
+        <p><strong>Key Text:</strong> <span class="bible-verse" data-verse="Mark 16:14-16">Mark 16:14–16</span></p>
+        <h3>Study Focus: Mark 16</h3>
+        <p><strong>Introduction:</strong> Mark 15 ends by highlighting the contribution of a notable member of Israelite society, who puts his life and resources at the disposal of the kingdom of God when Jesus dies. The female followers of Jesus also express their willingness to participate in the burial rites of their Savior. The question, then, is, Where are the disciples? How did they react to Jesus’ death? And how did they respond to the news about His resurrection? Mark gives special attention to them as he closes his Gospel. He also includes the special instructions Jesus gives them in His commission to preach the gospel to all the world.</p>
+        <p><b>Lesson Themes</b>: The topics for this week include a discussion of the disciples’ experience in believing in Jesus Christ as the risen Lord. Our study will be divided into two parts:</p>
+    <ul>
+        <li><em>“The Importance and Impact of Belief”</em>: This section examines the unwillingness of the disciples to believe in Jesus’ resurrection and how, ultimately, Jesus disarms their doubts and strengthens their faith.</li>
+        <li><em>“Go Into All the World”</em>: This section includes Jesus’ commission to His disciples, as well as the scope of their mission and the goal of the gospel.</li>
+    </ul>
+    
+            <h4>Part II: Commentary</h4>
+        <p>The event of Jesus’ death was devastating for His followers. Though prophecy foretold it, and though Jesus had already forewarned them about the trials He would face prior to His death, the disciples’ preconceived notions about the Messiah prevented them from understanding the full import of Jesus’ words, and thus left them unprepared for its impact.</p>
+        <p>Immediately following the Crucifixion, the disciples evinced that they still did not comprehend the divine plan, or, at the very least, had forgotten Jesus’ words, which would have been a consolation to them in their bereavement. Thus, Mark says “they were mourning and weeping” (Mark 16:10, NASB) in the aftermath of Jesus’ death.</p>
+        <p>We may wonder, with good reason, if the disciples and close friends of Jesus even understood the purpose of His death. Because they most likely did not have a clear conception of its purpose, their resistance in believing that Jesus had risen from the dead is also not hard to fathom. This last point is underlined in the first part of Mark 16, the focus of our final lesson.</p>
+        <p>To begin with, in Mark 16:6–8, the angels announce to the women that Jesus had risen. Furthermore, the angels encourage the women to announce the good news as well. However, “they said nothing to anyone, for they were afraid” (Mark 16:8, NASB; emphasis added). Do you think the women may have been afraid to believe the astounding announcement of their angelic visitors?</p>
+        <p>In a second scene, Jesus Himself appears to Mary Magdalene, after which “she went and reported to those who had been with Him, while they were mourning and weeping. And when they heard that He was alive and had been seen by her, they refused to believe it” (Mark 16:10, 11, NASB; emphasis added). Mary communicated the message, but her audience was not willing to believe the good news.</p>
+        <p>A third scene depicts the persistence of unbelief among the disciples. Mark describes this scene in the following manner: “Now after that, He appeared in a different form to two of them while they were walking along on their way to the country. And they went away and reported it to the rest, but they did not believe them, either” (Mark 16:12, 13, NASB; emphasis added).</p>
+        <p>It is interesting that Jesus did not use someone from His inner circle to herald the news about His resurrection. The news was transmitted to them via a woman and by two others who were not part of His 11 handpicked disciples.</p>
+        <p>In a fourth scene, Jesus Himself appears to the disciples. “He appeared to the eleven disciples themselves as they were reclining at the table; and He reprimanded them for their unbelief and hardness of heart, because they had not believed those who had seen Him after He had risen from the dead” (Mark 16:14, NASB; emphasis added).</p>
+        <p>Why were the disciples not willing to believe? The disciples had, as did many in Israel, an erroneous conception of the kingdom of God. Luke plainly records the nature of this misconception for us in their own words: “But we were hoping that it was He who was going to redeem Israel. Indeed, besides all this, it is now the third day since these things happened” (Luke 24:21, NASB). What do the disciples mean by the words “redeem Israel”? The Greek word for “redeem” is <em>lytroō</em>, which has a basic meaning of “to liberate from an oppressive situation.” —Frederick W. Danker, et al., <em>A Greek-English Lexicon of the New Testament and Other Early Christian Literature</em>, p. 606. So, for the disciples, the death of Jesus meant the death of their earthly aspirations, for they conceived of redemption in terms of liberation from the Roman oppression.</p>
+        <p>As we saw early in the quarter, Mark starts his Gospel by stating that “the time is fulfilled, and the kingdom of God is at hand;” therefore people need to “repent and believe in the gospel” (Mark 1:15, NASB; emphasis added). Unfortunately, at the end of Mark’s Gospel account (Mark 16), people still possessed unbelieving hearts. These people were not the priests, nor the leaders of Israel, nor the Roman governor. They were Jesus’ own disciples.</p>
+        <p>It is interesting to note that Luke also records a scene with the two disciples referred to in Mark 16. In Luke’s account, the two men do not initially believe the news concerning Jesus’ resurrection. But in Mark’s Gospel, the two disciples are presented among those who believe in a risen Jesus. How did this transition from unbelief to faith happen? What did Jesus do in order to help them? Luke adds something in his account that Mark does not include in his. Jesus reprimands the disciples for their unbelief and hardness of heart (Mark 16:14; compare with Luke 24:25); but right after the rebuke, Jesus enlightens them by asking rhetorically, “Was it not necessary for the Christ to suffer these things and to come into His glory?” Then beginning with Moses and with all the Prophets, He explained to them the things written about Himself in all the Scriptures” (Luke 24:26, 27, NASB). What an intensive Bible study the disciples must have received that day! From Genesis until the last book of the Hebrew Bible, throughout the entire Hebrew Scriptures, Jesus expounded upon the Messianic prophecies before His two followers.</p>
+        <p>Ellen G. White elaborates further on the instruction Jesus later gave His followers prior to His ascension. “Before leaving His disciples, Christ plainly stated the nature of His kingdom. He called to their minds what He had previously told them concerning it. He declared that it was not His purpose to establish in this world a temporal, but a spiritual kingdom. He was not to reign as an earthly king on David’s throne. Again He opened to them the Scriptures, showing that all He had passed through had been ordained in heaven, in the councils between the Father and Himself. All had been foretold by men inspired by the Holy Spirit. He said, You see that all I have revealed to you concerning My rejection as the Messiah has come to pass. All I have said in regard to the humiliation I should endure and the death I should die, has been verified. On the third day I rose again. Search the Scriptures more diligently, and you will see that in all these things the specifications of prophecy concerning Me have been fulfilled.” —<em>The Desire of Ages</em>, p. 820.</p>
+
+        <h4>“Go Into All the World”</h4>
+        <p>After the disciples’ encounter with their risen Lord, their experience of unbelief was transformed into an active faith. They, in turn, became living witnesses of Jesus, the Risen One. Now the disciples were no longer afraid; instead, they were willing to travel long distances to tell others that “the Lord has really risen. . . . They began to relate their experiences on the road, and how He was recognized” (Luke 24:34, 35, NASB). Later, Jesus commissioned them to “go into all the world and preach the gospel to all creation” (Mark 16:15, NASB). Thus, the gospel should be preached not only in Israel but should be taken “as far as the remotest part of the earth” (Acts 1:8, NASB). Commenting on the Great Commission, Ellen G. White writes: “But the command, ‘Go ye into all the world,’ is not to be lost sight of. We are called upon to lift our eyes to the ‘regions beyond.’ Christ tears away the wall of partition, the dividing prejudice of nationality, and teaches a love for all the human family. He lifts men from the narrow circle which their selfishness prescribes; He abolishes all territorial lines and artificial distinctions of society. He makes no difference between neighbors and strangers, friends and enemies. He teaches us to look upon every needy soul as our brother, and the world as our field.” —<em>The Desire of Ages</em>, p. 823.</p>
+        <p>The disciples are commanded to testify of their faith to others. The goal of the gospel, according to Mark, is to make and baptize believers. For this reason, the gospel of the kingdom is announced (Mark 1:14). Accepting God’s kingdom into the heart and Jesus as our Savior and King is essential to salvation and to being preserved from condemnation (Mark 16:16). Whoever believes on Him “may have life in His name” (John 20:31, NASB).</p>
+    
+<h4>Part III: Life Application</h4>
+        <p>As believers in Christ, we can avoid misconceptions and false expectations about God and salvation by grounding our understanding in the teachings of Scripture. Reflect on the following advice: “Reasoning from prophecy, Christ gave His disciples a correct idea of what He was to be in humanity. Their expectation of a Messiah who was to take His throne and kingly power in accordance with the desires of men had been misleading. It would interfere with a correct apprehension of His descent from the highest to the lowest position that could be occupied. Christ desired that the ideas of His disciples might be pure and true in every specification.” —Ellen G. White, <em>The Desire of Ages</em>, p. 799.</p>
+        <p>Have you considered serving in the mission field, far from home? What, if anything, has prevented you from making that commitment? Or have you wanted to start a missionary project but felt trepidation in doing so? Reflect on the fears that might be holding you back and keeping you from moving forward.</p>
+        <p>Read this promise from the pen of inspiration: “Christ gave His disciples their commission. He made full provision for the prosecution of the work, and took upon Himself the responsibility for its success. So long as they obeyed His word, and worked in connection with Him, they could not fail. Go to all nations, He bade them. Go to the farthest part of the habitable globe, but know that My presence will be there. Labor in faith and confidence, for the time will never come when I will forsake you.” —<em>The Desire of Ages</em>, p. 822.</p>
+        <p>If you are already involved in a missionary project in a nearby community, what is your project, and what challenges do you face? Consider how the last quote motivates you in your ministry. What hope and strength does it give you?</p>
+    `
 }
 ];
 

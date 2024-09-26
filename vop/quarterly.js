@@ -192,7 +192,8 @@ function getVerseText(verseKey) {
         bibleVerses1[verseKey] || 
         bibleVerses2[verseKey] || 
         bibleVerses3[verseKey] || 
-        bibleVerses4[verseKey] ||
+        bibleVerses41[verseKey] ||
+        bibleVerses65[verseKey] ||
         `Verse ${verseKey.split(':')[1]}: verse not available`
     );
 }

@@ -64,8 +64,10 @@ function displayMessage(index) {
     const formattedDate = formatDate(message.date); // Format the date
     dailyMessageElement.innerHTML = `
         <h2>${message.title}</h2> <!-- Display the message title -->
-        <p>${formattedDate}</p>   <!-- Display the formatted date -->
-        ${message.text}           <!-- Display the message text -->
+        <h4 class="lesson">${message.lesson}</h4>
+        <p class="date">${formattedDate}</p>   <!-- Display the formatted date -->
+    <hr class="hr">
+        <p class="actual">${message.text}</p>           <!-- Display the message text -->
     `;
     
     // Disable buttons if at the start or end of the message array
@@ -101,6 +103,47 @@ document.addEventListener('click', function(event) {
         showBibleVerse(verse);
     }
 });
+
+
+
+
+
+
+
+
+function loadBibleVersesFiles(bookNames, callback) {
+    let loadedScripts = 0; // Counter to check if all scripts have loaded
+
+    bookNames.forEach(bookName => {
+        const bookMapping = {
+            "Genesis": "01Genesis",
+            "Exodus": "02Exodus",
+            "Matthew": "40Matthew",
+            "Mark": "41Mark",
+            // Map other books here
+        };
+
+        const scriptFile = `${bookMapping[bookName]}.js`; // Get the corresponding file
+        const script = document.createElement('script');
+        script.src = scriptFile;
+        script.onload = function() {
+            loadedScripts++;
+            if (loadedScripts === bookNames.length) {
+                callback(); // Call the callback once all files are loaded
+            }
+        };
+        document.head.appendChild(script); // Load the script dynamically
+    });
+}
+
+loadBibleVersesFiles(["Genesis", "Exodus" , "Matthew" , "Mark"], function() {
+    // Now get the verses once all scripts have loaded
+    const verseText = getBibleVerse(verse); // Example usage
+});
+
+
+
+
 
 // Function to show the Bible verse in a modal
 function showBibleVerse(verse) {
@@ -145,7 +188,13 @@ function getBibleVerse(verse) {
 
 // Helper function to get a single verse from the verse bank
 function getVerseText(verseKey) {
-    return bibleVerses[verseKey] || `Verse ${verseKey.split(':')[1]}: verse not available`; 
+    return (
+        bibleVerses1[verseKey] || 
+        bibleVerses2[verseKey] || 
+        bibleVerses3[verseKey] || 
+        bibleVerses4[verseKey] ||
+        `Verse ${verseKey.split(':')[1]}: verse not available`
+    );
 }
 
 // Event listeners for the Next and Previous buttons

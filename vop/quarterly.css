@@ -18,7 +18,7 @@
     padding: 20px;
     border: none;
     width: 80%;
-    height: 80%;
+    max-height: 80%;
     overflow: auto;
     color: white;
     position: relative;
@@ -31,6 +31,7 @@
     border-radius: 5px;
     width: 80%;
     height: auto;
+    max-height: 50%;
     overflow: auto;
     color: black;
     position: relative;
@@ -39,13 +40,19 @@
 
 /* Close button */
 .close, .close-bible {
-    color: #aaa;
+    color: red;
     float: right;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
     cursor: pointer;
 }
 
+.close {
+    position: fixed;
+    right: 13px;
+    top: 40px;
+    
+}
 .close:hover, .close-bible:hover {
     color: #000;
 }
@@ -65,8 +72,40 @@
 .message-modal h2 {
     color: yellow; /* Darker color for the title */
     font-size: 20px; /* Larger font size */
+    margin: 0 auto;
+    position: fixed;
+    top: 10px;
+}
+.date {
+    color: bisque; /* Darker color for the title */
+    font-size: 12px; /* Larger font size */
+    font-style: italic;
+    margin: 1px auto;
+    position: fixed;
+    top: 30px;
 }
 
+.hr {
+    position: fixed;
+    top: 40px;
+    width: 75vw;
+}
+
+.actual {
+    margin-top: -30px;
+}
+
+.lesson {
+    color: gold;
+    padding: 10px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    border-radius: 50px;
+    background-color: #345;
+    border: 1px solid gold;
+    
+}
 /* Customize content in Bible Verse modal */
 .verse-modal p {
     font-style: italic; /* Italic style for verse content */
@@ -81,8 +120,15 @@
     border-radius: 5px;
     cursor: pointer;
     width: 80px;
+    position: fixed;
+    bottom: 3px;
 }
-
+#nextMessage {
+    right: 10%;
+}
+#prevMessage {
+    left: 10%;
+}
 #prevMessage, #nextMessage:hover {
     background-color: #ff4500;
 }
@@ -94,9 +140,19 @@
     font-family: 'Times New Roman', Times, serif;
     font-size:18px;
     color:#253;
-    background-color: rgba(234,167,255,0.7);
-    width: fill;
-    padding: 5px;
-    border-radius: 10px 10px 0 0;
     margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(255,255,255,0.8);
+    margin-left: 15px;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+}
+
+#why {
+    align-self: flex-end;
 }

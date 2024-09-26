@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="story-title">Story Title</h1>
+
+    <!-- Story selector dropdown -->
+    <label for="story-selector">Select a Lesson:</label>
+    <select id="story-selector">
+        <option value="story1">Guide 1 – We Can Believe in God</option>
+        <option value="story2">Guide 2 – We can believe the Bible</option>
+        <option value="story3">Guide 3 – We Can Believe in God</option>
+        <option value="story4">Guide 4 – We can believe the Bible</option>
+        <option value="story5">Guide 5 – We Can Believe in God</option>
+        <option value="story6">Guide 6 – We can believe the Bible</option>
+        <option value="story7">Guide 7 – We Can Believe in God</option>
+        <option value="story8">Guide 8 – We can believe the Bible</option>
+        <option value="story9">Guide 9 – We Can Believe in God</option>
+        <option value="story10">Guide 10 – We can believe the Bible</option>
+        <option value="story11">Guide 11 – We Can Believe in God</option>
+        <option value="story12">Guide 12 – We can believe the Bible</option>
+        <option value="story13">Guide 13 – We Can Believe in God</option>
+        <option value="story14">Guide 14 – We can believe the Bible</option>
+        <option value="story15">Guide 15 – We Can Believe in God</option>
+        <option value="story16">Guide 16 – We can believe the Bible</option>
+        <option value="story17">Guide 17 – We Can Believe in God</option>
+        <option value="story18">Guide 18 – We can believe the Bible</option>
+        <option value="story19">Guide 19 – We Can Believe in God</option>
+        <option value="story20">Guide 20 – We can believe the Bible</option>
+        <option value="story21">Guide 21 – We Can Believe in God</option>
+        <option value="story22">Guide 22 – We can believe the Bible</option>
+        <option value="story23">Guide 23 – We Can Believe in God</option>
+        <option value="story24">Guide 24 – We can believe the Bible</option>
+        <option value="story25">Guide 25 – We Can Believe in God</option>
+        <option value="story26">Guide 26 – We can believe the Bible</option>
+
+        <!-- Add options up to Story 26 -->
+    </select>
+
+    <div class="book-section" id="story-part">
+        <!-- Story part will be dynamically inserted here -->
+    </div>
+
+    <button id="previous-button">Previous</button>
+    <button id="next-button">Next</button>
+    <button id="view-questions">View Questions</button>
+
+    <!-- Question Modal -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="modal-close">&times;</span>
+            <div id="questions-container"></div>
+        </div>
+    </div>
+<div id="feedback-container" style="display:none;">
+    <h3>Feedback</h3>
+    <p id="feedback-text"></p>
+    <button id="close-feedback">Close</button>
+</div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

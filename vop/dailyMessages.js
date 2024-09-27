@@ -174,43 +174,139 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 8, 27),
-    lesson: "13",
-    title: "Teacher Comments",
+    date: new Date(2024, 8, 28),
+    title: "Signs that Point the Way",
+    lesson: "1",
     text: `
-        <h4>Part I: Overview</h4>
-        <p><strong>Key Text:</strong> <span class="bible-verse" data-verse="Mark 16:14-16">Mark 16:14–16</span></p>
-        <h3>Study Focus: Mark 16</h3>
-        <p><strong>Introduction:</strong> Mark 15 ends by highlighting the contribution of a notable member of Israelite society, who puts his life and resources at the disposal of the kingdom of God when Jesus dies. The female followers of Jesus also express their willingness to participate in the burial rites of their Savior. The question, then, is, Where are the disciples? How did they react to Jesus’ death? And how did they respond to the news about His resurrection? Mark gives special attention to them as he closes his Gospel. He also includes the special instructions Jesus gives them in His commission to preach the gospel to all the world.</p>
-        <p><b>Lesson Themes</b>: The topics for this week include a discussion of the disciples’ experience in believing in Jesus Christ as the risen Lord. Our study will be divided into two parts:</p>
-    <ul>
-        <li><em>“The Importance and Impact of Belief”</em>: This section examines the unwillingness of the disciples to believe in Jesus’ resurrection and how, ultimately, Jesus disarms their doubts and strengthens their faith.</li>
-        <li><em>“Go Into All the World”</em>: This section includes Jesus’ commission to His disciples, as well as the scope of their mission and the goal of the gospel.</li>
-    </ul>
-    
-            <h4>Part II: Commentary</h4>
-        <p>The event of Jesus’ death was devastating for His followers. Though prophecy foretold it, and though Jesus had already forewarned them about the trials He would face prior to His death, the disciples’ preconceived notions about the Messiah prevented them from understanding the full import of Jesus’ words, and thus left them unprepared for its impact.</p>
-        <p>Immediately following the Crucifixion, the disciples evinced that they still did not comprehend the divine plan, or, at the very least, had forgotten Jesus’ words, which would have been a consolation to them in their bereavement. Thus, Mark says “they were mourning and weeping” (Mark 16:10, NASB) in the aftermath of Jesus’ death.</p>
-        <p>We may wonder, with good reason, if the disciples and close friends of Jesus even understood the purpose of His death. Because they most likely did not have a clear conception of its purpose, their resistance in believing that Jesus had risen from the dead is also not hard to fathom. This last point is underlined in the first part of Mark 16, the focus of our final lesson.</p>
-        <p>To begin with, in Mark 16:6–8, the angels announce to the women that Jesus had risen. Furthermore, the angels encourage the women to announce the good news as well. However, “they said nothing to anyone, for they were afraid” (Mark 16:8, NASB; emphasis added). Do you think the women may have been afraid to believe the astounding announcement of their angelic visitors?</p>
-        <p>In a second scene, Jesus Himself appears to Mary Magdalene, after which “she went and reported to those who had been with Him, while they were mourning and weeping. And when they heard that He was alive and had been seen by her, they refused to believe it” (Mark 16:10, 11, NASB; emphasis added). Mary communicated the message, but her audience was not willing to believe the good news.</p>
-        <p>A third scene depicts the persistence of unbelief among the disciples. Mark describes this scene in the following manner: “Now after that, He appeared in a different form to two of them while they were walking along on their way to the country. And they went away and reported it to the rest, but they did not believe them, either” (Mark 16:12, 13, NASB; emphasis added).</p>
-        <p>It is interesting that Jesus did not use someone from His inner circle to herald the news about His resurrection. The news was transmitted to them via a woman and by two others who were not part of His 11 handpicked disciples.</p>
-        <p>In a fourth scene, Jesus Himself appears to the disciples. “He appeared to the eleven disciples themselves as they were reclining at the table; and He reprimanded them for their unbelief and hardness of heart, because they had not believed those who had seen Him after He had risen from the dead” (Mark 16:14, NASB; emphasis added).</p>
-        <p>Why were the disciples not willing to believe? The disciples had, as did many in Israel, an erroneous conception of the kingdom of God. Luke plainly records the nature of this misconception for us in their own words: “But we were hoping that it was He who was going to redeem Israel. Indeed, besides all this, it is now the third day since these things happened” (Luke 24:21, NASB). What do the disciples mean by the words “redeem Israel”? The Greek word for “redeem” is <em>lytroō</em>, which has a basic meaning of “to liberate from an oppressive situation.” —Frederick W. Danker, et al., <em>A Greek-English Lexicon of the New Testament and Other Early Christian Literature</em>, p. 606. So, for the disciples, the death of Jesus meant the death of their earthly aspirations, for they conceived of redemption in terms of liberation from the Roman oppression.</p>
-        <p>As we saw early in the quarter, Mark starts his Gospel by stating that “the time is fulfilled, and the kingdom of God is at hand;” therefore people need to “repent and believe in the gospel” (Mark 1:15, NASB; emphasis added). Unfortunately, at the end of Mark’s Gospel account (Mark 16), people still possessed unbelieving hearts. These people were not the priests, nor the leaders of Israel, nor the Roman governor. They were Jesus’ own disciples.</p>
-        <p>It is interesting to note that Luke also records a scene with the two disciples referred to in Mark 16. In Luke’s account, the two men do not initially believe the news concerning Jesus’ resurrection. But in Mark’s Gospel, the two disciples are presented among those who believe in a risen Jesus. How did this transition from unbelief to faith happen? What did Jesus do in order to help them? Luke adds something in his account that Mark does not include in his. Jesus reprimands the disciples for their unbelief and hardness of heart (Mark 16:14; compare with Luke 24:25); but right after the rebuke, Jesus enlightens them by asking rhetorically, “Was it not necessary for the Christ to suffer these things and to come into His glory?” Then beginning with Moses and with all the Prophets, He explained to them the things written about Himself in all the Scriptures” (Luke 24:26, 27, NASB). What an intensive Bible study the disciples must have received that day! From Genesis until the last book of the Hebrew Bible, throughout the entire Hebrew Scriptures, Jesus expounded upon the Messianic prophecies before His two followers.</p>
-        <p>Ellen G. White elaborates further on the instruction Jesus later gave His followers prior to His ascension. “Before leaving His disciples, Christ plainly stated the nature of His kingdom. He called to their minds what He had previously told them concerning it. He declared that it was not His purpose to establish in this world a temporal, but a spiritual kingdom. He was not to reign as an earthly king on David’s throne. Again He opened to them the Scriptures, showing that all He had passed through had been ordained in heaven, in the councils between the Father and Himself. All had been foretold by men inspired by the Holy Spirit. He said, You see that all I have revealed to you concerning My rejection as the Messiah has come to pass. All I have said in regard to the humiliation I should endure and the death I should die, has been verified. On the third day I rose again. Search the Scriptures more diligently, and you will see that in all these things the specifications of prophecy concerning Me have been fulfilled.” —<em>The Desire of Ages</em>, p. 820.</p>
+        <p>Read for This Week’s Study: <strong><span class="bible-verse" data-verse="John 2:1-11">John 2:1–11</span></strong>; <strong><span class="bible-verse" data-verse="John 4:46-54">John 4:46–54</span></strong>; <strong><span class="bible-verse" data-verse="John 5:1-16">John 5:1–16</span></strong>; <strong><span class="bible-verse" data-verse="Mark 3:22-23">Mark 3:22, 23</span></strong>; <strong><span class="bible-verse" data-verse="Matthew 12:9-14">Matthew 12:9–14</span></strong>; <strong><span class="bible-verse" data-verse="John 5:16-47">John 5:16–47</span></strong>.</p>
+        <p><strong>Memory Text:</strong></p>
+        <blockquote>“And truly Jesus did many other signs in the presence of His disciples, which are not written in this book; but these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in His name” (<strong><span class="bible-verse" data-verse="John 20:30-31">John 20:30, 31</span></strong>, NKJV).</blockquote>
+        <p>Why did John write his Gospel? Did he wish to emphasize Jesus’ miracles or some specific teachings of Jesus? What was the reason for writing what he did?</p>
+        <p>Under the power and influence of the Holy Spirit, John explains why. He says that though many more things could be written about the life of Christ (<strong><span class="bible-verse" data-verse="John 21:25">John 21:25</span></strong>), the stories he included were written in order “that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in His name” (<strong><span class="bible-verse" data-verse="John 20:31">John 20:31</span></strong>, NKJV).</p>
+        <p>This week we’re going to look at John's account of some of Jesus’ early miracles—from His turning water to wine at a wedding, to restoring to health someone’s very sick son, to the healing of the man at the pool of Bethesda.</p>
+        <p>John calls these miracles “signs.” He does not mean something like a street sign, but rather a miraculous event that points toward a deeper reality: Jesus as the Messiah. In all these accounts, we see examples of people who responded by faith. And their examples invite us to do the same.</p>
+        <p><em>Study this week’s lesson to prepare for Sabbath, October 5.</em></p>
+    `
+},
+{
+    date: new Date(2024, 8, 29),
+    title: "The Wedding at Cana",
+    lesson: "1",
+    text: `
+        <p>Read <strong><span class="bible-verse" data-verse="John 2:1-11">John 2:1–11</span></strong>. What sign did Jesus do at Cana, and how did this help His disciples in coming to believe in Him?</p>
 
-        <h4>“Go Into All the World”</h4>
-        <p>After the disciples’ encounter with their risen Lord, their experience of unbelief was transformed into an active faith. They, in turn, became living witnesses of Jesus, the Risen One. Now the disciples were no longer afraid; instead, they were willing to travel long distances to tell others that “the Lord has really risen. . . . They began to relate their experiences on the road, and how He was recognized” (Luke 24:34, 35, NASB). Later, Jesus commissioned them to “go into all the world and preach the gospel to all creation” (Mark 16:15, NASB). Thus, the gospel should be preached not only in Israel but should be taken “as far as the remotest part of the earth” (Acts 1:8, NASB). Commenting on the Great Commission, Ellen G. White writes: “But the command, ‘Go ye into all the world,’ is not to be lost sight of. We are called upon to lift our eyes to the ‘regions beyond.’ Christ tears away the wall of partition, the dividing prejudice of nationality, and teaches a love for all the human family. He lifts men from the narrow circle which their selfishness prescribes; He abolishes all territorial lines and artificial distinctions of society. He makes no difference between neighbors and strangers, friends and enemies. He teaches us to look upon every needy soul as our brother, and the world as our field.” —<em>The Desire of Ages</em>, p. 823.</p>
-        <p>The disciples are commanded to testify of their faith to others. The goal of the gospel, according to Mark, is to make and baptize believers. For this reason, the gospel of the kingdom is announced (Mark 1:14). Accepting God’s kingdom into the heart and Jesus as our Savior and King is essential to salvation and to being preserved from condemnation (Mark 16:16). Whoever believes on Him “may have life in His name” (John 20:31, NASB).</p>
-    
-<h4>Part III: Life Application</h4>
-        <p>As believers in Christ, we can avoid misconceptions and false expectations about God and salvation by grounding our understanding in the teachings of Scripture. Reflect on the following advice: “Reasoning from prophecy, Christ gave His disciples a correct idea of what He was to be in humanity. Their expectation of a Messiah who was to take His throne and kingly power in accordance with the desires of men had been misleading. It would interfere with a correct apprehension of His descent from the highest to the lowest position that could be occupied. Christ desired that the ideas of His disciples might be pure and true in every specification.” —Ellen G. White, <em>The Desire of Ages</em>, p. 799.</p>
-        <p>Have you considered serving in the mission field, far from home? What, if anything, has prevented you from making that commitment? Or have you wanted to start a missionary project but felt trepidation in doing so? Reflect on the fears that might be holding you back and keeping you from moving forward.</p>
-        <p>Read this promise from the pen of inspiration: “Christ gave His disciples their commission. He made full provision for the prosecution of the work, and took upon Himself the responsibility for its success. So long as they obeyed His word, and worked in connection with Him, they could not fail. Go to all nations, He bade them. Go to the farthest part of the habitable globe, but know that My presence will be there. Labor in faith and confidence, for the time will never come when I will forsake you.” —<em>The Desire of Ages</em>, p. 822.</p>
-        <p>If you are already involved in a missionary project in a nearby community, what is your project, and what challenges do you face? Consider how the last quote motivates you in your ministry. What hope and strength does it give you?</p>
+        <p>Seeing Jesus perform the miracle of changing the water into wine provided evidence in favor of the disciples’ decision to follow Jesus. How could it not have been a powerful sign pointing to Him as being someone from God? (They probably were not yet ready to understand that He was God.)</p>
+
+        <p>Moses was the leader of the Israelites, and he brought Israel out of Egypt by many “signs and wonders” (<strong><span class="bible-verse" data-verse="Deuteronomy 6:22">Deuteronomy 6:22</span></strong>, <strong><span class="bible-verse" data-verse="Deuteronomy 26:8">Deuteronomy 26:8</span></strong>, NKJV). He was the one whom God used to free Israel from the Egyptians. (He was, in a sense, their “savior.”)</p>
+
+        <p>God prophesied through Moses that a prophet would come who was like Moses. God asked Israel to hear Him (<strong><span class="bible-verse" data-verse="Deuteronomy 18:15">Deuteronomy 18:15</span></strong>, <strong><span class="bible-verse" data-verse="Matthew 17:5">Matthew 17:5</span></strong>, <strong><span class="bible-verse" data-verse="Acts 7:37">Acts 7:37</span></strong>). That “prophet” was Jesus and, in John 2, Jesus performed His first sign, which itself pointed back to the deliverance of the children of Israel from Egypt.</p>
+
+        <p>The river Nile was a key resource and a deity for the Egyptians. One of the plagues was directed at the river—the changing of its waters to blood. At Cana, Jesus performed a similar miracle but, instead of turning water into blood, He turned it into wine.</p>
+
+        <p>The water came from six water pots used for purification purposes in Jewish rituals, linking the miracle even more closely to biblical themes of salvation. By recounting the incident of changing the water to wine, and thus referring back to the Exodus, John was pointing to Jesus as our Deliverer.</p>
+
+        <p>What did the master of the feast think of the unfermented wine that Jesus provided? He was indeed surprised by the quality of the drink and, not knowing the miracle that Jesus had performed there, thought that they had saved the best for last.</p>
+
+        <p>The Greek term <em>oinos</em> is used both for fresh and fermented grape juice (see <em>The Seventh-day Adventist Bible Dictionary</em>, p. 1177). Ellen G. White states that the juice produced by the miracle was not alcoholic (see “At the Marriage Feast,” <em>The Desire of Ages</em>, p. 149). No doubt, those who knew what happened were astonished at what had taken place.</p>
+
+        <p>What are your reasons for following Jesus? (We have been given many, haven’t we?)</p>
+    `
+},
+{
+    date: new Date(2024, 8, 30),
+    title: "The Second Sign in Galilee",
+    lesson: "1",
+    text: `
+        <p>All through His earthly ministry, Jesus performed miracles that helped people believe in Him. John recorded these miracles so that others would believe in Jesus, as well.</p>
+
+        <p><strong>Read</strong> <span class="bible-verse" data-verse="John 4:46-54">John 4:46–54</span>. Why does the evangelist make a connection back to the miracle at the wedding feast?</p>
+
+        <p>In giving an account of the second sign that Jesus did in Galilee, John points back to the first sign at the wedding in Cana. John seems to be saying, The signs that Jesus did will help you see who Jesus is. Then, John adds, “This again is the second sign Jesus did when He had come out of Judea into Galilee” (<strong><span class="bible-verse" data-verse="John 4:54">John 4:54</span></strong>, NKJV).</p>
+
+        <p>At first, Jesus’ response to the nobleman’s plea may seem harsh. Yet, this official had made the healing of his son the criterion for believing in Jesus. Jesus read his heart and pinpointed the spiritual sickness that was more profound than his son’s life-threatening illness. Like a lightning bolt from a blue sky, the man suddenly recognized that his spiritual poverty could cost the life of his son.</p>
+
+        <p>It is important to recognize that miracles, in and of themselves, did not prove that Jesus was the Messiah. Others have performed miracles. Some were true prophets, others false. Miracles reveal only the existence of the supernatural; they don’t, by themselves, mean that God must be the One doing them. (Satan can perform “miracles,” if by the word “miracles” we mean supernatural acts.)</p>
+
+        <p>The nobleman in anguish cast himself on Jesus’ mercy, pleading with Him to heal his son. Jesus’ response was reassuring. He said, “ ‘Go; your son will live’ ” (<strong><span class="bible-verse" data-verse="John 4:50">John 4:50</span></strong>, ESV). The verb “will live” in Greek is actually in the present tense. This usage is called a “futuristic present,” where a future event is spoken of with such certainty as if it were already happening. The man did not rush home but, believing Jesus, got home the next day—finding that, exactly when Jesus had said those words, the fever left his son.</p>
+
+        <p>What a powerful reason to believe in Jesus!</p>
+
+        <p><strong>Question:</strong> Even if we were to see a miracle, what other criteria must we look at before automatically assuming it is from God?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 1),
+    title: "The Miracle at the Pool of Bethesda",
+    lesson: "1",
+    text: `
+        <p>The next sign John records took place at the Pool of Bethesda (<strong><span class="bible-verse" data-verse="John 5:1-9">John 5:1–9</span></strong>). It was believed that an angel caused movement in the water and that the first sick person to enter the water would be healed. As a result, the porches of the pool were crowded with those hoping to be cured at the next occurrence. Jesus went to Jerusalem, and as He passed by the pool, He saw the waiting throng.</p>
+        
+        <p>What a sight it must have been, too! All these people, some surely quite ill, waiting and waiting by the water for a cure that surely will not come. What an opportunity for Jesus!</p>
+
+        <p>Read <strong><span class="bible-verse" data-verse="John 5:1-9">John 5:1–9</span></strong>. Because anyone by the pool obviously wanted to get well, why did Jesus ask the paralytic if he wanted to be healed (<strong><span class="bible-verse" data-verse="John 5:6">John 5:6</span></strong>)?</p>
+
+        <p>When one has been sick a long time, the sickness becomes the norm. And strange as it may seem, it can sometimes be a bit disturbing to leave the disability behind. The man implies in his answer that he wants healing. The problem is that he is looking for it in the wrong place—while the One who made man’s legs is standing right in front of him. Little did the man know who was talking to him; although after the healing, he might have started to understand that Jesus was, indeed, Someone very special.</p>
+
+        <p><strong>“Jesus does not ask this sufferer to exercise faith in Him. He simply says, ‘Rise, take up thy bed, and walk.’ But the man’s faith takes hold upon that word. Every nerve and muscle thrills with new life, and healthful action comes to his crippled limbs. Without question he sets his will to obey the command of Christ, and all his muscles respond to his will. Springing to his feet, he finds himself an active man. . . . Jesus had given him no assurance of divine help. The man might have stopped to doubt, and lost his one chance of healing. But he believed Christ’s word, and in acting upon it he received strength.”</strong>—Ellen G. White, <em>The Desire of Ages</em>, pp. 202, 203.</p>
+
+        <p>Jesus later encountered the man in the temple and said, “ ‘You have been made well. Sin no more, lest a worse thing come upon you’ ” (<strong><span class="bible-verse" data-verse="John 5:14">John 5:14</span></strong>, NKJV). What is the relationship between sickness and sin? Why must we understand that not all sickness is a direct result of specific sins in our life?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 2),
+    title: "Hard Hearts",
+    lesson: "1",
+    text: `
+        <p>Signs, wonders, and miracles, in and of themselves, don’t prove that something is of God. But, on the other hand, when they are of God, it’s a dangerous thing to reject them.</p>
+        <p><strong>Read John 5:10–16.</strong> What lessons can we take away from the amazing hardness of the religious leaders’ hearts in regard to Jesus and the miracle He had just performed?</p>
+        <p>When Jesus revealed Himself to the man who had been healed, the man immediately told the religious leaders that it was Jesus. One would think this would be a time to praise God, but instead, the leaders “persecuted Jesus, and sought to kill Him, because He had done these things on the Sabbath” (<strong><span class="bible-verse" data-verse="John 5:16">John 5:16</span></strong>, NKJV).</p>
+        <p>Healings were allowed on the Sabbath only in an emergency. This man had been disabled for 38 years; thus, his healing was hardly an emergency. And then, too, what was the necessity of having him take up his bed? One would think that someone with the power from God to perform such a miracle would also know if it was permissible to carry a mat home on the Sabbath day. Clearly, Jesus was seeking to take them to deeper biblical truths beyond the man-made rules and regulations that had, in some cases, stifled true faith.</p>
+        <p><strong>What do these other accounts teach about how spiritually hard people can become, regardless of the evidence?</strong> (Read <strong><span class="bible-verse" data-verse="John 9:1-16">John 9:1–16</span></strong>; <strong><span class="bible-verse" data-verse="Mark 3:22-23">Mark 3:22, 23</span></strong>; <strong><span class="bible-verse" data-verse="Matthew 12:9-14">Matthew 12:9–14</span></strong>).</p>
+        <p>How could these religious leaders be so blind? The likely answer is that it was because of their own corrupt hearts, their false belief that the Messiah would deliver them from Rome now, and their love of power and lack of surrender to God. All these helped cause them to reject the truth that stood right before them.</p>
+
+        <p><strong>Read John 5:38–42.</strong> What was Jesus’ warning? What can we learn from these words? That is, what could be in us that blinds us to the truths we need to know and apply to our own lives?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 3),
+    title: "Jesus’ Claims",
+    lesson: "1",
+    text: `
+        <p>The miracle by the Pool of Bethesda provided an excellent opportunity for John to emphasize who Jesus is. John takes nine verses to describe the miracle and about 40 verses to describe the One who performed the miracle.</p>
+
+        <p><strong>Read <span class="bible-verse" data-verse="John 5:16-18">John 5:16–18</span></strong>. Why was Jesus persecuted for His action on the Sabbath?</p>
+
+        <p><strong><span class="bible-verse" data-verse="John 5:18">John 5:18</span></strong> can be disturbing because it seems to say that Jesus was breaking the Sabbath. However, a closer look at <strong><span class="bible-verse" data-verse="John 5:16-18">John 5:16–18</span></strong> shows that Jesus argues that His “work” on the Sabbath is in line with His relationship to His Father. God does not stop sustaining the universe on the Sabbath. Consequently, Jesus’ Sabbath activity was part of His claim to divinity. The religious leaders persecuted Him on the basis of supposed Sabbath-breaking and a claim to equality with God.</p>
+
+        <p><strong>Read <span class="bible-verse" data-verse="John 5:19-47">John 5:19–47</span></strong>. What was Jesus saying in order to help the leaders see Him for who He truly is, a claim so powerfully attested by the miracle He had just done?</p>
+
+        <p>Jesus defends His actions in three steps. First, He explains His intimate relationship with the Father (<strong><span class="bible-verse" data-verse="John 5:19-30">John 5:19–30</span></strong>). Jesus indicates that He and His Father act in harmony, to the point that Jesus has the power both to judge and to raise the dead (<strong><span class="bible-verse" data-verse="John 5:25-30">John 5:25–30</span></strong>).</p>
+
+        <p>Second, Jesus calls four “witnesses” in rapid succession to His defense—John the Baptist (<strong><span class="bible-verse" data-verse="John 5:31-35">John 5:31–35</span></strong>), the miracles Jesus does (<strong><span class="bible-verse" data-verse="John 5:36">John 5:36</span></strong>), the Father (<strong><span class="bible-verse" data-verse="John 5:37-38">John 5:37, 38</span></strong>), and the Scriptures (<strong><span class="bible-verse" data-verse="John 5:39">John 5:39</span></strong>). Each of these “witnesses” gives testimony in favor of Jesus.</p>
+
+        <p>Finally, in <strong><span class="bible-verse" data-verse="John 5:40-47">John 5:40–47</span></strong>, Jesus sets before His accusers their own condemnation, revealing the contrast between His ministry and their self-seeking. Their condemnation, He says, will come from Moses (<strong><span class="bible-verse" data-verse="John 5:45-47">John 5:45–47</span></strong>), the one in whom they have set their hopes.</p>
+
+        <p>How can we be careful not to fall into the trap of believing in God, even having correct doctrines, but not surrendering fully to Christ? Bring your answer to class on Sabbath.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 4),
+    title: "Further Thought",
+    lesson: "1",
+    text: `
+        <p>“Jesus had given him [the disabled man] no assurance of divine help. The man might have stopped to doubt, and lost his one chance of healing. But he believed Christ’s word, and in acting upon it he received strength.</p>
+
+        <p>“Through the same faith we may receive spiritual healing. By sin we have been severed from the life of God. Our souls are palsied. Of ourselves we are no more capable of living a holy life than was the impotent man capable of walking. . . . Let these desponding, struggling ones look up. The Saviour is bending over the purchase of His blood, saying with inexpressible tenderness and pity, ‘Wilt thou be made whole?’ He bids you arise in health and peace. Do not wait to feel that you are made whole. Believe His word, and it will be fulfilled. Put your will on the side of Christ. Will to serve Him, and in acting upon His word you will receive strength. Whatever may be the evil practice, the master passion which through long indulgence binds both soul and body, Christ is able and longs to deliver. He will impart life to the soul that is ‘dead in trespasses.’ <strong><span class="bible-verse" data-verse="Ephesians 2:1">Eph. 2:1</span></strong>. He will set free the captive that is held by weakness and misfortune and the chains of sin.” —Ellen G. White, The Desire of Ages, p. 203.</p>
+
+        <p>“Jesus repelled the charge of blasphemy. My authority, He said, for doing the work of which you accuse Me, is that I am the Son of God, one with Him in nature, in will, and in purpose.” —The Desire of Ages, p. 208.</p>
+
+        <p><strong>Discussion Questions:</strong></p>
+
+        <p>Reflect upon this week’s lesson. Faith was the key that made these healings possible. The leaders, in contrast, revealed the dangers of doubt and unbelief. Why must we not confuse having questions (which we all do) with having doubt? Why are they not the same thing, and why is it important to know the difference between them?</p>
+
+        <p>Look at Thursday’s final question. Why, as Seventh-day Adventists, must we be especially careful about this danger? However important, for instance, knowing and even keeping the right Sabbath day, or knowing about the state of the dead—why do these truths not save us? What does save us, and how?</p>
+
+        <p>Look carefully at John 5:47. How are those today who, for instance, deny the universality of the Flood, or the literal six-day Creation, doing exactly what Jesus warned against here?</p>
     `
 }
 ];

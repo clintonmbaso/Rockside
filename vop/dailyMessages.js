@@ -308,6 +308,179 @@ const dailyMessages = [
 
         <p>Look carefully at John 5:47. How are those today who, for instance, deny the universality of the Flood, or the literal six-day Creation, doing exactly what Jesus warned against here?</p>
     `
+},
+{
+    date: new Date(2024, 9, 5),
+    title: "Signs of Divinity",
+    lesson: "2",
+    text: `
+        <p>Read for This Week’s Study: <strong><span class="bible-verse" data-verse="John 6:1–15">John 6:1–15</span></strong>, <strong><span class="bible-verse" data-verse="Isaiah 53:4–6">Isaiah 53:4–6</span></strong>, <strong><span class="bible-verse" data-verse="1 Corinthians 5:7">1 Corinthians 5:7</span></strong>, <strong><span class="bible-verse" data-verse="John 6:26–36">John 6:26–36</span></strong>, <strong><span class="bible-verse" data-verse="John 9:1–41">John 9:1–41</span></strong>, <strong><span class="bible-verse" data-verse="1 Corinthians 1:26–29">1 Corinthians 1:26–29</span></strong>, <strong><span class="bible-verse" data-verse="John 11">John 11</span></strong>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        <p>“Jesus said to her, ‘I am the resurrection and the life. He who believes in Me, though he may die, he shall live. And whoever lives and believes in Me shall never die. Do you believe this?’ ” (<strong><span class="bible-verse" data-verse="John 11:25-26">John 11:25, 26</span></strong>, NKJV).</p>
+
+        <p>The Bible is clear that Jesus Christ is the eternal Son, one with the Father, underived and uncreated. Jesus is the One who created all that was made (<strong><span class="bible-verse" data-verse="John 1:1-3">John 1:1–3</span></strong>). Thus, Jesus has always existed; there never was a time when He didn’t exist. Though Jesus came to this world and took upon Himself our humanity, He always kept His divinity. And at specific times, Jesus said and did things that revealed this divinity.</p>
+
+        <p>This truth was important for John, which is why, when recounting some of Jesus’ miracles, John used them to point to Christ’s divinity. Jesus not only said things that revealed His divinity but backed up His words with works that manifested His divinity.</p>
+
+        <p>This week’s lesson looks at three of the greatest signs of Jesus’ divinity. What is striking is that, in every case, some people did not believe the miracle or perceive its significance. For some, it was a time of turning away from Jesus; for others, a time for deepening blindness; and for others, a time to plot Jesus’ death. And for others—a time to believe that Jesus was the Messiah.</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, October 12.</em></p>
+    `
+},
+{
+    date: new Date(2024, 9, 6),
+    title: "The Feeding of the Five Thousand",
+    lesson: "2",
+    text: `
+        <p>In <strong><span class="bible-verse" data-verse="John 6:4-5">John 6:4, 5</span></strong>, the apostle goes out of his way to state that the timing of the feeding of the 5,000 was near the Passover. The Passover was a commemoration of the deliverance of Israel from Egypt. The Passover lamb took the place of the death of the firstborn. This sacrifice symbolized the death of Jesus in our behalf. On the cross, the punishment that we deserved because of our sins fell on Jesus instead. <strong><span class="bible-verse" data-verse="1 Corinthians 5:7">Christ, our Passover, was indeed slain for us</span></strong>.</p>
+        
+        <p>“He bore the guilt of transgression, and the hiding of His Father’s face, until His heart was broken and His life crushed out. All this sacrifice was made that sinners might be redeemed.”—Ellen G. White, <i>The Great Controversy</i>, p. 540.</p>
+
+        <p>Read <strong><span class="bible-verse" data-verse="John 6:1-14">John 6:1–14</span></strong>. What parallels can be found here between Jesus and Moses? That is, what did Jesus do here that should have reminded the people of the deliverance that their ancestors had received through the ministry of Moses?</p>
+
+        <p>Numerous details of this story place Jesus in parallel to Moses in the Exodus. The time of the Passover (<strong><span class="bible-verse" data-verse="John 6:4">John 6:4</span></strong>) points to the great deliverance from Egypt. Jesus goes up on a mountain (<strong><span class="bible-verse" data-verse="John 6:3">John 6:3</span></strong>) as Moses went up Sinai. Jesus tests Philip (<strong><span class="bible-verse" data-verse="John 6:5-6">John 6:5, 6</span></strong>) as the Israelites were tested in the wilderness. The multiplication of the loaves (<strong><span class="bible-verse" data-verse="John 6:11">John 6:11</span></strong>) is reminiscent of the manna. The gathering of the leftover food (<strong><span class="bible-verse" data-verse="John 6:12">John 6:12</span></strong>) harks back to the Israelites’ gathering the manna. Twelve baskets of leftovers are picked up (<strong><span class="bible-verse" data-verse="John 6:13">John 6:13</span></strong>), the same number as the twelve tribes of Israel. And the people comment that Jesus is the prophet coming into the world (<strong><span class="bible-verse" data-verse="John 6:14">John 6:14</span></strong>), parallel to the “prophet like Moses” predicted in <strong><span class="bible-verse" data-verse="Deuteronomy 18:15">Deuteronomy 18:15</span></strong>. All of this points to Jesus as the new Moses—come to deliver His people.</p>
+
+        <p>Thus, John is showing Jesus not only doing signs and wonders but doing signs and wonders that, in their context, should have had special meaning for the Jewish people. Jesus was pointing them, in essence, to His own divinity.</p>
+
+        <p>Read <strong><span class="bible-verse" data-verse="Isaiah 53:4-6">Isaiah 53:4–6</span></strong> and <strong><span class="bible-verse" data-verse="1 Peter 2:24">1 Peter 2:24</span></strong>. What great truth do these texts teach about Jesus as the Lamb of God? How does His divinity tie into this truth, and why is this truth the most important truth we can ever know?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 7),
+    title: "“Surely, He Is the Prophet”",
+    lesson: "2",
+    text: `
+        <p>The Judeans were expecting an earthly messiah who would deliver them from the oppression of the Roman Empire. Two of the most difficult things encountered in war are feeding the troops and caring for the wounded and dead. By His miracles, Jesus showed that He could do both.</p>
+
+        <p>But that’s not why Jesus had come, and that wasn’t the purpose of His miracle. Instead, the account of the feeding of the 5,000 provided the opportunity to illustrate that Jesus is the Bread of Life, that God Himself came down from heaven. “<strong><span class="bible-verse" data-verse="John 6:35">I am the bread of life</span></strong>,” He said. “<strong><span class="bible-verse" data-verse="John 6:35">He who comes to Me shall never hunger</span></strong>” (NKJV).</p>
+
+        <p>This is the first of the seven “I am” statements in the Gospel of John, where “I am” is connected with some predicate (“bread of life,” <strong><span class="bible-verse" data-verse="John 6:35">John 6:35</span></strong>; “light of the world,” <strong><span class="bible-verse" data-verse="John 8:12">John 8:12</span></strong>; “door,” <strong><span class="bible-verse" data-verse="John 10:7, 9">John 10:7, 9</span></strong>; “Good Shepherd,” <strong><span class="bible-verse" data-verse="John 10:11, 14">John 10:11, 14</span></strong>; “resurrection and the life,” <strong><span class="bible-verse" data-verse="John 11:25">John 11:25</span></strong>; “the way, the truth, and the life,” <strong><span class="bible-verse" data-verse="John 14:6">John 14:6</span></strong>; “true vine,” <strong><span class="bible-verse" data-verse="John 15:1, 5">John 15:1, 5</span></strong>). Each of these points to an important truth about Jesus. The “I am” statements point back to Exodus 3, where God presents Himself to Moses as the great I AM (compare with <strong><span class="bible-verse" data-verse="John 8:58">John 8:58</span></strong>). Jesus is that great I AM.</p>
+
+        <p>But the people missed all this.</p>
+
+        <p>“Their dissatisfied hearts queried why, if Jesus could perform so many wondrous works as they had witnessed, could He not give health, strength, and riches to all His people, free them from their oppressors, and exalt them to power and honor? The fact that He claimed to be the Sent of God, and yet refused to be Israel’s king, was a mystery which they could not fathom. His refusal was misinterpreted. Many concluded that He dared not assert His claims because He Himself doubted as to the divine character of His mission. Thus they opened their hearts to unbelief, and the seed which Satan had sown bore fruit of its kind, in misunderstanding and defection.”—Ellen G. White, The Desire of Ages, p. 385.</p>
+
+        <p>They were looking for material benefit instead of truth that endures to eternal life. This is a trap that we all potentially face if we are not careful.</p>
+
+        <p>How can we avoid getting caught up in material things at the expense of the spiritual?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 8),
+    title: "The Healing of the Blind Man: Part 1",
+    lesson: "2",
+    text: `
+        <p>The disciples made a connection between sickness and sin. A number of Old Testament passages point in that direction (compare with <strong><span class="bible-verse" data-verse="Exodus 20:5">Exodus 20:5</span></strong>, <strong><span class="bible-verse" data-verse="2 Kings 5:15–27">2 Kings 5:15–27</span></strong>, <strong><span class="bible-verse" data-verse="2 Kings 15:5">2 Kings 15:5</span></strong>, and <strong><span class="bible-verse" data-verse="2 Chronicles 26:16–21">2 Chronicles 26:16–21</span></strong>), but the story of Job should have led to caution about whether such a connection always occurred.</p>
+
+        <p>Jesus sets the matter straight, not denying any connection between sin and suffering but, in this case, pointing to a higher purpose: that God would be glorified by the healing. The account contains certain affinities to the Creation story, that of God’s forming the first man from the dust of the ground (<strong><span class="bible-verse" data-verse="Genesis 2:7">Genesis 2:7</span></strong>), just as Jesus makes clay to provide the blind man what was missing from the womb.</p>
+
+        <p>In Matthew, Mark, and Luke, miracle stories follow a common pattern: an expression of the problem, the bringing of the individual to Jesus, the cure, and recognition of the cure with praise to God.</p>
+
+        <p>In the story in John 9, this sequence is completed in <strong><span class="bible-verse" data-verse="John 9:7">John 9:7</span></strong>. But typical of John, the significance of the miracle becomes the much wider point of discussion, leading to a long interaction between the healed man and the religious leaders. This striking discussion revolves around two intertwined contrasting pairs of concepts—sin/works of God and blindness/sight.</p>
+
+        <p>The narrator does not tell the reader until <strong><span class="bible-verse" data-verse="John 9:14">John 9:14</span></strong> that Jesus did this healing on the Sabbath, which, according to tradition and not Scripture, violated the Sabbath. And thus, He was counted as a Sabbath breaker by the Pharisees. Their conclusion was that He was not from God because they maintained that “He does not keep the Sabbath.” But others found it troubling that a sinner could do such signs (<strong><span class="bible-verse" data-verse="John 9:16">John 9:16</span></strong>).</p>
+
+        <p>The discussion is far from over, but already a division appears. The blind man is becoming more and more clear about who Jesus is, but the religious leaders are becoming more and more confused or blind as to His real identity.</p>
+
+        <p>What should this story tell us about the dangers of being so blinded by our own beliefs and traditions that we can miss important truths right before our own eyes?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 9),
+    title: "The Healing of the Blind Man: Part 2",
+    lesson: "2",
+    text: `
+        <p>This long section of <strong><span class="bible-verse" data-verse="John 9:17–34">John 9:17–34</span></strong> is the only portion of John where Jesus is not the main actor on the stage, though He is certainly the subject of discussion. Just as the question of sin started the story (<strong><span class="bible-verse" data-verse="John 9:2">John 9:2</span></strong>), the Pharisees think Jesus is a sinner because He healed on the Sabbath (<strong><span class="bible-verse" data-verse="John 9:16, 24">John 9:16, 24</span></strong>), and they will slander the healed man as “born in utter sin” (<strong><span class="bible-verse" data-verse="John 9:34">John 9:34</span></strong>).</p>
+
+        <p>A curious reversal occurs. The blind man comes to see more and more, not just physically but spiritually, as he is growing in his appreciation for Jesus and believing more strongly in Him. The Pharisees, in contrast, become more and more blind in their understanding, first being divided over Jesus (<strong><span class="bible-verse" data-verse="John 9:16">John 9:16</span></strong>) and then not knowing where He came from (<strong><span class="bible-verse" data-verse="John 9:29">John 9:29</span></strong>).</p>
+
+        <p>Meanwhile, his recounting of this miracle gives John the opportunity to tell us who Jesus is. The theme of signs in <strong><span class="bible-verse" data-verse="John 9">John 9</span></strong> intersects with several other themes in the Gospel. John reaffirms that Jesus is the Light of the world (<strong><span class="bible-verse" data-verse="John 9:5">John 9:5</span></strong>; compare with <strong><span class="bible-verse" data-verse="John 8:12">John 8:12</span></strong>). The story also deals with Jesus’ mysterious origin. Who is He, where is He from, what is His mission (<strong><span class="bible-verse" data-verse="John 9:12, 29">John 9:12, 29</span></strong>; compare with <strong><span class="bible-verse" data-verse="John 1:14">John 1:14</span></strong>)? The figure of Moses, who is referenced in previous miracle accounts, also appears in this chapter (<strong><span class="bible-verse" data-verse="John 9:28, 29">John 9:28, 29</span></strong>; compare with <strong><span class="bible-verse" data-verse="John 5:45, 46">John 5:45, 46</span></strong> and <strong><span class="bible-verse" data-verse="John 6:32">John 6:32</span></strong>).</p>
+
+        <p>Finally, there is the theme of the response of the crowd. Some love darkness rather than light, while others respond in faith (<strong><span class="bible-verse" data-verse="John 9:16–18, 35–41">John 9:16–18, 35–41</span></strong>; compare with <strong><span class="bible-verse" data-verse="John 1:9–16">John 1:9–16</span></strong>, <strong><span class="bible-verse" data-verse="John 3:16–21">John 3:16–21</span></strong>, and <strong><span class="bible-verse" data-verse="John 6:60–71">John 6:60–71</span></strong>).</p>
+
+        <p>So scary here is the spiritual blindness of the religious leaders. A once-blind beggar can declare, “ ‘Since the world began it has been unheard of that anyone opened the eyes of one who was born blind. If this Man were not from God, He could do nothing’ ” (<strong><span class="bible-verse" data-verse="John 9:32, 33">John 9:32, 33</span></strong>, NKJV). And yet the religious leaders, the spiritual guides of the nation, the ones who should have been the first to recognize Jesus and accept Him as the Messiah—they, despite all the powerful evidence, cannot see it, or they don’t really want to see it. What a powerful warning about how our hearts can deceive us!</p>
+
+        <p>Read <strong><span class="bible-verse" data-verse="1 Corinthians 1:26–29">1 Corinthians 1:26–29</span></strong>. How does what Paul writes in these verses fit with John's account above and how does the same principle apply even now?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 10),
+    title: "The Resurrection of Lazarus",
+    lesson: "2",
+    text: `
+        <p><strong><span class="bible-verse" data-verse="John 11">John 11</span></strong> is filled with sadness—the sad news of a dear friend’s illness (<strong><span class="bible-verse" data-verse="John 11:1-3">John 11:1–3</span></strong>); the weeping over his death (<strong><span class="bible-verse" data-verse="John 11:19,31,33">John 11:19, 31, 33</span></strong>); the sisters’ lament that Lazarus would not have died if Jesus had been present (<strong><span class="bible-verse" data-verse="John 11:21,32">John 11:21, 32</span></strong>); and Jesus’ own tears (<strong><span class="bible-verse" data-verse="John 11:35">John 11:35</span></strong>).</p>
+
+        <p>But Jesus had delayed two days before starting His journey to Lazarus (<strong><span class="bible-verse" data-verse="John 11:6">John 11:6</span></strong>), even indicating that He was glad that He had not gone earlier (<strong><span class="bible-verse" data-verse="John 11:14,15">John 11:14, 15</span></strong>). This action was not from any cold-heartedness. Rather, it was to reveal God’s glory.</p>
+
+        <p>By the time we get to <strong><span class="bible-verse" data-verse="John 11:17-27">John 11:17–27</span></strong>, Lazarus had been dead four days. After four days, his body would already be rotting and, as Martha said, “ ‘Lord, by this time there is a stench, for he has been dead four days’ ” (<strong><span class="bible-verse" data-verse="John 11:39">John 11:39</span></strong>, NKJV). No doubt, Jesus’ delay only helped to make the miracle that followed even more astonishing. To raise a rotting corpse? What more proof could Jesus have given that indeed He was God Himself?</p>
+
+        <p>And, as God, as the One who created life to begin with—Jesus had power over death. Thus, Jesus uses this opportunity, that of Lazarus’s death, to reveal a crucial truth about Himself. “ ‘I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die’ ” (<strong><span class="bible-verse" data-verse="John 11:25-26">John 11:25, 26</span></strong>, ESV).</p>
+
+        <p>Read <strong><span class="bible-verse" data-verse="John 11:38-44">John 11:38–44</span></strong>. What did Jesus do that supported His claim?</p>
+
+        <p>Just as Jesus showed He is the Light of the world (<strong><span class="bible-verse" data-verse="John 8:12">John 8:12</span></strong>, <strong><span class="bible-verse" data-verse="John 9:5">John 9:5</span></strong>) by giving the blind man sight (<strong><span class="bible-verse" data-verse="John 9:7">John 9:7</span></strong>), so here He raises Lazarus from the dead (<strong><span class="bible-verse" data-verse="John 11:43-44">John 11:43, 44</span></strong>), demonstrating that He is the Resurrection and the Life (<strong><span class="bible-verse" data-verse="John 11:25">John 11:25</span></strong>).</p>
+
+        <p>This miracle, more than any other, points to Jesus as the Life-Giver, as God Himself. It provides strong support for John’s theme that Jesus is the divine Son of God and that, by believing, we can have life through Him (<strong><span class="bible-verse" data-verse="John 20:30-31">John 20:30, 31</span></strong>).</p>
+
+        <p>However, by the time we get to the end of this incredible story (<strong><span class="bible-verse" data-verse="John 11:45-54">John 11:45–54</span></strong>), in which many who saw believed (<strong><span class="bible-verse" data-verse="John 11:45">John 11:45</span></strong>), a powerful but sad irony unfolds. Jesus shows that He can bring the dead back to life, and yet, these men think that they can stop Him by killing Him? What an example of the foibles of humanity in contrast to the wisdom and power of God!</p>
+    `
+},
+{
+    date: new Date(2024, 9, 11),
+    title: "Further Thought",
+    lesson: "2",
+    text: `
+        <p><strong>Read Ellen G. White,</strong> “The Crisis in Galilee,” pp. 383–394; “‘Lazarus, Come Forth,’” pp. 524–536; and “Priestly Plottings,” pp. 537–542, in <em>The Desire of Ages</em>.</p>
+
+        <p>“The life of Christ that gives life to the world is in His word. It was by His word that Jesus healed disease and cast out demons; by His word He stilled the sea, and raised the dead; and the people bore witness that His word was with power. He spoke the word of God, as He had spoken through all the prophets and teachers of the Old Testament. The whole Bible is a manifestation of Christ, and the Saviour desired to fix the faith of His followers on the word. When His visible presence should be withdrawn, the word must be their source of power. Like their Master, they were to live ‘by every word that proceedeth out of the mouth of God.’ Matt. 4:4.</p>
+
+        <p>“As our physical life is sustained by food, so our spiritual life is sustained by the word of God. And every soul is to receive life from God’s word for himself. As we must eat for ourselves in order to receive nourishment, so we must receive the word for ourselves. We are not to obtain it merely through the medium of another’s mind. We should carefully study the Bible, asking God for the aid of the Holy Spirit, that we may understand His word.”—Ellen G. White, <em>The Desire of Ages</em>, p. 390.</p>
+
+        <h4>Discussion Questions:</h4>
+        
+        <p>This week we looked at Jesus feeding the 5,000, healing a man blind from birth, and then raising Lazarus from the dead. In each case, Jesus provided powerful evidence for His divinity. Yet, these miracles, as amazing as they were, created division. Some responded with faith, others with doubt. What does this teach us about how, even in the face of powerful evidence, people can still choose to reject God?</p>
+        
+        <p>These stories all point toward Christ as the divine Son of God. Why is His divinity so important to faith in Jesus as the Savior?</p>
+        
+        <p>Look again at <strong><span class="bible-verse" data-verse="1 Corinthians 1:26–29">1 Corinthians 1:26–29</span></strong>. In what ways in the twenty-first century do we see this same principle at work? What are some of the “foolish things” that Christians believe, things that the “wise according to the flesh” mock and reject? What do we believe that also “put to shame” the “things that are mighty”?</p>
+    `
+},
+{
+    date: new Date(2024, 9, 11),
+    title: "Revival in Rural Colombia",
+    lesson: "2",
+    text: `
+        <h3>By Andrew McChesney</h3>
+
+        <p>Pablo had never heard of Seventh-day Adventists. A leader among the Sikuani indigenous people in Colombia, he was far from home when he was invited to a Sabbath worship service.</p>
+
+        <p>“This Saturday, we will have a meeting,” someone said. “Come!”</p>
+
+        <p>Pablo went to the morning service and saw that people studied the Bible. He returned for the afternoon service and heard people asking Bible questions. He was amazed that Cristian Camilo, the 25-year-old missionary who had led the morning service, answered every question from the Bible.</p>
+
+        <p>When he got a chance, Pablo had his own question. “What do I need to do to become a member of the Seventh-day Adventist Church?” he asked.</p>
+
+        <p>“We can start Bible studies,” Cristian said.</p>
+
+        <p>He gave Pablo a set of 20 Bible lessons in Pablo’s own native Sikuani language. Pablo was pleased and asked for lessons for the rest of his family.</p>
+
+        <p>Cristian gave Pablo a Bible and promised to travel to his community with lessons for his family.</p>
+
+        <p>Cristian was responsible for a large territory, and three months passed before he was able to visit Pablo. He traveled with two Sikuani Adventists because he couldn’t find Pablo’s rural community without their help.</p>
+
+        <p>Pablo welcomed Cristian and announced that he had finished studying the 20 Bible lessons. He said he also had given Bible studies to his family and the rest of the community, and 15 people were ready to be baptized.</p>
+
+        <p>Cristian, who had arrived on a Friday, spent the rest of the day answering Bible questions and checking whether the people were ready for baptism. When the sun set, he led an evening worship program.</p>
+
+        <p>On Sabbath morning, Cristian led the community in a divine worship service. Afterward, one man said, “There’s a lake over there.” Another said, “We want to be baptized right now!” That Sabbath, five people were baptized: Pablo, his mother, his two brothers, and a sister-in-law.</p>
+
+        <p>Today, Pablo is giving Bible studies to his people.</p>
+
+        <p>“There are many people who are hungry for the Word of God in Pablo’s community,” Cristian said. “Like Pablo, there are many people who are waiting to be reached.”</p>
+
+        <p>Thank you for your prayers for missionaries who, like Cristian, face huge challenges reaching unreached people groups in Colombia and elsewhere around the world. Learn about Adventist Mission’s work to reach unreached people groups at: <a href="bit.ly/GMPioneers">bit.ly/GMPioneers</a>.</p>
+    `
 }
 ];
 

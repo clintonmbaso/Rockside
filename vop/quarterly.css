@@ -76,6 +76,11 @@
     position: fixed;
     top: 10px;
 }
+.message-modal h3 {
+    color: wheat; /* Darker color for the title */
+    font-size: 15px;
+    
+}
 .date {
     color: bisque; /* Darker color for the title */
     font-size: 12px; /* Larger font size */
@@ -155,4 +160,9 @@ blockquote {
 
 #why {
     align-self: flex-end;
+}
+
+.message-modal a {
+    color: violet;
+    font-style: italic;
 }

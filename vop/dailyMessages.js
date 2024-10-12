@@ -194,21 +194,13 @@ const dailyMessages = [
     lesson: "1",
     text: `
         <p>Read <strong><span class="bible-verse" data-verse="John 2:1-11">John 2:1-11</span></strong>. What sign did Jesus do at Cana, and how did this help His disciples in coming to believe in Him?</p>
-
         <p>Seeing Jesus perform the miracle of changing the water into wine provided evidence in favor of the disciples’ decision to follow Jesus. How could it not have been a powerful sign pointing to Him as being someone from God? (They probably were not yet ready to understand that He was God.)</p>
-
         <p>Moses was the leader of the Israelites, and he brought Israel out of Egypt by many “signs and wonders” (<strong><span class="bible-verse" data-verse="Deuteronomy 6:22">Deuteronomy 6:22</span></strong>, <strong><span class="bible-verse" data-verse="Deuteronomy 26:8">Deuteronomy 26:8</span></strong>, NKJV). He was the one whom God used to free Israel from the Egyptians. (He was, in a sense, their “savior.”)</p>
-
         <p>God prophesied through Moses that a prophet would come who was like Moses. God asked Israel to hear Him (<strong><span class="bible-verse" data-verse="Deuteronomy 18:15">Deuteronomy 18:15</span></strong>, <strong><span class="bible-verse" data-verse="Matthew 17:5">Matthew 17:5</span></strong>, <strong><span class="bible-verse" data-verse="Acts 7:37">Acts 7:37</span></strong>). That “prophet” was Jesus and, in John 2, Jesus performed His first sign, which itself pointed back to the deliverance of the children of Israel from Egypt.</p>
-
         <p>The river Nile was a key resource and a deity for the Egyptians. One of the plagues was directed at the river—the changing of its waters to blood. At Cana, Jesus performed a similar miracle but, instead of turning water into blood, He turned it into wine.</p>
-
         <p>The water came from six water pots used for purification purposes in Jewish rituals, linking the miracle even more closely to biblical themes of salvation. By recounting the incident of changing the water to wine, and thus referring back to the Exodus, John was pointing to Jesus as our Deliverer.</p>
-
         <p>What did the master of the feast think of the unfermented wine that Jesus provided? He was indeed surprised by the quality of the drink and, not knowing the miracle that Jesus had performed there, thought that they had saved the best for last.</p>
-
         <p>The Greek term <em>oinos</em> is used both for fresh and fermented grape juice (see <em>The Seventh-day Adventist Bible Dictionary</em>, p. 1177). Ellen G. White states that the juice produced by the miracle was not alcoholic (see “At the Marriage Feast,” <em>The Desire of Ages</em>, p. 149). No doubt, those who knew what happened were astonished at what had taken place.</p>
-
         <p>What are your reasons for following Jesus? (We have been given many, haven’t we?)</p>
     `
 },
@@ -218,19 +210,12 @@ const dailyMessages = [
     lesson: "1",
     text: `
         <p>All through His earthly ministry, Jesus performed miracles that helped people believe in Him. John recorded these miracles so that others would believe in Jesus, as well.</p>
-
         <p><strong>Read</strong> <span class="bible-verse" data-verse="John 4:46-54">John 4:46-54</span>. Why does the evangelist make a connection back to the miracle at the wedding feast?</p>
-
         <p>In giving an account of the second sign that Jesus did in Galilee, John points back to the first sign at the wedding in Cana. John seems to be saying, The signs that Jesus did will help you see who Jesus is. Then, John adds, “This again is the second sign Jesus did when He had come out of Judea into Galilee” (<strong><span class="bible-verse" data-verse="John 4:54">John 4:54</span></strong>, NKJV).</p>
-
         <p>At first, Jesus’ response to the nobleman’s plea may seem harsh. Yet, this official had made the healing of his son the criterion for believing in Jesus. Jesus read his heart and pinpointed the spiritual sickness that was more profound than his son’s life-threatening illness. Like a lightning bolt from a blue sky, the man suddenly recognized that his spiritual poverty could cost the life of his son.</p>
-
         <p>It is important to recognize that miracles, in and of themselves, did not prove that Jesus was the Messiah. Others have performed miracles. Some were true prophets, others false. Miracles reveal only the existence of the supernatural; they don’t, by themselves, mean that God must be the One doing them. (Satan can perform “miracles,” if by the word “miracles” we mean supernatural acts.)</p>
-
         <p>The nobleman in anguish cast himself on Jesus’ mercy, pleading with Him to heal his son. Jesus’ response was reassuring. He said, “ ‘Go; your son will live’ ” (<strong><span class="bible-verse" data-verse="John 4:50">John 4:50</span></strong>, ESV). The verb “will live” in Greek is actually in the present tense. This usage is called a “futuristic present,” where a future event is spoken of with such certainty as if it were already happening. The man did not rush home but, believing Jesus, got home the next day—finding that, exactly when Jesus had said those words, the fever left his son.</p>
-
         <p>What a powerful reason to believe in Jesus!</p>
-
         <p><strong>Question:</strong> Even if we were to see a miracle, what other criteria must we look at before automatically assuming it is from God?</p>
     `
 },
@@ -240,15 +225,10 @@ const dailyMessages = [
     lesson: "1",
     text: `
         <p>The next sign John records took place at the Pool of Bethesda (<strong><span class="bible-verse" data-verse="John 5:1-9">John 5:1-9</span></strong>). It was believed that an angel caused movement in the water and that the first sick person to enter the water would be healed. As a result, the porches of the pool were crowded with those hoping to be cured at the next occurrence. Jesus went to Jerusalem, and as He passed by the pool, He saw the waiting throng.</p>
-        
         <p>What a sight it must have been, too! All these people, some surely quite ill, waiting and waiting by the water for a cure that surely will not come. What an opportunity for Jesus!</p>
-
         <p>Read <strong><span class="bible-verse" data-verse="John 5:1-9">John 5:1-9</span></strong>. Because anyone by the pool obviously wanted to get well, why did Jesus ask the paralytic if he wanted to be healed (<strong><span class="bible-verse" data-verse="John 5:6">John 5:6</span></strong>)?</p>
-
         <p>When one has been sick a long time, the sickness becomes the norm. And strange as it may seem, it can sometimes be a bit disturbing to leave the disability behind. The man implies in his answer that he wants healing. The problem is that he is looking for it in the wrong place—while the One who made man’s legs is standing right in front of him. Little did the man know who was talking to him; although after the healing, he might have started to understand that Jesus was, indeed, Someone very special.</p>
-
         <p><strong>“Jesus does not ask this sufferer to exercise faith in Him. He simply says, ‘Rise, take up thy bed, and walk.’ But the man’s faith takes hold upon that word. Every nerve and muscle thrills with new life, and healthful action comes to his crippled limbs. Without question he sets his will to obey the command of Christ, and all his muscles respond to his will. Springing to his feet, he finds himself an active man. . . . Jesus had given him no assurance of divine help. The man might have stopped to doubt, and lost his one chance of healing. But he believed Christ’s word, and in acting upon it he received strength.”</strong>—Ellen G. White, <em>The Desire of Ages</em>, pp. 202, 203.</p>
-
         <p>Jesus later encountered the man in the temple and said, “ ‘You have been made well. Sin no more, lest a worse thing come upon you’ ” (<strong><span class="bible-verse" data-verse="John 5:14">John 5:14</span></strong>, NKJV). What is the relationship between sickness and sin? Why must we understand that not all sickness is a direct result of specific sins in our life?</p>
     `
 },
@@ -263,7 +243,6 @@ const dailyMessages = [
         <p>Healings were allowed on the Sabbath only in an emergency. This man had been disabled for 38 years; thus, his healing was hardly an emergency. And then, too, what was the necessity of having him take up his bed? One would think that someone with the power from God to perform such a miracle would also know if it was permissible to carry a mat home on the Sabbath day. Clearly, Jesus was seeking to take them to deeper biblical truths beyond the man-made rules and regulations that had, in some cases, stifled true faith.</p>
         <p><strong>What do these other accounts teach about how spiritually hard people can become, regardless of the evidence?</strong> (Read <strong><span class="bible-verse" data-verse="John 9:1-16">John 9:1-16</span></strong>; <strong><span class="bible-verse" data-verse="Mark 3:22-23">Mark 3:22, 23</span></strong>; <strong><span class="bible-verse" data-verse="Matthew 12:9-14">Matthew 12:9-14</span></strong>).</p>
         <p>How could these religious leaders be so blind? The likely answer is that it was because of their own corrupt hearts, their false belief that the Messiah would deliver them from Rome now, and their love of power and lack of surrender to God. All these helped cause them to reject the truth that stood right before them.</p>
-
         <p><strong>Read John 5:38-42.</strong> What was Jesus’ warning? What can we learn from these words? That is, what could be in us that blinds us to the truths we need to know and apply to our own lives?</p>
     `
 },
@@ -295,17 +274,11 @@ const dailyMessages = [
     lesson: "1",
     text: `
         <p>“Jesus had given him [the disabled man] no assurance of divine help. The man might have stopped to doubt, and lost his one chance of healing. But he believed Christ’s word, and in acting upon it he received strength.</p>
-
         <p>“Through the same faith we may receive spiritual healing. By sin we have been severed from the life of God. Our souls are palsied. Of ourselves we are no more capable of living a holy life than was the impotent man capable of walking. . . . Let these desponding, struggling ones look up. The Saviour is bending over the purchase of His blood, saying with inexpressible tenderness and pity, ‘Wilt thou be made whole?’ He bids you arise in health and peace. Do not wait to feel that you are made whole. Believe His word, and it will be fulfilled. Put your will on the side of Christ. Will to serve Him, and in acting upon His word you will receive strength. Whatever may be the evil practice, the master passion which through long indulgence binds both soul and body, Christ is able and longs to deliver. He will impart life to the soul that is ‘dead in trespasses.’ <strong><span class="bible-verse" data-verse="Ephesians 2:1">Eph. 2:1</span></strong>. He will set free the captive that is held by weakness and misfortune and the chains of sin.” —Ellen G. White, The Desire of Ages, p. 203.</p>
-
         <p>“Jesus repelled the charge of blasphemy. My authority, He said, for doing the work of which you accuse Me, is that I am the Son of God, one with Him in nature, in will, and in purpose.” —The Desire of Ages, p. 208.</p>
-
         <p><strong>Discussion Questions:</strong></p>
-
         <p>Reflect upon this week’s lesson. Faith was the key that made these healings possible. The leaders, in contrast, revealed the dangers of doubt and unbelief. Why must we not confuse having questions (which we all do) with having doubt? Why are they not the same thing, and why is it important to know the difference between them?</p>
-
         <p>Look at Thursday’s final question. Why, as Seventh-day Adventists, must we be especially careful about this danger? However important, for instance, knowing and even keeping the right Sabbath day, or knowing about the state of the dead—why do these truths not save us? What does save us, and how?</p>
-
         <p>Look carefully at John 5:47. How are those today who, for instance, deny the universality of the Flood, or the literal six-day Creation, doing exactly what Jesus warned against here?</p>
     `
 },
@@ -481,7 +454,205 @@ const dailyMessages = [
 
         <p>Thank you for your prayers for missionaries who, like Cristian, face huge challenges reaching unreached people groups in Colombia and elsewhere around the world. Learn about Adventist Mission’s work to reach unreached people groups at: <a href="bit.ly/GMPioneers">bit.ly/GMPioneers</a>.</p>
     `
-}
+},
+
+// Lesson 3
+{
+    date: new Date(2024, 9, 12),
+    title: "Saturday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 13),
+    title: "Sunday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 14),
+    title: "Monday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 15),
+    title: "Tuesday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 16),
+    title: "Wednesday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 17),
+    title: "Thursday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 18),
+    title: "Friday",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 18),
+    title: "Mission Story",
+    lesson: "3",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 4
+{
+    date: new Date(2024, 9, 19),
+    title: "Saturday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 20),
+    title: "Sunday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 21),
+    title: "Monday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 22),
+    title: "Tuesday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 23),
+    title: "Wednesday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 24),
+    title: "Thursday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 25),
+    title: "Friday",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 25),
+    title: "Mission Story",
+    lesson: "4",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 5
+{
+    date: new Date(2024, 9, 26),
+    title: "Saturday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 27),
+    title: "Sunday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 28),
+    title: "Monday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 29),
+    title: "Tuesday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 30),
+    title: "Wednesday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 31),
+    title: "Thursday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 1),
+    title: "Friday",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 9, 1),
+    title: "Mission Story",
+    lesson: "5",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
 ];
 
 // Function to get the daily message based on the index

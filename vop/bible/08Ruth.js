@@ -90,5 +90,5 @@ const bibleVerses8 = {
     "Ruth 4:19": "And Hezron begat Ram, and Ram begat Amminadab,",
     "Ruth 4:20": "And Amminadab begat Nahshon, and Nahshon begat Salmon,",
     "Ruth 4:21": "And Salmon begat Boaz, and Boaz begat Obed,",
-    "Ruth 4:22": "And Obed begat Jesse, and Jesse begat David.",
+    "Ruth 4:22": "And Obed begat Jesse, and Jesse begat David."
 };

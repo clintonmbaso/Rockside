@@ -1,4 +1,4 @@
-const bibleVerses26 = [
+const bibleVerses26 = {
     // Ezekiel 1 (King James Version)
     "Ezekiel 1:1": "Now it came to pass in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.",
     "Ezekiel 1:2": "In the fifth day of the month, which was the fifth year of king Jehoiachin's captivity,",
@@ -315,6 +315,6 @@ const bibleVerses26 = [
     "Ezekiel 14:20": "Though Noah, Daniel, and Job were in it, as I live, saith the Lord GOD, they shall deliver neither son nor daughter; they shall but deliver their own souls by their righteousness.",
     "Ezekiel 14:21": "For thus saith the Lord GOD; How much more when I send my four sore judgments upon Jerusalem, the sword, and the famine, and the noisome beast, and the pestilence, to cut off from it man and beast?",
     "Ezekiel 14:22": "Yet, behold, therein shall be left a remnant that shall be brought forth, both sons and daughters: behold, they shall come forth unto you, and ye shall see their way and their doings: and ye shall be comforted concerning the evil that I have brought upon Jerusalem, even concerning all that I have brought upon it.",
-    "Ezekiel 14:23": "And they shall comfort you, when ye see their ways and their doings: and ye shall know that I have not done without cause all that I have done in it, saith the Lord GOD.",
+    "Ezekiel 14:23": "And they shall comfort you, when ye see their ways and their doings: and ye shall know that I have not done without cause all that I have done in it, saith the Lord GOD."
 
-];
+};

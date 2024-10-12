@@ -1,4 +1,4 @@
-const bibleVerses37 = [
+const bibleVerses37 = {
     // Haggai 1 (King James Version)
     "Haggai 1:1": "In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai the prophet unto Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, saying,",
     "Haggai 1:2": "Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD's house should be built.",
@@ -40,4 +40,4 @@ const bibleVerses37 = [
     "Haggai 2:21": "Speak to Zerubbabel, governor of Judah, saying, I will shake the heavens and the earth;",
     "Haggai 2:22": "And I will overthrow the throne of kingdoms, and I will destroy the strength of the kingdoms of the heathen; and I will overthrow the chariots, and those that ride in them; and the horses and their riders shall come down, every one by the sword of his brother.",
     "Haggai 2:23": "In that day, saith the LORD of hosts, will I take thee, O Zerubbabel, my servant, the son of Shealtiel, saith the LORD, and will make thee as a signet: for I have chosen thee, saith the LORD of hosts."
-];
+};

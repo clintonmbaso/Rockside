@@ -1,4 +1,4 @@
-const bibleVerses28 = [
+const bibleVerses28 = {
     // Hosea 1 (King James Version)
     "Hosea 1:1": "The word of the LORD that came unto Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.",
     "Hosea 1:2": "The beginning of the word of the LORD by Hosea. And the LORD said to Hosea, Go, take unto thee a wife of whoredoms and children of whoredoms: for the land hath committed great whoredom, departing from the LORD.",
@@ -223,4 +223,4 @@ const bibleVerses28 = [
     "Hosea 14:7": "They that dwell under his shadow shall return; they shall revive as the corn, and grow as the vine: the scent thereof shall be as the wine of Lebanon.",
     "Hosea 14:8": "Ephraim shall say, What have I to do any more with idols? I have heard him, and observed him: I am like a green fir tree. From me is thy fruit found.",
     "Hosea 14:9": "Who is wise, and he shall understand these things? Prudent, and he shall know them. For the ways of the LORD are right, and the just shall walk in them: but the transgressors shall fall therein."
-];
+};

@@ -1,4 +1,4 @@
-const bibleVerses36 = [
+const bibleVerses36 = {
     // Zephaniah 1 (King James Version)
     "Zephaniah 1:1": "The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah the son of Amon, king of Judah.",
     "Zephaniah 1:2": "I will utterly consume all things from off the land, saith the LORD.",
@@ -57,4 +57,4 @@ const bibleVerses36 = [
     "Zephaniah 3:18": "I will gather them that are sorrowful for the solemn assembly, who are of thee, to whom the reproach of it was a burden.",
     "Zephaniah 3:19": "Behold, at that time I will undo all that afflict thee: and I will save her that halteth, and gather her that was driven out; and I will get them praise and fame in every land where they have been put to shame.",
     "Zephaniah 3:20": "At that time will I bring you again, even in the time that I gather you: for I will make you a name and a praise among all people of the earth, when I turn back your captivity before your eyes, saith the LORD."
-];
+};

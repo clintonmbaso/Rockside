@@ -1,4 +1,4 @@
-const bibleVerses31 = [
+const bibleVerses31 = {
     // Obadiah 1 (King James Version)
     "Obadiah 1:1": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.",
     "Obadiah 1:2": "Behold, I have made thee small among the heathen: thou art greatly despised.",
@@ -21,4 +21,4 @@ const bibleVerses31 = [
     "Obadiah 1:19": "And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.",
     "Obadiah 1:20": "And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.",
     "Obadiah 1:21": "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's."
-];
+};

@@ -1,5 +1,4 @@
-const bibleVerses35 = [
-
+const bibleVerses35 = {
     // Habakkuk 1 (King James Version)
     "Habakkuk 1:1": "The burden which Habakkuk the prophet did see.",
     "Habakkuk 1:2": "O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!",
@@ -61,4 +60,4 @@ const bibleVerses35 = [
     "Habakkuk 3:17": "Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls:",
     "Habakkuk 3:18": "Yet I will rejoice in the LORD, I will joy in the God of my salvation.",
     "Habakkuk 3:19": "The LORD God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments."
-];
+};

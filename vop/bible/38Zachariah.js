@@ -1,4 +1,4 @@
-const bibleVerses38 = [
+const bibleVerses38 = {
 
     // Zechariah 1 (King James Version)
     "Zechariah 1:1": "In the eighth month, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,",
@@ -238,4 +238,4 @@ const bibleVerses38 = [
     "Zechariah 14:19": "This shall be the punishment of Egypt, and the punishment of all nations that come not up to keep the feast of tabernacles.",
     "Zechariah 14:20": "In that day shall there be upon the bells of the horses, Holiness unto the LORD; and the pots in the LORD's house shall be like the bowls before the altar.",
     "Zechariah 14:21": "Yea, every pot in Jerusalem and in Judah shall be holiness unto the LORD of hosts: and all they that sacrifice shall come and take of them, and seethe therein: and in that day there shall be no more the Canaanite in the house of the LORD of hosts."
-];
+};

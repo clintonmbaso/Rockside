@@ -1,4 +1,4 @@
-const bibleVerses30 = [
+const bibleVerses30 = {
     // Amos 1 (King James Version)
     "Amos 1:1": "The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.",
     "Amos 1:2": "And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.",
@@ -162,4 +162,4 @@ const bibleVerses30 = [
     "Amos 9:13": "Behold, the days come, saith the LORD, that the plowman shall overtake the reaper, and the treader of grapes him that soweth seed; and the mountains shall drop sweet wine, and all the hills shall melt.",
     "Amos 9:14": "And I will bring again the captivity of my people of Israel, and they shall build the waste cities, and inhabit them; and they shall plant vineyards, and drink the wine thereof; they shall also make gardens, and eat the fruit of them.",
     "Amos 9:15": "And I will plant them upon their land, and they shall no more be pulled up out of their land which I have given them, saith the LORD thy God."
-];
+};

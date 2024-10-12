@@ -1,4 +1,4 @@
-const bibleVerses32 = [
+const bibleVerses32 = {
     // Jonah 1 (King James Version)
     "Jonah 1:1": "Now the word of the LORD came unto Jonah the son of Amittai, saying,",
     "Jonah 1:2": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
@@ -54,4 +54,4 @@ const bibleVerses32 = [
     "Jonah 4:9": "And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death.",
     "Jonah 4:10": "Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:",
     "Jonah 4:11": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"
-];
+};

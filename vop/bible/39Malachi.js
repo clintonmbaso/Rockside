@@ -1,4 +1,4 @@
-const bibleVerses39 = [
+const bibleVerses39 = {
     // Malachi 1 (King James Version)
     "Malachi 1:1": "The burden of the word of the LORD to Israel by Malachi.",
     "Malachi 1:2": "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob's brother? saith the LORD: yet I loved Jacob,",
@@ -61,4 +61,4 @@ const bibleVerses39 = [
     "Malachi 4:4": "Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
     "Malachi 4:5": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
     "Malachi 4:6": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse."
-];
+};

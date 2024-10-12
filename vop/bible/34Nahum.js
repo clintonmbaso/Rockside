@@ -1,4 +1,4 @@
-const bibleVerses34 = [
+const bibleVerses34 = {
     // Nahum 1 (King James Version)
     "Nahum 1:1": "The burden of Nineveh. The book of the vision of Nahum the Elkoshite.",
     "Nahum 1:2": "God is jealous, and the LORD revengeth; the LORD revengeth, and is furious; the LORD will take vengeance on his adversaries, and he reserveth wrath for his enemies.",
@@ -51,4 +51,4 @@ const bibleVerses34 = [
     "Nahum 3:17": "Thy crowned are as the locusts, and thy captains as the great grasshoppers, which camp in the hedges in the cold day; but when the sun ariseth they flee away, and their place is not known where they are.",
     "Nahum 3:18": "Thy shepherds slumber, O king of Assyria: thy nobles shall dwell in the dust: thy people is scattered upon the mountains, and no man gathereth them.",
     "Nahum 3:19": "There is no healing of thy bruise; thy wound is grievous: all that hear the bruit of thee shall clap the hands over thee: for upon whom hath not thy wickedness passed continually?"
-];
+};

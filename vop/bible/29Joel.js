@@ -1,4 +1,4 @@
-const bibleVerses29 = [
+const bibleVerses29 = {
     // Joel 1 (King James Version)
     "Joel 1:1": "The word of the LORD that came to Joel the son of Pethuel.",
     "Joel 1:2": "Hear this, ye old men, and give ear, all ye inhabitants of the land. Hath this been in your days, or even in the days of your fathers?",
@@ -77,4 +77,4 @@ const bibleVerses29 = [
     "Joel 3:19": "Egypt shall be a desolation, and Edom shall be a desolate wilderness, for the violence against the children of Judah, because they have shed innocent blood in their land.",
     "Joel 3:20": "But Judah shall dwell for ever, and Jerusalem from generation to generation.",
     "Joel 3:21": "For I will cleanse their blood that I have not cleansed: for the LORD dwelleth in Zion."
-];
+};

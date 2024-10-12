@@ -1,5 +1,4 @@
-const bibleVerses33 = [
-
+const bibleVerses33 = {
     // Micah 1 (King James Version)
     "Micah 1:1": "The word of the LORD that came to Micah the Morasthite in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem.",
     "Micah 1:2": "Hear, all ye people; hearken, O earth, and all that therein is: and let the Lord GOD be witness against you, the Lord from his holy temple.",
@@ -118,4 +117,4 @@ const bibleVerses33 = [
     "Micah 7:18": "Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.",
     "Micah 7:19": "He will turn again, he will have compassion upon us; he will subdue our iniquities; and thou wilt cast all their sins into the depths of the sea.",
     "Micah 7:20": "Thou wilt perform the truth to Jacob, and the mercy to Abraham, which thou hast sworn unto our fathers from the days of old."
-];
+};

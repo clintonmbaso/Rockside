@@ -1,3 +1,3 @@
-const bibleVerses16 = [
+const bibleVerses16 = {
 
-];
+};

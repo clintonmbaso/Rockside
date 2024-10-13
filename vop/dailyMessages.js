@@ -406,7 +406,7 @@ const dailyMessages = [
     text: `
         <p><strong>Read Ellen G. White,</strong> “The Crisis in Galilee,” pp. 383-394; “‘Lazarus, Come Forth,’” pp. 524-536; and “Priestly Plottings,” pp. 537-542, in <em>The Desire of Ages</em>.</p>
 
-        <p>“The life of Christ that gives life to the world is in His word. It was by His word that Jesus healed disease and cast out demons; by His word He stilled the sea, and raised the dead; and the people bore witness that His word was with power. He spoke the word of God, as He had spoken through all the prophets and teachers of the Old Testament. The whole Bible is a manifestation of Christ, and the Saviour desired to fix the faith of His followers on the word. When His visible presence should be withdrawn, the word must be their source of power. Like their Master, they were to live ‘by every word that proceedeth out of the mouth of God.’ Matt. 4:4.</p>
+        <p>“The life of Christ that gives life to the world is in His word. It was by His word that Jesus healed disease and cast out demons; by His word He stilled the sea, and raised the dead; and the people bore witness that His word was with power. He spoke the word of God, as He had spoken through all the prophets and teachers of the Old Testament. The whole Bible is a manifestation of Christ, and the Saviour desired to fix the faith of His followers on the word. When His visible presence should be withdrawn, the word must be their source of power. Like their Master, they were to live ‘by every word that proceedeth out of the mouth of God.’ Matthew 4:4.</p>
 
         <p>“As our physical life is sustained by food, so our spiritual life is sustained by the word of God. And every soul is to receive life from God’s word for himself. As we must eat for ourselves in order to receive nourishment, so we must receive the word for ourselves. We are not to obtain it merely through the medium of another’s mind. We should carefully study the Bible, asking God for the aid of the Holy Spirit, that we may understand His word.”—Ellen G. White, <em>The Desire of Ages</em>, p. 390.</p>
 
@@ -425,33 +425,19 @@ const dailyMessages = [
     lesson: "2",
     text: `
         <h3>By Andrew McChesney</h3>
-
         <p>Pablo had never heard of Seventh-day Adventists. A leader among the Sikuani indigenous people in Colombia, he was far from home when he was invited to a Sabbath worship service.</p>
-
         <p>“This Saturday, we will have a meeting,” someone said. “Come!”</p>
-
         <p>Pablo went to the morning service and saw that people studied the Bible. He returned for the afternoon service and heard people asking Bible questions. He was amazed that Cristian Camilo, the 25-year-old missionary who had led the morning service, answered every question from the Bible.</p>
-
         <p>When he got a chance, Pablo had his own question. “What do I need to do to become a member of the Seventh-day Adventist Church?” he asked.</p>
-
         <p>“We can start Bible studies,” Cristian said.</p>
-
         <p>He gave Pablo a set of 20 Bible lessons in Pablo’s own native Sikuani language. Pablo was pleased and asked for lessons for the rest of his family.</p>
-
         <p>Cristian gave Pablo a Bible and promised to travel to his community with lessons for his family.</p>
-
         <p>Cristian was responsible for a large territory, and three months passed before he was able to visit Pablo. He traveled with two Sikuani Adventists because he couldn’t find Pablo’s rural community without their help.</p>
-
         <p>Pablo welcomed Cristian and announced that he had finished studying the 20 Bible lessons. He said he also had given Bible studies to his family and the rest of the community, and 15 people were ready to be baptized.</p>
-
         <p>Cristian, who had arrived on a Friday, spent the rest of the day answering Bible questions and checking whether the people were ready for baptism. When the sun set, he led an evening worship program.</p>
-
         <p>On Sabbath morning, Cristian led the community in a divine worship service. Afterward, one man said, “There’s a lake over there.” Another said, “We want to be baptized right now!” That Sabbath, five people were baptized: Pablo, his mother, his two brothers, and a sister-in-law.</p>
-
         <p>Today, Pablo is giving Bible studies to his people.</p>
-
         <p>“There are many people who are hungry for the Word of God in Pablo’s community,” Cristian said. “Like Pablo, there are many people who are waiting to be reached.”</p>
-
         <p>Thank you for your prayers for missionaries who, like Cristian, face huge challenges reaching unreached people groups in Colombia and elsewhere around the world. Learn about Adventist Mission’s work to reach unreached people groups at: <a href="bit.ly/GMPioneers">bit.ly/GMPioneers</a>.</p>
     `
 },
@@ -459,66 +445,290 @@ const dailyMessages = [
 // Lesson 3
 {
     date: new Date(2024, 9, 12),
-    title: "Saturday",
+    title: "The Backstory - The Prologue",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Read for This Week’s Study: <strong><span class="bible-verse" data-verse="John 1:1-5">John 1:1-5</span></strong>, 
+        <strong><span class="bible-verse" data-verse="Genesis 1:1">Genesis 1:1</span></strong>, 
+        <strong><span class="bible-verse" data-verse="John 1:9-13">John 1:9-13</span></strong>, 
+        <strong><span class="bible-verse" data-verse="John 3:16-21">John 3:16-21</span></strong>, 
+        <strong><span class="bible-verse" data-verse="John 9:35-41">John 9:35-41</span></strong>, 
+        <strong><span class="bible-verse" data-verse="Matthew 7:21-23">Matthew 7:21-23</span></strong>, 
+        <strong><span class="bible-verse" data-verse="John 17:1-5">John 17:1-5</span></strong>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        <blockquote>“In the beginning was the Word, and the Word was with God, and the Word was God” (<strong><span class="bible-verse" data-verse="John 1:1">John 1:1</span></strong>).</blockquote>
+
+        <p>Week one dealt with the end of the book of John, which explained why he wrote his Gospel. 
+        This week’s lesson returns to the beginning of the Gospel, where John sets forth the direction that he, inspired by the Holy Spirit, intends to take the reader. 
+        In the first words and paragraphs of their writing, New Testament writers often present the themes that they intend to cover. 
+        So does John, whose themes are presented as part of a grand cosmic sweep that depicts overriding truths about Jesus Christ—truths that reach back to even before Creation.</p>
+
+        <p>This presentation, at the opening of the book, gives readers, who already know that Jesus is the Messiah, an advantage that the characters in the book itself did not have. 
+        The reader can clearly see the grand themes that the evangelist returns to as he tells the story of Jesus. 
+        These great themes are placed within the historical period of Jesus’ earthly life.</p>
+
+        <p>This week’s lesson will begin with the Prologue (<strong><span class="bible-verse" data-verse="John 1:1-18">John 1:1-18</span></strong>) 
+        and summarize its major themes. These themes will then be looked at in other places in John’s Gospel, as well.</p>
+
+        <p><em>*Study this week’s lesson to prepare for Sabbath, October 19.</em></p>
     `
 },
 {
     date: new Date(2024, 9, 13),
-    title: "Sunday",
+    title: "In the Beginning - The Divine Logos",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read <span class="bible-verse" data-verse="John 1:1-5">John 1:1-5</span>.</strong> What do these words reveal about the Word, Jesus Christ?</p>
+
+        <p>The Gospel of John begins with this amazing thought: “In the beginning was the Word, and the Word was with God, and the Word was God” (<span class="bible-verse" data-verse="John 1:1">John 1:1</span>). 
+        This one beautiful sentence contains a depth of thought that we can barely grasp.</p>
+
+        <p>First, the evangelist alludes to the Creation story in <span class="bible-verse" data-verse="Gen. 1:1">Genesis 1:1</span>, “In the beginning.” 
+        The Word was already there before the beginning of the universe. Thus, John affirms Jesus’ eternal existence.</p>
+
+        <p>Next, “And the Word was with God.” In <span class="bible-verse" data-verse="John 1:18">John 1:18</span>, John indicates that He is “in the bosom of the Father.” 
+        No matter how we may try to envision what this exactly means, one thing is sure: Jesus and the Father are intimately close.</p>
+
+        <p>And then, he says, “And the Word was God.” But how can the Word be with God and at the same time be God? 
+        The answer is found in the Greek. Greek has a definite article, “the,” but no indefinite article, “a/an.” 
+        What’s important for us, then, is that the Greek definite article, “the,” points to particularity, some particular object or person.</p>
+
+        <p>In the phrase “the Word was with God,” the term “God” has the definite article, thus, pointing to a particular individual, the Father. 
+        And the Word was with the Father. In the phrase, “and the Word was God,” the term “God” does not have the article, 
+        which, in this setting, points to the characteristics of divinity. Jesus is God—not the Father, but He is still the divine Son of God, 
+        the second Person of the Godhead.</p>
+
+        <p>The apostle verifies this understanding, for <span class="bible-verse" data-verse="John 1:3-4">John 1:3, 4</span> says that Jesus is the Creator of all things created. 
+        Anything that once didn’t exist but then came into existence did so only through Jesus, the Creator God.</p>
+
+        <blockquote><em>“From the days of eternity the Lord Jesus Christ was one with the Father; He was ‘the image of God,’ the image of His greatness and majesty, ‘the outshining of His glory.’ ”—Ellen G. White, 
+        <strong>The Desire of Ages</strong>, p. 19.</em></blockquote>
+
+        <p>Why is the full deity of Christ such an important part of our theology? 
+        What would we lose if Jesus were, in any way, a mere created being? 
+        Bring your answer to class on Sabbath, and be prepared to discuss why Christ’s eternal deity is so important to our faith.</p>
     `
 },
 {
     date: new Date(2024, 9, 14),
-    title: "Monday",
+    title: "The Word Made Flesh",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:1-3">John 1:1-3</span>, 
+        <span class="bible-verse" data-verse="John 1:14">14</span>. <strong>What are these verses telling us that Jesus, God Himself, did—and why is this truth the most important truth that we could ever know?</strong></p>
+
+        <p>John starts his Gospel not with the name “Jesus” or His role as Messiah/Christ but with the term <em>logos</em>. 
+        Around the time John wrote, various philosophies used the term <em>logos</em> to refer to the rational structure of the universe, 
+        or to refer to the idea of logic and reason themselves.</p>
+
+        <p>Also, the teaching of the influential ancient philosopher Plato had divided reality into two realms. 
+        One is the heavenly and immutable realm, where absolute perfection exists. The other is the realm here—perishable, 
+        changing, a very imperfect representation of the perfect realm above, wherever it supposedly existed. 
+        (Plato never answered that question.) Some philosophies identified the <em>logos</em> as some abstract intermediary 
+        between the eternal forms and the perishable, earthly forms here.</p>
+
+        <p>John uses the term in a completely different manner. He maintains that the truth, the <em>logos</em>, is not some ethereal 
+        and abstract concept floating between heaven and earth. The <em>logos</em> is a person: Jesus Christ, who became flesh and 
+        dwelt among us (<span class="bible-verse" data-verse="John 1:14">John 1:14</span>).</p>
+
+        <p>For John, the <em>logos</em> is the Word of God. More important, God communicated; that is, He revealed Himself to humanity 
+        in the most radical way: God became one of us.</p>
+
+        <p>In the Gospel of John, the <em>logos</em> represents the eternal God, who enters time and space, who speaks, acts, 
+        and interrelates with humans on a personal level. The eternal God became a human being, one of us.</p>
+
+        <p>In <span class="bible-verse" data-verse="John 1:14">John 1:14</span>, the apostle indicates that the <em>logos</em> “became flesh and dwelt among us” (NKJV). 
+        The underlying Greek word, translated dwelt, means to pitch a tent. John is alluding to Exodus 25:8, where God told the Israelites to make a sanctuary, 
+        a tent structure, so that He could dwell in their midst. In the same way, in the Incarnation, Jesus, the divine Son of God, stepped into human flesh, 
+        veiling His glory so that people could come in contact with Him.</p>
+
+        <p>Dwell on the implications of what John has written here. God Himself, the Creator, became a human being, one of us, 
+        and lived here among us. (We haven’t even gotten to His dying for us yet!) What does this tell us about the reality of God’s love for humanity? 
+        Why should we draw so much comfort from this amazing truth?</p>
     `
 },
 {
     date: new Date(2024, 9, 15),
-    title: "Tuesday",
+    title: "Hearing or Not Hearing the Word",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:9-13">John 1:9-13</span>. 
+        What harsh reality is John depicting here about how people respond to Jesus?</p>
+
+        <p>The Prologue, <span class="bible-verse" data-verse="John 1:1-18">John 1:1-18</span>, describes not only who Jesus Christ, 
+        the Word (logos), is but also how people in the world related to Him. In <span class="bible-verse" data-verse="John 1:9">John 1:9</span>, 
+        He is called the true Light, who enlightens every person coming into the world. That light illumines the world, 
+        making it understandable. As C. S. Lewis puts it, “I believe in Christianity as I believe that the Sun has risen, 
+        not only because I see it, but because by it I see everything else.” —“Is Theology Poetry?” (n. p.: Samizdat University Press, 2014), 
+        p. 15, originally presented in 1944.</p>
+
+        <p>Also, look at the implications of what <span class="bible-verse" data-verse="John 1:9">John 1:9</span> is saying. 
+        Light comes to everyone, but not everyone welcomes the light. As we will see in tomorrow’s study, a major theme in 
+        the Gospel of John is how people receive or reject Jesus. That theme begins here. The sad litany is that the Messiah 
+        came to His own people, the people of Israel, and many did not receive Him as the Messiah.</p>
+
+        <p>In <span class="bible-verse" data-verse="Romans 9-11">Romans 9-11</span>, Paul deals with the same tragic theme, 
+        of many Jews rejecting Jesus. But Paul doesn’t end on a negative note, saying in fact that many Jews, along with Gentiles, 
+        will accept Jesus as their Messiah. Indeed, he warns the Gentiles not to boast against the Jews. “For if you were cut 
+        out of the olive tree which is wild by nature, and were grafted contrary to nature into a cultivated olive tree, how 
+        much more will these, who are natural branches, be grafted into their own olive tree?” 
+        (<span class="bible-verse" data-verse="Romans 11:24">Rom. 11:24, NKJV</span>).</p>
+
+        <p>In a similar vein, John says that all who do receive Jesus as their Savior will become the children of God. 
+        This happens by believing on His name. (See <span class="bible-verse" data-verse="John 1:12-13">John 1:12, 13</span>.)</p>
+
+        <p>Here is the connection between the prologue and the conclusion of the Gospel. In <span class="bible-verse" data-verse="John 20:31">John 20:31</span>, 
+        the apostle presents why he wrote—that you may believe that Jesus is the Christ, the Son of God, and that by believing 
+        you may have life by His name. Thus, the introduction and conclusion form a kind of unity. They are related concepts 
+        that enclose all that occurs between them. This linkage points to the overarching goal of the Gospel of John—that 
+        people will be saved by believing on Jesus Christ as their Savior.</p>
+
+        <p><em>How has your life changed by becoming a son or a daughter of God?</em></p>
     `
 },
 {
     date: new Date(2024, 9, 16),
-    title: "Wednesday",
+    title: "Reappearing Themes—Belief and Unbelief",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 3:16-21">John 3:16-21</span>, 
+        <span class="bible-verse" data-verse="John 9:35-41">John 9:35-41</span>, 
+        <span class="bible-verse" data-verse="John 12:36-46">John 12:36-46</span>. 
+        How do these texts repeat the theme of belief/unbelief found in the prologue?</p>
+
+        <p>In John’s Gospel, humanity seems to be divided into two overarching groups: 
+        those who believe in Jesus and accept Him as the Messiah and those who, having the opportunity to believe, choose not to.</p>
+
+        <p>Eleven of the disciples are in the first group, as are others such as Nicodemus (who comes to faith slowly), 
+        the woman at the well, and the man born blind. In the second group are Pharisees and high priests, people 
+        at the miracle of feeding the 5,000, and even one of the disciples, Judas.</p>
+
+        <p>It is interesting that the noun <em>pistis</em> (Greek for faith/belief) never appears in the Gospel of John. 
+        However, the verb <em>pisteuō</em> (believe) appears 98 times, compared to 241 times total in the entire New Testament! 
+        This verb is, indeed, a very big theme in John. This use of the verb instead of the noun may point to a very active 
+        sense of becoming a Christian. Being a believer in Jesus is something that we do, and this is expressed in how we live 
+        and not just in a set of beliefs. As we know, the devil believes in Jesus, as well (see <span class="bible-verse" data-verse="James 2:19">James 2:19</span>).</p>
+
+        <p>In John, the major difference between the two groups is the way that they relate to Jesus. Believers, or those who come 
+        to believe, have an openness toward Him, even when He confronts or rebukes them. They come to Jesus and do not run away. 
+        He is the Light that shines on them. And by faith, by believing, they become the children of God.</p>
+
+        <p>Unbelievers, on the other hand, typically come to Jesus to fight with Him. They are characterized by those who love 
+        darkness rather than light. They find His sayings hard to accept or they see Him breaking old traditions and not fulfilling 
+        their expectations. They stand in judgment on Him rather than letting His light measure and judge them. This attitude, of 
+        course, had been seen again and again in the religious leaders, who ideally, as the spiritual guides of the nation, 
+        should have been the first ones to have accepted Jesus.</p>
+
+        <p>In what ways do you live out your faith in Jesus, as opposed to merely holding an intellectual assent to Him as the Messiah? 
+        Why is it important to know the difference? (See <span class="bible-verse" data-verse="Matthew 7:21-23">Matthew 7:21-23</span>.)</p>
     `
 },
 {
     date: new Date(2024, 9, 17),
-    title: "Thursday",
+    title: "Reappearing Themes—Glory",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read John 17:1-5.</strong> What did Jesus mean when He said, “Father, the hour has come; glorify your Son that the Son may glorify you” (ESV)?</p>
+
+        <p>Yesterday’s study looked at the earthly, human storyline of the Gospel of John with its clash and interplay 
+        between people, always revolving around who Jesus is and what He is doing. Today’s study focuses on the divine, 
+        cosmic storyline, also found in John.</p>
+
+        <p>The Prologue begins with that cosmic storyline. Jesus is presented as the divine Son of God, the Creator of the universe. 
+        Again, anything that once didn’t exist but came into existence did so only through Jesus. “All things were made through Him, 
+        and without Him nothing was made that was made” (<span class="bible-verse" data-verse="John 1:3">John 1:3</span>, NKJV). 
+        But it goes on to note the glory of His becoming a human being in the Incarnation (<span class="bible-verse" data-verse="John 1:14">John 1:14</span>). 
+        John uses the terms glory (doxa: brightness, splendor, fame, honor) and glorify (doxazō: to praise, honor, extol, glorify) 
+        to speak both of receiving honor from humans and of receiving honor or glory from God.</p>
+
+        <p>In John, the idea of glorifying Jesus is linked to the concept of His hour; that is, the time of His death 
+        (compare with <span class="bible-verse" data-verse="John 2:4">John 2:4</span>, 
+        <span class="bible-verse" data-verse="John 7:30">John 7:30</span>, 
+        <span class="bible-verse" data-verse="John 8:20">John 8:20</span>, 
+        <span class="bible-verse" data-verse="John 12:23-27">John 12:23-27</span>, 
+        <span class="bible-verse" data-verse="John 13:1">John 13:1</span>, 
+        <span class="bible-verse" data-verse="John 16:32">John 16:32</span>, and 
+        <span class="bible-verse" data-verse="John 17:1">John 17:1</span>). The cross is His hour of glory.</p>
+
+        <p>This idea is quite paradoxical because crucifixion was the most shameful and humiliating way of execution 
+        in the ancient Roman world. This incredible contrast, God on a cross, illustrates the intertwining of the human 
+        story plot with the divine.</p>
+
+        <p>On the human level, Jesus died in agony, a despised criminal in weakness crying out, “ ‘My God, My God, 
+        why have You forsaken Me?’ ” This human, dark side of the cross is particularly presented in Matthew and Mark 
+        (<span class="bible-verse" data-verse="Matthew 27:46">Matthew 27:46</span>, 
+        <span class="bible-verse" data-verse="Mark 15:34">Mark 15:34</span>, NKJV).</p>
+
+        <p>But the glorious side of the cross is especially presented in Luke and John 
+        (<span class="bible-verse" data-verse="Luke 23:32-47">Luke 23:32-47</span>, 
+        <span class="bible-verse" data-verse="John 19:25-30">John 19:25-30</span>). It is a place of salvation, of mercy, 
+        and where the Son of God gives Himself to His Father.</p>
+
+        <p>How ironic: God’s greatest glory is revealed in His greatest shame—bearing the sins of the world in Himself.</p>
+
+        <p>Think about what it means that it took such a drastic thing, God Himself on the cross, to save us from sin. 
+        What should this tell us about just how bad sin really is?</p>
     `
 },
 {
     date: new Date(2024, 9, 18),
-    title: "Friday",
+    title: "Further Thought",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read Ellen G. White,</strong> “ ‘God With Us,’ ” pp. 19-26, in <em>The Desire of Ages</em>.</p>
+
+        <blockquote>
+            <p>“The Lord Jesus Christ, the divine Son of God, existed from eternity, a distinct person, yet one with the Father. 
+            He was the surpassing glory of heaven. He was the commander of the heavenly intelligences, and the adoring homage of 
+            the angels was received by Him as His right. This was no robbery of God [<span class="bible-verse" data-verse="Proverbs 8:22-27">Proverbs 8:22-27</span> quoted].</p>
+        </blockquote>
+
+        <blockquote>
+            <p>“There are light and glory in the truth that Christ was One with the Father before the foundation of the world was laid. 
+            This is the light shining in a dark place, making it resplendent with divine, original glory. This truth, infinitely mysterious 
+            in itself, explains other mysterious and otherwise unexplainable truths, while it is enshrined in light unapproachable and incomprehensible.” 
+            —Ellen G. White Comments, <em>The Seventh-day Adventist Bible Commentary</em>, vol. 5, p. 1126.</p>
+        </blockquote>
+
+        <blockquote>
+            <p>“Jesus has said, ‘I, if I be lifted up from the earth, will draw all men unto Me.’ <span class="bible-verse" data-verse="John 12:32">John 12:32</span>. 
+            Christ must be revealed to the sinner as the Saviour dying for the sins of the world; and as we behold the Lamb of God upon the cross of Calvary, 
+            the mystery of redemption begins to unfold to our minds and the goodness of God leads us to repentance. In dying for sinners, Christ manifested 
+            a love that is incomprehensible; and as the sinner beholds this love, it softens the heart, impresses the mind, and inspires contrition in the soul. 
+            . . . Whenever they [people] make an effort to reform, from a sincere desire to do right, it is the power of Christ that is drawing them. 
+            An influence of which they are unconscious works upon the soul, and the conscience is quickened, and the outward life is amended. 
+            And as Christ draws them to look upon His cross, to behold Him whom their sins have pierced, the commandment comes home to the conscience.” 
+            —Ellen G. White, <em>Steps to Christ</em>, pp. 26, 27.</p>
+        </blockquote>
+
+        <p><strong>Discussion Questions:</strong></p>
+        <ol>
+            <li>Why would John start out talking about Jesus in His role as Creator? What does this tell us about the importance of Creation in all theology? 
+            Why, then, is it important that we have a correct understanding of Creation, as revealed in Scripture?</li>
+            <li>Dwell more on the question asked at the end of Sunday’s study. What happens to the cross if, instead of the eternal God dying on it, a created being did? 
+            What do we lose if Jesus were anything but the eternal God?</li>
+        </ol>
     `
 },
 {
     date: new Date(2024, 9, 18),
-    title: "Mission Story",
+    title: "A Sabbath Seed",
     lesson: "3",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    <h3>By Andrew McChesney</h3>
+        <p>A Native American man walked onto the construction site.</p>
+        <p>“What are you guys building here?” he asked, watching volunteers place log walls on the concrete foundation of the All Nations Center in Wapato, a town in the U.S. state of Washington. “Another church?” he said, shaking his head. “You guys don’t even know what day of the week to keep.”</p>
+        <p>A construction leader, Jeff Weijohn, struck up a conversation with the man, who had never heard of Seventh-day Adventists. The man thought that the new church would be open for worship on Sunday, but he believed that the Creator should be worshiped on Saturday.</p>
+        <p>Jeff was surprised. “It was the first time that I heard that some Native Americans have a history of Sabbath keeping,” Jeff said in an interview.</p>
+        <p>Later, Jeff sought clarification from a historian familiar with Native American history. The historian confirmed that one or two tribes on the Yakama Indian Reservation, where Wapato is located, traditionally believed that the seventh day was the Creator’s day and worshiped Him on that day.</p>
+        <p>The realization that God had planted a Sabbath seed in Native hearts energized Jeff and his wife, Terri, in mission outreach to Native Americans.</p>
+        <p>The outreach program got its start with the help of a Thirteenth Sabbath Offering in 1990. A highlight of the program is the All Nations Center, which opened in 2001 and was designed as a multipurpose building. It has a worship corner, where people gather to worship on Sabbath mornings; a food area, where meals are served and an annual Mother’s Day brunch draws 300 to 400 people; and volleyball and basketball courts, where up to 200 children and their parents come for game nights. The center also offers day camps, Vacation Bible Schools, and after-school tutoring.</p>
+        <p>Native Americans and others can lease space. “One reason we built the facility was because the community had nowhere to meet,” Jeff said.</p>
+        <p>In a notable instance, a Native American leader chose the site over a native-owned casino to conduct health seminars, saying gambling was destroying his people.</p>
+        <p>“It was quite a testimony that he didn’t want anything to do with the casino,” Jeff said.</p>
+        <p>The center’s culturally sensitive concept has proven so successful that it has been replicated elsewhere, including in Canada, he said.</p>
+        <p>Thank you for your Thirteenth Sabbath Offerings that continue to make a difference. Pray that God uses them to proclaim the everlasting gospel to every tribe, tongue, people, and nation.</p>
     `
 },
 

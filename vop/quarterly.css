@@ -109,7 +109,10 @@
     border-radius: 50px;
     background-color: #345;
     border: 1px solid gold;
-    
+}
+.message-modal span {
+//    font-weight: bold;
+    color: burlywood;
 }
 /* Customize content in Bible Verse modal */
 .verse-modal p {

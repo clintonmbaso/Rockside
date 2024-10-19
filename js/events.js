@@ -170,11 +170,11 @@
                imageUrl: "images/pathfinderDay.jpg" 	     
          	   },
      
-            { name: "LNMD visits KEMD", 
-         	     date: new Date("Oct 19, 2024 08:00:00").getTime(), 
+            { name: "LNMD Travel Safely", 
+         	     date: new Date("Oct 20, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Lusaka Youth Visit KEMD", 
-               details: "20 churches of Lusaka West Mission District will visit the Kabwe East Mission District. You are welcome to KEMD.", 
+               details: "The day was a blessing to us, may God bless you as ypu travel back home.", 
                imageUrl: "images/visitation.jpg" 	     
          	   }
 

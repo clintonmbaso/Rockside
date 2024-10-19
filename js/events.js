@@ -151,7 +151,7 @@
          	     reminderDays: 0, reminderHours: 2,
                caption: "KEMD Honour Assessments", 
                details: "We are excited to invite you to the Honours Assessment Day for the Education Committee on August 25th! This pivotal event will showcase the achievements and hard work of our dedicated individuals as they present their projects and assessments. Join us to celebrate their commitment to excellence in education and witness firsthand the innovative ideas and strategies shaping the future of learning. Your presence will support and inspire our candidates as they strive for honours and contribute to the advancement of educational excellence. Do not miss this opportunity to be part of a significant day in our educational community!", 
-               imageUrl: "images/KEMD Assessment.jpg" 	     
+               imageUrl: "../images/KEMD Assessment.jpg" 	     
          	   },
 
               	   { name: "Pathfinder Week", 
@@ -159,7 +159,7 @@
          	     reminderDays: 0, reminderHours: 2,
                caption: "Pathfinder Week of Prayer", 
                details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
-               imageUrl: "images/PathfinderWeekOfPrayer.jpg" 	     
+               imageUrl: "../images/PathfinderWeekOfPrayer.jpg" 	     
          	   },
 
 	   { name: "Pathfinder Day", 
@@ -167,7 +167,7 @@
          	     reminderDays: 0, reminderHours: 2,
                caption: "Global Pathfinder Day", 
                details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
-               imageUrl: "images/pathfinderDay.jpg" 	     
+               imageUrl: "../images/pathfinderDay.jpg" 	     
          	   },
      
             { name: "LNMD Travel Safely", 
@@ -175,7 +175,15 @@
          	     reminderDays: 0, reminderHours: 2,
                caption: "Lusaka Youth Visit KEMD", 
                details: "The day was a blessing to us, may God bless you as ypu travel back home.", 
-               imageUrl: "images/IMG-20241019-WA0028.jpg" 	     
+               imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
+         	   },
+
+            { name: "KEMD Visits LNMD", 
+         	     date: new Date("Nov 24, 2024 08:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Kabwe East Mission District Visits Lusaka North Mission District", 
+               details: "We desire a return march to our sister district so that we can also enjoy the blessings of being a guest.", 
+               imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   }
 
 

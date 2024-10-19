@@ -175,7 +175,7 @@
          	     reminderDays: 0, reminderHours: 2,
                caption: "Lusaka Youth Visit KEMD", 
                details: "The day was a blessing to us, may God bless you as ypu travel back home.", 
-               imageUrl: "images/visitation.jpg" 	     
+               imageUrl: "images/IMG-20241019-WA0028.jpg" 	     
          	   }
 
 

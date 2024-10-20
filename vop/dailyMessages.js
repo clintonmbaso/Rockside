@@ -484,7 +484,7 @@ const dailyMessages = [
         <p>The Gospel of John begins with this amazing thought: “In the beginning was the Word, and the Word was with God, and the Word was God” (<span class="bible-verse" data-verse="John 1:1">John 1:1</span>). 
         This one beautiful sentence contains a depth of thought that we can barely grasp.</p>
 
-        <p>First, the evangelist alludes to the Creation story in <span class="bible-verse" data-verse="Gen. 1:1">Genesis 1:1</span>, “In the beginning.” 
+        <p>First, the evangelist alludes to the Creation story in <span class="bible-verse" data-verse="Genesis 1:1">Genesis 1:1</span>, “In the beginning.” 
         The Word was already there before the beginning of the universe. Thus, John affirms Jesus’ eternal existence.</p>
 
         <p>Next, “And the Word was with God.” In <span class="bible-verse" data-verse="John 1:18">John 1:18</span>, John indicates that He is “in the bosom of the Father.” 
@@ -735,134 +735,733 @@ const dailyMessages = [
 // Lesson 4
 {
     date: new Date(2024, 9, 19),
-    title: "Saturday",
+    title: "Witnesses of Christ as the Messiah",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read for This Week’s Study:</strong> 
+        <span class="bible-verse" data-verse="John 1:19-23">John 1:19-23</span>, 
+        <span class="bible-verse" data-verse="Isaiah 40:1-5">Isaiah 40:1-5</span>, 
+        <span class="bible-verse" data-verse="John 1:29-37">John 1:29-37</span>, 
+        <span class="bible-verse" data-verse="Rom. 5:6">Rom. 5:6</span>, 
+        <span class="bible-verse" data-verse="John 1:35-39">John 1:35-39</span>, 
+        <span class="bible-verse" data-verse="John 1:43-51">John 1:43-51</span>, 
+        <span class="bible-verse" data-verse="John 3:1-21">John 3:1-21</span>.</p>
+
+        <p><strong>Memory Text:</strong> “Jesus answered and said to him, ‘Most assuredly, I say to you, 
+        unless one is born again, he cannot see the kingdom of God’ ” 
+        (<span class="bible-verse" data-verse="John 3:3">John 3:3, NKJV</span>).</p>
+
+        <p>No question, Jesus provided people with powerful scriptural evidence to back up the claims that 
+        He had been making about Himself, including “Verily, verily, I say unto you, He that believeth on me 
+        hath everlasting life” (<span class="bible-verse" data-verse="John 6:47">John 6:47</span>).</p>
+
+        <p>But there’s more: turning water into wine; feeding thousands with a few loaves of bread; healing 
+        the nobleman’s son; restoring the man at the pool of Bethesda; giving sight to the one blind from birth; 
+        raising Lazarus from the dead. The evangelist calls on a variety of events, and people—Jew, Gentile, rich, 
+        poor, male, female, rulers, commoners, educated, and uneducated—to bear witness to who Jesus is.</p>
+
+        <p>John points even to the witness of the Father Himself, and to Scripture, all giving evidence of Jesus’ identity.</p>
+
+        <p>This week begins with the powerful witness of John the Baptist. Other witnesses come on the stage as well: 
+        Andrew and Simon Peter, Philip and Nathanael, and a most unexpected witness, the Pharisee Nicodemus. 
+        But another witness stands back in the shadows (that other disciple with Andrew, in 
+        <span class="bible-verse" data-verse="John 1:35-40">John 1:35, 40</span>)—John himself.</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, October 26.</em></p>
     `
 },
 {
     date: new Date(2024, 9, 20),
-    title: "Sunday",
+    title: "The Testimony of John the Baptist",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>As last week’s lesson illustrated, the Gospel of John begins with Jesus Christ, the Word, in His eternal 
+        existence before Creation. But in that same prologue, John the Baptist appears as a witness to Jesus. 
+        Some Jews in Jesus’ time expected two messiahs, one priestly and the other royal. 
+        John clearly teaches that John the Baptist did not claim to be one of these messiahs but, rather, was 
+        a witness to the one true Messiah.</p>
+
+        <p><strong>Read</strong> <span class="bible-verse" data-verse="John 1:19-23">John 1:19-23</span>. 
+        How did John the Baptist explain his ministry and mission?</p>
+
+        <p>The religious leaders sent priests and Levites to ask John who he was. With Messianic expectations high 
+        in Judea, it was important for John the Baptist to clarify his relationship to those expectations. He was not 
+        the Light, but he was sent from God to bear witness to the Light and to prepare for the coming of the Messiah 
+        (<span class="bible-verse" data-verse="John 1:6-8">John 1:6-8</span>). That’s why he answered them as plainly as 
+        he could, saying: “I am not the Christ” 
+        (<span class="bible-verse" data-verse="John 1:20">John 1:20</span>).</p>
+
+        <p>Also, John baptized with water, but Christ would baptize with the Spirit 
+        (<span class="bible-verse" data-verse="John 1:26,33">John 1:26, 33</span>). John was not worthy to loosen 
+        Jesus’ sandal strap 
+        (<span class="bible-verse" data-verse="John 1:27">John 1:27</span>). Christ was preferred before John because 
+        He was before John 
+        (<span class="bible-verse" data-verse="John 1:30">John 1:30</span>). Jesus was the Son of God, and John merely 
+        pointed to Him 
+        (<span class="bible-verse" data-verse="John 1:34">John 1:34</span>).</p>
+
+        <p><strong>Read</strong> <span class="bible-verse" data-verse="Isaiah 40:1-5">Isaiah 40:1-5</span> 
+        and <span class="bible-verse" data-verse="John 1:23">John 1:23</span>. How does John use these verses?</p>
+
+        <p>In the days of rutted and rock-filled roads, servants were sometimes sent ahead of the king to level the 
+        surfaces of roadways and to take out sharp turns so as to smooth the way of the king. So, in fulfillment 
+        of prophecy, John came in order to prepare the hearts of the people for Jesus.</p>
+
+        <p><strong>In what way should we, as Seventh-day Adventists, do the same kind of ministry as did John the 
+        Baptist? What are the parallels?</strong></p>
     `
 },
 {
     date: new Date(2024, 9, 21),
-    title: "Monday",
+    title: "The Lamb of God",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>The Hebrew nation was looking for a Messiah who would deliver them from Rome. The goal of the Gospel of John was to change their 
+        understanding of the Messiah so that they could recognize in Jesus the fulfillment of the prophecies regarding the coming King. 
+        The Messiah would not be an earthly ruler. He came to fulfill all the Old Testament promises concerning Himself, which include 
+        His self-sacrifice in behalf of the world, and to renew the relationship between God and His people.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:29-37">John 1:29-37</span>. What proclamation does John the Baptist 
+        make about Jesus? What image does he use to depict Him, and why is it so significant in understanding who Jesus was and what His mission would be?</p>
+
+        <p>The statement of the Baptist regarding Jesus as the Lamb of God supports the purpose of John’s Gospel, which is to bring about 
+        a renewed understanding of the work and nature of the Messiah. Jesus would, indeed, be the fulfillment of the promise of the sacrificial system, 
+        going back to the promise of the Redeemer first given in <span class="bible-verse" data-verse="Genesis 3:15">Genesis 3:15</span>.</p>
+
+        <p>“When at the baptism of Jesus, John pointed to Him as the Lamb of God, a new light was shed upon the Messiah’s work. The prophet’s mind was 
+        directed to the words of Isaiah, ‘He is brought as a lamb to the slaughter.’ 
+        (<span class="bible-verse" data-verse="Isaiah 53:7">Isaiah 53:7</span>).”—Ellen G. White, The Desire of Ages, p. 136.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Mark 10:45">Mark 10:45</span>, <span class="bible-verse" data-verse="Romans 5:6">Romans 5:6</span>, 
+        and <span class="bible-verse" data-verse="1 Peter 2:24">1 Peter 2:24</span>. How do these verses help us understand the role of Jesus as “the Lamb of God”?</p>
+
+        <p>However much more John the Baptist needed to know about the ministry of Jesus, he was certain that Jesus was the promised Messiah, 
+        the One who had come in fulfillment of prophecy.</p>
+
+        <p><em>Consider deeply Jesus’ title as “the Lamb of God.” What images does it bring to mind, and how does its linkage to the Old Testament 
+        sacrificial system help you appreciate the great price of our salvation?</em></p>
     `
 },
 {
     date: new Date(2024, 9, 22),
-    title: "Tuesday",
+    title: "The Two Disciples of John",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Two disciples of John the Baptist were standing with him when Jesus walked by. 
+        John declared, “ ‘Behold the Lamb of God!’ ” (<span class="bible-verse" data-verse="John 1:36">John 1:36, NKJV</span>). 
+        The two disciples had listened to John’s message about the Christ, who would fulfill the Old Testament prophecies 
+        about the coming Messiah. The disciples left John to follow Jesus, recognizing that Jesus was greater than John the Baptist 
+        and that He was the fulfillment of John’s message.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:35-39">John 1:35-39</span>. 
+        What did these two disciples do after hearing John’s witness about Jesus?</p>
+
+        <p>Desiring to be with Jesus, the two spent the day with Him. Who knows what amazing things they had learned 
+        and experienced then!</p>
+
+        <p>They must have been great things because, before long, their desire was to share their experience with others. 
+        Andrew, one of the two disciples, immediately found his brother, Simon, and said, “ ‘We have found the Messiah’ 
+        (which is translated, the Christ)” (<span class="bible-verse" data-verse="John 1:41">John 1:41, NKJV</span>). 
+        When Andrew brought his brother to Jesus, Jesus immediately showed that He knew him, saying, “ ‘You are Simon the son of Jonah. 
+        You shall be called Cephas’ ” (<span class="bible-verse" data-verse="John 1:42">John 1:42, NKJV</span>). 
+        Jesus knew and understood Peter. That Jesus knows a person is a motif of the Gospel of John. 
+        (See, for example, <span class="bible-verse" data-verse="John 2:24-25">John 2:24, 25</span>.)</p>
+
+        <p>“If John and Andrew had possessed the unbelieving spirit of the priests and rulers, they would not have been found 
+        as learners at the feet of Jesus. They would have come to Him as critics, to judge His words. . . . But not so did these 
+        first disciples. They had responded to the Holy Spirit's call in the preaching of John the Baptist. Now they recognized 
+        the voice of the heavenly Teacher. . . . A divine illumination was shed upon the teaching of the Old Testament Scriptures. 
+        The many-sided themes of truth stood out in new light.”—Ellen G. White, The Desire of Ages, p. 139.</p>
+
+        <p>The entire emphasis of the Gospel of John is to bring to light who Jesus is so that this good news may be shared with the world.</p>
+
+        <p><em>In what ways has Christ, and your faith in Christ, changed your life? What other changes would you still like to see happen?</em></p>
     `
 },
 {
     date: new Date(2024, 9, 23),
-    title: "Wednesday",
+    title: "Philip and Nathanael",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:43-46">John 1:43-46</span>. 
+        What did Philip’s message reveal about his faith in Jesus already?</p>
+
+        <p>Philip was from Bethsaida, as were Andrew and Peter. He found his friend, Nathanael, and told him about Jesus. 
+        John the Baptist had called Jesus “the Lamb of God.” Andrew had told Peter that he had found “the Messiah.” 
+        But Philip calls Jesus the one Moses and the prophets wrote about and adds the name “Jesus of Nazareth.” 
+        His reference to Nazareth sets off a sharp reaction from his friend.</p>
+
+        <p>Nathanael seems to have been prejudiced against the little town of Nazareth. Surely a king would not come from 
+        such a wayside location. Prejudice easily blinds the eyes from seeing people for what they are really worth. 
+        Philip seems to have recognized, possibly from previous conversations with Nathanael, that the proper way to deal 
+        with prejudice is not some exalted philosophical or theological argumentation but rather to invite the individual 
+        to experience the truth personally for themselves. He simply said, “Come and see.” And that is exactly what Nathanael 
+        did. He went and saw.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:47-51">John 1:47-51</span>. 
+        How did Jesus convince Nathanael of who He was, and what was Nathanael’s response?</p>
+
+        <p>Missing between verse 46 and verse 47 is the crucial detail of just how Nathanael responded to Philip’s invitation. 
+        He got up and went to see, however. His friendship with Philip was stronger than his prejudice, and his life would 
+        be changed from that moment on.</p>
+
+        <p>Jesus says nice words about Nathanael, calling him an Israelite in whom there is no deceit 
+        (<span class="bible-verse" data-verse="John 1:47">John 1:47</span>), a great contrast from what Nathanael had said about 
+        Jesus (<span class="bible-verse" data-verse="John 1:46">John 1:46</span>). Nathanael responds with surprise because he 
+        had not met Jesus before.</p>
+
+        <p>Then Jesus refers to seeing him under a fig tree, and this small statement convinces Nathanael. 
+        Jesus, by divine insight, had seen Nathanael praying, searching for truth under that tree 
+        (see Ellen G. White, The Desire of Ages, pp. 140, 141). Nathanael then makes an exalted confession, 
+        calling Jesus Rabbi, the Son of God, and the King of Israel. Note how this seemingly small revelation leads 
+        to a grand confession of faith.</p>
+
+        <p><em>Supplemental EGW Notes</em></p>
     `
 },
 {
     date: new Date(2024, 9, 24),
-    title: "Thursday",
+    title: "The Witness of Nicodemus",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 3:1-21">John 3:1-21</span>. 
+        How does the testimony of Nicodemus support the theme of the Gospel of John?</p>
+
+        <p>Nicodemus was a respected teacher in Israel and a wealthy member of the Sanhedrin. His testimony plays an important part in 
+        John’s Gospel for several reasons. He referred to Jesus as “Rabbi” and pointed to the signs that Jesus performed as evidence 
+        of His divine mission. Hence, even before Nicodemus realized what he was doing, he was giving evidence in support of the 
+        Messiahship of Jesus.</p>
+
+        <p>Nicodemus viewed the signs themselves as evidence of Jesus’ divine calling but did not see them as pointing to Jesus 
+        as the fulfillment of the Old Testament prophecies regarding the Messiah. So, Nicodemus came with some doubt; he did not 
+        yet at this point recognize Jesus as the Christ.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 3:3-21">John 3:3-21</span>. What did Jesus say to Nicodemus 
+        to show that He could see right through him?</p>
+
+        <p>Jesus knows the heart of each individual. His response to Nicodemus may seem abrupt, but He goes directly to the issue. 
+        Though the Jews believed that Gentiles needed to be converted, many didn’t understand that they, too, the chosen people, 
+        needed a conversion experience. No one is born saved, regardless of their nationality or the church that they were raised in.</p>
+
+        <p>Without question, the Jews’ wonderful heritage, going back to Abraham, offered them many distinct advantages 
+        (see <span class="bible-verse" data-verse="Romans 3:1-2">Rom. 3:1, 2</span>). But, in and of itself, that was not enough. 
+        Jesus told Nicodemus the unthinkable—that he, a teacher and ruler in Israel, must be born again from above!</p>
+
+        <p>Jesus then confronted Nicodemus with his own spiritual ignorance: “ ‘Are you the teacher of Israel, and do not know these things?’ ” 
+        (<span class="bible-verse" data-verse="John 3:10">John 3:10, NKJV</span>). How could you, an exalted teacher, not know this? 
+        The rebuke must have been stunning.</p>
+
+        <p>Despite whatever questions he had regarding Jesus then, Nicodemus later took His side with the followers of Jesus 
+        (see <span class="bible-verse" data-verse="John 19:39">John 19:39</span>).</p>
+
+        <p><strong>What does it mean to be “born again,” and why would Jesus put such emphasis on it?</strong></p>
     `
 },
 {
     date: new Date(2024, 9, 25),
-    title: "Friday",
+    title: "Further Thought",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> Ellen G. White, “Nicodemus,” pp. 167-177, in <em>The Desire of Ages</em>.</p>
+
+        <p>Nicodemus “searched the Scriptures in a new way, not for the discussion of a theory, but in order to receive life for the soul. 
+        He began to see the kingdom of heaven as he submitted himself to the leading of the Holy Spirit. . . .</p>
+
+        <p>“Through faith we receive the grace of God; but faith is not our Saviour. It earns nothing. It is the hand by which we lay hold 
+        upon Christ, and appropriate His merits, the remedy for sin. . . . Repentance comes from Christ as truly as does pardon.</p>
+
+        <p>“How, then, are we to be saved? ‘As Moses lifted up the serpent in the wilderness,’ so the Son of man has been lifted up, 
+        and everyone who has been deceived and bitten by the serpent may look and live. ‘Behold the Lamb of God, which taketh away the sin of the world.’ 
+        (<span class="bible-verse" data-verse="John 1:29">John 1:29</span>). The light shining from the cross reveals the love of God. His love is drawing us to Himself. 
+        If we do not resist this drawing, we shall be led to the foot of the cross in repentance for the sins that have crucified the Saviour. 
+        Then the Spirit of God through faith produces a new life in the soul. The thoughts and desires are brought into obedience to the will of Christ. 
+        The heart, the mind, are created anew in the image of Him who works in us to subdue all things to Himself. Then the law of God is written in the mind 
+        and heart, and we can say with Christ, ‘I delight to do Thy will, O my God.’ (<span class="bible-verse" data-verse="Psalm 40:8">Ps. 40:8</span>).” 
+        —Ellen G. White, <em>The Desire of Ages</em>, pp. 175, 176.</p>
+
+        <h3>Discussion Questions:</h3>
+
+        <ul>
+            <li>John the Baptist came to prepare the way for Jesus. How successful would you judge his ministry to have been, at least from a human perspective? 
+            Also, as you think about your answer, ask this important question: How do you define “success” in spiritual things?</li>
+
+            <li>Later on, John the Baptist expressed some sincere doubts (<span class="bible-verse" data-verse="Matt. 11:2-3">Matt. 11:2, 3</span>; 
+            <span class="bible-verse" data-verse="Luke 7:19">Luke 7:19</span>). What caused his questions, and what can we learn from them about how to be firm in our faith?</li>
+
+            <li>In class, discuss the idea of how someone such as Nicodemus, a leader in the true church, someone who surely had a lot of knowledge, 
+            could still be so spiritually ignorant of what really matters. What lessons can we take from his situation?</li>
+        </ul>
+
+        <p><em>Supplemental EGW Notes</em></p>
     `
 },
 {
     date: new Date(2024, 9, 25),
-    title: "Mission Story",
+    title: "Power of Prayer in Uzbekistan",
     lesson: "4",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <h3>By Andrew McChesney</strong></h3>
+
+        <p>An ambulance rushed 36-year-old Nigora to the hospital in Tashkent, Uzbekistan. She could barely talk. Her arms were numb. 
+        She was struggling to swallow. The doctor couldn’t diagnose her condition.</p>
+
+        <p>Nigora grew worse over the next month in the hospital. She couldn’t sleep for more than 15 minutes a day. X-rays 
+        showed activity in her brain.</p>
+
+        <p>Then a second doctor said Nigora had a terminal illness. He saw no hope.</p>
+
+        <p>Nigora didn’t believe in Jesus, but she had Seventh-day Adventist neighbors who did. They visited her in intensive care 
+        and asked for permission to invite their church pastor to come and pray with her. “No, no,” Nigora said. “I’m not well. I look 
+        terrible. Tell him to come when I feel better.”</p>
+
+        <p>But the neighbors insisted. “Let him come and pray for you,” they said.</p>
+
+        <p>Reluctantly, Nigora agreed. A day later, the pastor and his wife came to Nigora’s bed. The pastor read <span class="bible-verse" data-verse="Psalm 23">Psalm 23</span>, 
+        anointed Nigora’s forehead with oil, and prayed, “Lord, give health to our sister. Give her healing so she can make a full recovery.” 
+        Nigora didn’t feel any different after the prayer.</p>
+
+        <p>The next day, the pastor and his wife returned. Again he read from the Bible, anointed her, and prayed. Again Nigora didn’t feel 
+        any different. But that night, she was able to sleep for several hours, not just for 15 minutes.</p>
+
+        <p>The third day, the pastor and his wife returned. Again he read from the Bible, anointed her, and prayed. Again she didn’t feel any 
+        different. But that night, she slept the whole night. After that, she slept well every night.</p>
+
+        <p>The pastor and his wife continued to visit. Slowly, Nigora’s speech improved. Her arms and legs began to function. Hospital X-rays 
+        showed that her brain activity had returned to normal. The doctor was astonished.</p>
+
+        <p>“It’s impossible that you have recovered, and so quickly,” he said.</p>
+
+        <p>Four months after the pastor began praying, Nigora was driving her car and back at work.</p>
+
+        <p>The woman who hadn’t believed in God credited Him for her recovery.</p>
+
+        <p>“This is a miracle of God,” she said.</p>
+
+        <p>She is glad to have neighbors who cared for her. “I’m very grateful to God that He gave me these kind of friends, who are like 
+        family,” she said, speaking slowly but clearly in an interview with Adventist Mission.</p>
+
+        <p>Although Nigora believes in God, she has not given her heart to Him. A discouraging factor may be that many people in Uzbekistan 
+        view Seventh-day Adventists as members of a sect. Please pray for Nigora and others like her who have witnessed God’s power in their 
+        lives but have yet to make a decision for Him. Nigora is a pseudonym.</p>
     `
 },
 
 // Lesson 5
 {
     date: new Date(2024, 9, 26),
-    title: "Saturday",
+    title: "The Testimony of the Samaritans",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:1-42">John 4:1-42</span>, 
+        <span class="bible-verse" data-verse="John 3:26-30">John 3:26-30</span>, 
+        <span class="bible-verse" data-verse="Jeremiah 2:13">Jer. 2:13</span>, 
+        <span class="bible-verse" data-verse="Zechariah 14:8">Zech. 14:8</span>, 
+        <span class="bible-verse" data-verse="Ezekiel 36:25-27">Ezek. 36:25-27</span>.</p>
+
+        <p><strong>Memory Text:</strong> “Then they said to the woman, ‘Now we believe, not because of what you said, 
+        for we ourselves have heard Him and we know that this is indeed the Christ, the Savior of the world’” 
+        (<span class="bible-verse" data-verse="John 4:42">John 4:42, NKJV</span>).</p>
+
+        <p>Who were the Samaritans? The northern kingdom of Israel had been taken captive by the Assyrians in 722 B.C. 
+        To create political stability, the Assyrians dispersed their captives throughout their empire. Likewise, captives 
+        from other nations were brought to populate the northern kingdom, and these became the Samaritans, who practiced 
+        their own form of Judaism.</p>
+
+        <p>Relations, however, were not good between them and the Jews. For instance, the Samaritans worked against the 
+        rebuilding of the temple at the return of the Jews from Babylon. The Samaritans, meanwhile, had built their own 
+        temple on Mount Gerizim. But this temple was destroyed by the Jewish ruler John Hyrcanus in 128 B.C.</p>
+
+        <p>At the time of Christ, this animosity continued. The Jews avoided Samaria as much as possible. Though commerce 
+        may have gone on, other interaction was taboo. The Jews would not borrow from Samaritans or even receive a favor 
+        from them. Within this context, John recounts the encounter between Jesus, the woman at the well, and the people 
+        of the Samaritan city of Sychar.</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, November 2.</em></p>
     `
 },
 {
     date: new Date(2024, 9, 27),
-    title: "Sunday",
+    title: "The Setting of the Encounter",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:1-4">John 4:1-4</span>. 
+        What was the background issue that led Jesus through Samaria?</p>
+
+        <p>The Pharisees discovered that the disciples of Jesus were baptizing more people than did those of John the Baptist. 
+        This situation could create tensions between John’s followers and Jesus’. The disciples of John, quite naturally, 
+        were jealous for their master’s reputation and status (compare with <span class="bible-verse" data-verse="John 3:26-30">John 3:26-30</span>). 
+        John’s impressive reply was that he must decrease, but Jesus must increase (<span class="bible-verse" data-verse="John 3:30">John 3:30</span>). 
+        Probably to avoid confrontation, Jesus departed Judea to go to Galilee. Samaria provided the most direct route 
+        between those two locations, but it was not the only route possible. Devout Jews would take the long way around, 
+        going east through Perea. But Jesus had a mission in Samaria.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:5-9">John 4:5-9</span>. 
+        How did Jesus use this opportunity to open a dialogue with the woman at the well?</p>
+
+        <p>Jacob’s well was located right next to Shechem, while Sychar, where the woman was from, was about a mile away (1.5 km). 
+        Jesus sat by the well while His disciples went into the city to buy food. He had no access to the cooling water of the well. 
+        When the woman came to draw water, He asked her for a drink.</p>
+
+        <p>In <span class="bible-verse" data-verse="John 3">John 3</span>, it was surprising that Nicodemus, a ruler of the Jews 
+        and a rabbi, would lower himself to come to Jesus. He came by night to avoid discovery. But, in <span class="bible-verse" data-verse="John 4">John 4</span>, 
+        the woman hides in broad daylight, perhaps avoiding contact with other women who came either at the beginning or end 
+        of the day when it was cooler. After all, why did she go such a long way to fetch water, and in the middle of the day when it was hot? 
+        Whatever the reason for her being there, meeting Jesus would change her life.</p>
+
+        <p>What scene unfolds next? A Jewish teacher is compared to a Samaritan woman of poor reputation. What a contrast! 
+        And yet, in this exact context, a remarkable encounter unfolds.</p>
+
+        <p><em>What are some of the taboos in your own culture that could hamper your witness to others? 
+        How do we learn to transcend them? Bring your answer to class on Sabbath.</em></p>
     `
 },
 {
     date: new Date(2024, 9, 28),
-    title: "Monday",
+    title: "The Woman at the Well",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:7-15">John 4:7-15</span>. 
+        How does Jesus use this encounter to start witnessing to this woman?</p>
+
+        <p>“The hatred between Jews and Samaritans prevented the woman from offering a kindness to Jesus; 
+        but the Saviour was seeking to find the key to this heart, and with the tact born of divine love, 
+        He asked, not offered, a favor. The offer of a kindness might have been rejected; but trust awakens trust.” 
+        —Ellen G. White, <em>The Desire of Ages</em>, p. 184.</p>
+
+        <p>As was the case in His encounter with Nicodemus, Jesus knows what is in the woman’s heart. In response to her 
+        surprise that a Jew would ask such a favor of a Samaritan, Jesus goes directly to the point. “ ‘If you knew the 
+        gift of God, and who it is who says to you, “Give Me a drink,” you would have asked Him, and He would have given 
+        you living water’ ” (<span class="bible-verse" data-verse="John 4:10">John 4:10, NKJV</span>).</p>
+
+        <p>The woman’s response was like that of Nicodemus, who asked, “ ‘How can these things be?’ ” 
+        (<span class="bible-verse" data-verse="John 3:9">John 3:9, NKJV</span>) in the context of a new birth. 
+        She asked, “ ‘You have nothing to draw with, and the well is deep. Where then do You get that living water?’ ” 
+        (<span class="bible-verse" data-verse="John 4:11">John 4:11, NKJV</span>). In both cases, Jesus was pointing them 
+        (one, a prominent Jewish teacher; the other, a Samaritan woman of dubious character) to the transcendent spiritual 
+        truths that each one needed to hear and understand. In each case, Jesus was basically telling them both the same 
+        thing: they need a conversion experience.</p>
+
+        <p>What is the Old Testament background to Jesus’ statement about living water? 
+        (<span class="bible-verse" data-verse="Jeremiah 2:13">Jer. 2:13</span>, 
+        <span class="bible-verse" data-verse="Zechariah 14:8">Zech. 14:8</span>).</p>
+
+        <p>Water is necessary for life; humans cannot exist without water, and so water can be a powerful and appropriate 
+        image of eternal life, as well. Hence, Jesus says, “ ‘Whoever drinks of the water that I shall give him will 
+        never thirst. But the water that I shall give him will become in him a fountain of water springing up into 
+        everlasting life’ ” (<span class="bible-verse" data-verse="John 4:14">John 4:14, NKJV</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 7:37-38">John 7:37, 38</span>. 
+        What is Jesus saying to us in these verses, and how do we experience what He is promising here?</p>
     `
 },
 {
     date: new Date(2024, 9, 29),
-    title: "Tuesday",
+    title: "“ ‘Sir, Give Me This Water’ ”",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <blockquote>“ ‘Then I will sprinkle clean water on you, and you shall be clean; I will cleanse you from all your filthiness and from all your idols. 
+        I will give you a new heart and put a new spirit within you; I will take the heart of stone out of your flesh and give you a heart of flesh. 
+        I will put My Spirit within you and cause you to walk in My statutes, and you will keep My judgments and do them’ ” 
+        (<span class="bible-verse" data-verse="Ezekiel 36:25-27">Ezek. 36:25-27, NKJV</span>).</blockquote>
+        
+        <p>How does <span class="bible-verse" data-verse="Ezekiel 36:25-27">Ezekiel 36:25-27</span> reflect the truths Jesus was seeking to give to 
+        Nicodemus and to the woman at the well?</p>
+        
+        <p>In both cases, Jesus was seeking to reach these people with spiritual truths, even though He used illustrations from the natural world to do so.</p>
+        
+        <p>At first, neither person understood what Jesus meant. How, asked Nicodemus, can a man be born again? That is, how can he return to his mother’s womb? 
+        Nicodemus clearly was functioning at a mundane and earthly level, even though Jesus clearly was pointing him toward spiritual truth. This woman, too, 
+        took Jesus’ words about the water in a literal sense when Jesus was clearly talking about something spiritual.</p>
+        
+        <p>The woman’s response to Jesus’ offer of living water was, “ ‘Give me this water, that I may not thirst, nor come here to draw’ ” 
+        (<span class="bible-verse" data-verse="John 4:15">John 4:15, NKJV</span>). She reasoned that the water Jesus offered would obviate trips to the well, 
+        thus reducing the risk of facing others. It is striking that the conversation shifted so quickly from Jesus’ asking for a drink to the woman’s asking Him for a drink.</p>
+        
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:16">John 4:16</span>. How did Jesus respond to the woman’s request?</p>
+        
+        <p>Abruptly, Jesus changes the topic of discussion, telling the woman to go call her husband and come back. Why the sudden shift in topic? 
+        The woman’s actions bespoke avoidance. Jesus could read her heart. She must face her situation to find healing. “Before this soul could receive 
+        the gift He longed to bestow, she must be brought to recognize her sin and her Saviour.” —Ellen G. White, <em>The Desire of Ages</em>, p. 187.</p>
     `
 },
 {
     date: new Date(2024, 9, 30),
-    title: "Wednesday",
+    title: "The Revelation of Jesus",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:16-24">John 4:16-24</span>. 
+        What did Jesus do to show this woman that He knew her deepest secrets, and how did she respond?</p>
+
+        <p>The light was too blinding to look at directly. While recognizing Jesus as a prophet, the woman practices avoidance again. 
+        She asks Jesus a question of religious controversy between Jews and Samaritans—the proper place to worship.</p>
+
+        <p>In response, Jesus pointed out that the Samaritans did not know what they worshiped. Their worship was a synthesis of 
+        Judaism and paganism. The Jews worshiped the God who reveals Himself—another important admission for a Samaritan.</p>
+
+        <p>Worship of the true God is not tied to a place. The discussion, therefore, about a place of worship was irrelevant to the 
+        conversation. For God is spirit, and those who worship Him must do so in spirit and in truth. The woman accepted the plain 
+        truth conveyed by Jesus and was ready for more.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:25-26">John 4:25, 26</span>. 
+        How did Jesus reveal His identity to her?</p>
+
+        <p>In all four Gospels, this is the only passage before His trial in which Jesus plainly stated to someone that He was the Messiah. 
+        And He did it not to some large crowd or important personage but to an unnamed Samaritan woman, alone, at Jacob’s well. 
+        He is interested in any lonely soul who feels separated.</p>
+
+        <p>And so to this woman, who not only was from a foreign culture but also was not of the highest moral character, Jesus openly 
+        reveals who He is. And, having revealed to her His knowledge of her darkest secrets, He also gave this woman a great reason 
+        to believe in Him, as well.</p>
+
+        <p><em>What should this story tell us about why the gospel needs to break down the barriers that we humans create with each other?</em></p>
     `
 },
 {
     date: new Date(2024, 9, 31),
-    title: "Thursday",
+    title: "The Testimony of the Samaritans",
     lesson: "5",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:27-29">John 4:27-29</span>. 
+        What surprising action did the woman take?</p>
+
+        <p>Jesus’ discussion with the woman was interrupted by the arrival of the disciples. Though surprised 
+        that He was speaking with a woman, they did not question Him. Instead, they urged Him to eat.</p>
+
+        <p>The woman, meanwhile, left her water pot and rushed into the city to share with others what she had 
+        just experienced with Jesus.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 4:30-42">John 4:30-42</span>. 
+        What happened following this encounter, and what does it teach about how the gospel can be spread?</p>
+
+        <p>It seems strange that Jesus’ narrative about a harvest would interrupt the story of the conversion 
+        of many in the city. But John wants us to see how Jesus understood what was happening. Sharing the plan 
+        of salvation with a Samaritan woman was far more important to Him than eating. To lead souls to salvation 
+        was His purpose, and He used this occasion to teach His disciples the urgency of sharing the gospel with 
+        all people, even with those not like them.</p>
+
+        <p>There are many high points in the Gospel of John. Surely <span class="bible-verse" data-verse="John 4:39-42">John 4:39-42</span> 
+        is among them. Many of the Samaritans believed because of the woman's testimony: “He told me all that 
+        I ever did” (<span class="bible-verse" data-verse="John 4:39">John 4:39, NKJV</span>).</p>
+
+        <p>The Samaritans asked Jesus to stay with them. The result was that many more believed because of the 
+        Word of Jesus. “Then they said to the woman, ‘Now we believe, not because of what you said, for we 
+        ourselves have heard Him and we know that this is indeed the Christ, the Savior of the world’ 
+        (<span class="bible-verse" data-verse="John 4:42">John 4:42, NKJV</span>).</p>
+
+        <p>What should this story tell us about how powerful the witness of even one person can be? How powerful 
+        a witness are you to what Jesus has done in your life?</p>
     `
 },
 {
     date: new Date(2024, 10, 1),
-    title: "Friday",
+    title: "Further Thought",
     lesson: "5",
+    text: `
+        <p><strong>Read:</strong> Ellen G. White, “At Jacob’s Well,” pp. 183-195, in <em>The Desire of Ages</em>.</p>
+
+        <p>“As soon as she had found the Saviour the Samaritan woman brought others to Him. She proved herself a more 
+        effective missionary than His own disciples. The disciples saw nothing in Samaria to indicate that it was an 
+        encouraging field. Their thoughts were fixed upon a great work to be done in the future. They did not see that 
+        right around them was a harvest to be gathered. But through the woman whom they despised, a whole cityful were 
+        brought to hear the Saviour. She carried the light at once to her countrymen.</p>
+
+        <p>“This woman represents the working of a practical faith in Christ. Every true disciple is born into the kingdom 
+        of God as a missionary. He who drinks of the living water becomes a fountain of life. The receiver becomes a giver. 
+        The grace of Christ in the soul is like a spring in the desert, welling up to refresh all, and making those who are 
+        ready to perish eager to drink of the water of life.”—Ellen G. White, <em>The Desire of Ages</em>, p. 195.</p>
+
+        <p><strong>Discussion Questions:</strong></p>
+        <ol>
+            <li>In class, go over your answers to Sunday’s final question. Be brutally honest about it. 
+            What are the taboos and prejudices found in your culture that could indeed hamper your own witness to others?</li>
+
+            <li>Why do you think Jesus got such a warm reception among the Samaritans in contrast to the reception among His own people?</li>
+
+            <li>Put yourself in the place of that Samaritan woman. A total stranger comes and lets her know that He is 
+            aware of her deepest secrets. How could anyone, much less a stranger, have known these things? No wonder she 
+            was impressed by Jesus. What should this story tell us about how the Lord knows everything about us, even the 
+            deepest, darkest secrets that we would not want anyone to know? And yet, what does the way He treated her 
+            say to us about how He wants to deal with us, even when He knows our secrets? What comfort can we draw from this truth?</li>
+
+            <li>What themes in the Gospel of John that we have studied thus far are found in Jesus’ ministry to the 
+            Samaritan woman at the well?</li>
+        </ol>
+    `
+},
+{
+    date: new Date(2024, 10, 1),
+    title: "Unsolicited Book in the Mail",
+    lesson: "5",
+    text: `
+    <h3>By Andrew McChesney</h3>
+        <p>For most of his life, Rob Schetky, a retired U.S. Navy officer, had struggled with the Bible and its meaning.</p>
+
+        <p>Once an agnostic, Rob was seeking God’s will, but the Sabbath posed a problem. He fumed when people skipped church 
+        and engaged in everyday activities on Sunday. He asked, “Why are you playing golf on Sunday?” But inside he wondered, 
+        Where in the Bible did God change the Sabbath?</p>
+
+        <p>Rob stopped going to church. He was looking for a new church in Fairbanks, in the U.S. state of Alaska, when an unsolicited 
+        book arrived in his post office mailbox. “That’s an interesting name,” he thought, examining the book. “I wonder what 
+        The Great Controversy is.”</p>
+
+        <p>Leaving the post office, he passed a stack of Great Controversy books that other people had discarded on a counter. 
+        It had been a mass mailing.</p>
+
+        <p>At home, Rob became engrossed in the book. He grew excited as he read how humans, not God, had changed the Sabbath day 
+        of worship. Wow! he thought. Someone is telling the history of the church in a very logical way.</p>
+
+        <p>Contacting a friend, he said, “I’ve found a great history of Christianity. It’s called The Great Controversy.” Later, 
+        the friend called back. “You’ve got to get away,” he said. “That’s the Seventh-day Adventist Church. They’re a cult!”</p>
+
+        <p>Rob was surprised. He hadn’t noticed the name of the book’s author, Ellen White, and didn’t know that she had cofounded 
+        the Adventist Church. “No, they are not a cult,” he said. “They just believe in the Word of God.”</p>
+
+        <p>After the conversation, Rob wondered if Adventists worshiped in Fairbanks. Looking online, he found a church located 
+        only a 10-minute drive away. On Sabbath, he grabbed his Bible and The Great Controversy and went to church. He had been 
+        reading the book for less than a month.</p>
+
+        <p>The first person to greet him at church was a Sabbath School teacher, Helen. She expressed surprise when she learned that 
+        he had come because of The Great Controversy. “You just destroyed my complaints,” she said.</p>
+
+        <p>She had been worried that the small size of the book’s text made it impossible to read. Yet Rob had already read three-fourths 
+        of the book—and he had come to church to learn more.</p>
+
+        <p>Today, seven years later, Rob is 70 and a church deacon. He still reads the Bible and the writings of Ellen White daily. 
+        “When I found the Seventh-day Adventist Church, I found a home, and I found truth,” he said.</p>
+
+        <p>Join the Adventist world church in 2024 in the mass promotion and distribution of The Great Controversy. Ask your pastor 
+        or visit <a href="http://greatcontroversyproject.com">greatcontroversyproject.com</a> for more details.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 2),
+    title: "Saturday",
+    lesson: "6",
     text: `
         <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
     `
 },
 {
-    date: new Date(2024, 9, 1),
-    title: "Mission Story",
-    lesson: "5",
+    date: new Date(2024, 10, 3),
+    title: "Sunday",
+    lesson: "6",
     text: `
         <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
     `
 },
+{
+    date: new Date(2024, 10, 4),
+    title: "Monday",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 5),
+    title: "Tuesday",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 6),
+    title: "Wednesday",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 7),
+    title: "Thursday",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Further Thought",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Story",
+    lesson: "6",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 9),
+    title: "Saturday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 10),
+    title: "Sunday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 11),
+    title: "Monday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 12),
+    title: "Tuesday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 13),
+    title: "Wednesday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 14),
+    title: "Thursday",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Further Thought",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Story",
+    lesson: "7",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
 ];
 
 // Function to get the daily message based on the index

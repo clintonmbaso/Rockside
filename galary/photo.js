@@ -335,143 +335,137 @@ const imageData = [
 
 
 
+
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0000.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1LJG7dzffizKibE4lTfSyPTdbrd9uQ2rM/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0001.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1LGt3JEGl1_RlAtTqbB5vo9ctdchEwFUn/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0002.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1LBeadCcejUJKglxE-MJUzAqUQSI1K7Ia/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0003.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1L8rOKjjd2WVE-X7TYqI1-7qMwLWuUKg3/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0004.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1L34t5WWhS1E_ddAwQl3eoa7vZ-0Mg8XU/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0005.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1Kv8zjv5S-NLxSLSTchoPg0XuxT0Tyszt/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0006.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1Ks3qIHj8PHLjJuFHq0MUzUcHe6vwp994/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0007.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1Kf7rmDDT9SphDa8j7roxE5PihpF8rnN3/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0008.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KeP6zakVUdEL0maQ6SwxhTWDz7en4QAa/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0009.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1Kbdkg15jkySVrCE7D5-TcJ7codzpXECp/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0010.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KZ_6MgSjcI2UbmBQ7UADtVmQFiIbnefb/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0011.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KXvJI7cTnZZN8Ekh5XiNq56ug9OIPJhV/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0012.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KSARk8HD2AjdiMqsZOezqrFXjUK3KmOC/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0013.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KPjRsH0sC04c21LjjSnxLcTCe61VvXZB/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0014.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KJYdePmCj4aehQ7VV4CqpXI62Fb0EKLB/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0015.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1KC0MJqyw5fkn_tIwU4u_vY2yQ_g2zRl6/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0016.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1K3fw_L9Asym38nhl7HFSI8DyRCPYfy46/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0017.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1Jv6hgqcelMA8RuLm8tQviHL1i2J4JdAi/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0018.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JufMfjIGSgZipf8rLsiUsYFDjbseFovn/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0019.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JuYcetpidH58dqjShIb3_CdBBCdaUVn1/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0020.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JuHAK5dJD2_P-zXSsc-NVG_vh1yx1s2i/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0021.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JpUdlSVPAVoxqj2rrK7WI2hlreFH88xP/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0022.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JschywCyY-DQuRU72pX2oM7wsrRIxWvp/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+    {
+        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241020-WA0023.jpg',
+        downloadUrl: 'https://drive.google.com/file/d/1JtXIAofddhu5TbAqafsUig37hIGyEaL8/view?usp=drivesdk',
+        alt: 'Kabwe East Mission District'
+    },
+
+
+
+
+
+
 /*
     {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0074.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GK-63n9WqG5Rt3g-NQ4HDiqnEs0Gy5w4/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GXGi9mPjQgjdd2A-8RNxIv0h6P8wRfvK/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GYiqubn-QWz3ZItwL0oY6Zn4TNfWb8xE/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Ga4AX_W3HZjQOoF563UIVzTVUHPTM49d/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Gca5qbd6w94IQSl5ayfDynPYCxGZK9dU/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/rockside/main/images/LNMD/IMG-20241019-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Gn-qZdjnt6i2UwQQ54xCd_OuFyDPQ9G1/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-
-
-
-
-
-
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0030.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GpFVW6SWHyrVYq9INTplqxYU5MjNljrw/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0031.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GtqhVlc1iwi54qj4jrjO1E92mA7n7884/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0032.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1GwmLqbbVVuC4sjCmiiwbh4zQYWPXlwEQ/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0033.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Gy-Oc0KB3IlqGo6XqydVMQcnHGxDN-Ho/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0034.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1H2xdx-yUttAfmzLogCVbyxz7vm3wj3h9/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0035.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1H6j0AjZ3XPIEVCSNmxe2Q6taFNcxi2RW/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0036.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1H9PSQo3MVvtaatR_5chrS7mUyZXjE8Uo/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0037.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HBafGQ-hBEhNw3IH20sR2MgoRV_1u1_S/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0038.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HDnqf29RnlmBAw1564GybkhANWJKgqV1/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0039.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HJ8f6YPJQ9O5VfnFVKUVThOkjHI8H2YU/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-
-
-
-
-
-
-
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0040.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HKOS5FMBGoQ4BBKMzNEZzRGbb2YDF_t7/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0041.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HUvHlw-9ZaWS2XUebG0dBQQNibus5Zuj/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0042.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HVpJzB0vubo1PqeVd5s8iKn-xy7x3v6x/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0043.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1H_F9HvYcYxgKAFVfseQfsme8dsjee3A_/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0044.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HcSEqT4ePF0MOMaaANrmAwSZWy6sh3oo/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0045.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HcWe6NKjHuvoPu3JxTAeg0jqobGlMtA2/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0046.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Heli5uqgCdoj0PhfSpkqJXO_gipfHvda/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
-        viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0047.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1HmBG6b-a2uMS0HtS48bZYoxl2UO2r5HI/view?usp=drivesdk',
-        alt: 'Kabwe East Mission District'
-    },
-    {
         viewUrl: 'https://raw.githubusercontent.com/clintonmbaso/clintonmbaso/rockside/main/images/LNMD/IMG-20240811-WA0048.jpg',
-        downloadUrl: 'https://drive.google.com/file/d/1Hk6QarW0hJgn9QY4Kr5E5zzchjQdh0VH/view?usp=drivesdk',
+        downloadUrl: 'https',
         alt: 'Kabwe East Mission District'
     },
     {

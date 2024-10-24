@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="certificates.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Certificate Generator</h1>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <!-- Dynamic lessons input section -->
+        <div id="lessonsContainer">
+            <input type="text" name="lesson" class="lesson" placeholder="Lesson 1" required>
+        </div>
+        <button type="button" id="addLesson">+</button>
+        <button type="button" id="removeLesson">-</button>
+
+        <select id="templateSelect">
+            <option value="">Select a Template</option>
+            <option value="templates/template1.png">Template 1</option>
+            <option value="templates/template2.png">Template 2</option>
+            <option value="templates/template3.png">Template 3</option>
+            <option value="templates/template4.png">Template 4</option>
+            <option value="templates/template5.png">Template 5</option>
+            <option value="templates/template6.png">Template 6</option>
+            <option value="templates/template7.png">Template 7</option>
+        </select>
+
+        <!-- Orientation Options -->
+        <label>
+            <input type="radio" name="orientation" value="portrait" checked> Portrait
+        </label>
+        <label>
+            <input type="radio" name="orientation" value="landscape"> Landscape
+        </label>
+
+        <!-- Paper Size Options -->
+        <select id="paperSize">
+            <option value="A4">A4</option>
+            <option value="A5">A5</option>
+        </select>
+
+        <button id="generate">Generate Certificate</button>
+    </div>
+    
+    <div id="certificate" class="certificate">
+        <h2>Certificate of Achievement</h2>
+        <p>This certifies that</p>
+        <h3 id="nameDisplay"></h3>
+        <p>has completed the course successfully.</p>
+        <p>Lessons Learned:</p>
+        <ul id="lessonsDisplay"></ul>
+        <p>Date: <span id="dateDisplay"></span></p>
+    </div>
+
+    <button id="download" style="display: none;">Download Certificate</button>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="certificates.js"></script>
+</body>
+</html>

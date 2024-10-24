@@ -110,6 +110,7 @@
                      <li><a role="menuitem" href="./OrgCharts.html" class="OverlayMenu2-effect"><i class="fa fa-street-view overlay-icon"></i>Organization&nbsp;Charts</a></li>
                      <li><a role="menuitem" href="./Report.html" class="OverlayMenu2-effect"><i class="fa fa-calculator overlay-icon"></i>Report</a></li>
                      <li><a role="menuitem" href="calendar.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Calendar</a></li>
+                     <li><a role="menuitem" href="./admin/certificates/certificates.html" class="OverlayMenu2-effect"><i class="fa fa-calendar overlay-icon"></i>Education Admin</a></li>
                      <li><a role="menuitem" href="music_player.html" class="OverlayMenu2-effect"><i class="fa fa-music overlay-icon"></i>Music&nbsp;Player</a></li>
                   </ul>
                </div>
@@ -649,7 +650,7 @@
       <a href="#home"><i class="fas fa-home"></i><span>Beliefs</span></a>
     </div>
     <div class="drawer-item">
-      <a href="#profile"><i class="fas fa-user"></i><span>Manual</span></a>
+      <a href="./vop/churchManual.html"><i class="fas fa-user"></i><span>Manual</span></a>
     </div>
     <div class="drawer-item">
       <a href="./vop/vop.html"><i class="fas fa-envelope"></i><span>V.O.P</span></a>
@@ -765,6 +766,204 @@
     <script src="./vop/dailyMessages.js"></script>
     <script src="./vop/quarterly.js"></script>
 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Tap Dictionary</title>
+    <style>
+/* Style for the popup menu */
+.popup-menu-unique {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+/* Horizontal layout for buttons */
+.popup-menu-unique button {
+    display: inline-block;
+    margin: 0 10px; /* Adds space between buttons horizontally */
+    background-color: transparent;
+    border: none;
+    font-size: 32px; /* Make the icons bigger */
+    cursor: pointer;
+    color: black; /* Change icon color to black or any preferred color */
+}
+
+.popup-menu-unique button:hover {
+    color: #555; /* Slightly change color on hover for feedback */
+}
+
+.popup-menu-unique button:focus {
+    outline: none; /* Remove focus border */
+}
+
+/* Modal styling */
+.modal-unique {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-unique {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content-unique h2 {
+    margin-top: 0;
+}
+
+.close-unique {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-unique:hover,
+.close-unique:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <!-- Popup Menu -->
+    <div id="popup-menu-unique" class="popup-menu-unique">
+        <button id="copy-btn-unique">📇</button> <!-- Clipboard icon -->
+        <button id="dictionary-btn-unique">🔍</button> <!-- Magnifying glass icon -->
+    </div>
+
+    <!-- Modal for dictionary definition -->
+    <div id="dictionary-modal-unique" class="modal-unique">
+        <div class="modal-content-unique">
+            <span class="close-unique">&times;</span>
+            <h2 id="definition-header-unique">Definition of ...</h2>
+            <p id="definition-content-unique">Loading definition...</p>
+        </div>
+    </div>
+
+    <!-- Include your dictionary files -->
+    <script src="dictionary1.js"></script>
+    <script src="dictionary2.js"></script>
+    <script src="dictionary.js"></script>
+
+    <script>
+        let selectedWord = '';
+        let popupMenu = document.getElementById('popup-menu-unique');
+        let dictionaryModal = document.getElementById('dictionary-modal-unique');
+        let tapCount = 0;
+        let tapTimer;
+        const tapThreshold = 500; // Maximum time allowed between taps (ms)
+        const maxTaps = 3;
+
+        // Detect triple taps on the body
+        document.body.addEventListener('touchend', function (e) {
+            tapCount++;
+            if (tapCount === 1) {
+                tapTimer = setTimeout(() => {
+                    tapCount = 0; // Reset tap count after tapThreshold
+                }, tapThreshold);
+            } else if (tapCount === maxTaps) {
+                clearTimeout(tapTimer); // Clear the timer for triple tap
+
+                // Get the word at the tapped location
+                selectedWord = getSelectedWord(e);
+                if (selectedWord) {
+                    showPopupMenu(e.changedTouches[0].pageX, e.changedTouches[0].pageY);
+                }
+                tapCount = 0; // Reset tap count after triple tap
+            }
+        });
+
+        // Get the word where the tap occurred
+        function getSelectedWord(e) {
+            const range = document.caretRangeFromPoint(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+            if (range) {
+                const textNode = range.startContainer;
+                const offset = range.startOffset;
+
+                // Get the text content before and after the tapped position
+                const text = textNode.textContent;
+
+                // Find the word by expanding to the left and right from the tap position
+                const leftText = text.slice(0, offset).split(/\s+/).pop(); // Text before the tap
+                const rightText = text.slice(offset).split(/\s+/)[0]; // Text after the tap
+
+                // Combine the left and right parts to get the full word
+                const word = leftText + rightText;
+                return word;
+            }
+            return '';
+        }
+
+        // Show the popup menu at the selected position
+        function showPopupMenu(x, y) {
+            popupMenu.style.display = 'block';
+            popupMenu.style.left = `${x}px`;
+            popupMenu.style.top = `${y}px`;
+        }
+
+        // Hide the popup menu
+        function hidePopupMenu() {
+            popupMenu.style.display = 'none';
+        }
+
+        // Copy selected word to clipboard without notification
+        document.getElementById('copy-btn-unique').addEventListener('click', function () {
+            navigator.clipboard.writeText(selectedWord);
+            hidePopupMenu();
+        });
+
+        // Fetch the word definition and display it in a modal
+        document.getElementById('dictionary-btn-unique').addEventListener('click', function () {
+            fetchDefinition(selectedWord);
+            hidePopupMenu();
+        });
+
+        // Modify the fetchDefinition function
+        function fetchDefinition(word) {
+            const definition = dictionary[word.toLowerCase()]; // Get the definition
+            const header = document.getElementById('definition-header-unique'); // Get the header element
+            header.innerText = `Definition of ${word}`; // Set the header to the word
+
+            if (definition) {
+                document.getElementById('definition-content-unique').innerText = definition; // Use the correct ID
+            } else {
+                document.getElementById('definition-content-unique').innerText = "Definition not found."; // Use the correct ID
+            }
+            dictionaryModal.style.display = 'block'; // Show the modal
+        }
+
+        // Close the modal when the close button is clicked
+        document.querySelector('.close-unique').addEventListener('click', function () {
+            dictionaryModal.style.display = 'none'; // Hide the modal
+        });
+
+        // Close the popup menu or modal when clicking outside
+        document.addEventListener('click', function (event) {
+            const isPopupMenu = popupMenu.contains(event.target);
+            const isDictionaryModal = dictionaryModal.contains(event.target);
+            const isCloseButton = document.querySelector('.close-unique').contains(event.target);
+
+            if (!isPopupMenu && !isDictionaryModal && !isCloseButton) {
+                hidePopupMenu(); // Hide the popup menu if clicking outside
+                dictionaryModal.style.display = 'none'; // Hide the modal if clicking outside
+            }
+        });
+    </script>
 </body>
 </html>
-

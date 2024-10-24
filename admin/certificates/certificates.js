@@ -158,7 +158,7 @@ document.getElementById('generate').addEventListener('click', function () {
         document.getElementById('download').style.display = 'inline-block';
     });
 
-document.getElementById('download').addEventListener('click', function () {
+document.getElementById('generate').addEventListener('click', function () {
     const name = document.getElementById('name').value;
     const lessonsInputs = document.querySelectorAll('.lesson');
     const template = document.getElementById('templateSelect').value;
@@ -199,7 +199,6 @@ document.getElementById('download').addEventListener('click', function () {
     document.getElementById('download').style.display = 'inline-block';
 });
 
-// Replace this part with the updated code to generate the PDF with background
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
 
@@ -215,7 +214,7 @@ document.getElementById('download').addEventListener('click', function () {
         jsPDF: { unit: 'mm', format: paperSize === 'A4' ? 'a4' : 'a5', orientation: orientation }
     };
 
-    // Use html2pdf to generate the PDF
+    // Generate PDF with background and text
     html2pdf().from(certificate).set(options).save();
 });
 });

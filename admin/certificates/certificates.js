@@ -158,7 +158,7 @@ document.getElementById('generate').addEventListener('click', function () {
         document.getElementById('download').style.display = 'inline-block';
     });
 
-document.getElementById('generate').addEventListener('click', function () {
+document.getElementById('download').addEventListener('click', function () {
     const name = document.getElementById('name').value;
     const lessonsInputs = document.querySelectorAll('.lesson');
     const template = document.getElementById('templateSelect').value;

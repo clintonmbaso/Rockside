@@ -15,16 +15,40 @@ body {
     margin-bottom: 10px;
 }
 
-/* Default Styles */
+/* Default styles for the certificate */
 #certificate {
-    width: 100%;
-    height: 100%;
-    text-align: center;
     display: none;
-    position: relative;
-    background-size: cover;
+    margin: 0 auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 50px;
+    background-position: center;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* A4 Portrait */
+.a4-portrait {
+    width: 210mm;
+    height: 297mm;
+}
+
+/* A4 Landscape */
+.a4-landscape {
+    width: 297mm;
+    height: 210mm;
+}
+
+/* A5 Portrait */
+.a5-portrait {
+    width: 148mm;
+    height: 210mm;
+}
+
+/* A5 Landscape */
+.a5-landscape {
+    width: 210mm;
+    height: 148mm;
 }
 
 /* Template 1 Styles */

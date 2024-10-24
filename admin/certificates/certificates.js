@@ -23,6 +23,79 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Function to update the certificate size and orientation in real time
+function updateCertificateSizeAndOrientation() {
+    const orientation = document.querySelector('input[name="orientation"]:checked').value;
+    const paperSize = document.getElementById('paperSize').value;
+    const certificate = document.getElementById('certificate');
+
+    // Clear previously applied classes
+    certificate.classList.remove('a4-portrait', 'a4-landscape', 'a5-portrait', 'a5-landscape');
+
+    // Apply the correct class based on paper size and orientation
+    if (paperSize === 'A4' && orientation === 'portrait') {
+        certificate.classList.add('a4-portrait');
+    } else if (paperSize === 'A4' && orientation === 'landscape') {
+        certificate.classList.add('a4-landscape');
+    } else if (paperSize === 'A5' && orientation === 'portrait') {
+        certificate.classList.add('a5-portrait');
+    } else if (paperSize === 'A5' && orientation === 'landscape') {
+        certificate.classList.add('a5-landscape');
+    }
+}
+
+// Event listeners to update the design when paper size or orientation is changed
+document.getElementById('paperSize').addEventListener('change', updateCertificateSizeAndOrientation);
+document.querySelectorAll('input[name="orientation"]').forEach(radio => {
+    radio.addEventListener('change', updateCertificateSizeAndOrientation);
+});
+
+// Initial call to apply default settings on page load
+updateCertificateSizeAndOrientation();
+
+document.getElementById('generate').addEventListener('click', function () {
+    const name = document.getElementById('name').value;
+    const lessonsInputs = document.querySelectorAll('.lesson');
+    const template = document.getElementById('templateSelect').value;
+
+    if (name.trim() === '' || lessonsInputs.length === 0 || template === '') {
+        alert('Please fill out all fields and select a template.');
+        return;
+    }
+
+    // Collect lessons
+    const lessons = Array.from(lessonsInputs).map(input => input.value.trim()).filter(Boolean);
+
+    if (lessons.length === 0) {
+        alert('Please enter at least one lesson.');
+        return;
+    }
+
+    const certificate = document.getElementById('certificate');
+
+    // Apply the template background image
+    certificate.style.backgroundImage = `url('${template}')`;
+    certificate.style.display = 'block';
+
+    // Set content
+    document.getElementById('nameDisplay').textContent = name;
+
+    const lessonsDisplay = document.getElementById('lessonsDisplay');
+    lessonsDisplay.innerHTML = '';  // Clear previous lessons
+    lessons.forEach((lesson, index) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `Lesson ${index + 1}: ${lesson}`;
+        lessonsDisplay.appendChild(listItem);
+    });
+
+    document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString();
+
+    // Display the download button
+    document.getElementById('download').style.display = 'inline-block';
+});
+    
+    
+    
     // Handle template selection and apply styles
     document.getElementById('generate').addEventListener('click', function () {
         const name = document.getElementById('name').value;
@@ -49,12 +122,20 @@ document.addEventListener('DOMContentLoaded', () => {
         certificate.classList.remove('template1', 'template2', 'template3');
 
         // Apply the template-specific class
-        if (template === 'template1.png') {
+        if (template === 'templates/template1.png') {
             certificate.classList.add('template1');
-        } else if (template === 'template2.png') {
+        } else if (template === 'templates/template2.png') {
             certificate.classList.add('template2');
-        } else if (template === 'template3.png') {
+        } else if (template === 'templates/template3.png') {
             certificate.classList.add('template3');
+        } else if (template === 'templates/template4.png') {
+            certificate.classList.add('template4');
+        } else if (template === 'templates/template5.png') {
+            certificate.classList.add('template5');
+        } else if (template === 'templates/template6.png') {
+            certificate.classList.add('template6');
+        } else if (template === 'templates/template7.png') {
+            certificate.classList.add('template7');
         }
 
         // Set the background image based on the selected template
@@ -77,54 +158,64 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('download').style.display = 'inline-block';
     });
 
-    document.getElementById('download').addEventListener('click', function () {
-        const { jsPDF } = window.jspdf;
-        const name = document.getElementById('nameDisplay').textContent;
-        const lessonsList = Array.from(document.getElementById('lessonsDisplay').children);
-        const lessons = lessonsList.map(item => item.textContent);
-        const date = document.getElementById('dateDisplay').textContent;
+document.getElementById('generate').addEventListener('click', function () {
+    const name = document.getElementById('name').value;
+    const lessonsInputs = document.querySelectorAll('.lesson');
+    const template = document.getElementById('templateSelect').value;
 
-        const orientation = document.querySelector('input[name="orientation"]:checked').value;
-        const paperSize = document.getElementById('paperSize').value;
+    if (name.trim() === '' || lessonsInputs.length === 0 || template === '') {
+        alert('Please fill out all fields and select a template.');
+        return;
+    }
 
-        // Map selected paper size to jsPDF dimensions
-        let dimensions;
-        if (paperSize === 'A4') {
-            dimensions = [210, 297];  // A4 size in mm
-        } else if (paperSize === 'A5') {
-            dimensions = [148, 210];  // A5 size in mm
-        }
+    // Collect lessons
+    const lessons = Array.from(lessonsInputs).map(input => input.value.trim()).filter(Boolean);
 
-        // Adjust for landscape if selected
-        if (orientation === 'landscape') {
-            dimensions.reverse();
-        }
+    if (lessons.length === 0) {
+        alert('Please enter at least one lesson.');
+        return;
+    }
 
-        const doc = new jsPDF({
-            orientation: orientation,
-            unit: 'mm',
-            format: dimensions
-        });
+    const certificate = document.getElementById('certificate');
 
-        doc.setFontSize(20);
-        doc.text('Certificate of Achievement', dimensions[0] / 2, 40, { align: 'center' });
-        doc.setFontSize(14);
-        doc.text('This certifies that', dimensions[0] / 2, 70, { align: 'center' });
-        doc.setFontSize(24);
-        doc.text(name, dimensions[0] / 2, 100, { align: 'center' });
-        doc.setFontSize(14);
-        doc.text('has completed the course successfully.', dimensions[0] / 2, 130, { align: 'center' });
-        doc.text('Lessons Learned:', dimensions[0] / 2, 150, { align: 'center' });
+    // Apply the template background image
+    certificate.style.backgroundImage = `url('${template}')`;
+    certificate.style.display = 'block';
 
-        // Add lessons in the PDF
-        lessons.forEach((lesson, index) => {
-            doc.setFontSize(12);
-            doc.text(`${index + 1}. ${lesson}`, dimensions[0] / 2, 160 + (index * 10), { align: 'center' });
-        });
+    // Set content
+    document.getElementById('nameDisplay').textContent = name;
 
-        doc.setFontSize(14);
-        doc.text(`Date: ${date}`, dimensions[0] / 2, 180 + (lessons.length * 10), { align: 'center' });
-
-        doc.save('certificate.pdf');
+    const lessonsDisplay = document.getElementById('lessonsDisplay');
+    lessonsDisplay.innerHTML = '';  // Clear previous lessons
+    lessons.forEach((lesson, index) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `Lesson ${index + 1}: ${lesson}`;
+        lessonsDisplay.appendChild(listItem);
     });
+
+    document.getElementById('dateDisplay').textContent = new Date().toLocaleDateString();
+
+    // Display the download button
+    document.getElementById('download').style.display = 'inline-block';
+});
+
+// Replace this part with the updated code to generate the PDF with background
+document.getElementById('download').addEventListener('click', function () {
+    const certificate = document.getElementById('certificate');
+
+    // Set options for the PDF generation (including orientation and format)
+    const orientation = document.querySelector('input[name="orientation"]:checked').value;
+    const paperSize = document.getElementById('paperSize').value;
+
+    const options = {
+        margin: 0,
+        filename: 'certificate.pdf',
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { scale: 2, useCORS: true }, // Ensures the background is rendered properly
+        jsPDF: { unit: 'mm', format: paperSize === 'A4' ? 'a4' : 'a5', orientation: orientation }
+    };
+
+    // Use html2pdf to generate the PDF
+    html2pdf().from(certificate).set(options).save();
+});
 });

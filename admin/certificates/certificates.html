@@ -29,19 +29,17 @@
             <option value="templates/template7.png">Template 7</option>
         </select>
 
-        <!-- Orientation Options -->
-        <label>
-            <input type="radio" name="orientation" value="portrait" checked> Portrait
-        </label>
-        <label>
-            <input type="radio" name="orientation" value="landscape"> Landscape
-        </label>
+<!-- Paper size selection -->
+<label for="paperSize">Paper Size:</label>
+<select id="paperSize">
+    <option value="A4">A4</option>
+    <option value="A5">A5</option>
+</select>
 
-        <!-- Paper Size Options -->
-        <select id="paperSize">
-            <option value="A4">A4</option>
-            <option value="A5">A5</option>
-        </select>
+<!-- Orientation selection -->
+<label>Orientation:</label>
+<input type="radio" name="orientation" value="portrait" checked> Portrait
+<input type="radio" name="orientation" value="landscape"> Landscape
 
         <button id="generate">Generate Certificate</button>
     </div>

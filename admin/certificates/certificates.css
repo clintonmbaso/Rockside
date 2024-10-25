@@ -79,16 +79,26 @@ body.a5-landscape {
 /* Template 1 Styles */
 .template1 #nameDisplay {
     font-family: 'Times New Roman', serif;
-    font-size: 90px;
-    color: #1a1a1a;
+    font-size: 70px;
+    color: blueviolet;
     position: absolute;
     top: 70%;  /* Relative to the height of the certificate */
-    left: 100%;  /* Relative to the width of the certificate */
+    left: 120%;  /* Relative to the width of the certificate */
     right: 0%; /* Keep some padding on the right */
     text-align: center;  /* Ensure the name is centered */
     white-space: nowrap; 
 }
-
+.template1 #title {
+    font-family: 'Times New Roman', serif;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 25%;  /* Relative to the height of the certificate */
+    left: 10%;  /* Relative to the width of the certificate */
+    right: 0%; /* Keep some padding on the right */
+    text-align: center;  /* Ensure the name is centered */
+    white-space: nowrap; 
+}
 /* Prevent text wrapping for lesson items */
 #lessonsDisplay li {
     white-space: nowrap;  /* Prevent text wrapping */
@@ -117,7 +127,17 @@ body.a5-landscape {
     right: 5%;  /* Padding on the right for spacing */
     text-align: center;
 }
-
+.template2 #title {
+    font-family: 'Times New Roman', serif;
+    font-size: 70px;
+    color: brown;
+    position: absolute;
+    top: 25%;  /* Relative to the height of the certificate */
+    left: 0%;  /* Relative to the width of the certificate */
+    right: 10%; /* Keep some padding on the right */
+    text-align: center;  /* Ensure the name is centered */
+    white-space: nowrap; 
+}
 .template2 #lessonsDisplay li {
     font-family: 'Verdana', sans-serif;
     font-size: 16px;

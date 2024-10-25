@@ -23,16 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Function to update the certificate size and orientation in real time
 function updateCertificateSizeAndOrientation() {
     const orientation = document.querySelector('input[name="orientation"]:checked').value;
     const paperSize = document.getElementById('paperSize').value;
     const certificate = document.getElementById('certificate');
 
-    // Clear previously applied classes
+    // Remove previously applied classes
     certificate.classList.remove('a4-portrait', 'a4-landscape', 'a5-portrait', 'a5-landscape');
 
-    // Apply the correct class based on paper size and orientation
+    // Apply the new size and orientation class
     if (paperSize === 'A4' && orientation === 'portrait') {
         certificate.classList.add('a4-portrait');
     } else if (paperSize === 'A4' && orientation === 'landscape') {
@@ -119,7 +118,7 @@ document.getElementById('generate').addEventListener('click', function () {
         }
 
         // Clear previously applied template classes
-        certificate.classList.remove('template1', 'template2', 'template3');
+        certificate.classList.remove('template1', 'template2', 'template3', 'template4', 'template5', 'template6');
 
         // Apply the template-specific class
         if (template === 'templates/template1.png') {

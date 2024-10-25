@@ -23,25 +23,45 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+// Function to update the certificate size and orientation in real time
+// Function to update the certificate size and orientation in real time
 function updateCertificateSizeAndOrientation() {
     const orientation = document.querySelector('input[name="orientation"]:checked').value;
     const paperSize = document.getElementById('paperSize').value;
     const certificate = document.getElementById('certificate');
+    const body = document.body;
 
-    // Remove previously applied classes
+    // Clear previously applied classes on certificate and body
     certificate.classList.remove('a4-portrait', 'a4-landscape', 'a5-portrait', 'a5-landscape');
+    body.classList.remove('a4-portrait', 'a4-landscape', 'a5-portrait', 'a5-landscape');
 
-    // Apply the new size and orientation class
+    // Apply the correct class based on paper size and orientation
     if (paperSize === 'A4' && orientation === 'portrait') {
         certificate.classList.add('a4-portrait');
+        body.classList.add('a4-portrait');
     } else if (paperSize === 'A4' && orientation === 'landscape') {
         certificate.classList.add('a4-landscape');
+        body.classList.add('a4-landscape');
     } else if (paperSize === 'A5' && orientation === 'portrait') {
         certificate.classList.add('a5-portrait');
+        body.classList.add('a5-portrait');
     } else if (paperSize === 'A5' && orientation === 'landscape') {
         certificate.classList.add('a5-landscape');
+        body.classList.add('a5-landscape');
     }
+    
+    // Adjust body width dynamically to match the certificate width
+    document.body.style.width = certificate.style.width;
 }
+
+// Event listeners to update the design when paper size or orientation is changed
+document.getElementById('paperSize').addEventListener('change', updateCertificateSizeAndOrientation);
+document.querySelectorAll('input[name="orientation"]').forEach(radio => {
+    radio.addEventListener('change', updateCertificateSizeAndOrientation);
+});
+
+// Initial call to apply default settings on page load
+updateCertificateSizeAndOrientation();
 
 // Event listeners to update the design when paper size or orientation is changed
 document.getElementById('paperSize').addEventListener('change', updateCertificateSizeAndOrientation);

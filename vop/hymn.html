@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hymn Book</title>
+    <link rel="stylesheet" href="hymn.css">
+</head>
+<body>
+
+    <!-- Button to Open Modal -->
+    <button id="openHymnModal">Open First Hymn</button>
+
+
+
+    <!-- Modal Structure -->
+    <div id="hymnModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+                <!-- Search Input -->
+    <input type="text" id="searchInput" placeholder="Search hymns...">
+
+    <!-- Dropdown for Hymn Titles -->
+    <select id="hymnDropdown">
+        <option value="">Select a hymn</option>
+    </select>
+            
+            
+            
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button data-lang="english">English</button>
+                <button data-lang="tonga">Tonga</button>
+                <button data-lang="lozi">Lozi</button>
+                <button data-lang="chewa">Chewa</button>
+                <button data-lang="bemba">Bemba</button>
+            </div>
+
+            <!-- Hymn Title -->
+            <h2 id="number"></h2>
+            <h2 id="hymnTitle">Hymn Title</h2>
+            <h2 id="reference"></h2>
+            <h2 id="key"></h2>
+            <p id="hymnLyrics">Hymn content will be loaded here.</p>
+
+            <!-- Dial Pad Button -->
+            <button id="toggleDialPad">&#9744;</button>
+
+            <!-- Dial Pad -->
+            <div id="dialPad" class="hidden">
+                <div class="dial-buttons">
+                    <button class="1">1</button>
+                    <button class="2">2</button>
+                    <button class="3">3</button>
+                    <button class="4">4</button>
+                    <button class="5">5</button>
+                    <button class="6">6</button>
+                    <button class="7">7</button>
+                    <button class="8">8</button>
+                    <button class="9">9</button>
+                    <button class="0">0</button>
+                </div>
+                <button id="loadHymnByNumber">Sing</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="./hymns/hymnEnglish.js"></script>
+    <script src="./hymns/hymnTonga.js"></script>
+    <script src="./hymns/hymnLozi.js"></script>
+    <script src="./hymns/hymnChewa.js"></script>
+    <script src="./hymns/hymnBemba.js"></script>
+    <script src="hymn.js"></script>
+</body>
+</html>

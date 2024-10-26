@@ -1333,6 +1333,8 @@ const dailyMessages = [
         or visit <a href="http://greatcontroversyproject.com">greatcontroversyproject.com</a> for more details.</p>
     `
 },
+
+// Lesson 6
 {
     date: new Date(2024, 10, 2),
     title: "Saturday",
@@ -1397,6 +1399,8 @@ const dailyMessages = [
         <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
     `
 },
+
+// Lesson 7
 {
     date: new Date(2024, 10, 9),
     title: "Saturday",
@@ -1461,6 +1465,402 @@ const dailyMessages = [
         <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
     `
 },
+
+// Lesson 8
+{
+    date: new Date(2024, 10, 2),
+    title: "Saturday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 3),
+    title: "Sunday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 4),
+    title: "Monday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 5),
+    title: "Tuesday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 6),
+    title: "Wednesday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 7),
+    title: "Thursday",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Further Thought",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Story",
+    lesson: "8",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 9
+{
+    date: new Date(2024, 10, 9),
+    title: "Saturday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 10),
+    title: "Sunday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 11),
+    title: "Monday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 12),
+    title: "Tuesday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 13),
+    title: "Wednesday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 14),
+    title: "Thursday",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Further Thought",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Story",
+    lesson: "9",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 10
+{
+    date: new Date(2024, 10, 2),
+    title: "Saturday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 3),
+    title: "Sunday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 4),
+    title: "Monday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 5),
+    title: "Tuesday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 6),
+    title: "Wednesday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 7),
+    title: "Thursday",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Further Thought",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Story",
+    lesson: "10",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 11
+{
+    date: new Date(2024, 10, 9),
+    title: "Saturday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 10),
+    title: "Sunday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 11),
+    title: "Monday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 12),
+    title: "Tuesday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 13),
+    title: "Wednesday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 14),
+    title: "Thursday",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Further Thought",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Story",
+    lesson: "11",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 12
+{
+    date: new Date(2024, 10, 2),
+    title: "Saturday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 3),
+    title: "Sunday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 4),
+    title: "Monday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 5),
+    title: "Tuesday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 6),
+    title: "Wednesday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 7),
+    title: "Thursday",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Further Thought",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 8),
+    title: "Story",
+    lesson: "12",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+
+// Lesson 13
+{
+    date: new Date(2024, 10, 9),
+    title: "Saturday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 10),
+    title: "Sunday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 11),
+    title: "Monday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 12),
+    title: "Tuesday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 13),
+    title: "Wednesday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 14),
+    title: "Thursday",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Further Thought",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+},
+{
+    date: new Date(2024, 10, 15),
+    title: "Story",
+    lesson: "13",
+    text: `
+        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+    `
+}
 
 ];
 

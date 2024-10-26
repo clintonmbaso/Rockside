@@ -159,6 +159,18 @@ function getBibleVerse(verse) {
     const bookChapter = parts[0].trim(); // Get the book and chapter
     let versesText = `<h3 class="bookChapter">${bookChapter}</h3>`; // Add book and chapter as heading
 
+        // Get the chapter and handle cases for books starting with numbers
+    const chapterVerse = parts[1].trim();
+    const chapterParts = chapterVerse.split(':'); // Split chapter and verse if present
+    const chapterNumber = chapterParts[0];
+    const verses = chapterParts.length > 1 ? chapterParts[1].trim() : null;
+
+    // Function to add a verse to the versesText
+    const addVerse = (verseNumber) => {
+        const verseKey = `${bookChapter}:${verseNumber}`;
+        versesText += `<p><strong>${verseNumber}</strong> ${getVerseText(verseKey)}</p>`; // Append each verse with its number
+    };
+    
     // Check for ranges or multiple verses
     if (verse.includes('-')) {
         // Verse range like "Genesis 1:1-3"
@@ -181,7 +193,7 @@ function getBibleVerse(verse) {
         const verseNumber = parts[1].trim();
         const verseKey = `${bookChapter}:${verseNumber}`;
         versesText += `<p><strong>${verseNumber}</strong> ${getVerseText(verseKey)}</p>`; // Add the single verse with its number
-    }
+    } 
 
     return versesText || '<p>Verse not available</p>';
 }
@@ -190,23 +202,70 @@ function getBibleVerse(verse) {
 function getVerseText(verseKey) {
     return (
         bibleVerses1[verseKey] || 
-        bibleVerses2[verseKey] || 
-        
+        bibleVerses2[verseKey] ||
+        bibleVerses3[verseKey] ||     
+        bibleVerses4[verseKey] ||     
+        bibleVerses5[verseKey] || 
+        bibleVerses6[verseKey] ||     
+        bibleVerses7[verseKey] ||     
+        bibleVerses8[verseKey] ||     
+        bibleVerses9[verseKey] ||
+        bibleVerses10[verseKey] || 
+        bibleVerses11[verseKey] ||
+        bibleVerses12[verseKey] ||
+        bibleVerses13[verseKey] ||     
+        bibleVerses14[verseKey] ||     
+        bibleVerses15[verseKey] || 
+        bibleVerses16[verseKey] ||
+        bibleVerses17[verseKey] || 
+        bibleVerses18[verseKey] || 
+        bibleVerses19[verseKey] || 
+        bibleVerses20[verseKey] || 
+        bibleVerses21[verseKey] ||
+        bibleVerses22[verseKey] ||
+        bibleVerses23[verseKey] || 
+        bibleVerses24[verseKey] ||
+        bibleVerses25[verseKey] || 
+        bibleVerses26[verseKey] ||
         bibleVerses27[verseKey] || 
+        bibleVerses28[verseKey] || 
+        bibleVerses29[verseKey] || 
+        bibleVerses30[verseKey] || 
+        bibleVerses31[verseKey] || 
+        bibleVerses32[verseKey] || 
+        bibleVerses33[verseKey] ||     
+        bibleVerses34[verseKey] ||
+        bibleVerses35[verseKey] || 
+        bibleVerses36[verseKey] ||
+        bibleVerses37[verseKey] || 
+        bibleVerses38[verseKey] || 
+        bibleVerses39[verseKey] || 
     
         bibleVerses40[verseKey] || 
         bibleVerses41[verseKey] ||
         bibleVerses42[verseKey] ||
         bibleVerses43[verseKey] ||
-    
+        bibleVerses44[verseKey] || 
+        bibleVerses45[verseKey] ||     
+        bibleVerses46[verseKey] ||     
+        bibleVerses47[verseKey] ||     
         bibleVerses48[verseKey] ||
         bibleVerses49[verseKey] ||
         bibleVerses50[verseKey] ||
         bibleVerses51[verseKey] ||
-    
+        bibleVerses52[verseKey] ||     
+        bibleVerses53[verseKey] ||         
+        bibleVerses54[verseKey] ||         
+        bibleVerses55[verseKey] ||         
+        bibleVerses56[verseKey] ||         
+        bibleVerses57[verseKey] ||         
+        bibleVerses58[verseKey] ||         
+        bibleVerses59[verseKey] ||
         bibleVerses60[verseKey] ||
         bibleVerses61[verseKey] ||
-    
+        bibleVerses62[verseKey] ||         
+        bibleVerses63[verseKey] ||             
+        bibleVerses64[verseKey] ||
         bibleVerses65[verseKey] ||
         bibleVerses66[verseKey] ||
         `Verse ${verseKey.split(':')[1]}: verse not available`

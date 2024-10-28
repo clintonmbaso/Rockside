@@ -119,13 +119,14 @@ body.a5-landscape {
 /* Template 2 Styles */
 .template2 #nameDisplay {
     font-family: 'Courier New', monospace;
-    font-size: 28px;
-    color: #ffffff;
+    font-size: 70px;
+    color: blueviolet;
     position: absolute;
-    top: 20%;  /* Adjust the top positioning */
-    left: 5%;  /* More padding on the left */
-    right: 5%;  /* Padding on the right for spacing */
-    text-align: center;
+    top: 90%;  /* Relative to the height of the certificate */
+    left: 150%;  /* Relative to the width of the certificate */
+    right: 0%; /* Keep some padding on the right */
+    text-align: center;  /* Ensure the name is centered */
+    white-space: nowrap; 
 }
 .template2 #title {
     font-family: 'Times New Roman', serif;
@@ -143,6 +144,8 @@ body.a5-landscape {
     font-size: 16px;
     color: #000;
     text-align: center;
+    top: 270%;  /* Relative to the height of the certificate */
+    left: 150%;  /* Relative to the width of the certificate */
     margin: 8px 0;
     width: 90%;  /* Ensure the lessons take up the available space */
     margin-left: 5%;

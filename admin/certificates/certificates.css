@@ -118,11 +118,11 @@ body.a5-landscape {
 
 /* Template 2 Styles */
 .template2 #nameDisplay {
-    font-family: 'Advantage', sans-serif;
-    font-size: 65px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px;
     color: blueviolet;
     position: absolute;
-    top: 60%;  /* Relative to the height of the certificate */
+    top: 65%;  /* Relative to the height of the certificate */
     left: 160%;  /* Relative to the width of the certificate */
     right: 0%; /* Keep some padding on the right */
     text-align: center;  /* Ensure the name is centered */

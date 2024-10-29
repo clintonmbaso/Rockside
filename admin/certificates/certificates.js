@@ -311,21 +311,23 @@ document.getElementById('generate').addEventListener('click', function () {
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
 
-    // Delay to ensure that dynamic content has fully rendered
-    setTimeout(() => {
-        html2canvas(certificate, { scale: window.devicePixelRatio || 2, useCORS: true })
-            .then(canvas => {
-                const link = document.createElement('a');
-                link.href = canvas.toDataURL('image/png', 1.0);
-                link.download = 'certificate.png';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            })
-            .catch(error => {
-                console.error("Error capturing the element:", error);
-            });
-    }, 100);  // 100ms delay to allow rendering
+    // Wait for fonts to load before capturing the element
+    document.fonts.ready.then(() => {
+        setTimeout(() => {
+            html2canvas(certificate, { scale: window.devicePixelRatio || 2, useCORS: true })
+                .then(canvas => {
+                    const link = document.createElement('a');
+                    link.href = canvas.toDataURL('image/png', 1.0);  // High quality
+                    link.download = 'certificate.png';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                })
+                .catch(error => {
+                    console.error("Error capturing the element:", error);
+                });
+        }, 100);  // Adjust delay if necessary
+    });
 });
     
 });

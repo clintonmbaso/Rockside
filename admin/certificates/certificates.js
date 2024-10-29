@@ -311,14 +311,15 @@ document.getElementById('generate').addEventListener('click', function () {
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
 
-    domtoimage.toPng(certificate)
-        .then(function (dataUrl) {
+    // Add delay to ensure rendering
+    setTimeout(() => {
+        html2canvas(certificate, { scale: 2, useCORS: true }).then(canvas => {
             const link = document.createElement('a');
-            link.href = dataUrl;
+            link.href = canvas.toDataURL('image/png', 1.0); // High-quality PNG
             link.download = 'certificate.png';
             link.click();
-        })
-        .catch(error => console.error('Error capturing the element:', error));
+        }).catch(error => console.error('Capture error:', error));
+    }, 500);  // Adjust delay as necessary
 });
     
 });

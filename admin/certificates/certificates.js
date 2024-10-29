@@ -168,7 +168,7 @@ document.getElementById('generate').addEventListener('click', function () {
         lessonsDisplay.innerHTML = '';  // Clear any previous entries
         lessons.forEach((lesson, index) => {
             const listItem = document.createElement('li');
-            listItem.textContent = `Lesson ${index + 1}: ${lesson}`;
+            listItem.textContent = `Honour ${index + 1}: ${lesson}`;
             lessonsDisplay.appendChild(listItem);
         });
 
@@ -218,22 +218,104 @@ document.getElementById('generate').addEventListener('click', function () {
     document.getElementById('download').style.display = 'inline-block';
 });
 
+    
+    
+    const saveButton = document.getElementById('save');
+    const savedEntriesDropdown = document.getElementById('savedEntries');
+    
+    // Function to save the current form data to local storage
+    saveButton.addEventListener('click', () => {
+        const name = document.getElementById('name').value;
+        const lessonsInputs = document.querySelectorAll('.lesson');
+        const template = document.getElementById('templateSelect').value;
+        const paperSize = document.getElementById('paperSize').value;
+        const orientation = document.querySelector('input[name="orientation"]:checked').value;
+
+        // Collect lessons
+        const lessons = Array.from(lessonsInputs).map(input => input.value.trim()).filter(Boolean);
+        
+        if (name.trim() === '' || lessons.length === 0 || template === '') {
+            alert('Please fill out all fields before saving.');
+            return;
+        }
+
+        // Create an entry object
+        const entry = {
+            name,
+            lessons,
+            template,
+            paperSize,
+            orientation
+        };
+
+        // Save entry to local storage
+        let savedEntries = JSON.parse(localStorage.getItem('savedEntries')) || [];
+        savedEntries.push(entry);
+        localStorage.setItem('savedEntries', JSON.stringify(savedEntries));
+        
+        alert('Entry saved successfully!');
+
+        // Update dropdown with the new entry
+        updateSavedEntriesDropdown();
+    });
+
+    // Function to populate the dropdown with saved entries
+    function updateSavedEntriesDropdown() {
+        // Clear existing options except the first one
+        savedEntriesDropdown.innerHTML = '<option value="">Select a saved entry</option>';
+        
+        const savedEntries = JSON.parse(localStorage.getItem('savedEntries')) || [];
+        savedEntries.forEach((entry, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = entry.name;
+            savedEntriesDropdown.appendChild(option);
+        });
+    }
+
+    // Load the selected entry from the dropdown
+    savedEntriesDropdown.addEventListener('change', () => {
+        const selectedIndex = savedEntriesDropdown.value;
+        if (selectedIndex === "") return;
+
+        const savedEntries = JSON.parse(localStorage.getItem('savedEntries')) || [];
+        const selectedEntry = savedEntries[selectedIndex];
+
+        // Populate form fields with selected entry details
+        document.getElementById('name').value = selectedEntry.name;
+        document.getElementById('templateSelect').value = selectedEntry.template;
+        document.getElementById('paperSize').value = selectedEntry.paperSize;
+        document.querySelector(`input[name="orientation"][value="${selectedEntry.orientation}"]`).checked = true;
+
+        // Populate lessons
+        const lessonsContainer = document.getElementById('lessonsContainer');
+        lessonsContainer.innerHTML = ''; // Clear existing inputs
+        selectedEntry.lessons.forEach((lesson, index) => {
+            const newLesson = document.createElement('input');
+            newLesson.type = 'text';
+            newLesson.name = 'lesson';
+            newLesson.classList.add('lesson');
+            newLesson.placeholder = `Lesson ${index + 1}`;
+            newLesson.value = lesson;
+            lessonsContainer.appendChild(newLesson);
+        });
+    });
+
+    // Initial load to populate dropdown with any saved entries
+    updateSavedEntriesDropdown();
+
+    
+    
+    
+    
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
 
-    // Set options for the PDF generation (including orientation and format)
-    const orientation = document.querySelector('input[name="orientation"]:checked').value;
-    const paperSize = document.getElementById('paperSize').value;
-
-    const options = {
-        margin: 0,
-        filename: 'certificate.pdf',
-        image: { type: 'jpeg', quality: 1 },
-        html2canvas: { scale: 2, useCORS: true }, // Ensures the background is rendered properly
-        jsPDF: { unit: 'mm', format: paperSize === 'A4' ? 'a4' : 'a5', orientation: orientation }
-    };
-
-    // Generate PDF with background and text
-    html2pdf().from(certificate).set(options).save();
+    html2canvas(certificate, { scale: 2, useCORS: true }).then(canvas => {
+        const link = document.createElement('a');
+        link.href = canvas.toDataURL('image/png', 1.0); // 1.0 ensures high quality
+        link.download = 'certificate.png';
+        link.click();
+    });
 });
 });

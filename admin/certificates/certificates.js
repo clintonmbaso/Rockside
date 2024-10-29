@@ -310,12 +310,24 @@ document.getElementById('generate').addEventListener('click', function () {
     
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
+    
+    if (!certificate) {
+        console.error("Element with ID 'certificate' not found.");
+        return;
+    }
 
-    html2canvas(certificate, { scale: 2, useCORS: true }).then(canvas => {
-        const link = document.createElement('a');
-        link.href = canvas.toDataURL('image/png', 1.0); // 1.0 ensures high quality
-        link.download = 'certificate.png';
-        link.click();
-    });
+    html2canvas(certificate, { scale: window.devicePixelRatio || 2, useCORS: true })
+        .then(canvas => {
+            const link = document.createElement('a');
+            link.href = canvas.toDataURL('image/png', 1.0);
+            link.download = 'certificate.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        })
+        .catch(error => {
+            console.error("Error capturing the element:", error);
+        });
 });
+    
 });

@@ -133,11 +133,11 @@ body.a5-landscape {
 /* Template 2 Styles */
 .template2 #nameDisplay {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     color: blueviolet;
     position: absolute;
-    top: 6.8%;  
-    left: 15%;  
+    top: 10%;  
+    left: 16%;  
     right: 0%;
     text-align: center; 
     white-space: nowrap;
@@ -155,16 +155,16 @@ body.a5-landscape {
 }
 .template2 #lessonsDisplay {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 30px;
+    font-size: 22px;
     color: #000;
     text-align: center;
-    top: 8%;
-    left: 6%;  
+    top: 20%;
+    left: 14%;  
     margin: 8px 0;
     width: 90%;  
     margin-left: 5%;
     position: absolute;
-    gap: 0 55%;
+    gap: 0 25%;
 }
 
 /* Template 5 Styles */

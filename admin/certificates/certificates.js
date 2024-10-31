@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         newLesson.type = 'text';
         newLesson.name = 'lesson';
         newLesson.classList.add('lesson');
-        newLesson.placeholder = `Lesson ${lessonCount + 1}`;
+        newLesson.placeholder = `Honour ${lessonCount + 1}`;
         lessonsContainer.appendChild(newLesson);
     });
 
@@ -103,7 +103,7 @@ document.getElementById('generate').addEventListener('click', function () {
     lessonsDisplay.innerHTML = '';  // Clear previous lessons
     lessons.forEach((lesson, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `Lesson ${index + 1}: ${lesson}`;
+        listItem.textContent = `Honour ${index + 1}: ${lesson}`;
         lessonsDisplay.appendChild(listItem);
     });
 
@@ -208,7 +208,7 @@ document.getElementById('generate').addEventListener('click', function () {
     lessonsDisplay.innerHTML = '';  // Clear previous lessons
     lessons.forEach((lesson, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `Lesson ${index + 1}: ${lesson}`;
+        listItem.textContent = `Honour ${index + 1}: ${lesson}`;
         lessonsDisplay.appendChild(listItem);
     });
 
@@ -219,8 +219,9 @@ document.getElementById('generate').addEventListener('click', function () {
 });
 
     
-    
     const saveButton = document.getElementById('save');
+    const deleteButton = document.getElementById('delete');
+    const updateButton = document.getElementById('update');
     const savedEntriesDropdown = document.getElementById('savedEntries');
     
     // Function to save the current form data to local storage
@@ -295,15 +296,76 @@ document.getElementById('generate').addEventListener('click', function () {
             newLesson.type = 'text';
             newLesson.name = 'lesson';
             newLesson.classList.add('lesson');
-            newLesson.placeholder = `Lesson ${index + 1}`;
+            newLesson.placeholder = `Honour ${index + 1}`;
             newLesson.value = lesson;
             lessonsContainer.appendChild(newLesson);
         });
     });
 
+    // Function to delete the selected entry
+    deleteButton.addEventListener('click', () => {
+        const selectedIndex = savedEntriesDropdown.value;
+        if (selectedIndex === "") {
+            alert("Please select an entry to delete.");
+            return;
+        }
+
+        let savedEntries = JSON.parse(localStorage.getItem('savedEntries')) || [];
+        savedEntries.splice(selectedIndex, 1); // Remove the selected entry
+        localStorage.setItem('savedEntries', JSON.stringify(savedEntries));
+        
+        alert('Entry deleted successfully!');
+        
+        // Clear form and update dropdown
+        clearForm();
+        updateSavedEntriesDropdown();
+    });
+
+    // Function to update the selected entry
+    updateButton.addEventListener('click', () => {
+        const selectedIndex = savedEntriesDropdown.value;
+        if (selectedIndex === "") {
+            alert("Please select an entry to update.");
+            return;
+        }
+
+        const name = document.getElementById('name').value;
+        const lessonsInputs = document.querySelectorAll('.lesson');
+        const template = document.getElementById('templateSelect').value;
+        const paperSize = document.getElementById('paperSize').value;
+        const orientation = document.querySelector('input[name="orientation"]:checked').value;
+
+        const lessons = Array.from(lessonsInputs).map(input => input.value.trim()).filter(Boolean);
+
+        if (name.trim() === '' || lessons.length === 0 || template === '') {
+            alert('Please fill out all fields before updating.');
+            return;
+        }
+
+        // Update the selected entry with new data
+        let savedEntries = JSON.parse(localStorage.getItem('savedEntries')) || [];
+        savedEntries[selectedIndex] = { name, lessons, template, paperSize, orientation };
+        localStorage.setItem('savedEntries', JSON.stringify(savedEntries));
+
+        alert('Entry updated successfully!');
+        
+        // Update dropdown with the modified entry
+        updateSavedEntriesDropdown();
+    });
+
     // Initial load to populate dropdown with any saved entries
     updateSavedEntriesDropdown();
 
+    // Function to clear the form fields
+    function clearForm() {
+        document.getElementById('name').value = '';
+        document.getElementById('templateSelect').value = '';
+        document.getElementById('paperSize').value = '';
+        document.querySelectorAll('input[name="orientation"]').forEach(input => input.checked = false);
+
+        const lessonsContainer = document.getElementById('lessonsContainer');
+        lessonsContainer.innerHTML = ''; // Clear lessons input fields
+    }
     
     
     
@@ -311,15 +373,20 @@ document.getElementById('generate').addEventListener('click', function () {
 document.getElementById('download').addEventListener('click', function () {
     const certificate = document.getElementById('certificate');
 
-    // Add delay to ensure rendering
-    setTimeout(() => {
-        html2canvas(certificate, { scale: 2, useCORS: true }).then(canvas => {
-            const link = document.createElement('a');
-            link.href = canvas.toDataURL('image/png', 1.0); // High-quality PNG
-            link.download = 'certificate.png';
-            link.click();
-        }).catch(error => console.error('Capture error:', error));
-    }, 500);  // Adjust delay as necessary
+    // Wait for fonts to load before capturing the element
+    document.fonts.ready.then(() => {
+        setTimeout(() => {
+            html2canvas(document.body, { scale: 2, useCORS: true }).then(canvas => {
+    const link = document.createElement('a');
+    link.href = canvas.toDataURL('image/png', 1.0); // High quality
+    link.download = 'certificate.png';
+    link.click();
+})
+                .catch(error => {
+                    console.error("Error capturing the element:", error);
+                });
+        }, 100);  // Adjust delay if necessary
+    });
 });
     
 });

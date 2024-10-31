@@ -10,17 +10,116 @@
     <link href="https://fonts.googleapis.com/css2?family=Advantage&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dom-to-image@2.6.0/src/dom-to-image.min.js"></script>
+    <style>
+
+
+/* Container Styling */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-family: 'Advantage', sans-serif;
+}
+
+/* Input Fields */
+input[type="text"], select {
+    width: calc(100% - 2rem);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-family: 'Advantage', sans-serif;
+    margin: 0.5rem 0.25rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#addLesson, #removeLesson {
+    padding: 0.5rem;
+    width: 40px;
+}
+
+#download {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+/* Dynamic Lessons Styling */
+#lessonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lesson {
+    margin: 0.5rem 0;
+}
+
+/* Additional Form Elements */
+label, input[type="radio"] {
+    font-size: 0.9rem;
+    color: #333;
+    margin-right: 0.5rem;
+}
+
+select {
+    margin-bottom: 1rem;
+}
+
+/* Select Dropdown */
+#templateSelect, #savedEntries {
+    margin: 0.5rem 0;
+}
+    
+    #why {
+    align-self: flex-end;
+}
+    
+    </style>
 </head>
 <body>
     
     <div id="certificate" class="a4-portrait"> <!-- Example class -->
     <div id="certificate-content">
-        <div id="nameDisplay"></div>        
-        <ol id="lessonsDisplay">
+        
+        <div id="nameDisplay"></div>
+            <ol id="lessonsDisplay">
             <li></li>
         </ol>
-        <p id="dateDisplay"></p>
-    </div>
+        </div>
+        <!--<p id="dateDisplay"></p>-->
+    
 </div>
     <div class="container">
         
@@ -34,6 +133,8 @@
         <button type="button" id="addLesson">+</button>
         <button type="button" id="removeLesson">-</button>
 
+        
+<div id="why" style="display: flex; justify-content: space-between;">
         <select id="templateSelect">
             <option value="">Select a Template</option>
             <option value="templates/template1.png">Template 1</option>
@@ -46,25 +147,30 @@
         </select>
 
 <!-- Paper size selection -->
-<label for="paperSize">Paper Size:</label>
 <select id="paperSize">
     <option value="A4">A4</option>
     <option value="A5">A5</option>
 </select>
 
 <!-- Orientation selection -->
-<label>Orientation:</label>
 <input type="radio" name="orientation" value="portrait" checked> Portrait
 <input type="radio" name="orientation" value="landscape"> Landscape
-
+    </div>
+    
         <button id="generate">Generate Certificate</button>
     </div>
     
-
-<button id="save">Save</button>
+<div id="why" style="display: flex; justify-content: space-between;">
+    <button id="save">Save</button>
+    <button id="delete">Delete</button>
+    <button id="update">Update</button>
+</div>
+    
 <select id="savedEntries">
     <option value="">Select a saved entry</option>
 </select>
+    
+    
     <button id="download" style="display: none;">Download Certificate</button>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>

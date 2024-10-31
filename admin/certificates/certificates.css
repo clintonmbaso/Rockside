@@ -75,19 +75,6 @@ body.a5-landscape {
     height: auto;
     margin: 0;
 }
-
-/* Template 1 Styles */
-.template1 #nameDisplay {
-    font-family: 'Times New Roman', serif;
-    font-size: 70px;
-    color: blueviolet;
-    position: absolute;
-    top: 70%;  /* Relative to the height of the certificate */
-    left: 120%;  /* Relative to the width of the certificate */
-    right: 0%; /* Keep some padding on the right */
-    text-align: center;  /* Ensure the name is centered */
-    white-space: nowrap; 
-}
 .template1 #title {
     font-family: 'Times New Roman', serif;
     font-size: 70px;
@@ -99,21 +86,48 @@ body.a5-landscape {
     text-align: center;  /* Ensure the name is centered */
     white-space: nowrap; 
 }
-/* Prevent text wrapping for lesson items */
-#lessonsDisplay li {
-    white-space: nowrap;  /* Prevent text wrapping */
-    overflow: hidden;     /* Hide overflow text */
-    text-overflow: ellipsis;  /* Add ellipsis for overflow */
+
+#lessonsDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+     /* Optional: Adds space between the columns */
+    list-style-type: none; /* Removes bullet points */
+    justify-content: space-between; 
 }
 
-.template1 #lessonsDisplay li {
-    font-family: 'Arial', sans-serif;
-    font-size: 30px;
-    color: #333;
-    text-align: left;
-    margin: 10px 0;
-    padding-left: 10%;  /* Relative margin to align with the width */
-    width: 80%;  /* Maintain padding around the content */
+#lessonsDisplay li {
+    padding: 5px;
+    width: 45%;
+    white-space: nowrap; 
+}
+
+
+
+
+/* Template 1 Styles */
+.template1 #nameDisplay {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px;
+    color: blueviolet;
+    position: absolute;
+    top: 66.8%;  
+    left: 160%;  
+    right: 0%;
+    text-align: center; 
+    white-space: nowrap;
+}
+.template1 #lessonsDisplay {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    top: 83%;
+    left: 60%;  
+    margin: 8px 0;
+    width: 90%;  
+    margin-left: 5%;
+    position: absolute;
+    gap: 0 55%;
 }
 
 /* Template 2 Styles */
@@ -122,58 +136,64 @@ body.a5-landscape {
     font-size: 70px;
     color: blueviolet;
     position: absolute;
-    top: 65%;  /* Relative to the height of the certificate */
-    left: 160%;  /* Relative to the width of the certificate */
-    right: 0%; /* Keep some padding on the right */
-    text-align: center;  /* Ensure the name is centered */
+    top: 66.8%;  
+    left: 160%;  
+    right: 0%;
+    text-align: center; 
     white-space: nowrap;
-    position: absolute;
 }
 .template2 #title {
     font-family: 'Times New Roman', serif;
     font-size: 50px;
     color: brown;
     position: absolute;
-    top: 25%;  /* Relative to the height of the certificate */
+    top: 27%;  /* Relative to the height of the certificate */
     left: 0%;  /* Relative to the width of the certificate */
     right: 10%; /* Keep some padding on the right */
     text-align: center;  /* Ensure the name is centered */
     white-space: nowrap; 
 }
-.template2 #lessonsDisplay li {
-    font-family: 'Verdana', sans-serif;
-    font-size: 20px;
+.template2 #lessonsDisplay {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 30px;
     color: #000;
     text-align: center;
-    top: 88%;  /* Relative to the height of the certificate */
-    left: 60%;  /* Relative to the width of the certificate */
+    top: 85%;
+    left: 60%;  
     margin: 8px 0;
-    width: 90%;  /* Ensure the lessons take up the available space */
+    width: 90%;  
     margin-left: 5%;
     position: absolute;
+    gap: 0 55%;
 }
 
-/* Template 3 Styles */
-.template3 #nameDisplay {
-    font-family: 'Georgia', serif;
-    font-size: 36px;
-    color: #ff6347;
+/* Template 5 Styles */
+.template5 #nameDisplay {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px;
+    color: blueviolet;
     position: absolute;
-    top: 15%;  /* Relative to height for dynamic positioning */
-    left: 0;
-    right: 0;
-    text-align: center;  /* Center the name */
+    top: 94%;  
+    left: 65%;
+    text-align: center;
+    white-space: nowrap;
 }
 
-.template3 #lessonsDisplay li {
+.template5 #lessonsDisplay {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 18px;
+    font-size: 20px;
     color: #2f4f4f;
     text-align: left;
+    top: 115%;
+    left: 15%; 
+    right: 0%;
     margin: 12px 0;
-    padding-left: 10%;  /* Align the lessons better */
-    width: 80%;  /* Fit within the container */
+    padding-left: 10%;
+    width: 80%; 
+    position: absolute;
+    gap: 0 70%;
 }
+
 
 /* Date styles */
 #dateDisplay {

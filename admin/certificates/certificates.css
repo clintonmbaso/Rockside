@@ -136,8 +136,8 @@ body.a5-landscape {
     font-size: 70px;
     color: blueviolet;
     position: absolute;
-    top: 66.8%;  
-    left: 160%;  
+    top: 6.8%;  
+    left: 15%;  
     right: 0%;
     text-align: center; 
     white-space: nowrap;
@@ -147,9 +147,9 @@ body.a5-landscape {
     font-size: 50px;
     color: brown;
     position: absolute;
-    top: 27%;  /* Relative to the height of the certificate */
+    top: 7%;  /* Relative to the height of the certificate */
     left: 0%;  /* Relative to the width of the certificate */
-    right: 10%; /* Keep some padding on the right */
+    right: 5%; /* Keep some padding on the right */
     text-align: center;  /* Ensure the name is centered */
     white-space: nowrap; 
 }
@@ -158,8 +158,8 @@ body.a5-landscape {
     font-size: 30px;
     color: #000;
     text-align: center;
-    top: 85%;
-    left: 60%;  
+    top: 8%;
+    left: 6%;  
     margin: 8px 0;
     width: 90%;  
     margin-left: 5%;

@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px;
-  
+    
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
     border: 1px solid #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
+
 }
 
 /* A4 Portrait */
@@ -136,8 +137,8 @@ body.a5-landscape {
     font-size: 50px;
     color: blueviolet;
     position: absolute;
-    top: 10%;  
-    left: 16%;  
+    top: 64%;  
+    left: 9%;  
     right: 0%;
     text-align: center; 
     white-space: nowrap;
@@ -155,16 +156,16 @@ body.a5-landscape {
 }
 .template2 #lessonsDisplay {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
     text-align: center;
-    top: 20%;
+    top: 80%;  
     left: 14%;  
     margin: 8px 0;
-    width: 90%;  
-    margin-left: 5%;
+    width: 80%;  
+    margin-left: 2%;
     position: absolute;
-    gap: 0 25%;
+    gap: 0 5%;
 }
 
 /* Template 5 Styles */

@@ -378,11 +378,13 @@ document.getElementById('download').addEventListener('click', function () {
   }
   
   html2canvas(certificate, {
-    scale: window.devicePixelRatio || 4, // Increased scale for higher resolution
+    scale: window.devicePixelRatio || 6, // Increased scale for higher resolution
     useCORS: true,
     logging: true, // Optional, for debugging
     width: certificate.offsetWidth, 
-    height: certificate.offsetHeight
+    height: certificate.offsetHeight,
+    ignoreElements: null, /* Add this to include background images */
+    allowTaint: true /* Add this to allow cross-origin images */
   })
   .then(canvas => {
     const link = document.createElement('a');

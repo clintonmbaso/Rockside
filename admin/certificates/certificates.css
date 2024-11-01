@@ -134,11 +134,11 @@ body.a5-landscape {
 /* Template 2 Styles */
 .template2 #nameDisplay {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: blueviolet;
     position: absolute;
-    top: 24%;  
-    left: 9%;  
+    top: 17%;  
+    left: 10%;  
     right: 0%;
     text-align: center; 
     white-space: nowrap;
@@ -159,8 +159,8 @@ body.a5-landscape {
     font-size: 18px;
     color: #000;
     text-align: center;
-    top: 80%;  
-    left: 14%;  
+    top: 27%;  
+    left: 15%;  
     margin: 8px 0;
     width: 80%;  
     margin-left: 2%;

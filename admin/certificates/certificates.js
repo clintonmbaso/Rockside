@@ -378,7 +378,7 @@ document.getElementById('download').addEventListener('click', function () {
   }
   
   html2canvas(certificate, {
-    scale: window.devicePixelRatio || 6, // Increased scale for higher resolution
+    scale: window.devicePixelRatio || 4, // Increased scale for higher resolution
     useCORS: true,
     logging: true, // Optional, for debugging
     width: certificate.offsetWidth, 

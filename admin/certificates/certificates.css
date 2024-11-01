@@ -137,8 +137,8 @@ body.a5-landscape {
     font-size: 70px;
     color: blueviolet;
     position: absolute;
-    top: 18%;  
-    left: 11%;  
+    top: 19%;  
+    left: 13%;  
     right: 0%;
     text-align: center; 
     white-space: nowrap;
@@ -159,13 +159,13 @@ body.a5-landscape {
     font-size: 18px;
     color: #000;
     text-align: center;
-    top: 24%;  
-    left: 15%;  
+    top: 20%;  
+    left: 20%;  
     margin: 8px 0;
     width: 80%;  
     margin-left: 2%;
     position: absolute;
-    gap: 0 5%;
+    gap: 0 3%;
 }
 
 /* Template 5 Styles */

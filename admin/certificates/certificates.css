@@ -26,7 +26,7 @@ body {
     border: 1px solid #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
-
+   background-image-resolution: 300dpi;
 }
 
 /* A4 Portrait */

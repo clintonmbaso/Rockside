@@ -1337,50 +1337,230 @@ const dailyMessages = [
 // Lesson 6
 {
     date: new Date(2024, 10, 2),
-    title: "Saturday",
+    title: "More Testimonies About Jesus",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read for This Week’s Study:</strong> <span class="bible-verse" data-verse="John 3:25-36">John 3:25–36</span>, 
+        <span class="bible-verse" data-verse="John 1:32-36">John 1:32–36</span>, 
+        <span class="bible-verse" data-verse="Dan. 7:18">Dan. 7:18</span>, 
+        <span class="bible-verse" data-verse="John 6:51-71">John 6:51–71</span>, 
+        <span class="bible-verse" data-verse="John 5:36-38">John 5:36–38</span>, 
+        <span class="bible-verse" data-verse="John 7:37-53">John 7:37–53</span>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        
+        <blockquote>“ ‘And I, if I am lifted up from the earth, will draw all peoples to Myself’ ” (<span class="bible-verse" data-verse="John 12:32">John 12:32, NKJV</span>).</blockquote>
+
+        <p>Jesus doesn’t merely say astonishing things about Himself or about who He is or about who sent Him or about where He came from. 
+        He also showed who He is by the miracles and signs that He performed. As some openly testify of Jesus: 
+        “ ‘When the Christ comes, will He do more signs than these which this Man has done?’ ” (<span class="bible-verse" data-verse="John 7:31">John 7:31, NKJV</span>).</p>
+
+        <p>He backed up His words with actions that proved the truth of His words.</p>
+
+        <p>But as the drama continues, a division begins among the people. The healing of the man by the pool of Bethesda 
+        attracts the ire of some leaders. The discussion in Capernaum following the feeding of the 5,000 results in the rejection 
+        of Jesus by the multitudes. The resurrection of Lazarus creates faith in some but triggers in others a hostility 
+        that will lead to the trial and execution of Jesus.</p>
+
+        <p>This week’s lesson looks at some of those who witnessed and testified about Jesus. In each of these incidents, 
+        some aspects of who Jesus really is are revealed, and together they create a deeper vision of Jesus, the Messiah.</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, November 9.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 3),
-    title: "Sunday",
+    title: "Humility of Soul: John the Baptist Testifies Again",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Lesson 2 described how the witness of John the Baptist brought the first disciples—Andrew and John, 
+        Peter, Philip, and Nathanael—to Jesus. One would expect that the Baptist, having given his witness, 
+        would move off the scene. But he reappears several times in the Gospel of John.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 3:25-36">John 3:25–36</span>. 
+        How does John the Baptist compare himself to Jesus?</p>
+
+        <p>A dispute arose between John the Baptist’s disciples and an unnamed Jew about purification, likely 
+        a question over the efficacy of baptism (compare with <span class="bible-verse" data-verse="Mark 1:4-5">Mark 1:4, 5</span>). 
+        Interestingly, when his disciples come to John, no doubt to resolve the question, they bring up Jesus, 
+        saying, “ ‘He is baptizing, and all are going to him’ ” (<span class="bible-verse" data-verse="John 3:26">John 3:26, ESV</span>). 
+        It is not hard to read between the lines: they are jealous of Jesus—jealous for their master and jealous 
+        for themselves, as well.</p>
+
+        <p>It would be all too easy for John to indulge in the jealousy, but he does not because he knows what 
+        his mission is. Instead, he reminds his disciples that he never claimed to be the Christ. On the contrary: 
+        he came to point toward Him, to prepare the way for Him, to be a witness about Him 
+        (<span class="bible-verse" data-verse="John 1:6-8">John 1:6–8</span>).</p>
+
+        <p>Using the illustration of a wedding, he calls himself the friend of the bridegroom, with Jesus as 
+        the bridegroom. The bride would be the people of God (compare with <span class="bible-verse" data-verse="Hosea 2:16-23">Hos. 2:16–23</span> 
+        and <span class="bible-verse" data-verse="Isaiah 62:1-5">Isa. 62:1–5</span>). Then, in words that show John’s true greatness, 
+        he says, “He must increase, but I must decrease” (<span class="bible-verse" data-verse="John 3:30">John 3:30</span>).</p>
+
+        <p><span class="bible-verse" data-verse="John 3:31-36">John 3:31–36</span> continues the comparison between Jesus and John, 
+        showing the superiority of the Messiah over His forerunner. With John’s testimony pointing toward Jesus, 
+        the idea of witness is again emphasized. Those who receive that testimony and believe in Jesus have 
+        eternal life. Those who do not receive Him remain under the wrath of God. That’s what the text says. 
+        God loves the world and sent His Son to redeem the world (<span class="bible-verse" data-verse="John 3:16-17">John 3:16, 17</span>). 
+        But those who refuse the gift offered them will have to pay the penalty for their own sins—eternal death.</p>
+
+        <p><em>How can we learn the lesson of humility before both God and humanity? What can we learn from 
+        the example of John here about humility of the soul?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 4),
-    title: "Monday",
+    title: "A New Understanding of the Messiah",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:32-36">John 1:32–36</span>. 
+        What does John the Baptist say here about Jesus that the people were not expecting about the long-awaited Messiah?</p>
+
+        <p>The Jews looked for a Messiah to come who would deliver them from the rule of Rome. Long under oppression, 
+        the Jews believed that the Messiah would not only overthrow Rome but would establish them as a great and powerful nation. 
+        John’s words, however, calling Jesus “the Lamb of God,” although directly pointing to His atoning sacrifice, 
+        were probably misunderstood by the majority of people. They might have not known what he was talking about at all.</p>
+
+        <p>Thus, John with his Gospel wanted to change their understanding of the Messiah so that they could recognize in Jesus 
+        the fulfillment of the prophecies regarding the coming King and what He would do. He was not coming as a political 
+        and military leader but to offer Himself as a sacrifice for the sins of the world. That was His purpose. Only after 
+        that, when all is finished, will the final kingdom come (see <span class="bible-verse" data-verse="Daniel 7:18">Dan. 7:18</span>).</p>
+
+        <p>“When at the baptism of Jesus, John pointed to Him as the Lamb of God, a new light was shed upon the Messiah’s work. 
+        The prophet’s mind was directed to the words of Isaiah, ‘He is brought as a lamb to the slaughter.’ 
+        <span class="bible-verse" data-verse="Isaiah 53:7">Isa. 53:7</span>.”—Ellen G. White, <em>The Desire of Ages</em>, p. 136.</p>
+
+        <p>In <span class="bible-verse" data-verse="John 1:31">John 1:31</span>, John says “ ‘I did not know Him’ ” (NKJV). 
+        So, how then did John come to know Jesus as the Messiah? The answer is that the Lord who sent John had previously said to him, 
+        “ ‘ “Upon whom you see the Spirit descending, and remaining on Him, this is He who baptizes with the Holy Spirit.” And I have 
+        seen and testified that this is the Son of God’ ” 
+        (<span class="bible-verse" data-verse="John 1:33-34">John 1:33, 34, NKJV</span>). In other words, God revealed to John that 
+        Jesus was the Messiah.</p>
+
+        <p>“Christ [is] the power of God and the wisdom of God” (<span class="bible-verse" data-verse="1 Corinthians 1:24">1 Cor. 1:24, NKJV</span>). 
+        Knowledge that Jesus is the Christ comes from God Himself through the convicting power of His Spirit. This theme appears 
+        frequently in John. Salvation does not come from worldly philosophy, science, or higher learning. It comes only from God 
+        to a heart surrendered in faith and obedience to Jesus.</p>
+
+        <p><em>How would we know the truth about Jesus as our atoning sacrifice unless it were revealed to us? 
+        Why, then, is knowing the Bible and what it teaches about Jesus so crucial?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 5),
-    title: "Tuesday",
+    title: "Acceptance and Rejection",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Lesson 2</strong> described the feeding of the 5,000 in <span class="bible-verse" data-verse="John 6">John 6</span> 
+        but did not cover the final section of that story, which is studied here.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 6:51-71">John 6:51–71</span>. What did Jesus say that people 
+        had trouble accepting?</p>
+
+        <p>Having just been fed, miraculously, by Jesus, the people were ready to crown Him king 
+        (<span class="bible-verse" data-verse="John 6:1-15">John 6:1–15</span>). But in talking with them later at the Capernaum synagogue, 
+        He explains the spiritual meaning of the miracle, saying, “I am the bread of life” (<span class="bible-verse" data-verse="John 6:35">John 6:35</span>). 
+        He expounds in more detail that this bread is His flesh, which He gives for the life of the world 
+        (<span class="bible-verse" data-verse="John 6:51">John 6:51</span>).</p>
+
+        <p>This saying opened the eyes of the multitude to the fact that Jesus would not be their earthly king. 
+        He did not fit the mold produced by earthly thinking. They refused conversion, which would transform the 
+        way they thought so that they could recognize and accept Jesus as the Messiah. Many of His disciples left 
+        Him at this point (<span class="bible-verse" data-verse="John 6:66">John 6:66</span>).</p>
+
+        <p>From a human sense, this must have been hard for Jesus. The approbation of the crowd is pleasing. 
+        Who doesn’t want to be liked? But seeing many people draw back and question one’s principles is naturally 
+        discouraging, as well. Seeing the multitude depart, Jesus asks His inner circle, the Twelve, if they want 
+        to leave, too.</p>
+
+        <p>This is when Peter makes his amazing confession, another witness as to both what Jesus has and who He is. 
+        “ ‘You have the words of eternal life, and we have believed, and have come to know, that you are the Holy 
+        One of God’ ” (<span class="bible-verse" data-verse="John 6:68-69">John 6:68, 69, ESV</span>).</p>
+
+        <p>The disciples had been with Jesus for a couple of years, traveling with Him, seeing His miracles, hearing 
+        His sermons. They knew from experience that there was no one comparable to Him. The conviction settled upon 
+        them that, however unusual some situations might be, this man was the Messiah—regardless of how much they 
+        still didn't understand about His purpose for coming. Only after His death and resurrection did they start 
+        to understand why Jesus came.</p>
+
+        <p><em>What can we learn from this story about the fact that the majority is usually wrong? Why must we remember this, 
+        especially with the aspects of our faith that are unpopular with the ­majority—even the majority of Christians?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 6),
-    title: "Wednesday",
+    title: "The Witness of the Father",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>The Gospel of John begins by talking about the Word (logos) as being with God; that is, being with God the Father 
+        (<span class="bible-verse" data-verse="John 1:1">John 1:1</span>). When the Word became flesh, the Spirit testified 
+        about Jesus by resting on Him at His baptism (<span class="bible-verse" data-verse="John 1:32-34">John 1:32–34</span>). 
+        But the Father also testifies about Jesus during His earthly ministry.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 5:36-38">John 5:36–38</span>. What does Jesus say here about the Father?</p>
+
+        <p>Jesus links the Father to the works and miracles that He had performed. He is very clear that the Father had sent Him 
+        and also had testified about Him.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Matthew 3:17">Matthew 3:17</span>, <span class="bible-verse" data-verse="Matthew 17:5">Matthew 17:5</span>, 
+        <span class="bible-verse" data-verse="Mark 1:11">Mark 1:11</span>, and <span class="bible-verse" data-verse="Luke 3:22">Luke 3:22</span> 
+        (see also <span class="bible-verse" data-verse="2 Peter 1:17-18">2 Pet. 1:17, 18</span>). What does the Father say about Jesus?</p>
+
+        <p>At the baptism of Jesus, the Father and the Spirit joined the Son in marking this important occasion: the commencement 
+        of Jesus’ ministry. The Father states that Jesus is His beloved Son in whom He is well pleased. But, at a crucial time in 
+        Christ’s ministry, the Father speaks yet again, this time as recorded in the Gospel of John.</p>
+
+        <p>Things were reaching a climax in the final days of that ministry. The religious leaders, unable to stop Him 
+        (see <span class="bible-verse" data-verse="John 12:19">John 12:19</span>), wanted Him dead, now more than ever. The crowds 
+        were exuberant over Him, especially as more and more people, hearing the testimony of those who saw Him raise Lazarus 
+        from the dead (<span class="bible-verse" data-verse="John 12:17-18">John 12:17, 18</span>), were starting to follow Jesus. 
+        Even Greeks, there for the festival, wanted to see Jesus.</p>
+
+        <p>At this point, in response to Jesus’ words in <span class="bible-verse" data-verse="John 12:28">John 12:28</span>, 
+        “ ‘Father, glorify Your name’ ” (NKJV), the Father again speaks from heaven, “ ‘I have glorified it, and I will glorify it again’ ” 
+        (<span class="bible-verse" data-verse="John 12:28">John 12:28, ESV</span>).</p>
+
+        <p>As we have already seen, Jesus’ hour of glory is the cross. Thus, the Father’s testimony about Jesus points to the great 
+        sacrifice of the Lamb of God for the sins of the world. It is the culmination of His earthly ministry. His death in our 
+        behalf paid the full penalty for all our sins, and in Him, by faith, we never have to face that penalty ourselves.</p>
     `
 },
 {
     date: new Date(2024, 10, 7),
-    title: "Thursday",
+    title: "The Witness of the Crowd",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Scripture:</strong> “On the last day, that great day of the feast, Jesus stood and cried out, 
+        saying, ‘If anyone thirsts, let him come to Me and drink. He who believes in Me, as the Scripture has said, 
+        out of his heart will flow rivers of living water’ ” (<span class="bible-verse" data-verse="John 7:37-38">John 7:37, 38, NKJV</span>).</p>
+
+        <p>John recorded, numerous times, Jesus making bold statements about Himself, about who He was and what He came to do.</p>
+
+        <p>The lines quoted above from <span class="bible-verse" data-verse="John 7:37-38">John 7:37, 38</span> are another example of 
+        what Jesus claimed about Himself and about what He would do to all who come to Him. These were astonishing claims, as well.</p>
+
+        <p><strong>Reflection:</strong> When Jesus spoke to the Jews attending the Feast of Tabernacles, what was the response of many in the crowd? 
+        (See <span class="bible-verse" data-verse="John 7:37-53">John 7:37–53</span>.)</p>
+
+        <p>Some said He was the Prophet like Moses predicted long ago (see <span class="bible-verse" data-verse="Deut. 18:15-19">Deut. 18:15–19</span>). 
+        Others thought Jesus was the Christ. But this brought the argument that the Messiah would not come from Galilee, that He had to be of the 
+        Davidic line, and that He had to be born in Bethlehem—all of which were true about Jesus (compare with <span class="bible-verse" data-verse="Matthew 1-2">Matthew 1–2</span>), 
+        though many did not seem to know this!</p>
+
+        <p>Even the arresting officers were stymied by Him and the eloquence of His words. The Pharisees responded to the officers with another question. 
+        “ ‘Have any of the rulers or the Pharisees believed in Him?’ ” (<span class="bible-verse" data-verse="John 7:48">John 7:48, NKJV</span>). 
+        This question from the Pharisees gave John the opportunity again to bring in Nicodemus, who, after having had his meeting with Jesus, 
+        was seeking to protect Jesus from their machinations. “ ‘Does our law judge a man before it hears him and knows what he is doing?’ ” 
+        (<span class="bible-verse" data-verse="John 7:51">John 7:51, NKJV</span>).</p>
+
+        <p>Did Nicodemus ever accept Jesus as the Messiah? Though this scene does not prove that he had, between this act and what he did 
+        after Jesus died (see <span class="bible-verse" data-verse="John 19:39-40">John 19:39, 40</span>), the Bible gives us solid evidence that 
+        Nicodemus did in fact come to believe in Him.</p>
+
+        <p>And so, the answer to their question was, yes, in fact, one of the Pharisees did believe in Him, after all.</p>
+
+        <p><strong>Reflection:</strong> Read <span class="bible-verse" data-verse="John 7:49">John 7:49</span>. What were the leaders saying 
+        that showed their disdain for the masses who followed after Jesus? What lesson might be here for us?</p>
     `
 },
 {
@@ -1388,65 +1568,352 @@ const dailyMessages = [
     title: "Further Thought",
     lesson: "6",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> Ellen G. White, “The Crisis in Galilee,” pp. 383–394; “In the Outer Court,” pp. 621–626, 
+        in <em>The Desire of Ages</em>.</p>
+
+        <p>“ ‘To whom shall we go?’ The teachers of Israel were slaves to formalism. The Pharisees and Sadducees were in constant 
+        contention. To leave Jesus was to fall among sticklers for rites and ceremonies, and ambitious men who sought their own glory. 
+        The disciples had found more peace and joy since they had accepted Christ than in all their previous lives. How could they go back 
+        to those who had scorned and persecuted the Friend of sinners? They had long been looking for the Messiah; now He had come, and they 
+        could not turn from His presence to those who were hunting His life, and had persecuted them for becoming His followers.</p>
+
+        <p>“ ‘To whom shall we go?’ Not from the teaching of Christ, His lessons of love and mercy, to the darkness of unbelief, the 
+        wickedness of the world. While the Saviour was forsaken by many who had witnessed His wonderful works, Peter expressed the faith of 
+        the disciples,—‘Thou art that Christ.’ The very thought of losing this anchor of their souls filled them with fear and pain. 
+        To be destitute of a Saviour was to be adrift on a dark and stormy sea.”—Ellen G. White, <em>The Desire of Ages</em>, p. 393.</p>
+
+        <p><strong>Discussion Questions:</strong></p>
+
+        <ul>
+            <li>In class, talk about the difficult question of why some people, when given evidence for Jesus as the Messiah and 
+            for the truth of Christianity, gladly accept it, and why others, when given that same evidence, reject it?</li>
+
+            <li>What more important truth could there be than that Jesus Christ died for our sins? Yet, how did we ever come to know 
+            this crucial truth? By science, natural law, natural theology, logic, and reason? While these things could, in fact, lead us 
+            to believe in a Creator God, a First Cause, an Unmoved Mover, or something else, none of these disciplines, either alone or even 
+            together, could teach us the most important truth that we need to know: Christ died for our sins. What should this fact—that all 
+            these disciplines, even in principle, could not lead us to the one thing that we really need to know—teach us about how crucial it 
+            is to make the Bible our final and ultimate authority on matters of faith?</li>
+
+            <li>Why is it so important for someone’s own faith to recount the things God has done in his or her life?</li>
+        </ul>
     `
 },
 {
     date: new Date(2024, 10, 8),
-    title: "Story",
+    title: "We Didn’t Send Anyone",
     lesson: "6",
+    author: "By Andrew McChesney",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>For four years, Donaldo Velasquez visited a Colombian prison every Friday to preach about Jesus. 
+        But one Friday, he couldn’t go. He worked as a carpenter, and a client urgently needed his help. 
+        Moreover, Donaldo needed the money.</p>
+
+        <p>Only four Seventh-day Adventists—Donaldo, two other church members, and their pastor—had permission 
+        to visit the prison in Acacias, and Donaldo called them for help. “No, I’m too busy,” Ranses said. 
+        Pedro also said he couldn’t go. The pastor apologized, saying he was out of town.</p>
+
+        <p>Donaldo wept and prayed. When his wife, Jesusita, asked what was wrong, he explained that he didn’t 
+        want to skip the meeting with the inmates but he needed to work. “Go, do your job,” Jesusita said. 
+        “God will provide.”</p>
+
+        <p>The next time Donaldo visited the prison, 38 inmates came to hear him preach. He was accompanied 
+        by another church member, Pedro.</p>
+
+        <p>“Where is the man who came last time?” an inmate asked.</p>
+
+        <p>“We didn’t send anyone,” Donaldo replied.</p>
+
+        <p>“Yes, you did,” said another inmate. “A man preached to us.”</p>
+
+        <p>“No, we didn’t send anyone,” Donaldo said, and he suggested that perhaps the preacher had belonged 
+        to another denomination.</p>
+
+        <p>“No, no,” the inmates said. “We know everyone who has permission to visit. This man has never visited 
+        before, and he wasn’t from another church.”</p>
+
+        <p>Donaldo asked about the man’s sermon, hoping for a clue to his identity. The inmates said he had spoken 
+        about the seventh-day Sabbath.</p>
+
+        <p>Amazed, Donaldo asked, “What did he look like?”</p>
+
+        <p>The inmates described him as a tall, well-dressed man wearing a white shirt. They said he knew the Bible 
+        so well that he probably was a teacher.</p>
+
+        <p>Pedro touched Donaldo’s arm. “An angel must have come and preached to them,” he said. “That’s the only 
+        explanation.”</p>
+
+        <p>Donaldo, however, wasn’t convinced. He went to the prison guard who registered visitors. The guard, a 
+        friend of Donaldo’s, looked through the computer log and shook his head. “No one came that day,” he said.</p>
+
+        <p>Astonished, Donaldo exclaimed, “Now I have no doubt that the angel of the Lord came to teach the Bible 
+        in my place!”</p>
+
+        <p>Returning to the inmates, he informed them that they must have seen an angel.</p>
+
+        <p>Six years have passed, and nearly all 38 inmates have given their hearts to Jesus in baptism. Donaldo said 
+        he won’t ever forget that day.</p>
+
+        <p>“Even though it is an incredible story, I believe God sent His heavenly messenger,” he said.</p>
+
+        <p><em>Thank you for your Thirteenth Sabbath Offering that helped two mission projects in Colombia last quarter.</em></p>
     `
 },
 
 // Lesson 7
 {
     date: new Date(2024, 10, 9),
-    title: "Saturday",
+    title: "Blessed Are Those Who Believe",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read for This Week’s Study:</strong> <span class="bible-verse" data-verse="John 8:54-58">John 8:54–58</span>, 
+        <span class="bible-verse" data-verse="Genesis 12:3">Gen. 12:3</span>, <span class="bible-verse" data-verse="Rom. 4:1-5">Romans 4:1–5</span>, 
+        <span class="bible-verse" data-verse="John 12:1-8">John 12:1–8</span>, <span class="bible-verse" data-verse="John 19:4-22">John 19:4–22</span>, 
+        <span class="bible-verse" data-verse="John 20:19-31">John 20:19–31</span>, <span class="bible-verse" data-verse="Daniel 2">Daniel 2</span>, 
+        <span class="bible-verse" data-verse="Daniel 7">Daniel 7</span>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+
+        <p>“Jesus said to him, ‘Thomas, because you have seen Me, you have believed. Blessed are those who have not seen and yet have believed’ ” 
+        (<span class="bible-verse" data-verse="John 20:29">John 20:29, NKJV</span>).</p>
+
+        <p>Throughout his Gospel, John has a diversity of people—people with different backgrounds, beliefs, and experiences—all testifying to who Jesus was.</p>
+
+        <p>“ ‘Behold the Lamb of God!’ ” (<span class="bible-verse" data-verse="John 1:36">John 1:36, NKJV</span>). 
+        “ ‘We have found the Messiah’ ” (<span class="bible-verse" data-verse="John 1:41">John 1:41, NKJV</span>). 
+        “ ‘We have found Him of whom Moses . . . wrote’ ” (<span class="bible-verse" data-verse="John 1:45">John 1:45, NKJV</span>). 
+        “ ‘Rabbi, You are the Son of God! You are the King of Israel!’ ” (<span class="bible-verse" data-verse="John 1:49">John 1:49, NKJV</span>). 
+        “ ‘Could this be the Christ?’ ” (<span class="bible-verse" data-verse="John 4:29">John 4:29, NKJV</span>). 
+        “ ‘We ourselves have heard Him and we know that this is indeed the Christ, the Savior of the world’ ” 
+        (<span class="bible-verse" data-verse="John 4:42">John 4:42, NKJV</span>). 
+        “ ‘Lord, to whom shall we go? You have the words of eternal life’ ” (<span class="bible-verse" data-verse="John 6:68">John 6:68, NKJV</span>). 
+        “ ‘I believe that You are the Christ, the Son of God, who is to come into the world’ ” 
+        (<span class="bible-verse" data-verse="John 11:27">John 11:27, NKJV</span>). 
+        “ ‘Though I was blind, now I see’ ” (<span class="bible-verse" data-verse="John 9:25">John 9:25, NKJV</span>). 
+        “ ‘Behold your King!’ ” (<span class="bible-verse" data-verse="John 19:14">John 19:14, NKJV</span>). 
+        “ ‘I find no fault in Him’ ” (<span class="bible-verse" data-verse="John 19:6">John 19:6, NKJV</span>). 
+        “ ‘My Lord and my God!’ ” (<span class="bible-verse" data-verse="John 20:28">John 20:28, NKJV</span>).</p>
+
+        <p>Who were some of these people, and why did they testify as they did to the identity of Jesus?</p>
+
+        <p><em>*Study this week’s lesson to prepare for Sabbath, November 16.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 10),
-    title: "Sunday",
+    title: "Harking Back to Abraham",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 8:56">John 8:56</span>. 
+        Jesus was not shy in declaring who He was, nor in calling on witnesses to testify to who He was, 
+        even witnesses who were long gone, including Abraham. “‘Your father Abraham rejoiced to see My day, 
+        and he saw it and was glad’” (<span class="bible-verse" data-verse="John 8:56">John 8:56, NKJV</span>).</p>
+
+        <p><strong>Question:</strong> Why was Abraham’s witness so important that it was included in John’s gospel? 
+        (<span class="bible-verse" data-verse="Gen 12:3">Gen. 12:3</span>, <span class="bible-verse" data-verse="Gen 18:16-18">Gen. 18:16–18</span>, 
+        <span class="bible-verse" data-verse="Gen 26:4">Gen. 26:4</span>, <span class="bible-verse" data-verse="Matt 1:1">Matt. 1:1</span>, 
+        <span class="bible-verse" data-verse="Acts 3:25">Acts 3:25</span>.)</p>
+
+        <p>“Through type and promise God ‘preached before the gospel unto Abraham.’ <span class="bible-verse" data-verse="Galatians 3:8">Galatians 3:8</span>. 
+        And the patriarch’s faith was fixed upon the Redeemer to come. Said Christ to the Jews, 
+        ‘Your father Abraham rejoiced that he should see My day; and he saw it, and was glad.’ 
+        <span class="bible-verse" data-verse="John 8:56">John 8:56</span>, R.V., margin. The ram offered in place of Isaac represented the Son of God, 
+        who was to be sacrificed in our stead. When man was doomed to death by transgression of the law of God, 
+        the Father, looking upon His Son, said to the sinner, ‘Live: I have found a ransom.’”—Ellen G. White, 
+        <em>Patriarchs and Prophets</em>, p. 154.</p>
+
+        <p>Abraham was the father of the Jewish nation. He received the promise that, through him, all nations would be blessed. 
+        This blessing came through the Messiah, born through his lineage.</p>
+
+        <p>Abraham was also the father of those who respond to God in faith 
+        (<span class="bible-verse" data-verse="Hebrews 11:8,17-19">Heb. 11:8, 17–19</span>). 
+        His willingness to sacrifice his son Isaac (<span class="bible-verse" data-verse="Genesis 22">Genesis 22</span>), 
+        the son of promise, was not only an evidence of faith but a window into the plan of salvation.</p>
+
+        <p>When Jesus said, “‘Your father Abraham rejoiced to see My day’” 
+        (<span class="bible-verse" data-verse="John 8:56">John 8:56, NKJV</span>), the leaders responded, 
+        “‘You are not yet fifty years old, and have You seen Abraham?’” 
+        (<span class="bible-verse" data-verse="John 8:57">John 8:57, NKJV</span>).</p>
+
+        <p>Jesus’ answer was astounding. “‘Most assuredly, I say to you, before Abraham was, I AM’” 
+        (<span class="bible-verse" data-verse="John 8:58">John 8:58, NKJV</span>).</p>
+
+        <p>Jesus uses language reminiscent of what God said to Moses at the burning bush. 
+        This was a claim to be God, the self-existent One. No question, the leaders understood 
+        the implication of what He said because they then “took up stones to throw at Him” 
+        (<span class="bible-verse" data-verse="John 8:59">John 8:59, NKJV</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Romans 4:1-5">Romans 4:1–5</span>. 
+        How does Paul use this story of Abraham to reveal the great truth of salvation by faith alone, 
+        without the deeds of the law? How do these verses help us understand the idea of Abraham as 
+        the father of those who live by faith?</p>
     `
 },
 {
     date: new Date(2024, 10, 11),
-    title: "Monday",
+    title: "The Witness of Mary",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Six days before Passover, Jesus came to visit Mary, Martha, and their brother Lazarus, whom Jesus had raised to life. 
+        Simon, who had been healed of leprosy, hosted a feast in appreciation for what Jesus had done for him. Martha was 
+        serving, and Lazarus was sitting at the table with the guests 
+        (<span class="bible-verse" data-verse="John 12:1-8">John 12:1–8</span>).</p>
+
+        <p><strong>What was the significance of Mary’s actions here? How was this a witness to who Jesus really was? 
+        (See <span class="bible-verse" data-verse="John 12:1-3">John 12:1–3</span>.)</strong></p>
+
+        <p>The perfume was very expensive, worth about a year’s wages for the common laborer. Mary probably brought this gift 
+        as an expression of gratitude to the Savior for the forgiveness of her sins and for the resurrection of her brother. 
+        She intended it to be used someday for the burial of Jesus. But then she heard that He would soon be anointed King. 
+        In that case, she would be the first to bring Him honor.</p>
+
+        <p>Mary probably did not intend for her gesture to be noticed, but John notes, “The house was filled with the fragrance 
+        of the perfume” (<span class="bible-verse" data-verse="John 12:3">John 12:3, ESV</span>). Judas responded with a quick 
+        rebuke, stating that the perfume should have been sold and the proceeds given to the poor. Jesus immediately put 
+        Mary at ease by stating, “ ‘Let her alone; . . . The poor you have with you always, but Me you do not have always’ ” 
+        (<span class="bible-verse" data-verse="John 12:7-8">John 12:7, 8, NKJV</span>).</p>
+
+        <p>A recurring theme runs through the Gospel. Jesus knows what is in people 
+        (<span class="bible-verse" data-verse="John 2:24-25">John 2:24, 25</span>; 
+        <span class="bible-verse" data-verse="John 6:70-71">John 6:70, 71</span>; 
+        <span class="bible-verse" data-verse="John 13:11">John 13:11</span>; 
+        <span class="bible-verse" data-verse="John 16:19">John 16:19</span>). In this instance at Simon’s feast, Jesus knows what 
+        is in Judas. John is careful to point out who Judas is—a self-serving thief 
+        (<span class="bible-verse" data-verse="John 12:6">John 12:6</span>).</p>
+
+        <p>“The fragrant gift which Mary had thought to lavish upon the dead body of the Saviour she poured upon His living 
+        form. At the burial its sweetness could only have pervaded the tomb; now it gladdened His heart with the assurance 
+        of her faith and love. . . . And as He went down into the darkness of His great trial, He carried with Him the memory 
+        of that deed, an earnest of the love that would be His from His redeemed ones forever.” —Ellen G. White, 
+        <em>The Desire of Ages</em>, p. 560.</p>
+
+        <p>Jesus knew what was in the heart of Mary and the heart of Judas. He knows what’s in your heart, as well. 
+        What should this truth tell us about the need of Christ as our righteousness, transforming us and covering us, as well?</p>
     `
 },
 {
     date: new Date(2024, 10, 12),
-    title: "Tuesday",
+    title: "The Unwitting Witness of Pilate",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Time and again, John records the attempts of the religious leaders to seize Jesus, to bring Him to trial, 
+        and to sentence Him to death. A theme in John’s Gospel, stated often by Jesus, is that His time or hour had 
+        not yet come, by which He meant the time for His crucifixion (<span class="bible-verse" data-verse="John 2:4">John 2:4</span>; 
+        <span class="bible-verse" data-verse="John 7:6">John 7:6</span>, <span class="bible-verse" data-verse="John 7:8">8</span>, 
+        <span class="bible-verse" data-verse="John 7:30">30</span>; <span class="bible-verse" data-verse="John 12:7">John 12:7</span>, 
+        <span class="bible-verse" data-verse="John 12:23">23</span>, <span class="bible-verse" data-verse="John 12:27">27</span>; 
+        <span class="bible-verse" data-verse="John 13:1">John 13:1</span>; <span class="bible-verse" data-verse="John 17:1">John 17:1</span>).</p>
+
+        <p>Now the hour had come. Jesus was arrested in the Garden of Gethsemane, brought before Annas, then Caiaphas 
+        the high priest, then twice before Pilate.</p>
+
+        <p>John has called upon many witnesses from every walk of life to testify that Jesus was the Christ. Now John 
+        calls upon Pilate, the governor who tried Jesus. This was an important testimony because Pilate was a Roman, 
+        a governor, and a judge; most of the other witnesses were Jews and commoners.</p>
+
+        <p>How is Pilate’s verdict connected to the theme of John’s Gospel? 
+        <span class="bible-verse" data-verse="John 18:38">John 18:38</span>, 
+        <span class="bible-verse" data-verse="John 19:4">John 19:4–22</span>.</p>
+
+        <p>Jesus was brought to Pilate early on Friday morning (<span class="bible-verse" data-verse="John 18:28">John 18:28</span>). 
+        His plan was to dispatch the prisoner quickly to His fate. But Jesus’ demeanor drew Pilate’s attention. 
+        The governor questioned Jesus closely and heard from His lips, “ ‘For this purpose I was born and for this 
+        purpose I have come into the world—to bear witness to the truth. Everyone who is of the truth listens to my voice’ ” 
+        (<span class="bible-verse" data-verse="John 18:37">John 18:37, ESV</span>).</p>
+
+        <p>Though the governor ultimately condemned Jesus to death, he nonetheless three times proclaimed Jesus innocent 
+        (<span class="bible-verse" data-verse="John 18:38">John 18:38</span>; 
+        <span class="bible-verse" data-verse="John 19:4">John 19:4</span>, 
+        <span class="bible-verse" data-verse="John 19:6">6</span>). And over the cross he wrote the words “ ‘Jesus of Nazareth, 
+        the King of the Jews’ ” (<span class="bible-verse" data-verse="John 19:19">John 19:19, ESV</span>), completing his 
+        witness to who Jesus is. And yet despite his testimony of Christ’s innocence, he nevertheless condemned Jesus to death.</p>
+
+        <p>Pilate had the Truth Himself standing before him and yet—allowing the mob to bully him—Pilate sentenced Jesus 
+        to death anyway! What a tragic example of not following what your conscience and heart tell you is correct!</p>
+
+        <p><em>What can we learn from Pilate’s example about the dangers of allowing popular sentiment, even pressure, 
+        to keep us from doing what we believe is right?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 13),
-    title: "Wednesday",
+    title: "The Witness of Thomas",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 20:19-31">John 20:19–31</span>. 
+        What can we learn from the story of Thomas about faith and doubt? What major mistake did Thomas make?</p>
+
+        <p>Christ appeared to the disciples after His resurrection, when they were shut up together in a room because of fear. 
+        Thomas was not with them. Later, he heard the reports of the Resurrection from the other disciples, but he despaired. 
+        It did not fit his picture of the kingdom. And, too, he surely must have wondered why Jesus would have revealed Himself 
+        to the others when he himself was not there.</p>
+
+        <p>Thomas said, “ ‘Unless I see in His hands the print of the nails, and put my finger into the print of the nails, 
+        and put my hand into His side, I will not believe’ ” (<span class="bible-verse" data-verse="John 20:25">John 20:25, NKJV</span>).</p>
+
+        <p>Thomas was dictating the conditions of his faith. This approach to faith in Jesus has appeared again and again in John. 
+        Nicodemus answered Jesus with, “ ‘How can a man be born when he is old?’ ” (<span class="bible-verse" data-verse="John 3:4">John 3:4, NKJV</span>). 
+        The woman at the well asked, “ ‘Sir, you have no bucket, and the well is deep. Where do you get that living water?’ ” 
+        (<span class="bible-verse" data-verse="John 4:11">John 4:11, NRSV</span>). The crowd who had been fed with the loaves and fishes asked, 
+        “ ‘What sign are you going to give us?’ ” (<span class="bible-verse" data-verse="John 6:30">John 6:30, NRSV</span>). </p>
+
+        <p>It is this “see and then believe” perspective that the Gospel of John counters. When Jesus met Thomas after the Resurrection, 
+        He invited him to come, see, and touch His risen body. But then He says, “ ‘Blessed are those who have not seen and yet have believed’ ” 
+        (<span class="bible-verse" data-verse="John 20:29">John 20:29, ESV</span>).</p>
+
+        <p>“God never asks us to believe, without giving sufficient evidence upon which to base our faith. His existence, His character, 
+        the truthfulness of His word, are all established by testimony that appeals to our reason; and this testimony is abundant. 
+        Yet God has never removed the possibility of doubt. Our faith must rest upon evidence, not demonstration.” 
+        —Ellen G. White, <em>Steps to Christ</em>, p. 105.</p>
+
+        <p>Through the Word of God, through the Creation, and through personal experience, we have been given an incredible amount 
+        of evidence for our faith in Jesus.</p>
+
+        <p><em>If someone were to ask you, "Why do you believe in Jesus?" what would you say?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 14),
-    title: "Thursday",
+    title: "Our Witness of Jesus",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Again and again, as John presents witnesses to Jesus, his point is to bring us to a sweeping conclusion: 
+        “And truly Jesus did many other signs in the presence of His disciples, which are not written in this book; but 
+        these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have 
+        life in His name” (<span class="bible-verse" data-verse="John 20:30-31">John 20:30, 31, NKJV</span>).</p>
+
+        <p>Imagine having been there, in person, in the flesh, and having seen Jesus do many of these miracles. 
+        We’d certainly believe, wouldn’t we? We’d like to think so; but, in some ways, we have even more reasons 
+        to believe in Jesus than did those who actually saw the miracles.</p>
+
+        <p><strong>Why?</strong></p>
+
+        <p>What are some of the things that we have today that those living at the time of Jesus didn’t have that 
+        should help us believe? (See, for example, <span class="bible-verse" data-verse="Matt 24:2">Matt. 24:2</span>, 
+        <span class="bible-verse" data-verse="Matt 24:14">Matt. 24:14</span>, 
+        <span class="bible-verse" data-verse="Matt 24:6-8">Matt. 24:6–8</span>.)</p>
+
+        <p>And that’s because we have not only the powerful accounts in John’s Gospel, but also the great advantage 
+        of seeing so much of what Jesus and other Bible writers predicted would come true, such as the destruction of 
+        the temple (<span class="bible-verse" data-verse="Matt 24:2">Matt. 24:2</span>), the spread of the gospel 
+        around the world (<span class="bible-verse" data-verse="Matt 24:14">Matt. 24:14</span>), the great falling 
+        away (<span class="bible-verse" data-verse="2 Thess 2:3">2 Thess. 2:3</span>), and the world continuing to 
+        be a fallen and evil place (<span class="bible-verse" data-verse="Matt 24:6-8">Matt. 24:6–8</span>). All during 
+        the life and ministry of Jesus, His following remained a small and harassed group of men and women who, by all 
+        human standards, should have vanished from history a long time ago. How could they have known, as we do, that 
+        all these things would come to pass? And they have. In fact, our own faith itself exists as a fulfillment of 
+        Jesus’ own prophecy that the gospel would go to all the world.</p>
+
+        <p>And, today, about two thousand years later, as followers of Jesus, we also have the privilege of bearing 
+        witness to Jesus and to what He has done for us. It is not by the reasoning of Nathanael, Nicodemus, the woman 
+        of Samaria, or the teachings of the Pharisees that we can know Jesus as the Messiah for ourselves. It is by 
+        the reading of the Scriptures under the convicting power of the Holy Spirit that we accept Jesus as the Savior 
+        of the world.</p>
+
+        <p>And then, each one of us, in our way, and out of our own relationship with God, can have a story to tell. 
+        Our story may not be as dramatic as seeing the dead raised or someone blind from birth healed, but that doesn’t 
+        matter. What matters is that we know Jesus for ourselves, and in our own way bear witness to Him, as did those 
+        in John’s Gospel.</p>
     `
 },
 {
@@ -1454,15 +1921,67 @@ const dailyMessages = [
     title: "Further Thought",
     lesson: "7",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Ellen G. White, The Test of Faith">Ellen G. White, “The Test of Faith,” pp. 145–155, in Patriarchs and Prophets</span>; 
+        <span class="bible-verse" data-verse="Ellen G. White, In Pilate’s Judgment Hall">“In Pilate’s Judgment Hall,” pp. 723–740, in The Desire of Ages</span>.</p>
+
+        <p>Thomas “cast himself at the feet of Jesus crying, ‘My Lord and my God.’ ”</p>
+
+        <p>“Jesus accepted his acknowledgment, but gently reproved his unbelief: ‘Thomas, because thou hast seen Me, thou hast believed: 
+        blessed are they that have not seen, and yet have believed.’ The faith of Thomas would have been more pleasing to Christ if he 
+        had been willing to believe upon the testimony of his brethren. Should the world now follow the example of Thomas, no one would 
+        believe unto salvation; for all who receive Christ must do so through the testimony of others.</p>
+
+        <p>“Many who are given to doubt excuse themselves by saying that if they had the evidence which Thomas had from his companions, 
+        they would believe. They do not realize that they have not only that evidence, but much more. Many who, like Thomas, wait for 
+        all cause of doubt to be removed, will never realize their desire. They gradually become confirmed in unbelief. Those who 
+        educate themselves to look on the dark side, and murmur and complain, know not what they do. They are sowing the seeds of doubt, 
+        and they will have a harvest of doubt to reap. At a time when faith and confidence are most essential, many will thus find 
+        themselves powerless to hope and believe.” —Ellen G. White, The Desire of Ages, pp. 807, 808.</p>
+
+        <p><strong>Discussion Questions:</strong></p>
+        <ul>
+            <li>What was the essential difference in the expressions of faith by Abraham and by Thomas? What can we learn from their stories?</li>
+            <li>In class, let those who are willing bear witness to Jesus, as we have seen done in the Gospel of John. Though the accounts differ, 
+            what do people say, and how do they all bear witness to the same Lord?</li>
+            <li>Pilate asked a very philosophical question: “What is truth?” Give your answer to that question in light of all we have studied in John.</li>
+            <li>Look at the prophecies of Daniel 2 and 7. Though those in the time of Jesus had these two chapters, what great advantage do we 
+            have today that they didn’t have back then, in terms of seeing those prophecies fulfilled and thus having even more reasons to believe?</li>
+        </ul>
     `
 },
 {
     date: new Date(2024, 10, 15),
-    title: "Story",
+    title: "From Pin Trader to Camper",
     lesson: "7",
+    author: "By Andrew McChesney",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Jacob Pierce’s whole family loved trading pins, and they fanned out to find new pins at the International Pathfinder Camporee in the United States.</p>
+
+        <p>Then Mother saw a man with an Alaska pin. Knowing that Jacob loved Alaskan nature, she tried to convince the man to make a trade.</p>
+
+        <p>“I can’t trade,” he said. “It is a one-of-a-kind pin for pastors in Alaska.”</p>
+
+        <p>Mother’s interest only grew. “What do you do up in Alaska?” she asked.</p>
+
+        <p>The man introduced himself as Tobin Dodge, director of Alaska Camps, a mission initiative of the Seventh-day Adventist Church’s Alaska Conference, which sponsors camps for children ages 8 to 17 every summer.</p>
+
+        <p>“Could my son work there?” Mother asked.</p>
+
+        <p>“Yes, we take counselors-in-training at 16 and counselors at 18,” he said.</p>
+
+        <p>Jacob jumped at the idea of spending the summer in Alaska. He joined the camp staff—and went three years in a row.</p>
+
+        <p>The camp experience can be challenging, he said. One year, he enjoyed spending time with an Alaska Native boy at Camp Polaris, located on Lake Aleknagik in southwestern Alaska. They shared an interest in nature and climbed Jackknife Mountain, which looms above the camp. But the boy refused to behave. He also used vulgar language and seemed more interested in promoting superstitions than hearing Bible truth. He blamed a rainy day on a boy who had killed a spider, saying, “If you kill a spider, it rains.”</p>
+
+        <p>Jacob grew frustrated. But at the end of camp, the boy gave Jacob a hug and walked over to his father. As he watched the two, Jacob suddenly began to understand the boy’s behavior. The boy was practically raising himself.</p>
+
+        <p>“Most of the kids don’t have any Christian background at all,” Jacob, 20, said in an interview at Camp Polaris. “That’s what makes it really an eye-opener and, to me, an amazing mission field.”</p>
+
+        <p>He said the spiritual battles at Camp Polaris are different from those at other summer camps sponsored by the Alaska Conference because it is comprised almost entirely of Alaska Native children, who often face struggles with trauma, superstition, and substance abuse.</p>
+
+        <p>“But being here is worth it,” he said. “It is a calling that is stronger than any that I have seen. God really needs volunteers here. This is a mission field.”</p>
+
+        <p>Thank you for your 2016 Thirteenth Sabbath Offering that helped repair and expand Camp Polaris so more children could attend. Part of this quarter’s Thirteenth Sabbath Offering will help open a center of influence at the Adventist church in Bethel, Alaska. The Bethel Church sends local children to Camp Polaris every year.</p>
     `
 },
 

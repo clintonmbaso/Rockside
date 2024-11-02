@@ -985,7 +985,7 @@ const dailyMessages = [
             <li>John the Baptist came to prepare the way for Jesus. How successful would you judge his ministry to have been, at least from a human perspective? 
             Also, as you think about your answer, ask this important question: How do you define “success” in spiritual things?</li>
 
-            <li>Later on, John the Baptist expressed some sincere doubts (<span class="bible-verse" data-verse="Matt. 11:2-3">Matt. 11:2, 3</span>; 
+            <li>Later on, John the Baptist expressed some sincere doubts (<span class="bible-verse" data-verse="Matthew 11:2-3">Matthew 11:2, 3</span>; 
             <span class="bible-verse" data-verse="Luke 7:19">Luke 7:19</span>). What caused his questions, and what can we learn from them about how to be firm in our faith?</li>
 
             <li>In class, discuss the idea of how someone such as Nicodemus, a leader in the true church, someone who surely had a lot of knowledge, 
@@ -1711,7 +1711,7 @@ const dailyMessages = [
 
         <p><strong>Question:</strong> Why was Abraham’s witness so important that it was included in John’s gospel? 
         (<span class="bible-verse" data-verse="Gen 12:3">Gen. 12:3</span>, <span class="bible-verse" data-verse="Gen 18:16-18">Gen. 18:16–18</span>, 
-        <span class="bible-verse" data-verse="Gen 26:4">Gen. 26:4</span>, <span class="bible-verse" data-verse="Matt 1:1">Matt. 1:1</span>, 
+        <span class="bible-verse" data-verse="Gen 26:4">Gen. 26:4</span>, <span class="bible-verse" data-verse="Matt 1:1">Matthew 1:1</span>, 
         <span class="bible-verse" data-verse="Acts 3:25">Acts 3:25</span>.)</p>
 
         <p>“Through type and promise God ‘preached before the gospel unto Abraham.’ <span class="bible-verse" data-verse="Galatians 3:8">Galatians 3:8</span>. 
@@ -1889,16 +1889,16 @@ const dailyMessages = [
         <p><strong>Why?</strong></p>
 
         <p>What are some of the things that we have today that those living at the time of Jesus didn’t have that 
-        should help us believe? (See, for example, <span class="bible-verse" data-verse="Matt 24:2">Matt. 24:2</span>, 
-        <span class="bible-verse" data-verse="Matt 24:14">Matt. 24:14</span>, 
-        <span class="bible-verse" data-verse="Matt 24:6-8">Matt. 24:6–8</span>.)</p>
+        should help us believe? (See, for example, <span class="bible-verse" data-verse="Matt 24:2">Matthew 24:2</span>, 
+        <span class="bible-verse" data-verse="Matt 24:14">Matthew 24:14</span>, 
+        <span class="bible-verse" data-verse="Matt 24:6-8">Matthew 24:6–8</span>.)</p>
 
         <p>And that’s because we have not only the powerful accounts in John’s Gospel, but also the great advantage 
         of seeing so much of what Jesus and other Bible writers predicted would come true, such as the destruction of 
-        the temple (<span class="bible-verse" data-verse="Matt 24:2">Matt. 24:2</span>), the spread of the gospel 
-        around the world (<span class="bible-verse" data-verse="Matt 24:14">Matt. 24:14</span>), the great falling 
+        the temple (<span class="bible-verse" data-verse="Matt 24:2">Matthew 24:2</span>), the spread of the gospel 
+        around the world (<span class="bible-verse" data-verse="Matt 24:14">Matthew 24:14</span>), the great falling 
         away (<span class="bible-verse" data-verse="2 Thess 2:3">2 Thess. 2:3</span>), and the world continuing to 
-        be a fallen and evil place (<span class="bible-verse" data-verse="Matt 24:6-8">Matt. 24:6–8</span>). All during 
+        be a fallen and evil place (<span class="bible-verse" data-verse="Matt 24:6-8">Matthew 24:6–8</span>). All during 
         the life and ministry of Jesus, His following remained a small and harassed group of men and women who, by all 
         human standards, should have vanished from history a long time ago. How could they have known, as we do, that 
         all these things would come to pass? And they have. In fact, our own faith itself exists as a fulfillment of 
@@ -1988,50 +1988,221 @@ const dailyMessages = [
 // Lesson 8
 {
     date: new Date(2024, 10, 2),
-    title: "Saturday",
+    title: "Fulfilling Old Testament Prophecies",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read for This Week’s Study:</strong> <span class="bible-verse" data-verse="John 5:17">John 5:17</span>, 
+        <span class="bible-verse" data-verse="John 5:20">20</span>, <span class="bible-verse" data-verse="John 5:36-40">36–40</span>, 
+        <span class="bible-verse" data-verse="John 5:46-47">46, 47</span>; <span class="bible-verse" data-verse="John 13:18">John 13:18</span>; 
+        <span class="bible-verse" data-verse="John 17:12">John 17:12</span>; <span class="bible-verse" data-verse="Jeremiah 2:13">Jer. 2:13</span>; 
+        <span class="bible-verse" data-verse="Zechariah 9:9">Zech. 9:9</span>; <span class="bible-verse" data-verse="John 8:12-30">John 8:12–30</span>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        <blockquote>
+            “ ‘But I have a greater witness than John’s; for the works which the Father has given Me to finish—the very works that I do—bear witness of Me, 
+            that the Father has sent Me’ ” (<span class="bible-verse" data-verse="John 5:36">John 5:36</span>, NKJV).
+        </blockquote>
+
+        <p>We can see again and again in the book of John all the things that Jesus said and did which revealed that, yes, 
+        the Messiah (hammashiach), the Christ, had come to Israel. And He had come, in fact, as one of them, a Jew born in 
+        Bethlehem, just as the Scriptures had predicted.</p>
+
+        <p>Yet, as John wrote, “He was in the world, and the world was made through Him, and the world did not know Him” 
+        (<span class="bible-verse" data-verse="John 1:10">John 1:10</span>, NKJV).</p>
+
+        <p>He was in the world, the world was made through Him, and yet the world did not know Him? That’s an amazing statement. 
+        And, as we can see in John and in the other Gospels, many people didn’t know Him even though they should have, especially 
+        because of all the things that Jesus did and said. And, even more so, because the Old Testament scriptures pointed to Him.</p>
+
+        <p>This week we will look at more ways John revealed Jesus as the Messiah, and also, we will look at why some people still 
+        continued to reject Him—despite all the powerful reasons affirming Him as the Christ.</p>
+
+        <p><em>What can we learn from their mistakes?</em></p>
+
+        <p><em>*Study this week’s lesson to prepare for Sabbath, November 23.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 3),
-    title: "Sunday",
+    title: "Signs, Works, and Wonders",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>In addition to the specific miracles that John used to point to Jesus as the Messiah, 
+        he also recorded the broader discussion about the signs, works, and wonders that Jesus did.</p>
+
+        <p>The signs and wonders, in and of themselves, were not proof of His Messiahship because many prophets, 
+        sometimes false ones, also performed miracles. John did not record the signs because they pointed to a 
+        great miracle worker only. The signs that John wrote about had the unique character of pointing to Jesus 
+        as the Messiah and to show that He, indeed, came from God the Father Himself.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 5:17,20,36-38">John 5:17, 20, 36–38</span>. 
+        How do these verses describe the relationship between Jesus and God the Father, especially in the context of the signs?</p>
+
+        <p>Jesus used the signs to show His close working relationship with the Father. The two were one. The works showed 
+        that “ ‘the Father is in Me, and I in Him’ ” (<span class="bible-verse" data-verse="John 10:38">John 10:38, NKJV</span>; 
+        see also <span class="bible-verse" data-verse="John 14:10-11">John 14:10, 11</span>).</p>
+
+        <p>The purpose of Jesus’ coming was to do the works of the One who sent Him, in order that these works might be made 
+        manifest to the world. That is, He came to do the work that the Father sent Him to do, and the works that He did 
+        testified, clearly, that He was from the Father.</p>
+
+        <p>And yet, as we have already seen, even despite the powerful signs and the testimonies from many people, 
+        people still chose not to believe.</p>
+
+        <p>The religious leaders asked Jesus, “ ‘How long do You keep us in doubt? If You are the Christ, tell us plainly.’ 
+        Jesus answered them, ‘I told you, and you do not believe. The works that I do in My Father’s name, they bear witness 
+        of Me’ ” (<span class="bible-verse" data-verse="John 10:24-25">John 10:24, 25, NKJV</span>).</p>
+
+        <p>If Jesus had come right out and said He was the Messiah, the religious leaders—looking for anything they could find 
+        against Him—would have pounced on Him. Knowing this, Jesus instead pointed to the works He had done. If Jesus had said 
+        He was the Christ, they could easily seek to deny that. But how could they deny the signs, the works, and the wonders? 
+        These were powerful testimonies to who He was and where He had come from.</p>
+
+        <p><em>How can we protect ourselves from having the kind of hard hearts we see among these religious leaders? 
+        In what ways might we be fighting against the work of God in our own lives?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 4),
-    title: "Monday",
+    title: "The Authoritative Role of Scripture",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>In addition to the specific signs and testimonies that John used to point to Jesus as the Messiah, 
+        John also appealed to the authority of the Old Testament and to its prophecies, which foretold the work of Christ. 
+        The Old Testament is central, not just to John’s Gospel but to all the New Testament. Justification for Jesus, 
+        for who He was, where He came from, what He did, and what He will do—is based on Scripture, in this case the Old Testament.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 5:39-40">John 5:39, 40</span>, 
+        <span class="bible-verse" data-verse="John 5:46-47">46, 47</span>. What do they teach us about Jesus’ attitude toward 
+        the authority of Scripture?</p>
+
+        <p>All through the Gospels, time and again, Jesus points to the authority of Scripture as a key witness to Him. 
+        For instance, Jesus often uses events from the Old Testament to help point to Himself and to what He does. 
+        The following is one case, where He takes an event from <span class="bible-verse" data-verse="Numbers 21:5-9">Numbers 21:5–9</span>. 
+        “ ‘As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up’ ” 
+        (<span class="bible-verse" data-verse="John 3:14">John 3:14, NKJV</span>). Here, not only does Jesus refer to the story, 
+        but by using it to point to Himself, He basically gives us the authoritative interpretation of what the story meant to convey.</p>
+
+        <p>And not just Jesus, but others, as well, use the Old Testament to point to Jesus. For example, early on in John, 
+        we read the words of Philip: “ ‘We have found Him of whom Moses in the law, and also the prophets, wrote’ ” 
+        (<span class="bible-verse" data-verse="John 1:45">John 1:45, NKJV</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 13:18">John 13:18</span>; 
+        <span class="bible-verse" data-verse="John 17:12">John 17:12</span>; and <span class="bible-verse" data-verse="John 19:24">John 19:24</span>, 
+        <span class="bible-verse" data-verse="John 19:28">28</span>, <span class="bible-verse" data-verse="John 19:36">36</span>. 
+        What do they teach about the authority of Scripture as understood by Jesus and John? What should this tell us about the crucial 
+        role all Scripture must have for our faith, as well?</p>
+
+        <p><em>What are the forces today that either subtly or openly work to undermine our faith in the authority of the Bible? 
+        Bring your answer to class on Sabbath.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 5),
-    title: "Tuesday",
+    title: "Old Testament Prophecies of Jesus: Part I",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>In a discussion with the religious leaders about His identity, Jesus affirmed the authority of Scripture. 
+        At first glance, it would seem unnecessary for Him to do that because the religious leaders believed in Scripture. 
+        Nevertheless, even with them, Jesus would emphasize the authority of the Scriptures, and He did so in order to show 
+        them who He was—no matter how hard their hearts were, and no matter how much they tried to fight conviction.</p>
+
+        <p>Meanwhile, John records many direct quotations from and allusions to the Old Testament that point to Jesus 
+        as the fulfillment of the Old Testament promise of a Messiah.</p>
+
+        <p><strong>How are the following New Testament and Old Testament passages linked? That is, how does the New Testament 
+        use these texts to bear witness to Jesus?</strong></p>
+
+        <ul>
+            <li><span class="bible-verse" data-verse="John 1:23">John 1:23</span>, <span class="bible-verse" data-verse="Isaiah 40:3">Isa. 40:3</span></li>
+            <li><span class="bible-verse" data-verse="John 2:16-17">John 2:16, 17</span>; <span class="bible-verse" data-verse="Psalm 69:9">Ps. 69:9</span></li>
+            <li><span class="bible-verse" data-verse="John 7:38">John 7:38</span>, <span class="bible-verse" data-verse="Jeremiah 2:13">Jer. 2:13</span></li>
+            <li><span class="bible-verse" data-verse="John 19:36">John 19:36</span>, <span class="bible-verse" data-verse="Numbers 9:12">Num. 9:12</span></li>
+        </ul>
+
+        <p>Not just John, but Peter, Paul, Matthew, Mark, Luke, and all the New Testament writers, under the inspiration 
+        of the Holy Spirit, time and again stress how Jesus of Nazareth’s life, death, resurrection, and ascension to the 
+        throne of God are all fulfillments of the Old Testament prophecies.</p>
+
+        <p>And although Jesus was continually pointing the disciples to the Scriptures, which foretold His ministry—when did 
+        the disciples finally understand that the Scriptures pointed to His death and resurrection? It was only after He died 
+        and was resurrected and appeared to them that they, finally, got it. “Therefore, when He had risen from the dead, 
+        His disciples remembered that He had said this to them; and they believed the Scripture and the word which Jesus 
+        had said” (<span class="bible-verse" data-verse="John 2:22">John 2:22, NKJV</span>; see also 
+        <span class="bible-verse" data-verse="John 20:9">John 20:9</span>).</p>
     `
 },
 {
     date: new Date(2024, 10, 6),
-    title: "Wednesday",
+    title: "Old Testament Prophecies of Jesus: Part II",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Jesus said to the religious leaders: “ ‘You search the Scriptures, for in them you think you have eternal life; 
+        and these are they which testify of Me’ ” (<span class="bible-verse" data-verse="John 5:39">John 5:39, NKJV</span>). 
+        What an incredible claim to make about Himself!</p>
+
+        <p>Estimates vary, but some scholars argue that Jesus of Nazareth fulfilled hundreds of Old Testament prophecies. 
+        Whatever the amount, the odds against one man’s fulfilling even a few of them, much less them all, are staggering. 
+        Every now and then someone will use an image like this: imagine filling an area the size of Texas with coins two feet 
+        high and painting one coin pink and then mixing them all up. Then give a blindfolded person one chance to pick the pink coin. 
+        What are the odds that, with one pick, he or she would get the pink one?</p>
+
+        <p>No question—Christ’s birth, life, and death were predicted by the Old Testament, stunning evidence of His identity as the expected Messiah. 
+        John points to these Old Testament texts again and again to make that very point about who Jesus was, and also, why we should believe 
+        in Him and accept the salvation He offers.</p>
+
+        <p><strong>What do each of the following passages from John’s Gospel reveal about Jesus as a fulfillment of Messianic prophecy?</strong></p>
+
+        <ul>
+            <li><span class="bible-verse" data-verse="John 12:13">John 12:13</span>, <span class="bible-verse" data-verse="Ps. 118:26">Ps. 118:26</span></li>
+            <li><span class="bible-verse" data-verse="John 12:14-15">John 12:14, 15</span>; <span class="bible-verse" data-verse="Zech. 9:9">Zech. 9:9</span></li>
+            <li><span class="bible-verse" data-verse="John 13:18">John 13:18</span>, <span class="bible-verse" data-verse="Ps. 41:9">Ps. 41:9</span></li>
+            <li><span class="bible-verse" data-verse="John 19:37">John 19:37</span>; <span class="bible-verse" data-verse="Zech. 12:10">Zech. 12:10</span>, <span class="bible-verse" data-verse="Zech. 13:6">Zech. 13:6</span></li>
+        </ul>
+
+        <p><em>How firmly grounded are you in what you believe? If someone were to challenge you on why you believe in Jesus as the Messiah, 
+        what answers could you give? Where would you go, and why, to help defend that faith?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 7),
-    title: "Thursday",
+    title: "From Beneath",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>In our study of John so far, we’ve seen that John shows how Jesus, indeed, is the promised Messiah, 
+        the great hope that the Jewish people had been longing for.</p>
+
+        <p>And yet, many of the religious leaders, the spiritual guides of the people, were His biggest enemies instead.</p>
+
+        <p><strong>Why?</strong></p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 8:12-30">John 8:12–30</span>. 
+        What is the dynamic here between Jesus and these religious leaders? Which texts best explain why many rejected Him?</p>
+
+        <p>Jesus says that they know neither Him nor the Father (<span class="bible-verse" data-verse="John 8:19">John 8:19</span>). 
+        They should have known both, but these men were self-deceived. They were so caught up in their own traditions and philosophies 
+        that even with Jesus right before them, doing all the things that He did and saying the things that He said—all powerful 
+        revelations of the Father—they still rejected Him.</p>
+
+        <p>Second, Jesus says to them, “ ‘You are from beneath’ ” (<span class="bible-verse" data-verse="John 8:23">John 8:23</span>, NKJV). 
+        In other words, however religious they might be, these were not spiritual, godly men. They had a “form of godliness” 
+        (<span class="bible-verse" data-verse="2 Timothy 3:5">2 Tim. 3:5</span>), but that was all. They had outward piety but inward disbelief.</p>
+
+        <p>This was nothing new: “ ‘Inasmuch as these people draw near with their mouths and honor Me with their lips, but have removed 
+        their hearts far from Me, and their fear toward Me is taught by the commandment of men’ ” 
+        (<span class="bible-verse" data-verse="Isaiah 29:13">Isa. 29:13</span>, NKJV). This very concept is echoed by Jesus centuries 
+        later, when He said, “ ‘And in vain they worship Me, teaching as doctrines the commandments of men’ ” 
+        (<span class="bible-verse" data-verse="Mark 7:7">Mark 7:7</span>, NKJV). Their human teachings, their human commandments, 
+        were “of this world” (<span class="bible-verse" data-verse="John 8:23">John 8:23</span>) and, as Jesus then said, 
+        “I am not of this world” (<span class="bible-verse" data-verse="John 8:23">John 8:23</span>).</p>
+
+        <p>It was bad enough that these men had been deceiving themselves; the tragedy was made worse because they also led others astray, 
+        even though, interestingly enough, John wrote that as a result of the exchange depicted in these verses, 
+        “many believed in Him” (<span class="bible-verse" data-verse="John 8:30">John 8:30</span>, NKJV).</p>
+
+        <p>Thus, even despite bad leadership, many Jews were able to get beyond it and see, for themselves, who Jesus was.</p>
+
+        <p><em>What lessons do you draw from Jesus’ exchange with the religious leaders? How can we be “from above” and not “from beneath”—and how can we know the difference?</em></p>
     `
 },
 {
@@ -2039,65 +2210,323 @@ const dailyMessages = [
     title: "Further Thought",
     lesson: "8",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> Ellen G. White, <em>“ ‘Let Not Your Heart Be Troubled,’ ”</em> 
+        pp. 662–680, in <em>The Desire of Ages</em>.</p>
+
+        <p>“As a golden treasure, truth had been entrusted to the Hebrew people. The Jewish economy, 
+        bearing the signature of Heaven, had been instituted by Christ Himself. In types and symbols 
+        the great truths of redemption were veiled. Yet when Christ came, the Jews did not recognize 
+        Him to whom all these symbols pointed. They had the word of God in their hands; but the traditions 
+        which had been handed down from generation to generation, and the human interpretation of the Scriptures, 
+        hid from them the truth as it is in Jesus. The spiritual import of the sacred writings was lost. 
+        The treasure house of all knowledge was open to them, but they knew it not.</p>
+
+        <p>“God does not conceal His truth from men. By their own course of action they make it obscure 
+        to themselves. Christ gave the Jewish people abundant evidence that He was the Messiah; but His 
+        teaching called for a decided change in their lives. They saw that if they received Christ, they 
+        must give up their cherished maxims and traditions, their selfish, ungodly practices. It required 
+        a sacrifice to receive changeless, eternal truth. Therefore they would not admit the most conclusive 
+        evidence that God could give to establish faith in Christ. They professed to believe the Old Testament 
+        Scriptures, yet they refused to accept the testimony contained therein concerning Christ’s life and character. 
+        They were afraid of being convinced lest they should be converted and be compelled to give up their 
+        preconceived opinions. The treasure of the gospel, the Way, the Truth, and the Life, was among them, 
+        but they rejected the greatest gift that Heaven could bestow.”—Ellen G. White, <em>Christ’s Object Lessons</em>, p. 105.</p>
+
+        <h3>Discussion Questions:</h3>
+
+        <ul>
+            <li>How do the prophecies fulfilled in Jesus’ life build faith?</li>
+            <li>What are the three or four major obstacles that stood in the way of the religious leaders’ believing in Jesus? 
+                How are these same principles manifested today?</li>
+            <li>Take a personal inventory of where your confidence resides today. What steps do you think can strengthen your faith?</li>
+            <li>What should your answer to the question at the end of Monday’s study teach us about the authority of Scripture, 
+                and why must we reject anything that casts doubt on the final and ultimate authority of the Scriptures?</li>
+        </ul>
     `
 },
 {
     date: new Date(2024, 10, 8),
-    title: "Story",
+    title: "God’s Perfect Timing in Tbilisi",
     lesson: "8",
+    author: "By Andrew McChesney",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Zurab considered himself a Christian, but his relationship with God consisted solely of lighting candles 
+        in a cathedral in the former Soviet Republic of Georgia. He had a Bible at home, but he only picked it up to dust it.</p>
+
+        <p>Then his conscience began to bother him, and he thought, <em>If I’m a Christian, why don’t I read the Bible?</em> 
+        A desire filled him to read the Bible.</p>
+
+        <p>He picked up the Bible and read it from beginning to end. He learned for the first time about the seventh-day Sabbath. 
+        Surprised, he looked online for more information. He watched about 100 YouTube sermons and was drawn to a preacher 
+        who explained the Bible in a clear manner. The preacher identified himself as a Seventh-day Adventist and said the church 
+        was comprised of millions of members who kept the seventh-day Sabbath.</p>
+
+        <p>Zurab had never heard of Adventists, and he recoiled at the idea of becoming one. Many Georgians think Adventists belong 
+        to a sect. He searched the internet for another church that worshiped on the seventh day and practiced other biblical truths 
+        that he had learned, but to no avail.</p>
+
+        <p>So, on a Sabbath morning, he showed up at an Adventist church in Georgia’s capital, Tbilisi. He stood outside, wanting to go in 
+        and not wanting to go in. Then the door swung open, and someone invited him inside.</p>
+
+        <p>Zurab received a warm welcome.</p>
+
+        <p>“Is this your first time in the Adventist Church?” someone asked.</p>
+
+        <p>“Yes, this is my first time,” he said.</p>
+
+        <p>“Great!” someone else said. “Come also to our evangelistic program.”</p>
+
+        <p>It turned out that the church planned to hold evangelistic meetings on that very evening. Zurab attended the worship service 
+        in the morning and the evangelistic meeting in the evening. After that, he returned every evening for the next two weeks. 
+        Then he was baptized.</p>
+
+        <p>Today, a year later, 36-year-old Zurab has a new relationship with God. He reads the Bible every day and shares it with 
+        his wife and two boys, who also go to church with him on Sabbath. Zurab is amazed at how everything came together—his desire 
+        to read the Bible, his discovery of the Sabbath and the online preacher, and his arrival at the Adventist church on the same 
+        day as its first evangelistic meeting.</p>
+
+        <p>He didn’t go to the church because of a mission outreach initiative. But the church members’ mission spirit made him feel 
+        welcome and at home. “Everything came together so well,” he said.</p>
+
+        <p>Part of a Thirteenth Sabbath Offering this year went to a health center in Georgia. Please pray for God to draw people 
+        to the center, just as He brought Zurab to the church, to learn more about Him. 
+        <a href="https://bit.ly/Zurab-Georgia" target="_blank">Watch a short video of Zurab at: bit.ly/Zurab-Georgia</a>.</p>
     `
 },
 
 // Lesson 9
 {
     date: new Date(2024, 10, 9),
-    title: "Saturday",
+    title: "The Source of Life",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:4">John 1:4</span>; 
+        <span class="bible-verse" data-verse="John 10:10">John 10:10</span>; 
+        <span class="bible-verse" data-verse="John 1:12-13">John 1:12, 13</span>; 
+        <span class="bible-verse" data-verse="John 6:61-68">John 6:61–68</span>; 
+        <span class="bible-verse" data-verse="Num. 13:23-33">Num. 13:23–33</span>; 
+        <span class="bible-verse" data-verse="Matthew 4:1-4">Matthew 4:1–4</span>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        <blockquote>“ ‘I am the way, the truth, and the life. No one comes to the Father except through Me’ ” 
+        (<span class="bible-verse" data-verse="John 14:6">John 14:6, NKJV</span>).</blockquote>
+
+        <p>In the Gospel of John, when asked who He was, Jesus answered with the term that designates deity. “I AM” 
+        was an unmistakable reference to the Lord Himself, who had appeared to Moses in the burning bush. 
+        “ ‘I AM WHO I AM,’ ” He said to Moses (<span class="bible-verse" data-verse="Exod. 3:14">Exod. 3:14</span>). 
+        And this same God, the “I AM,” then “became flesh and dwelt among us, and we beheld His glory, the glory as 
+        of the only begotten of the Father, full of grace and truth” 
+        (<span class="bible-verse" data-verse="John 1:14">John 1:14, NKJV</span>).</p>
+
+        <p>The theme “I AM” threads throughout John. This week’s memory verse reflects that theme: 
+        “ ‘I am the way, the truth, and the life’ ” 
+        (<span class="bible-verse" data-verse="John 14:6">John 14:6, NKJV</span>). The “I AM” is the Light of the world, 
+        the Bread of Life, the Gate or the Door of the sheep, the Good Shepherd, and the True Vine.</p>
+
+        <p>This week continues with the revelation of God as given us in John. We will also more fully explore the flip 
+        side of things, in which, despite the powerful evidence for Jesus as the Messiah, some rejected Him. We will study 
+        this idea for two reasons: to avoid the same mistake, but also to consider how we might be able to reach out to those 
+        in danger of making that mistake, as well.</p>
+
+        <p><em>*Study this week’s lesson to prepare for Sabbath, November 30.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 10),
-    title: "Sunday",
+    title: "In Him Was Life",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:1">John 1:1</span>. 
+        The apostle clearly states that Jesus is God, the divine Son. Consequently, in 
+        <span class="bible-verse" data-verse="John 1:4">John 1:4</span>—“In Him was life, and the life was the light of men” (NKJV)—the 
+        reference to life here has to be divine life, underived eternal self-existence. Because He has life within Himself, 
+        He can lay down His life and take it again (<span class="bible-verse" data-verse="John 10:17">John 10:17</span>). And, because He has life within, He can give 
+        life to whom He will (<span class="bible-verse" data-verse="John 5:21">John 5:21</span>; compare with <span class="bible-verse" data-verse="John 14:19">John 14:19</span>).</p>
+
+        <p>This term life (<em>zoē</em>) appears 36 times in the Gospel of John, about 25 percent of the uses in the New Testament. 
+        In <span class="bible-verse" data-verse="John 1:4-5">John 1:4, 5</span>, besides referring to the Source of life on our planet, the word is also linked to salvation. 
+        Throughout the rest of John, this idea of life (<em>zoē</em>) is most often expressed as everlasting life, the promise of salvation 
+        (see <span class="bible-verse" data-verse="John 3:15">John 3:15</span>, <span class="bible-verse" data-verse="John 3:16">16</span>, <span class="bible-verse" data-verse="John 3:36">36</span>; 
+        <span class="bible-verse" data-verse="John 4:14">John 4:14</span>, <span class="bible-verse" data-verse="John 4:36">36</span>; 
+        <span class="bible-verse" data-verse="John 6:27">John 6:27</span>, <span class="bible-verse" data-verse="John 6:40">40</span>, 
+        <span class="bible-verse" data-verse="John 6:47">47</span>, <span class="bible-verse" data-verse="John 6:54">54</span>, 
+        <span class="bible-verse" data-verse="John 6:68">68</span>; and <span class="bible-verse" data-verse="John 10:27">John 10:27</span>, <span class="bible-verse" data-verse="John 10:28">28</span>). 
+        Thus, the One who gave life at Creation is the same One who brings salvation, eternal life, to a lost world.</p>
+
+        <p><strong>Why did Jesus come to this earth?</strong> <span class="bible-verse" data-verse="John 1:29">John 1:29</span>, 
+        <span class="bible-verse" data-verse="John 3:16">John 3:16</span>, <span class="bible-verse" data-verse="John 6:40">John 6:40</span>, 
+        <span class="bible-verse" data-verse="John 10:10">John 10:10</span>, <span class="bible-verse" data-verse="John 12:27">John 12:27</span>.</p>
+
+        <p>“ ‘As Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up, 
+        that whoever believes in Him should not perish but have eternal life’ ” (<span class="bible-verse" data-verse="John 3:14-15">John 3:14, 15</span>, NKJV).</p>
+
+        <p>Just as the bronze serpent took the place of the Israelites who had been bitten by serpents, so Jesus took our place, 
+        we who have been struck down by sin. He took the penalty that was ours so that we might have the life that was His.</p>
+
+        <p>Christ also desires that we have life and have it more abundantly (<span class="bible-verse" data-verse="John 10:10">John 10:10</span>). 
+        Thus, for “as many as received Him, to them He gave the right to become children of God, to those who believe in His name: 
+        who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God” 
+        (<span class="bible-verse" data-verse="John 1:12-13">John 1:12, 13</span>, NKJV).</p>
+
+        <p>Christ came to reveal the Father to us. For, “no one has seen God at any time. The only begotten Son, who is in the bosom of the Father, 
+        He has declared Him” (<span class="bible-verse" data-verse="John 1:18">John 1:18</span>, NKJV). By seeing the character of Jesus, 
+        we can see the character of the Father.</p>
+
+        <p><em>What can we learn from the life of Jesus about the character of the Father? Why is this revelation such good news?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 11),
-    title: "Monday",
+    title: "The Words of Eternal Life",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 6:61-68">John 6:61–68</span>. 
+        When Jesus asked the disciples if they would leave Him, what was the meaning of Peter’s answer?</p>
+
+        <p>Peter’s words about “eternal life” tap into a theme that runs throughout the Gospel of John. 
+        A concentration of phraseology about eternal life appears in <span class="bible-verse" data-verse="John 6">John 6</span>, 
+        in the context of the feeding of the 5,000 (<span class="bible-verse" data-verse="John 6:27">John 6:27</span>, 
+        <span class="bible-verse" data-verse="John 6:40">40</span>, <span class="bible-verse" data-verse="John 6:47">47</span>, 
+        <span class="bible-verse" data-verse="John 6:54">54</span>, <span class="bible-verse" data-verse="John 6:68">68</span>). 
+        Jesus says that He is the Bread of Life (<span class="bible-verse" data-verse="John 6:35">John 6:35</span>), 
+        meaning that His life, His death, and His resurrection are the source of eternal salvation.</p>
+
+        <p>The phrase everlasting life or its equivalent occurs at least 17 times in the Gospel of John. 
+        This term does not refer to a spirit existence, or to becoming part of an eternal being, or to some other 
+        ethereal concept. Rather, it refers to that life-giving power that brings salvation and meaning to our existence 
+        now and to life without end when our Lord returns. Just as Jesus became flesh, so the resurrection that Jesus 
+        talks about takes place in time and space and in a physical body. It is a resurrection from the dead, a renewal 
+        of the life that we once had in Eden.</p>
+
+        <p><strong>How do we receive eternal life?</strong> <span class="bible-verse" data-verse="John 3:15">John 3:15</span>, 
+        <span class="bible-verse" data-verse="John 3:16">16</span>; <span class="bible-verse" data-verse="John 5:24">John 5:24</span>; 
+        <span class="bible-verse" data-verse="John 6:40">John 6:40</span>, <span class="bible-verse" data-verse="John 6:47">47</span>; 
+        <span class="bible-verse" data-verse="John 8:31">John 8:31</span>; <span class="bible-verse" data-verse="John 12:46">John 12:46</span>; 
+        <span class="bible-verse" data-verse="John 20:31">John 20:31</span>.</p>
+
+        <p>By faith alone we believe that Jesus Christ came to live and to die on our behalf. This faith comes to us as a gift, 
+        but we must consciously choose to surrender ourselves to Jesus, to repent, and to claim His blood for the forgiveness 
+        and cleansing of sin.</p>
+
+        <p>When Jesus asked Peter if he, too, was going to leave, Peter’s answer, “ ‘Lord, to whom shall we go? 
+        You have the words of eternal life’ ” (<span class="bible-verse" data-verse="John 6:68">John 6:68, NKJV</span>), 
+        encapsulates the essence of salvation and how we attain it. It doesn’t come from philosophy, history, or science—all 
+        human disciplines. It comes from Jesus, who—possessing in Himself eternal life—offers it freely to all who, 
+        responding to the Holy Spirit, will accept it.</p>
+
+        <p><em>How does the promise of having eternal life impact how we view our temporal life here? How should it impact how we view it?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 12),
-    title: "Tuesday",
+    title: "Believing and New Birth",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:12-13">John 1:12, 13</span>. 
+        What are the steps described here about becoming a Christian?</p>
+
+        <p>John wrote his Gospel so that we would believe in Jesus and that by believing we may have eternal life in His name 
+        (<span class="bible-verse" data-verse="John 20:31">John 20:31</span>). In <span class="bible-verse" data-verse="John 1:12-13">John 1:12, 13</span>, 
+        this process is described in two steps. First, we receive Him, that is, believe in Him. Second, He gives us authority 
+        or power to become God’s children, described in verse 13 as being begotten by God. Thus, there is a human and divine 
+        aspect of becoming a Christian. We must act in belief, receive Him, and be open to the light, but He is the one who 
+        regenerates the heart.</p>
+
+        <p>In fact, faith itself is a gift of God that comes by hearing His Word 
+        (<span class="bible-verse" data-verse="Romans 10:17">Rom. 10:17</span>). “In order to have true, abiding faith in Christ, 
+        we must know Him as He is represented in the word.” —Ellen G. White, Fundamentals of Christian Education, p. 433. 
+        “The Spirit operating upon and enlightening the human mind, creates faith in God.” —Ellen G. White Comments, 
+        The Seventh-day Adventist Bible Commentary, vol. 7, p. 940.</p>
+
+        <p>Those who believe or accept the Son as the Messiah receive everlasting life. John also emphasizes accepting or believing 
+        the Word that Jesus spoke (<span class="bible-verse" data-verse="John 5:24">John 5:24</span>, 
+        <span class="bible-verse" data-verse="John 5:38">38</span>, <span class="bible-verse" data-verse="John 5:47">47</span>). 
+        It is the role of the Holy Spirit to bring conviction (<span class="bible-verse" data-verse="John 16:7-8">John 16:7, 8</span>; 
+        compare with <span class="bible-verse" data-verse="Romans 8:16">Rom. 8:16</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Romans 8:16">Romans 8:16</span>. 
+        What principle about salvation in Jesus is found here?</p>
+
+        <p>Faith, biblical faith, based on the work of the Holy Spirit in our hearts, is the foundation of our faith. “Faith is . . . 
+        the great blessing—the eye that sees, the ear that hears.” —Ellen G. White, In Heavenly Places, p. 104. 
+        The humanistic approach to faith states that we must find a foundation, the criteria for faith, and then believe. 
+        In contrast, the biblical approach states that faith is the foundation, a gift from God 
+        (<span class="bible-verse" data-verse="Ephesians 2:8">Eph. 2:8</span>, <span class="bible-verse" data-verse="1 Corinthians 1:17-24">1 Cor. 1:17–24</span>, 
+        <span class="bible-verse" data-verse="1 Corinthians 2:1-6">1 Cor. 2:1–6</span>). We start with the foundation of faith, 
+        and then from there we grow in understanding and grace.</p>
+
+        <p><em>If someone were to ask you what your faith is based on, how would you respond?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 13),
-    title: "Wednesday",
+    title: "Rejecting the Source of Life",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Some of the saddest accounts in all of Scripture occur in the Gospel of John. 
+        “The light shines in the darkness, and the darkness did not comprehend it. . . . [The Light] 
+        was in the world, and the world was made through Him, and the world did not know Him. He came to 
+        His own, and His own did not receive Him” (<span class="bible-verse" data-verse="John 1:5, 10, 11">John 1:5, 10, 11, NKJV</span>). 
+        The “I AM” was rejected by many of His own people.</p>
+
+        <p>No wonder Paul later warns, “Do not cast away your confidence” (<span class="bible-verse" data-verse="Hebrews 10:35">Heb. 10:35, NKJV</span>). 
+        As we have seen again and again, Christ was rejected because people did not accept His Word.</p>
+
+        <p>“The contemporary humanistic way of thinking begins with doubt. People question everything in order to determine what is truth. 
+        That which survives the fire of cross-examination they accept as rock-solid knowledge, something on which to place one’s faith. 
+        Some apply the same method to the Bible, calling everything into question from a scientific, historical, psychological, 
+        philosophical, archaeological, or geological perspective in order to determine what is truth in the Bible. The very method itself 
+        starts with and builds upon doubt in the veracity of Scripture. Christ asked, ‘When the Son of Man comes, will He really find 
+        faith on the earth?’ (<span class="bible-verse" data-verse="Luke 18:8">Luke 18:8</span>).” —E. Edward Zinke and Roland Hegstad, 
+        <em>The Certainty of the Second Coming</em> (Hagerstown, MD: Review and Herald Publishing Association, 2000), p. 96.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Numbers 13:23-33">Numbers 13:23–33</span>. What made the difference 
+        between the two reports the spies brought back about Canaan?</p>
+
+        <p>The sin of the Hebrews when they were at Kadesh Barnea was to doubt the Word of God. God had asked them to go up and take the land. 
+        Twelve spies were sent to Canaan to spy out the land. They came back with two reports. The majority gave a negative report. There are 
+        giants in the land, walled cities, weapons we have never seen before, and well-trained armies. By contrast, we have been slaves in the 
+        land of Egypt with little military experience. Ten spies voted no, based upon the overwhelming evidence from a human standpoint. Two spies 
+        voted yes based upon their faith in the overwhelming power of the Word of God.</p>
+
+        <p><em>How do we avoid making the same kind of mistake made here? And yet, how do we also avoid presumption, doing something foolish but 
+        believing that we are doing God’s will and, therefore, cannot fail?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 14),
-    title: "Thursday",
+    title: "Condemnation",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Scripture:</strong> “Whoever believes in him is not condemned, but whoever does not believe stands condemned 
+        already because [he has] not believed in the name of God’s one and only Son. . . . Everyone who does evil hates the light, 
+        and will not come into the light for fear that [his] deeds will be exposed. But whoever lives by the truth comes into the light” 
+        (<span class="bible-verse" data-verse="John 3:18-21">John 3:18–21</span>, NIV; compare with 
+        <span class="bible-verse" data-verse="John 1:10">John 1:10</span>).</p>
+
+        <p><strong>Question:</strong> Why do people come into judgment? 
+        (<span class="bible-verse" data-verse="John 3:18,36">John 3:18, 36</span>; 
+        <span class="bible-verse" data-verse="John 5:24,38">John 5:24, 38</span>; 
+        <span class="bible-verse" data-verse="John 8:24">John 8:24</span>; 
+        <span class="bible-verse" data-verse="John 12:47">John 12:47</span>).</p>
+
+        <p>The rejection of Jesus Christ, the Light of the world, leaves us open to doubt and to the temptations of the devil. 
+        It is to turn from light to darkness.</p>
+
+        <p>Eve was given light on how to relate to the tree in the center of the garden. Satan tempted her to bring the light 
+        into question. She tested God’s word by reasoning that a God of love would not destroy the creatures whom He created. 
+        She also relied upon the data of her senses. The serpent has eaten of the fruit and now has the power to speak. 
+        Perhaps the serpent is right. If I partake of the fruit, I may become like God! Deceived, she turned away from the light. 
+        And her husband chose the same path.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Matthew 4:1-4">Matthew 4:1–4</span>. 
+        What principles did Christ use in the wilderness of temptation to combat the deceptions of Satan?</p>
+
+        <p>Christ had at His disposal the same humanistic tool of thought used by Adam and Eve, the antediluvians, and Israel at 
+        Kadesh Barnea. He could have asked why a God of love would leave His Son in the wilderness for 40 days and nights without 
+        food and protection. He also could have determined to prove His Sonship by turning stones into bread! Instead, He answered 
+        with the Word of God. He operated on the level of heavenly things rather than on earthly patterns of thought. How easily 
+        He could have rationalized His way to a wrong decision, which so many people, even people of faith, often do.</p>
     `
 },
 {
@@ -2105,15 +2534,83 @@ const dailyMessages = [
     title: "Further Thought",
     lesson: "9",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> Ellen G. White, “ ‘God With Us,’ ” pp. 19–26; “Controversy,” pp. 601–609, in <em>The Desire of Ages</em>.</p>
+
+        <p>“In stooping to take upon Himself humanity, Christ revealed a character the opposite of the character of Satan. 
+        But He stepped still lower in the path of humiliation. ‘Being found in fashion as a man, He humbled Himself, 
+        and became obedient unto death, even the death of the cross.’ <span class="bible-verse" data-verse="Philippians 2:8">Phil. 2:8</span>. 
+        As the high priest laid aside his gorgeous pontifical robes, and officiated in the white linen dress of the common priest, 
+        so Christ took the form of a servant, and offered sacrifice, Himself the priest, Himself the victim. 
+        ‘He was wounded for our transgressions, He was bruised for our iniquities: the chastisement of our peace was upon Him.’ 
+        <span class="bible-verse" data-verse="Isaiah 53:5">Isa. 53:5</span>.</p>
+
+        <p>“Christ was treated as we deserve, that we might be treated as He deserves. He was condemned for our sins, 
+        in which He had no share, that we might be justified by His righteousness, in which we had no share. 
+        He suffered the death which was ours, that we might receive the life which was His. ‘With His stripes we are healed.’ ” 
+        —Ellen G. White, <em>The Desire of Ages</em>, p. 25.</p>
+
+        <h4>Discussion Questions:</h4>
+
+        <ul>
+            <li>Jesus gave so much to save the world. What do you consider the best ways to help others see this amazing truth and come to Him in faith?</li>
+            <li>What are the key differences in making decisions on a human, worldly level versus making decisions on the basis of divine revelation?</li>
+            <li>How do such things as logic and reason fit with understanding the Word of God? What logical and rational reasons do we have for coming to faith? 
+            How do such things as the fulfillment of prophecy or the astonishing beauty and complexity of the created world point us logically and rationally 
+            to the existence of God and to the truth of the plan of salvation?</li>
+            <li>In class, talk about your answer to the question at the end of Tuesday’s study. What is your faith based on? 
+            If someone were to ask you why you believe in Jesus and the claims of the gospel, how would you respond?</li>
+        </ul>
     `
 },
 {
     date: new Date(2024, 10, 15),
-    title: "Story",
+    title: "Please Stay",
     lesson: "9",
+    author: "By Andrew McChesney",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>At 8 p.m., an elderly married couple knocked on the door of the parsonage beside the Seventh-day Adventist church 
+        in Savoonga, Alaska. It wasn’t late. The summer sun shone brightly in the sky. It wouldn’t go down until 2:30 a.m. 
+        The Siberian Yupik people living on St. Lawrence Island, located just 36 miles east of Russia in the Bering Sea, 
+        wouldn’t go to bed for hours.</p>
+
+        <p>Eugene and Marie, who were in their mid-80s, didn’t wait for anyone to open the door. Nobody waits for the door 
+        to be opened in the remote village of 835 people. Everyone knocks and walks in. The couple wanted to speak with the 
+        visitor staying in the parsonage. I was visiting the island to collect stories for Adventist Mission.</p>
+
+        <p>Marie spoke directly. “Are you a pastor?” she asked me.</p>
+
+        <p>Her eyes filled with emotion when I shook my head. “Please stay,” she said, softly. 
+        “We need someone to keep the church open and to teach us.”</p>
+
+        <p>The church had closed several times since it and the parsonage were built in 1972. Pastors had preached and 
+        lived there for a while, but then the Adventist presence shrunk to little to nothing for two decades. In 2010, 
+        the church had reopened when two retired nurses from North Carolina, Bill and Elouise Hawkes, arrived as Bible 
+        workers with the Alaska Conference’s Arctic Mission Adventure outreach program to Alaska Natives. Bill died in 2016, 
+        and Elouise stayed. But shortly before my visit, Elouise left for health reasons.</p>
+
+        <p>Marie missed Elouise terribly and described how she invited villagers to her home for meals and prepared food packages. 
+        “We need her,” she said.</p>
+
+        <p>I never met Elouise. She was enthusiastic and helpful as we exchanged emails for my trip. 
+        My respect grew as I heard about her love for villagers.</p>
+
+        <p>As our conversation wrapped up at 9 p.m., Marie looked at me again.</p>
+
+        <p>“Please,” she said. “Stay. We need someone to teach us about God.”</p>
+
+        <p>With her pleading gaze, I caught a sense of the compassion that Jesus must have felt during His earthly ministry. 
+        “But when He saw the multitudes, He was moved with compassion for them, because they were weary and scattered, 
+        like sheep having no shepherd” (<span class="bible-verse" data-verse="Matthew 9:36">Matthew 9:36, NKJV</span>).</p>
+
+        <p>I didn’t want to leave. My heart ached for the precious people of Savoonga and the other more than 200 native 
+        communities in Alaska. Only 11 of those communities have an Adventist presence.</p>
+
+        <p>When Jesus’ heart ached, “He said to His disciples, ‘The harvest truly is plentiful, but the laborers are few. 
+        Therefore pray the Lord of the harvest to send out laborers into His harvest’” 
+        (<span class="bible-verse" data-verse="Matt. 9:37-38">Matthew 9:37, 38, NKJV</span>).</p>
+
+        <p><strong>Pray for Savoonga. Pray for Alaska.</strong> Thank you for your Thirteenth Sabbath Offering this quarter 
+        that will help open a center of influence to share God’s love with Alaska Natives in Bethel, Alaska.</p>
     `
 },
 

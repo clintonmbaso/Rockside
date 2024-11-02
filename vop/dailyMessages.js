@@ -2607,7 +2607,7 @@ const dailyMessages = [
 
         <p>When Jesus’ heart ached, “He said to His disciples, ‘The harvest truly is plentiful, but the laborers are few. 
         Therefore pray the Lord of the harvest to send out laborers into His harvest’” 
-        (<span class="bible-verse" data-verse="Matt. 9:37-38">Matthew 9:37, 38, NKJV</span>).</p>
+        (<span class="bible-verse" data-verse="Matthew 9:37-38">Matthew 9:37, 38, NKJV</span>).</p>
 
         <p><strong>Pray for Savoonga. Pray for Alaska.</strong> Thank you for your Thirteenth Sabbath Offering this quarter 
         that will help open a center of influence to share God’s love with Alaska Natives in Bethel, Alaska.</p>
@@ -2617,50 +2617,241 @@ const dailyMessages = [
 // Lesson 10
 {
     date: new Date(2024, 10, 2),
-    title: "Saturday",
+    title: "The Way, the Truth, and the Life",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read for This Week’s Study:</strong> 
+        <span class="bible-verse" data-verse="John 13:1-20">John 13:1–20</span>, 
+        <span class="bible-verse" data-verse="John 14:1-3">John 14:1–3</span>, 
+        <span class="bible-verse" data-verse="Dan. 7:27">Dan. 7:27</span>, 
+        <span class="bible-verse" data-verse="John 14:5-11">John 14:5–11</span>, 
+        <span class="bible-verse" data-verse="John 1:14">John 1:14</span>, 
+        <span class="bible-verse" data-verse="Col. 1:16-17">Col. 1:16, 17</span>, 
+        <span class="bible-verse" data-verse="John 5:38-40">John 5:38–40</span>.</p>
+
+        <p><strong>Memory Text:</strong></p>
+        
+        <p>“No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, 
+        He has declared Him” (<span class="bible-verse" data-verse="John 1:18">John 1:18, NKJV</span>).</p>
+
+        <p>The Gospel of John is divided into four main sections: The Prologue (<span class="bible-verse" data-verse="John 1:1-18">John 1:1–18</span>), 
+        the Book of Signs (<span class="bible-verse" data-verse="John 1:19-12:50">John 1:19–12:50</span>), the Book of Glory 
+        (<span class="bible-verse" data-verse="John 13:1-20:31">John 13:1–20:31</span>), and the Epilogue 
+        (<span class="bible-verse" data-verse="John 21:1-25">John 21:1–25</span>). Our study so far has focused mainly on the 
+        Prologue and the Book of Signs, laying out who Jesus is via His miracles (signs), dialogues, and teachings. 
+        The lessons now shift particularly to the third section of John, the Book of Glory.</p>
+
+        <p>Interestingly, the famous seven “I AM” statements form a bridge across the Book of Signs and the Book of Glory. 
+        These are “the bread of life” (<span class="bible-verse" data-verse="John 6:35">John 6:35</span>, 
+        <span class="bible-verse" data-verse="John 6:41">41</span>, <span class="bible-verse" data-verse="John 6:48">48</span>, 
+        <span class="bible-verse" data-verse="John 6:51">51</span>), “the light of the world” 
+        (<span class="bible-verse" data-verse="John 8:12">John 8:12</span>, <span class="bible-verse" data-verse="John 9:5">John 9:5</span>), 
+        “the door” (<span class="bible-verse" data-verse="John 10:7">John 10:7</span>, <span class="bible-verse" data-verse="John 10:9">9</span>), 
+        “the good shepherd” (<span class="bible-verse" data-verse="John 10:11">John 10:11</span>, <span class="bible-verse" data-verse="John 10:14">14</span>), 
+        “the resurrection and the life” (<span class="bible-verse" data-verse="John 11:25">John 11:25</span>), “the way, the truth and the life” 
+        (<span class="bible-verse" data-verse="John 14:6">John 14:6</span>), and “the true vine” 
+        (<span class="bible-verse" data-verse="John 15:1">John 15:1</span>, <span class="bible-verse" data-verse="John 15:5">5</span>).</p>
+
+        <p>This week’s lesson will begin with the purpose of the farewell discourse and its introduction with the significant episode 
+        of Jesus’ washing His disciples’ feet. Then it will turn to the “I AM” statement in chapter 14 (“I am the way, the truth, and the life”).</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, December 7.</em></p>
     `
 },
 {
     date: new Date(2024, 10, 3),
-    title: "Sunday",
+    title: "I Have Given You an Example",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>The farewell discourse (<span class="bible-verse" data-verse="John 13-17">John 13–17</span>) provides instruction 
+        for Jesus’ disciples concerning the future. Its literary pattern is similar to Moses’ farewell in 
+        <span class="bible-verse" data-verse="Deuteronomy">Deuteronomy</span> or Jacob’s blessing his children 
+        (<span class="bible-verse" data-verse="Genesis 47-49">Genesis 47–49</span>) or David’s instructing Solomon 
+        (<span class="bible-verse" data-verse="1 Chronicles 28-29">1 Chronicles 28, 29</span>). Jesus consoles His disciples 
+        regarding His departure. He promises a surrogate to represent Him (the Holy Spirit; <span class="bible-verse" data-verse="John 14-16">John 14–16</span>). 
+        He predicts grief to come (<span class="bible-verse" data-verse="John 15-16">John 15, 16</span>), and He exhorts the disciples 
+        to stay faithful (<span class="bible-verse" data-verse="John 15">John 15</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 13:1-20">John 13:1–20</span>. What happened here, 
+        and why is this story so important? What lessons did Jesus seek to teach?</p>
+
+        <p>In that part of the world in Jesus’ day, people wore sandals or went barefoot. The feet would become dusty and dirty. 
+        It was a custom for a servant or slave to wash the feet of those coming to a meal. But no servant was present for this 
+        function on the night Jesus ate His last meal with His disciples before His arrest.</p>
+
+        <p>To everyone’s surprise, Jesus Himself arose from the supper and washed all of their feet. 
+        <span class="bible-verse" data-verse="John 13:4-5">John 13:4, 5</span> tells Jesus’ actions step by step. 
+        It is told in such detail to emphasize the Master’s doing this unbelievable act of humility.</p>
+
+        <p>By telling about Peter’s response, <span class="bible-verse" data-verse="John 13:8-11">John 13:8–11</span> 
+        deepens the sense of dismay and incomprehension of the disciples at Jesus’ actions. How could Jesus, the Master, 
+        the Messiah, be doing such a lowly task? Peter refused to allow Jesus to wash his feet, only to be told by Jesus 
+        that if he did not cooperate, he would have no part with Jesus. Then Peter asked for more, expressing his desire 
+        to be connected with Jesus all the way.</p>
+
+        <p>The significance of Jesus’ action is tied to who He is. He states in <span class="bible-verse" data-verse="John 13:13">John 13:13</span> 
+        that He is the Teacher and the Lord. That is what they called Him, and He indicates that it is so. 
+        These titles express authority and power.</p>
+
+        <p>Yet, Jesus teaches that power and authority are to be used for service, not for self-aggrandizement. 
+        The Adventist Church has embraced this sense of Jesus’ example, taking what is rightly called the Ordinance of Humility 
+        as a preparatory service for the Lord’s Supper.</p>
+
+        <p><em>What does the Ordinance of Humility teach you about following in the footsteps of Jesus and how to humbly serve others?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 4),
-    title: "Monday",
+    title: "I Will Certainly Come Again",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 14:1-3">John 14:1–3</span>. 
+        In what context did Jesus say these words?</p>
+
+        <p>At the end of <span class="bible-verse" data-verse="John 13:33">John 13</span>, Jesus says that He is going away 
+        (<span class="bible-verse" data-verse="John 13:33">John 13:33</span>). This elicits from Peter a query about 
+        where He is going (<span class="bible-verse" data-verse="John 13:36">John 13:36</span>). The disciples do not 
+        understand that Jesus is talking about His death, resurrection, and ascension. Peter says he is ready to lay 
+        down his life for Him (<span class="bible-verse" data-verse="John 13:37">John 13:37</span>). This is when Jesus 
+        predicts Peter’s denial (<span class="bible-verse" data-verse="John 13:38">John 13:38</span>).</p>
+
+        <p>It is in this context that Jesus tells His disciples not to let their hearts be troubled (<span class="bible-verse" data-verse="John 14:1">John 14:1</span>). 
+        The verb troubled is translated in Greek as <em>tarassō</em>, which means to stir up, disturb, unsettle, throw into confusion. 
+        It is not surprising that the disciples would be thrown into confusion at Jesus’ words.</p>
+
+        <p>But, countering their fears, He talks about His Father’s house, where there are many rooms (not mansions but rooms 
+        as in an inn). He is going there to prepare a place for them. His words look beyond the coming storm of the cross to 
+        the time when He will return to redeem His people. He is looking to the time when this whole tragedy with sin is 
+        finished once and for all (see <span class="bible-verse" data-verse="Daniel 7:27">Dan. 7:27</span>).</p>
+
+        <p>Jesus says, “ ‘If I go . . . , I will come again and receive you to Myself, that where I am, there you may be also’ ” 
+        (<span class="bible-verse" data-verse="John 14:3">John 14:3, NKJV</span>). It is clearly a promise of His second coming.</p>
+
+        <p>What is the basis for confidence in that promise? Many would say the fulfillment of Bible prophecy, and that is 
+        certainly true. But in <span class="bible-verse" data-verse="John 14:3">John 14:3</span>, the basis is stated differently. 
+        In this verse, <em>I will come</em> is actually in the present tense in Greek (<em>I am coming</em>). This is a use of 
+        the present tense in Greek called the futuristic present. It is a future event spoken of with such certainty that 
+        it is described as though already happening. Thus, it is fair to translate the phrase as, <em>I will certainly come again</em>.</p>
+
+        <p>The basis of our hope in the return of our Lord is not simply the fulfillment of Bible prophecy. It is also, and 
+        more certainly, based on our confidence in the Man who made the promise. He said He will certainly return for His people. 
+        We can place our confidence in that promise because of Who made it.</p>
+
+        <p><em>What does the Cross teach us about the certainty of Christ’s second coming? Without the Second Coming, what 
+        good did Jesus’ death do us at the first coming?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 5),
-    title: "Tuesday",
+    title: "I Am the Way, the Truth, and the Life",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 14:5, 6">John 14:5, 6</span>. 
+        What query did Thomas make about where Jesus was going? How did Jesus respond?</p>
+
+        <p>Thomas’s query seems logical enough. If you do not know where someone is going, how can you know the way to follow that person? 
+        Jesus upends the query by indicating that He Himself is the way. The way to what? The way to the Father. In the Prologue 
+        (<span class="bible-verse" data-verse="John 1:1-18">John 1:1–18</span>), the intimate connection between the Word (logos), 
+        Jesus Christ, and the Father is emphasized.</p>
+
+        <p><span class="bible-verse" data-verse="John 1:18">John 1:18</span> says that the only begotten (better translated here as unique) 
+        God is the One who has made the Father known. To make known in this text is the Greek verb <em>exēgeomai</em>, meaning to explain, 
+        interpret, exposit. We get the word exegesis from this. It means to bring out the meaning. Thus, Jesus Christ is the link 
+        to the Father, the One who explains or interprets the Father to a fallen world. Consequently, He is the way or path to the Father. 
+        Without Him, we are limited in our understanding.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 14:7-11">John 14:7–11</span>. 
+        How did Jesus clear up Philip’s misunderstanding?</p>
+
+        <p>Philip asked to see the Father, something no sinful human can do and live (compare with <span class="bible-verse" data-verse="Exodus 33:17-34:9">Exod. 33:17–34:9</span>, 
+        <span class="bible-verse" data-verse="John 1:18">John 1:18</span>). Jesus reproves the lack of understanding and points out 
+        that if you have seen Him, you have seen the Father (<span class="bible-verse" data-verse="John 14:9">John 14:9</span>). Consequently, 
+        it is clear that Jesus is the pathway to God. Without Him, the pathway grows dark and uncertain. He is the light that illuminates 
+        the way to God.</p>
+
+        <p>Jesus ties together three terms: way, truth, and life. The term way is used only in <span class="bible-verse" data-verse="John 1:23">John 1:23</span> 
+        regarding John the Baptist’s preparing the way for Jesus, and it is used here in <span class="bible-verse" data-verse="John 14:6">John 14:6</span>. 
+        But truth and life are major themes in the Gospel. Our study on Wednesday and Thursday will emphasize the concept of truth, a crucial 
+        topic, especially in a world where the very idea of “truth” is called into question.</p>
+
+        <p><em>Why is it so comforting to realize that Jesus is the best revelation we will have here of what God the Father is like?</em></p>
     `
 },
 {
     date: new Date(2024, 10, 6),
-    title: "Wednesday",
+    title: "I AM the Truth",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 1:14">John 1:14</span>, 
+        <span class="bible-verse" data-verse="John 1:17">17</span>; <span class="bible-verse" data-verse="John 8:32">John 8:32</span>; 
+        <span class="bible-verse" data-verse="John 14:6">14:6</span>; and <span class="bible-verse" data-verse="John 15:26">15:26</span>. 
+        How does John tie the concept of truth directly to Jesus?</p>
+
+        <p>Again and again in John’s Gospel, truth is connected to Jesus, to His Father, and to the Holy Spirit. 
+        Truth is connected with Jesus, the Word (logos), and with light—in contrast to darkness 
+        (<span class="bible-verse" data-verse="John 1:1-14">John 1:1–14</span>, 
+        <span class="bible-verse" data-verse="John 3:19-21">John 3:19–21</span>). And, too, falsehood is connected with the devil and sin 
+        (<span class="bible-verse" data-verse="John 8:44-46">John 8:44–46</span>). Consequently, truth in John is not simply a matter of facts and figures. 
+        It does involve such things, but more than this, the idea of truth contains a moral aspect of faithfulness to God and to His will.</p>
+
+        <p>“There are many who are crying out for the living God, longing for the divine presence. 
+        Philosophical theories or literary essays, however brilliant, cannot satisfy the heart. 
+        The assertions and inventions of men are of no value. Let the word of God speak to the people. 
+        Let those who have heard only traditions and human theories and maxims hear the voice of Him whose word can renew 
+        the soul unto everlasting life.” —Ellen G. White, <em>Christ’s Object Lessons</em>, p. 40.</p>
+
+        <p>Think about what it means for Jesus to be the Truth. Jesus is the logos, the Word who was with God from the beginning 
+        and who was the Creator of all things created (<span class="bible-verse" data-verse="John 1:1-4">John 1:1–4</span>). 
+        One with the Father from eternity to eternity, Jesus has the characteristics of the Father, and thus is also the “I AM.” 
+        His being is not subject to anyone or anything else. Nothing that exists, including knowledge, exists apart from Him. 
+        And everything that does exist, that was created, was created only by Jesus and exists only in Him, as well. 
+        “For by Him all things were created that are in heaven and that are on earth, visible and invisible, whether thrones or dominions 
+        or principalities or powers. All things were created through Him and for Him. And He is before all things, and in Him all things consist” 
+        (<span class="bible-verse" data-verse="Colossians 1:16-17">Col. 1:16, 17, NKJV</span>).</p>
+
+        <p>Jesus is not simply the embodiment of the truth; He is the Truth. Truth is not a concept or a construct. It is a Person!</p>
+
+        <p>The Truth, Jesus Christ, can be likened to the sun that lights up the world (<span class="bible-verse" data-verse="John 8:12">John 8:12</span>). 
+        It is parallel to what C. S. Lewis stated about Christianity: “I believe in Christianity as I believe that the Sun has risen, 
+        not only because I see it, but because by it I see everything else.” —“Is Theology Poetry?” (n. p.: Samizdat University Press, 2014), 
+        p. 15, originally presented in 1944.</p>
+
+        <p>It is by Jesus, the Truth, that we are able to interpret the world around us rightly.</p>
     `
 },
 {
     date: new Date(2024, 10, 7),
-    title: "Thursday",
+    title: "The Scriptures and the Truth",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>Throughout the Gospel, Scripture plays an important role in telling us about the One who is the way, the truth, 
+        and the life. All through the Gospels, as all through the Bible, both the Old and New Testaments, the Scriptures 
+        play a key role in revealing truth. This is especially true when it comes to teaching us about who Jesus is and 
+        what He came to do.</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 5:38-40">John 5:38–40</span>. 
+        What is Jesus saying here about the Scriptures?</p>
+
+        <p>Jesus and His disciples pointed to Scripture again and again to validate Him as the Messiah. Christ said, 
+        “ ‘If you believed Moses, you would believe Me; for he wrote about Me. But if you do not believe his writings, 
+        how will you believe My words?’ ” (<span class="bible-verse" data-verse="John 5:46-47">John 5:46, 47, NKJV</span>).</p>
+
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="Luke 24:27">Luke 24:27</span>. 
+        Why is it important that Jesus first pointed to the Scriptures in order to reveal the significance of His ministry?</p>
+
+        <p>In another place, while quoting from the book of Exodus, Christ said, “ ‘Have you not read what was spoken 
+        to you by God . . . ?’ ” (<span class="bible-verse" data-verse="Matthew 22:31">Matt. 22:31, NKJV</span>). 
+        Zacharias referred to the promises of God that “He [God] spoke by the mouth of His holy prophets, who have been 
+        since the world began” (<span class="bible-verse" data-verse="Luke 1:70">Luke 1:70, NKJV</span>). 
+        In his sermon on the day of Pentecost, Peter said, “ ‘This Scripture had to be fulfilled, which the Holy Spirit 
+        spoke before by the mouth of David’ ” (<span class="bible-verse" data-verse="Acts 1:16">Acts 1:16, NKJV</span>).</p>
+
+        <p>The Bible is not a textbook on science. It does not explain how to split the atom or perform brain surgery. 
+        But it does something even more significant. It provides the context within which our universe has meaning. 
+        It is the key that opens the door, the light that makes it possible to see. Without it, we would be in the dark 
+        about the existence of God, His role in the universe, our own origin, the meaning of life, and the future.</p>
+
+        <p><em>What are some truths taught in the Bible that science, even in theory, can never teach us?</em></p>
     `
 },
 {
@@ -2668,15 +2859,85 @@ const dailyMessages = [
     title: "Further Thought",
     lesson: "10",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> Ellen G. White, “ ‘The Light of Life,’ ” pp. 463–475, in The Desire of Ages; E. Edward Zinke, 
+        “The Authority of the Bible and the Certainty of the Second Coming,” The Certainty of the Second Coming (Hagerstown, MD: 
+        Review and Herald Publishing Association, 2000), pp. 23–36.</p>
+
+        <p>When Jesus said, “I am the light of the world,” He “was in the court of the temple specially connected with the 
+        services of the Feast of Tabernacles. In the center of this court rose two lofty standards, supporting lampstands 
+        of great size. After the evening sacrifice, all the lamps were kindled, shedding their light over Jerusalem. This 
+        ceremony was in commemoration of the pillar of light that guided Israel in the desert, and was also regarded as 
+        pointing to the coming of the Messiah. At evening when the lamps were lighted, the court was a scene of great rejoicing. . . .</p>
+
+        <p>“In the illumination of Jerusalem, the people expressed their hope of the Messiah’s coming to shed His light 
+        upon Israel. But to Jesus the scene had a wider meaning. As the radiant lamps of the temple lighted up all about 
+        them, so Christ, the source of spiritual light, illumines the darkness of the world. Yet the symbol was imperfect. 
+        That great light which His own hand had set in the heavens was a truer representation of the glory of His mission.</p>
+
+        <p>“It was morning; the sun had just risen above the Mount of Olives, and its rays fell with dazzling brightness 
+        on the marble palaces, and lighted up the gold of the temple walls, when Jesus, pointing to it, said, ‘I am the 
+        light of the world.’ ”—Ellen G. White, The Desire of Ages, pp. 463, 464.</p>
+
+        <p><strong>Discussion Questions:</strong></p>
+
+        <p>In class, talk about your answer to Thursday’s final question. What crucial truths taught by the Bible could 
+        we never, even in principle, learn from science? For example, the Cross? Or the Resurrection? Or the Second Coming? 
+        What other important biblical truths must be revealed to us—otherwise, we would never know them?</p>
+
+        <p>Think about the fall of Lucifer, a perfect being with so much intellectual knowledge of God and of what God is 
+        like. And yet, even with all that, he rebelled against Him. What does this tell us about the reality of free will, 
+        the same free will that we have—and why, moment by moment, we need to choose to surrender that will to God?</p>
     `
 },
 {
     date: new Date(2024, 10, 8),
-    title: "Story",
+    title: "Gift to a Well-Dressed Woman",
     lesson: "10",
+    author: "By Andrew McChesney",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p>A well-dressed woman drove her car into the parking garage of the Seventh-day Adventist Church’s Upper Magdalena Conference in Bogota, Colombia. 
+        “Are you Christians?” she asked the parking attendant.</p>
+
+        <p>“Yes,” replied 52-year-old Ruben Campos.</p>
+
+        <p>“Which religion are you?” she asked.</p>
+
+        <p>“We are Seventh-day Adventists,” he said. “Can we help you?”</p>
+
+        <p>“Someone told me that Adventists don’t like to help others,” she said.</p>
+
+        <p>Ruben was surprised. “Let us help you,” he said. “We’re ready to serve.”</p>
+
+        <p>The woman asked if she could park her car in the church parking garage. Her apartment was nearby, but it didn’t have any parking, 
+        and she didn’t feel safe leaving her car in the street at night.</p>
+
+        <p>“Yes, you can park here,” Ruben said.</p>
+
+        <p>“How much would it cost?” she asked.</p>
+
+        <p>“It won’t cost you anything,” Ruben said. “It will be our gift to you.”</p>
+
+        <p>“Thank you!” the woman exclaimed. “Can I give you a hug?”</p>
+
+        <p>That night, the woman left her car in the parking garage. She returned the next night. On the third night, she asked Ruben for a Bible.</p>
+
+        <p>Then the two started studying the Bible. Ruben brought her a chair, and he sat in his booth as they studied. After a month, 
+        the woman said she wanted to introduce Ruben to her husband. She called from her cell phone. “It’s with him that I’m studying the Bible, 
+        and I want to be baptized,” she said.</p>
+
+        <p>The woman’s husband was a senior Colombian military officer, and he was on a temporary assignment abroad. He told Ruben that 
+        he also wanted Bible studies. “We can start when I return to Colombia,” he said.</p>
+
+        <p>Ruben may have been the happiest parking attendant in Colombia when the woman was baptized in a Seventh-day Adventist church in Bogota. 
+        He is now waiting for her husband to return to the country for Bible studies.</p>
+
+        <p>Jesus engaged in mission outreach by serving others. He said, “The Son of Man did not come to be served, but to serve” 
+        (<span class="bible-verse" data-verse="Matthew 20:28">Matt. 20:28, NKJV</span>). Ruben is seeking to follow His example.</p>
+
+        <p>“We can have an impact on many lives if we only serve,” said Ruben, who has worked as a parking attendant for eight years. 
+        “Somebody could come to you soon. You have to be ready to serve no matter who or where that person is.”</p>
+
+        <p>Thank you for your Thirteenth Sabbath Offering that helped two mission outreach projects in Colombia last quarter.</p>
     `
 },
 

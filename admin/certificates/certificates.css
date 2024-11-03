@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.lesson {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Default styles for the certificate */
+#certificate {
+    display: none;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+   background-image-resolution: 300dpi;
+}
+
+/* A4 Portrait */
+.a4-portrait {
+    width: 210mm;
+    height: 297mm;
+}
+
+body.a4-portrait {
+    width: 210mm;
+    height: auto;
+    margin: 0;
+}
+
+/* A4 Landscape */
+.a4-landscape {
+    width: 297mm;
+    height: 210mm;
+}
+
+body.a4-landscape {
+    width: 297mm;
+    height: auto;
+    margin: 0;
+}
+
+/* A5 Portrait */
+.a5-portrait {
+    width: 148mm;
+    height: 210mm;
+}
+
+body.a5-portrait {
+    width: 148mm;
+    height: auto;
+    margin: 0;
+}
+
+/* A5 Landscape */
+.a5-landscape {
+    width: 210mm;
+    height: 148mm;
+}
+
+body.a5-landscape {
+    width: 210mm;
+    height: auto;
+    margin: 0;
+}
+.template1 #title {
+    font-family: 'Times New Roman', serif;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 25%;  /* Relative to the height of the certificate */
+    left: 10%;  /* Relative to the width of the certificate */
+    right: 0%; /* Keep some padding on the right */
+    text-align: center;  /* Ensure the name is centered */
+    white-space: nowrap; 
+}
+
+#lessonsDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+     /* Optional: Adds space between the columns */
+    list-style-type: none; /* Removes bullet points */
+    justify-content: space-between; 
+}
+
+#lessonsDisplay li {
+    padding: 5px;
+    width: 45%;
+    white-space: nowrap; 
+}
+
+
+
+
+/* Template 1 Styles */
+.template1 #nameDisplay {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px;
+    color: blueviolet;
+    position: absolute;
+    top: 66.8%;  
+    left: 160%;  
+    right: 0%;
+    text-align: center; 
+    white-space: nowrap;
+}
+.template1 #lessonsDisplay {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    top: 83%;
+    left: 60%;  
+    margin: 8px 0;
+    width: 90%;  
+    margin-left: 5%;
+    position: absolute;
+    gap: 0 55%;
+}
+
+/* Template 2 Styles */
+.template2 #nameDisplay {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 55px;
+    color: blueviolet;
+    position: absolute;
+    top: 19%;  
+    left: 18%;  
+    right: 0%;
+    text-align: center; 
+    white-space: nowrap;
+}
+.template2 #title {
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    color: brown;
+    position: absolute;
+    top: 7%;  /* Relative to the height of the certificate */
+    left: 0%;  /* Relative to the width of the certificate */
+    right: 5%; /* Keep some padding on the right */
+    text-align: center;  /* Ensure the name is centered */
+    white-space: nowrap; 
+}
+.template2 #lessonsDisplay {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    top: 24%;  
+    left: 20%;  
+    margin: 8px 0;
+    width: 80%;  
+    margin-left: 2%;
+    position: absolute;
+    gap: 0 5%;
+}
+
+/* Template 5 Styles */
+.template5 #nameDisplay {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px;
+    color: blueviolet;
+    position: absolute;
+    top: 94%;  
+    left: 65%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.template5 #lessonsDisplay {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    color: #2f4f4f;
+    text-align: left;
+    top: 115%;
+    left: 15%; 
+    right: 0%;
+    margin: 12px 0;
+    padding-left: 10%;
+    width: 80%; 
+    position: absolute;
+    gap: 0 70%;
+}
+
+
+/* Date styles */
+#dateDisplay {
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    bottom: 5%;  /* Adjust the position relative to the bottom */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#download {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    cursor: pointer;
+}

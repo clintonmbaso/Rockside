@@ -173,6 +173,8 @@ document.addEventListener("DOMContentLoaded", function() {
         questions = mgHonours26;
     }  else if (honour === 'mgHonours27') {
         questions = mgHonours27;
+    }  else if (honour === 'mgHonours28') {
+        questions = mgHonours28;
         
         // sylHonours
     } else if (honour === 'mgHonours02') {
@@ -227,13 +229,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         let output = '';
+        
         selectedQuestions.forEach((q, i) => {
             output += `
+            
                 <div class="question">
                     <p>${i + 1}. ${q.question}</p>
                     ${q.options.map((option, index) =>
                         `<label><input type="radio" name="q${i}" value="${index}">${option.text}</label>`).join('')}
-                    ${q.hint ? `` : ''}
+                    ${q.hint ? `<!--<p class="hint">${q.hint}</p>-->` : ''}
                 </div>
             `;
         });

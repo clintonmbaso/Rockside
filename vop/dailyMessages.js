@@ -1667,7 +1667,7 @@ const dailyMessages = [
     lesson: "7",
     text: `
         <p><strong>Read for This Week’s Study:</strong> <span class="bible-verse" data-verse="John 8:54-58">John 8:54–58</span>, 
-        <span class="bible-verse" data-verse="Genesis 12:3">Gen. 12:3</span>, <span class="bible-verse" data-verse="Rom. 4:1-5">Romans 4:1–5</span>, 
+        <span class="bible-verse" data-verse="Genesis 12:3">Genesis 12:3</span>, <span class="bible-verse" data-verse="Rom. 4:1-5">Romans 4:1–5</span>, 
         <span class="bible-verse" data-verse="John 12:1-8">John 12:1–8</span>, <span class="bible-verse" data-verse="John 19:4-22">John 19:4–22</span>, 
         <span class="bible-verse" data-verse="John 20:19-31">John 20:19–31</span>, <span class="bible-verse" data-verse="Daniel 2">Daniel 2</span>, 
         <span class="bible-verse" data-verse="Daniel 7">Daniel 7</span>.</p>
@@ -1710,8 +1710,8 @@ const dailyMessages = [
         and he saw it and was glad’” (<span class="bible-verse" data-verse="John 8:56">John 8:56, NKJV</span>).</p>
 
         <p><strong>Question:</strong> Why was Abraham’s witness so important that it was included in John’s gospel? 
-        (<span class="bible-verse" data-verse="Gen 12:3">Gen. 12:3</span>, <span class="bible-verse" data-verse="Gen 18:16-18">Gen. 18:16–18</span>, 
-        <span class="bible-verse" data-verse="Gen 26:4">Gen. 26:4</span>, <span class="bible-verse" data-verse="Matt 1:1">Matthew 1:1</span>, 
+        (<span class="bible-verse" data-verse="Genesis 12:3">Genesis 12:3</span>, <span class="bible-verse" data-verse="Genesis 18:16-18">Genesis 18:16–18</span>, 
+        <span class="bible-verse" data-verse="Genesis 26:4">Genesis 26:4</span>, <span class="bible-verse" data-verse="Matthew 1:1">Matthew 1:1</span>, 
         <span class="bible-verse" data-verse="Acts 3:25">Acts 3:25</span>.)</p>
 
         <p>“Through type and promise God ‘preached before the gospel unto Abraham.’ <span class="bible-verse" data-verse="Galatians 3:8">Galatians 3:8</span>. 
@@ -1889,16 +1889,16 @@ const dailyMessages = [
         <p><strong>Why?</strong></p>
 
         <p>What are some of the things that we have today that those living at the time of Jesus didn’t have that 
-        should help us believe? (See, for example, <span class="bible-verse" data-verse="Matt 24:2">Matthew 24:2</span>, 
-        <span class="bible-verse" data-verse="Matt 24:14">Matthew 24:14</span>, 
-        <span class="bible-verse" data-verse="Matt 24:6-8">Matthew 24:6–8</span>.)</p>
+        should help us believe? (See, for example, <span class="bible-verse" data-verse="Matthew 24:2">Matthew 24:2</span>, 
+        <span class="bible-verse" data-verse="Matthew 24:14">Matthew 24:14</span>, 
+        <span class="bible-verse" data-verse="Matthew 24:6-8">Matthew 24:6–8</span>.)</p>
 
         <p>And that’s because we have not only the powerful accounts in John’s Gospel, but also the great advantage 
         of seeing so much of what Jesus and other Bible writers predicted would come true, such as the destruction of 
-        the temple (<span class="bible-verse" data-verse="Matt 24:2">Matthew 24:2</span>), the spread of the gospel 
-        around the world (<span class="bible-verse" data-verse="Matt 24:14">Matthew 24:14</span>), the great falling 
+        the temple (<span class="bible-verse" data-verse="Matthew 24:2">Matthew 24:2</span>), the spread of the gospel 
+        around the world (<span class="bible-verse" data-verse="Matthew 24:14">Matthew 24:14</span>), the great falling 
         away (<span class="bible-verse" data-verse="2 Thess 2:3">2 Thess. 2:3</span>), and the world continuing to 
-        be a fallen and evil place (<span class="bible-verse" data-verse="Matt 24:6-8">Matthew 24:6–8</span>). All during 
+        be a fallen and evil place (<span class="bible-verse" data-verse="Matthew 24:6-8">Matthew 24:6–8</span>). All during 
         the life and ministry of Jesus, His following remained a small and harassed group of men and women who, by all 
         human standards, should have vanished from history a long time ago. How could they have known, as we do, that 
         all these things would come to pass? And they have. In fact, our own faith itself exists as a fulfillment of 
@@ -2840,7 +2840,7 @@ const dailyMessages = [
         Why is it important that Jesus first pointed to the Scriptures in order to reveal the significance of His ministry?</p>
 
         <p>In another place, while quoting from the book of Exodus, Christ said, “ ‘Have you not read what was spoken 
-        to you by God . . . ?’ ” (<span class="bible-verse" data-verse="Matthew 22:31">Matt. 22:31, NKJV</span>). 
+        to you by God . . . ?’ ” (<span class="bible-verse" data-verse="Matthew 22:31">Matthew 22:31, NKJV</span>). 
         Zacharias referred to the promises of God that “He [God] spoke by the mouth of His holy prophets, who have been 
         since the world began” (<span class="bible-verse" data-verse="Luke 1:70">Luke 1:70, NKJV</span>). 
         In his sermon on the day of Pentecost, Peter said, “ ‘This Scripture had to be fulfilled, which the Holy Spirit 
@@ -2932,7 +2932,7 @@ const dailyMessages = [
         He is now waiting for her husband to return to the country for Bible studies.</p>
 
         <p>Jesus engaged in mission outreach by serving others. He said, “The Son of Man did not come to be served, but to serve” 
-        (<span class="bible-verse" data-verse="Matthew 20:28">Matt. 20:28, NKJV</span>). Ruben is seeking to follow His example.</p>
+        (<span class="bible-verse" data-verse="Matthew 20:28">Matthew 20:28, NKJV</span>). Ruben is seeking to follow His example.</p>
 
         <p>“We can have an impact on many lives if we only serve,” said Ruben, who has worked as a parking attendant for eight years. 
         “Somebody could come to you soon. You have to be ready to serve no matter who or where that person is.”</p>
@@ -2947,7 +2947,34 @@ const dailyMessages = [
     title: "Saturday",
     lesson: "11",
     text: `
-        <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <p><strong>Read:</strong> <span class="bible-verse" data-verse="John 14:10, 24">John 14:10, 24</span>; 
+        <span class="bible-verse" data-verse="Genesis 3:7-9">Genesis 3:7–9</span>; 
+        <span class="bible-verse" data-verse="John 16:27-28">John 16:27, 28</span>; 
+        <span class="bible-verse" data-verse="John 16:7-11">John 16:7–11</span>; 
+        <span class="bible-verse" data-verse="John 17:1-26">John 17:1–26</span>.</p>
+
+        <p><strong>Memory Text:</strong> “ ‘The Helper, the Holy Spirit, whom the Father will send in My name, 
+        He will teach you all things, and bring to your remembrance all things that I said to you’ ” 
+        (<span class="bible-verse" data-verse="John 14:26">John 14:26, NKJV</span>).</p>
+
+        <p>The Gospel of John is a mosaic of themes. John calls upon signs (miracles) to show that Jesus is the Messiah 
+        promised by the prophets. John uses an array of witnesses to proclaim Jesus as the Christ. He also uses the “I AM” 
+        statements to point to His divinity.</p>
+
+        <p>All three members of the Godhead are mentioned in <span class="bible-verse" data-verse="John 1:1-4">John 1</span> 
+        (<span class="bible-verse" data-verse="John 1:1-4">John 1:1–4</span>, <span class="bible-verse" data-verse="John 1:14">14</span>, 
+        <span class="bible-verse" data-verse="John 1:18">18</span>, <span class="bible-verse" data-verse="John 1:32-34">32–34</span>). 
+        For centuries humans have tried fully to understand the nature of the Godhead, but because we can’t, many reject the idea. 
+        How foolish, though, to reject something just because we can’t fully understand it or because it doesn’t fit within the 
+        narrow limits of human reasoning.</p>
+
+        <p>John says that if you want to understand God, you must look at Jesus and what has been revealed in the Word. 
+        This approach opens to us a whole new world of relationships—among the Three Members of the Godhead, 
+        between the Members of the Godhead and humans, and among humans themselves. This week’s lesson looks at how the 
+        Gospel of John presents the Father, Son, and Holy Spirit, but now within the context of the farewell discourse 
+        (<span class="bible-verse" data-verse="John 13-17">John 13–17</span>).</p>
+
+        <p><em>Study this week’s lesson to prepare for Sabbath, December 14.</em></p>
     `
 },
 {

@@ -162,7 +162,8 @@
                imageUrl: "../images/PathfinderWeekOfPrayer.jpg" 	     
          	   },
 
-	   { name: "Pathfinder Day", 
+
+	   { name: "Pathfinder Day", 
          	     date: new Date("Sep 21, 2024 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Global Pathfinder Day", 
@@ -186,7 +187,18 @@
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   }
 
+            { name: "KEMD Crossover Camp", 
+         	     date: new Date("Dec 27, 2024 16:00:00").getTime(), 
+         	     reminderDays: 0, reminderHours: 2,
+               caption: "Kabwe East Mission District Crossover Camp", 
+               details: "Kabwe East Mission District will have an extra ordinary crossover camp that will run from Dec 27 2024 to Jan 2 2025. Registration is only K50, food K150. Come camp with us at Luanshimba and end the year with skills.", 
+               imageUrl: "../images/crossoverCamp.jpg" 	     
+            }
 
+
+
+
+                  
             // Add other events here
          ];
 

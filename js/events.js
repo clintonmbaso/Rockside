@@ -187,7 +187,7 @@
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   },
 
-            { name: "KEMD Crossover Camp", 
+            { name: "Crossover Camp", 
          	     date: new Date("Dec 27, 2024 16:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Kabwe East Mission District Crossover Camp", 

@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #6200ea;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background: #333;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents items from wrapping */
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex-shrink: 0; /* Prevents items from shrinking */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    background: #6200ea;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    background: #7c4dff;
+}
+
+main {
+    padding: 1rem;
+}
+
+h2 {
+    color: #6200ea;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+table th {
+    background: #6200ea;
+    color: #fff;
+}
+
+/* Style the first column cells */
+table td:first-child {
+    background-color: rgba(98, 0, 234, 0.2); /* Light blue background */
+    color: #333;              /* Dark text color */
+    font-weight: bold;        /* Bold text */
+    text-align: center;       /* Center alignment */
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

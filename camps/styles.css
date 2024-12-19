@@ -83,6 +83,7 @@ table td:first-child {
 .slideshow {
     position: relative;
     width: 100%;
+    height: 300px;
     max-width: 600px;
     margin: auto;
     overflow: hidden;

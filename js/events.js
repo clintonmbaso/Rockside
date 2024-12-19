@@ -185,7 +185,7 @@
                caption: "Kabwe East Mission District Visits Lusaka North Mission District", 
                details: "We desire a return march to our sister district so that we can also enjoy the blessings of being a guest.", 
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
-         	   }
+         	   },
 
             { name: "KEMD Crossover Camp", 
          	     date: new Date("Dec 27, 2024 16:00:00").getTime(), 

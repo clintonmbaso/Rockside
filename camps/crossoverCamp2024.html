@@ -15,9 +15,252 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camping - Page</title>
     <link href="../indexes1.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+        nav {
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: auto;
+            z-index:2;
+        }
+        nav a {
+            display: block;
+            padding: 10px 5px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 90vh; /* Set a fixed height */
+            text-align: justify;
+            margin-top: 15px;
+}
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            backdrop-filter: blur(5px);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 3;
+            max-width: 600px;
+            max-height: 80%;
+            width: 90%;
+            overflow: auto;
+        }
+        .popup a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        .popup a:hover {
+            background-color: #ddd;
+        }
+  #contentArea {
+    
+  }
+    .clubLogo {
+        width: 50px;
+        height: auto;
+        margin: 5px 10px;
+    }
+    .bottom {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 0 0 10px 10px;
+        color: grey;
+        bottom: 2px;
+        margin-left: -2px;
+    }
+    .top {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 10px 10px 0 0;
+        color: grey;
+        margin-top: -15px;
+        margin-left: -2px;
+        z-index: 999;
+    }
+    .thead {
+        margin:5px 0 0 0;
+        left: 0;
+        position:fixed;
+        z-index:999;
+        padding: 0 10px 2px 10px;
+        border-radius: 0 0 20px 0;
+        width: 50%;
+        background-color:rgba(0,40,45,0.9);
+    }
+    blockquote {
+        border-left: 5px solid grey;
+        margin: 0 5px 10px 5px;
+        border-radius: 10px 0 0 10px;
+        font-style: italic;
+        color: grey;
+        padding-left: 5px;
+    }
+
+h4 {
+    margin-bottom: 1px;
+}
+
+p {
+    margin-top: 1px;
+}
+
+li {
+    margin-left: 10px;
+}
+
+    
+header {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+navi {
+    background: #333;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents items from wrapping */
+    padding: 0.5rem 0;
+    margin-top: 15px;
+}
+
+navi ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+navi ul li {
+    flex-shrink: 0; /* Prevents items from shrinking */
+    margin: 0 15px;
+}
+
+navi ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    background: #6200ea;
+    border-radius: 20px;
+}
+
+navi ul li a:hover {
+    background: #7c4dff;
+}
+
+main {
+    padding: 2px;
+}
+
+h2 {
+    color: #6200ea;
+    font-size: 20px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+table th {
+    background: #6200ea;
+    color: #fff;
+}
+
+/* Style the first column cells */
+table td:first-child {
+    background-color: rgba(98, 0, 234, 0.2); /* Light blue background */
+    color: #333;              /* Dark text color */
+    font-weight: bold;        /* Bold text */
+    text-align: center;       /* Center alignment */
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    z-index:1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 9px;
+    z-index: 1;
+}
+
+footer {
+    background: #333;
+    color: yellow;
+    text-align: center;
+    padding: 0.4rem;
+    margin-top: 0.1rem;
+    font-size: 12px;
+    font-style: italic;
+    
+}
     </style>
 </head>
 <body>
@@ -42,7 +285,7 @@
         <img class="clubLogo" src="../images/5. AY Logo.png" alt="logo">
         <a href="#popupLessons">Lessons</a>
         <a href="#popupActivities">Activities</a>
-        <a href="#popupLaw">Gallery</a>
+        <a href="#popupGallery">Gallery</a>
         <a href="#popupAim">Key</a>
         <a href="#popupEmblem">Firm</a>
         <a href="#popupRegister">Register</a>
@@ -55,8 +298,9 @@
         <div class="popup-overlay" id="popupOverlay"></div>
         
         <div id="popupLessons" class="popup">
-            <a href="" class="popup-link" data-info="<h2>Sermon: If I Knew</h2>
+            <a href="#" class="popup-link" data-info="
                 
+<h2>Sermon: If I Knew</h2>
         <p><strong>Preacher:</strong> Moris Chibale</p>
         <p><strong>Translator:</strong> Wabota Seeta</p>
         <p><strong>Main Text:</strong> Galatians 6:7 (KJV) - 'Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap.'</p>
@@ -122,8 +366,9 @@
                 ">Sabbath Sermon</a>
           
             
-<a href="#" class="popup-link" data-info="<h2>FINANCIAL LITERACY</h2>
-
+<a href="#" class="popup-link" data-info="
+    
+    <h2>FINANCIAL LITERACY</h2>
     <h3>The Seven Steps to Prosperity</h3>
     <ol>
         <li>
@@ -174,52 +419,84 @@
     </ol>
                 ">Financial Literacy</a>
           
-                      <a href="#" class="popup-link" data-info="<h2>EXPLORER CLASS</h2>
+<a href="#" class="popup-link" data-info="
+    <h2>BASIC CODING</h2>
 
-                ">Basic Coding</a>
+">Basic Coding</a>
           
-                      <a href="#" class="popup-link" data-info="<h2>RANGER CLASS</h2>
 
-                ">Container Gardening</a>
+<a href="#" class="popup-link" data-info="
+    <h2>CONTAINER GARDENING</h2>
+
+">Container Gardening</a>
           
-                      <a href="#" class="popup-link" data-info="<h2>VOYAGER CLASS</h2>
+            
+<a href="#" class="popup-link" data-info="
+    <h2>ELECTRONICS</h2>
 
-                ">Electronics</a>
+">Electronics</a>
         
-                        <a href="#" class="popup-link" data-info="<h2>GUIDE CLASS</h2>
+            
+<a href="#" class="popup-link" data-info="
+    <h2>POWER ELECTRICAL</h2>
 
-                ">Power Electrical</a>
+">Power Electrical</a>
             
         </div>
 
+        
+        
+        
 <div id="popupActivities" class="popup">
             <a href="#" class="popup-link" data-info="<h2>4 X 4 SUDOKU Puzzle</h2>
 
                 ">SUDOKU Puzzle</a>
           
-                    <a href="#" class="popup-link" data-info="<h2>Electronics Assessment Puzzle</h2>
+    
+<a href="#" class="popup-link" data-info="
+    <h2>Electronics Assessment Puzzle</h2>
 
-                ">Crossword Puzzle</a>
+">Crossword Puzzle</a>
           
-                      <a href="#" class="popup-link" data-info="<h2>6 X 6 SUDOKU Puzzle</h2>
+    
+<a href="#" class="popup-link" data-info="
+    <h2>6 X 6 SUDOKU Puzzle</h2>
 
-                ">SUDOKU Puzzle</a>
+">SUDOKU Puzzle</a>
           
-                      <a href="#" class="popup-link" data-info="<h2>RANGER CLASS</h2>
+    
+<a href="#" class="popup-link" data-info="
+    <h2>RANGER CLASS</h2>
 
-                ">Ranger Requirement Card</a>
+">Ranger Requirement Card</a>
           
                       <a href="#" class="popup-link" data-info="<h2>VOYAGER CLASS</h2>
 
                 ">Voyager Requirement Card</a>
         
-                        <a href="#" class="popup-link" data-info="<h2>GUIDE CLASS</h2>
+<a href="#" class="popup-link" data-info="
+    <h2>GUIDE CLASS</h2>
 <p>Welcome to the Kabwe East Mission District Adventist Youth Ministries Executive Board Meeting Summary, your gateway to transparency and accountability within our organization. This page is designed to meticulously document the discussions, decisions, and actions taken during our Executive Board meetings. It serves as a beacon of transparency, ensuring that every member is well-informed and empowered to contribute meaningfully to our collective goals.</p>
 <p>Together, let us uphold the principles of transparency, accountability, and collaboration as we navigate the challenges and opportunities that lie ahead. Our commitment to excellence starts with each of us, and it is through our collective efforts that we will continue to drive positive change within Adventist Youth Ministries and beyond.</p>        </div>
 
-                ">Guide Requirement Card</a>
+">Guide Requirement Card</a>
             
         </div>
+        
+        
+<div id="popupGallery" class="popup">
+    <a href="#" class="popup-link" data-info="
+        <h2>Gallery</h2>
+        
+        ">Main Photo Gallery</a>
+
+<a href="#" class="popup-link" data-info="
+    <h2>RANGER CLASS</h2>
+
+">Slide Show</a>
+</div>
+        
+        
         
         
         <!-- Add similar divs for other years -->
@@ -347,7 +624,68 @@
             </table>
         </sectioni>
         
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll('nav a');
+    const popupOverlay = document.getElementById('popupOverlay');
+
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const popupId = link.getAttribute('href').substring(1);
+            const popup = document.getElementById(popupId);
+            popupOverlay.style.display = 'block';
+            popup.style.display = 'block';
+        });
+    });
+
+    document.querySelectorAll('.popup-link').forEach(item => {
+        item.addEventListener('click', event => {
+            event.preventDefault();
+            const info = event.target.getAttribute('data-info');
+            const file = event.target.getAttribute('data-file');
+            const contentArea = document.getElementById('contentArea');
+
+            if (file) {
+                // If the data-file attribute is present, load content from the external file
+                fetch(file)
+                    .then(response => response.text())
+                    .then(data => {
+                        contentArea.innerHTML = data;
+                        closePopup(); // Close the popup after displaying the content
+                    })
+                    .catch(error => console.error('Error loading content:', error));
+            } else if (info) {
+                // If there's data-info, use it directly
+                contentArea.innerHTML = info;
+                closePopup(); // Close the popup after displaying the content
+            }
+        });
+    });
+
+    popupOverlay.addEventListener('click', function() {
+        closePopup();
+    });
+
+    function openPopup() {
+        popupOverlay.style.display = 'block';
+        document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.display = 'block';
+        });
+    }
+
+    function closePopup() {
+        popupOverlay.style.display = 'none';
+        document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.display = 'none';
+        });
+    }
+});
+</script>
+        
+        
     <script>
+        
                 // Array of image URLs
         const images = [
             '../images/crossOver2024/IMG-20241228-WA0059.jpg',
@@ -647,6 +985,8 @@
 
         // Initialize the slideshow
         startSlideshow();
+        
+        
     </script>
         
         
@@ -657,12 +997,12 @@
 <body>
     <div id="linkbar" class="inactive">
         <img id="logoset" src="images/3. Master Guide Logo.png" alt="Logo">
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/friendForms.html"><img src="images/1friend.png" alt="friend">Friend Card</a>
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/companionForms.html"><img src="images/2companion.png" alt="companion"> Companion Card</a>
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/explorerForms.html"><img src="images/3explorer.png" alt="explorer"> Explorer Card</a>
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/rangerForms.html"><img src="images/4ranger.png" alt="ranger">Ranger Card</a>
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/voyagerForms.html"><img src="images/5voyager.png" alt="voyager"> Voyager Card</a>
-        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/guideForms.html"><img src="images/6guide.png" alt="guide"> Guide Card</a>
+        <a class="logo-link" href="Forms/friendForms.html"><img src="images/1friend.png" alt="friend">Friend Card</a>
+        <a class="logo-link" href="Forms/companionForms.html"><img src="images/2companion.png" alt="companion"> Companion Card</a>
+        <a class="logo-link" href="Forms/explorerForms.html"><img src="images/3explorer.png" alt="explorer"> Explorer Card</a>
+        <a class="logo-link" href="Forms/rangerForms.html"><img src="images/4ranger.png" alt="ranger">Ranger Card</a>
+        <a class="logo-link" href="Forms/voyagerForms.html"><img src="images/5voyager.png" alt="voyager"> Voyager Card</a>
+        <a class="logo-link" href="Forms/guideForms.html"><img src="images/6guide.png" alt="guide"> Guide Card</a>
     </div>
 
     <script>

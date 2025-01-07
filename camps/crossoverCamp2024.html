@@ -478,127 +478,42 @@ li {
             </table>
         </sectioni>
         
-<script>
-    // Path to your gallery directory
-    const galleryPath = 'http://flyacade.com.preview.services/camps/gallery/';
+    <script>
+        // Array of image URLs
+        const images = [
+            './gallery/IMG-20241228-WA0059.jpg',
+            './gallery/IMG-20241228-WA0060.jpg',
+            './gallery/IMG-20241228-WA0061.jpg',
+            './gallery/IMG-20241228-WA0062.jpg'
+        ];
 
-    // Array to hold image file names
-    let images = [];
+        // Function to start the slideshow
+        function startSlideshow() {
+            const imageElement = document.getElementById('slideshow-image');
+            let previousIndex = -1;
 
-    // Function to fetch images from the server
-    async function fetchImages() {
-        try {
-            const response = await fetch(`${galleryPath}image-list.php`);
-            if (response.ok) {
-                images = await response.json();
-                startSlideshow();
-            } else {
-                console.error("Error fetching image list.");
+            function showNextImage() {
+                let currentIndex;
+
+                // Ensure the next image is different from the previous one
+                do {
+                    currentIndex = Math.floor(Math.random() * images.length);
+                } while (currentIndex === previousIndex);
+
+                previousIndex = currentIndex;
+                imageElement.src = images[currentIndex];
             }
-        } catch (error) {
-            console.error("Error:", error);
-        }
-    }
 
-    // Function to start the slideshow
-    function startSlideshow() {
-        const imageElement = document.getElementById('slideshow-image');
-        let currentIndex = 0;
-
-        function showNextImage() {
-            if (images.length > 0) {
-                currentIndex = Math.floor(Math.random() * images.length);
-                imageElement.src = galleryPath + images[currentIndex];
-            }
+            // Show the first image and set an interval for the slideshow
+            showNextImage();
+            setInterval(showNextImage, 5000); // Change image every 5 seconds
         }
 
-        // Show the first image and set an interval for the slideshow
-        showNextImage();
-        setInterval(showNextImage, 5000); // Change image every 5 seconds
-    }
-
-    // Initialize the slideshow
-    fetchImages();
-</script>
-        
-
-        <sectioni id="summary">
-            <ul>Please enjoy the camp and take home new knowledge and skills as we endevour to grow our income sources.</ul>
-        </sectioni>
-    </main>
+        // Initialize the slideshow
+        startSlideshow();
+    </script>
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-    </section>
-
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('nav a');
-    const popupOverlay = document.getElementById('popupOverlay');
-
-    links.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            const popupId = link.getAttribute('href').substring(1);
-            const popup = document.getElementById(popupId);
-            popupOverlay.style.display = 'block';
-            popup.style.display = 'block';
-        });
-    });
-
-    document.querySelectorAll('.popup-link').forEach(item => {
-        item.addEventListener('click', event => {
-            event.preventDefault();
-            const info = event.target.getAttribute('data-info');
-            const file = event.target.getAttribute('data-file');
-            const contentArea = document.getElementById('contentArea');
-
-            if (file) {
-                // If the data-file attribute is present, load content from the external file
-                fetch(file)
-                    .then(response => response.text())
-                    .then(data => {
-                        contentArea.innerHTML = data;
-                        closePopup(); // Close the popup after displaying the content
-                    })
-                    .catch(error => console.error('Error loading content:', error));
-            } else if (info) {
-                // If there's data-info, use it directly
-                contentArea.innerHTML = info;
-                closePopup(); // Close the popup after displaying the content
-            }
-        });
-    });
-
-    popupOverlay.addEventListener('click', function() {
-        closePopup();
-    });
-
-    function openPopup() {
-        popupOverlay.style.display = 'block';
-        document.querySelectorAll('.popup').forEach(popup => {
-            popup.style.display = 'block';
-        });
-    }
-
-    function closePopup() {
-        popupOverlay.style.display = 'none';
-        document.querySelectorAll('.popup').forEach(popup => {
-            popup.style.display = 'none';
-        });
-    }
-});
-</script>
-
 </body>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Puzzle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        td {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        td input {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        td input:focus {
+            outline: none;
+            background-color: #e0f7fa;
+        }
+        #submitBtn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Crossword Puzzle</h1>
+    <p>Fill in the crossword puzzle and submit your answers!</p>
+
+    <table id="crossword">
+        <!-- The crossword grid will be dynamically generated -->
+    </table>
+
+    <button id="submitBtn">Submit Answers</button>
+
+    <script>
+        const crosswordData = [
+            { row: 0, col: 0, answer: "C" },
+            { row: 0, col: 1, answer: "A" },
+            { row: 0, col: 2, answer: "T" },
+            { row: 1, col: 0, answer: "D" },
+            { row: 1, col: 1, answer: "O" },
+            { row: 1, col: 2, answer: "G" }
+        ];
+
+        const gridSize = 3;
+
+        function createCrossword(gridSize) {
+            const table = document.getElementById('crossword');
+
+            for (let i = 0; i < gridSize; i++) {
+                const row = document.createElement('tr');
+
+                for (let j = 0; j < gridSize; j++) {
+                    const cell = document.createElement('td');
+                    const input = document.createElement('input');
+                    input.maxLength = 1;
+
+                    const cellData = crosswordData.find(item => item.row === i && item.col === j);
+                    if (!cellData) {
+                        input.disabled = true;
+                    }
+
+                    cell.appendChild(input);
+                    row.appendChild(cell);
+                }
+
+                table.appendChild(row);
+            }
+        }
+
+        function submitAnswers() {
+            const inputs = document.querySelectorAll('#crossword input');
+            const answers = Array.from(inputs).map((input, index) => ({
+                index,
+                value: input.value.toUpperCase()
+            }));
+
+            // Send data to the server
+            fetch('submit_crossword.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ answers })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        document.getElementById('submitBtn').addEventListener('click', submitAnswers);
+
+        createCrossword(gridSize);
+    </script>
+</body>
+</html>

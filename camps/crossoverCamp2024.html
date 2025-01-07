@@ -1,35 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q2T721CW7G');
+</script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camp Daily Schedule</title>
+    <title>Camping - Page</title>
+    <link href="../indexes1.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+        nav {
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: auto;
+            z-index:2;
+        }
+        nav a {
+            display: block;
+            padding: 10px 5px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 90vh; /* Set a fixed height */
+            text-align: justify;
+            margin-top: 15px;
+}
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            backdrop-filter: blur(5px);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 3;
+            max-width: 600px;
+            max-height: 80%;
+            width: 90%;
+            overflow: auto;
+        }
+        .popup a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        .popup a:hover {
+            background-color: #ddd;
+        }
+  #contentArea {
+    
+  }
+    .clubLogo {
+        width: 50px;
+        height: auto;
+        margin: 5px 10px;
+    }
+    .bottom {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 0 0 10px 10px;
+        color: grey;
+        bottom: 2px;
+        margin-left: -2px;
+    }
+    .top {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 10px 10px 0 0;
+        color: grey;
+        margin-top: -15px;
+        margin-left: -2px;
+        z-index: 999;
+    }
+    .thead {
+        margin:5px 0 0 0;
+        left: 0;
+        position:fixed;
+        z-index:999;
+        padding: 0 10px 2px 10px;
+        border-radius: 0 0 20px 0;
+        width: 50%;
+        background-color:rgba(0,40,45,0.9);
+    }
+    blockquote {
+        border-left: 5px solid grey;
+        margin: 0 5px 10px 5px;
+        border-radius: 10px 0 0 10px;
+        font-style: italic;
+        color: grey;
+        padding-left: 5px;
+    }
+
+h4 {
+    margin-bottom: 1px;
+}
+
+p {
+    margin-top: 1px;
+}
+
+li {
+    margin-left: 10px;
+}
+    </style>
 </head>
 <body>
     <header>
-        <h1>Camp Daily Schedule</h1>
-        <p>Plan your day with engaging activities, lessons, and fun!</p>
-    </header>
-    <section id="gallery">
-    <h2>Daily Picture Gallery</h2>
+<div class="bridget-shaelyn">
+
+     <div class="log-clinton">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+          <h3 class="thead"><span style="color:greenyellow;">Camping</span> - <span style="color: orange;">Schedule</span></h3>
+
+</div>
+ 
+    </header>
+
+<div class="container">
+    <nav>
+        <img class="clubLogo" src="../images/5. AY Logo.png" alt="logo">
+        <a href="#popupLessons">Lessons</a>
+        <a href="#popupActivities">Activities</a>
+        <a href="#popupLaw">Gallery</a>
+        <a href="#popupAim">Key</a>
+        <a href="#popupEmblem">Firm</a>
+        <a href="#popupRegister">Register</a>
+        <a href="#popupInduction">Summary</a>
+    </nav>
+
+    <section>
+        <a href="campRegister.php"><div class="top">Hi</div></a>
+        <a href="campRegister.php"><div class="bottom">Hi</div></a>
+        <div class="popup-overlay" id="popupOverlay"></div>
+        
+        <div id="popupLessons" class="popup">
+            <a href="" class="popup-link" data-info="<h2>Sermon: If I Knew</h2>
+                
+        <p><strong>Preacher:</strong> Moris Chibale</p>
+        <p><strong>Translator:</strong> Wabota Seeta</p>
+        <p><strong>Main Text:</strong> Galatians 6:7 (KJV) - 'Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap.'</p>
+    
+
+    <div>
+        <h4>Introduction</h4>
+        <p>Have you ever wished you could go back in time to change a decision? What if, one day, you discovered that everything you were doing was a test, and the results were far more personal than you ever imagined?</p>
+        <p>Today, I want to share a story with you—a story that will lead us to reflect on how we are building our lives.</p>
+    </div>
+
+    <div>
+        <h4>The Commercial Farmer and His Workers</h4>
+        <p>There was a successful commercial farmer in South Africa who decided to retire all his workers. He called them together and, without much explanation, announced their retirement. Can you imagine the shock and sadness?</p>
+        <p>The next day, however, he called back just one man—his builder. The farmer said, “I have one last task for you: build a house for me before you leave.”</p>
+        <p>What would you do if you were that builder?</p>
+    </div>
+
+    <div>
+        <h4>The Builder’s Decision</h4>
+        <p>The builder, feeling frustrated and exhausted, decided to use cheap materials. “Why should I go the extra mile?” he thought. He used weak cement and thin roofing but made sure the house looked good on the outside.</p>
+        <p>When he finished, he handed the keys to the farmer. The farmer said, “Wait here.” He returned with a small, beautifully wrapped box and gave it to the builder. Inside the box was a letter, a set of keys, and a cheque for a new vehicle.</p>
+        <blockquote>
+            The letter read: “This house is my gift to you. Take this vehicle and move in with your family.”
+        </blockquote>
+        <p>How would you feel if you realized the house you built carelessly was meant for you?</p>
+    </div>
+
+    <div>
+        <h4>The Spiritual Parallel</h4>
+        <p>Friends, isn’t this how many of us live our Christian lives? We cut corners, thinking no one will notice. But one day, we will stand before God, and the life we’ve built will be revealed.</p>
+        <p><strong>Supporting Scriptures:</strong></p>
+        <ul>
+            <li>1 Corinthians 3:13 - Every man's work shall be made manifest.</li>
+            <li>Matthew 7:24-27 - The wise man built his house on the rock.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Reflecting on Your Own House</h4>
+        <p>If Jesus came today, what would He find in the house of your life? Are you building with the best materials—prayer, obedience, and faith?</p>
+        <p><strong>Key Verse:</strong> Galatians 6:7 - Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap.</p>
+    </div>
+
+    <div>
+        <h4>The Hope of Redemption</h4>
+        <p>Here’s the good news: Jesus gives us a chance to rebuild. No matter how poorly you’ve built in the past, you can start anew today.</p>
+        <blockquote>
+            John 14:14-16 - If ye shall ask any thing in my name, I will do it.
+        </blockquote>
+    </div>
+
+    <div>
+        <h4>Closing Question</h4>
+        <p>If you knew your reward depended on how you’re living right now, what would you change?</p>
+        <blockquote>
+            Revelation 22:12 - And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be.
+        </blockquote>
+        <h4>Closing Prayer</h4>
+        <p>Lord, we thank You for reminding us to live with integrity and purpose. Help us to build our lives on the foundation of Your Word. Forgive us for the times we’ve cut corners, and guide us by Your Spirit to live in a way that honors You. May we be ready when You return. In Jesus' name, Amen.</p>
+    </div>
+                <br>
+                ">Sabbath Sermon</a>
+          
+            
+<a href="#" class="popup-link" data-info="<h2>FINANCIAL LITERACY</h2>
+
+    <h3>The Seven Steps to Prosperity</h3>
+    <ol>
+        <li>
+            <h4>Saving</h4>
+            <p>For every income you have, start by:</p>
+            <ul>
+                <li>Returning 10% tithe to God</li>
+                <li>Thanking God in offerings 10%</li>
+                <li>Saving at least 10% of your income. This is the money you are paying yourself first before spending on anything else.</li>
+                <li>The remaining 70% is yours to meet your needs and wants.</li>
+            </ul>
+        </li>
+        <li>
+            <h4>Budgeting</h4>
+            <p>Budget your 70% to ensure you are not spending on unnecessary items. Distinguish between needs and wants.</p>
+        </li>
+        <li>
+            <h4>Investment</h4>
+            <p>Invest your 10% savings wisely to make them grow. Ensure investments are sound and generate returns over time.</p>
+        </li>
+        <li>
+            <h4>Protection</h4>
+            <p>Avoid risky investments or schemes that promise quick wealth. Do not let your savings go to waste simply because of poor investment choices. Seek advice from wise and experienced people.</p>
+            <p>Once you start a business or you have invested your funds, always be there to do the job yourself. Do not delegate until you fully understand the business.</p>
+        </li>
+        <li>
+            <h4>Homeownership</h4>
+            <p>Own your home instead of renting if possible. Aim at having assets like a house. But if still renting or dependent on others, you can utilize your home to generate income through skills like:</p>
+            <ul>
+                <li>Plaiting</li>
+                <li>Hair clipping</li>
+                <li>Container gardening</li>
+                <li>Tailoring</li>
+                <li>Online businesses</li>
+                <li>Web designing</li>
+            </ul>
+            <p>Ensure your living situation contributes to financial security.</p>
+        </li>
+        <li>
+            <h4>Planning</h4>
+            <p>Plan for retirement and unexpected events by creating a steady source of income for the future. Invest in insurance and other long-term financial tools. Do not just plan for today; plan for at least two generations ahead.</p>
+        </li>
+        <li>
+            <h4>Education</h4>
+            <p>Continuously improve your skills and knowledge to increase your earning potential. Seek education and opportunities for personal and professional growth.</p>
+        </li>
+<br>
+    </ol>
+                ">Financial Literacy</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>EXPLORER CLASS</h2>
+
+                ">Basic Coding</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>RANGER CLASS</h2>
+
+                ">Container Gardening</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>VOYAGER CLASS</h2>
+
+                ">Electronics</a>
+        
+                        <a href="#" class="popup-link" data-info="<h2>GUIDE CLASS</h2>
+
+                ">Power Electrical</a>
+            
+        </div>
+
+<div id="popupActivities" class="popup">
+            <a href="#" class="popup-link" data-info="<h2>4 X 4 SUDOKU Puzzle</h2>
+
+                ">SUDOKU Puzzle</a>
+          
+                    <a href="#" class="popup-link" data-info="<h2>Electronics Assessment Puzzle</h2>
+
+                ">Crossword Puzzle</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>6 X 6 SUDOKU Puzzle</h2>
+
+                ">SUDOKU Puzzle</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>RANGER CLASS</h2>
+
+                ">Ranger Requirement Card</a>
+          
+                      <a href="#" class="popup-link" data-info="<h2>VOYAGER CLASS</h2>
+
+                ">Voyager Requirement Card</a>
+        
+                        <a href="#" class="popup-link" data-info="<h2>GUIDE CLASS</h2>
+<p>Welcome to the Kabwe East Mission District Adventist Youth Ministries Executive Board Meeting Summary, your gateway to transparency and accountability within our organization. This page is designed to meticulously document the discussions, decisions, and actions taken during our Executive Board meetings. It serves as a beacon of transparency, ensuring that every member is well-informed and empowered to contribute meaningfully to our collective goals.</p>
+<p>Together, let us uphold the principles of transparency, accountability, and collaboration as we navigate the challenges and opportunities that lie ahead. Our commitment to excellence starts with each of us, and it is through our collective efforts that we will continue to drive positive change within Adventist Youth Ministries and beyond.</p>        </div>
+
+                ">Guide Requirement Card</a>
+            
+        </div>
+        
+        
+        <!-- Add similar divs for other years -->
+      
+
+      
+        <div id="contentArea">
+            
+            
+
+    <sectioni id="gallery">
     <div class="slideshow">
         <img id="slideshow-image" src="" alt="Slideshow Image">
     </div>
-</section>
-<nav>
-    <ul>
-        <li><a href="#timetable">Timetable</a></li>
-        <li><a href="#activities">Fun Activities</a></li>
-        <li><a href="#gallery">Daily Picture Gallery</a></li>
-        <li><a href="#lesson">Key Lesson of the Day</a></li>
-        <li><a href="#recognition">Outstanding Person</a></li>
-        <li><a href="#summary">Lesson Summaries</a></li>
-        <li><a href="#extra">Extra Content</a></li>
-    </ul>
-</nav>
+</sectioni>
+
     <main>
-        <section id="timetable">
+        <sectioni id="timetable">
             <h2>Daily Timetable</h2>
             <table>
                 <thead>
@@ -137,19 +476,11 @@
                     </tr>
                 </tbody>
             </table>
-        </section>
-
-        <section id="activities">
-            <h2>Fun Activities</h2>
-            <p>Engage with interactive quizzes, puzzles, and sports to make your day exciting!</p>
-        </section>
-
-
-
+        </sectioni>
         
 <script>
     // Path to your gallery directory
-    const galleryPath = 'http://rocksideaym.com.preview.services/camps/gallery/';
+    const galleryPath = 'http://flyacade.com.preview.services/camps/gallery/';
 
     // Array to hold image file names
     let images = [];
@@ -190,29 +521,146 @@
     fetchImages();
 </script>
         
-        
-        
-        <section id="lesson">
-            <h2>Key Lesson of the Day</h2>
-            <p>Today's focus: "Embracing teamwork for greater success."</p>
-        </section>
 
-        <section id="recognition">
-            <h2>Outstanding Person of the Day</h2>
-            <p><strong>Jane Doe</strong> - Acknowledged for her creativity and leadership!</p>
-        </section>
-
-        <section id="summary">
-            <h2>Lesson Summaries</h2>
-            <ul>
-                <li>Lesson 1: Effective Communication</li>
-                <li>Lesson 2: Problem Solving</li>
-                <li>Lesson 3: Leadership in Action</li>
-            </ul>
-        </section>
+        <sectioni id="summary">
+            <ul>Please enjoy the camp and take home new knowledge and skills as we endevour to grow our income sources.</ul>
+        </sectioni>
     </main>
-    <footer>
-        <p>&copy; 2024 Camp Adventure. All rights reserved.</p>
-    </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </section>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll('nav a');
+    const popupOverlay = document.getElementById('popupOverlay');
+
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const popupId = link.getAttribute('href').substring(1);
+            const popup = document.getElementById(popupId);
+            popupOverlay.style.display = 'block';
+            popup.style.display = 'block';
+        });
+    });
+
+    document.querySelectorAll('.popup-link').forEach(item => {
+        item.addEventListener('click', event => {
+            event.preventDefault();
+            const info = event.target.getAttribute('data-info');
+            const file = event.target.getAttribute('data-file');
+            const contentArea = document.getElementById('contentArea');
+
+            if (file) {
+                // If the data-file attribute is present, load content from the external file
+                fetch(file)
+                    .then(response => response.text())
+                    .then(data => {
+                        contentArea.innerHTML = data;
+                        closePopup(); // Close the popup after displaying the content
+                    })
+                    .catch(error => console.error('Error loading content:', error));
+            } else if (info) {
+                // If there's data-info, use it directly
+                contentArea.innerHTML = info;
+                closePopup(); // Close the popup after displaying the content
+            }
+        });
+    });
+
+    popupOverlay.addEventListener('click', function() {
+        closePopup();
+    });
+
+    function openPopup() {
+        popupOverlay.style.display = 'block';
+        document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.display = 'block';
+        });
+    }
+
+    function closePopup() {
+        popupOverlay.style.display = 'none';
+        document.querySelectorAll('.popup').forEach(popup => {
+            popup.style.display = 'none';
+        });
+    }
+});
+</script>
+
+</body>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="linkbar" class="inactive">
+        <img id="logoset" src="images/3. Master Guide Logo.png" alt="Logo">
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/friendForms.html"><img src="images/1friend.png" alt="friend">Friend Card</a>
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/companionForms.html"><img src="images/2companion.png" alt="companion"> Companion Card</a>
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/explorerForms.html"><img src="images/3explorer.png" alt="explorer"> Explorer Card</a>
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/rangerForms.html"><img src="images/4ranger.png" alt="ranger">Ranger Card</a>
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/voyagerForms.html"><img src="images/5voyager.png" alt="voyager"> Voyager Card</a>
+        <a class="logo-link" href="http://rocksideaym.com.preview.services/Forms/guideForms.html"><img src="images/6guide.png" alt="guide"> Guide Card</a>
+    </div>
+
+    <script>
+        let linkbar = document.getElementById('linkbar');
+        let logoLinks = document.querySelectorAll('.logo-link');
+        let isActive = false;
+        let timer;
+
+        function activateLinkbar() {
+            linkbar.classList.remove('inactive');
+            linkbar.classList.add('active');
+            logoLinks.forEach(link => link.classList.add('active'));
+            document.body.classList.add('dimmed');
+            document.body.classList.add('active'); // Trigger the transition for dimming and blur
+            clearTimeout(timer);
+            timer = setTimeout(deactivateLinkbar, 10000);
+            isActive = true;
+        }
+
+        function deactivateLinkbar() {
+            linkbar.classList.remove('active');
+            linkbar.classList.add('inactive');
+            logoLinks.forEach(link => link.classList.remove('active'));
+            document.body.classList.remove('active'); // Trigger the transition back
+            setTimeout(() => {
+                document.body.classList.remove('dimmed'); // Remove dimming class after transition
+            }, 500); // Wait for the fade-out effect to complete before removing the class
+            isActive = false;
+        }
+
+        linkbar.addEventListener('mouseenter', () => {
+            if (!isActive) {
+                activateLinkbar();
+            }
+        });
+
+        linkbar.addEventListener('mouseleave', () => {
+            if (isActive) {
+                timer = setTimeout(deactivateLinkbar, 10000);
+            }
+        });
+
+        linkbar.addEventListener('click', () => {
+            if (isActive) {
+                deactivateLinkbar();
+            } else {
+                activateLinkbar();
+            }
+        });
+    </script>
 </body>
 </html>

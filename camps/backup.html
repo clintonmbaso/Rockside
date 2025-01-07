@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+      
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q2T721CW7G');
+</script>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Daily Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+<link href="../indexes1.css" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body>
+    <header>
+        
+<div class="bridget-shaelyn">
+  
+     <div class="log-clinton">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+  
+    <div class="log bri">
+        <img src="../images/0. SDA Logo.png" alt="Log">
+        <h2><span style="color: green;">Crossover</span> - <span style="color: orange;">Camp</span></h2>
+    </div>
+
+
+
+</div>
+    </header>
+    <section id="gallery">
+    <div class="slideshow">
+        <img id="slideshow-image" src="" alt="Slideshow Image">
+    </div>
+</section>
+<navi>
+    <ul>
+        <li><a href="#timetable">Timetable</a></li>
+        <li><a href="#activities">Fun Activities</a></li>
+        <li><a href="#gallery">Daily Picture Gallery</a></li>
+        <li><a href="#lesson">Key Lesson of the Day</a></li>
+        <li><a href="#recognition">Outstanding Person</a></li>
+        <li><a href="#summary">Lesson Summaries</a></li>
+        <li><a href="#extra">Extra Content</a></li>
+    </ul>
+</navi>
+    <main>
+        <section id="timetable">
+            <h2>Daily Timetable</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5:00 AM</td>
+                        <td>Morning-Watch</td>
+                        <td>Grounds</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 AM</td>
+                        <td>Devotion</td>
+                        <td>Chapel</td>
+                    </tr>
+                    <tr>
+                        <td>6:30 AM</td>
+                        <td>Bathing Time</td>
+                        <td>Bathrooms</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 AM</td>
+                        <td>Breakfast</td>
+                        <td>Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td>Lesson 1</td>
+                        <td>Classroom</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 AM</td>
+                        <td>Break</td>
+                        <td>Around</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>Lesson 2</td>
+                        <td>Classroom</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>Interactive Quiz</td>
+                        <td>Arena Hall</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 PM</td>
+                        <td>Lunch</td>
+                        <td>Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Lesson 3</td>
+                        <td>Classroom</td>
+                    </tr>
+                    <tr>
+                        <td>3:30 PM</td>
+                        <td>Puzzles</td>
+                        <td>Units</td>
+                    </tr>
+                    <tr>
+                        <td>4:30 PM</td>
+                        <td>Sports Time</td>
+                        <td>Ground</td>
+                    </tr>
+                    <tr>
+                        <td>5:30 PM</td>
+                        <td>Bathing</td>
+                        <td>Bathrooms</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td>Socializing Time</td>
+                        <td>Outdoor</td>
+                    </tr>
+                    <tr>
+                        <td>6:30 PM</td>
+                        <td>Supper</td>
+                        <td>Kitchen</td>
+                    </tr>
+                    <tr>
+                        <td>7:30 PM</td>
+                        <td>Spiritual Lesson</td>
+                        <td>Chapel</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 PM</td>
+                        <td>Lesson's Recap</td>
+                        <td>Chapel</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 PM</td>
+                        <td>Devotion</td>
+                        <td>Chapel</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 PM</td>
+                        <td>Sleeping Time</td>
+                        <td>Rooms</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="activities">
+            <h2>Fun Activities</h2>
+            <p>Engage with interactive quizzes, puzzles, and sports to make your day exciting!</p>
+        </section>
+
+
+
+        
+<script>
+    // Path to your gallery directory
+    const galleryPath = './gallery/';
+
+    // Array to hold image file names
+    let images = [];
+
+    // Function to fetch images from the server
+    async function fetchImages() {
+        try {
+            const response = await fetch(`${galleryPath}image-list.php`);
+            if (response.ok) {
+                images = await response.json();
+                startSlideshow();
+            } else {
+                console.error("Error fetching image list.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+        }
+    }
+
+    // Function to start the slideshow
+    function startSlideshow() {
+        const imageElement = document.getElementById('slideshow-image');
+        let currentIndex = 0;
+
+        function showNextImage() {
+            if (images.length > 0) {
+                currentIndex = Math.floor(Math.random() * images.length);
+                imageElement.src = galleryPath + images[currentIndex];
+            }
+        }
+
+        // Show the first image and set an interval for the slideshow
+        showNextImage();
+        setInterval(showNextImage, 5000); // Change image every 5 seconds
+    }
+
+    // Initialize the slideshow
+    fetchImages();
+</script>
+        
+        
+        
+        <section id="lesson">
+            <h2>Key Lesson of the Day</h2>
+            <p>Today's focus: "Embracing teamwork for greater success."</p>
+        </section>
+
+        <section id="recognition">
+            <h2>Outstanding Person of the Day</h2>
+            <p><strong>Jane Doe</strong> - Acknowledged for her creativity and leadership!</p>
+        </section>
+
+        <section id="summary">
+            <h2>Lesson Summaries</h2>
+            <ul>
+                <li>Lesson 1: Effective Communication</li>
+                <li>Lesson 2: Problem Solving</li>
+                <li>Lesson 3: Leadership in Action</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024 KEMD - AYM. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

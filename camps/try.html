@@ -1,0 +1,48 @@
+function openModal(record) {
+  const modal = document.getElementById('recordModal');
+  const recordImage = document.getElementById('recordImage');
+  const recordName = document.getElementById('recordName');
+  const recordID = document.getElementById('recordID');
+  const recordLessons = document.getElementById('recordLessons');
+  const imageInput = document.getElementById('imageInput');
+
+  // Populate modal with record details
+  recordName.textContent = `${record.firstName} ${record.surname}`;
+  recordID.textContent = record.idNumber;
+  recordLessons.innerHTML = record.lessons.map(lesson => `<li>${lesson}</li>`).join('');
+
+  // Generate a unique key for the record's image
+  const localImageKey = `record_${record.id}_image`;
+
+  // Check for locally saved image
+  const localImage = localStorage.getItem(localImageKey);
+  if (localImage) {
+    recordImage.src = localImage; // Use local image if available
+  } else {
+    recordImage.src = record.picture; // Fallback to server image
+  }
+
+  // Event listener for image input (capture or upload)
+  imageInput.addEventListener('change', () => {
+    const file = imageInput.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const base64Image = reader.result;
+        // Save the image to localStorage
+        localStorage.setItem(localImageKey, base64Image);
+        // Update the modal image
+        recordImage.src = base64Image;
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+
+  // Show the modal
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  const modal = document.getElementById('recordModal');
+  modal.style.display = 'none';
+}

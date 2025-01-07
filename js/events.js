@@ -2,7 +2,7 @@
          const events = [
             { 
                name: "KEMD Inductions", 
-               date: new Date("Jan 5, 2024 08:00:00").getTime(), 
+               date: new Date("Feb 8, 2025 08:00:00").getTime(), 
                reminderDays: 2, 
                reminderHours: 12, 
                caption: "KEMD Inductions", 
@@ -38,12 +38,12 @@
                imageUrl: "images/MEZC GYD Part 1.jpg" 
              },
      
-             { name: "MEZC GYD Part 2", 
-               date: new Date("Mar 16, 2024 08:00:00").getTime(), 
+             { name: "GYD", 
+               date: new Date("Mar 16, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
-               caption: "MEZC GYD Part 2", 
-               details: "Description of MEZC GYD Part 2", 
-               imageUrl: "images/MEZC GYD Part 2.jpg" 
+               caption: "GYD", 
+               details: "Global Youth Day", 
+               imageUrl: "images/GYD.jpg" 
              },
      
              { name: "Youth Week of Prayer", 
@@ -187,7 +187,7 @@
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   },
 
-            { name: "Crossover Camp", 
+            { name: "KEMD Crossover Camp", 
          	     date: new Date("Dec 27, 2024 16:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Kabwe East Mission District Crossover Camp", 
@@ -282,4 +282,3 @@
             // Update the countdown every 1 second
             setInterval(updateCountdown, 1000);
          };
-

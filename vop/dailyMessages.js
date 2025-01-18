@@ -1987,7 +1987,7 @@ const dailyMessages = [
 
 // Lesson 8
 {
-    date: new Date(2024, 10, 2),
+    date: new Date(2024, 10, 16),
     title: "Fulfilling Old Testament Prophecies",
     lesson: "8",
     text: `
@@ -2023,7 +2023,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 3),
+    date: new Date(2024, 10, 17),
     title: "Signs, Works, and Wonders",
     lesson: "8",
     text: `
@@ -2063,7 +2063,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 4),
+    date: new Date(2024, 10, 18),
     title: "The Authoritative Role of Scripture",
     lesson: "8",
     text: `
@@ -2098,7 +2098,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 5),
+    date: new Date(2024, 10, 19),
     title: "Old Testament Prophecies of Jesus: Part I",
     lesson: "8",
     text: `
@@ -2133,7 +2133,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 6),
+    date: new Date(2024, 10, 20),
     title: "Old Testament Prophecies of Jesus: Part II",
     lesson: "8",
     text: `
@@ -2165,7 +2165,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 7),
+    date: new Date(2024, 10, 21),
     title: "From Beneath",
     lesson: "8",
     text: `
@@ -2206,7 +2206,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 10, 22),
     title: "Further Thought",
     lesson: "8",
     text: `
@@ -2245,7 +2245,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 10, 22),
     title: "God’s Perfect Timing in Tbilisi",
     lesson: "8",
     author: "By Andrew McChesney",
@@ -2296,7 +2296,7 @@ const dailyMessages = [
 
 // Lesson 9
 {
-    date: new Date(2024, 10, 9),
+    date: new Date(2024, 10, 23),
     title: "The Source of Life",
     lesson: "9",
     text: `
@@ -2332,7 +2332,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 10),
+    date: new Date(2024, 10, 24),
     title: "In Him Was Life",
     lesson: "9",
     text: `
@@ -2376,7 +2376,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 11),
+    date: new Date(2024, 10, 25),
     title: "The Words of Eternal Life",
     lesson: "9",
     text: `
@@ -2418,7 +2418,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 12),
+    date: new Date(2024, 10, 26),
     title: "Believing and New Birth",
     lesson: "9",
     text: `
@@ -2459,7 +2459,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 13),
+    date: new Date(2024, 10, 27),
     title: "Rejecting the Source of Life",
     lesson: "9",
     text: `
@@ -2494,7 +2494,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 14),
+    date: new Date(2024, 10, 28),
     title: "Condemnation",
     lesson: "9",
     text: `
@@ -2530,7 +2530,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 10, 29),
     title: "Further Thought",
     lesson: "9",
     text: `
@@ -2563,7 +2563,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 10, 29),
     title: "Please Stay",
     lesson: "9",
     author: "By Andrew McChesney",
@@ -2616,7 +2616,7 @@ const dailyMessages = [
 
 // Lesson 10
 {
-    date: new Date(2024, 10, 2),
+    date: new Date(2024, 10, 30),
     title: "The Way, the Truth, and the Life",
     lesson: "10",
     text: `
@@ -2659,7 +2659,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 3),
+    date: new Date(2024, 11, 1),
     title: "I Have Given You an Example",
     lesson: "10",
     text: `
@@ -2701,7 +2701,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 4),
+    date: new Date(2024, 11, 2),
     title: "I Will Certainly Come Again",
     lesson: "10",
     text: `
@@ -2742,7 +2742,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 5),
+    date: new Date(2024, 11, 3),
     title: "I Am the Way, the Truth, and the Life",
     lesson: "10",
     text: `
@@ -2778,7 +2778,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 6),
+    date: new Date(2024, 11, 4),
     title: "I AM the Truth",
     lesson: "10",
     text: `
@@ -2820,7 +2820,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 7),
+    date: new Date(2024, 11, 5),
     title: "The Scriptures and the Truth",
     lesson: "10",
     text: `
@@ -2855,7 +2855,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 11, 6),
     title: "Further Thought",
     lesson: "10",
     text: `
@@ -2890,7 +2890,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 11, 6),
     title: "Gift to a Well-Dressed Woman",
     lesson: "10",
     author: "By Andrew McChesney",
@@ -2943,7 +2943,7 @@ const dailyMessages = [
 
 // Lesson 11
 {
-    date: new Date(2024, 10, 9),
+    date: new Date(2024, 11, 7),
     title: "Saturday",
     lesson: "11",
     text: `
@@ -2978,7 +2978,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 10),
+    date: new Date(2024, 11, 8),
     title: "Sunday",
     lesson: "11",
     text: `
@@ -2986,7 +2986,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 11),
+    date: new Date(2024, 11, 9),
     title: "Monday",
     lesson: "11",
     text: `
@@ -2994,7 +2994,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 12),
+    date: new Date(2024, 11, 10),
     title: "Tuesday",
     lesson: "11",
     text: `
@@ -3002,7 +3002,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 13),
+    date: new Date(2024, 11, 11),
     title: "Wednesday",
     lesson: "11",
     text: `
@@ -3010,7 +3010,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 14),
+    date: new Date(2024, 11, 12),
     title: "Thursday",
     lesson: "11",
     text: `
@@ -3018,7 +3018,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 11, 13),
     title: "Further Thought",
     lesson: "11",
     text: `
@@ -3026,7 +3026,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 11, 13),
     title: "Story",
     lesson: "11",
     text: `
@@ -3036,7 +3036,7 @@ const dailyMessages = [
 
 // Lesson 12
 {
-    date: new Date(2024, 10, 2),
+    date: new Date(2024, 11, 14),
     title: "Saturday",
     lesson: "12",
     text: `
@@ -3044,7 +3044,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 3),
+    date: new Date(2024, 11, 15),
     title: "Sunday",
     lesson: "12",
     text: `
@@ -3052,7 +3052,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 4),
+    date: new Date(2024, 11, 16),
     title: "Monday",
     lesson: "12",
     text: `
@@ -3060,7 +3060,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 5),
+    date: new Date(2024, 11, 17),
     title: "Tuesday",
     lesson: "12",
     text: `
@@ -3068,7 +3068,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 6),
+    date: new Date(2024, 11, 18),
     title: "Wednesday",
     lesson: "12",
     text: `
@@ -3076,7 +3076,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 7),
+    date: new Date(2024, 11, 19),
     title: "Thursday",
     lesson: "12",
     text: `
@@ -3084,7 +3084,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 11, 20),
     title: "Further Thought",
     lesson: "12",
     text: `
@@ -3092,7 +3092,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 8),
+    date: new Date(2024, 11, 20),
     title: "Story",
     lesson: "12",
     text: `
@@ -3102,7 +3102,7 @@ const dailyMessages = [
 
 // Lesson 13
 {
-    date: new Date(2024, 10, 9),
+    date: new Date(2024, 11, 21),
     title: "Saturday",
     lesson: "13",
     text: `
@@ -3110,7 +3110,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 10),
+    date: new Date(2024, 11, 22),
     title: "Sunday",
     lesson: "13",
     text: `
@@ -3118,7 +3118,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 11),
+    date: new Date(2024, 11, 23),
     title: "Monday",
     lesson: "13",
     text: `
@@ -3126,7 +3126,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 12),
+    date: new Date(2024, 11, 24),
     title: "Tuesday",
     lesson: "13",
     text: `
@@ -3134,7 +3134,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 13),
+    date: new Date(2024, 11, 25),
     title: "Wednesday",
     lesson: "13",
     text: `
@@ -3142,7 +3142,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 14),
+    date: new Date(2024, 11, 26),
     title: "Thursday",
     lesson: "13",
     text: `
@@ -3150,7 +3150,7 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 11, 27),
     title: "Further Thought",
     lesson: "13",
     text: `
@@ -3158,14 +3158,23 @@ const dailyMessages = [
     `
 },
 {
-    date: new Date(2024, 10, 15),
+    date: new Date(2024, 11, 28),
     title: "Story",
     lesson: "13",
     text: `
         <p>To be Updated soon, in case of delay, please call <br><a href="tel: 0968084570"> This Number</a>.</p>
+        <span class="bible-verse" data-verse="Genesis 3:7-9">Genesis 3:7-9</span>; <br>
+        <span class="bible-verse" data-verse="Exodus 1:2">Exodus 1:2</span>; <br>
+        <span class="bible-verse" data-verse="Leviticus 1:5">Leviticus 1:5</span>; <br>
+        <span class="bible-verse" data-verse="Revelation 1:1">Numbers 1:1</span>.</p>
+    
     `
-}
+},
 
+
+
+
+    
 ];
 
 // Function to get the daily message based on the index

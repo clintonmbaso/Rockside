@@ -5,13 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Messages with Bible Verses</title>
     <link rel="stylesheet" href="quarterly.css">
+    <style>
+    /* CSS */
+#openModalLink {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+.qtr {
+  background: url('images/2025-1.jpg') center/contain no-repeat;
+  background-size: contain;
+  background-clip: padding-box; 
+    width: 100px;
+  height: 150px;
+}
+    
+#openModalLink:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.1);
+}
+    </style>
 </head>
 <body>
 
 
 
     <!-- Link to open daily message modal -->
-    <a href="#" id="openModalLink">Open Daily Message</a>
+  <div>
+        <a href="#" id="openModalLink"><img class="qtr" src="images/2025-1.jpg" alt="qtr251"></a>
+        <a href="#" id="openModalLink244"><img class="qtr" src="images/2024-4.jpg" alt="qtr244"></a>
+        <a href="#" id="openModalLink"><img class="qtr" src="images/2024-3.jpg" alt="qtr243"></a>
+        <a href="#" id="openModalLink"><img class="qtr" src="images/2024-2.jpg" alt="qtr242"></a>
+        <a href="#" id="openModalLink"><img class="qtr" src="images/2024-1.jpg" alt="qtr241"></a>
+
+    
+  </div>
 
 <!-- Blur Layer -->
 <div id="blurLayer"></div>
@@ -36,11 +77,9 @@
     </div>
 </div>
     
-    
-    
     <script src="./bible/01Genesis.js"></script>
     <script src="./bible/02Exodus.js"></script>
-    <script src="./bible/03Levitucus.js"></script>
+    <script src="./bible/03Leviticus.js"></script>
     <script src="./bible/04Numbers.js"></script>
     <script src="./bible/05Deuteronomy.js"></script>
     <script src="./bible/06Joshua.js"></script>
@@ -107,7 +146,7 @@
     <script src="./bible/66Revelation.js"></script>
 
     <script src="dailyMessages.js"></script>
+    <script src="dailyMessages25.js"></script>  
     <script src="quarterly.js"></script>
 </body>
 </html>
-

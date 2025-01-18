@@ -4,6 +4,7 @@ const bibleVerseModal = document.getElementById('bibleVerseModal');
 const blurLayer = document.getElementById('blurLayer');
 const dailyMessageElement = document.getElementById('dailyMessage');
 const openModalLink = document.getElementById('openModalLink');
+const openModalLink244 = document.getElementById('openModalLink244');
 const closeButton = document.getElementsByClassName('close')[0];
 const closeBibleButton = document.getElementsByClassName('close-bible')[0];
 const bibleVerseContent = document.getElementById('bibleVerseContent');
@@ -14,6 +15,20 @@ let currentIndex = 0; // Initialize the index
 
 // Open modal and display today's message when the link is clicked
 openModalLink.onclick = function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    currentIndex = getTodayMessageIndex(); // Get the index of today's message
+
+    if (currentIndex !== -1) {
+        displayMessage(currentIndex); // Display today's message
+        modal.style.display = 'block'; // Show the modal
+        blurLayer.style.display = 'block'; // Show the blur layer
+    } else {
+        alert("No message available for today.");
+    }
+};
+
+// Open modal and display today's message when the link is clicked
+openModalLink244.onclick = function(event) {
     event.preventDefault(); // Prevent default link behavior
     currentIndex = getTodayMessageIndex(); // Get the index of today's message
 
@@ -72,7 +87,7 @@ function displayMessage(index) {
     
     // Disable buttons if at the start or end of the message array
     prevButton.disabled = (index === 0);
-    nextButton.disabled = (index === dailyMessages.length - 1);
+    nextButton.disabled = (index === dailyMessages25.length - 1);
 }
 
 // Function to format the date (e.g., Monday, June 23, 2024)
@@ -86,8 +101,8 @@ function getTodayMessageIndex() {
     const today = new Date();
     const todayDateOnly = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
-    for (let i = 0; i < dailyMessages.length; i++) {
-        const messageDateOnly = new Date(dailyMessages[i].date.getFullYear(), dailyMessages[i].date.getMonth(), dailyMessages[i].date.getDate());
+    for (let i = 0; i < dailyMessages25.length; i++) {
+        const messageDateOnly = new Date(dailyMessages25[i].date.getFullYear(), dailyMessages25[i].date.getMonth(), dailyMessages25[i].date.getDate());
         if (messageDateOnly.getTime() === todayDateOnly.getTime()) {
             return i; // Return the index of today's message
         }
@@ -118,6 +133,10 @@ function loadBibleVersesFiles(bookNames, callback) {
         const bookMapping = {
             "Genesis": "01Genesis",
             "Exodus": "02Exodus",
+            "Leviticus": "03Leviticus",
+            "Numbers": "04Numbers",
+            "Deutronomy": "05Deutronomy",
+            "Joshua": "06Joshua",
             "Matthew": "40Matthew",
             "Mark": "41Mark",
             // Map other books here
@@ -136,7 +155,7 @@ function loadBibleVersesFiles(bookNames, callback) {
     });
 }
 
-loadBibleVersesFiles(["Genesis", "Exodus" , "Matthew" , "Mark"], function() {
+loadBibleVersesFiles(["Genesis", "Exodus" , "Leviticus" , "Numbers" , "Deuteronomy" , "Matthew" , "Mark"], function() {
     // Now get the verses once all scripts have loaded
     const verseText = getBibleVerse(verse); // Example usage
 });
@@ -274,7 +293,7 @@ function getVerseText(verseKey) {
 
 // Event listeners for the Next and Previous buttons
 nextButton.onclick = function() {
-    if (currentIndex < dailyMessages.length - 1) {
+    if (currentIndex < dailyMessages25.length - 1) {
         currentIndex++; // Move to the next message
         displayMessage(currentIndex); // Display the new message
     }

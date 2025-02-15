@@ -4,110 +4,32 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Financial Report for Affiliation Payments</title>
-    <style>
-        /* General Styling */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 5px;
-            padding: 5px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        /* Header Styling */
-          h1 {
-            text-align: center;
-            color: Blue;
-            font-size: 20px;
-            margin: 3px;
-            font-weight: bold;
-        }
-  
-          h2 {
-            text-align: center;
-            color: white;
-            border-radius: 10px;
-            background-color: rgba(20,12,255,0.3);
-        }
-  
-        h3 {
-            text-align: left;
-            color: white;
-            background-color: rgba(20,12,255,0.3);
-            margin-left: -5px;
-            padding-left: 5px;
-            border-radius: 0 10px 10px 0;
-            margin-bottom: 5px;
-        }
-        h4 {
-            color: black;
-            text-align: center;
-            border-bottom: solid 2px orange;
-            margin-bottom: 2px;
-            border-radius: 20px;
-        }
-        h5 {
-            color: yellow;
-            text-align: center;
-            border-bottom: solid 2px yellow;
-            margin-bottom: 2px;
-            border-radius: 20px;
-        }  
-        .section {
-            background: #ffffff;
-            padding: 5px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            border-left: 5px solid rgba(20,12,255,0.3);
-        }
-
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            padding: 5px;
-            border-bottom: 1px solid #ddd;
-        }
-/*
-        ul li:last-child {
-            border-bottom: none;
-        }
-*/
-        .total {
-            font-weight: bold;
-            color: #d9534f;
-            font-size: 1.1em;
-        }
-
-        .outstanding {
-            font-weight: bold;
-            color: #f0ad4e;
-        }
-
-        .balance {
-            font-weight: bold;
-            color: #5cb85c;
-            font-size: 1.2em;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 2px;
-            background: rgba(20,12,255,0.3);
-            color: white;
-            padding: 5px;
-            border-radius: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>AFFILIATION PAYMENT REPORT - 2025</h1>
+
+    <header>
+<div class="bridget-shaelyn">
+
+     <div class="log-clinton">
+         <img class="logos" src="../images/0. SDA Logo.png" alt="logo">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
+</div>
+
+    </header>
+    
+    <div class="hi">
+            <h1>AFFILIATION PAYMENT REPORT - 2025</h1>
     <h2>Zones A & B</h2>
+    </div>
+
 
     <div class="section">
         <h3>Zone A: Affiliation Payment Summary</h3>
@@ -129,7 +51,7 @@
         <p>The following churches have not yet submitted their affiliation fees:</p>
         <ul class="outstanding">
             <li>Mulungushi SDA Church</li>
-            <li>Kamushanga SDA Church</li>
+            <li>Kamuchanga SDA Church</li>
         </ul>
 
         <h4>Special Notes</h4>
@@ -188,10 +110,24 @@
     </div>
 
     <div class="footer">
-        <h5>REPORT PRESENTED BY:</h5>
+        <h4>REPORT PRESENTED BY:</h4>
         <p>Chipo N. Musonda - KEMD Zone A Treasurer</p>
         <p>Bridget Mbaso - KEMD Zone B Treasurer</p>
     </div>
-
+        
+<button onclick="printReport()" class="print-button">Print Report</button>
+        <script>
+    function printReport() {
+        var reportContent = document.body.innerHTML; // Get all content
+        var printWindow = window.open('', '', 'width=950,height=750'); // Open new print window
+        printWindow.document.write('<html><head><title>Print Report</title>');
+        printWindow.document.write('<link rel="stylesheet" href="styles.css">'); // Ensure styles are included
+        printWindow.document.write('</head><body>');
+        printWindow.document.write(reportContent); // Print report content
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        printWindow.print(); // Trigger print
+    }
+</script>
 </body>
 </html>

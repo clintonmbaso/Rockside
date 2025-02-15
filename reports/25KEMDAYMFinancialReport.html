@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Financial Report for Affiliation Payments</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 5px;
+            padding: 5px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header Styling */
+          h1 {
+            text-align: center;
+            color: Blue;
+            font-size: 20px;
+            margin: 3px;
+            font-weight: bold;
+        }
+  
+          h2 {
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            background-color: rgba(20,12,255,0.3);
+        }
+  
+        h3 {
+            text-align: left;
+            color: white;
+            background-color: rgba(20,12,255,0.3);
+            margin-left: -5px;
+            padding-left: 5px;
+            border-radius: 0 10px 10px 0;
+            margin-bottom: 5px;
+        }
+        h4 {
+            color: black;
+            text-align: center;
+            border-bottom: solid 2px orange;
+            margin-bottom: 2px;
+            border-radius: 20px;
+        }
+        h5 {
+            color: yellow;
+            text-align: center;
+            border-bottom: solid 2px yellow;
+            margin-bottom: 2px;
+            border-radius: 20px;
+        }  
+        .section {
+            background: #ffffff;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid rgba(20,12,255,0.3);
+        }
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+/*
+        ul li:last-child {
+            border-bottom: none;
+        }
+*/
+        .total {
+            font-weight: bold;
+            color: #d9534f;
+            font-size: 1.1em;
+        }
+
+        .outstanding {
+            font-weight: bold;
+            color: #f0ad4e;
+        }
+
+        .balance {
+            font-weight: bold;
+            color: #5cb85c;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 2px;
+            background: rgba(20,12,255,0.3);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AFFILIATION PAYMENT REPORT - 2025</h1>
+    <h2>Zones A & B</h2>
+
+    <div class="section">
+        <h3>Zone A: Affiliation Payment Summary</h3>
+        <h4>Breakdown of Income</h4>
+        <p>The following payments have been received from churches within Zone A:</p>
+        <ul>
+            <li><strong>Kohima SDA Church:</strong> K300</li>
+            <li><strong>Dallas SDA Church:</strong> K300</li>
+            <li><strong>Kamushanga SDA Church:</strong> K300</li>
+            <li><strong>Lukanga Main SDA:</strong> K300</li>
+            <li><strong>Lukanga North SDA:</strong> K300</li>
+            <li><strong>Nabusanga SDA:</strong> K300</li>
+            <li><strong>Natuseko SDA:</strong> K300</li>
+            <li><strong>Silos SDA:</strong> K200</li>
+        </ul>
+        <p class="total">Total Payments Received: K2,300</p>
+
+        <h4>Outstanding Affiliation Payments</h4>
+        <p>The following churches have not yet submitted their affiliation fees:</p>
+        <ul class="outstanding">
+            <li>Mulungushi SDA Church</li>
+            <li>Kamushanga SDA Church</li>
+        </ul>
+
+        <h4>Special Notes</h4>
+        <p><strong>Natuseko SDA Church</strong> directly deposited K300 into the district account.</p>
+    </div>
+
+    <div class="section">
+        <h3>Zone B: Affiliation Payment Summary</h3>
+        <h4>Breakdown of Income</h4>
+        <p>The following payments have been received from churches within Zone B:</p>
+        <ul>
+            <li><strong>Rockside:</strong> K200</li>
+            <li><strong>Kamiswa:</strong> K200</li>
+            <li><strong>Mapulu:</strong> K200</li>
+            <li><strong>Luanshimba:</strong> K200</li>
+            <li><strong>Kambale:</strong> K200</li>
+            <li><strong>Greenleaf:</strong> K150</li>
+            <li><strong>Muteteshi:</strong> K200</li>
+            <li><strong>Muteteshi Central:</strong> K200</li>
+            <li><strong>Kamabwe Company:</strong> K150</li>          
+        </ul>
+        <p class="total">Total Payments Received: K1,700</p>
+
+        <h4>Outstanding Affiliation Payments</h4>
+        <p>The following churches have not yet submitted their affiliation fees:</p>
+        <ul class="outstanding">
+          <li>Greenleaf SDA Church - Remaining with K50</li>
+          <li>Kamukuyu SDA Church</li>
+          <li>Kabula Company:</li>
+          <li>Greenleaf East SDA Church</li>
+          <li>Kabufumu SDA Church</li>
+          <li>Lusumpuko SDA Church</li>
+          <li>Kalama Branch</li>    
+    </div>
+
+    <div class="section">
+        <h3>Total Financial Summary</h3>
+        <p>The total income from both zones is as follows:</p>
+        <p class="total">K2,300 (Zone A) + K1,700 (Zone B) = <strong>K4,000</strong></p>
+    </div>
+
+    <div class="section">
+        <h3>Expenditure Report</h3>
+        <p>The following expenditures have been recorded:</p>
+        <ul>
+            <li><strong>Affiliation to Conference:</strong> K1,500</li>
+            <li><strong>Withdrawal Charge:</strong> K35</li>
+        </ul>
+        <p class="total">Total Expenditures: K1,535</p>
+    </div>
+
+    <div class="section">
+        <h3>Current Balance</h3>
+        <p>After deducting expenditures, the remaining balance is:</p>
+        <p class="balance">K4,000 - K1,535 = <strong>K2,465</strong></p>
+    </div>
+
+    <div class="footer">
+        <h5>REPORT PRESENTED BY:</h5>
+        <p>Chipo N. Musonda - KEMD Zone A Treasurer</p>
+        <p>Bridget Mbaso - KEMD Zone B Treasurer</p>
+    </div>
+
+</body>
+</html>

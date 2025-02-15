@@ -13,15 +13,15 @@
 <div class="bridget-shaelyn">
 
      <div class="log-clinton">
-         <img class="logos" src="../images/0. SDA Logo.png" alt="logo">
+         <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
         <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
         <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
         <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
         <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
         <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
     </div>
-          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
 </div>
+          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
 
     </header>
     
@@ -115,19 +115,42 @@
         <p>Bridget Mbaso - KEMD Zone B Treasurer</p>
     </div>
         
-<button onclick="printReport()" class="print-button">Print Report</button>
+<button onclick="printReport()" class="print-button">📠</button>
         <script>
-    function printReport() {
-        var reportContent = document.body.innerHTML; // Get all content
-        var printWindow = window.open('', '', 'width=950,height=750'); // Open new print window
-        printWindow.document.write('<html><head><title>Print Report</title>');
-        printWindow.document.write('<link rel="stylesheet" href="styles.css">'); // Ensure styles are included
-        printWindow.document.write('</head><body>');
-        printWindow.document.write(reportContent); // Print report content
-        printWindow.document.write('</body></html>');
-        printWindow.document.close();
-        printWindow.print(); // Trigger print
-    }
+function printReport() {
+    var reportContent = document.body.innerHTML; // Get all content
+    var headerContent = document.querySelector("header").outerHTML; // Get header content only
+    var mainContent = document.body.innerHTML.replace(headerContent, ""); // Remove header from body
+
+    var printWindow = window.open('', '', 'width=950,height=750'); // Open new print window
+    printWindow.document.write('<html><head><title>Print Report</title>');
+    printWindow.document.write('<link rel="stylesheet" href="styles.css">'); // Ensure styles are included
+    printWindow.document.write('<style>');
+    printWindow.document.write(`
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            header {
+                position: relative;
+                display: block;
+            }
+            @page {
+                margin-top: 50px;
+            }
+        }
+    `);
+    printWindow.document.write('</style></head><body>');
+
+    // Add header only for the first page
+    printWindow.document.write(headerContent);
+    printWindow.document.write(mainContent); // Add remaining content
+    printWindow.document.write('</body></html>');
+
+    printWindow.document.close();
+    printWindow.print(); // Trigger print
+}
 </script>
 </body>
 </html>

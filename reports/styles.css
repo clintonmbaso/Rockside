@@ -88,8 +88,9 @@
 
     .thead {
         margin:5px 0 0 0;
+        top: 5px;
         left: 0;
-        position:fixed;
+        position: fixed;
         z-index:999;
         padding: 0 10px 2px 10px;
         border-radius: 0 0 20px 0;
@@ -183,26 +184,96 @@
         .footer {
             text-align: center;
             margin-top: 2px;
-            background: rgba(20,12,255,0.3);
-            color: white;
+            background: rgba(255,255,255,0.3);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            color: black;
             padding: 5px;
             border-radius: 5px;
         }
     
     .print-button {
-    background-color: #008CBA;
-    color: white;
+    background-color: transparent;
     border: none;
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 0;
+    font-size: 26px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
     display: block;
     text-align: center;
+      position: fixed;
+      top: 35px;
+      left: 50px;
 }
 
 .print-button:hover {
     background-color: #005f73;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact; /* For Chrome, Safari */
+        print-color-adjust: exact; /* For modern browsers */
+        background-color: white; /* Ensure white background */
+    }
+
+    .section {
+        background: #ffffff !important; /* Force background */
+        border-left: 5px solid rgba(20,12,255,0.3) !important;
+        padding: 10px !important;
+    }
+
+          h2 {
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            background-color: rgba(20,12,255,0.3);
+        }
+  
+        h3 {
+            text-align: left;
+            color: white;
+            background-color: rgba(20,12,255,0.3);
+            margin-left: -10px;
+            padding-left: 5px;
+            border-radius: 0 10px 10px 0;
+            margin-bottom: 5px;
+        }
+        h4 {
+            color: black;
+            text-align: center;
+            border-bottom: solid 2px orange;
+            margin-bottom: 2px;
+            border-radius: 20px;
+        }
+        h5 {
+            color: yellow;
+            text-align: center;
+            border-bottom: solid 2px yellow;
+            margin-bottom: 2px;
+            border-radius: 20px;
+        }  
+  
+
+    .thead {
+        position: absolute;
+    }
+.bridget-shaelyn {
+    position: absolute;
+}
+  .log-clinton {
+    position: absolute;
+  }
+  .clubLogo {
+    top: 30px;
+    left: 100px;
+    width: 50px;
+    height: auto;
+    position: relative;
+  }
+  .print-button {
+    display: none;
+  }
+  
 }

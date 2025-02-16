@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda for Kabwe East Mission District Youth Council</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure to link your CSS -->
+    <style>
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: #fff;
+                z-index: 1000;
+                padding: 10px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                border-bottom: 2px solid #000;
+            }
+            .content-wrapper {
+                padding-top: 70px; /* Adjust this to make space for the header */
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .agenda {
+                margin-top: 20px;
+                font-size: 16px;
+            }
+            .agenda li {
+                margin-bottom: 10px;
+            }
+            @page {
+                margin-top: 80px;
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+        <header>
+<div class="bridget-shaelyn">
+
+     <div class="log-clinton">
+         <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+</div>
+          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
+    </header>
+    
+        
+    <div class="hi">
+    <h2 class="headinz">YOUTH COUNCIL MEETING</h2>
+        <p class="date" id="formatted-date"></p>
+        <p class="venue">Rockside SDA Church</p>
+        <p class="number">1</p>
+    </div>
+    
+    <script>
+        // Set the date, start time, and end time manually here
+        const meetingDate = '2025-02-16'; // Date format: YYYY-MM-DD
+        const startTime = '09:00'; // Start time in HH:MM format
+        const endTime = '14:00'; // End time in HH:MM format
+
+        // Function to format the date
+        function formatDate(dateInput) {
+            const date = new Date(dateInput);
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            return date.toLocaleDateString('en-GB', options); // Format the date as "Day, Month Date, Year"
+        }
+
+        // Function to display meeting details
+        function displayMeetingDetails() {
+            // Format the date
+            const formattedDate = formatDate(meetingDate);
+            
+            // Display the formatted date and times
+            const meetingDetails = `Date: ${formattedDate}<br>Time to Begin: ${startTime} <br>Time to End: ${endTime}`;
+            document.getElementById("formatted-date").innerHTML = meetingDetails;
+        }
+
+        // Call the function to display meeting details when the page loads
+        displayMeetingDetails();
+    </script>
+
+    <div class="section">
+        <div class="agenda">
+            <h3>Agenda</h3>
+            <ol>
+                <li>Worship Service</li>
+                <ul>
+                    <li>Opening Prayer: Br. Lee Mweetwa</li>
+                    <li>Opening Hymn: 199</li>
+                    <li>Devotion: Br. Lweendo Monze</li>
+                </ul>
+                <li>Roll Call</li>
+                <li>Opening Remarks</li>
+                <li>Reading of Previous Minutes</li>
+                <ul>
+                    <li>Observations and Corrections</li>
+                    <li>Matters Arising</li>
+                    <li>Adoption</li>
+                </ul>
+                <li>Main Business</li>
+                <ol class="roman">
+                    <li>Invitation Letter</li>
+                    <li>Vacancies</li>
+                    <li>Global Youth Day</li>
+                    <li>Induction and Enrollment</li>
+                    <li>Time Management</li>
+                    <li>Financial Report</li>
+                </ol>
+                <li>Announcements</li>
+                <li>Closing Remarks</li>
+                <li>Closing Prayer</li>
+            </ol>
+        </div>
+    </div>
+    <div class="section">
+        
+    </div>
+    <script>
+        function printReport() {
+            var reportContent = document.body.innerHTML; 
+            var printWindow = window.open('', '', 'width=950,height=750');
+            printWindow.document.write('<html><head><title>Agenda</title>');
+            printWindow.document.write('<link rel="stylesheet" href="styles.css">');
+            printWindow.document.write('</head><body>');
+            printWindow.document.write(reportContent);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print(); 
+        }
+    </script>
+
+    <button onclick="printReport()" class="print-button">📠</button>
+</body>
+</html>

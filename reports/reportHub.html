@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Reports Home</title>
+    <title>AYM Reports & Records</title>
+    <link rel="stylesheet" href="styles.css">    
     <style>
         /* General Styling */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f5f5f5;
             color: #333;
-            text-align: center;
             margin: 0;
             padding: 0;
         }
 
         .container {
-            max-width: 800px;
-            margin: auto;
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
             background: white;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            text-align: center;
         }
 
-        h1 {
-            color: blue;
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-            font-weight: bold;
+        p {
+            font-size: 1.1rem;
+            color: #555;
         }
+
+        .section {
+            background: rgba(0, 51, 102, 0.1);
+            border-radius: 8px;
+        }
+
+
 
         .report-list {
             list-style: none;
@@ -37,54 +43,89 @@
         }
 
         .report-list li {
-            background: rgba(20,12,255,0.3);
-            margin: 10px 0;
-            padding: 12px;
+            background: rgba(0, 51, 102, 0.3);
+            margin: 8px 0;
+            padding: 5px;
             border-radius: 5px;
             transition: 0.3s;
         }
 
         .report-list li:hover {
-            background: rgba(20,12,255,0.5);
+            background: rgba(0, 51, 102, 0.5);
         }
 
         .report-list a {
             text-decoration: none;
             color: white;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             display: block;
         }
 
-        .footer {
-            margin-top: 20px;
-            font-size: 0.9rem;
-            color: gray;
-        }
 
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            .report-list a {
-                font-size: 1rem;
-            }
-        }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Financial Reports Dashboard</h1>
-        <p>Select a report below:</p>
+    <header>
+<div class="bridget-shaelyn">
 
-        <ul class="report-list">
-            <li><a href="25KEMDAYMFinancialReport.html">Affiliation Payment Report - 2025</a></li>
-        </ul>
+     <div class="log-clinton">
+         <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
+        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+</div>
+          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
+
+    </header>
+    
+    <div class="hi">
+            <h1>Youth Ministries Reports & Records</h1>
+                <p class="info">Find and access all meeting minutes, financial reports, agendas, and activities below.</p>
+
+    </div>
+    
+    
+    <div class="container">
+
+        <!-- Meeting Reports -->
+        <div class="section">
+            <h3>📜 Meeting Reports</h3>
+            <ul class="report-list">
+                <li><a href="25KEMDAYMcouncilMeeting1.html">Youth Council Meeting - 16 Feb 2025</a></li>
+            </ul>
+        </div>
+
+        <!-- Financial Reports -->
+        <div class="section">
+            <h3>💰 Financial Reports</h3>
+            <ul class="report-list">
+                <li><a href="25KEMDAYMFinancialReport.html">Affiliation Payment Report - 2025</a></li>
+            </ul>
+        </div>
+
+        <!-- Agendas -->
+        <div class="section">
+            <h3>📆 Agendas</h3>
+            <ul class="report-list">
+                <li><a href="#">Time Management - 2025</a></li>
+            </ul>
+        </div>
+
+        <!-- Activities -->
+        <div class="section">
+            <h3>🏕️ Activities & Events</h3>
+            <ul class="report-list">
+                <li><a href="#">Global Youth Day Report - March 2025</a></li>
+            </ul>
+        </div>
 
         <div class="footer">
-            <p>© KEMDAYM - 2025 Financial Reports | All Rights Reserved</p>
+            <p>© KEMDAYM - 2025 | All Rights Reserved</p>
         </div>
     </div>
 

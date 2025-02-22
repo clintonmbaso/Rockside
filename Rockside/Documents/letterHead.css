@@ -54,7 +54,7 @@
         header {
             text-align: right;
             margin-bottom: 10px;
-          margin-top: 2px;
+          margin: 2px auto;
         }
 
         header h1, header p, .date, .recipient, .subject, p, .signature, .footer {
@@ -63,10 +63,12 @@
         header h1 {
             font-size: 24px;
             margin-bottom: 5px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
         }
         header p {
             font-size: 14px;
             margin: 2px 0;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
         }
         hr {
             border: 1px solid #000;
@@ -84,8 +86,13 @@
           border-radius: 0 0 0 10px;
         }
 
-        .recipient, .subject {
+        .recipient {
+            margin-bottom: 40px;
+        }
+        
+        .subject {
             margin-bottom: 20px;
+			text-align: justify;
         }
 
         .footer {

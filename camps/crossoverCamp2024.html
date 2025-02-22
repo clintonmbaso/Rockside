@@ -17,6 +17,8 @@
     <link href="../indexes1.css" rel="stylesheet">
 
     <style>
+    
+    
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -259,7 +261,72 @@ footer {
     margin-top: 0.1rem;
     font-size: 12px;
     font-style: italic;
+}
     
+    
+.crossword-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.crossword-table td {
+  width: 20px;
+  height: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  border: 1px solid black; /* Visible cells will have borders */
+}
+
+.crossword-table td.black-cell {
+  background-color: transparent;
+  border: none; /* No borders for black cells */
+}
+
+.crossword-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: bold;
+    top: 0;
+    left: -4px;
+    font-size: 1rem;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.crossword-table td.confined-blank {
+    background-color: rgba(0,0,0,0.5); /* Light gray background */
+}
+
+.crossword-table td.black-cell {
+    background-color: none;
+    border: none; /* No border for black cells */
+}
+
+
+.clue-number {
+  position: absolute;
+  font-size: 10px;
+  margin: -5px 0 0 -5px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 2px;
+  border-radius: 3px;
+  color: blue;
+}
+
+.crossword-clues-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
 }
     </style>
 </head>
@@ -294,7 +361,7 @@ footer {
 
     <section>
         <a href="http://rocksideaym.com.preview.services/camps/campRegister.php"><div class="top">Hi</div></a>
-        <a href="http://rocksideaym.com.preview.services/camps/campRegister.php"><div class="bottom">Hi</div></a>
+        <a href="../Rockside/index.html"><div class="bottom">Hi</div></a>
         <div class="popup-overlay" id="popupOverlay"></div>
         
         <div id="popupLessons" class="popup">
@@ -367,8 +434,8 @@ footer {
           
             
 <a href="#" class="popup-link" data-info="
-    
     <h2>FINANCIAL LITERACY</h2>
+    <p>Financial Literacy is ....</p>
     <h3>The Seven Steps to Prosperity</h3>
     <ol>
         <li>
@@ -415,39 +482,134 @@ footer {
             <h4>Education</h4>
             <p>Continuously improve your skills and knowledge to increase your earning potential. Seek education and opportunities for personal and professional growth.</p>
         </li>
-<br>
     </ol>
+    <br>
                 ">Financial Literacy</a>
           
+            <!--
 <a href="#" class="popup-link" data-info="
     <h2>BASIC CODING</h2>
 
 ">Basic Coding</a>
-          
+          -->
 
 <a href="#" class="popup-link" data-info="
-    <h2>CONTAINER GARDENING</h2>
 
+    <h2>Growing Potatoes in a Sack</h2>
+    <p>Growing potatoes in a container or sack is a simple and rewarding process. Here's a step-by-step guide:</p>
+
+    <h4>Materials Needed</h4>
+    <ul>
+        <li>Container or sack: Use a large, sturdy container, grow bag, or a sack with drainage holes.</li>
+        <li>Seed potatoes: Choose certified seed potatoes, as they are disease-free and high yielding.</li>
+        <li>Potting soil: A mix of soil, compost, and sand or perlite for good drainage.</li>
+        <li>Fertilizer: Use a balanced or potassium-rich fertilizer.</li>
+        <li>Watering can or hose: For consistent watering.</li>
+    </ul>
+
+    <h4>Steps</h4>
+    <ol>
+        <li><strong>Prepare the Container or Sack</strong>
+            <ul>
+                <li>Ensure the container or sack has good drainage holes at the bottom.</li>
+                <li>Place a 4-6 inch layer of potting soil mixed with compost at the bottom.</li>
+            </ul>
+        </li>
+        <li><strong>Prepare the Seed Potatoes</strong>
+            <ul>
+                <li>Cut large seed potatoes into pieces, each with at least 1-2 eyes or buds.</li>
+                <li>Let the pieces dry for 1-2 days to form a callus, preventing rot.</li>
+            </ul>
+        </li>
+        <li><strong>Plant the Potatoes</strong>
+            <ul>
+                <li>Place the seed potatoes on the soil layer with the eyes facing up.</li>
+                <li>Cover them with 3-4 inches of soil.</li>
+            </ul>
+        </li>
+        <li><strong>Water Thoroughly</strong>
+            <ul>
+                <li>Water until the soil is moist but not soggy.</li>
+                <li>Keep the soil consistently moist throughout the growing period.</li>
+            </ul>
+        </li>
+        <li><strong>Add Soil as the Plants Grow</strong>
+            <ul>
+                <li>When the green shoots are about 6 inches tall, add more soil to cover the lower part of the stems, leaving only the top leaves exposed.</li>
+                <li>Repeat this process (called hilling) until the container or sack is almost full.</li>
+            </ul>
+        </li>
+        <li><strong>Provide Care</strong>
+            <ul>
+                <li>Place the container in a sunny location (6-8 hours of sunlight daily).</li>
+                <li>Fertilize every few weeks with a balanced or potassium-rich fertilizer.</li>
+                <li>Water consistently but avoid waterlogging.</li>
+            </ul>
+        </li>
+        <li><strong>Harvest the Potatoes</strong>
+            <ul>
+                <li>Once the plants flower and the foliage starts to yellow and die back, the potatoes are ready to harvest.</li>
+                <li>Gently dig into the soil or tip the container to collect your potatoes.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <div>
+        <h4>Tips</h4>
+        <ul>
+            <li>Use disease-free seed potatoes to ensure healthy plants.</li>
+            <li>Avoid overwatering to prevent rotting.</li>
+            <li>Save small potatoes from the harvest as seed potatoes for your next crop.</li>
+        </ul>
+    </div>
+
+    <p>This method is compact, making it ideal for small spaces like balconies or patios!</p>
+    <br>
 ">Container Gardening</a>
           
-            
+
 <a href="#" class="popup-link" data-info="
     <h2>ELECTRONICS</h2>
+<p>The branch of science and technology concerned with the development and application of devices that use electrical energy.</p>
+            
+<h4>Understanding Concepts</h4>
+<ol>
+    <li><b>Energy</b>: Energy is the capacity to do work. In batteries, energy is stored chemically and converted into electrical energy when needed.</li>
+    <li><b>Potential Voltic Energy</b>: This is the stored energy in a battery that can be used to create an electric current.</li>
+    <li><b>A Cell</b>: A device that stores chemical energy and converts it into electrical energy to power electronic devices.</li>
+    <ul>
+        <li>A battery is made up of a group of cells connected together either in series or in parallel, or a combination of both.</li>
+    <h4>TYPES OF CELLS</h4>
+    <p><b>Dry Cells</b>: Non-rechargeable batteries commonly used in small devices like flashlights. When new, its vootage is 1.5 volts, when completely drained, its voltage is tagged at 0.8V.</p>
+    <p><b>Meaning of Maintenance-Free</b>: Maintenance-free batteries do not require the user to add water or perform regular upkeep, making them easier to use. Dry cells are maintenance free cells.</p>
+    <p><b>Rechargeable Cells</b>: Batteries that can be recharged and used multiple times, such as those in phones or cars. These batteries either use acid or made up of Lithium.</p>
+    <p><b>Car Battery (12V - 2A)</b>: A larger, rechargeable battery used to start a car and power its electrical systems. It typically operates at 12 volts and supplies a current of 2 amperes. It is made up of 6 cells each having 2V.</p>
+    <p><b>Types of Acids in Car Batteries</b>: Car batteries often use sulfuric acid as an electrolyte to facilitate the chemical reactions needed for energy storage and release.</p>
 
+    </ul>
+    <li><b>Electrolysis</b>: A process in which electricity is used to cause a chemical reaction, such as in rechargeable batteries during the charging process.</li>    
+    <li><b>Thermal Dynamics</b>: This refers to the study of heat and its effect on energy and work, important in understanding how batteries and electronics manage heat during operation.</li>    
+    <li><b>Conduction</b>: The transfer of energy, such as electricity or heat, through a material. This is crucial in batteries and electronic circuits.</li>
+<h4>AC and DC</h4>
+<p>AC (Alternating Current): The flow of electric charge that changes direction periodically, used in household power supplies.</p>
+<p>DC (Direct Current): The flow of electric charge in one direction, used in batteries.</p>
+</ol>
+    <br>
 ">Electronics</a>
         
-            
+            <!--
 <a href="#" class="popup-link" data-info="
     <h2>POWER ELECTRICAL</h2>
 
 ">Power Electrical</a>
-            
+            -->
         </div>
 
         
         
-        
+   
 <div id="popupActivities" class="popup">
+<!--
             <a href="#" class="popup-link" data-info="<h2>4 X 4 SUDOKU Puzzle</h2>
 
                 ">SUDOKU Puzzle</a>
@@ -463,28 +625,68 @@ footer {
     <h2>6 X 6 SUDOKU Puzzle</h2>
 
 ">SUDOKU Puzzle</a>
-          
+          -->
     
 <a href="#" class="popup-link" data-info="
-    <h2>RANGER CLASS</h2>
+    <h2>Gardening Puzzle</h2>
+    <div id='questionWrapper'></div>
+">Gardening Crossword</a>
 
-">Ranger Requirement Card</a>
-          
-                      <a href="#" class="popup-link" data-info="<h2>VOYAGER CLASS</h2>
+<div id="popup" class="popup hidden">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <div id="popup-body"></div>
+    </div>
+</div>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const popupLink = document.querySelector(".popup-link");
+    const popup = document.getElementById("popup");
+    const popupBody = document.getElementById("popup-body");
+    const closeBtn = document.querySelector(".close");
 
-                ">Voyager Requirement Card</a>
+    popupLink.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        // Get content from the data-info attribute and inject it into the popup
+        const info = popupLink.getAttribute("data-info");
+        popupBody.innerHTML = info;
+
+        // Show the popup
+        popup.classList.remove("hidden");
+    });
+
+    closeBtn.addEventListener("click", () => {
+        // Hide the popup
+        popup.classList.add("hidden");
+    });
+
+    // Close the popup when clicking outside of the popup content
+    popup.addEventListener("click", (e) => {
+        if (e.target === popup) {
+            popup.classList.add("hidden");
+        }
+    });
+});
+    </script>
+          <!--
+<a href="#" class="popup-link" data-info="
+    <h2>VOYAGER CLASS</h2>
+
+">Voyager Requirement Card</a>
         
 <a href="#" class="popup-link" data-info="
     <h2>GUIDE CLASS</h2>
-<p>Welcome to the Kabwe East Mission District Adventist Youth Ministries Executive Board Meeting Summary, your gateway to transparency and accountability within our organization. This page is designed to meticulously document the discussions, decisions, and actions taken during our Executive Board meetings. It serves as a beacon of transparency, ensuring that every member is well-informed and empowered to contribute meaningfully to our collective goals.</p>
-<p>Together, let us uphold the principles of transparency, accountability, and collaboration as we navigate the challenges and opportunities that lie ahead. Our commitment to excellence starts with each of us, and it is through our collective efforts that we will continue to drive positive change within Adventist Youth Ministries and beyond.</p>        </div>
 
 ">Guide Requirement Card</a>
-            
+                    -->
         </div>
+
+
         
-        
+        <!--
 <div id="popupGallery" class="popup">
+    
     <a href="#" class="popup-link" data-info="
         <h2>Gallery</h2>
         
@@ -494,8 +696,9 @@ footer {
     <h2>RANGER CLASS</h2>
 
 ">Slide Show</a>
+
 </div>
-        
+    -->
         
         
         
@@ -504,8 +707,6 @@ footer {
 
       
         <div id="contentArea">
-            
-            
 
     <sectioni id="gallery">
     <div class="slideshow">
@@ -623,7 +824,7 @@ footer {
                 </tbody>
             </table>
         </sectioni>
-        
+        <br>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('nav a');
@@ -640,28 +841,21 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.querySelectorAll('.popup-link').forEach(item => {
-        item.addEventListener('click', event => {
-            event.preventDefault();
-            const info = event.target.getAttribute('data-info');
-            const file = event.target.getAttribute('data-file');
-            const contentArea = document.getElementById('contentArea');
+    item.addEventListener('click', event => {
+        event.preventDefault();
+        const info = event.target.getAttribute('data-info');
+        const contentArea = document.getElementById('contentArea');
 
-            if (file) {
-                // If the data-file attribute is present, load content from the external file
-                fetch(file)
-                    .then(response => response.text())
-                    .then(data => {
-                        contentArea.innerHTML = data;
-                        closePopup(); // Close the popup after displaying the content
-                    })
-                    .catch(error => console.error('Error loading content:', error));
-            } else if (info) {
-                // If there's data-info, use it directly
-                contentArea.innerHTML = info;
-                closePopup(); // Close the popup after displaying the content
-            }
-        });
+        // Clear previous content
+        contentArea.innerHTML = '';
+
+        if (info) {
+            // Set new content
+            contentArea.innerHTML = info;
+        }
+        closePopup(); // Close the popup after displaying the content
     });
+});
 
     popupOverlay.addEventListener('click', function() {
         closePopup();
@@ -1053,5 +1247,144 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     </script>
+        <script>
+        // Simulating the `q` object for the crossword question
+        const q = {
+            description: "Fill in the crossword puzzle below:",
+            puzzleData: [
+                ["#", "#", "W", "#", "#", "#", "C", "#", "#", "#", "#", "F", "#", "#", "#", "#", "H", "#", "#"],
+                ["#", "#", "A", "#", "#", "P", "O", "T", "A", "T", "O", "E", "S", "#", "#", "#", "A", "#", "#"],
+                ["#", "#", "T", "#", "#", "#", "N", "#", "#", "#", "#", "R", "#", "#", "#", "#", "R", "#", "#"],
+                ["#", "#", "E", "#", "N", "U", "T", "R", "I", "E", "N", "T", "S", "#", "#", "#", "V", "#", "#"],
+                ["#", "#", "R", "#", "#", "#", "A", "#", "#", "#", "#", "I", "#", "#", "#", "#", "E", "#", "#"],
+                ["#", "#", "I", "#", "#", "#", "I", "#", "#", "#", "#", "L", "#", "#", "#", "#", "S", "#", "#"],
+                ["S", "U", "N", "S", "H", "I", "N", "E", "#", "#", "#", "I", "#", "#", "#", "#", "T", "#", "#"],
+                ["#", "#", "G", "#", "#", "#", "E", "#", "#", "#", "#", "Z", "#", "#", "F", "#", "I", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "R", "#", "#", "#", "S", "E", "E", "D", "L", "I", "N", "G", "S"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "R", "#", "#", "O", "#", "G", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "W", "#", "#", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "E", "#", "#", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "R", "#", "#", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "I", "#", "#", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "G", "A", "R", "D", "E", "N", "I", "N", "G", "#", "#", "#"],
+                ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "G", "#", "#", "#", "#"]
+            ],
+            acrossClues: [
+                "The vegetable that grows underground and is used to make chips.",
+                "What plants need from soil and fertilizer to grow strong.",
+                "Will you make it.",
+                "Four.",
+                "five."
+            ],
+            downClues: [
+                "The act of giving plants the liquid they need to grow.",
+                "A sac or box used to grow potatoes in small spaces.",
+                "fine.",
+                "twice.",
+                "nine."
+            ]
+        };
+
+        // Render the crossword
+        const questionWrapper = document.getElementById("questionWrapper");
+
+        // Code from your case
+        const crosswordQuestionContainer = document.createElement("div");
+        crosswordQuestionContainer.classList.add("crossword-based-container");
+
+        const crosswordDescription = document.createElement("p");
+        crosswordDescription.innerHTML = q.description;
+        crosswordQuestionContainer.appendChild(crosswordDescription);
+
+        const crosswordTable = document.createElement("table");
+        crosswordTable.classList.add("crossword-table");
+
+        let clueNumber = 1;
+        const acrossCluesMap = {};
+        const downCluesMap = {};
+
+        for (let row = 0; row < q.puzzleData.length; row++) {
+            const crosswordRow = document.createElement("tr");
+
+            for (let col = 0; col < q.puzzleData[row].length; col++) {
+                const crosswordCell = document.createElement("td");
+
+                if (q.puzzleData[row][col] === "#") {
+                    crosswordCell.classList.add("black-cell");
+                } else {
+                    const inputField = document.createElement("input");
+                    inputField.setAttribute("type", "text");
+                    inputField.setAttribute("maxlength", "1");
+                    inputField.classList.add("crossword-input");
+
+                    const isAcrossStart = (col === 0 || q.puzzleData[row][col - 1] === "#") &&
+                                          (col < q.puzzleData[row].length - 1 && q.puzzleData[row][col + 1] !== "#");
+
+                    const isDownStart = (row === 0 || q.puzzleData[row - 1][col] === "#") &&
+                                        (row < q.puzzleData.length - 1 && q.puzzleData[row + 1][col] !== "#");
+
+                    if (isAcrossStart || isDownStart) {
+                        const clueNumberSpan = document.createElement("span");
+                        clueNumberSpan.classList.add("clue-number");
+                        clueNumberSpan.innerText = clueNumber;
+                        crosswordCell.appendChild(clueNumberSpan);
+
+                        if (isAcrossStart) {
+                            acrossCluesMap[clueNumber] = q.acrossClues[clueNumber - 1];
+                        }
+                        if (isDownStart) {
+                            downCluesMap[clueNumber] = q.downClues[clueNumber - 1];
+                        }
+
+                        clueNumber++;
+                    }
+
+                    crosswordCell.appendChild(inputField);
+                }
+
+                crosswordRow.appendChild(crosswordCell);
+            }
+
+            crosswordTable.appendChild(crosswordRow);
+        }
+
+        crosswordQuestionContainer.appendChild(crosswordTable);
+
+        const cluesContainer = document.createElement("div");
+        cluesContainer.classList.add("crossword-clues-container");
+
+        const acrossCluesList = document.createElement("div");
+        acrossCluesList.classList.add("across-clues");
+        const acrossCluesHeading = document.createElement("h3");
+        acrossCluesHeading.innerHTML = "Across";
+        acrossCluesList.appendChild(acrossCluesHeading);
+
+        Object.keys(acrossCluesMap).forEach((key) => {
+            const clueItem = document.createElement("p");
+            clueItem.innerHTML = `${key}. ${acrossCluesMap[key]}`;
+            acrossCluesList.appendChild(clueItem);
+        });
+
+        cluesContainer.appendChild(acrossCluesList);
+
+        const downCluesList = document.createElement("div");
+        downCluesList.classList.add("down-clues");
+        const downCluesHeading = document.createElement("h3");
+        downCluesHeading.innerHTML = "Down";
+        downCluesList.appendChild(downCluesHeading);
+
+        Object.keys(downCluesMap).forEach((key) => {
+            const clueItem = document.createElement("p");
+            clueItem.innerHTML = `${key}. ${downCluesMap[key]}`;
+            downCluesList.appendChild(clueItem);
+        });
+
+        cluesContainer.appendChild(downCluesList);
+
+        crosswordQuestionContainer.appendChild(cluesContainer);
+
+        questionWrapper.appendChild(crosswordQuestionContainer);
+    </script>
+
 </body>
 </html>

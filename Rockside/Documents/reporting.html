@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q2T721CW7G');
+</script>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting Hub</title>
+    <!-- Include Chart.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="indexing.css">
+<style>
+        /* Refine Typography */
+
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Enhance Color Scheme */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(55,55,55,0.7);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+        .report-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            opacity: 0.8;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .report-content {
+            margin-bottom: 10px;
+        }
+
+        /* Add Visual Elements */
+        .report-section {
+            position: relative;
+        }
+        .report-section:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom right, #f9f9f9, #e6e6e6);
+            z-index: -1;
+            border-radius: 8px;
+        }
+
+        /* Improve Layout */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #555;
+        }
+        .report-section h3 {
+            margin-top: 20px;
+            color: #777;
+        }
+        .report-content p {
+            color: black;
+        }
+
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+        .district {
+            color: brown;
+        }
+        canvas {
+            display: block;
+            margin: auto;
+        }
+.reportHeader {
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.par {
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Peer Education Monitoring</h1>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+</header>
+  
+  
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Home</a>
+  <a href="PeerEducationTraining.html">Training</a>
+  <a href="allFacilities.html">Dashboard</a>
+  <a href="taskManagement.html">Task Management</a>
+  <a href="progressTracking.html">Progress Tracking</a>
+  <a href="documentRepository.html">Document Repository</a>
+  <a href="discussionForums.html">Discussion Forums</a>
+  <a href="reporting.html">Reporting</a>
+</div>
+
+  
+    <div class="container">
+        <h1 class="reportHeader">Reporting Hub</h1>
+  <p class="par">The overall progress report serves as a comprehensive compilation of data representing the collective progress across all districts. It offers a consolidated view of completion rates, tasks completed, and tasks remaining, providing stakeholders with a clear understanding of the overall status of the project or initiative.</p>
+<div class="report-section">
+    <h2 class="overall">Overall Progress Report</h2>
+    <div class="report-content">
+        <p id="completion-rate">Completion Rate: <span id="completion-rate-value">75%</span></p>
+        <p id="completed-tasks">Tasks Completed: <span id="completed-tasks-value">15</span></p>
+        <p id="remaining-tasks">Tasks Remaining: <span id="remaining-tasks-value">5</span></p>
+     <canvas id="overallChart" width="300" height="300"></canvas>
+            </div>
+        </div>
+
+<!-- Chibombo District -->
+        <div class="report-section">
+            <h2 class="district">Chibombo District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          <h3 class="facility">Anthu Omwe</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <h3 class="facility">Athaliah</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <h3 class="facility">Bethel 10 miles</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <h3 class="facility">Hope in Christ</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+        </div>
+      
+
+<!-- Chisamba District -->
+        <div class="report-section">
+            <h2 class="district">Chisamba District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          <h3 class="facility">Bethel Fringila</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+        </div>
+      
+      
+<!-- Kabwe District -->
+        <div class="report-section">
+            <h2 class="district">Kabwe District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          <h3 class="facility">Valley View</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+        </div>
+      
+      
+        <div class="report-section">
+            <h2 class="district">Kapiri District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          <h3 class="facility">Healthy Living</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <h3 class="facility">Mukuni</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <h3 class="facility">St. Luke's</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed' -->
+            </div>
+        </div>
+      
+        <div class="report-section">
+            <h2 class="district">Luano District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          
+        </div>
+      
+        <div class="report-section">
+            <h2 class="district">Mkushi District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          <h3 class="facility">Xora</h3>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+        </div>
+
+        <div class="report-section">
+            <h2 class="district">Mumbwa District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          
+        </div>
+      
+        <div class="report-section">
+            <h2 class="district">Serenje District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          
+        </div>
+
+        <div class="report-section">
+            <h2 class="district">Shibuyunji District</h2>
+            <div class="report-content">
+                <p>Completion Rate: 75%</p>
+                <p>Tasks Completed: 15</p>
+                <p>Tasks Remaining: 5</p>
+                <!-- Add more task breakdown as needed -->
+            </div>
+          <hr>
+          
+        </div>
+      
+        <!-- Add more report sections as needed -->
+    </div>
+  
+
+    <!-- Add more activities as needed -->
+  </div>
+  
+  <script>
+    // Sample data (you can replace it with real data from your backend)
+    const chibomboData = [52, 48];
+    const chisambaData = [85, 15];
+    const kabweData = [90, 10];
+    const kapiriData = [82, 18];
+    const mkushiData = [95, 5];
+    const luanoData = [60, 40];
+    const serenjeData = [92, 8];
+    const mumbwaData = [65, 35];
+    const shibuyunjiData = [80, 20];
+    // Add more activity data as needed
+
+
+  </script>
+  
+  <script>
+    // Calculate total completed and remaining tasks
+    const totalCompletedTasks = chibomboData[0] + chisambaData[0] + kabweData[0] + kapiriData[0] + mkushiData[0] + luanoData[0] + serenjeData[0] + mumbwaData[0] + shibuyunjiData[0];
+    const totalRemainingTasks = chibomboData[1] + chisambaData[1] + kabweData[1] + kapiriData[1] + mkushiData[1] + luanoData[1] + serenjeData[1] + mumbwaData[1] + shibuyunjiData[1];
+
+
+// Update completed tasks
+    document.getElementById("completed-tasks-value").textContent = totalCompletedTasks;
+
+    // Update remaining tasks
+    document.getElementById("remaining-tasks-value").textContent = totalRemainingTasks;
+
+// Calculate completion rate
+const completionRate = ((totalCompletedTasks / (totalCompletedTasks + totalRemainingTasks)) * 100).toFixed(1);
+
+// Update completion rate in HTML
+document.getElementById("completion-rate-value").textContent = completionRate + "%";
+
+
+
+    // Update tasks chart
+    const tasksChart = new Chart(document.getElementById('overallChart'), {
+      type: 'pie',
+      data: {
+        labels: ['Completed', 'Remaining'],
+        datasets: [{
+          data: [totalCompletedTasks, totalRemainingTasks],
+          backgroundColor: ['#36a2eb', '#ff6384']
+        }]
+      },
+      options: {
+        title: {
+          display: true,
+          text: 'Tasks Progress'
+        }
+      }
+    });
+  </script>
+
+<script src="indexing.js"></script>
+
+</body>
+</html>

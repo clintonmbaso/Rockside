@@ -1,0 +1,179 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 10%;
+            background-color: rgb(0,43,92);
+            padding: 5px;
+            text-align: center;
+            height: auto;
+        }
+        .sidebar img {
+            max-width: 40px;
+            height: auto;
+            cursor: pointer;
+            margin-bottom: 1px;
+            background: white;
+            padding: 0;
+            border-radius: 50px;
+            border: -2px #002B5C solid;
+        }
+.main {
+    text-align: justify;
+}
+.placeholder {
+  color: grey;
+  font-style: italic;
+}
+
+.editable {
+  display: inline-block;
+  cursor: text;
+}
+
+.address {
+    margin-top: 2px;
+}
+
+        .sidebar p {
+          font-size: 9px;
+          margin: 1px -5px;
+            color: white;
+        }
+
+        .content {
+            width: 90%;
+            padding: 10px;
+        }
+
+        header {
+            text-align: right;
+            margin-bottom: 10px;
+          margin-top: 2px;
+        }
+
+        header h1, header p, .date, .recipient, .subject, p, .signature, .footer {
+            cursor: text;
+        }
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 14px;
+            margin: 2px 0;
+        }
+        hr {
+            border: 1px solid #000;
+          margin-bottom: 0;
+        }
+
+        #date {
+          text-align: right;
+          margin-bottom: 20px;
+          background-color: rgba(0,0,0,0.2);
+          padding: 2px;
+            margin-left: auto;
+          margin-top: 0;
+            width: auto;
+          border-radius: 0 0 0 10px;
+        }
+
+        .recipient, .subject {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            background-color: rgba(0,0,0,0.2);
+            color: black;
+            width: 100%;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .signature {
+            margin-top: 50px;
+        }
+
+/* Button Container Styling */
+.btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+/* General Button Styling */
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Save Button */
+.save-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Print Button */
+.print-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.print-btn:hover {
+    background-color: #1e88e5;
+    transform: translateY(-3px);
+}
+
+/* Icon Styling */
+.btn i {
+    font-size: 18px;
+}
+
+
+    @media print {
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    * {
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For modern browsers */
+    }
+      .save-btn, .print-btn {
+            display: none;
+        }
+              .sidebar {
+            width: 10%;
+        }
+        
+        .sidebar p {
+          font-size: 12px;
+          margin: 1px -5px;
+        }
+}

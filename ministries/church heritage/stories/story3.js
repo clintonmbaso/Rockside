@@ -1,282 +1,317 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story3 = {
-    title: "Does My life Really Matter to God?",
+    title: "Heralds of the Advent Message",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
- <p>Some mornings, the world seems a paradise. You wake up, take a deep breath by the 
-window, and look out on golden sunshine reflecting on the trees, leaf by leaf. Some moments 
-make life seem so precious: the face of a beloved friend as you say good-bye, a sublime 
-piece of music that perfectly matches your mood, the unexpected affection of a small child.</p>
+<h2>Three Spectacular Signs</h2>
 
- <p>But other mornings, the world seems a place of horror. You wake up to newspaper 
-headlines screaming about yet another terrorist bombing that maimed or blinded a child, yet 
-another serial killer claiming his tenth victim, yet another famine or flood or war or 
-earthquake. These are moments when nothing makes sense, nothing seems fair.</p>
-            
-<p>What does it all mean? Can we make sense of our wonderful and terrible world? Why 
-are we here? Does my life really matter to God or am I just a minor cog in some vast cosmic 
-machine?</p>
+<p>During this time period, numerous spectacular signs appeared in the natural world, which were interpreted by theologians and secular media alike as portents of grave things to come — maybe even the second coming of Christ.</p>
+
+<h3>The Lisbon Earthquake (1755)</h3>
+
+<p>The first of these, in <strong>1755</strong>, is known as the <strong>Lisbon Earthquake</strong> due to the massive destruction caused in that city — a tragedy still remembered by its citizens. The earthquake was so powerful that it was felt as far away as:</p>
+
+<ul>
+    <li>Scandinavia</li>
+    <li>Greenland</li>
+    <li>The West Indies</li>
+</ul>
+
+<p>It covered a region of more than <strong>four million square miles</strong> (6.4 million square kilometers). This earthquake was seen as a clear fulfillment of the prophecy connected to the opening of the sixth seal in <em>Revelation 6:12-13</em>.</p>
+
+<h3>The Dark Day (1780)</h3>
+
+<p>In <strong>1780</strong>, twenty-five years later, the second prophecy-fulfilling event took place, as predicted by Jesus and recorded in <em>Mark 13:24</em>. The 1260-year period referred to as “those days” ended in <strong>1798</strong>, but the persecution was cut short before the close of that time prophecy. This was due to:</p>
+
+<ul>
+    <li>The decree of Empress Maria Theresa</li>
+    <li>The Acts of Toleration (1773–1776)</li>
+</ul>
+
+<p>Therefore, the sign would occur after those dates and before 1798. This prophecy came true with the <strong>Dark Day of May 19, 1780</strong>. Newspapers of the time reported the unusual circumstances of this event, which occurred over the northeastern United States. Noah Webster later wrote:</p>
+
+<blockquote>
+    “No satisfactory reason has ever been given to explain the reason for this darkness.”
+</blockquote>
+
+<p>Eyewitnesses described the night of May 19, stating that even though there was a full moon:</p>
+
+<blockquote>
+    “If every luminous body in the universe had been struck out of existence, the darkness could not have been more complete.”
+</blockquote>
+
+<h3>The Meteorite Showers (1833)</h3>
+
+<p>The third sign occurred twice:</p>
+
+<ul>
+    <li><strong>November 13, 1833</strong> — in the Western Hemisphere</li>
+    <li><strong>November 25, 1833</strong> — over Europe</li>
+</ul>
+
+<p>These incredible meteorite showers were described by one newspaper as:</p>
+
+<blockquote>
+    “The likes of which have never been seen in the annals of recorded history.”
+</blockquote>
+
+<p>The first shower was witnessed across a vast area, from:</p>
+
+<ul>
+    <li>Hawaii to the mid-Atlantic</li>
+    <li>Hudson Bay, Canada, to northern South America</li>
+</ul>
+
+<p>Observers described it as:</p>
+
+<blockquote>
+    “Streams of fire coming down from heaven” and “falling as thick as snowflakes in a snow-storm.”
+</blockquote>
+
+<p>The second shower on November 25 was just as awe-inspiring:</p>
+
+<blockquote>
+    “Like a rain of fire... making the night so light that the people thought that the houses near them must be on fire.”
+</blockquote>
+
+<p>The event was so intense that:</p>
+
+<ul>
+    <li>Horses were frightened and fell to the ground.</li>
+    <li>Many people became sick with fear.</li>
+</ul>
+
+<p>This event was seen as the fulfillment of the prophecy in <em>Revelation 6:13</em>.</p>
+
+<h3>Impact on the Advent Message</h3>
+
+<p>These three spectacular signs in the natural world — placed by God to draw attention to the truth — gave great momentum to the preaching of the <strong>Advent message</strong>.</p>
             `,
-            questions: [
-
-            ]
+            audioPath: './stories/audio/Section 2/S02E01 - 3 Spectacular Signs.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>GOD CREATED A PERFECT WORLD</h2>
-<p>God is the Creator, the architect and designer of everything from supernovas to butterfly 
-wings.</p>
-<blockquote>“By the word of the Lord were the heavens made-their starry host by the breath of his 
-mouth…. For he spoke, and it came to be; he commanded, and it stood firm.”-Psalm 33:6-9</blockquote>
-<em class="em">(Unless otherwise noted all Scriptural texts in the DISCOVER guides are from the New 
-International Version of the Bible [NIV].)</em>
-            
-<p>God has only to speak and the elements obey His will.</p>
+<h2>Three Special Angels</h2>
+
+<p>To symbolize the moment in the great clock of historical time for the delivery of the last warning message to a perishing world, God chose <strong>three mighty angels</strong>. God could have literally sent celestial beings in person to appear on earth in dazzling splendor and have them shout the messages from the mountaintops, but this was not His plan. Instead, the members of the church of God in our time have been entrusted with the messages, and the <strong>Holy Spirit</strong> gives the power to proclaim these messages to the world.</p>
+
+<h3>Summary of the Three Angels' Messages</h3>
+
+<p>There are many doctrines contained in the three angels' messages, but they may be summarized as follows:</p>
+
+<ul>
+    <li><strong>The first angel’s message</strong> calls to give allegiance to God, the Creator of the heavens and earth, and warns that <strong>the judgment hour has come</strong>.</li>
+    <li><strong>The second angel’s message</strong> declares that <strong>spiritual Babylon has fallen</strong>.</li>
+    <li><strong>The third angel’s message</strong> warns men and women living in the time of the remnant church against <strong>receiving the mark of the beast</strong>.</li>
+</ul>
+
+<h3>The Importance of Daniel and Revelation</h3>
+
+<p>The books of <strong>Daniel</strong> and <strong>Revelation</strong> have special significance for the last period of the world’s history and should be studied carefully by those living in these times. The three angels' messages of <strong>Revelation 14</strong> summarize some of the special teachings of these books. They are to be heralded by the members of the remnant church so that those living in the last days can <strong>decide for truth</strong> and not be caught in the deceptions of tradition.</p>
 `,
-            questions: [
-
-]      
+                        audioPath: './stories/audio/Section 2/S02E02 - 3 Angels Message.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>SIX DAYS TO MAKE OUR WORLD</h2>
+<h2>Advent Ambassadors in America</h2>
+<p>These are the people that worked in America to preach the second coming of Christ.</p>
+<h3>1. William Miller (1782–1849)</h3>
 
-“In six days the LORD made the 
-heavens and the earth, the sea, and all 
-that is in them, but he rested on the 
-seventh day. Therefore the Lord 
-blessed the Sabbath day and made it 
-Holy.”-Exodus 20:11
+<p>(A biography is given in the book <em>Herald of the Midnight Cry</em> by Paul Gordon, Pacific Press, 1990. The complete biography was written by Sylvester Bliss in 1853, <em>Memoirs of William Miller</em>, and is still available in reprint form).</p>
+
+<p>During the first half of the nineteenth century, the most prominent American preacher of the second coming of Christ was <strong>William Miller</strong>. The eldest of a family of sixteen, Miller received what would be termed a “good education,” but his curiosity and desire for knowledge led him to study for himself.</p>
+
+<p>Later, due to his association with unbelievers in political circles, he became a <em>deist</em>, though not fully persuaded, still retaining some hold on the Bible. Miraculously, he transitioned from deism to full faith in God and the Bible. To vindicate his new faith, he studied for years, becoming convinced of the nearness of the Advent.</p>
+
+<h4>His Journey to Preaching</h4>
+
+<p>He studied for fifteen years, from 1816 to 1831, growing more convinced that he should share his discoveries. Almost fifty years old and without public speaking training, he resisted at first. However, in August 1831, he made a covenant with God to preach if given an opportunity.</p>
+
+<blockquote>
+    “The minister of the Baptist church was away, and could William come and preach tomorrow on the subject of the second coming?”
+</blockquote>
+
+<p>From that point on, he began preaching, first in rural areas, then in larger towns and cities, until more than <strong>100,000</strong> had accepted the message of a soon-coming Saviour.</p>
+
+<h4>Key Events and Messages</h4>
+
+<ul>
+    <li><strong>The Dark Day:</strong> May 19, 1780 — a sign of the second coming</li>
+    <li><strong>Falling of the stars:</strong> November 13, 1833</li>
+    <li><strong>Daniel's prophecy:</strong> He studied the 2300-day prophecy of Daniel 8 and 9 and believed it referred to the cleansing of the earth by fire at Christ's second coming.</li>
+</ul>
+
+<p>Although Miller spoke about the second coming, he only accepted a definite date in late 1844. In January 1843, he stated Christ would come between March 1843 and March 1844.</p>
+
+<h4>Challenges and Legacy</h4>
+
+<p>Many ministers initially supported the Advent message, but by late 1843, opposition grew. Advent believers were disfellowshipped, including Robert Harmon and his family. By 1844, the popular churches had rejected the first angel’s message.</p>
+
+<p>When Jesus did not come in 1843–44, Miller's faith remained steadfast. His public ministry ended in 1845, and he died in 1849, still confident in the Saviour’s return.</p>
+
+<h4>William Miller's Impact</h4>
+
+<ul>
+    <li>Preached more than <strong>3,000 lectures</strong> in nearly 1,000 places.</li>
+    <li>Though blind by 1848, his name became inseparable from the Advent movement.</li>
+</ul>
+
+<p>Miller was called the <strong>“Morning Star”</strong> of the Advent movement because:</p>
+
+<ol>
+    <li>He recommended preaching the first angel’s message.</li>
+    <li>His preaching was so impactful that the movement was known as <strong>Millerism</strong>, and his followers were called <strong>Millerites</strong>.</li>
+</ol>
+
+<h3>2. Joshua V. Himes (1805–1895)</h3>
+<p>In November 1839, fifty-seven-year-old Miller met thirty-five-year-old <strong>Joshua V. Himes</strong> at Exeter, New Hampshire. By December, Miller preached at Himes’ church in Boston, converting many, including Himes himself.</p>
+
+<blockquote>
+    “I laid myself, family, society, reputation, all, upon that altar of God, to help him, to the extent of my power, to the end.” — Joshua V. Himes
+</blockquote>
+
+<h4>Contributions</h4>
+
+<ul>
+    <li><strong>Publishing:</strong> Founded <em>Signs of the Times</em> in Boston (1840).</li>
+    <li><strong>Media:</strong> Published <em>The Midnight Cry</em> (1842), with a daily circulation of 10,000 copies.</li>
+    <li><strong>Events:</strong> Organized camp meetings attended by thousands to spread the Advent message.</li>
+</ul>
+
+<p>Himes was a bold leader and promoter of the Millerite movement. Although he did not join the Seventh-day Adventists after the 1844 disappointment, he maintained his faith in the Advent message until his death in 1895.</p>
+
+<h3>3. Josiah Litch</h3>
+<p>Among the 200 ministers and 500 lecturers who joined Miller was <strong>Josiah Litch</strong>. A Methodist minister from the age of seventeen, he first read Miller’s work in 1838, intending to refute it.</p>
+
+<blockquote>
+    “Before concluding the book I became satisfied that the arguments were so clear and that they were so scriptural that it was impossible to disprove the position which Mr. Miller had endeavored to establish.” — Josiah Litch
+</blockquote>
             
-CREATION WEEK
-Day One: light; sequence of day and night
-Day two: earth’s atmosphere
-Day three: dry land and vegetation
-Day Four: sun and moon appeared 
-Day Five: birds and fish
-Day six: land animals and man 
-Day Seven: the Sabbath
+
+<h3>4. Charles Fitch</h3>
+<p><strong>Charles Fitch</strong> was a Congregational church pastor in Boston who embraced the Advent message after reading Miller’s lectures. His contributions were fourfold:</p>
+
+<ol>
+    <li><strong>Preacher:</strong> His key message was <em>“Prepare to meet thy God.”</em></li>
+    <li><strong>Writer:</strong> Published <em>Second Advent of Christ</em>.</li>
+    <li><strong>Hymn writer:</strong> Wrote hymns, including <em>One Precious Boon, O Lord, I Seek</em>.</li>
+    <li><strong>Artist:</strong> Created the first prophetic charts (1842) — an early use of audiovisual aids in evangelism.</li>
+</ol>
+
+<p>Fitch died on October 14, 1844, just eight days before the expected Advent date, after falling ill from baptizing believers in cold waters.</p>
             
-The eternal, all-powerful Creator 
-could have formed the world in a 
-moment “by the breath of His mouth.” 
-But God chose to take six days to do it-six minutes, or even six seconds would have been 
-sufficient. The first chapter in the Bible, Genesis 1, describes what God created on each day 
-of the creation week.
-What crowning masterpiece did God create on the sixth day?
-“GOD CREATED MAN IN HIS OWN IMAGE, in the image of God he created him; 
-MALE AND FEMALE HE CREATED THEM.”-Genesis 1:27.
-God decided to create individuals like Himself who could reason and feel and love. 
-Every person is made in God’s “image.”
-By the sixth day, the world was filled with plants and animals, and then God introduced 
-His masterpiece of creation. According to Genesis 2:7, the Almighty formed Adam’s body 
-from the dust of the ground. So when God breathed “the breath of life” into his nostrils, man 
-became “a living being”-that is, he came to life. God named the first man created in His 
-image, Adam, a word that simply means “man,” and the first woman, Eve, which means 
-“living” (2:20; 3:20). A loving Creator saw the need for human companionship.
-Fresh from the hand of God, Adam and Eve both reflected His image. God could have 
-programmed beings like robots to wander contentedly about the Garden of Eden and raise 
-their voices in adoration to Him. But God wanted more: real relationships. Robots can smile, 
-speak, even do the dishes, but they can’t love
-God created us in His image, with the capacity to think and choose, and to remember, 
-understand, and love. Adam and Eve were God’s children, and inexpressibly dear to Him.
+
+<h3>5. Among Many Others</h3>
+<ul>
+    <li><strong>Sylvester Bliss:</strong> Authored William Miller’s memoirs (1853).</li>
+    <li><strong>S. S. Snow:</strong> Corrected the prophecy date to the fall of 1844.</li>
+    <li><strong>James White:</strong> At 21, he preached on horseback and converted over 1,000 people in three months.</li>
+</ul>
             `,
-            questions: [
-
-]
+                        audioPath: './stories/audio/Section 2/S02E03 - Advent Ambassodors 1.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>EVIL COMES TO A PERFECT WORLD</h2>
+<h2>Advent Ambassadors in Other Countries</h2>
 
-Adam and Eve had everything to make them happy. They enjoyed perfect physical and 
-mental health, living in a beautiful garden home in a flawless world (Genesis 2:8; 1:28-31). 
-God promised them children and the ability to do creative thinking, and to find satisfaction 
-in the work of their hands (Genesis 1:28; 2:15). They experienced face-to-face fellowship 
-with their Maker. No trace of worry, fear, or sickness marred their blissful days.
-How did the world change so drastically into a place of suffering and tragedy? The 
-second and third chapters of Genesis tell the entire story of how sin entered our world. Read 
-them at your leisure. Here is a brief summary of their contents.
-Some time after God established a perfect world, the Devil came to the Garden of Eden
-to tempt Adam and Eve into disobeying their Creator. God limited the Devil’s sphere of 
-influence to one tree in the garden, the “tree of the knowledge of good and evil.” And He 
-warned the first human couple to stay clear of this tree and never to eat its fruit, or they 
-would die.
-But one day Eve wandered over by the forbidden tree. The Devil quickly launched into 
-his sales pitch. He claimed God had lied to her and that if she ate the tree’s fruit she wouldn’t 
-die, but would become wise like God Himself, knowing good and evil. Tragically Eve, and 
-then Adam, who had only known good, allowed the Devil to con them, and they sampled 
-the forbidden fruit-thus breaking their bond of trust and obedience with God.
-God planned for Adam and Eve to “rule” over our world as the stewards of God’s 
-created works (Genesis 1:26). But because they broke faith with God and chose the Devil 
-as their new leader, the couple lost their jurisdiction. Today the Devil claims the world as 
-his and tries his best to enslave its people.
-There are many times when we find ourselves doing something selfish or even cruel 
-when we really want to do the opposite. Why? Because the invisible enemy, the Devil, works 
-to make people fail morally.
-As you read chapter 3 of Genesis, you will discover that sin caused Adam and Eve to 
-hide from God in fear. Sin affected all of creation. Thorns appeared along with the flowers. 
-The soil suffered from drought, and labor became a burden. Disease began to strike at 
-random. Jealousy, animosity, and greed multiplied human miseries. Most terrible of all, with 
-sin came death!
+<p>The Advent movement began at the same time in both Europe and America as men of God were led to study the prophecies of the Bible. It was providential that Christians in various lands studied the Scriptures and arrived at the belief that Jesus was coming soon. We list here only a few of the more prominent ones:</p>
+
+<h3>1. Joseph Wolff</h3>
+
+<p>From 1821 to 1845, Joseph Wolff traveled in Africa, Syria, Persia, India, the United States — even to the island of St. Helena. He preached to rulers and paupers alike. One of the world’s most noted missionary travelers and language students, Joseph Wolff became known as the <strong>"missionary to the world."</strong></p>
+
+<p>Born in Bavaria, Joseph was the son of a Jewish rabbi. At eleven years of age, he left home seeking an education so that he might become a missionary. He was baptized into the Roman Catholic Church but very soon challenged the authority of the church on doctrine and dogma.</p>
+
+<p>Wolff spoke <strong>fourteen languages</strong>, which allowed him great ease with dignitaries and common folk alike. His travels in Asia and Africa involved many dangers and narrow escapes. He was beaten, starved, and sold into slavery. <em>Three times</em> he received the death penalty. Through it all, he carried his Bible and warned people of the coming reign of the Messiah.</p>
+
+<h3>2. Johann A. Bengel</h3>
+
+<p>Before Wolff or Miller, during the first two decades of the 1700s, the second coming was taught in Germany by <strong>Bengel</strong>, a Lutheran minister. He believed in religious liberty and trained young men for the ministry. However, his greatest influence was felt through his books about the Second Advent. Wesley drew heavily from his writings, and they were spread even into Russia.</p>
+
+<blockquote>
+    "Probably no other continental theologian did so much as he to call attention to the importance of the prophetic portions of the Word... especially as it relates to the second coming of Christ."
+</blockquote>
+
+<h3>3. Edward Irving</h3>
+
+<p>Next to North America, the proclamation of the Second Advent had its fullest development in Great Britain. As a Scottish evangelist, <strong>Edward Irving</strong>, who received his M.A. at the age of seventeen, began studying the prophecies, particularly those with reference to the second coming.</p>
+
+<p>His stature (<strong>6ft. 4in / 1m 95cm</strong>) and his eloquence attracted the upper classes, including the Prime Minister. The churches were so full that tickets needed to be purchased <em>six weeks in advance</em>.</p>
+
+<p>A clergyman from Paris heard him preach and lent him a copy of Lacunza’s book, <em>The Coming of the Messiah in Glory and Majesty</em>. Irving learned Spanish to read it, then translated it into English. He was also a key participant in the <strong>Albury Conferences</strong> organized by Henry Drummond.</p>
+
+<h3>4. Henry Drummond</h3>
+
+<p>Henry, an English banker and member of Parliament, devoted his life to Christian service. He arranged a series of <strong>five annual prophetic conferences</strong>. Some twenty ministers from various church and orthodox communions and countries were present, including Joseph Wolff.</p>
+
+<p>At these conferences, the prophecies of the books of <strong>Daniel and Revelation</strong> were studied. Of these, Irving wrote:</p>
+
+<blockquote>
+    "We were so overruled by the one Spirit of truth and love, as to have found our way to harmony and coincidence in the main points of all these questions."
+</blockquote>
+
+<h3>5. Robert Winter</h3>
+
+<p>Mr. Winter heard the doctrine of the Second Advent while attending a camp meeting during a visit to America. In 1842, he returned to England, where he entered into the work of preaching the Advent. In his frequent letters to America, he told of his progress. In one letter he said:</p>
+
+<blockquote>
+    "I preach about the streets with my chart hoisted up on a pole. Our books are flying about and are making quite a stir in this great city."
+</blockquote>
+
+<p>God blessed his humble efforts with the baptism of several thousand converts.</p>
+
+<h3>6. Manuel de Lacunza</h3>
+
+<p>Under the pseudonym of <strong>Juan Ben-Ezra</strong>, Lacunza, a Jesuit priest, called attention to the prophecies of <strong>Daniel and Revelation</strong>. Born in Chile, he later lived in exile in Spain and Italy. Dissatisfied with Catholic interpretations of prophecy, he went to the Bible to find out for himself.</p>
+
+<p>His study resulted in the writing of the book <em>The Coming of the Messiah in Glory and Majesty</em>. Despite laborious hand-copying, it was widely circulated and translated from Spanish into Latin, Italian, and English (by Irving).</p>
+
+<h3>7. H. Heintzpeter</h3>
+
+<p>The keeper of the Royal Museum in Holland, <strong>Heintzpeter</strong> received a vision of Christ’s soon return. He spoke of it using Bible texts to prove his point, then wrote several pamphlets from about <strong>1830-1842</strong>, explaining the light he had received.</p>
+
+<p>He first heard of William Miller <em>twelve years</em> after he began to publish.</p>
+
+<h3>8. Louis Gaussen</h3>
+
+<p>The book <em>The Great Controversy</em> nicely sums up the work of Gaussen. Ellen White tells of his unique style of preaching through a method first used by the reformer <strong>William Farel</strong> — teaching the children.</p>
+
+<p>No one could use the excuse that these things were too hard and complicated to understand if children grasped the significance and enjoyed it. The plan worked; adults began to come and listen, high society was reached, and foreigners visiting Geneva heard and were convicted, carrying the news to other countries.</p>
+
+<p>Eventually, Gaussen published the lessons, widening their success. Despite being one of the most distinguished preachers in the French language, he was suspended for using the Bible to instruct the youth instead of the church catechism. He continued his ministry outside the recognized church.</p>
+
+<h3>9. Francisco Ramos Mejia</h3>
+
+<p>It is worth noting the impact the second coming concept had in lesser-known areas like Argentina. Among the leaders of this country’s struggle for independence were national heroes who were also students and believers in the Advent.</p>
+
+<p><strong>Ramos Mejia</strong> (who died before Miller began his preaching) believed:</p>
+
+<ul>
+    <li>Christ’s return was imminent</li>
+    <li>The Bible, not tradition, was the rule of faith</li>
+    <li>Education was crucial (he began schools for the Indians)</li>
+    <li>The Ten Commandments were the norm for Christians (he kept the Sabbath)</li>
+    <li>The correct relationship between faith and works</li>
+</ul>
+
+<p>Other notable figures included <strong>Manuel Belgrano</strong>, the designer of the national flag, and <strong>Domingo Sarmiento</strong>, the first president of Argentina.</p>
             `,
-            questions: [
-            
-            ]
+                        audioPath: './stories/audio/Section 2/S02E04 - Advent Ambassodors 2.mp3',
+            questions: []
         },
-        {
-            text: `
-                <h2>WHO IS THIS DEVIL WHO INFECTED OUR WORLD WITH SIN?</h2>
 
-“He was A MURDERER FROM THE BEGINNING,… there is no truth in him. 
-When he lies, he speaks his native language, for he is liar and THE FATHER OF LIES.”-
-John 8:44.
-According to Jesus, the Devil is the originator of sin in the universe, the “father” of sin 
-and thus of murder and lying.
-Thomas Carlyle, the great English philosopher, once took Ralph Waldo Emerson 
-through some of the worst streets of London’s East End. As they walked along, silently 
-observing the wretchedness and evil around them, Carlyle finally asked, “Do you believe in 
-the Devil now?”
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>DID GOD CREATE THE DEVIL?</h2>
-
-No! A good God would not create a devil. And yet the Bible states that the Devil, along 
-with the angels he had deceived, lost their place in heaven and came to our world.
-“And there was WAR IN HEAVEN. Michael and his angels fought against the 
-dragon, and THE DRAGON AND HIS ANGELS FOUGHT BACK. But he was not strong 
-enough, and they LOST THEIR PLACE IN HEAVEN. The great dragon was hurled 
-down-that ancient serpent called the devil or Satan, who leads the whole world astray. He 
-was hurled to the earth, and his angels with him.”-Revelation 12:7-9.
-How did the Devil get into heaven in the first place?
-“You were anointed as a Guardian CHERUB, for so I ordained you. You were on the 
-holy mount of God;…YOU WERE BLAMELESS IN YOUR WAYS from the day YOU 
-WERE CREATED till WICKEDNESS WAS FOUND IN YOU.”- Ezekiel 28:14, 15.
-God did not create the Devil, He created Lucifer a perfect angel, one of heaven’s leading 
-angels, standing next to God’s throne. But then he sinned-“wickedness was found in” him. 
-Expelled from heaven, and posing as Adam and Eve’s friend, he became humanity’s 
-deadliest enemy.
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>WHY DID LUCIFER, THIS PERFECT ANGEL, SINS?</h2>
-
-“How YOU HAVE FALLEN FROM HEAVEN, O morning star, son of the dawn! 
-YOU HAVE BEEN CAST DOWN TO THE EARTH…. YOU SAID IN YOUR HEART, 
-‘I will ascend to heaven; I will raise my throne above the stars of God;… I WILL MAKE 
-MYSELF LIKE THE MOST HIGH.’ “-Isaiah 14:12-14.
-The being who became the Devil was originally called Lucifer, meaning “day star” or 
-“shining one.” In this angel’s heart, vanity and ambition began to take the place of devotion. 
-The seed of pride grew into an obsession to take God’s place.
-Lucifer must have worked hard to persuade other heavenly beings. It’s easy to imagine 
-Satan arguing that God was holding something back from them, and that the divine law was 
-too restrictive, and that God was an uncaring sovereign. He slandered the One whose 
-character defines what love is.
-How was this conflict in heaven resolved?
-“Your heart became proud,… So I threw you to the earth.”-Ezekiel 28:17
-Pride changed the chief of angels into the Devil or Satan. And in order to preserve the 
-peace and harmony of heaven, he and one third of heaven’s angels who joined him in 
-rebellion, had to be expelled (Revelation 12:4, 7-9).
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>WHO IS RESPONSIBLE FOR SIN?</h2>
-
-Why didn’t God create beings incapable of sinning? If He had, there would be no 
-problem of evil in our world. But God wanted people who could have meaningful 
-relationships. So “God created man in His own image” (Genesis 1:27). This means we are 
-free and responsible. We can decide to love God or turn our backs on Him.
-God gave the angels and human beings of every generation, a spiritual nature and a 
-capacity to make real choices.
-“Choose for yourselves this day whom you will serve.”-Joshua 24:15.
-God challenges the beings He created in His image to choose to do right because their 
-reasoning powers tell them “God’s way is best.” And to turn from wrong because their 
-reasoning powers warn against the results of disobedience and sin.
-Only beings with the power to reason and choose can experience real love. God longed 
-to create individuals who could comprehend and appreciate His character, freely respond to 
-Him in love, and be filled with love for others. God wanted to share His love so much that 
-He was willing to take the enormous risk of creating angels and people with the power of 
-choice. He knew it was possible that someday one of His created beings might choose not 
-to serve Him. The Devil was the first being in the universe to make that terrible choice. The 
-tragedy of sin began with him (John 8:44, 1 John 3:8).
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>THE CROSS MAKES POSSIBLE THE DESTRUCTION OF SIN</h2>
-
-Why didn’t God destroy Lucifer before his sin-disease could spread? Lucifer had 
-challenged the fairness of God’s government. He had told lies about God. If God had 
-destroyed Lucifer immediately, the angels would have begun to serve Him from fear rather 
-than from love. This would have defeated the purpose God had in creating beings with the 
-power of choice in the first place.
-How did anyone really know God’s way was best? God gave Satan a chance to 
-demonstrate his alternative system. That’s why he was given an opportunity to tempt Adam 
-and Eve. 
-This planet has become a testing ground where the character of Satan and the nature of
-his kingdom are contrasted with the character of God and the nature of His kingdom. Who 
-is right? Who can we ultimately trust? So deceptive was Lucifer, that it has taken time for 
-the beings of the universe to be fully convinced of how disastrous Satan’s alternative 
-actually is. But eventually everyone will see that “the wages of sin is death” and that “the 
-gift of God is eternal life in Christ Jesus our Lord” (Romans 6:23)
-Every being in the universe will then agree that:
-“Great and marvelous are your deeds, Lord God Almighty. Just and true are your 
-ways, King of the ages… All nations will come and worship before you, for your righteous 
-acts have been revealed.”-Revelation 15:3, 4.
-After everyone understands the deadly nature of sin and the destructive nature of 
-Satan’s philosophy, God can destroy Satan and sin. He will also have to destroy those who 
-stubbornly resist His grace and cling to Satan’s alternative.
-God is just as anxious to resolve the problem of sin and suffering as we are to have Him 
-do so. But He is waiting until He can do it on a permanent basis, and until He can both 
-preserve our free will and prevent evil from ever appearing again.
-God has promised to destroy sin forever by purifying the heavens and this earth with 
-fire. “In keeping with his promise” we can look “forward to a new heaven and a new earth, 
-the home of the righteous” (2 Peter 3:10, 13). Sin will never again infect the universe. Sin’s 
-tragic results will stand out so clearly that disobedience to God will seem repugnant for all 
-eternity.
-Who makes possible the final destruction of the Devil and sin?
-“Since the children have flesh and blood, he [Christ] too shared in their humanity so 
-that by his death he might destroy him who holds the power of death-that is, the deviland free those who all their lives were held in slavery by their fear of death.” Hebrews
-2:14, 15.
-At the cross the angels and the unfallen worlds saw Satan for what he was-a deceiver, 
-a liar, a murderer. There he revealed his true character by compelling men to murder the 
-innocent Son of God. The inhabitants of the entire universe saw how senseless and cruel sin 
-really is. The cross fully unmasked Satan’s motives, and when God destroys the Devil and 
-those who persist in sin, all will acknowledge that God is just.
-Jesus’ death on the cross exposed Satan’s real intent before all created beings (John 
-12:31, 32). The cross also revealed Christ for what He is-the Savior of the world. At 
-Golgotha the power of love stood out in stark contrast against the love of power. The cross 
-established beyond any question that it is self-sacrificing love that motivates God in all His 
-dealings with Satan, sin, and sinful men and women.
-At the cross Christ’s eloquent demonstration of God’s unconditional love decisively 
-defeated the Devil. The battle had been over who should rule the world, Christ or Satan. 
-And the cross settled it for all time. It must be Christ above all!
-Have you discovered a relationship with the Savior who died to reveal His matchless, 
-unchanging love? How do you feel about the One who came to our world as a human being 
-and died in your place to save you from the results of sin? Will you bow your head just now 
-and thank Jesus, and then ask Him to come in and take possession of your life?
-            `,
-            questions: [
-            
-            ]
-        }
+    
     ]
 };
 

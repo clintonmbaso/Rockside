@@ -119,6 +119,8 @@ function showQuestions() {
         // Shuffle the options before displaying them
         shuffleArray(questionObj.options);
 
+        
+        
         const questionDiv = document.createElement('div');
         questionDiv.innerHTML = `<p><strong>Question ${index + 1}:</strong> ${questionObj.question}</p>`;
         /*

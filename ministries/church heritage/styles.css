@@ -43,7 +43,7 @@
 /* Sticky Play/Pause button */
 .play-pause-btn {
     position: fixed;
-    bottom: 50px; /* Position the button in the middle vertically */
+    bottom: 10%; /* Position the button in the middle vertically */
     right: 1px; /* Position the button in the middle horizontally */
     font-size: 2rem; /* Adjust the size of the symbol */
     width: 30px;

@@ -331,6 +331,18 @@ button:disabled {
     border-radius: 5px;
 }
 
+.story-part h4 {
+    font-size: 15px;
+    color: #476;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: -15px;
+    padding: 5px;
+    width: fill;
+    border-left: 2px solid grey;
+    border-radius: 5px;
+}
+
 .story-part p {
     font-size: 16px;
     color: black;

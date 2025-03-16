@@ -2893,7 +2893,7 @@ body
 }
 #PanelLayer_panel
 {
-   background-color: rgba(0,0,0,0.59);
+   background-color: rgba(0,0,0,0.7);
    background-image: none;
    border-radius: 0px;
    display: none;
@@ -2996,6 +2996,7 @@ body
    border: 0px solid #424242;
    border-radius: 0px;
    margin: 15px 0 15px 0 ;
+   overflow-y: auto;
 }
 #wb_OverlayMenu2
 {
@@ -3289,7 +3290,7 @@ body
 }
 #dailyText
 {
-   color: #000000;
+   color: #fff;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;

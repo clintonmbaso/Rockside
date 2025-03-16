@@ -47,8 +47,16 @@
                imageUrl: "images/Youth Week of Prayer.jpg" 
              },
      
-             { name: "KEMD Pathfinder Fair", 
-               date: new Date("Mar 23, 2025 08:00:00").getTime(), 
+             { name: "Rockside Drill Clinic", 
+               date: new Date("Apr 13, 2025 08:00:00").getTime(), 
+               reminderDays: 5, reminderHours: 12,
+               caption: "Rockside Drill Clinic", 
+               details: "", 
+               imageUrl: "images/drillClinic.jpg" 
+             },
+
+            { name: "KEMD Pathfinder Fair", 
+               date: new Date("Apr 20, 2025 08:00:00").getTime(), 
                reminderDays: 5, reminderHours: 12,
                caption: "KEMD Pathfinder Fair", 
                details: "", 
@@ -56,7 +64,7 @@
              },
      
          	   { name: "Fun, Arts and Skills Day", 
-         	     date: new Date("Mar 30, 2025 06:00:00").getTime(), 
+         	     date: new Date("Apr 6, 2025 06:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "Fun, Arts and Skills Day", 
                details: "", 

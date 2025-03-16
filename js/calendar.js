@@ -108,14 +108,20 @@ function displayCalendar(inputDate) {
       else if (month === 2 && day === 16) {
         return [`MEZC - Youth Week of Prayer starting on ${year}-03-${day}`,,`All leaders should attend this program without fail. The only exception are the Pathfinder directors and their committees for the conference has organized for them a CMT specifically for them. All other members are welcome to attend.`];
       } 
-      
-      else if (month === 2 && day === 23) {
-        return [`KEMD - Pathfinder Fair on ${year}-03-${day}`];
+          
+                else if (month === 3 && day === 6) {
+        return [`KEMD - Fun, Arts and Skills Day on ${year}-04-${day}`,`KEMD - Assessments on ${year}-03-${day}`];
+      }
+          
+      else if (month === 3 && day === 13) {
+        return [`Rockside Drill Clinic on ${year}-04-${day}`];
+      }
+          
+      else if (month === 3 && day === 20) {
+        return [`KEMD - Pathfinder Fair on ${year}-04-${day}`];
       }
       
-      else if (month === 2 && day === 30) {
-        return [`KEMD - Fun, Arts and Skills Day on ${year}-03-${day}`,`KEMD - Assessments on ${year}-03-${day}`];
-      }
+
       
       
       

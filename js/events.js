@@ -47,7 +47,23 @@
                imageUrl: "images/Youth Week of Prayer.jpg" 
              },
      
-             { name: "Rockside Drill Clinic", 
+         	   { name: "Assessments", 
+         	     date: new Date("Mar 30, 2025 14:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Assessments", 
+               details: "", 
+               imageUrl: "images/Assessments.jpg" 	     
+         	   },
+     
+         	   { name: "Fun, Arts and Skills Day", 
+         	     date: new Date("Apr 6, 2025 06:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Fun, Arts and Skills Day", 
+               details: "", 
+               imageUrl: "images/MEZC I Love my Neighbor.jpg" 	     
+         	   },
+     
+             { name: "Rockside Drill Clinic", 
                date: new Date("Apr 13, 2025 08:00:00").getTime(), 
                reminderDays: 5, reminderHours: 12,
                caption: "Rockside Drill Clinic", 
@@ -62,23 +78,6 @@
                details: "", 
                imageUrl: "images/KEMD Big Sabbath.jpg" 
              },
-     
-         	   { name: "Fun, Arts and Skills Day", 
-         	     date: new Date("Apr 6, 2025 06:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "Fun, Arts and Skills Day", 
-               details: "", 
-               imageUrl: "images/MEZC I Love my Neighbor.jpg" 	     
-         	   },
-
-         	   { name: "Assessments", 
-         	     date: new Date("Mar 30, 2025 14:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "Assessments", 
-               details: "", 
-               imageUrl: "images/Assessments.jpg" 	     
-         	   },
-     
 
 // April
          	   { name: "Music Camp", 

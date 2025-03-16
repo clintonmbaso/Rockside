@@ -13,7 +13,7 @@
      
 // February
              { name: "KEMD Adventurer Bible Quiz", 
-               date: new Date("Feb 25, 2024 08:00:00").getTime(), 
+               date: new Date("Feb 25, 2025 08:00:00").getTime(), 
                reminderDays: 2, reminderHours: 12,
                caption: "KEMD Adventurer Bible Quiz", 
                details: "Description of KEMD Adventurer Bible Quiz", 
@@ -22,24 +22,17 @@
      
 
 // March
-             { name: "MEZC Leadership Seminar", 
-               date: new Date("Mar 7, 2024 08:00:00").getTime(), 
+             { name: "KEMD Leadership Seminar", 
+               date: new Date("Mar 9, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "MEZC Leadership Seminar", 
                details: "Description of MEZC Leadership Seminar", 
                imageUrl: "images/MEZC Leadership Seminar.jpg" 
              },
-     
-             { name: "MEZC GYD Part 1", 
-               date: new Date("Mar 12, 2024 08:00:00").getTime(), 
-               reminderDays: 3, reminderHours: 12,
-               caption: "MEZC GYD Part 1", 
-               details: "Description of MEZC GYD Part 1", 
-               imageUrl: "images/MEZC GYD Part 1.jpg" 
-             },
+
      
              { name: "GYD", 
-               date: new Date("Mar 16, 2025 08:00:00").getTime(), 
+               date: new Date("Mar 15, 2025 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "GYD", 
                details: "Global Youth Day", 
@@ -47,151 +40,146 @@
              },
      
              { name: "Youth Week of Prayer", 
-               date: new Date("Mar 17, 2024 08:00:00").getTime(), 
+               date: new Date("Mar 16, 2025 17:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "Youth Week of Prayer", 
                details: "Description of Youth Week of Prayer", 
                imageUrl: "images/Youth Week of Prayer.jpg" 
              },
      
-             { name: "KEMD Big Sabbath", 
-               date: new Date("Mar 30, 2024 08:00:00").getTime(), 
+             { name: "KEMD Pathfinder Fair", 
+               date: new Date("Mar 23, 2025 08:00:00").getTime(), 
                reminderDays: 5, reminderHours: 12,
-               caption: "KEMD Big Sabbath", 
-               details: "Description of KEMD Big Sabbath", 
+               caption: "KEMD Pathfinder Fair", 
+               details: "", 
                imageUrl: "images/KEMD Big Sabbath.jpg" 
              },
      
-         	   { name: "MEZC I Love my Neighbor", 
-         	     date: new Date("Mar 31, 2024 08:00:00").getTime(), 
+         	   { name: "Fun, Arts and Skills Day", 
+         	     date: new Date("Mar 30, 2025 06:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
-               caption: "MEZC I Love my Neighbor", 
-               details: "Description of MEZC I Love my Neighbor", 
+               caption: "Fun, Arts and Skills Day", 
+               details: "", 
                imageUrl: "images/MEZC I Love my Neighbor.jpg" 	     
          	   },
-     
+
+         	   { name: "Assessments", 
+         	     date: new Date("Mar 30, 2025 14:00:00").getTime(), 
+         	     reminderDays: 2, reminderHours: 12,
+               caption: "Assessments", 
+               details: "", 
+               imageUrl: "images/Assessments.jpg" 	     
+         	   },
+     
 
 // April
-         	   { name: "KEMD Pathfinder Fair", 
-         	     date: new Date("Apr 21, 2024 08:00:00").getTime(), 
+         	   { name: "Music Camp", 
+         	     date: new Date("Apr 18, 2025 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
-               caption: "KEMD Pathfinder Fair", 
-               details: "Description of KEMD Pathfinder Fair", 
+               caption: "Music Camp", 
+               details: "", 
                imageUrl: "images/KEMD Pathfinder Fair.jpg" 	     
          	   },
      
-         	   { name: "MEZC CMT Camp", 
-         	     date: new Date("Apr 26, 2024 08:00:00").getTime(), 
-         	     reminderDays: 2, reminderHours: 12,
-               caption: "MEZC CMT Camp", 
-               details: "Description of MEZC CMT Camp", 
-               imageUrl: "images/MEZC CMT Camp.jpg" 	     
-         	   },
+
      
 
 // May
-         	   { name: "KEMD Adventurer Quiz Day", 
-         	     date: new Date("May 5, 2024 08:00:00").getTime(), 
+         	   { name: "Capacity Building", 
+         	     date: new Date("May 27, 2025 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "KEMD Adventurer Quiz Day", 
+               caption: "Capacity Building", 
                details: "Description of KEMD Adventurer Quiz Day", 
                imageUrl: "images/KEMD Adventurer Quiz Day.jpg" 	     
          	   },
      
-         	   { name: "Rockside Survival Camp", 
-         	     date: new Date("May 10, 2024 06:00:00").getTime(), 
+         	   { name: "Assessments", 
+         	     date: new Date("May 29, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "Rockside Survival Camp", 
-               details: "Description of Rockside Survival Camp", 
+               caption: "Assessments", 
+               details: "", 
                imageUrl: "images/Rockside Survival Camp.jpg" 	     
          	   },
 
       	      { name: "GC Adventurer Day", 
-      	        date: new Date("May 18, 2024 08:00:00").getTime(), 
+      	        date: new Date("May 18, 2025 08:00:00").getTime(), 
       	        reminderDays: 2, reminderHours: 12,
                caption: "GC Adventurer Day", 
                details: "Description of GC Adventurer Day", 
                imageUrl: "images/GC Adventurer Day.jpg" 	        
       	      },
      
-       	     { name: "MEZC Youth Council", 
-       	       date: new Date("May 19, 2024 08:00:00").getTime(), 
-       	       reminderDays: 2, reminderHours: 12,
-               caption: "MEZC Youth Council", 
-               details: "The conference youth council meeting reviews past activities and reports to improve Adventist Youth Ministries in both regions. It empowers youth to develop strategies for enhancement, fostering leadership skills and emphasizing the social value of their contributions to drive meaningful change within the community.", 
-               imageUrl: "images/MEZC Council.jpg" 	       
-       	     },
-     
-     
+
 // June
-         	   { name: "KEMD Church Heritage Exams", 
-         	     date: new Date("Jul 21, 2024 08:00:00").getTime(), 
+         	   { name: "Quiz and Debate", 
+         	     date: new Date("Jun 29, 2025 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "KEMD Church Heritage Exams", 
-               details: "The Church Heritage exams of the SDA Church provide invaluable insights into Adventist history and beliefs. Participation fosters a deeper understanding of faith and strengthens AYM Leadership. At just K35, it is a worthwhile investment in spiritual growth.", 
+               caption: "Quiz and Debate", 
+               details: "", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
 
 // July
-
+         	   { name: "Investiture", 
+         	     date: new Date("Jul 19, 2025 08:00:00").getTime(), 
+         	     reminderDays: 3, reminderHours: 12,
+               caption: "Investiture", 
+               details: "", 
+               imageUrl: "images/KEMD CH Exams.jpg" 	     
+         	   },
+     
+         	   { name: "Parade Day", 
+         	     date: new Date("Jul 29, 2025 08:00:00").getTime(), 
+         	     reminderDays: 3, reminderHours: 12,
+               caption: "Parade Day", 
+               details: "", 
+               imageUrl: "images/KEMD CH Exams.jpg" 	     
+         	   },
+     
 
 
 // August
-         	   { name: "KEMD Family Life", 
-         	     date: new Date("Aug 11, 2024 08:00:00").getTime(), 
-         	     reminderDays: 0, reminderHours: 2,
-               caption: "KEMD Family Life", 
-               details: "Join us for an enriching Youth Family Life Program on August 11th! This event is designed to foster strong family bonds and promote personal growth through engaging activities and insightful discussions. Whether you are looking to strengthen connections with loved ones or gain valuable life skills, this program offers something for everyone. Do not miss this opportunity to be part of a supportive community and enjoy a day of learning, connection, and fun. Mark your calendar and come be a part of this transformative experience!", 
-               imageUrl: "images/KEMD Family Life.jpg" 	     
-         	   },
 
-         	   { name: "KEMD Honour Assessments", 
-         	     date: new Date("Aug 25, 2024 08:00:00").getTime(), 
+// September
+             { name: "Preacher’s Training Seminar", 
+         	     date: new Date("Sep 14, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "KEMD Honour Assessments", 
-               details: "We are excited to invite you to the Honours Assessment Day for the Education Committee on August 25th! This pivotal event will showcase the achievements and hard work of our dedicated individuals as they present their projects and assessments. Join us to celebrate their commitment to excellence in education and witness firsthand the innovative ideas and strategies shaping the future of learning. Your presence will support and inspire our candidates as they strive for honours and contribute to the advancement of educational excellence. Do not miss this opportunity to be part of a significant day in our educational community!", 
-               imageUrl: "../images/KEMD Assessment.jpg" 	     
-         	   },
-
-              	   { name: "Pathfinder Week", 
-         	     date: new Date("Sep 14, 2024 08:00:00").getTime(), 
-         	     reminderDays: 0, reminderHours: 2,
-               caption: "Pathfinder Week of Prayer", 
-               details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
+               caption: "Preacher’s Training Seminar", 
+               details: "", 
                imageUrl: "../images/PathfinderWeekOfPrayer.jpg" 	     
          	   },
 
 
 	   { name: "Pathfinder Day", 
-         	     date: new Date("Sep 21, 2024 08:00:00").getTime(), 
+         	     date: new Date("Sep 21, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
                caption: "Global Pathfinder Day", 
                details: "Hello Pathfinders and those young at heart. It's our week! Yes! Jesus camps with you: Breaking Barriers. May you endeavour to camp with Jesus at home, at school and at play. Those who camp with Jesus will never be disappointed. Jesus is a protocol breaker. He breaks the barrier. Those who camp with Jesus will be like Him. They will love others as Christ loves all people regardless of status. When He camps with you, He breaks the barriers. In Him, we are Champions. It's my prayer that you will camp with Him. ", 
                imageUrl: "../images/pathfinderDay.jpg" 	     
          	   },
      
-            { name: "LNMD Travel Safely", 
-         	     date: new Date("Oct 20, 2024 08:00:00").getTime(), 
+            { name: "Assessments", 
+         	     date: new Date("Sep 21, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "Lusaka Youth Visit KEMD", 
-               details: "The day was a blessing to us, may God bless you as ypu travel back home.", 
+               caption: "Assessments", 
+               details: "", 
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   },
 
-            { name: "KEMD Visits LNMD", 
-         	     date: new Date("Nov 24, 2024 08:00:00").getTime(), 
+            { name: "Silver and Gold Expedition", 
+         	     date: new Date("Oct 18, 2025 08:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "Kabwe East Mission District Visits Lusaka North Mission District", 
-               details: "We desire a return march to our sister district so that we can also enjoy the blessings of being a guest.", 
+               caption: "Silver and Gold Expedition", 
+               details: "", 
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   },
 
-            { name: "KEMD Crossover Camp", 
-         	     date: new Date("Dec 27, 2024 16:00:00").getTime(), 
+            { name: "End of Year Party", 
+         	     date: new Date("Dec 7, 2025 07:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "Kabwe East Mission District Crossover Camp", 
-               details: "Kabwe East Mission District will have an extra ordinary crossover camp that will run from Dec 27 2024 to Jan 2 2025. Registration is only K50, food K150. Come camp with us at Luanshimba and end the year with skills.", 
+               caption: "End of Year Party", 
+               details: "", 
                imageUrl: "../images/crossoverCamp.jpg" 	     
             }
 

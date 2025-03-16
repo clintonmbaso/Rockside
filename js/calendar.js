@@ -77,272 +77,119 @@ function displayCalendar(inputDate) {
         return [`MEZC - Youth Council at University Church on ${year}-01-${day}`];
       } 
       
-      else if (month === 0 && day === 27) {
-        return [`Rockside Induction Ceremony on ${year}-01-${day}`];
-      } 
-      
+
       
       //February
-      else if (month === 1 && day === 3) {
+      else if (month === 1 && day === 8) {
         return [`KEMD - Closing date for all Inductions on ${year}-02-${day}`,,`All Churches along with their Companies and branches should ensure that they get done with the inductions.`];
       } 
       
       
       
-      else if (month === 1 && day === 25) {
-        return [`KEMD - Adventurer Bible Quiz on ${year}-02-${day}`];
-      } 
       
       
       //March
-      else if (month === 2 && day === 3) {
-        return [`KEMD - Leadership Seminar on ${year}-03-${day}`,,`All leaders should attend this program without fail. The only exception are the Pathfinder directors and their committees for the conference has organized for them a CMT specifically for them. All other members are welcome to attend.`];
+      else if (month === 2 && day === 2) {
+        return [`KEMD - Fundraising Music Fellowship on ${year}-03-${day}`,,`This fundraising is for the music and media`];
       } 
       
-      else if (month === 2 && day === 7) {
-        return [`MEZC - Leadership Seminar on ${year}-03-${day}`,,`All district leaders should attend this program without fail.`];
+      else if (month === 2 && day === 9) {
+        return [`KEMD - PreachersTraining Seminar on ${year}-03-${day}`,,`All chosen preachers from all churches should attend this program without fail.`];
       } 
       
-      else if (month === 2 && day === 10) {
-        return [`MEZC - Town Cleaning on ${year}-03-${day}`];
+      else if (month === 2 && day === 9) {
+        return [`KEMD - Leadership Seminar on ${year}-03-${day}`,,`All KEMD youths are edged to attend the Leadership seminar. It will be in zones.`];
       }
       
-      else if (month === 2 && day === 16) {
-        return [`MEZC - Global Youth Day on ${year}-03-${day}`,`Adventurer Community Service on ${year}-03-${day}`];
+      else if (month === 2 && day === 15) {
+        return [`KEMD - Global Youth Day on ${year}-03-${day}`];
       }
 
-      else if (month === 2 && day === 17) {
+      else if (month === 2 && day === 16) {
         return [`MEZC - Youth Week of Prayer starting on ${year}-03-${day}`,,`All leaders should attend this program without fail. The only exception are the Pathfinder directors and their committees for the conference has organized for them a CMT specifically for them. All other members are welcome to attend.`];
       } 
       
-      else if (month === 2 && day === 30) {
-        return [`KEMD - Big Sabbath / Uniform Launch on ${year}-03-${day}`];
+      else if (month === 2 && day === 23) {
+        return [`KEMD - Pathfinder Fair on ${year}-03-${day}`];
       }
       
-      else if (month === 2 && day === 31) {
-        return [`MEZC - I Love My Neighbor by the Young Adults in Local Churches on ${year}-03-${day}`,`KEMD - Pathfinder Fair on ${year}-03-${day}`];
+      else if (month === 2 && day === 30) {
+        return [`KEMD - Fun, Arts and Skills Day on ${year}-03-${day}`,`KEMD - Assessments on ${year}-03-${day}`];
       }
       
       
       
       
       //April
-      else if (month === 3 && day === 13) {
-        return [`KEMD - Music Rotations (Zone B - Zone A) on ${year}-04-${day}`];
+      else if (month === 3 && day === 18) {
+        return [`KEMD - Music Camp on ${year}-04-${day}`];
       }
 
-      else if (month === 3 && day === 28) {
-        return [`KEMD - Honor Assessments on ${year}-04-${day}`];
-      }
-      
-    /*  else if (month === 3 && day === 14) {
-        return [`KEMD - Music Fellowship on ${year}-04-${day}`];
-      }*/
-      
-      else if (month === 3 && day === 14) {
-        return [`MEZC - Youth Council at Kabwe Central Church on ${year}-04-${day}`,`KEMD - Music Fellowship on ${year}-04-${day}`];
-      }
-      
-      else if (month === 3 && day === 21) {
-        return [`NZUC - Mpika Pathfinder Camporee on ${year}-04-${day}`];
-      }
-      
-      else if (month === 3 && day === 26) {
-        return [`KEMD - Expedition (Silver/Gold Award) on ${year}-04-${day}`];
-      }
-      
-      
+
       
       //May
-      else if (month === 4 && day === 5) {
-        return [`MEZC - Ambassador Charity Box in Local Churches on ${year}-05-${day}`,`KEMD - Pathfinder Bible Quiz and Spelling Bee on ${year}-05-${day}`];
+          else if (month === 4 && day === 27) {
+        return [`KEMD - Capacity Building on ${year}-04-${day}`];
       }
-      
-      else if (month === 4 && day === 18) {
-        return [`GC - Global Adventurer Day on ${year}-05-${day}`];
-      }
-        
-      else if (month === 4 && day === 19) {
-        return [`MEZC - Youth Council on ${year}-05-${day}`];
-      }
-      
-      else if (month === 4 && day === 25) {
-        return [`MEZC - Fundraising Music Fellowship on ${year}-05-${day}`];
-      }
-      
-      else if (month === 4 && day === 26) {
-        return [`KEMD - Adventurer Arts and Skills Day on ${year}-05-${day}`,`KEMD - Pathfinder Bible Quiz and Spelling Bee on ${year}-05-${day}`,`KEMD - Ambassador Community Service on ${year}-05-${day}`];
-      }
-      
-      else if (month === 4 && day === 19) {
-        return [`KEMD - Album Promotion on ${year}-05-${day}`];
-      }
-      
-     /* else if (month === 4 && day === 71) {
-        return [`KEMD - Ambassador Community Service on ${year}-05-${day}`];
-      }*/
-      
-      else if (month === 4 && day === 12) {
-        return [`KEMD - Church Heritage Exams on ${year}-05-${day}`];
+          
+      else if (month === 4 && day === 29) {
+        return [`KEMD - Assessments (Classes & Honors) on ${year}-04-${day}`];
       }
 
       
       
       //June
-      
-      else if (month === 5 && day === 2) {
-        return [`KEMD - Young Adult Reunion on ${year}-06-${day}`];
-      }
-
-      else if (month === 5 && day === 9) {
-        return [`KEMD - Education Church Heritage on ${year}-06-${day}`];
-      }          
-
-      else if (month === 5 && day === 16) {
-        return [`KEMD - Pathfinder Bible Quiz on ${year}-06-${day}`];
-      }                 
-      
-      else if (month === 5 && day === 28) {
-        return [`KEMD - Silver Award Expedition on ${year}-06-${day}`];
-      }
-        
-      else if (month === 5 && day === 58) {
-        return [`KEMD - Ambassador Education tour on ${year}-06-${day}`];
-      }
-      
-      else if (month === 5 && day === 30) {
-        return [`MEZC - I Love My Neighbor by the Young Adults in Local Churches on ${year}-06-${day}`];
+      else if (month === 5 && day === 29) {
+        return [`KEMD - Quiz and Debate on ${year}-06-${day}`];
       }
       
       
       
       
       //July
-      else if (month === 6 && day === 7) {
-        return [`KEMD - Senior Youth Picnic on ${year}-07-${day}`];
-      }
-      
-      else if (month === 6 && day === 14) {
-        return [`MEZC - Youth Council at University Church on ${year}-07-${day}`];
-      }
-      
-      else if (month === 6 && day === 21) {
-        return [`KEMD - Adventurer Sports Day tour on ${year}-07-${day}`];
-      }
-      
-      else if (month === 6 && day === 28) {
-        return [`KEMD - Pathfinder Assessments on ${year}-07-${day}`];
+      else if (month === 6 && day === 19) {
+        return [`KEMD - Investiture on ${year}-07-${day}`];
       }
       
       else if (month === 6 && day === 27) {
-        return [`KEMD - Investiture Ceremony on ${year}-06-${day}`];
+        return [`KEMD - Parades Day on ${year}-07-${day}`];
       }
+      
+
 
       //August
-      else if (month === 7 && day === 11) {
-        return [`KEMD - Young Adult Family Life on ${year}-08-${day}`];
-      }
-      
-      else if (month === 7 && day === 25) {
-        return [`KEMD - Honour Exams on ${year}-08-${day}`];
-      }
-      
+
+          
       //September
-      else if (month === 8 && day === 1) {
-        return [`MEZC - Field and Track Events (Gold/Silver) tour on ${year}-09-${day}`];
-      }
-      
-      else if (month === 8 && day === 8) {
-        return [`KEMD - Senior Youth Fundraising braai on ${year}-09-${day}`];
-      }
-      
-      else if (month === 8 && day === 22) {
-        return [`KEMD - Ambassador Trip tour on ${year}-09-${day}`,`KEMD - Pathfinder Back to School Community Service on ${year}-09-${day}`];
-      }
-      
-      else if (month === 8 && day === 15) {
-        return [`NZUC - Pathfinder Week of Prayer in Local Churches on ${year}-09-${day}`,`KEMD - Adventurer Fun Day on ${year}-09-${day}`];
+      else if (month === 8 && day === 14) {
+        return [`KEMD - Preacher’s Training Seminar on ${year}-09-${day}`];
       }
       
       else if (month === 8 && day === 21) {
-        return [`GC - Pathfinder Day in Local Churches on ${year}-09-${day}`];
+        return [`KEMD - Assessments on ${year}-09-${day}`];
       }
-      
-  /*    else if (month === 8 && day === 22) {
-        return [`KEMD - Pathfinder Back to School Community Service on ${year}-09-${day}`];
-      }*/
-      
-      else if (month === 8 && day === 29) {
-        return [`MEZC - I Love My Neighbor by the Young Adults in Local Churches on ${year}-09-${day}`];
-      }
-      
-      
       
       
       //October
-      else if (month === 9 && day === 1) {
-        return [`MEZC - Ambassador Crusade in Chisamba East on ${year}-10-${day}`];
+      else if (month === 9 && day === 19) {
+        return [`KEMD - Silver and Gold Expedition on ${year}-10-${day}`];
       }
       
-      else if (month === 9 && day === 13) {
-        return [`MEZC - Youth Council at Kabwe Central Church on ${year}-10-${day}`];
-      }
-      
-      else if (month === 9 && day === 18) {
-        return [`MEZC - Expedition Camp (Gold Award) on ${year}-10-${day}`];
-      }
-      
-      else if (month === 9 && day === 20) {
-        return [`KEMD - Pathfinder Recreation Day on ${year}-10-${day}`];
-      }
-      
-      else if (month === 9 && day === 24) {
-        return [`KEMD - Music Album Launch on ${year}-10-${day}`];
-      }
-      
-      else if (month === 9 && day === 26) {
-        return [`KEMD - Ambassador One Day Open Crusade on ${year}-10-${day}`];
-      }
-      
-      else if (month === 9 && day === 27) {
-        return [`KEMD - Adventurer Education Tour on ${year}-10-${day}`];
-      }
-      
-      
-      
+
       
       
       
       //November
-      else if (month === 10 && day === 10) {
-        return [`KEMD - Church Heritage Exams on ${year}-11-${day}`];
-      }
-      
-      else if (month === 10 && day === 24) {
-        return [`KEMD - Young Adult Recreation on ${year}-11-${day}`];
-      }
-      
+
       
       
       
       
       //December
       else if (month === 11 && day === 7) {
-        return [`MEZC - Grand Investiture at MICC KK Wing on ${year}-12-${day}`];
+        return [`KEMD - End of Year Party on ${year}-12-${day}`];
       }
-      
-      else if (month === 11 && day === 28) {
-        return [`KEMD - Pathfinder Big Sabbath on ${year}-12-${day}`];
-      }
-      
-      else if (month === 11 && day === 29) {
-        return [`MEZC - I Love My Neighbor by the Young Adults in Local Churches on ${year}-12-${day}`];
-      }
-      
-      else if (month === 11 && day === 31) {
-        return [`KEMD - Music Crossover tour on ${year}-12-${day}`];
-      }
-      
+
       
       
       return [];

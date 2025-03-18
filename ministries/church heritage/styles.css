@@ -61,7 +61,11 @@
 .play-pause-btn:hover {
     background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
 }
-
+.butonz {
+    position: fixed;
+    bottom: 5%; /* Position the button in the middle vertically */
+    
+}
 /* Ensures the button stays centered */
 body {
     margin: 0;
@@ -76,10 +80,11 @@ body {
         section {
     width: 80%;
     padding: 10px;
-    overflow-y: auto; /* Enable vertical scrolling */
-    height: 90vh; /* Set a fixed height */
+    overflow-y: auto;
+    height: 80vh;
             text-align: justify;
             margin-top: 15px;
+            
 }
         .popup-overlay {
             display: none;
@@ -298,14 +303,16 @@ button:disabled {
 }
 
 .story-part {
+    
     font-family: 'Times New Roman', Times, serif;
     margin: 2px 0 2px 0;
     padding: 10px;
     background-color: rgba(123,150,55,0.3);
     border-radius: 5px;
     text-align: justify;
-    height: 73vh;
     overflow-y: auto;
+    height: 80vh;
+    max-height: 450px;
 }
 
 .story-part h2 {

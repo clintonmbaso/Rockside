@@ -95,7 +95,7 @@ const story3 = {
 
 <p>These three spectacular signs in the natural world — placed by God to draw attention to the truth — gave great momentum to the preaching of the <strong>Advent message</strong>.</p>
             `,
-            audioPath: './stories/audio/Section 2/S02E01 - 3 Spectacular Signs.mp3',
+            audioPath: './stories/audio/Section 2/S02E01.mp3',
             questions: []
         },
         {
@@ -118,7 +118,7 @@ const story3 = {
 
 <p>The books of <strong>Daniel</strong> and <strong>Revelation</strong> have special significance for the last period of the world’s history and should be studied carefully by those living in these times. The three angels' messages of <strong>Revelation 14</strong> summarize some of the special teachings of these books. They are to be heralded by the members of the remnant church so that those living in the last days can <strong>decide for truth</strong> and not be caught in the deceptions of tradition.</p>
 `,
-                        audioPath: './stories/audio/Section 2/S02E02 - 3 Angels Message.mp3',
+                        audioPath: './stories/audio/Section 2/S02E02.mp3',
             questions: []      
         },
         {
@@ -172,7 +172,12 @@ const story3 = {
     <li>He recommended preaching the first angel’s message.</li>
     <li>His preaching was so impactful that the movement was known as <strong>Millerism</strong>, and his followers were called <strong>Millerites</strong>.</li>
 </ol>
-
+            `,
+                        audioPath: './stories/audio/Section 2/S02E03a.mp3',
+            questions: []
+        },
+        {
+            text: `
 <h3>2. Joshua V. Himes (1805–1895)</h3>
 <p>In November 1839, fifty-seven-year-old Miller met thirty-five-year-old <strong>Joshua V. Himes</strong> at Exeter, New Hampshire. By December, Miller preached at Himes’ church in Boston, converting many, including Himes himself.</p>
 
@@ -196,8 +201,12 @@ const story3 = {
 <blockquote>
     “Before concluding the book I became satisfied that the arguments were so clear and that they were so scriptural that it was impossible to disprove the position which Mr. Miller had endeavored to establish.” — Josiah Litch
 </blockquote>
-            
-
+            `,
+                        audioPath: './stories/audio/Section 2/S02E03b.mp3',
+            questions: []
+        },    
+        {
+            text: `
 <h3>4. Charles Fitch</h3>
 <p><strong>Charles Fitch</strong> was a Congregational church pastor in Boston who embraced the Advent message after reading Miller’s lectures. His contributions were fourfold:</p>
 
@@ -218,9 +227,11 @@ const story3 = {
     <li><strong>James White:</strong> At 21, he preached on horseback and converted over 1,000 people in three months.</li>
 </ul>
             `,
-                        audioPath: './stories/audio/Section 2/S02E03 - Advent Ambassodors 1.mp3',
+                        audioPath: './stories/audio/Section 2/S02E03c.mp3',
             questions: []
-        },
+        },    
+    
+    
         {
             text: `
 <h2>Advent Ambassadors in Other Countries</h2>
@@ -242,7 +253,12 @@ const story3 = {
 <blockquote>
     "Probably no other continental theologian did so much as he to call attention to the importance of the prophetic portions of the Word... especially as it relates to the second coming of Christ."
 </blockquote>
-
+            `,
+                        audioPath: './stories/audio/Section 2/S02E04a.mp3',
+            questions: []
+        },
+        {
+            text: `
 <h3>3. Edward Irving</h3>
 
 <p>Next to North America, the proclamation of the Second Advent had its fullest development in Great Britain. As a Scottish evangelist, <strong>Edward Irving</strong>, who received his M.A. at the age of seventeen, began studying the prophecies, particularly those with reference to the second coming.</p>
@@ -276,7 +292,12 @@ const story3 = {
 <p>Under the pseudonym of <strong>Juan Ben-Ezra</strong>, Lacunza, a Jesuit priest, called attention to the prophecies of <strong>Daniel and Revelation</strong>. Born in Chile, he later lived in exile in Spain and Italy. Dissatisfied with Catholic interpretations of prophecy, he went to the Bible to find out for himself.</p>
 
 <p>His study resulted in the writing of the book <em>The Coming of the Messiah in Glory and Majesty</em>. Despite laborious hand-copying, it was widely circulated and translated from Spanish into Latin, Italian, and English (by Irving).</p>
-
+            `,
+                        audioPath: './stories/audio/Section 2/S02E04b.mp3',
+            questions: []
+        },
+        {
+            text: `
 <h3>7. H. Heintzpeter</h3>
 
 <p>The keeper of the Royal Museum in Holland, <strong>Heintzpeter</strong> received a vision of Christ’s soon return. He spoke of it using Bible texts to prove his point, then wrote several pamphlets from about <strong>1830-1842</strong>, explaining the light he had received.</p>
@@ -307,11 +328,9 @@ const story3 = {
 
 <p>Other notable figures included <strong>Manuel Belgrano</strong>, the designer of the national flag, and <strong>Domingo Sarmiento</strong>, the first president of Argentina.</p>
             `,
-                        audioPath: './stories/audio/Section 2/S02E04 - Advent Ambassodors 2.mp3',
+                        audioPath: './stories/audio/Section 2/S02E04c.mp3',
             questions: []
-        },
-
-    
+        },    
     ]
 };
 

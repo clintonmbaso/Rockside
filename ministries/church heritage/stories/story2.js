@@ -83,7 +83,7 @@ const story2 = {
 
 <p>These writings are known to us as the <strong>Old Testament</strong>.</p>
             `,
-            audioPath: './stories/audio/Section 1/S01E01 - Church of the Old Testament.mp3',
+            audioPath: './stories/audio/Section 1/S01E01.mp3',
             questions: S01E01,
         },
         {
@@ -171,7 +171,7 @@ const story2 = {
     <li>Kept the commandments of God</li>
 </ul>
             `,
-            audioPath: './stories/audio/Section 1/S01E02 - Church of the New Testament.mp3',
+            audioPath: './stories/audio/Section 1/S01E02.mp3',
             questions: S01E02,
         },
         {
@@ -213,7 +213,7 @@ const story2 = {
     “How much the world owes to these men, posterity will never know.” — <em>GC 61</em>
 </blockquote>
             `,
-            audioPath: './stories/audio/Section 1/S01E03 - Church of the Dark Ages.mp3',
+            audioPath: './stories/audio/Section 1/S01E03.mp3',
             questions: S01E03,
         },
         {
@@ -305,7 +305,7 @@ God; ignorance was replaced by the Scriptures.</p>
 <p>Later reformers like <strong>John Wesley</strong> would bring gospel truths into even greater prominence, spreading 
 the message of salvation far and wide.</p>
             `,
-            audioPath: './stories/audio/Section 1/S01E04 - Church of the Reformation.mp3',
+            audioPath: './stories/audio/Section 1/S01E04.mp3',
             questions: S01E04,
         },
         {
@@ -323,7 +323,7 @@ the message of salvation far and wide.</p>
     <li>Full religious freedom</li>
 </ul>
             `,
-            audioPath: './stories/audio/Section 1/S01E05 - Church of the Pilgrim Fathers.mp3',
+            audioPath: './stories/audio/Section 1/S01E05.mp3',
             questions: S01E05,
         },
         {
@@ -352,7 +352,7 @@ the message of salvation far and wide.</p>
     <li><strong>John G. Paton</strong> — His life was threatened by cannibals fifty-three times in the South Pacific Islands.</li>
 </ul>
             `,
-            audioPath: './stories/audio/Section 1/S01E06 - Church of the First Missionaries.mp3',
+            audioPath: './stories/audio/Section 1/S01E06.mp3',
             questions: S01E06,
         },
         {
@@ -377,7 +377,7 @@ the message of salvation far and wide.</p>
 
 <p>Today, His <strong>second advent</strong> has become the dominant theme in many parts of the Christian church, inspiring a great religious awakening. This exciting section of church history will be explored further in the next section of the <strong>Church Heritage</strong> course.</p>
             `,
-            audioPath: './stories/audio/Section 1/S01E07 - Church of the Adventist.mp3',
+            audioPath: './stories/audio/Section 1/S01E07.mp3',
             questions: S01E07,
         },
         {
@@ -458,7 +458,7 @@ the message of salvation far and wide.</p>
     We will be true to thee till death.”
 </blockquote>
             `,
-            audioPath: './stories/audio/Section 1/S01E08 - Church of the Remnant.mp3',
+            audioPath: './stories/audio/Section 1/S01E08.mp3',
             questions: S01E08,
         }
     

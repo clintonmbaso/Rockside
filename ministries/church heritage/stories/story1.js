@@ -27,7 +27,7 @@ const story1 = {
 
 <p>Instructors for this course should certainly secure at least one or more of these and study them carefully in preparation for teaching this course.</p>
             `,
-            audioPath: './stories/audio/Section 0/S01E00a - Introduction.mp3',
+            audioPath: './stories/audio/Section 0/S01E00a.mp3',
         },
         {
             text: `
@@ -40,6 +40,8 @@ const story1 = {
 
 <p>Church Heritage should be an <em>interesting class</em> where the students receive <strong>inspiration</strong> as well as <strong>information</strong>. Do not simply “read the book” to the class members, pausing only to say, “Learn this.” Make the history come alive, and the students will be eager to learn.</p>
             `,
+            audioPath: './stories/audio/Section 0/S01E00b.mp3',
+
         },
         {
             text: `
@@ -58,6 +60,8 @@ const story1 = {
 
 <p><strong>Note:<i></strong> All Master Guide and Senior Youth Leadership candidates need a score of at least <strong>75%</strong> to pass this course.</i></p>
             `,
+            audioPath: './stories/audio/Section 0/S01E00c.mp3',
+
         },
         {
             text: `
@@ -91,7 +95,7 @@ const story1 = {
 <h5>Part 4. Matching</h5>
 <p>Missionaries and their field of labor; authors and their books; institutions and their addresses; dates and significant events.</p>
             `,
-            audioPath: './stories/audio/Section 0/S01E00b - Questions Outline.mp3',
+            audioPath: './stories/audio/Section 0/S01E00d.mp3',
         }
     ]
 };

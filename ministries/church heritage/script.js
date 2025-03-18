@@ -49,30 +49,95 @@ function displayPart() {
     
     
     
-    // Update story title
 document.getElementById('story-part').innerHTML = `
     <div class="story-part">
         ${part.text}
-            <audio id="audio" class="audio-container" src="${encodeURI(part.audioPath)}">
-                Your browser does not support the audio element.
-            </audio>
+        <audio id="storyAudio" class="audio-container" src="${encodeURI(part.audioPath)}">
+            Your browser does not support the audio element.
+        </audio>
         <button id="playPauseBtn" class="play-pause-btn">▶️</button>
     </div>
 `;
 
-const audio = document.getElementById('audio');
-const playPauseBtn = document.getElementById('playPauseBtn');
+// Ensure script runs after elements are added
+setTimeout(() => {
+    const storyAudio = document.getElementById('storyAudio');
+    const playPauseBtn = document.getElementById('playPauseBtn');
+    
+    const previousButton = document.getElementById('previous-button');
+    
+    const nextButton = document.getElementById('next-button');
+    
+    const navLinks = document.getElementById('link');
+    
 
-// Play/Pause functionality
-playPauseBtn.addEventListener('click', function() {
-    if (audio.paused) {
-        audio.play();
-        this.textContent = '⏸️'; // Pause symbol
-    } else {
-        audio.pause();
-        this.textContent = '▶️'; // Play symbol
+    // Check if background music exists globally
+    if (!window.backgroundMusic) {
+        window.backgroundMusic = new Audio('stories/audio/whispering.mp3'); // Replace with actual path
+        window.backgroundMusic.loop = true;
+        window.backgroundMusic.volume = 0.1;
     }
-});
+
+    // Function to fade audio smoothly
+    function fadeAudio(audioElement, targetVolume, duration) {
+        let startVolume = audioElement.volume;
+        let steps = 10;
+        let stepTime = duration / steps;
+        let stepSize = (targetVolume - startVolume) / steps;
+
+        let currentStep = 0;
+        let fadeInterval = setInterval(() => {
+            let newVolume = audioElement.volume + stepSize;
+            audioElement.volume = Math.max(0, Math.min(1, newVolume));
+
+            if (++currentStep >= steps) {
+                clearInterval(fadeInterval);
+                audioElement.volume = targetVolume;
+            }
+        }, stepTime);
+    }
+
+    // Play/Pause story and background music
+    playPauseBtn.addEventListener('click', function () {
+        if (storyAudio.paused) {
+            if (window.backgroundMusic.paused) {
+                window.backgroundMusic.play();
+                setTimeout(() => fadeAudio(window.backgroundMusic, 0.1, 2000), 5000);
+            } else {
+                fadeAudio(window.backgroundMusic, 0.1, 1000);
+            }
+
+            storyAudio.play();
+            this.textContent = '⏸️';
+        } else {
+            storyAudio.pause();
+            window.backgroundMusic.pause();
+            this.textContent = '▶️';
+        }
+    });
+
+    // Stop background music completely when navigating
+    function stopBackgroundMusic() {
+        if (window.backgroundMusic) {
+            window.backgroundMusic.pause();
+            window.backgroundMusic.currentTime = 0;
+            window.backgroundMusic = null; // Remove reference to prevent unintended restarts
+        }
+    }
+
+    // Attach event listeners to navigation buttons
+    previousButton.addEventListener('click', stopBackgroundMusic);
+    
+    nextButton.addEventListener('click', stopBackgroundMusic);
+    
+    navLinks.addEventListener('click', stopBackgroundMusic);
+
+    // When story audio ends
+    storyAudio.onended = function () {
+        fadeAudio(window.backgroundMusic, 0.8, 2000);
+        setTimeout(() => fadeAudio(window.backgroundMusic, 0, 3000), 5000);
+    };
+}, 0);
 
     
     

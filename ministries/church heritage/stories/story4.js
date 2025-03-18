@@ -38,7 +38,7 @@ const story4 = {
 
 <p>For several years, William Miller worked almost single-handedly. By <strong>1839 and 1840</strong>, men of influence and ability — both writers and preachers — began to accept his teaching and joined Miller in his devoted evangelism.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E01 - The Birth of the Remnant Church.mp3',
+            audioPath: './stories/audio/Section 3/S03E01.mp3',
             questions: []
         },
         {
@@ -98,7 +98,7 @@ const story4 = {
 
 <p>By the summer of 1844, at least <strong>50,000 believers</strong> had separated from their churches to form their own groups.</p>
 `,
-            audioPath: './stories/audio/Section 3/S03E02 - Advent Bible Conferences.mp3',
+            audioPath: './stories/audio/Section 3/S03E02.mp3',
             questions: []      
         },
         {
@@ -142,7 +142,7 @@ const story4 = {
 
 <p>The <em>“Midnight Cry”</em> was proclaimed during the <em>“tarrying time.”</em> The <strong>50,000 Advent believers</strong> were so convinced that the Lord would come that many of them stopped cultivating their fields, believing Jesus would return before another harvest. Instead, they devoted their time to proclaiming His coming.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E03 - The Midnight Cry.mp3',
+            audioPath: './stories/audio/Section 3/S03E03.mp3',
             questions: []
         },
         {
@@ -244,7 +244,7 @@ const story4 = {
 
 <p>With the dates confirmed and the misunderstanding clarified, the message of the first angel continued as <strong>present truth</strong>. It was and remains a powerful doctrine, calling sinners to Christ in this time of judgment. The message of the second angel, relevant during the period preceding the disappointment, also holds significance for the future.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E04 - The Great Disappointment.mp3',
+            audioPath: './stories/audio/Section 3/S03E04.mp3',
             questions: []
         },
         {
@@ -308,7 +308,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
 
 <p><em>(The Great Advent Movement, pp. 39, 40)</em></p>
             `,
-            audioPath: './stories/audio/Section 3/S03E05 - Third Angels Message Begin.mp3',
+            audioPath: './stories/audio/Section 3/S03E05.mp3',
             questions: []
         },
         {
@@ -329,7 +329,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
 
 <p>In total, there were <strong>six Bible conferences</strong> in <strong>1848</strong>. <strong>Ellen White</strong> played a crucial role in these conferences, offering guidance and support as the believers worked to establish a foundation of unified teachings.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E06 - Sabbath Conferences.mp3',
+            audioPath: './stories/audio/Section 3/S03E06.mp3',
             questions: []
         },
         {
@@ -367,7 +367,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
 <p><em>(Excerpts taken from <strong>The Unknown Prophet</strong> by Delbert W. Baker)</em></p>
 
             `,
-            audioPath: './stories/audio/Section 3/S03E07a - Gift to the Remnant Church.mp3',
+            audioPath: './stories/audio/Section 3/S03E07a.mp3',
             questions: []
         },
         {
@@ -382,7 +382,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
 <p>The vision was repeated with a warning: if he refused again, the gift would be withdrawn. Still, he declined, and a third vision revealed that the gift was being given to <strong>“one of the weakest of the weak.”</strong> Though Foss lived until <strong>1893</strong>, he never regained an interest in personal religion.</p>
 
             `,
-            audioPath: './stories/audio/Section 3/S03E07b - Gift to the Remnant Church.mp3',
+            audioPath: './stories/audio/Section 3/S03E07b.mp3',
             questions: []
         },
         {
@@ -429,7 +429,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
 <h3>Enduring Legacy</h3>
 <p>Despite facing fierce opposition, Ellen White’s over <strong>60 published volumes</strong> and countless magazine articles stand as a testament to her divine commission. The Seventh-day Adventist Church’s history is deeply tied to God’s guidance through the gift of prophecy. Wherever the church followed God’s counsel, it prospered.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E07c - Gift to the Remnant Church.mp3',
+            audioPath: './stories/audio/Section 3/S03E07c.mp3',
             questions: []
         },
         {
@@ -446,6 +446,15 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
     <li>
         <p><strong>Spiritual Awakening:</strong> In <strong>1840</strong> and again in <strong>1842</strong>, Ellen and her family listened to William Miller's preaching about the imminent advent of Christ. They accepted his teachings while remaining Methodists. This period was spiritually challenging for Ellen, but at a camp meeting in late 1840, she gave her heart to God and found peace, beginning a new relationship with the Lord.</p>
     </li>
+            `,
+            audioPath: './stories/audio/Section 3/S03E07d.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Interesting Facts About the Life and Service of Ellen White [I]</h2>
+
+<ol>
     <li>
         <p><strong>The Great Disappointment:</strong> Her family embraced the "midnight cry" to leave apostate churches and joined those who experienced the "Great Disappointment" of 1844. Despite the heartbreak, they remained steadfast in their belief in the Advent message.</p>
     </li>
@@ -458,6 +467,17 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
     <li>
         <p><strong>A Lifelong Ministry:</strong> For the next seventy years, Ellen White shared God’s counsel with His people. She addressed many audiences, authored around forty books (known as the "Spirit of Prophecy"), and wrote numerous articles for Seventh-day Adventist publications. Her most famous book, <em>The Desire of Ages</em>, tells the story of Christ’s life. She traveled extensively, including to Europe, Australia, and New Zealand, helping to establish the church's work, including founding Avondale College in Australia.</p>
     </li>
+            `,
+            audioPath: './stories/audio/Section 3/S03E07e.mp3',
+            questions: []
+        },    
+        {
+            text: `
+<h2>Interesting Facts About the Life and Service of Ellen White [I]</h2>
+
+<ol>
+
+
     <li>
         <p><strong>Divine Visions:</strong> Ellen received God's messages primarily through visions. Eyewitnesses, including medical professionals, described how she would stop breathing during visions, yet her face remained natural in color, and her pulse continued. F.C. Castle, who witnessed a medical examination during one of her visions, stated:</p>
         <blockquote>
@@ -465,14 +485,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
         </blockquote>
         <p>Despite her frailty, she displayed great strength during visions—once holding an eighteen-pound Bible in her extended left hand for half an hour.</p>
     </li>
-            `,
-            audioPath: './stories/audio/Section 3/S03E08a - Facts About Ellen White.mp3',
-            questions: []
-        },
-        {
-            text: `
-<h2>Interesting Facts About the Life and Service of Ellen White [II]</h2>
-            
+
     <li>
         <p><strong>Her Writings:</strong> Seven years after her first vision, Ellen published her first book, a 64-page pamphlet now part of <em>Early Writings</em>. Her works, known as the <strong>Spirit of Prophecy Writings</strong>, include:</p>
         <ul>
@@ -497,7 +510,7 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
     </li>
 </ol>
             `,
-            audioPath: './stories/audio/Section 3/S03E08b - Facts About Ellen White.mp3',
+            audioPath: './stories/audio/Section 3/S03E07f.mp3',
             questions: []
         },
         {
@@ -512,46 +525,67 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
     “James White, intrepid, resourceful, far-seeing, eager leader of the infant Seventh-day Adventist Church, who in the early decades of its history had a chief part: first, in framing the doctrines and bringing out a people to stand upon them; second, in promoting and organizing the ecclesiastical polity; and third, in founding and managing the institutions– corporate church, publishing, health and educational– which make up the pillars of this cause. He was a born leader...All his co-workers felt the dynamic power of his spirit.”
 </blockquote>
 <p><strong>James White served as president of the General Conference for three terms, totaling ten years.</strong></p>
-
+            `,
+            audioPath: './stories/audio/Section 3/S03E08a.mp3',
+            questions: []
+        },
+        {
+            text: `
 <h3>Joseph Bates (1792-1872)</h3>
 <p>Joseph Bates had risen from cabin boy to captain and had retired from the sea before the first angel’s message came to him. God had been leading him; always a man of good principles and a lover of right and truth, he had given up the use of alcohol and tobacco while sailing the seas. He was a member of the Christian Church and about fifty years of age when he was called to preach. He organized one of the first temperance societies in America. He poured his money into the work until, at the time of the great disappointment, he had little left; after that, he lived much by faith.</p>
 <p>He was the first of leaders who later became Seventh-day Adventist ministers to accept the Sabbath truth and introduce it to other leading workers and believers. He also wrote the first comprehensive Sabbath tract that was printed. He spent much of his time traveling the “unworked West,” even in the winter snows of Canada and in all parts of eastern America. “He shrank from no hardship in his untiring zeal.”</p>
 <p>He was older in years than his more youthful associates, the Whites, and they leaned upon his fatherly advice in the pioneering days of the movement. He was active until the end of his life; he died in 1872 and is buried near his home in Michigan.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E09a - Other Early Pioneers.mp3',
+            audioPath: './stories/audio/Section 3/S03E08b.mp3',
             questions: []
         },
+    
         {
             text: `
-<h2>Other Early Pioneers [II]</h2>
-<p>Continuation...</p>
-            
 <h3>John Nevins Andrews (1829-1883)</h3>
 <p>John Nevins Andrews was but fifteen years old when he shared in the great disappointment. He began to preach at 21. He was among the first of the leaders to accept the Sabbath truth, was a diligent student, an able writer (History of the Sabbath), and a good organizer. He led out in studying God’s plan for gospel finance, from which was developed the tithing system as we know it today.</p>
 <p>In August, 1860, he suggested publicly that the brethren should meet to discuss church organization; as a result, the Advent Review Publishing Association was formed, and the name “Seventh-day Adventist” was chosen for the church. Partly because he was a good linguist, he was sent to Europe in 1874 as our first official overseas missionary, and he laid a firm foundation for the work there.</p>
 <p><strong>J. N. Andrews was the third president of the General Conference.</strong></p>
-
-<h3>John Norton Loughborough (1832-1924)</h3>
-<p>John Norton Loughborough preached for the Adventists from the age of sixteen, though he had not heard the Sabbath truth until 1852, when J. N. Andrews explained it so clearly that he accepted it immediately. He worked with M. E. Cornell in the 1850's before ministers received salaries, laboring at any work he could find for four half-days a week, and preaching the rest of the time.</p>
-
-<h3>John Byington (1798-1887)</h3>
-<p>John Byington is best remembered as the first president of the General Conference. He had been a Methodist minister before the three angels’ messages came to him. One of the first Sabbath schools and the first Adventist elementary school (begun in 1853) were taught in Byington’s home at Buck’s Bridge, New York. The teacher was his daughter Martha. Early Sabbathkeepers gathered at his property, on which he built an Adventist church.</p>
-
-<h3>J. H. Waggoner (1820-1889)</h3>
-<p>J. H. Waggoner accepted the Advent message in 1852 and is listed among those who called for a discussion of church organization in 1860; by then he was one of the leaders among Sabbathkeeping Adventists. He worked in the West, chiefly as the editor of the <em>Signs of the Times</em>. Later he served in Europe and died in Switzerland.</p>
             `,
-            audioPath: './stories/audio/Section 3/S03E09b - Other Early Pioneers.mp3',
+            audioPath: './stories/audio/Section 3/S03E08c.mp3',
             questions: []
         },
         {
             text: `
-<h2>Other Early Pioneers [III]</h2>
-<p>Continuation...</p>
-            
+<h3>John Norton Loughborough (1832-1924)</h3>
+<p>John Norton Loughborough preached for the Adventists from the age of sixteen, though he had not heard the Sabbath truth until 1852, when J. N. Andrews explained it so clearly that he accepted it immediately. He worked with M. E. Cornell in the 1850's before ministers received salaries, laboring at any work he could find for four half-days a week, and preaching the rest of the time.</p>
+            `,
+            audioPath: './stories/audio/Section 3/S03E08d.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>John Byington (1798-1887)</h3>
+<p>John Byington is best remembered as the first president of the General Conference. He had been a Methodist minister before the three angels’ messages came to him. One of the first Sabbath schools and the first Adventist elementary school (begun in 1853) were taught in Byington’s home at Buck’s Bridge, New York. The teacher was his daughter Martha. Early Sabbathkeepers gathered at his property, on which he built an Adventist church.</p>
+            `,
+            audioPath: './stories/audio/Section 3/S03E08e.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>J. H. Waggoner (1820-1889)</h3>
+<p>J. H. Waggoner accepted the Advent message in 1852 and is listed among those who called for a discussion of church organization in 1860; by then he was one of the leaders among Sabbathkeeping Adventists. He worked in the West, chiefly as the editor of the <em>Signs of the Times</em>. Later he served in Europe and died in Switzerland.</p>
+            `,
+            audioPath: './stories/audio/Section 3/S03E08f.mp3',
+            questions: []
+        },
+    
+        {
+            text: `
 <h3>Uriah (1832-1903) and Annie (1828-1855) Smith</h3>
 <p>Uriah and Annie Smith were two promising young people, brother and sister, who were teaching when the Lord called them to work for Him. Annie Smith responded as a result of a dream about Elder Joseph Bates, whom she heard speak very soon after. She was an ardent worker, best remembered for her poems, many of which were used as hymns. Her life ended prematurely in 1855 as a result of tuberculosis.</p>
 <p>Uriah Smith accepted the message about the end of 1852, more than a year after his sister, and entered the publishing work. He was an ordained minister of the gospel and spent most of his life as an editor, from 1853 to 1903, the year of his death. He was an editor of the <em>Review and Herald</em> and author. <em>Thoughts on Daniel and the Revelation</em> is the work by which he is best remembered. In 1888 he was a leader in the discussions on righteousness by faith, and he was one of the prominent Bible scholars of the denomination.</p>
-
+            `,
+            audioPath: './stories/audio/Section 3/S03E08g.mp3',
+            questions: []
+        },
+        {
+            text: `
 <h3>Frederick Wheeler (1811-1910)</h3>
 <p>Frederick Wheeler was a Methodist-Adventist preacher who lived in New Hampshire and pastored the church at Washington. He was essentially the first Seventh-day Adventist minister, for he accepted the Sabbath truth brought to him by Mrs. Rachel Oakes in 1844. Among those in his congregation who accepted the third angel’s message were the Farnsworth brothers, William and Cyrus.</p>
 
@@ -561,9 +595,9 @@ He was formerly a Methodist minister and an associate of William Miller.</p>
     <li>Footprints of the Pioneers, by Arthur W. Spalding</li>
 </ul>
             `,
-            audioPath: './stories/audio/Section 3/S03E09c - Other Early Pioneers.mp3',
+            audioPath: './stories/audio/Section 3/S03E08h.mp3',
             questions: []
-        }
+        }    
     
     ]
 };

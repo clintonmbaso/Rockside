@@ -1,145 +1,101 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story12 = {
-    title: "An Ever-Present Savior",
+    title: "Finishing the Gospel Commission",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
-                <p>When a Scottish lad named Peter got lost in a grassy wasteland on an inky black night, God called him by name: “Peter!” When the heavenly voice called out again, Peter stopped in his tracks, looked down, and discovered he was a step away from plunging into an abandoned limestone quarry.
+<h2>Increasingly Difficult Circumstances</h2>
 
-            Wouldn’t it be wonderful if we could each hear God calling us by name? Wouldn’t it be great if He were that close a companion-if we could actually sit down together and have a long chat about our struggles and dreams?
-</p>
+<p>Ellen White warned the church that as the end approaches, the work will have to be done under increasingly difficult circumstances. A listing of just a few of these challenges includes:</p>
+
+<ul>
+  <li><strong>Strife, war, and jealousy</strong> among nations and tribes.</li>
+  <li><strong>Instability</strong> in the business world.</li>
+  <li><strong>Accidents</strong> by land, sea, and air.</li>
+  <li><strong>Calamities</strong> in the natural world—floods, droughts, earthquakes, hurricanes, etc.</li>
+  <li><strong>Starvation and privation</strong> at unprecedented levels.</li>
+  <li><strong>Undue nationalism and provincialism</strong> fragmenting society.</li>
+  <li><strong>Political strife and turmoil.</strong></li>
+  <li><strong>Collapse of society</strong> through destruction of the family, loss of discipline, and moral perversion.</li>
+</ul>
+
+<p>Despite these growing challenges, the mission continues, guided by faith and perseverance.</p>
+            
+<p>Because we, as church members, are also part of the society around us, these challenges impact us just as much as they do others. Sadly, we are not insulated from these difficulties. Therefore, we must seek ways to prevent the negative influences within our spheres of action and help others cope with those challenges over which there are no easy controls or solutions.</p>
+
+<p>Among God's people, there should exist a spirit of love and brotherhood. Though scattered among all nations, we are to be united—not just in theory, but in practice.</p>            
             `,
-            questions: [
-
-            ]
+            audioPath: './stories/audio/Section 11/S11E01.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>UNLIMITED ACCESS TO JESUS</h2>
+<p>Just as John the Baptist was the herald of the first coming of the Lord, the remnant church is called to herald the second coming. The church has continually adapted to the technological age, finding innovative ways to apply new inventions to its mission. While summarizing all these efforts in just a few paragraphs is challenging, here are a few evidences of the continued advance in proclaiming the three angels’ messages:</p>
 
-            Believe it or not, we can come nearer to Jesus now than we could if He actually lived here with us as a visible person. Having Christ in the flesh in our town would be wonderful of course, but think of the enormous crowds pressing for a closer look. Think of the demands on His time. We would do well to get a few minutes of direct conversation in lifetime.
-
-            Christ wishes to cultivate a personal relationship with every one of us. That’s one reason why He left this earth for a special ministry in heaven that would allow Him to come near to each of us every day. Because Jesus is not limited to one place like when He was here on earth, through the Holy Spirit He is now near to guide the life of every willing person individually.
-
-            What encouraging promise did Jesus give just before He ascended to heaven?
-
-            “I AM WITH YOU ALWAYS, to the very end of the age.”-Matthew 28:20. (Unless otherwise noted, all Scriptural texts in the DISCOVER guides are from the New International Version of the Bible [NIV].)
-
-            What is Christ doing in heaven that makes it possible for Him to be “with you always”?
-
-            “Therefore, since WE HAVE A GREAT HIGH PRIEST who has gone through the heavens, JESUS THE SONE OF GOD, let us hold firmly to the faith we profess. For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who has been tempted in every way, just as we are- yet was without sin. Let us then approach the throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.”-Hebrews 4:14-16.
-
-            Note the assurances of having Jesus as our personal representative in heaven: “Tempted in every way, just as we are.” “Sympathize with our weaknesses.” “Help us in our time of need.” With Jesus as our High Priest we’re no longer cut off from a distant heaven; Christ can usher us into the very presence of God. No wonder we’re urged to “approach the throne of grace with confidence.”
-
-            What place does Jesus occupy in heaven?
-
-            “But when this priest [Jesus] had offered for all time one sacrifice for sins, he sat down AT THE RIGHT HAND OF GOD.”-Hebrews 10:12.
-
-            The living Christ- someone who understands- is our personal representative on the throne “at the right hand of God.”
-
-            How did the life of Jesus prepare Him to be our priest?
-
-            “For this reason he had to be made like his BROTHERS in every way, in order that he might become a merciful and faithful high priest in service to God, and that he might make atonement for the sins of the people. Because he himself suffered when he was tempted, HE IS ABLE TO HELP those who are being tempted,”-Hebrews 2:17, 18.
-
-            Our “brother” who shares our humanity and was “tempted” like we are, is now our High Priest at the Father’s right hand. “Made like” us, He knows what we’re going through. He’s been hungry, thirsty, tempted, and exhausted. He’s felt the need for sympathy and understanding.
-
-            But above all, Jesus is qualified to be our High Priest because He died to “make atonement” for our sins. He paid the price for our sins by dying in our place. This is the Gospel, the Good News for all human beings everywhere and for all time.
-
-            One of our Bible School directors shares this experience: “When our youngest daughter was three, she caught her finger in a folding chair, splintering the bone. As we rushed her to a doctor, her loud cries of pain really tore at our hearts. And they touched our five-year-old in a special way. I’ll never forget her words after the doctor had cared for her sister’s injury. She sobbed, ‘Oh, Daddy, I wish it could have been my finger!’”
-
-            When all humanity were crushed by sin and condemned to die eternally, Jesus said, “Oh, Father, I wish it could have been Me.” And the Father gave Jesus His wish at the cross. Our Savior has experienced every agony we have suffered- and more!
-
+<ul>
+    <li>Based on 1997 data, more than 85 people are joining the church every hour.</li>
+    <li>Almost three new churches are being organized every day.</li>
+    <li>Airplanes have expanded the church’s transport network, with planes operating in Africa and South America. Pathfinders even helped finance and assemble a plane that went into mission service at the beginning of the new millennium.</li>
+    <li>Public evangelism has expanded globally through satellite broadcasting, reaching hundreds of thousands in simultaneous live meetings, often referred to as the "Net 90s."</li>
+    <li>Five-day Plans to Stop Smoking have helped hundreds of thousands quit one of the most harmful habits, creating a positive image of the church while improving lives.</li>
+</ul>
 `,
-            questions: [
-
-]      
+            audioPath: './stories/audio/Section 11/S11E02.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>THE GOSPEL IN THE OLD TESTAMENT</h2>
-
-            When the people of Israel camped at the foot of Mount Sinai, God instructed Moses to build a portable sanctuary for worship “according to the pattern shown you [Moses] on the mountain” (Exodus 25:40). Nearly 500 years later, King Solomon’s great stone temple replaced the portable sanctuary. And the temple was built on precisely the same plan as the portable sanctuary.
-
-            When God gave Moses the direction for building the sanctuary, what specific purpose did He have in mind?
-
-            “Then have them make a sanctuary for me, and I WILL DWELL AMONG THEM.”-Exodus 25:8.
-
-            Sin caused a tragic separation between human beings and their Creator. The sanctuary was God’s way of showing how He can again live among us. The sanctuary, and later the temple, became the center of religious life and worship in Old Testament times. Each morning and evening the people could gather around the sanctuary and establish contact with God in prayer (Luke 1:9, 10), claiming God’s promise: “I will meet with you” (Exodus 30:6).
-
-            The Old Testament teaches the same gospel of salvation as does the New Testament. Both portray Jesus dying for us and ministering to us as our High Priest in the heavenly sanctuary.
-
+<ul>
+    <li>New departments and services have been established at various levels of church leadership, including Stewardship, Trust Services, Family Life, Children, Women, and, most recently, Global Mission, which aims to identify and reach every unreached people group worldwide.</li>
+    <li>The Adventist Development and Relief Agency (ADRA), formerly known as Seventh-day Adventist World Service (SAWS), has become a leading voluntary agency helping those affected by disasters or extreme poverty.</li>
+    <li>State-of-the-art printing presses now produce many tons of books and periodicals annually.</li>
+    <li>The Adventist educational system remains the largest Protestant parochial school system in the world, with 2000 data showing 4,809 elementary schools, 1,126 secondary schools, and 99 colleges and universities, enrolling over a million students.</li>
+    <li>By 2000, the Inter-American Division had surpassed two million members, while the Africa-Indian Ocean Division, East African Division, and South American Division each had between 1.5 and 2 million members.</li>
+    <li>In early 1978, the total world membership of the church reached 3 million; only 20 years later, in 1998, membership passed the 10 million mark. Members are now found in well over 200 countries (the UN lists 230). In 1978, the church expanded its influence through the use of 590 languages—by 1998, 735 languages were being used.</li>
+    <li>More than 70% of the church membership comprises individuals under the age of 30.</li>
+    <li>Missionaries continue to spread the Gospel to all parts of the world.</li>
+</ul>
+<p>These are but a few examples of the fulfillment of the commission to go “to every nation, and 
+kindred, and tongue, and people.” </p>
             `,
-            questions: [
-
-]
+            audioPath: './stories/audio/Section 11/S11E03.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>JESUS’ MINISTRY FOR US REVEALED IN THE SANCTUARY</h2>
-The sanctuary and its services reveal what Jesus is doing now in the temple in heaven, and what He is doing now on earth to enrich and guide each of us in our daily lives. 
-Since the earthly sanctuary was patterned after the temple in heaven, it reflects the heavenly sanctuary where Christ now ministers. Exodus 25-40 describes the services and ceremonies of the wilderness sanctuary in great detail. A brief summary of the sanctuary furnishings appears in the New Testament:
-“Now the first covenant had regulations for worship and also an earthly sanctuary…. In its first room were the lampstand, the table and the consecrated bread; this was called the Holy Place. Behind the second curtain was a room called the Most Holy Place, which had the golden altar of incense and the gold-covered ark of the covenant. This ark contained… the stone tablets of the covenant [on which God wrote the Ten Commandments (Deuteronomy 10:1-5)]. Above the ark were the cherubim of the Glory, overshadowing the atonement cover [mercy seat].”-Hebrews 9:1-5.
-The sanctuary had two rooms, the Holy Place and the Most Holy Place. A courtyard was laid out in front of the sanctuary. In the court stood the brass altar on which the priests offered sacrifices, and the laver in which they washed.
+<h2>Significant Anniversaries</h2>
 
-            The sacrifices offered on the brass altar symbolized Jesus, who through His death on the cross became 
-            “the lamb of God, who takes away the sin of the world!” (John 1:29). 
-            When the repentant sinner came to the altar with his sacrifice and confessed his sins, he received forgiveness and cleansing. In the same way, the sinner today obtains forgiveness and cleansing through the blood of Jesus (1John 1:9).
+<p>Beginning in 1960 and forward, the church began celebrating various anniversaries, which have helped to remind us of God’s leading in the past. However, they also remind us that we have not yet reached the promised “Rest” spoken of at the close of Hebrews chapter 11.</p>
 
-            In the first room, or Holy Place, the seven-branched lampstand burned continually, representing Jesus as the never-failing “light of the world” (John 8:12). The table of consecrated bread symbolized His satisfying our physical and spiritual hunger as the ever-present “Bread of Life” (John 6:35). The golden altar of incense represented Jesus’ prayer ministry for us in the very presence of God (Revelation 8: 3, 4).
-
-            The second room, or Most Holy Place, contained the gold-covered ark of the covenant. It symbolized the throne of God. Its atonement cover, or mercy seat, represented the intercession of Christ, our High Priest, interceding on behalf of sinful human being who have broken God’s moral law. The two tablets of stone on which God wrote the Ten Commandments were kept below the mercy seat. Golden cherubim of glory hovered over the mercy seat on each end of the ark. A glorious light shone between these two cherubim, a symbol of the presence of God Himself.
-
-            A curtain hid the Holy Place from the view of the people as the priests ministered to them in the courtyard. A second curtain in front of the Most Holy Place blocked this inner room from the priests who entered the sanctuary’s first room.
-
-            When Jesus died on the cross, what happened to the curtain?
-
-            “At that moment the curtain of the temple was torn in two from top to bottom.”-Matthew 27:51.
-
-            The Most Holy Place was exposed when Jesus died. After the death of Jesus no curtain can come between a holy God and a sincere believer; Jesus, our High Priest, ushers us into the very presence of God (Hebrews 10:19-22). We have access to the throne room of heaven because Jesus is our High Priest at God’s right hand. Jesus enables us to come into God’s presence-into the Father’s heart of love. So “let us draw near.”
-
+<ul>
+    <li><strong>1960</strong> – 100th anniversary of the adoption of the name <em>Seventh-day Adventist</em></li>
+    <li><strong>1961</strong> – 100th anniversary of the formation of the first conference</li>
+    <li><strong>1963</strong> – 100th anniversary of the organization of the denomination</li>
+    <li><strong>1966</strong> – 100th anniversary of the first sanitarium (hospital)</li>
+    <li><strong>1968</strong> – 100th anniversary of the first camp meeting</li>
+    <li><strong>1972</strong> – 100th anniversary of the organized educational system</li>
+    <li><strong>1974</strong> – 125th anniversary of the first periodical <br> 
+        100th anniversary of the first missionary</li>
+    <li><strong>1976</strong> – 50th anniversary of the camping ministry</li>
+    <li><strong>1979</strong> – 100th anniversary of the first youth society, Hazelton Township, Michigan</li>
+    <li><strong>1980</strong> – 100th anniversary of the first conference outside of North America – Denmark</li>
+    <li><strong>1981</strong> – 100th anniversary of the death of James White</li>
+    <li><strong>1993</strong> – 100th anniversary of the opening work in Southern Asia – India</li>
+    <li><strong>1997</strong> – 75th anniversary of the Pathfinder Classes</li>
+    <li><strong>1996</strong> – 50th anniversary of the first Pathfinder Club, California</li>
+    <li><strong>1999</strong> – 120th anniversary of Youth Ministry</li>
+    <li><strong>2000</strong> – 50th anniversary of World Pathfinders</li>
+</ul>
             `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>A REVELATION OF CHRIST DYING TO SAVE US</h2>
-Just as the earthly sanctuary served as a miniature reproduction of the heavenly temple where Jesus now ministers for us, the services carried on in the earthly sanctuary were “a copy and shadow of what is in heaven” (Hebrews 8:5). But there is a striking difference: The priests who served in the earthly temple could not themselves forgive sin, but at the cross Jesus “appeared once for all at the end of the ages to do away with sin by the sacrifice of himself” (Hebrews 9:26).
-The Old Testament book of Leviticus describes in detail the services carried on in the sanctuary. The ceremonial rituals were divided into two parts: the daily services and the yearly services. (Guide 13 details with the yearly services.)
-In the daily services, the priests offered sacrifices for the individual and for the entire congregation. When a person sinned, he would bring an unblemished animal as a sin offering, “lay his hand on the head of the sin offering and slaughter it at the place of the burnt offering” (Leviticus 4:29). The guilt of the sinner must be transferred to the guiltless animal by confession of sin and the laying on of hands. This symbolized Christ taking on our guilt at Calvary; the sinless One became “sin for us” (2 Corinthians 5:21). The sacrificial animal had to be killed and its blood shed because it pointed forward to the supreme penalty that Christ suffered on the cross.
-
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>WHY THE BLOOD?</h2>
-“Without the shedding of blood there is no forgiveness” (Hebrews 9:22). What happened in the Old Testament sanctuary pointed forward to Christ’s one great saving act. Having died for our sins, He entered the holy places “once for all by his own blood, having obtained eternal redemption” for us (verse 12). When Jesus’ blood was shed on the cross for our sins, “the curtain of the temple [in Jerusalem] was torn in two from top to bottom” (Matthew 27:51). Because of Jesus’ sacrifice on the cross, animal sacrifices were no longer necessary.
-When Jesus spilled His blood from the cross, He was offering up His perfectly obedient life as a substitute for our failures. When the Father and Son were torn apart at Calvary, the Father turned away in anguish and the Son died of a broken heart. God the Son stepped into history to take on Himself the full results of sin and to demonstrate how tragic wrongdoing really is. He could then forgive sinners without trivializing sin. Christ made “peace through his blood, shed on the cross” (Corinthians 1:20)
-
-            `,
-            questions: [
-            
-            ]
-        },
-        {
-            text: `
-                <h2>A REVELATION OF JESUS LIVING TO SAVE US</h2>
-What is Jesus’ day-to-day work in heavenly temple?
-“Therefore he is able also to save completely [forever, margin] those who come to God through him, because HE ALWAYS LIVES TO INTERCEDE for them.”-Hebrews 7:25.
-Jesus now “lives” to present His blood, His sacrifice, on our behalf. He is now working diligently to save every human being from the tragedy of sin. Some mistakenly assume that, as our Intercessor, Jesus is in heaven begging a reluctant God to forgive us. In fact, it is God who joyfully accepts His Son’s sacrifice on our behalf.
-As our High Priest in heaven, Christ also pleads with humanity. He works to help the indifferent take a second look at grace, to help despairing sinners grasp hope in the gospel, and to help believers find more riches in the Word of God and more power in prayer. Jesus is molding our lives in harmony with God’s commandments and helping us develop characters that will stand the test of time.
-God laid down His life for every person who has ever lived in this world. And now, as High Priest or Mediator, “He always lives” to lead people to accept His death for their sins. Although He reconciled the whole fallen world to Himself on the cross, He still can’t save us unless we accept His grace. People will not be lost because they are sinners, but because they refuse to accept the pardon Jesus offers.
-Sin destroyed the intimate relationship Adam and Eve once enjoyed with God. But Jesus, as the Lamb of God, died to free all humanity from sin and restore this lost friendship. Have you discovered Him as your High Priest, the One who ever lives to keep that relationship close and vibrant?
-Christ’s sacrificial death is utterly unique. Christ’s heavenly ministry is incomparable. Only Christ brings God close beside us. Only Christ makes it possible for the divine Spirit to actually dwell in our hearts. He emptied Himself in order to make us full. He deserves a similar commitment from us. Let’s accept Him fully as the Savior and Master of our lives.
-
-            `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 11/S11E04.mp3',
+            questions: []
         }
     ]
 };

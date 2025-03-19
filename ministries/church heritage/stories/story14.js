@@ -1,153 +1,193 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story14 = {
-    title: "The Secret of Answered Prayer",
+    title: "The World Divisions of the Church",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
-                <p>Anatoli Levitin, a Russian writer and historian, spent years in the Siberian Gulag where petitions to God must have seemed frozen to the ground. But he came back quite spiritually fit. “The greatest miracle of all is prayer,” he wrote. “I have only to turn mentally to God and at once I feel a force that pours into me from somewhere, into my soul, my whole being. What is it? Where would I, an insignificant old man and tired of life, get this strength which renews and saves me, elevating me above the earth? It comes from outside me- and there is no force in the world which could ever resist it.”
-In this guide we will see how prayer can help us build a stronger relationship with God and a robust Christian life.
-</p>
-            `,
-            questions: [
+<h2>The Gospel to All the World</h2>
 
-            ]
+<p>As we have seen, during the years of development in the church organization, the evangelization of the world has not been forgotten. In the early days, with only a handful of workers and few scattered members with very limited means, the territory of the United States alone seemed far too large to reach with the message. But God had larger plans for His people. As fast as the church could follow, He opened one door after another. By the early 1900's, all the major geographical areas of the world had been entered, and the church was fully, permanently committed to world evangelism.</p>
+
+<p>Pioneer missionaries, entering new lands, established mission stations, and there soon followed missions or fields, then conferences and unions. As early as 1916, division organizations were formed. Since that time, there have been various restructurings of these entities as new countries emerged and new political situations made cause for changes. The following information was provided by the Youth Department of each corresponding division. As of 1999, the divisions listed were:</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E01.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>CONVERSATION WITH GOD</h2>
-How can we be sure God hears us when we pray?
-“Then you will call upon me and come and PRAY TO ME, and I WILL LISTEN TO YOU. You will seek me and find me when you seek me with all your heart.”-Jeremiah 29:12, 13. (Unless otherwise noted, all Scriptural texts in the DISCOVER guides are from the New the International Version of the Bible [NIV].)
-What assurance did Jesus give that He will hear and answer our prayers?
-“So I say to you: Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.”-Luke 11:9.
-Prayer is a two-way conversation. That’s what Jesus promises:
-“Here I am! I stand at door and knock. If anyone hears my voice and opens the door, I will come in and eat with him, and he with me.”-Revelation 3:20.
-How is it possible to sit down and have a nice evening of dinner conversation with Christ? First, by telling Him everything that’s on our hearts in prayer. Second, by listening carefully. As we meditate in prayer, God can speak to us directly. And as we read the Word of God devotionally, God will speak to us through its pages. 
-Prayer can become a way of life for the Christian.
-“PRAY CONTINUALLY; give thanks in all circumstances, for this is God’s will for you in Christ Jesus.”-1 Thessalonians 5:16-18.
-How can we “pray continually”? Do we have to stay on our knees all the time or constantly repeat phrases of adoration or petition? Of course not. But we are to live so closely in touch with Jesus that we feel free to speak to Him anytime, anywhere.
-“In the crowds of the street, in the midst of a business engagement, we may send up a petition to God and plead for divine guidance…. We should have the door of the heart open continually and our invitation going up that Jesus may come and abide as a heavenly guest in the soul.”-Step to Christ, p.99.
-One of the best ways to develop this kind of intimate relationship is to learn to meditate as we pray.
-“May my meditation be pleasing to him, as I rejoice in the LORD.”-Psalms 104:34.
-Don’t just rush through a list of requests when you pray. Wait. Listen. A little prayerful reflection can greatly enrich your relationship with God.
-“Come near to God and he will come near to you.”-James 4:8.
-The closer we come to Jesus, the more we’re able to experience His presence. So keep within speaking distance of Jesus, and don’t worry about saying the right words. Just talk honestly and openly. Talk about everything. He’s gone through the agony of death itself in order to become your Intimate Friend.
+<h2>Africa-Indian Ocean (AID)</h2>
 
+<p>Organized in 1980, this division joins together parts of the former Trans-Africa Division, Northern Europe-West Africa Division, and the Euro-Africa Division. Its territory includes those parts of sub-Saharan west and central Africa not listed with EUD, EAD, or SAU, and the islands of the Indian Ocean.</p>
+
+<p>We note here that in the very near future, all of Africa will be reorganized. We await the final decisions of the committees involved and the votes taken.</p>
 `,
-            questions: [
-
-]      
+            audioPath: './stories/audio/Section 13/S13E02.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>HOW TO PRAY</h2>
-When we engage in prayer, we may wish to follow the outline of the Lord’s Prayer, the model prayer Jesus taught His disciples in response to their request: “Teach us to pray.”
-“Our Father in heaven, hallowed be your name, your kingdom come, your will be done on earth as it is in heaven. Give us today our daily bread. Forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from the evil one, for yours is the kingdom and the power and the glory forever. Amen.”-Matthew 6:9-13, margin.
-According to the pattern Jesus provided in His prayer, we are to come to God as our heavenly Father. Ask that His will take charge in our hearts just as His will prevails in all of heaven. We seek Him for our physical needs, forgiveness, and for a forgiving attitude. Remember that our ability to resist sin comes from God. Christ’s prayer concludes with expressions of praise.
-On another occasion Jesus instructed His disciples to pray to the Father “in my name” (John 16:23)-that is, to pray in harmony with Jesus’ principles. That’s why Christians usually close their prayers with the words: “In Jesus’ name, Amen.” Amen is a Hebrew word that means “Let it be so.”
-Although the Lord’s Prayer gives guidelines on what to pray for and how to formulate a prayer, our communication with God works best as a spontaneous composition of the heart.
-We can pray about everything. God invites us to pray about forgiveness for our sins (1 John 1:9), increased faith (Mark 9:24), the necessities of life (Matthew 6:11), healing from suffering and disease (James 5:15), and the outpouring of the Spirit (Zechariah 10:1). Jesus assures us that we can take all our needs and cares to Him; nothing is too small to pray about.
-“Cast all your anxiety on him because he cares for you.”-1 Peter 5:7.
-Our Savior is interested in every detail of our lives. His heart warms when our hearts reach out to Him in love and faith.
+<h2>Eastern Africa (EAD)</h2>
 
+<p>Today’s Eastern Africa Division has arrived at its present status among the highest-membership divisions via often-complicated arrangements of structural management created by the constantly changing political situations. While the environment for managing and effectively coordinating the work has not been the most desired, God has still in His providence guided in the constant spreading of the gospel, regardless of political, racial, and tribal turmoil.</p>
+
+<p>The <em>1921 Yearbook</em> states that the “African Division” was “constituted by action at the Boulder [Colorado] Council, October 1919, not fully organized.” W. H. Branson was named president. There were only 2,200 members spread out through three unions of southern and eastern Africa. A later change caused the area to be called the Southern Africa Division, and Elder Robert H. Pierson was elected as president. This entity now included a wider range of east and central African countries and moved its headquarters from Cape Province, South Africa, to Harare (Salisbury), Zimbabwe (Rhodesia).</p>
+
+<p>In 1968 a Trans-Africa Division was formed, which included the East African Union, to begin with, but then by 1970 the East African Union became part of the Afro-Mideast Division. In 1983 there were two divisions: the Trans-Africa and the Eastern Africa. The territory of the EAD now covered Tanzania, Malawi, Kenya, Uganda, Somalia, Djibouti, and Ethiopia. It was based in Nairobi, Kenya, and had as its president the first black African, Elder Bekele Heye. The Trans-Africa Division included South Africa, Zambia, Malawi, Zimbabwe, Lesotho, Namibia, Swaziland, and Botswana, with headquarters still in Harare. Elder Kenneth Mittleider was president.</p>
+
+<p>1983 was a pivotal point in all this. Both divisions were merged, forming a new Eastern Africa Division with headquarters in Harare. Included within its territory are Botswana, Djibouti, Eritrea, Ethiopia, Kenya, Malawi, Somalia, Tanzania, Uganda, Zambia, and Zimbabwe. The southern Africa nations became an independent union attached to the General Conference.</p>
             `,
-            questions: [
-
-]
+            audioPath: './stories/audio/Section 13/S13E03.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>PRIVATE PRAYER</h2>
-Most of us have things we hesitate sharing even with our closest friends. So God invites us to unburden ourselves in private prayer: one-on-one with Him. It’s not that He needs any information. The Almighty knows our secret fears, hidden motives, and buried resentments better than we do ourselves. But we need to open up our hearts to the One who knows us intimately and loves us infinitely. Healing can begin when Jesus can touch our wounds.
-When we pray, Jesus, our High Priest, is near to help us:
-“We have one who has been TEMPTED IN EVERY WAY, JUST AS WE ARE-yet was without sin. Let us then approach the throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.”-Hebrews 4:15, 16.
-Do you feel anxious, stressed-out, guilty? Lay it out before the Lord. He can then supply our every need.
-Should we have a special place for private prayer?
-“When we pray, go into your room, close the door and pray to your Father, who… will reward you.”-Matthew 6:6
-In addition to praying when walking in the street, working on the Job, or enjoying a social gathering, every Christian should have a time set aside each day for personal prayer and Bible study. Make your daily appointment with God at the time when you feel most alert and can concentrate the best.
+<h2>Euro-Africa (EUD)</h2>
 
+<p>The two divisions that cover Europe still reflect some of the turmoil of the past caused by the political upheavals of two world wars. As the “pie” now looks, this division includes Southern Europe, North Africa, some countries bordering the Black Sea, Afghanistan, Angola, Iran, and Mozambique– a total of thirty-one very diverse political entities. Some of the greatest challenges for Global Mission are found within the territories of this division, and at the same time some of the greatest breakthroughs are here, as well.</p>
+
+<p>One such case is the manner in which the church in Romania has exploded in recent years since the fall of Communism. Membership jumped from a small handful to nearly 72,000; Pathfinders went from zero to more than 5,000 in just over two years, and projections were to double the number by the turn of the millennium two years later.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 13/S13E04.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>PUBLIC PRAYER</h2>
-Joining with others in prayer creates a special bond and invites God’s power in a special way.
-“For where two or three come together in my name, there am I with them.”-Matthew 18:20.
-One of the greatest things we can do as a family is to develop a prayer life together. Show your children that we can take our needs to Him directly. They’ll get excited about God as they see Him respond to prayer in the practical details of life. Make family worship a happy, relaxed time of sharing.
+<h2>Euro-Asia (ESD)</h2>
 
+<p>With the change of political winds in the 1980's came an opportunity to finally organize the work in the various countries of the former Soviet Union (excepting the Baltic republics). The division was organized in 1990 with about 37,000 members in 550 churches. Within only eight years, the division had grown to 130,000 members in 1500 churches. This division now is organized into five unions, twenty-five conferences, and two attached fields; its headquarters are in Moscow.</p>
+
+<p>Through God’s guidance and protection displayed by a series of miracles, the Zaokski Theological Seminary was established in 1988; a publishing house– <em>Source of Life</em>– was founded; the Adventist Health Center was established, and the Voice of Hope Media Center began broadcasting.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 13/S13E05.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>7 SECRETS OF ANSWERED PRAYER</h2>
-When Moses prayed, the Red Sea parted. When Elijah prayed, fire came down from heaven. When Daniel prayed, an angel shut the mouths of ravenous lions. The Bible presents us with many exciting accounts of answered prayer. And it recommends prayer as the way to tap into the mighty power of God. Jesus promises:
-“You may ask me for anything in my name, and I will do it.”-John 14:14.
-Yet some prayers seem to go unheeded. Why? Here are seven principles that will help you pray more effectively:
-(1)	Keep close to Christ.
-“IF YOU REMAIN IN ME and my words remain in you, ask whatever you wish, and it will be given you.”-John 15:7.
-When we make our relationship with God a priority and keep in touch with Him, we’ll be listening and looking for answers to our prayers that, otherwise, might go undetected.
-(2)	Keep trusting God.
-“If you BELIEVE, you will receive whatever you ask for in prayer.”-Matthew 21:22.
-To believe, or have faith, means that we’re really looking to our heavenly Father to supply our need. If you’re troubled by a lack of faith remember that our Savior performed a miracle for the man who pled in desperation:
-“I do believe; help me overcome my unbelief!”-Mark 9:24.
-Just concentrate on exercising the faith you DO have; don’t worry about the faith you DON’T have.
-(3)	Surrender calmly to God’s will.
-“This is the confidence we have in approaching God: that if we ask anything ACCORDING TO HIS WILL, he hears us.”-1 John 5:14.
-Remember that God wants to teach us, as well as give us things, through prayer. So sometimes He says. “No”; sometimes He turns us in another direction. Prayer is a means of getting more and more in touch with God’s will. We need to be sensitive to God’s responses and learn from them. Keeping track of specific requests and what happens as a result is a great help.
-The Holy Spirit will help you zero in on the right mark: “The Spirit intercedes for the saints in accordance with God’s will” (Romans 8:27). Remember that our will would always coincide with God’s will if we could see as He does.
-(4)	Wait patiently on God.
-“I WAITED PATIENTLY for the LORD; he turned to me and heard my cry.”-Psalm 40:1.
-The main point here is to keep your focus on God, keep your focus on His solution. And don’t ask God for support one minute and then try to drown your troubles in pleasure-seeking the next. Wait patiently on the Lord; we badly need that discipline.
-(5)	Don’t hang on to any sin.
-“If I had CHERISHED SIN IN MY HEART, the Lord would not have listened.”-Psalm 66:18.
-Known sin short-circuits the power of God in our lives; it separates us from God (Isaiah 59:1-2). You can’t hang onto sin with one hand and reach out for divine help with the other. Sincere confession and repentance solves the problem.
-If we’re not willing to allow God to free us from evil thoughts, words, and deeds, our prayers won’t be effective.
-“When you ask, you do not receive, because you ask with wrong motives, that you may spend what you get on your pleasures.”-James 4:3.
-God isn’t going to answer “yes” to selfish prayers.
-Keep your ears open to God’s law, His will, and He will keep His ears open to your petitions.
-“If anyone turns a deaf ear to the law, even his prayers are detestable.”-Proverbs 28:9.
-(6)	Feel the need of God.
-God responds to those who ask for His presence and power in their lives.
-“Blessed are those who hunger and thirst for righteousness, for they will be filled.”-Matthew 5:6.
-(7)	Persist in Prayer.
-Jesus illustrated the need to persist in our petitions by telling the story of a very persistent widow who kept coming to a judge with her request. At last the judge said in exasperation, “Because this widow keeps bothering me, I will see that she gets justice,” then Jesus concluded: “Will not God bring about justice for his chosen ones, who cry out to him day and night? Will he keep putting them off?” (Luke 18:5-7).
-Discuss all your needs, hopes, and dreams with God. Ask for particular blessings, for help in time of need. Keep seeking, and keep listening, until you learn something from God’s response.
+<h2>Inter-American (IAD)</h2>
 
+<p>The largest division for over 20 years and baptizing new members at an average of over 400 per day gives a short view of how quickly the work is growing in this region “between the Americas.” The division comprises North America from Mexico to Panama, the South American countries of Colombia, Venezuela, and the three “Guianas,” and the Caribbean islands. It is the only division with its headquarters outside of the division territory (Miami, Florida). International transportation quirks and costs make it the most practical location.</p>
+
+<p>Four major languages are spoken: Spanish, English, French, and Dutch. In spite of some high population densities, the ratio for its membership is lowest of all divisions at 1:13. It is said that if all the churches in the three conferences on the island of Jamaica were built in a row, there would be one every ¼ mile (0.44 Km). In the island nation of Antigua-Barbuda, over 1% of the island population is a Pathfinder.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 13/S13E06.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>ANGELS MINISTER TO THE NEEDS OF THOSE WHO PRAY</h2>
-The Psalmist rejoiced that through the ministry of the angel of the Lord his prayers were answered:
-“I sought the LORD, and he answered me; he delivered me from all my fears…The angel of the LORD encamps around those who fear him, and he delivers them.”-Psalm 34:4-7.
-When we pray, God sends angels to answer our prayers (Hebrews 1:14). Each Christian has an accompanying guardian angel:
-“See that you do not look down on one of these little ones. For I tell you that THEIR ANGELS in heaven always see the face of my Father in heaven.”-Matthew 18:10.
-Because of our prayers:
-“The Lord is near. Do not be anxious about anything, but in everything, by prayer and petition, with thanksgiving, present your requests to God. And the peace pf God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.”-Philippians 4:5-7.
+<h2>North American (NAD)</h2>
 
+<p>The territory of the North American Division includes Bermuda, Canada, the French possession of St. Pierre and Miquelon, the United States of America, Johnson Island, Midway Islands and all other islands of the Pacific not attached to other divisions, and is bounded by the dateline on the west, by the equator on the south and by longitude 120 on the east. This division, with 4,718 churches, 368 companies and 879,829 members, is divided into nine unions (1997 data). In 1997 the total population in this territory was 297,609,586.</p>
+
+<p>The North American Division is blessed to have the World Headquarters of the Seventh-day Adventist Church situated within its borders in Silver Spring, Maryland. It still maintains the special arrangement with the General Conference that it had before becoming a full-fledged division. The NAD has a president, secretary, treasurer, three vice-presidents, and department directors who oversee the work of the division. The three top officers also serve as associates in the General Conference. No other division has this arrangement.</p>
+
+<p>There are six universities, nine (tertiary level) colleges, and 1,044 primary and secondary schools operated in the North American Division. There are more than one hundred hospitals, nursing homes, and retirement centers. Two large publishing houses, the Pacific Press and the Review and Herald, serve both the North American Division and the world field.</p>
+
+<p>Many institutions in the North American Division help to make it a training and supply center for the world. In 1997 there were 619 NAD employees working as interdivision employees (formerly called missionaries) serving in overseas divisions. Of these 619, there were 142 serving in the medical work. This division had more interdivision employees serving in other countries than all the other divisions combined. Also in 1997 there were 289 Adventist Volunteers serving in other countries. There were 83 young Task Force volunteers serving within the North American Division.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 13/S13E07.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE CHRISTIAN LIFESTYLE</h2>
-The Bible describes a distinct Christian lifestyle. According to Ephesians 4:22-24, the Christian is to “put off” the old lifestyle that resulted from “deceitful desires,” and “put on” the new lifestyle that is “created to be like God.” In this scripture and in Guide 6 we discovered that at the new birth we are “re-created” to be a different kind of person in Christ.
-This guide and the six guides which follow, showcase the Christian lifestyle; they reveal the secrets of a happy Christian life. They will help you build a stronger relationship with Christ, that will result in a distinct Christian lifestyle. So fix your eyes on Jesus today and you can be part of that final victory celebration when Christ’s peace reigns unchallenged.
+<h2>Northern Asia-Pacific (NSD)</h2>
 
+<p><strong>The former Far Eastern Division</strong>, which was organized in 1919 and renamed Asia-Pacific Division in 1995, comprised the following unions: Bangladesh, Korea, Japan, South China Island, Myanmar, East Indonesia, West Indonesia, North Philippine, Central Philippine, South Philippine, Southeast Asia, Sri Lanka Union of Churches, and the attached field of Guam-Micronesia.</p>
+
+<p>In 1997, this vast expanse was divided between the north and the south. The northern region became the new NSD and includes the following territories: The Democratic People’s Republic of Korea, Japan, Macau, Republic of Korea, Taiwan, and has added to it the countries of Mongolia and the People’s Republic of China. This new division, with a population of 1.5 billion, is the largest concentration of people of any division of the world field.</p>
+
+<p>There are 421,000 members and 1,450 churches as of 1998, comprising the Japan and Korean Union Conferences, the South China Island Union Mission, and the East Asia Association.</p>
+
+<p>The Northern Asia-Pacific Division operates the following:</p>
+<ul>
+    <li>One university</li>
+    <li>Four colleges</li>
+    <li>37 secondary schools</li>
+    <li>Four food industries</li>
+    <li>Eight hospitals</li>
+    <li>One health center</li>
+    <li>Three nursing homes/retirement centers</li>
+    <li>Three publishing houses</li>
+    <li>Four Bible correspondence schools</li>
+    <li>38 English language schools</li>
+</ul>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 13/S13E08.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>South American (SAD)</h2>
+
+<p>The South American Division was organized in 1916 and has its division offices in Brasilia, the capital of Brazil. This division now has nine unions: Austral, Bolivian, Central Brazil, Chilean, East Brazil, North Brazil, Northeast Brazil, Peruvian, and South Brazil. It also has two attached fields in Ecuador that may soon become the tenth union.</p>
+
+<p>The 2000 statistics showed 6,387 churches accommodating 1,701,600 members. This division has many schools, hospitals, clinics, and other related institutions. It also has a very active program with medical launches, airplanes, and rolling clinics. There are a number of orphanages, elderly-care facilities, and two publishing houses.</p>
+
+<p>The South American Division is considered the first-ranking division in its educational work and literature evangelism. The division also has four universities among its institutions of higher learning, which are all recognized by their respective governments and are ranked among the best in their countries. A fifth university in Brazil is now even operating on two fully-equipped campuses with maximum enrollments.</p>
+
+<p>In Brazil, at the time of this edition of this manual, a new school was being opened on the average of every five weeks. Brazil and the Philippines (SSD) were in a “friendly race” toward becoming the first million-member country. Brazil was the first to report having attained that goal at the 2000 G.C. session in Toronto, Canada.</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E09.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>South Pacific (SPD)</h2>
+
+<p>Statistics don’t tell the whole story of any division. The SPD is certainly one that would need more than a few paragraphs to illustrate even the basics. Within its five unions are more than 304,000 members scattered across a continent and nearly unnumbered islands of the blue Pacific. Some of these islands have the highest membership/population ratios in the world. As a whole, the Western Pacific Union has a ratio of 1:22.5; within it, however, is the West Solomon Islands Mission with a ratio of 1:6 in 79 churches.</p>
+
+<p>As has been mentioned in previous sections of this manual, the work began early in this part of the world; it was early reinforced by a strong educational program and backed financially by a large food industry. While there were setbacks during World War II, the work never slowed down much, especially in the island nations. Today the biggest challenge facing the division is the secularization of Australia, which has always served as the operating and financial base.</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E10.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Southern Asia (SUD)</h2>
+
+<p>The Southern Asia Division today is exclusively the countries of India and Nepal. Though it lost the Unions of Pakistan, Bangladesh, Burma (Myanmar), Afghanistan, and Sri Lanka to other divisions in 1986, it has been able to more than double its membership of 134,000 at that time to its present membership (2000) of over 350,000 worshiping in more than 1,000 churches. Additionally, the church has a significant presence in the form of auxiliary institutions, with 294 schools, 4 colleges, 12 hospitals and clinics, a publishing house, and two orphanages. The division offices are now located at Hosur, Tamil Nadu, having moved from Poona in 1989. Poona, however, is still a major center for the church with the presence of Spicer Memorial College, Oriental Watchman Publishing House, Adventist Media Center, a hospital, four schools, and the Central India Union headquarters.</p>
+
+<p>There are now six unions in the division, which illustrates the rapid growth over the past few years. The first conference was organized in 1993; since then, four more sections (fields) have been moved up the scale to conference level as well. In India alone, there are now about one billion people, with 84% Hindus, 11% Muslims, and 3.5% other religions. Christians form a small minority of 2.4% of the total population. In spite of this, the work of the gospel is being aggressively pushed forward, with plans to construct a thousand new churches during the three-year period surrounding the turn of the millennium.</p>
+
+<p>The following is a brief synopsis of the beginnings of the work in India: William Lenker and A. T. Stroup, two literature evangelists, were the first to bring the message to India back in 1893. Two years later, the first full-time missionary—a lady by the name of Georgia Burrus—arrived. Only 24 years later, the Southern Asia Division was created (1919). A school was founded in Coimbatore in 1915 by G. G. Lowry, which grew and was eventually moved to Poona, becoming then the now-famous Spicer Memorial College. Publishing work began in 1896, and today the publishing house produces material in 14 of India’s languages. Radio broadcasts from the media center are now programming ten languages.</p>
+`,
+            audioPath: './stories/audio/Section 13/S13E11.mp3',
+            questions: []      
+        },
+        {
+            text: `
+<h2>Southern Asia-Pacific (SSD)</h2>
+
+<p>The other half of the former Far Eastern Division, the SSD spreads over seven time zones, seventeen political entities and twenty-one thousand islands. Indonesia alone has over 13,000 islands, with more than 6,000 of them inhabited. “The gospel to all the world” is a particularly interesting challenge to the one million members as they seek ways of reaching the 655+ million total population of these countries.</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E12.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Trans-European (TED)</h2>
+
+<p>This division comprises an arch over northern Europe from the British Isles, Holland and Scandinavia to the Baltics and Poland; then the Balkans and Greece; from Egypt and Sudan through the Middle East; and Pakistan, for a total of 41 political entities with some challenges equal to those faced by EUD.</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E13.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Southern Africa Union (SAU)</h2>
+
+<p>During its history, this territory has been a part of several different entities (see East African Division for some of this information). At the time of publication of this manual, this union has been considered an attached Union to the General Conference. The decade of the nineties saw a major change take place within the political and church spheres of influence. These resulted in mergers of church structures and several very positive steps forward in the work of the church. The compilers of this information feel quite certain that the information here presented will be outdated in the near future as further restructuring continues on the paths of progress.</p>
+
+<p>Currently (1999), the union comprises the countries of Namibia, Lesotho, Swaziland, the Republic of South Africa, and three South Atlantic island entities. Educational institutions include two colleges and five secondary schools, two hospitals, one publishing house, and numerous other institutions. The membership has surpassed the 71,000 mark.</p>
+            `,
+            audioPath: './stories/audio/Section 13/S13E14.mp3',
+            questions: []
         }
     ]
 };

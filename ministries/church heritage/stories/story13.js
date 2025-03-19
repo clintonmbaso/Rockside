@@ -1,136 +1,247 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story13 = {
-    title: "From Guilty Sinner to Forgiven Saint",
+    title: "The Departments of the Church",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
-                <p>There were no fingerprints. No weapon was ever discovered. No one saw the murderer enter the office of the doctor. No one even heard the shots ring out. But the doctor was found sprawled behind his desk. Five bullets had pierced his shirt.
-It seemed the perfect crime. The police at first could find no clues. But then they noticed a tiny wire attached to a pencil holder on the doctor’s desk. The wire led to a tape recorder in a desk drawer. The pencil holder, they realized, actually concealed a microphone that the doctor used to record his conversations with the patients he was counseling.
-The investigators quickly rewound the tape and, to their amazement, began to listen to a replay of the actual crime. A man named Anthony had entered the office and began a heated argument with the doctor. Shots rang out. The tape ended with the terrible moans of the doctor, dying on the carpet.
-Every awful detail had been recorded. The murderer thought his crime would forever remain a secret. He’d been so careful to leave no clues. But the tape told the whole story.
-In this guide we’re going to learn about God’s final judgment when human beings are “judged according to what they had done as recorded in the books” (Revelation 20:12). For those who have not accepted Christ as their Savior, it will be bad news. But the judnment is wonderfully good news for those who’ve found security in Christ.
-</p>
-            `,
-            questions: [
+<h2>Facts About the Departments and Services</h2>
 
-            ]
+<ul>
+    <li>They have been organized to distribute responsibility and provide specialized expertise to strengthen various aspects of church life.</li>
+    <li><em>The ultimate objective of every department is to win souls for the Lord through as many and varied means as possible.</em></li>
+    <li>Departmental work is advisory rather than administrative.</li>
+    <li>There are departmental directors at all levels: the local church, the Conference/Field, the Union, the Division, and the General Conference.</li>
+    <li>The leaders of the various departments cooperate with one another in order to keep a unified and balanced work throughout the world.</li>
+    <li>A few departments are limited to certain territories and are not worldwide.</li>
+    <li>Most of the following departments are found in all divisions of the world:</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 12/S12E01.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>HOW YOU CAN FACE THE JUDGMENT UNAFRAID</h2>
-Who will judge the world?
-“The Father judges no one, but has entrusted all judgment to the Son.”-John 5:22. (Unless otherwise noted, all Scriptural texts in the DISCOVER guides are from the New International Version of the Bible [NIV].)
-How did the cross prepare Christ to become our Judge?
-“God presented him [Jesus] as a sacrifice of atonement, through faith in his blood. He did this to demonstrate his justice,… so as to be JUST AND THE ONE WHO JUSTIFIES those who have faith in Jesus.”-Romans 3:25, 26.
-Christ’s death as our substitute enables Him to act as both a just Judge and a gracious Justifier who can forgive the repentant sinner. When the watching universe asks the question, “How can an impartial judge declare a guilty person not guilty?” Christ can answer by pointing to the scars in His hands. He has received the just penalty for our sins in His own body.
-The books of heaven preserve a record of every individual life, and these records are utilized in the judgment (Revelation 20:12). That’s the bad news for those who imagine their secret sins and crimes will never return to haunt them. But there is wonderfully good news for all who’ve sincerely accepted Christ as their Advocate in heaven: “The blood of Jesus… purifies us from all sin” (1 John 1:7).
-What does Jesus offer in exchange for our life of sin?
-“God made him [Christ] who had no sin to be sin for us, so that in him we might become the righteousness of God.”-2 Corinthians 5:21.
-Our life of sin is exchanged for Christ’s perfect life of righteousness. Because of Jesus’ sinless life and death, God can forgive us and treat us as if we’d never sinned.
-What qualifies Jesus to be our Advocate and Judge?
+<h2>Communication</h2>
 
-            `,
-            questions: [
+<p><em>The mission statement of the Communication Department is “building bridges of hope.”</em> This is being accomplished by reaching the diverse church audiences, both within and externally, with an open, responsible, and hope-filled communication program, and through the effective use of contemporary technologies and methods of communication.</p>
 
-]
+<p>The desired effect of the Adventist communication vision and activities is to create a favorable image of the church, its mission, life, activities, and witness, so that many will become followers of Christ and members of His church.</p>
+
+<p>The Communication Department of the General Conference dates back to 1972, when it was transformed from the former Bureau of Public Relations and the Radio-Television Department. Now, the department has these basic functions:</p>
+
+<ul>
+    <li>News and information</li>
+    <li>Public and media relations</li>
+    <li>Online services</li>
+</ul>
+
+<p>This includes the operation of the <strong>Adventist News Network</strong>, a news agency established in 1994, as well as implementing the varied features of the church’s webpage on <a href="http://www.adventist.org">www.adventist.org</a>.</p>
+
+<p>The department also oversees activities relating to the overall World Church communication strategy: <strong>“Seventh-day Adventists will communicate hope by focusing on the quality of life that is complete in Christ.”</strong></p>
+`,
+            audioPath: './stories/audio/Section 12/S12E02.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>CHRIST CAME ON TIME</h2>
-At His baptism, Jesus was anointed by the Holy Spirit:
-“As soon as Jesus was baptized, he went up out of the water. At that moment heaven was opened, and he saw the Spirit of God descending like a dove and lightning on him. And a voice from heaven said, ‘This is my Son, whom I love; with him I am well pleased.’”-Matthew 3:16, 17.
-Following Christ’s anointing by the Holy Spirit at His baptism, the disciples announced:
-“We have found the Messiah’ [the Christ].”-John 1:41.
-The disciples knew that the Hebrew word “Messiah” and the Greek word “Christ” both mean “the anointed One.”
-Luke, a disciple of Jesus, recorded the date of Jesus’ anointing as the Messiah as the fifteenth year of Tiberius Caesar (Luke 3:1). To us that would be the year A.D. 27.
- More than 500 years before Jesus came the prophet Daniel predicted that Jesus would be anointed as the Messiah in A.D.27:
-“From the issuing of the decree to restore and rebuild Jerusalem until the Anointed One,…will be seven ‘sevens’ [weeks, Hebrew] and sixty-two ‘sevens’ [weeks].-Daniel 9:25.
-Seven weeks and sixty-two weeks total sixty-nine weeks or 483 days (7 X 69 = 483 days). In symbolic Bible prophecy each day equals one year (Ezekiel 4:6; Numbers 14:34), so the 483 days equal 483 years. Daniel predicted that command would go forth to restore and rebuild Jerusalem and exactly 483 years after this command, the Messiah would appear.
-Did Jesus appear as the Messiah at the appointed time? Artaxerxes issued the decree to rebuild Jerusalem in 457 B.C. (Ezra 7:7-26). The 483 years, then, ended in A.D.27 (457 B.C. + A.D.27 = 484.) The decree went forth during the year 457 and Christ was anointed during A.D.27, making them both partial years, so the correct time would be 483 years.)
-At the very time appointed, in A.D.27, Jesus appeared with message: “The time has come” (Mark 1:15). The accurate fulfillment of this Bible prophecy is impressive confirmation that Jesus of Nazareth is indeed the Messiah, God in human flesh.
-How long was Jesus to confirm the promise?
-“He will confirm a covenant [a promise] with many for one ‘seven’ [week, Hebrew].”-Daniel 9:27, first part.
-When we apply the year-day principle, this “week” would be seven years. So, for seven years-from A.D.27 to A.D.34-Jesus would “confirm a covenant” or promise, He had made to Adam and Eve shortly after they sinned. God made a covenant, a promise, that He would save the human race from sin through the death of Someone He would send to die for our sins (Genesis 3:15).
-What was to happen in the middle of this seventieth week?
-“In the middle of the ‘seven’ [week, Hebrew] he will put an end to sacrifice and offering.”-Daniel 9:27, last part.
-Jesus was crucified in A.D.31, in “the middle of the week.” At the moment of Christ’s death, God tore “the curtain of the temple… in two from top to bottom” (Matthew 27:51). The sacrificial offering about to be slain (a symbol of Jesus “the Lamb of God”) escaped from the priest’s hands. This was a sign that God no longer wanted humanity to offer animal sacrifices. Fulfilling prophecy down to the letter, Jesus “put an end to” any need for further sacrifices to be offered. Since Christ’s death, people gain access to God not through animal sacrifices and human priests, but through the Messiah, the Lamb of God and our High Priest.
+<h2>Education</h2>
 
+<p>The Education Department provides coordination and supervision to the worldwide Seventh-day Adventist educational system, from the elementary school to the university level. Adventist educational institutions promote the total development of their students– mental, spiritual, physical, and social– and actively support the mission of the church.</p>
+
+<p>The first denominationally-sponsored Adventist elementary and secondary school began in Battle Creek, Michigan, in 1872, and the first college opened in the same location in 1874. Since then, Adventists have established new schools, colleges, and universities in over one hundred countries, with more than one million students enrolled.</p>
+
+<p>The Education Department publishes <em>The Journal of Adventist Education</em> in English, French, Portuguese, and Spanish. The department also supports the church’s ministry on behalf of Adventist students attending public colleges and universities by publishing <em>Dialogue</em>, which is distributed free to them in the same four languages.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 12/S12E03.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE ASSURANCE OF SINS FORGIVEN</h2>
-According to Daniel’s prophecy, why did Jesus die?
-“The Anointed One will be cut off but not for himself.”-Daniel 9:26, margin.
-At his death on the cross, Jesus was “cut off.” He died, “but nor for himself.” Not to pay a penalty for His own sin, but to pay the penalty for sins of the entire world.
-How can we know that God has forgiven all our sins?
-“Righteousness from God comes through faith in Jesus Christ to all who believe….ALL HAVE SINNED…, and are JUSTIFIED freely BY HIS GRACE through the redemption that came by Christ Jesus…THROUGH FAITH IN HIS BLOOD.”-Romans 3:22-25.
-The key points in these verses are: We “all have sinned,” but because of God’s “grace,” all “are justified” who have “faith” in the cleansing power of Christ’s “blood.” When we are justified, God declares us not guilty, taking away the guilt of our past sins. And God declares us righteousness; “righteousness from God comes through faith in Jesus Christ.”
-All of us who are worn out by the struggle to be good enough, to measure up on our own, can find real rest in Christ’s gracious acceptance. He promises, “Come to me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28). All of us who are burdened by scars from the past and by an aching sense of inadequacy and shame, can find peace and wholeness in Christ.
+<h2>Family Life</h2>
 
+<p>The over-arching objective of the Department of Family Ministries is to strengthen families as disciple-making centers. Established at creation, the family is the primary setting in which values are learned and the capacity for close relationships with God and with other human beings is developed. The department seeks to enable families to stretch toward divine ideals, while at the same time extending the good news of God’s saving grace and the promise of growth possible through the indwelling Spirit.</p>
+
+<p>Family Ministries focuses on people in relationship and is concerned with the needs of married couples, parents and children, the family needs of singles, and all members of the wider family circle as they pass through life’s predictable stages and contend with unexpected changes in their lives.</p>
+
+<p>The department fosters growth opportunities through family life education and marriage and family enrichment programs. It supports and encourages families and family members to avail themselves of professional counseling when necessary to provide healing from abuse or other trauma.</p>
+
+<p>Specific tasks of the department include preparation of resources for <strong>Christian Home and Marriage Week</strong> and <strong>Family Togetherness Week</strong>, as well as resources and leadership development to equip pastors and lay leaders in a number of curricular content areas, such as premarital guidance, strengthening marriage, parent education, human sexuality, communication, and family evangelism.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 12/S12E04.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE TIME FOR THE JUDGMENT TO BEGIN</h2>
-In the eighth chapter of Daniel an angel showed the prophet a great panorama of the future. Daniel saw (1) a ram, (2) a he-goat, and (3) out of one of the horns of the he-goat, “another horn which started small and grew in power” (Daniel 9:8, 9); symbols representing (1) Medo-Persia, (2) Greece, (3) Rome (Daniel 8:1-12, 20-26).
-What is the fourth part of the prophecy?
-“’How long will it take for the vision to be fulfilled-the vision concerning the daily sacrifice…?’ He said to me, ‘It will take 2,300 evening and mornings [or days, Hebrew]; then the sanctuary will be reconsecrated [cleansed].’”-Daniel 8:13, 14.
-Daniel fainted before the angel could explain the 2,300-day part of he prophecy, and the eighth chapter closes with no interpretation of it. But later the angel reappeared and stated:
-“Understand the vision: seventy ‘seven’ [weeks, Hebrew] are decreed [cut off, Hebrew] for your people and your holy city to finish transgression, to put an end to sin, to atone for wickedness.”-Daniel 9:22-24.
-The 2,300 days are, of course, 2,300 years, each day standing for a year (Ezekiel 4:6). Seventy weeks, or 490 years, constituted the first section of the longer period of 2,300 years. Both time periods started in 457 B.C. when Persia used the decree “to restore and rebuild Jerusalem.” Subtracting 490 years from the 2,300 years, leaves 1,810. Adding 1,810 years to A.D.34, when the 490 years ended, brings us to A.D. 1844.
+<h2>Global Mission</h2>
+
+<p>Mission is the primary work of the church. As Seventh-day Adventists, we have a mandate to proclaim the name of Christ to every person in the world. To serve this objective, nothing is more cutting-edge than Global Mission.</p>
+
+<p>In 1990, the world church created Global Mission, with the aim of establishing congregations in every unentered people group and territory in the world. From 1990 to 2000, the church has risen to meet the challenge. During this ten-year period, more than 15,000 new churches have been established, to say nothing of the additional thousands of new congregations. In 1990, our church was establishing one new church per day. In the year 2000, the church was establishing five new churches per day. The membership of the church has grown from 6 million to nearly 11 million members during the same time. Huge territories such as China, the former Soviet Union, India, and the Middle East have experienced explosive church growth. It is clear that these accomplishments are a result of the power of the Holy Spirit.</p>
+
+<p>Global Mission’s mandate is clear. However, the only way the church can hope to meet the challenge of mission is through each member’s involvement–<strong>your involvement</strong>. Pray every day that the Holy Spirit will continue to prepare and reap the harvest. Find a way to personally impact mission. Remember the AY Aim: <em>“The Advent Message to All the World in My Generation.”</em></p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 12/S12E05.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE HEAVENLY SANCTUARY CLEANSED-A JUDGMENT</h2>
-The angel told Daniel that in 1844, at the end of the 2,300 years “the sanctuary will be cleansed” (Daniel 8:14, KJV). But what does that mean? Since A.D.70 when the Romans destroyed the temple at Jerusalem, God’s people have had no temple on earth. So the sanctuary to be cleansed, beginning in 1844, has to be the heavenly sanctuary of which the earthly temple was a replica.
-Now, what does the cleansing of the heavenly sanctuary mean? Ancient Israel called the day for cleansing the earthly sanctuary Yom Kippur, the Day of Atonement. It was really a day of judgment.
-As we discovered in Guide 12, Christ’s activity for us in the sanctuary has two phases: (1) The daily sacrifices focus on the priest’s ministry in the first room of the sanctuary, the Holy Place. (2) The yearly sacrifice concentrates on the High Priest’s ministry in the second room, the Most Holy Place (Leviticus 16).
-In the earthly sanctuary, as people confessed their sins day by day, the blood of slaughtered animals was sprinkled on the corner of the altar, then transferred to the Holy Place (Leviticus 4 and 6). Thus, in symbol, day after day the confessed sins were brought into the sanctuary and laid up there.
-Then each year, on the Day of Atonement, the sanctuary was cleansed from all sins confessed during the past year (Leviticus 16). To effect this cleansing, the High Priest made a special sacrifice of a consecrated goat. He then carried its blood into the
+<h2>Health Ministries</h2>
 
-At the end of the 2,300 years, “the sanctuary will be cleansed.”
+<p>The objectives are:</p>
 
-(Please refer to Guide 13 p.4 for more details.) 
-
-Most Holy Place and sprinkled this cleansing blood before the atonement cover to show that the blood of Jesus, the coming Redeemer, would pay the penalty for sin. The High Priest then symbolically removed the confessed sins from the sanctuary and placed them on the head of another goat, which was led out into the wilderness to die (Leviticus 16:20-22).
-This ceremony on the yearly Day of Atonement cleansed the sanctuary from sin. The people regarded it as a day of judgment because those who refused to confess their sins were considered unrighteous and were “cut off from [God’s] people” (23:29).
-What the High Priest did symbolically once a year, Jesus does once for all time as our High Priest (Hebrews 9:6-12). In the great judgment day He removes from the sanctuary the confessed sins of all who have accepted Him as their Savior. If we have confessed our sins, He will forever blot out the record of our sins at that time (Acts 3:19). This ministry is the work of judgment that Jesus began in 1844.
-In 1844 when the hour of God’s judgment began in heaven, a judgment hour message began to be preached throughout the world (Revelation 14:6-7). A future DISCOVER guide will deal with this message.
-
+<ul>
+    <li>To promote health and well-being of all members of the church and community.</li>
+    <li>To establish caring units such as hospitals, clinics, smoking-cessation support groups, or even AIDS support groups in churches, schools, or other Adventist and non-Adventist institutions.</li>
+    <li>To promote abstinence from harmful substances. Health Ministries seeks to establish, above all, relationships with people regardless of race, gender, age, or circumstances through which the healing power of God’s grace can be disseminated.</li>
+</ul>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 12/S12E06.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>FACING YOUR LIFE RECORD IN THE JUDGMENT</h2>
-Since 1844 Christ, as Judge, has been investigating the record of each person who has ever lived to confirm who will be among the saved when Jesus comes. As our Judge, Jesus “wipe out” all of the sins of the righteous from their life record in heaven (Acts 3:19).
-When your name comes up in judgment, it will be easy to face your life record-IF you’ve accepted Christ as your Substitute. And when the judgment of the righteous is finished, Jesus returns to earth to reward them (Revelation 22:12, 14).
-Are you ready for Jesus to come? Or is there something you’ve been hiding from Him? Do you have an open and honest relationship with the One who promises:
-“If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.”-1 John 1:9.
-Confession simply means agreeing to face our sins, accept God’s forgiveness, and acknowledge our need of His power and grace.
-While visiting a prison in Potsdam, King Frederick William I listened to a number of pleas for pardon. All the inmates swore that prejudiced judges, perjured witnesses, or unscrupulous lawyers were responsible for their imprisonment. From cell to cell the same story of wronged innocence continued. 
-But at one cell the inmate had nothing to say. Surprised, Frederick joked, “I suppose you are innocent too.”
-“No your majesty,” the man answered, “l am guilty and richly deserve all that I get.”
-The king turned to the guard and called out loudly, “Come and release this rascal quickly, before he corrupts this fine lot of innocent people.”
-How do we prepare for the judgment? How do we get ready for Christ to come? Simply by an honest confession of the truth: I richly deserve the penalty of death for my sins, but Another has taken my place and given me a wonderful pardon.
-Make a commitment right now that whatever happens, you’ll keep your relationship with Christ eye-to-eye honest and heart-to-heart sincere.
+<h2>Ministerial</h2>
+
+<p>The Ministerial Association serves pastors, pastoral spouses and families, evangelists, Bible instructors, and local church elders with encouraging spiritual nurture, professional development, practical resources, and continuing education.</p>
+
+<p>Official publications of the Ministerial Association are:</p>
+<ul>
+    <li><strong>Shepherdess International Journal</strong> for pastoral spouses</li>
+    <li><strong>Elder’s Digest</strong> for local church elders</li>
+    <li><strong>Ministry magazine</strong>, which goes monthly to all Adventist ministers and bimonthly to clergy of all denominations.</li>
+</ul>
+
+<p>Official books include:</p>
+<ul>
+    <li><strong>Minister’s Handbook</strong></li>
+    <li><strong>Elder’s Handbook</strong></li>
+</ul>
+
+<p>The Ministerial Association Resource Center develops and distributes an amazing variety of practical and instructive materials produced in books, videos, cassette tapes, computer diskettes, and compact disks.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 12/S12E07.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Public Affairs and Religious Liberty</h2>
+
+<p><em>This department has had only one objective: to preserve the rights of every person, everywhere, regardless of creed or status. These rights – to worship, to life, to liberty – were given to man by his Creator.</em></p>
+
+<p>The Department of Public Affairs and Religious Liberty has placed the views of the church regarding the principles of separation of church and state before officials and public leaders through <em>Liberty</em> magazine and <em>Fides et Libertas</em>. The department also organizes international symposiums and congresses throughout the world in support of religious freedom.</p>
+            `,
+            audioPath: './stories/audio/Section 12/S12E08.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Publishing</h2>
+
+<p>The <strong>Publishing Department</strong> is responsible for fostering the production and sale of Adventist evangelistic and nurturing literature as well as recruiting, training, and assisting literature evangelists with their work.</p>
+
+<p>This, in a sense, is the oldest of departments, for the publishing work dates back to 1849. The first steam press was paid for by a farmer selling his oxen. George King was the first literature evangelist, beginning in 1878. Today, literature produced by fifty-eight publishing houses is being sold by 24,000 literature evangelists worldwide, totaling over one hundred million dollars annually, and accounts for more than 60,000 baptisms each year.</p>
+            `,
+            audioPath: './stories/audio/Section 12/S12E09.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Sabbath School and Personal Ministries</h2>
+
+<p>It is the mission of the Sabbath School/Personal Ministries Department of the General Conference to provide resources and training coordination for Sabbath School and for membership involvement in soul-winning, and to promote world mission emphasis.</p>
+
+<h3>Sabbath School</h3>
+<p>The Sabbath School unit of the department has served the church for more than one hundred years. The mission of the Sabbath School unit is to provide religious education systems and materials for the local church that build faith and practice. It has four purposes:</p>
+
+<ol>
+    <li><strong>Study of the Word</strong>, enabling members to study the Word of God systematically.</li>
+    <li><strong>Fellowship</strong>, providing opportunity for social interaction.</li>
+    <li><strong>Community outreach</strong>, teaching the gospel to those who do not know it.</li>
+    <li><strong>World mission emphasis</strong>, making funds available for the worldwide expansion of the church.</li>
+</ol>
+
+<p>The department produces the Sabbath School Bible Study Guides in various editions for all age groups.</p>
+
+<h3>Personal Ministries</h3>
+<p>The mission of the Personal Ministries unit of the department is to motivate, equip, and mobilize the membership to accomplish the world mission of the church. Its responsibility is to organize and lead the church into service for Christ. It encourages evangelism, especially in many ways, such as lay training through the International Institute of Christian Ministries, Bible studies, Community Services activities, public evangelistic activities led by church members, and Bible correspondence courses.</p>
+            `,
+            audioPath: './stories/audio/Section 12/S12E10.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Stewardship</h2>
+
+<p>The Stewardship Department exists to train administrators and pastors in Biblical stewardship. The goal of this department is to provide, for every church member, the opportunity to understand, accept, and live true stewardship as a lifestyle of one who accepts Christ’s lordship, walks in partnership with God, and acts as God’s agent to manage His affairs on earth.</p>
+`,
+            audioPath: './stories/audio/Section 12/S12E11.mp3',
+            questions: []      
+        },
+        {
+            text: `
+<h2>Women’s Ministries</h2>
+
+<p>Women’s Ministries began in 1898 with the encouragement of Ellen G. White. However, it soon faded out because of the untimely death of the leader, Sarepta Myrenda (Irish) Henry. It was reactivated in 1990 and became a full department in 1995, so it is both one of the newest and oldest departments.</p>
+
+<p>Women make up about 70% of the Seventh-day Adventist Church. The spiritual growth of these women, regardless of age, is the first objective of Women’s Ministries, involving women ministering to and for women.</p>
+
+<p>Women’s Ministries supports and works to elevate women as persons of inestimable worth because they have been created and redeemed. It strives to build networks among women in the world church to encourage bonds of friendship and mutual support and the creative exchange of ideas and information. This involves the publishing of a yearly devotional book, the profits of which go entirely to scholarships for women. It fosters the mentoring of young Adventist women, encouraging their involvement in the work of the church.</p>
+
+<p>Women’s Ministries seeks to address the concerns of women in a global context, bringing women’s unique perspectives to the issues facing the world church; seeks to expand avenues of dynamic Christian service for women; challenges each Adventist woman to find and use her spiritual gifts, working together with the men to further the global mission of the Seventh-day Adventist Church.</p>
+            `,
+            audioPath: './stories/audio/Section 12/S12E12.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Youth Ministries</h2>
+
+<p><strong>For several decades, this department was known as the Youth Department of Missionary Volunteers</strong> (abbreviated as MV Department). In 1985, five departments were merged together—Family Ministries, Personal Ministries, Sabbath School, Stewardship, and Youth—under the title of Church Ministries. This concept met with mixed success, and in 1995 some of the merged departments were again separated, with only Personal and Sabbath School Ministries staying together. Today, we’re again known as the Youth Department and are commonly referred to as Youth Ministries. Aspects of youth ministry that are attended to by this department include:</p>
+
+<ul>
+  <li>Adventurer Club (ages 6-9) with four age-related classes: Busy Bee, Sunbeam, Builder, and Helping Hand;</li>
+  <li>AJY Society and Pathfinder Clubs (ages 10-15) with six age-related classes: Friend, Companion, Explorer, Ranger, Voyager, and Guide;</li>
+  <li>AY Society and other young-adult-related organizations and activities designed for ages 16-30.</li>
+</ul>
+
+<p><strong>The purpose of the Youth Department</strong> is to aid in the harmonious development of the physical, mental, social, and spiritual life of the youth and to train and organize them for Christian service. The key expression that permeates all youth ministry-related activities is “Salvation and Service.”</p>
+
+<p>How this phrase translates into activity is outlined in such publications as the “Youth Leaders Handbook,” “Camp Directors Manual,” “Pathfinder Administrative Manual,” “Adventurer Club Manual,” “Camporee and Fair Manual,” etc. The department also produces a quarterly publication called Youth Ministry Accent with materials designed for church youth leaders at all levels.</p>
+
+<p>Various programs have been introduced through the years, each meeting the needs of the youth during the appropriate times. Some better-known ones are: Friendship Evangelism in the fifties, Tell Ten in the sixties, Festivals of Faith in the seventies, New Beginnings in the eighties, and ushering in the new millennium, a service-oriented program called Heart, Hand, and Mind.</p>
+
+<p>Volunteerism took on new meaning and new directions beginning in the sixties with the Student Missionary program. First, colleges began sending students out as volunteers for several months or a year to help churches and institutions around the world. Then academies and Pathfinder Clubs began sending groups out on building projects or to spend time helping at schools or orphanages, running Vacation Bible Schools, and all sorts of other service-related activities from neighboring countries to local neighborhoods.</p>
+            `,
+            audioPath: './stories/audio/Section 12/S12E13.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>World Youth Directors of the General Conference</h2>
+
+<p>Since the department was organized in 1907, the following individuals have served as World Youth Directors of the General Conference:</p>
+
+<ul>
+  <li><strong>M. E. Kern</strong> 1907-1930</li>
+  <li><strong>H. T. Elliott</strong> 1930-1933</li>
+  <li><strong>A. W. Peterson</strong> 1934-1946</li>
+  <li><strong>E. W. Dunbar</strong> 1946-1955</li>
+  <li><strong>Theodore Lucas</strong> 1955-1970</li>
+  <li><strong>John Hancock</strong> 1970-1980</li>
+  <li><strong>Leo Ranzolin</strong> 1980-1985</li>
+  <li><strong>Dept. of Church Min.</strong> 1985-1995</li>
+  <li><strong>Baraka Muganda*</strong> 1995-</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 12/S12E14.mp3',
+            questions: []
         }
     ]
 };

@@ -312,7 +312,6 @@ button:disabled {
     text-align: justify;
     overflow-y: auto;
     height: 80vh;
-    max-height: 450px;
 }
 
 .story-part h2 {

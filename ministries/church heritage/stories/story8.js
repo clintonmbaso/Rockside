@@ -1,114 +1,165 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story8 = {
-    title: "When Jesus Comes for You",
+    title: "Significant Advances and Losses",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
-                <p>After years of mistreatment, Armando Valladares was an emaciated, crippled shadow of his former self. He was serving a 30-year sentence in one of Castro’s prisons for praying in a church on Christmas Day. Prison officials starved, tortured, and humiliated the man, but he refused to give up his faith.
-Something kept him going: a promise he’d made to a young woman named Martha. They had met and fallen in love while he was in prison. She was deeply attracted to his passionate faith. Shortly after the couple married in a civil ceremony in the prison courtyard, Martha was forced to emigrate to Miami.
-Their separation was very painful. But Armando managed to smuggle out a promise to his beloved. On a tiny piece of discarded paper he scribbled his pledge: “I will come to you. The bayonets in the horizon beyond my back will no longer matter.”
-This prisoner determined that somehow he and Martha would make their vows in a church before God. Someday their union would be complete. “You are always with me,” he told her.
-Armando’s promise kept him going through years of mistreatment that would have destroyed the spirit of most men. And it kept Martha going. She worked tirelessly to bring public attention to her husband’s plight. She never gave up hope.
-</p>
-            `,
-            questions: [
+<h2>Significant Advances</h2>
+<p>The following are some of the advances the church incurred.</p>
+<h3>a. Youth Ministry</h3>
+<p>The first young people’s society was organized in <strong>Hazelton Township, Michigan</strong>, in <strong>1879</strong>, by two youth – <strong>Harry Fenner</strong>, 17, and <strong>Luther Warren</strong>, 14. Twenty years later (<strong>1899</strong>) the <strong>Ohio Conference</strong> became the first to form a conference-wide youth organization. It was known as <em>Christian Volunteers</em>.</p>
 
-            ]
+<p>In <strong>1890</strong>, the first youth ministry-related manual appeared under the title “<em>Manual of Suggestions for Those Conducting Youth Meetings</em>.” These ideas spread rapidly: by <strong>1891</strong>, Youth Societies were formed in <strong>Wisconsin</strong>; by <strong>1892</strong>, they had spread to <strong>Australia</strong>; by <strong>1901</strong>, <strong>Missionary Volunteer</strong> membership cards were being issued, and by <strong>1904</strong>, the first <em>Manual of Young People’s Work</em> appeared. To begin with, youth ministry came under the direction of the <strong>Sabbath School Department</strong>, but in <strong>1907</strong>, the <strong>General Conference Youth Department</strong> was formally organized, and Elder <strong>M. E. Kern</strong> was appointed as director.</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E01.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>Everything Designed has a Designer</h2>
-            1.	THE PROMISE
-At times we may be tempted to wonder, will Christ really descend someday from this blue sky above us for a wonderful reunion? We’ve been separated for so long. Such a happy ending to the earth’s long, tragic history may appear just too good to be true. But there’s one thing that can keep hope alive in our hearts. And that’s simply Jesus’ promise to return. Just before departing from His disciples into heaven, Jesus made this pledge:
-“Do not let your hearts be troubled. Trust in God; trust also in me. In my Father’s house are many rooms; if it were not  so, I would have told you. I am going there to prepare a place for you. And if I go and prepare a place for you, I WILL COME BACK and take you to be with me that you also may be where I am.”-John 14:1-3. (Unless otherwise noted, all Scriptural texts in the DISCOVER guides are from the New International Version of the Bible [NIV].)
-Before ascended to heaven, He assured His followers, “I WILL COME BACK!” He promised to return and take all who trust in Him to the special place He has prepared for us. Scriptures speaks of His second coming approximately 2,500 times. The fact that Jesus is coming to the world a second time is as certain as the reality that He lived on this earth two thousand years ago. 
-Long ago God promised that a Messiah would come, a Deliverer who would take on Himself our iniquities and provide pardon for human sin. That promise seemed too good to be true to many in the ancient world who were slogging through their lives. But Jesus did come and die on the cross. The promise came true more gloriously than people imagined possible. His promise to return will also come true. We can rely on the One who loves us, to return and gather up those for whom He has paid an infinite price.
-Throughout his imprisonment, Armando continued to smuggle poems, messages, and drawings to Martha. And she managed to publish some of these writings. Their eloquence attracted world attention. Government began pressuring Castro to release prisoners of conscience. The French president intervened and at last in October of 1982 Armando was placed on a plane headed for Paris. He hardly dared believe he was free-even after the plane touched down. But then, after two decades of suffering and longing and waiting, Armando rushed into Martha’s arms.
-A few months later the happy couple stood in Miami’s St. Kieran Church and repeated their vows. At last their union was complete. The promise was fulfilled: “I will come to you.”
-Can you imagine what a wonderful reunion it will be when finally we are able to see Christ face-to-face? His glorious appearing will swallow up all our sorrows and frustrations, wipe away all the pain that we’ve kept hidden in our hearts. Jesus’ return will fulfill our deepest longings and most exciting expectations. And we’ll embark on an eternity of intimate union with the most wonderful personality in the Universe. 
-Jesus is coming soon! Are you eager to meet Him?
-
+<h3>b. Colporteur Ministry</h3>
+<p>In <strong>1879</strong>, <strong>Ellen White</strong> was shown the need to circulate books as widely as possible among the public. Two years later, <strong>George King</strong> felt burdened to sell <strong>Uriah Smith’s</strong> book <em>Daniel and the Revelation</em>. The plan was very successful and introduced the colporteur ministry to the church. Today, thousands around the world either make their living through this ministry or earn school scholarships during the summer months.</p>
 `,
-            questions: [
-
-]      
+            audioPath: './stories/audio/Section 7/S07E02.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>Everything Made has a Marker</h2>
-2.	HOW WILL JESUS COME?
-(1)	Will Jesus come in secret?
-“See, I [Jesus] have told you ahead of time. So if anyone tells you, ‘There he is, out in the desert,’ do not go out; or, ‘Here he is, in the inner rooms,’ do not believe it. FOR AS LIGHTNING that comes from the east IS VISIBLE even in the west, SO WILL BE THE COMING OF THE SON OF MAN.”-Matthew 24:25-27.
-Lightning flashes out very visibly for great distances, so the coming of Jesus will not be some secret or subjective event.
-(2)	Will Jesus come again as a real person?
-“They [Jesus’ followers] were looking intently up into the sky as he [Jesus] was going, when suddenly two men dressed in white stood beside them. ‘Men of Galilee,’ they said, ‘why do you stand here looking into the sky? THIS SAME JESUS, who has been TAKEN from you INTO HEAVEN, WILL COME BACK IN THE SAME WAY you have seen him go into heaven.’ “-Acts 1:10-11.
-On the day of His departure from our world the angels assured the disciples that the “same Jesus” taken up into heaven-not someone else-would come back in person as King of Kings. The same Jesus who healed the sick and opened blind eyes. The same Jesus who spoke gently to the woman taken in adultery. The same Jesus who wiped away mourner’s tears and welcomed children into His lap. The same Jesus who died on Calvary’s cross, rested in the grave, and rose form the dead the third day. 
-(3)	Will Jesus come so we can see Him?
-“Look, he is coming with the clouds, and EVERY EYE WILL SEE HIM.”-Revelation 1:7 (first part).
-All who are alive when Jesus comes again, both the righteousness and the wicked, will witness His return.
-How many did Jesus Himself say would view His return?
-“At that time the sign of the Son of Man will appear in the sky, and ALL THE NATIONS OF THE EARTH will mourn. THEY WILL SEE the Son of Man coming on the clouds of the sky, with power and great glory.”-Matthew 24:30.
-Every living person on our globe will see Jesus return.
-(4)	Who will accompany Jesus when He comes?
-“When the Son of Man comes in his glory, and all the angels with him, he will sit on his throne in heavenly glory.”-Matthew 25:31.
-Imagine what it will be like when Jesus returns in all His splendor surrounded by “all angels.”
-(5)	Can we predict the exact time of Jesus’ return?
-“No one knows about that day of hour, not event the angels in heaven, nor the Son, but only the Father…. So you also must be ready, because the Son of Man will come at an hour when you do not expect him.”-Matthew 24:36, 44.
-Everyone will see Jesus’ glorious arrival, but many will be unprepared for it. Are you personally ready for Jesus to come?
-
+<h3>c. Tithing Adopted</h3>
+<p>The tithing system replaced the <em>systematic benevolence</em> plan in <strong>1878</strong>. The new combination of tithes and book sales greatly strengthened all phases of ministry. The plan of tithes and systematic offerings has enabled the church to finance a worldwide mission and institutional development program.</p>
             `,
-            questions: [
-
-]
+            audioPath: './stories/audio/Section 7/S07E03.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>God comes into Personal Relationship with People</h2>
-3.	WHAT WILL JESUS DO WHEN HE COMES AGAIN?
-(1)	Jesus will gather all the saved (the elect).
-“And he will send his angels with a loud trumpet call, and they will gather his elect from the four winds, from one end of the heavens to the other.”-Matthew 24:31.
-If you have allowed Jesus to prepare you in heart and life, you will greet Him joyfully as your Savior.
-(2)	Jesus will awaken the righteous dead.
-“For the Lord Himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and THE DEAD IN CHRIST WILL RISE FIRST.”-1 Thessalonians 4:16.
-Jesus descends from heaven with a shout. His mighty voice is heard around the world. It breaks open graves in every cemetery and resurrects millions of people who have accepted Jesus through the ages. What an exhilarating day that will be!
-(3)	Jesus will transform all the righteous at His coming-not only the righteous dead, but also the righteous living.
-“After that, we who are still alive and are left WILL BE CAUGHT UP TOGETHER WITH THEM in the clouds to meet the Lord in the air. And so we will be with the Lord forever.”-Verse 17.
-To prepare us for eternity, Christ changes our mortal bodies that are subject to death into beautiful immortal bodies.
-“Listen, I tell you a mystery: We will not all sleep, but WE WILL ALL BE CHANGED-in a flash, in the twinkling of an eye, AT THE LAST TRUMPET. For the trumpet will sound, THE DEAD WILL BE RAISED IMPERISHABLE, and WE WILL BE CHANGED. For the perishable must clothe itself with the imperishable, and the mortal with immortality.”-1 Corinthians 15:51-53.
-When Jesus comes “we will all be changed.” Just think: no more arthritis, paralysis, or cancer. Shut down the hospitals and close up the funeral homes. Christ has come!
-(4)	Jesus will take all the righteous people to heaven.
-Jesus Himself made the promise, “I will come back and take you to be with me” in My Father’s house (see John 14:1-3). Peter speaks of the inheritance of the redeemed “kept in heaven for you” (1 Peter 1:4). We can look forward to exploring the marvels of God’s city, the New Jerusalem, and getting to know our heavenly Father.
-(5)	Jesus will eliminate evil and suffering for all time.
-The wicked-those who have persistently rejected all of Jesus’ offers of mercy-actually pass sentence on themselves. As they stare at Jesus’ face coming toward them from the clouds, a sudden awareness of their sin proves too painful to bear; they cry to the mountains and rocks, “Fall on us and hide us from the face of him who sits on the throne and from the wrath of the Lamb!” (Revelation 6:16). They prefer death to standing before Jesus’ all-seeing gaze.
-They know that the voice now thundering from the sky once tenderly implored them to accept divine grace. Those who lost themselves in the mad rush after money or pleasure or position now realize they’ve neglected the only really worthwhile thing in life.
-It is a crushing revelation. After all, not one of them needed to be lost. God Himself finds “no pleasure in the death of the wicked” (Ezekiel 33:11). He is “not wanting anyone to perish, but everyone to come to repentance” (2 Peter 3:9). Jesus implores us, “Come to me, all you who are weary and burdened, and I will give you rest” (Matthew 11:28). But, incredibly, some turn aside His gracious invitation.
-
+<h3>d. Church Statistics</h3>
+<p>By <strong>1883</strong>, twenty years after organization, the number of churches had increased over five-fold from the original <strong>125</strong> to <strong>680</strong>, membership had jumped five-fold from <strong>3,500</strong> to about <strong>17,500</strong>, and tithe now was ready to surpass the <strong>$100,000</strong> mark.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 7/S07E04.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>What Kind of God is He?</h2>
-            4.	ARE YOU READY FOR JESUS TO COME?
-It cost Jesus a great deal to guarantee us a glorious future with Him “in my Father’s house.” It cost Him His life!
-“CHRIST WAS SACRIFICED ONCE to take away the sins of many people; and HE WILL APPEAR A SECOND TIME, not to bear sin, but to bring salvation to those who are waiting for him.”-Hebrews 9:28.
-The Savior who died on the cross to take away your sins will appear “a second time,” and He will “bring salvation to those who are waiting for him.” Christ sacrificed Himself in order to offer salvation to each of us. But without the Second Coming, the cross would be a failure. Christ wants to give us an eternally secure home with Him. In order for that to happen, we must allow Him to rule in our hearts as Savior and Lord right now.
-On the morning of August 16, 1945 a small boy ran through the Shantung Compound in North China shouting that he’d spotted a plane in the sky. All the able-bodied internees ran outside and looked up. These men and women had suffered through years of isolation, deprivation, and anxiety, imprisoned by the Japanese as citizens of enemy nations. For many only one thing had kept them spiritually alive: the hope that someday the war would end.
-An electric current shot through the crowd of 1500 surviving internees as they realized this plane might be coming for THEM. As the hum of the aircraft grew louder, someone yelled, “Look, there’s the AMERICAN FLAG painted on the side!” and then in an unbelieving daze, voices cried out, “Look, they’re WAVING at us! They know who we are. They’re coming to get us.”
-At this point the excitement was more than these ragged, weary, homesick survivors could contain. Pandemonium broke loose. People were running in circles, shouting at the top of their lungs, waving their arms and weeping.
-Suddenly the crowd gasped and stared in silence. The underside of the plane suddenly opened and men began floating down in parachutes. Their rescuers weren’t just coming someday; they were coming today, NOW to be in their midst!
-The crowd surged toward the compound gate. No one paused to think of the machine guns pointed down from towers. After years of frustration and loneliness, they broke through the gate and rushed to where the paratroopers were landing.
-Soon this flood of humanity turned and poured back into camp-with the soldiers on their shoulders. The camp commander surrendered without a fight. The war was indeed over. Freedom had come. The world was brand-new again.
-Soon OUR God, OUR Savior, will descend from the clouds to rescue us. The long horror story of man’s cruelty to man will finally cease. There will be jubilation on that day, shouts of joy as we finally understand: “He’s coming close; I can see the angels blowing their trumpets.” The sound gets louder, the cloud of glory brighter, until we can hardly endure it. But we can’t stop looking as we realize: “He sees me. He knows who I am.” We’ll know with indescribable joy: “This is my God. He’s coming for me, not someday, but today, right now.”
-Are you ready to welcome the King in all His glory? If not, please invite Jesus personally into your life just now. Even as the coming of Jesus to our world will solve the world’s problems, so His coming into your heart will help you deal with your present daily problems. The great Problem Solver can deliver you from guilt and burden of sin and give you eternal life.
-The coming of Jesus into a life can forever change it as dramatically as the coming Jesus to our world will transform it. You can depend on Jesus. He will prepare you for His coming and give the wonderful assurance of a life of eternal happiness.
+<h3>e. World View Becomes Truly Global</h3>
+<p>General Conference president <strong>George I. Butler</strong> visited Europe in <strong>1884</strong> and led in forming the European Conference. <strong>Ellen White</strong> also paid an extended visit to Europe the following year.</p>
 
+<p><em>Australia</em> received a party led by <strong>S. N. Haskell</strong>, <strong>M. C. Israel</strong>, and <strong>J. O. Corliss</strong>, who were able to start a very strong work there in spite of considerable opposition. An early order of business was to open a publishing house in Melbourne.</p>
+
+<p><em>New Zealand</em> was next to receive the Advent Message when Elder Haskell went in <strong>1885</strong> and then <strong>A. G. Daniells</strong> traveled there in <strong>1886</strong>.</p>
+
+<p><em>Pitcairn Island</em> opened up with a visit by <strong>John I. Tay</strong> in <strong>1886</strong>, and the <em>Fiji Islands</em> were opened by <strong>J. E. Fulton</strong>, for whom now there is a college on the islands that bears his name.</p>
+
+<p><em>Africa</em> received the message during the same year (<strong>1886</strong>). An excellent book (long out-of-print but still around) on the early years in Africa is <em>Desert Track and Jungle Trail</em> by Virgil Robinson. It was in <strong>1894</strong> that <strong>Pieter Wessels</strong> and a small delegation visited with <strong>Cecil Rhodes</strong>, Prime Minister of Cape Colony, requesting a piece of land for a mission in Rhodesia. Rhodes instructed the administrator in Bulawayo to permit the SDA representatives to select whatever land they needed– and Solusi College was born.</p>
+
+<p>In <strong>1888</strong>, a humble man by the name of <strong>Abram La Rue</strong> went to Hong Kong as a self-supporting colporteur, visited China, and prepared the way for missionaries <strong>Edwin H. Wilbur</strong> and <strong>J. N. Anderson</strong> to enter China fourteen years later.</p>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 7/S07E05.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>f. A Time to Review</h3>
+<p>During the <strong>1860's</strong> and <strong>1870's</strong>, Adventist evangelists were so busy proving that God’s law had not been abolished at the cross that they gave little attention to the <strong>“faith of Jesus”</strong> and stressed <strong>“the commandments of God.”</strong> There were also still some who held Arian views of Christ and who did not believe in the Trinity nor in the personality of the Holy Spirit.</p>
+
+<p>With this background, the <strong>General Conference session of 1888</strong>, held at Minneapolis, Minnesota, became a very significant and pivotal meeting in our church history. A crisis had been reached and now dealt with. The decade following was marked by revivals, and righteousness by faith was vigorously discussed and, by many, gratefully accepted. A full and well-documented study of this meeting has been published under the title <em>Movement of Destiny</em>, by <strong>Leroy Edwin Froom</strong> (Review, 1971).</p>
+
+<p>A number of new books written by <strong>Ellen White</strong> were introduced during this period, including <em>The Desire of Ages</em> and <em>Steps to Christ</em>, designed to help correct erroneous teachings on the nature of Christ and endorsing the truth of righteousness by faith.</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E06.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>g. Institutional Expansion</h3>
+<p>The first <strong>SDA</strong> college outside of North America was opened near <strong>Cape Town, South Africa</strong>, in <strong>1893</strong> as the forerunner of today’s <em>Helderberg College</em>.</p>
+
+<p>Other early institutions overseas were:</p>
+<ul>
+  <li><strong>Signs Publishing Company</strong>, Australia, <strong>1886</strong></li>
+  <li><strong>Stanborough Press</strong>, England, <strong>1889</strong></li>
+  <li><strong>Hamburg Publishing House</strong>, Germany, <strong>1889</strong></li>
+  <li><strong>Avondale College</strong>, Australia, <strong>1897</strong></li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 7/S07E07.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>h. Ellen White goes to Australia</h3>
+<p>In <strong>1891</strong>, Ellen White sailed for <strong>Australia</strong> and remained there for nine years (including several months in <strong>New Zealand</strong>).</p>
+
+<p>While there, she founded <strong>Avondale College</strong> and encouraged the establishment of health food factories. The <strong>Sanitarium Health Food Company</strong> (1898) was established as a result and is today a very successful major supplier of health foods in the <strong>South Pacific</strong>, as well as a big financial backer of the South Pacific Division.</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E08.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>i. First Union Conference</h3>
+<p>The first regional grouping of conferences to be formed as a <strong>Union Conference</strong> took place in <strong>Australia</strong> in <strong>1894</strong>. Today, there are <strong>95 Unions</strong> in the world church, according to the <strong>1997 statistical report</strong>.</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E09.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>j. Reorganization</h3>
+<p>The <strong>General Conference of 1901</strong> was one of the most significant sessions for the church and its structure. Major changes took place in the management structure, which gave much greater freedom of decision-making to the church at the local level, allowing for maximum expansion “into all the world.” Some of the changes that were instituted include:</p>
+<ul>
+  <li><strong>General Conference Committee</strong> was enlarged and made more representative.</li>
+  <li><strong>Union conferences/missions</strong> and <strong>local conferences/missions</strong> became the pattern of organization.</li>
+  <li>Conferences were to share their tithes and offerings with the <strong>missions</strong>.</li>
+  <li>Various independent organizations representing various interests of the denomination became <strong>departments of the General Conference</strong>.</li>
+</ul>
+<p>This <strong>1901 session</strong> became known as the “turning point toward unity, reform, solvency, and ardent evangelism.”</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E010.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Significant Losses</h2>
+<p>The following are some of the losses the church incurred.</p>
+<h3>a. Pioneers Called to Rest</h3>
+<ol>
+  <li><strong>James White</strong> died in <strong>1881</strong>. His death heralded an end to the era of the pioneers in America.</li>
+  <li><strong>John Byington</strong>–<strong>1887</strong>. The first president of the General Conference is buried next to the first Adventist in Battle Creek (David Hewitt). For his funeral, he had previously chosen as the text Revelation 3:21: “To him that overcometh....”</li>
+  <li><strong>John N. Andrews</strong>– <strong>1883</strong>; <strong>J. H. Waggoner</strong>– <strong>1889</strong>. Both are buried in Basel, Switzerland.</li>
+  <li><strong>Uriah Smith</strong>– <strong>1903</strong>, longtime editor of the <em>Review</em>; his book <em>Thoughts on Daniel and the Revelation</em> is still much used today. His death coincided with the end of the Battle Creek era as well.</li>
+</ol>
+            `,
+            audioPath: './stories/audio/Section 7/S07E011.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>b. Bright Stars Disappear</h3>
+
+<ol>
+  <li><strong>D. M. Canright</strong>, a leading minister, left the church and became an ardent opposer of the movement. He died a broken and forgotten man.</li>
+  <li><strong>Dr. J. H. Kellogg</strong>, administrator of the Battle Creek Sanitarium, mixed pagan pantheism with the Bible, left and managed to take the hospital with him.</li>
+</ol>
+            `,
+            audioPath: './stories/audio/Section 7/S07E012.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h3>c. Fire Destroys Institutions</h3>
+<p>For some time Battle Creek was developing into an Adventist “cloister.” The members there were warned by God several times not to concentrate in one location but to scatter out and take the “Good News” with them. In 1893 they were warned that the institutions would be destroyed if they did not decentralize.</p>
+
+<p>In February, 1902, the main building of the sanitarium burned down. In December of the same year, the Review factory was destroyed by fire. Finally, in 1903, Ellen White’s advice to move the headquarters east was heeded and property purchased near the nation’s capital, Washington, D.C.</p>
+            `,
+            audioPath: './stories/audio/Section 7/S07E013.mp3',
+            questions: []
         }
     ]
 };

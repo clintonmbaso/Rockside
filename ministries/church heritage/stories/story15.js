@@ -15,6 +15,7 @@ const story15 = {
 
 <p><strong>Note:</strong> An interesting, more complete biographical sketch for each president through to Robert H. Pierson is found in a small book published by Southern Publishing, 1974, written by Ochs and titled <em>The Past and the Presidents</em>. There are also complete biographies written on several presidents, such as White, Andrews, Butler, Daniels, Spicer, and Pierson. Here is a very brief summary of a line of very special men whom God has been able to use for a very unique and often difficult assignment.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E01.mp3',
             questions: []
         },
         {
@@ -27,6 +28,7 @@ const story15 = {
 
 <p>Born in 1798, he died just past the age of 88 and had chosen for his funeral the text found in Revelation 3:21: “To him that overcometh....”</p>
 `,
+            audioPath: './stories/audio/Section 14/S14E02.mp3',
             questions: []      
         },
         {
@@ -39,6 +41,7 @@ const story15 = {
 
 <p>He died in 1881 two days after turning sixty years old.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E03.mp3',
             questions: []
         },
         {
@@ -51,6 +54,7 @@ const story15 = {
 
 <p>John mastered Latin, Greek, Hebrew, French, German, and Italian. He memorized the New Testament and at the age of 21 joined the publishing committee of the Advent Review. One of his greatest contributions to the church was a 342-page <em>History of the Sabbath</em>. A second great contribution and the one he is most remembered for was the fact that he was our first missionary– to Europe in 1874. He died of tuberculosis at the age of 54, and his remains are still in his adopted home of Switzerland.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E04.mp3',
             questions: []
         },
         {
@@ -71,6 +75,7 @@ const story15 = {
 
 <p>He continued a heavy schedule of preaching and writing until his death in <strong>1918</strong>. He lived to see one of his very first converts, A.G. Daniels, become president of the General Conference.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E05.mp3',
             questions: []
         },
         {
@@ -97,6 +102,7 @@ const story15 = {
 
 <p>When the church appointed him as president of the world church, he was not present but rather working diligently in Norway as president and evangelist of the Norwegian Conference. His diary had an interesting entry: “received word from the brethren” as to his appointment. But he didn’t leave right away; he was doing God’s work where he was. Then one day, five months later, his diary reads: “Leaving today for America to take up duties at General Conference.” To the modest, unassuming O. A. Olsen, it made no difference whether he was serving the church as a preacher somewhere or president of the world church.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E06.mp3',
             questions: []
         },
         {
@@ -111,6 +117,7 @@ const story15 = {
 
 <p>Irwin was always generous with whatever money he had. He helped finance a school in the South, a church in Atlanta, Oakwood College, and numerous students. His philosophy was based on the parable of the pearl of great price: “It will take all to buy the field.” George Irwin finally rested at the age of 68 in 1913.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E07.mp3',
             questions: []
         },
         {
@@ -125,6 +132,7 @@ const story15 = {
 
 <p>Daniells wrote three books, the last of which was finished as he lay on his death bed: <strong>The Abiding Gift of Prophecy</strong> in 1935.</p>
 `,
+            audioPath: './stories/audio/Section 14/S14E08.mp3',
             questions: []      
         },
         {
@@ -139,6 +147,7 @@ const story15 = {
 
 <p>He passed away in Takoma Park in 1952, nearly 87 years after his birth in Minnesota.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E09.mp3',
             questions: []
         },
         {
@@ -153,6 +162,7 @@ const story15 = {
 
 <p>At the close of his term, the Watsons returned to Australia, where he continued in division leadership until his retirement in 1944. He died the day before Christmas in 1962, age 87.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E10.mp3',
             questions: []
         },
         {
@@ -173,6 +183,7 @@ const story15 = {
 
 <p>After his third term as president ended, he continued as a general field secretary until his death in 1959. Shortly before his death, during a hospital stay, an attendant asked him how he liked being president so many years. His typically honest answer was “I did not like it...it wore me out.”</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E11.mp3',
             questions: []
         },
         {
@@ -191,6 +202,7 @@ const story15 = {
 
 <p>His secretary once wrote to friends, “I have never known anyone more prolific and versatile, and withal a genial disposition.” During his presidency, he developed Parkinson’s disease and resigned at the 1954 session in San Francisco. In his last sermon to the delegates, his urge was still “The whole business of the church is to save souls.” He died in 1961.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E12.mp3',
             questions: []
         },
         {
@@ -205,6 +217,7 @@ const story15 = {
 
 <p>He was laid to rest to await his Lord’s coming in 1983.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E13.mp3',
             questions: []
         },
         {
@@ -215,6 +228,7 @@ const story15 = {
 
 <p>He was born in Iowa as a fourth-generation Adventist in 1911. His father, though, was a Methodist and bank president. He enjoyed writing, and at the age of twelve had one of his poems published-- a seven-stanza story of Lindbergh’s flight across the Atlantic. He also loved sports: in high school he was captain of both his football and track team. He also played basketball and baseball and did some boxing. He thought little of studies beyond high school. Then his mother died, and his life took a different turn. He married his high school sweetheart, and both went to Southern Missionary College, where she taught part-time elementary classes and he milked cows to pay their way through school and degrees in Theology and Education. Eight years after leaving college (now age 30) he was named president of the South India Union. From there he returned to New York, where he maintained a daily radio broadcast, and in 1944 was called to be president of the British West Indies Union. Six years later he returned to India as Division president. While there he became the first SDA minister to enter the mountain kingdom of Sikkim. In 1958 he became president of the TransAfrica Division and was among those trapped in the middle of the Katanga/Congo war, with shrapnel often flying inches away. He later admitted, by quoting 2 Corinthians 1:10, “It was God who preserved us from imminent death” (Phillips). Finally, due to his doctor’s advice, he retired from official duties in 1979, but then served as a volunteer pastor in a church back in the Caribbean for some time. While pastoring in Hawaii, Pierson died in 1989 at the age of 78 of that heart attack predicted by his doctor ten years before.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E14.mp3',
             questions: []
         },
         {
@@ -229,6 +243,7 @@ const story15 = {
 
 <p>One of his personal attributes that held him in very high esteem by many church members around the world was his unusual ability to recall acquaintances and details often many years later. He had a prolific memory of chance encounters and small incidents that would often be recalled years later, to the astonishment of those involved. This same ability was also used to good advantage, as he was able to keep a clear view of the ever-growing pulse of the church in all its myriad details around the world.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E15.mp3',
             questions: []
         },
         {
@@ -239,6 +254,7 @@ const story15 = {
 
 <p>Folkenberg brought the church into the technological age by tying in churches all over the world through satellite T.V. and the internet. World evangelism took on a new meaning with worldwide campaigns via satellite, using multiple translations, reaching hundreds of thousands of viewers simultaneously.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E16.mp3',
             questions: []
         },
         {
@@ -249,6 +265,7 @@ const story15 = {
 
 <p>While his administrative talents have been long recognized by the church, he prefers to be known as a scholar in the field of theology and missiology. He was the first Adventist to earn a Doctor of Theology degree from the Protestant faculty of any German university (Tubingen University - 1972). Over the years, he has published numerous papers and a book on his favorite themes.</p>
             `,
+            audioPath: './stories/audio/Section 14/S14E17.mp3',
             questions: []
         }    
     ]

@@ -1,108 +1,282 @@
+/*
+import S02E01 from './questions/S02E01.js';
+import S02E02 from './questions/S02E02.js';
+import S02E03 from './questions/S02E03.js';
+import S02E04 from './questions/S02E04.js';
+
+*/
+
 const story16 = {
-    title: "The Secret to Heavenly Rest",
+    title: "Time-line Summary",
     parts: [
         {
             text: `
-            <h2>INTRODUCTION</h2>
-                <p>Just a few years ago some were predicting we would soon have more leisure time than we’d know what to do with. There were good reasons for those confident predictions. In the cities of the world computers were crunching through month-long tasks in fractions of a second. And robots had begun to handle the grueling jobs of heavy industry.
-But after the computers have been whirring and the automation automating, we’re more out of breath than ever. People are running out of times these days. Above all, families are running out of time. Husbands and wives find it hard to schedule “quality time” with the kids, much less with each other.
-One study in a small community showed that the average time per day that fathers spent alone with their very young sons was-37 seconds! Families are out of time and out of touch.
-How can we slow down enough to get in touch again?
-</p>
-            `,
-            questions: [
+<h2>Time-line Summary of the Great Advent Movement</h2>
 
-            ]
+<p>First we studied the development of the work in broad chronological strokes; then we looked at its various phases of activity and geographical components to get a clearer picture. But our church didn’t develop by phases nor by segments in a coordinated, methodical pattern; it grew as the Spirit of God moved on the minds of men in different places and in different manners to meet the needs of the gospel commission. Geography, phases, concepts, and people are all intertwined throughout the growth and history, creating a strong web of faith in the soon return of Christ encircling the globe.</p>
+
+<p>Following is a brief chronological summary for easy reference (obviously, space limits its completeness and regions may wish to add those dates that are important to them).</p>
+            `,
+            audioPath: './stories/audio/Section 15/S15E01.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE REMEDY FOR HIGH-TENSION LIVING</h2>
-Jesus understands the problems of families under stress and He wants us to understand that spiritual rest is part of the quality life:
-“COME TO ME, all you who are weary and burdened, and I WILL GIVE YOU REST…. LEARN FROM ME, for I am gentle and humble in heart, and you will find REST FOR YOUR SOULS.”-Matthew 11:28, 29. (Unless otherwise noted, all Scriptural texts in the DISCOVER guides are from the New International Version of the Bible [NIV].)
-The Bible suggests we experience this kind of rest into two ways: coming to Christ on both a daily and a weekly basis.
+<h2>Section 2 – 1755-1843</h2>
 
+<p>This is the period which brought the Biblical time prophecies to a close and Christianity to a crossroads.</p>
+
+<ul>
+    <li><strong>1755</strong> – The Lisbon earthquake</li>
+    <li><strong>1780</strong> – The Dark Day</li>
+    <li><strong>1782</strong> – William Miller is born</li>
+    <li><strong>1792</strong> – Joseph Bates is born</li>
+    <li><strong>1793</strong> – Era of Protestant missions begins; William Carey travels to India</li>
+    <li><strong>1798</strong> – End of the 1260-year prophecy</li>
+    <li><strong>1804</strong> – British and Foreign Bible Society organized</li>
+    <li><strong>1807</strong> – Protestant missionary to China– Robert Morrison</li>
+    <li><strong>1813</strong> – Missionary to Burma– Adoniram Judson</li>
+    <li><strong>1816</strong> – Missionary to South Pacific– John Williams</li>
+    <li><strong>1817</strong> – Missionary to Africa– Robert Moffat</li>
+    <li><strong>1827</strong> – Ellen Harmon (later White) born near Portland, Maine</li>
+    <li><strong>1831</strong> – William Miller, Joseph Wolff, and others begin to preach on Second Advent</li>
+    <li><strong>1833</strong> – Falling of the stars</li>
+    <li><strong>1839</strong> – Joshua V. Himes joins Miller; preaching enters the large cities</li>
+    <li><strong>1840</strong> – Himes publishes first Advent periodical; Livingstone sails for Cape Town, Africa</li>
+    <li><strong>1842</strong> – Charles Fitch produces prophetic charts; James White begins preaching</li>
+    <li><strong>1843</strong> – “Midnight cry” message proclaimed in preparation for second coming</li>
+</ul>
 `,
-            questions: [
-
-]      
+            audioPath: './stories/audio/Section 15/S15E02.mp3',
+            questions: []      
         },
         {
             text: `
-                <h2>A DAILY LINK WITH JESUS</h2>
-Crowds constantly clamored for Jesus’ attention. And yet Christ communicated a peaceful, tranquil spirit to everyone around Him. How? He invested time each day communing with His heavenly Father. He depended on His Father continually for resources to meet life’s challenges (John 6:57).
-If we are to live the serene, steady life that He did, we must continually depend on Jesus-let His Word and Spirit fill us and shape us. The best way to counter the forces burning us out as individuals and tearing us apart as families is to invest quality time with Christ. He tells us:
-“REMAIN IN ME, and I will remain in you…. APART FROM ME YOU CAN DO NOTHING.”-John 15:4, 5.
-One of the greatest needs of our time is for people to tap the spiritual resources available through forming a day-by-day relationship with Jesus. One very important point that needs to be emphasized about our relationship with Christ is His finished work on the cross. True rest, real security, can only exist because of the great accomplishment Jesus referred to when He cried out as He was dying: “It is finished” (John 19:30). In other words, His work of redeeming us was completed.
-“But now he [Christ] has appeared ONCE FOR ALL… TO DO AWAY WITH SIN by the sacrifice of himself.”-Hebrews 9:26.
-When Jesus died, He did “away with sin.” That’s why it’s said that the believer who has confessed his or her sins can “rest” in the finished work of Christ. We’re accepted. 
-Guilt lies behind much of the frantic pace of our lives today. But Jesus solved the guilt problem once and for all at the cross. Jesus’ cry, “It is finished,” sealed His promise of “I will give you rest” as an established fact. Christ completed the work of redeeming us at Calvary (Titus 2:14), then He rested in the tomb over the Sabbath, and rose from the grave Sunday morning as the Victor over sin and death. The Christian can have no greater assurance than to rest in the finished work of Christ.
-“Let us draw near to God with a sincere heart IN FULL ASSURANCE OF FAITH,… Let us hold unswervingly to the hope we profess, for HE WHO PROMISED IS FAITHFUL.”-Hebrews 10:22, 23.
-Because He “who promised is faithful,” we can enter into the salvation-rest Jesus has promised. The stability, peace, and rest we experience in Jesus every day is a result not of anything we do, but of what He did at the cross.
-We can rest in Christ because our salvation is assured. That assurance motivates us to spend time with Christ each day, feeding on His Word and breathing in the atmosphere of heaven through prayer. A rendezvous with Jesus helps us turn a stressed-out lifestyle into a peaceful and purposeful life.
+<h2>Section 3 – 1844-1852</h2>
 
+<p>A formative and shaking period for those who believed in the soon second coming; the elements were taking shape that would soon be used in the assemblage of a strong organization.</p>
+
+<ul>
+    <li><strong>1844</strong> – The “great disappointment,” the Sabbath (Washington, New Hampshire) and sanctuary (Hiram Edson) truths discovered; the gift of prophecy given to the remnant; first public telegraph message sent by Samuel Morse: “What hath God wrought!”</li>
+    <li><strong>1845</strong> – Joseph Bates, J. N. Andrews and others accept the Sabbath</li>
+    <li><strong>1846</strong> – Whites accept Sabbath doctrine</li>
+    <li><strong>1847</strong> – Sabbath vision given to Ellen White</li>
+    <li><strong>1848</strong> – First general meetings of Sabbathkeepers: “Six Sabbath Conferences”; vision to start a small paper</li>
+    <li><strong>1849</strong> – First periodical published: <em>Present Truth</em>; Review and Herald Publishing begins here</li>
+    <li><strong>1850</strong> – First edition of the <em>Advent Review and Sabbath Herald</em></li>
+    <li><strong>1852</strong> – <em>Youth’s Instructor</em> first published; first Sabbath School lessons (written by James White)</li>
+</ul>
             `,
-            questions: [
-
-]
+            audioPath: './stories/audio/Section 15/S15E03.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>A WEEKLY LINK WITH JESUS</h2>
-After Christ created the world in six days (Colossians 1:16-17), He provided Sabbath-rest. It is a weekly opportunity for us to cultivate our connection with Him.
-“God saw all that he had made, and it was very good. And there was evening, and there was morning-the sixth day. Thus the heavens and the earth were completed in all their vast array. By the seventh day God had finished the work he has been doing; so on the seventh he RESTED from all his work. And God BLESSED the seventh day and MADE IT HOLY, because on it he rested from all the work of creating that he had done.”-Genesis 1:31-2:3.
-As their Creator, Jesus “rested” on the first Sabbath with Adam and Eve, and He “blessed” the Sabbath day and “made it holy.” God established a seven-day weekly cycle, not for His own benefit, but for Adam and Eve and for us today. Because He cared so much for the people He had made, He planned that every seventh day throughout their lives should be dedicated to seeking His presence. Each Sabbath, as He called it, was to be a day of both physical rest and spiritual refreshment. The entrance of sin into our world only made the need for Sabbath rest more acute.
-The same Savior who promised Adam and Eve “rest,” about two thousand years later gave the law to Moses on Mount Sinai (1 Corinthians  10:1-4). Jesus chose to place the Sabbath-rest commandment at the very heart of the Ten Commandments. The fourth commandment reads:
-“REMEMBER THE SABBATH DAY BY KEEPING IT HOLY. Six days you shall labor and do all your work, but the seventh day is a Sabbath to the LORD your God. On it you shall not do any work, neither you, nor your son or daughter, nor your manservant or maidservant, nor your animals, nor the alien within your gates. For in six days the LORD made the heavens and the earth, the sea, and all that is in them, but he RESTED on the seventh day. Therefore the LORD BLESSED the Sabbath day and MADE IT HOLY.”-Exodus 20:8-11.
-God established the Sabbath as a day to “remember” the Lord who “made the heavens and the earth.” Sabbath-rest each week links us with the Creator who blessed this day and set it apart.
-When Jesus lived on earth, He took advantage of every opportunity to sustain His union with the Father. He benefited from Sabbath-rest by worshipping on Sabbath, as Luke tells us:
-“He went to Nazareth, where he had been brought up, and ON THE SABBATH DAY he went into the synagogue, AS WAS HIS CUSTOM.”-Luke 4:16.
-If the divine-human Jesus needed to rest in His Father’s presence on the Sabbath day, we human beings certainly need it more. When Jesus swept aside the legal restrictions the Jews had placed on the Sabbath (Matthew 12:1-12), He pointed out that God had made it to benefit people:
-“He said to them, ‘The Sabbath was made for man, not man for the Sabbath. So the Son of Man is Lord even of the Sabbath.’”-Mark 2:27, 28.
-Jesus highlighted the importance of the Sabbath even in His death. He died on Friday, “the Preparation Day, and the Sabbath was about to begin” (Luke 23:54). At that moment He declared, “It is finished,” that is, His work of coming to this world and dying as substitute for the human race was complete (John 19:30; 4:34; 5:30). Then to celebrate His finished mission, Jesus rested in the tomb over the Sabbath.
-Just as Christ completed His work of creation on the sixth day and then rested on the seventh day, so through dying on the cross He completed His work of redemption on the sixth day, and then rested on the seventh.
-On Sunday morning Jesus came out from the tomb, a victorious Savior (Luke 24:1-7). He had already asked His disciples to maintain the Sabbath encounter with Him after His resurrection. Speaking of the destruction of Jerusalem, which took place nearly forty years after His death, He charged them: 
-“Pray that your flight will not take place in winter or on the Sabbath.”-Matthew 24:20.
-Our Savior wanted His disciples and their converts to continue the practices He had taught them (John 15:15, 16). He wanted them to experience both salvation-rest and Sabbath-rest. They did not disappoint Him. The disciples continued to observe the Sabbath after Christ’s death (see Luke 23:54-56; Acts 13:14; 16:13; 17:2; 18:1-4). 
-The beloved apostle John kept up his weekly link with Christ on the Sabbath day. In his later years he wrote, “On the Lord’s Day I was in the Spirit” (Revelation 1:10). According to Jesus, “the Lord’s Day” is the Sabbath, “for the Son of Man is Lord of the Sabbath” (Matthew 12:8).
-On the Sabbath we celebrate the Lord’s two greatest accomplishments on our behalf: creating us and saving us. This Sabbath experience will continue in heaven:
-“’As the new heavens and the new earth that I make will endure before me,’ declares the LORD,…‘from one Sabbath to another, all mankind will come and bow down before me,’ says the LORD.”-Isaiah 66:22, 23.
+<h2>Section 4 – 1853-1863</h2>
 
+<p>With growth came a need for structure; with the need came also a plan, given in answer to prayer.</p>
+
+<ul>
+    <li><strong>1853</strong> – Identity cards issued to ministers; first Sabbath School organized; first church school established, with Martha Byington as teacher; Uriah Smith joins the Review office.</li>
+    <li><strong>1854</strong> – First tent meetings held by Loughborough and Cornell.</li>
+    <li><strong>1855</strong> – Headquarters moved to Battle Creek, Michigan, and first building erected for Review.</li>
+    <li><strong>1859</strong> – “Systematic Benevolence” plan of giving adopted.</li>
+    <li><strong>1860</strong> – Name “Seventh-day Adventist” adopted.</li>
+    <li><strong>1861</strong> – First conference formed in Michigan; Review and Herald incorporated in Battle Creek.</li>
+    <li><strong>1863</strong> – General Conference organized and first session held; first steps in health reform taken.</li>
+</ul>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 15/S15E04.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>THE BENEFITS OF SABBATH-REST</h2>
-People today are trampling over each other in their frantic life. Individuals are burning out. Families are falling apart under the strain. But God presents the Sabbath as a much better way to live the good life.
-Let’s look at some of the specific benefits of Sabbath-rest:
-(1) The Sabbath is a memorial of creation, and by keeping it holy, we erect a memorial to our Creator. Its sacred hours offer a wonderful opportunity to get in touch with our roots on God’s created world. When was the last time you or your family took time to really soak in the quiet beauty of a forest path or rocky stream? The Sabbath gives us time to spend with Jesus and catch glimpse of the wonders He has made for us.
-(2) On the Sabbath we experience the joy of worship and fellowship with other Christians. There’s a benefit from praising God with others as a group of worshipers. The Sabbath gives us that special time of coming together as a church body to recharge our spiritual batteries.
-(3) The Sabbath provides occasions to perform thoughtful acts of kindness. Has a neighbor been sick during the week when you had no time to visit? When a friend needed a sympathetic ear after her husband’s death, did the pressure of daily living deprive her of your loving attention? Jesus advised: “It is lawful to do good on the Sabbath” (Matthew 12:12).
-(4) The Sabbath is a day to strengthen family ties. Then Christ commanded, “On [the Sabbath] you shall not do any work” (Exodus 20:10). He couldn’t have given a better prescription to workaholic dads and stressed-out moms. The Sabbath is a giant STOP sign for families. Stop letting the most urgent things crowd out the most important things. The Sabbath is one day when we can replace pressure with prayer, labor with laughter, busy schedules with quiet reflection. Sabbath-rest provides the entire family with time to link up with Christ and tap into His spiritual energy.
-(5) The Sabbath is a time when Jesus comes especially near. Every relationship needs quality time, and our relationship with Christ is no exception. Devoting a whole day to Christ each week is a great way to keep our friendship with Him fresh and exciting. The Sabbath gives us extra time for Bible study and prayer, extra time to simply be alone with Christ in a quiet place and listen.
-Jesus “blessed the seventh day and made it holy” with the promise of His presence (Genesis 2:3). You can understand why it is important to observe Saturday, the seventh day of the week as the Sabbath, because it is the day Christ set apart at creation to communicate with us in a special way.
-When Jesus created the Sabbath it almost seems that He had our generation in mind. It’s exactly what we need in our stress-filled environment: a day that is truly a complete break from everything else. A day to worship God, get in touch with creation again, and concentrate on relationships instead of things.
+<h2>Section 5 – 1864-1873</h2>
 
+<p>The window on the world of challenges began to open to Seventh-day Adventists. Missionaries first went to California (via Panama, because the transcontinental rail only opened in 1869) and the southern states.</p>
+
+<ul>
+    <li><strong>1864</strong> – Adventists given noncombatant status in Civil War</li>
+    <li><strong>1866</strong> – First sanitarium (hospital) at Battle Creek; first health journal, <em>The Health Reformer</em></li>
+    <li><strong>1868</strong> – First workers sent to California; first camp meeting (Wright, Michigan)</li>
+    <li><strong>1869</strong> – First tract and missionary society formed; John Erzberger asks for a missionary to Europe</li>
+    <li><strong>1872</strong> – Death of Joseph Bates; <em>Advent Tidende</em> published in Danish (in the U.S.); school opens in Battle Creek and will become the first college of the denomination</li>
+</ul>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 15/S15E05.mp3',
+            questions: []
         },
         {
             text: `
-                <h2>A FORETASTE OF HEAVENLY REST</h2>
-We can sum up the benefits of linking up with Jesus through a daily and a weekly encounter in one word-rest. The word “Sabbath” comes from a Hebrew word that means rest, so it’s not surprising that the Scripture calls the seventh day “a Sabbath of rest” (Leviticus 23:3).
-“[God] has spoken about the seventh day in these words: ‘And on the seventh day God rested from all his work’…. THERE REMAINS, THEN, A SABBATH-REST FOR THE PEOPLE OF GOD;…Let us, therefore, make every effort to enter that rest.”-Hebrews 4:4-11.
-Experiencing “Sabbath-rest” gives us a weekly foretaste of the joy we will experience in the perfect rest of heaven. This rest isn’t just inactivity, it refers to the sense of security, peace and well-being that lie at the root of the truly abundant life. This kind of spiritual rest can be appreciated only through experience. The testimony of those who have experienced salvation-rest and Sabbath-rest is universal: “If you enter into the rest of Jesus through a daily and weekly connection with Him, you will discover the greatest joy in life.”
-Would you like to thank Jesus for His gift of rest? Would you like to thank Him for the promise of salvation-rest each day to meet the challenges of life, and for the promise of Sabbath-rest each week to cement your relationship with Him? If you have never done so, would you like to accept the salvation He offers? Would you like to tell Him you desire to keep His Sabbath each week? Would you like to say, “Yes Lord! I desire to find delight in the day you have established.” Why not make that commitment right now?
-[You may be wondering: Who changed the Sabbath from Saturday, the seventh day of the week, to Sunday, the first day of the week? When was the change made? Did God authorize the change? These questions will be answered in Guide 21.]
+<h2>Section 6 – 1874-1878</h2>
 
+<p>The window now includes several countries, seven languages, numerous institutions added, and by 1880 the membership stands at 15,570.</p>
+
+<ul>
+    <li><strong>1874</strong> – J. N. Andrews goes to Switzerland; <em>Signs of the Times</em> published</li>
+    <li><strong>1875</strong> – Pacific Press Publishing begins</li>
+    <li><strong>1876</strong> – France hears the third angel’s message; Germany organizes their first church; <em>Les Signes des Temps</em> published as first European paper</li>
+    <li><strong>1877</strong> – J. G. Matteson, first missionary to Scandinavia</li>
+    <li><strong>1878</strong> – First Sabbath School offerings collected for mission work; Ings and Loughborough go to England</li>
+</ul>
             `,
-            questions: [
-            
-            ]
+            audioPath: './stories/audio/Section 15/S15E06.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Section 7 – 1879-1904</h2>
+<p>By 1904 (twenty-four years later) we had more members outside North America than the total membership was in 1880. During this period, the third angel’s message went to Australia, Africa, India, South America, Gulf of Mexico, China and the South Sea Islands. From seven languages we expanded to twenty-two. A new wave of youth found their opportunity and mission.</p>
+
+<ul>
+    <li><strong>1879</strong> - Harry Fenner and Luther Warren organize the first youth society to work on behalf of their peers.</li>
+    <li><strong>1880</strong> - First baptisms in England; first conference outside N. America– Denmark.</li>
+    <li><strong>1881</strong> - First colporteur, G. A. King; death of James White.</li>
+    <li><strong>1883</strong> - Nurses training begins at Battle Creek; death of J. N. Andrews.</li>
+    <li><strong>1885</strong> - First missionaries to Australia; Ellen White visits Europe.</li>
+    <li><strong>1886</strong> - Work begun on Pitcairn Is.; first church organized in Russia.</li>
+    <li><strong>1887</strong> - First missionaries to Africa (Cape Town); first camp meeting in Europe (Norway); colporteurs enter Guyana.</li>
+    <li><strong>1888</strong> - Abram LaRue goes to Hong Kong; historic General Conference session at Minneapolis.</li>
+    <li><strong>1889</strong> - First missionaries to Turkey, Barbados; Religious Liberty Association organized.</li>
+    <li><strong>1890</strong> - S.S. Pitcairn plies the waters of the South Pacific; first youth-related leadership manual published: <em>Manual of Suggestions for Those Conducting Youth Meetings</em>.</li>
+    <li><strong>1891</strong> - Ellen White goes to Australia; work established in Mexico, Central America.</li>
+    <li><strong>1892</strong> - Work begins in Finland, Brazil, Jamaica; Cape Conference organized; <em>Steps to Christ</em> published; first youth society in Australia.</li>
+    <li><strong>1893</strong> - Work enters Malawi, India, Trinidad, Falklands; first college outside North America– now Helderberg, Cape Town.</li>
+    <li><strong>1894</strong> - Work opens in Chile; first Union Conference organized– Australia.</li>
+    <li><strong>1896</strong> - First missionary to Japan, health work begins in Australia.</li>
+    <li><strong>1897</strong> - Work opens in Belgium, Iceland; Avondale College opens in Australia.</li>
+    <li><strong>1898</strong> - Work enters Peru, Hungary; <em>Desire of Ages</em> published.</li>
+    <li><strong>1900</strong> - Work enters Indonesia (Sumatra), Virgin Islands.</li>
+    <li><strong>1901</strong> - First organized church in Scotland; work enters Puerto Rico; A. G. Daniells elected president; Missionary Volunteer membership cards issued.</li>
+    <li><strong>1902</strong> - First workers sent to China; Malamulo Mission founded; Battle Creek: hospital and press burn.</li>
+    <li><strong>1903</strong> - Headquarters moves to Washington, D.C.; work enters Tanzania, Spain; Panama mission organized.</li>
+    <li><strong>1904</strong> - Work begins in Romania, Portugal, Ecuador; first Korean converts (in Japan); Manual of Young People’s Work published.</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 15/S15E07.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Section 8 – 1905-1923</h2>
+<p>The work was now expanding so rapidly that we were sending out almost two missionaries every week (average of 96 per year), and youth ministry came into its own.</p>
+
+<ul>
+    <li><strong>1905</strong> - First resident missionary goes to Korea; first evangelist goes to Haiti; first church in Cuba organized; Peru Mission organized; work begins in the Philippines.</li>
+    <li><strong>1906</strong> - Uruguay Mission organized; work enters Kenya.</li>
+    <li><strong>1907</strong> - Young People’s Department of Missionary Volunteers created, with M. E. Kern as director; <em>Morning Watch</em> first published– Central Union (U.S.); Standard of Attainment introduced as precursor to Master Guide.</li>
+    <li><strong>1908</strong> - Work begun in Papua-New Guinea, Guatemala; Junior Reading Course introduced.</li>
+    <li><strong>1909</strong> - First known converts in Greece; Home Study Institute opens; JMV Societies introduced.</li>
+    <li><strong>1911</strong> - Tent meetings held in Palestine (Israel); first precursor to Pathfinders– “Takoma Indians,” Maryland.</li>
+    <li><strong>1912</strong> - First converts in Bolivia; Communications Department begins as “Press Bureau.”</li>
+    <li><strong>1913</strong> - Ellen White sends her last message to a General Conference session.</li>
+    <li><strong>1914</strong> - First converts in Borneo; Junior Society Lessons introduced as precursors to Pathfinder classes.</li>
+    <li><strong>1915</strong> - Death of Ellen White; W. H. Branson elected president of the Southern Union at age 28; Senior Bible Year introduced.</li>
+    <li><strong>1917</strong> - Junior Bible Year introduced.</li>
+    <li><strong>1918</strong> - Home Missionary Branch becomes a General Conference Department (today’s Personal Ministries section of the SS&PM Dept.); first Junior Manual published.</li>
+    <li><strong>1919</strong> - JMV Pledge and Law adopted.</li>
+    <li><strong>1920</strong> - Harriett Holt elected as the first junior youth leader in the youth department.</li>
+    <li><strong>1922</strong> - The “Dime” Tabernacle in Battle Creek burns; S. N. Haskell dies; JMV/MV classwork introduced: Friend, Companion for JMV’s– Comrade, Master Comrade for the “Comrade Band,” a leadership club within the MV Society; uniforms and scarves are suggested.</li>
+    <li><strong>1923</strong> - Messages to Young People idea is born; Home Nursing course developed as precursor to the Honors.</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 15/S15E08.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Section 9 – 1924-1946</h2>
+
+<p>The Great Depression and WWII don’t seem to impede the third angel’s message, as the seed sown by the pioneers and watered by the Holy Spirit continues to bear fruit.</p>
+
+<ul>
+    <li><strong>1924:</strong> Last link to the pioneers dies– J. N. Loughborough; MV Week of Prayer introduced.</li>
+    <li><strong>1925:</strong> First youth camp held in Australia.</li>
+    <li><strong>1926:</strong> H. M. S. Richards begins radio broadcasting; first youth camps in U.S. (girls–Wisconsin, boys–Michigan).</li>
+    <li><strong>1927:</strong> Mwami Hospital opens in Zambia; Junior Manual in Spanish, Chinese.</li>
+    <li><strong>1928:</strong> 16 “vocational merits” introduced (Honors); C. Lester Bond becomes Junior Youth Director at G. C.; First Youth Congress, Germany.</li>
+    <li><strong>1929:</strong> Southeastern California Conference opens JMV “Pathfinder” Camp.</li>
+    <li><strong>1930:</strong> H. T. Elliot replaces Kern as G. C. Youth Director; Pre-JMV classes added (Adventurer classes).</li>
+    <li><strong>1931:</strong> Leo Haliwell’s launch, the Luzeiro I, is completed and begins plying the Amazon River.</li>
+    <li><strong>1932:</strong> SDA Church Manual published; Camp Leader’s Handbook published.</li>
+    <li><strong>1936:</strong> Central Union adopts a complete uniform for JMV “units.”</li>
+    <li><strong>1937:</strong> Theological Seminary established.</li>
+    <li><strong>1938:</strong> Master Comrade Manual published; Ideals for Juniors by Bond published, based on the phrases of the Pledge and Law; Pathfinder Club organized in California by Lawrence Paulson.</li>
+    <li><strong>1939:</strong> Advent Wacht youth club forms in Switzerland; Advanced Honors introduced; Middle East College established in Lebanon.</li>
+    <li><strong>1941:</strong> Voice of Prophecy becomes a denominational project.</li>
+    <li><strong>1942:</strong> Trailblazers experimented with in Pacific Northwest with Laurence Skinner.</li>
+    <li><strong>1945:</strong> First MV devotional book– “Mysteries” by L. H. Wood; first summer camp in Puerto Rico.</li>
+    <li><strong>1946:</strong> First conference-sponsored Pathfinder Club, Riverside, California, Francis Hunt, director, John Hancock, conference Youth Director, designs triangle; EGW compilation Evangelism released.</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 15/S15E09.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Section 10 – 1947-1959</h2>
+
+<p>WWII ended, the church regroups and rebuilds in many areas, society structures are altered, entering the “modern age.”</p>
+
+<ul>
+    <li><strong>1947</strong> – First NAD Youth Congress, San Francisco; International Temperance Association formed; Pathfinder song written by Henry Bergh</li>
+    <li><strong>1948</strong> – Pathfinder flag made by Helen Hobbs; Area Coordinators first used in Pathfindering</li>
+    <li><strong>1949</strong> – First Junior Congress, La Sierra College, with John Hancock; hospital opens in Pakistan</li>
+    <li><strong>1950</strong> – First television broadcasting– Faith for Today; Pathfinder Club adopted by General Conference, Laurence Skinner becomes first World Pathfinder Director; First Pathfinder Fair, California</li>
+    <li><strong>1951</strong> – Maluti Hospital opens in Lesotho; Master Comrade becomes Master Guide</li>
+    <li><strong>1953</strong> – SDA Bible Commentary begins release; Pan American Youth Congress, San Francisco; first issue of the Junior Guide comes off the press; first Pathfinder Camporee, Massachusetts; first Pathfinder Club in Puerto Rico, Eliezer Melendez, director</li>
+    <li><strong>1954</strong> – The first Pathfinder clubs organized on the island of Trinidad in the Caribbean</li>
+    <li><strong>1955</strong> – First “Conquistadores” Club organized, Lima, Peru (Spanish Pathfinders), with D. J. von Pohle, Youth Director, and Nercida Ruiz, Club Director</li>
+    <li><strong>1956</strong> – MV Voice of Youth evangelism adopted by G. C.</li>
+    <li><strong>1958</strong> – Advanced Classes added to Pathfinder curriculum; Silver Award introduced</li>
+    <li><strong>1959</strong> – World membership of the church reaches the 1 million mark; First student missionary sent from Columbia Union College; first Pathfinder Club in Zimbabwe and Brazil (Desbravadores); Gold Award introduced</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 15/S15E10.mp3',
+            questions: []
+        },
+        {
+            text: `
+<h2>Section 11 – 1960-2000</h2>
+
+<p>People begin to refer to the phrase “as in the days of Noah”; “millennium fever” and Y2K troubles the hearts and minds of society. It’s time for the Lord to come; there is a new sense of urgency; evangelism adapts to technology and goes global via satellite.</p>
+
+<ul>
+    <li><strong>1960</strong> Andrews University takes the place of the Theology Seminary; first union Camporee at Lone Pine, California</li>
+    <li><strong>1961</strong> CME becomes Loma Linda University</li>
+    <li><strong>1962</strong> 5-Day Plan to Stop Smoking introduced; new 60-hour Pathfinder Staff Training course</li>
+    <li><strong>1963</strong> John Hancock becomes World Pathfinder Director</li>
+    <li><strong>1966</strong> Adventurers begun in Hartford, Connecticut, with Rita Vital directing</li>
+    <li><strong>1967</strong> Stewardship Dept. established</li>
+    <li><strong>1969</strong> World Youth Congress, Zurich, Switzerland</li>
+    <li><strong>1970</strong> Insight replaces Youth’s Instructor; membership at 2 million; Leo Ranzolin (Brazil) becomes World Pathfinder Director</li>
+    <li><strong>1971</strong> First division-wide Camporee, Sweden (Northern Europe-West Africa Division, today: TED)</li>
+    <li><strong>1972</strong> First efforts at world-wide coordinated evangelism, Mission ‘72....; first Euro-Africa Division Camporee, Austria</li>
+    <li><strong>1974</strong> First Antillean Union Pathfinder Camporee</li>
+    <li><strong>1975</strong> First South Pacific Division Camporee, Australia</li>
+    <li><strong>1976</strong> 50th anniversary of MV camping; highest youth camp in the world is realized at Ticllo, Peru, with 20 Master Guide candidates, elevation 4,900 mts./17,000+ ft.</li>
+    <li><strong>1977</strong> G. C. Annual Council launches plan for baptizing 1,000 persons/day by 1980; Youth Ministry Accent produced by G. C. Youth Dept.</li>
+    <li><strong>1978</strong> First Southern Asia Division Camporee, India; Missionary Volunteers (MV) replaced by Adventist Youth (AY)</li>
+    <li><strong>1980</strong> Africa-Indian Ocean Division organized; Mike Stevenson (South Africa) becomes World Pathfinder Director; Leo Ranzolin becomes World Youth Director, the first non-American to hold the position</li>
+    <li><strong>1983</strong> First Inter-American Division Camporee, Mexico</li>
+    <li><strong>1985</strong> First North American Division Camporee, Colorado; the merged Church Ministries Department begins its experiment</li>
+    <li><strong>1986</strong> Malcolm Allen (Australia) becomes World Pathfinder Director; Pan African Youth Congress in Nairobi</li>
+    <li><strong>1988</strong> Special edition “Pathfinder Bible” introduced; revised Pathfinder curriculum introduced</li>
+    <li><strong>1989</strong> Adventurer Club accepted by G. C. and goes world-wide</li>
+    <li><strong>1990</strong> “Valuegenesis” survey of youth begun in NAD, followed by SPD and other divisions, provides a base of over 50,000 respondents to questions on moral and spiritual values</li>
+    <li><strong>1993</strong> World Youth Evangelism Convention in Prague</li>
+    <li><strong>1994</strong> First East African Division Camporee at Victoria Falls</li>
+    <li><strong>1995</strong> Baraka G. Muganda from EAD (Tanzania) becomes the World Youth Director, first in the “new” Youth Department and first Black African to hold this position</li>
+    <li><strong>1996</strong> First SPD Youth Congress in Brisbane</li>
+    <li><strong>1998</strong> First Division Master Guide Camporee, SAD– Chile; first Division Master Guide Convention, NAD– California; a major revision of the Honors begins including the introduction of a new eighth category: Health and Science</li>
+    <li><strong>1999</strong> Discover the Power Camporee, Wisconsin, celebrating 50 years of Pathfindering, with 22,000 participants from all continents; there are now as many Pathfinders as there were total church members in 1959 (40 years ago); world church membership passes 11 million</li>
+    <li><strong>2000</strong> Impact Toronto 2,000 Project in Toronto, Canada</li>
+    <li><strong>2001</strong> World Youth Leadership Conference in Brazil</li>
+    <li><strong>2003</strong> World Youth Conference on Evangelism and Service, Bangkok, Thailand</li>
+</ul>
+            `,
+            audioPath: './stories/audio/Section 15/S15E11.mp3',
+            questions: []
         }
     ]
 };

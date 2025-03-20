@@ -121,7 +121,7 @@ const story8 = {
 </ul>
 <p>This <strong>1901 session</strong> became known as the “turning point toward unity, reform, solvency, and ardent evangelism.”</p>
             `,
-            audioPath: './stories/audio/Section 7/S07E010.mp3',
+            audioPath: './stories/audio/Section 7/S07E10.mp3',
             questions: []
         },
         {
@@ -136,7 +136,7 @@ const story8 = {
   <li><strong>Uriah Smith</strong>– <strong>1903</strong>, longtime editor of the <em>Review</em>; his book <em>Thoughts on Daniel and the Revelation</em> is still much used today. His death coincided with the end of the Battle Creek era as well.</li>
 </ol>
             `,
-            audioPath: './stories/audio/Section 7/S07E011.mp3',
+            audioPath: './stories/audio/Section 7/S07E11.mp3',
             questions: []
         },
         {
@@ -148,7 +148,7 @@ const story8 = {
   <li><strong>Dr. J. H. Kellogg</strong>, administrator of the Battle Creek Sanitarium, mixed pagan pantheism with the Bible, left and managed to take the hospital with him.</li>
 </ol>
             `,
-            audioPath: './stories/audio/Section 7/S07E012.mp3',
+            audioPath: './stories/audio/Section 7/S07E12.mp3',
             questions: []
         },
         {
@@ -158,7 +158,7 @@ const story8 = {
 
 <p>In February, 1902, the main building of the sanitarium burned down. In December of the same year, the Review factory was destroyed by fire. Finally, in 1903, Ellen White’s advice to move the headquarters east was heeded and property purchased near the nation’s capital, Washington, D.C.</p>
             `,
-            audioPath: './stories/audio/Section 7/S07E013.mp3',
+            audioPath: './stories/audio/Section 7/S07E13.mp3',
             questions: []
         }
     ]

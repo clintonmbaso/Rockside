@@ -1,0 +1,130 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for the review content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(244,200,201,0.6);
+    margin-top: 0;
+    border-radius: 0 0 50px 50px;
+}
+
+/* Question number and content */
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Answer options */
+.options label {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.options input[type="radio"] {
+    display: none;
+}
+
+/* Correct and incorrect answers */
+.correct {
+    background-color: #d4edda;
+    color: green;
+    border-radius: 5px;
+    border-left: 5px solid green;
+    padding: 2px;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    border-left: 5px solid red;
+    padding: 2px;
+}
+
+/* Styling for the user's selected answer */
+.selected {
+    background-color: rgba(0,0,255,0.2);
+    border-radius: 10px;
+    border-left: 5px solid #007bff;
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Explanation or hint */
+.hint {
+    background-color: #e9ecef;
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Navigation buttons */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer text */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}

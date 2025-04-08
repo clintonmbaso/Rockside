@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2T721CW7G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q2T721CW7G');
+</script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEMD | Bible Stories</title>
+    <link href="../indexes1.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+<div class="bridget-shaelyn">
+
+     <div class="log-clinton">
+        <img src="../images/1. Adventurer Logo.png" alt="adventurer" class="logos">
+        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+    </div>
+          <h3 class="thead"><span style="color:greenyellow;">Bible</span> <span style="color: orange;">Stories</span></h3>
+
+</div>
+ 
+    </header>
+
+<div class="container">
+    <nav id="link">
+        <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
+<a href="#" class="story-link" data-story="story1">Genesis</a>
+              <!--
+<a href="#" class="story-link" data-story="story2">Exodus</a>
+<a href="#" class="story-link" data-story="story3">Leviticus</a>
+<a href="#" class="story-link" data-story="story4">Numbers</a>
+              <!--
+<a href="#" class="story-link" data-story="story5">Babel</a>
+<a href="#" class="story-link" data-story="story6">Abraham</a>
+<a href="#" class="story-link" data-story="story7">Sodom</a>
+<a href="#" class="story-link" data-story="story8">Obedience</a>
+<a href="#" class="story-link" data-story="story9">Isaac Marries</a>
+<a href="#" class="story-link" data-story="story10">Birthright</a>
+<a href="#" class="story-link" data-story="story11">Isaac blesses Jacob</a>
+<a href="#" class="story-link" data-story="story12">Section 11</a>
+<a href="#" class="story-link" data-story="story13">Section 12</a>
+<a href="#" class="story-link" data-story="story14">Section 13</a>
+<a href="#" class="story-link" data-story="story15">Section 14</a>
+<a href="#" class="story-link" data-story="story16">Time Chart</a>
+<!--
+
+<a href="#" class="story-link" data-story="story17">Affairs</a>
+              
+<a href="#" class="story-link" data-story="story18">African</a>
+              -->
+        <br>
+        <br>
+        <script>
+    // Select all navigation links
+const navLinks = document.querySelectorAll('nav a');
+
+// Function to handle the active link
+function setActiveLink(event) {
+    // Remove 'active' class from all links
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+    });
+    
+    // Add 'active' class to the clicked link
+    event.target.classList.add('active');
+}
+
+// Add click event listener to all nav links
+navLinks.forEach(link => {
+    link.addEventListener('click', setActiveLink);
+});
+        </script>
+    </nav>
+
+    <section>
+        <div class="top">Hi</div>
+        <div class="bottom">Hi</div>
+    <h1 id="story-title">Story Title</h1>
+
+        <!-- Add similar divs for other years -->
+    <div class="book-section" id="story-part">
+        <!-- Story part will be dynamically inserted here -->
+              
+    </div>
+              <div class="butonz">
+    <button id="previous-button">Previous</button>
+    <button id="next-button">Next</button>
+    <button id="view-questions">Questions</button>
+              </div>
+              
+    <!-- Question Modal -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="modal-close">&times;</span>
+            <div id="questions-container"></div>
+        </div>
+    </div>
+              
+    <!-- Children Modal -->
+    <div id="children-modalz" class="modalz">
+        <div class="modalz-contentz">
+            <span id="close-modalz" class="modalz-close">&times;</span>
+            <div id="children-containerz"></div>
+        </div>
+    </div>
+              
+              
+<!-- Feedback Modal -->
+<div id="feedback-modals" class="modals">
+  <div class="modals-contents">
+    <a href="review.html" id="review-quiz" style="text-decoration:none;">Review Quiz</a>
+    <span id="close-feedback-modals" class="modal-close">&times;</span>
+    <h2>Quiz Results</h2>
+    
+    <!-- Chart Container -->
+    <canvas id="resultsChart" width="200" height="300"></canvas>
+    
+    <!-- Feedback Info -->
+    <p id="score-percentage"></p>
+    <p id="marks-obtained"></p>
+    <p id="comment"></p>
+  </div>
+</div>
+
+    </section>
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>

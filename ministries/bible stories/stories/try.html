@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+</head>
+<body>
+    <h1>Audio Player Example</h1>
+    
+    <!-- Audio player -->
+    <audio controls>
+        <source src="./audio/section1/S01E01-Church_of_the_Old_Testament.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p>Click the play button to listen to the audio.</p>
+  
+  
+   <h1>JavaScript Audio Player</h1>
+    <button id="playButton">Play Audio</button>
+    <button id="pauseButton">Pause Audio</button>
+
+    <script>
+        // Create an audio element
+        const audio = new Audio('./audio/section1/S01E01-Church_of_the_Old_Testament.mp3');
+
+        // Play the audio
+        document.getElementById('playButton').addEventListener('click', () => {
+            audio.play();
+        });
+
+        // Pause the audio
+        document.getElementById('pauseButton').addEventListener('click', () => {
+            audio.pause();
+        });
+    </script>
+</body>
+</html>

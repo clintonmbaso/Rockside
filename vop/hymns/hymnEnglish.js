@@ -5134,11 +5134,33 @@ this
     },
     {
         number: 225,
-        title: "225. Watchman",
+        title: "225. Stand Like The Brave.",
         reference: "here",
         key: "Doh",
         lyrics: `
-this
+O Christian, awake! ‘tis the Master’s command;
+With helmet and shield, and a sword in thy hand,
+To meet the bold tempter, go, fearlessly go,
+And stand like the brave, with thy face to the foe. 
+
+Chorus
+Stand like the brave, stand like the brave,
+Stand like the brave, with thy face to the foe. 
+
+Whatever thy danger, take heed and be-ware,
+And turn not thy back, for no armor is there;
+The legions of darkness, if thou wouldst o’er-throw,
+Then stand like the brave, with thy face to the foe. 
+
+The cause of thy Master with vigor defend;
+Be watchful, be zealous, and fight to the end; 
+Wherever he leads thee, go, valiantly go,
+And stand like the brave, with thy face to the foe. 
+
+Press on, never doubting, thy Captain is near,
+With grace to supply, and with comfort to cheer;
+His love, like a stream in the desert will flow,
+Then stand like the brave, with thy face to the foe.
         `
     },
     {

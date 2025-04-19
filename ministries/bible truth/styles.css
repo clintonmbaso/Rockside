@@ -1,0 +1,416 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+        nav {
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 100vh;
+            overflow: auto;
+            z-index:2;
+        }
+        nav a {
+            display: block;
+            padding: 10px 3px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            font-size: 13px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+       nav a.active {
+    border-right: 5px solid #564;  /* Highlight color */
+           opacity: 0.8;
+    color: green;
+}
+
+
+/* General container for the audio content */
+.audio-container {
+//    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sticky Play/Pause button */
+.play-pause-btn {
+    position: fixed;
+    bottom: 10%; /* Position the button in the middle vertically */
+    right: 1px; /* Position the button in the middle horizontally */
+    font-size: 2rem; /* Adjust the size of the symbol */
+    width: 30px;
+    height: 30px;
+    background: none; /* No background color */
+    border-radius: 50%; /* Round button */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Ensure button is above the content */
+}
+
+/* Hover effect */
+.play-pause-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+}
+.butonz {
+    position: fixed;
+    bottom: 5%; /* Position the button in the middle vertically */
+    
+}
+/* Ensures the button stays centered */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Prevent scroll bars */
+}
+
+        section {
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto;
+    height: 80vh;
+            text-align: justify;
+            margin-top: 15px;
+            
+}
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            backdrop-filter: blur(5px);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            z-index: 3;
+            max-width: 600px;
+            max-height: 80%;
+            width: 90%;
+            overflow: auto;
+        }
+        .popup a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        .popup a:hover {
+            background-color: #ddd;
+        }
+  #contentArea {
+    
+  }
+    .clubLogo {
+        width: 50px;
+        height: auto;
+        margin: 5px 10px;
+        border-radius: 50%;
+        border: solid white 2px;
+    }
+    .bottom {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 0 0 10px 10px;
+        color: grey;
+        bottom: 2px;
+        margin-left: -2px;
+    }
+    .top {
+        background-color: grey;
+        position: fixed;
+        padding: 5px;
+        text-align: center;
+        width: 75%;
+        border-radius: 10px 10px 0 0;
+        color: grey;
+        margin-top: -15px;
+        margin-left: -2px;
+    }
+    .thead {
+        margin:5px 0 0 0;
+        left: 0;
+        position:fixed;
+        z-index:999;
+        padding: 0 10px 2px 10px;
+        border-radius: 0 0 20px 0;
+        width: 50%;
+        background-color:rgba(0,40,45,0.9);
+    }
+    
+
+
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1px;
+    color: brown;
+}
+
+.read-aloud {
+    background-color: #48d1cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.view-questions {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+submitButton {
+    width: fill;
+}
+
+#feedback-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#feedback-text p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#close-feedback {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#close-feedback:hover {
+    background-color: #0056b3;
+}
+
+/* Modal CSS */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with opacity */
+    overflow: hidden;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 12% auto; /* 10% from the top and centered */
+    padding: 30px 10px 20px 10px; /* Padding inside the modal */
+    border: 1px solid #888; /* Border around the content */
+    width: 90%;
+    height: 85%;
+    max-width: 600px; /* Maximum width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    color: #000;
+    overflow: auto; 
+}
+
+.modal-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    right: 15px;
+    margin-top: -40px;
+    font-size: 50px;
+    font-weight: bold;
+    position: fixed;
+    color: red;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.story-questions {
+    margin-bottom: 10px; /* Space between questions */
+    padding: 10px; /* Padding around each question */
+    background-color: #f7f7f7; /* Background color for each question */
+    border-radius: 5px; /* Rounded corners for questions */
+    border: 1px solid #ddd; /* Border around each question */
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.story-part {
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px 0 2px 0;
+    padding: 10px;
+    background-color: rgba(123,150,55,0.3);
+    border-radius: 5px;
+    text-align: justify;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.story-part h2 {
+    font-size: 16px;
+    color: #756;
+    background-color: rgba(234,45,73,0.3);
+    margin-top: 0;
+    margin-bottom: -10px;
+    padding: 5px;
+    width: fill;
+    border-left: 5px solid grey;
+    border-radius: 5px;
+}
+
+.story-part h3 {
+    font-size: 15px;
+    color: #756;
+    margin-top: 2px;
+    margin-bottom: -15px;
+    padding: 5px;
+    width: fill;
+    border-bottom: 2px solid grey;
+    border-radius: 5px;
+}
+
+.story-part h4 {
+    font-size: 15px;
+    color: #476;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: -15px;
+    padding: 5px;
+    width: fill;
+    border-left: 2px solid grey;
+    border-radius: 5px;
+}
+
+.story-part p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.3;
+}
+
+.story-part blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+    margin-left: 15px;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+}
+
+.em {
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.modals {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modals-contents {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

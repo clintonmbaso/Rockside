@@ -1,7 +1,7 @@
-/*
+
 import S07E01 from './questions/S07E01.js';
 import S07E02 from './questions/S07E02.js';
-*/
+
 
 const story7 = {
     title: "Prophecy",
@@ -106,7 +106,7 @@ Let us be ready for the coming of Christ’s eternal kingdom.
             -->
             `,
             audioPath: './stories/audio/Section 7/S07E01.mp3',
-            questions: []
+            questions: S07E01
         },
         {
             text: `
@@ -209,7 +209,7 @@ Note: These prophetic symbols show the unfolding of God’s plan in history. Hum
             -->
             `,
             audioPath: './stories/audio/Section 7/S07E02.mp3',
-            questions: []      
+            questions: S07E02
         }
     ]
 };

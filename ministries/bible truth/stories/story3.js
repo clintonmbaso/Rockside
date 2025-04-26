@@ -1,7 +1,7 @@
-/*
+
 import S03E01 from './questions/S03E01.js';
 import S03E02 from './questions/S03E02.js';
-*/
+
 
 const story3 = {
     title: "Sin",
@@ -99,7 +99,7 @@ In conclusion, sin is far more than breaking rules—it is a deep, spiritual con
             -->
             `,
             audioPath: './stories/audio/Section 3/S03E01.mp3',
-            questions: []
+            questions: S03E01
         },
         {
             text: `
@@ -176,7 +176,7 @@ In summary, sin is a spiritual rebellion that began in heaven and was brought to
             -->
             `,
             audioPath: './stories/audio/Section 3/S03E02.mp3',
-            questions: []      
+            questions: S03E02
         }
     ]
 };

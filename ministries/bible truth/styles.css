@@ -195,6 +195,48 @@ h1 {
     margin: 10px 0;
 }
 
+.submit-button {
+  padding: 2px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius:  15px 0 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ width: 40%;
+    right: 0;
+ position: fixed;
+ bottom: 2px;
+}
+
+#review-quiz {
+    text-decoration: none;
+    padding: 2px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+  transform: scale(1.03);
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+  background-color: #3e8e41;
+}
+
 button {
     background-color: #ff6347;
     color: white;
@@ -209,9 +251,7 @@ button:hover {
     background-color: #ff4500;
 }
 
-submitButton {
-    width: fill;
-}
+
 
 #feedback-container {
     border: 1px solid #ccc;

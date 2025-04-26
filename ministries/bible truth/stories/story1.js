@@ -1,9 +1,10 @@
-/*
+
 import S01E01 from './questions/S01E01.js';
 import S01E02 from './questions/S01E02.js';
 import S01E03 from './questions/S01E03.js';
 import S01E04 from './questions/S01E04.js';
-*/
+import S01E05 from './questions/S01E05.js';
+
 
 const story1 = {
     title: "The Scriptures",
@@ -132,7 +133,7 @@ In conclusion, faith in God is both a rational and spiritual reality. While the 
              -->
             `,
             audioPath: './stories/audio/Section 1/S01E01.mp3',
-            questions: []
+            questions: S01E01
         },
         {
             text: `
@@ -227,7 +228,7 @@ In conclusion, God reveals Himself in many ways—through nature, history, chang
             -->
             `,
             audioPath: './stories/audio/Section 1/S01E02.mp3',
-            questions: []
+            questions: S01E02
         },
         {
             text: `
@@ -341,7 +342,7 @@ In conclusion, the Bible is more than an ancient manuscript—it is God’s endu
             -->
             `,
             audioPath: './stories/audio/Section 1/S01E03.mp3',
-            questions: []
+            questions: S01E03
         },
         {
             text: `
@@ -443,7 +444,7 @@ In conclusion, the Bible’s reliability is confirmed by fulfilled prophecy, per
             -->
             `,
             audioPath: './stories/audio/Section 1/S01E04.mp3',
-            questions: []
+            questions: S01E04
         },
         {
             text: `
@@ -588,7 +589,7 @@ In closing, remember that Bible study is not just an intellectual activity. It i
             -->
             `,
             audioPath: './stories/audio/Section 1/S01E05.mp3',
-            questions: []
+            questions: S01E05
         }
     ]
 };

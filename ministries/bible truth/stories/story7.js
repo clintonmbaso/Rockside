@@ -105,7 +105,7 @@ With this understanding, we are called to prepare our hearts. We are not just le
 Let us be ready for the coming of Christ’s eternal kingdom.
             -->
             `,
-            audioPath: './stories/audio/Section 8/S07E01.mp3',
+            audioPath: './stories/audio/Section 7/S07E01.mp3',
             questions: []
         },
         {

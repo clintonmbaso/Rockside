@@ -1,13 +1,9 @@
-/*
+
 import S02E01 from './questions/S02E01.js';
 import S02E02 from './questions/S02E02.js';
 import S02E03 from './questions/S02E03.js';
 import S02E04 from './questions/S02E04.js';
 import S02E05 from './questions/S02E05.js';
-import S02E06 from './questions/S02E06.js';
-import S02E07 from './questions/S02E07.js';
-import S02E08 from './questions/S02E08.js';
-*/
 
 const story2 = {
     title: "Creation and the Godhead",
@@ -101,7 +97,7 @@ In closing, recognizing God as the Creator helps us understand His authority, Hi
             -->
             `,
             audioPath: './stories/audio/Section 2/S02E01.mp3',
-            questions: []
+            questions: S02E01
         },
         {
             text: `
@@ -183,7 +179,7 @@ In conclusion, this lesson emphasizes that belief in divine creation is more tha
             -->
             `,
             audioPath: './stories/audio/Section 2/S02E02.mp3',
-            questions: []
+            questions: S02E02
         },
         {
             text: `
@@ -291,7 +287,7 @@ In conclusion, man’s origin, nature, and purpose are clearly revealed in Scrip
             -->
             `,
             audioPath: './stories/audio/Section 2/S02E03.mp3',
-            questions: []
+            questions: S02E03
         },
         {
             text: `
@@ -402,7 +398,7 @@ The Sabbath is a divine institution grounded in creation. It is reaffirmed in th
             -->
             `,
             audioPath: './stories/audio/Section 2/S02E04.mp3',
-            questions: []
+            questions: S02E04
         },
         {
             text: `
@@ -548,7 +544,7 @@ The Godhead desires to dwell in us. In John 14:16-17 and verse 23, Jesus says th
             -->
             `,
             audioPath: './stories/audio/Section 2/S02E05.mp3',
-            questions: []
+            questions: S02E05
         }
     ]
 };

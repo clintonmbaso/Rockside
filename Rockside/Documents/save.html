@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbath Program</title>
+    <link rel="stylesheet" href="letterHead.css">
+</head>
+<body>
+
+    <!-- Main Content -->
+    <h1>Rockside SDA Church</h1>
+    <h3>PERSONAL MINISTRIES DEPARTMENT</h3>
+
+    <div class="recipient">
+        <h3>ORDER OF WORSHIP</h3>
+        <p>Today's Order of Worship:</p>
+    </div>
+
+    <!-- Editable Fields -->
+    <p>RE: INVITATION LETTER FOR <span contenteditable="true" class="editable" data-placeholder="Enter Name">Enter Name</span></p>
+
+    <p>The <span contenteditable="true" class="editable" data-placeholder="Enter Department">Enter Department</span> invites <span contenteditable="true" class="editable" data-placeholder="Name of Invitee">Name of Invitee</span>.</p>
+
+    <!-- Save and View Buttons -->
+    <input type="text" id="letterName" placeholder="Enter letter name to save">
+    <button onclick="saveDocument()">Save Letter</button>
+    <a href="saved.html">View Saved Letters</a>
+
+    <script>
+        // Save document to localStorage with a unique key
+        function saveDocument() {
+            const letterName = document.getElementById('letterName').value.trim();
+            if (!letterName) {
+                alert('Please enter a name for the letter.');
+                return;
+            }
+
+            // Collect all editable content
+            const content = {};
+            document.querySelectorAll('.editable').forEach((el, index) => {
+                content[`editable${index}`] = el.textContent.trim();
+            });
+
+            // Save to localStorage with a unique key
+            localStorage.setItem(`letter_${letterName}`, JSON.stringify(content));
+            alert('Letter saved successfully!');
+        }
+    </script>
+<script>
+    window.onload = function() {
+        const letterData = sessionStorage.getItem('editingLetter');
+        if (letterData) {
+            const content = JSON.parse(letterData);
+            document.querySelectorAll('.editable').forEach((el, index) => {
+                el.textContent = content[`editable${index}`] || el.getAttribute('data-placeholder');
+            });
+        }
+    }
+</script>
+</body>
+</html>

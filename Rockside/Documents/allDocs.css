@@ -1,0 +1,171 @@
+/* Modal styles */
+.modal {
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.message-content {
+    background-color: transparent;
+    margin: 15% auto;
+    padding: 20px;
+    border: none;
+    width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    color: white;
+    position: relative;
+}
+
+.verse-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    max-height: 50%;
+    overflow: auto;
+    color: black;
+    position: relative;
+    text-align: justify;
+}
+
+/* Close button */
+.close, .close-bible {
+    color: red;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close {
+    position: fixed;
+    right: 13px;
+    top: 40px;
+    
+}
+.close:hover, .close-bible:hover {
+    color: #000;
+}
+
+#blurLayer {
+    display: none; /* Initially hidden */
+    position: fixed; /* Cover the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Blur effect */
+    z-index: 9999; /* Above other content */
+}
+
+.message-modal h2 {
+    color: yellow; /* Darker color for the title */
+    font-size: 20px; /* Larger font size */
+    margin: 0 auto;
+    position: fixed;
+    top: 10px;
+}
+.message-modal h3 {
+    color: wheat; /* Darker color for the title */
+    font-size: 15px;
+    
+}
+.date {
+    color: bisque; /* Darker color for the title */
+    font-size: 12px; /* Larger font size */
+    font-style: italic;
+    margin: 1px auto;
+    position: fixed;
+    top: 30px;
+}
+
+.hr {
+    position: fixed;
+    top: 40px;
+    width: 75vw;
+}
+
+.actual {
+    margin-top: -30px;
+}
+
+.lesson {
+    color: gold;
+    padding: 10px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    border-radius: 50px;
+    background-color: #345;
+    border: 1px solid gold;
+}
+.message-modal span {
+    font-weight: bold;
+    color: burlywood;
+}
+/* Customize content in Bible Verse modal */
+.verse-modal p {
+    font-style: italic; /* Italic style for verse content */
+    color: #555; /* Medium gray color */
+}
+
+#prevMessage, #nextMessage {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    position: fixed;
+    bottom: 3px;
+}
+#nextMessage {
+    right: 10%;
+}
+#prevMessage {
+    left: 10%;
+}
+#prevMessage, #nextMessage:hover {
+    background-color: #ff4500;
+}
+#prevMessage, #nextMessage:disabled {
+    background-color: #ccc;
+}
+
+.bookChapter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+    color:#253;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+blockquote {
+    font-size: 15px;
+    font-style: italic;
+    color: rgba(255,255,255,0.8);
+    margin-left: 15px;
+    border-left: 3px solid grey;
+    padding-left: 10px;
+}
+
+#why {
+    align-self: flex-end;
+}
+
+.message-modal a {
+    color: violet;
+    font-style: italic;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation</title>
+    <title>Introductory</title>
     <link rel="stylesheet" href="letterHead.css">
     <!-- Font Awesome CDN for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -21,7 +21,7 @@
         <header>
             <h1 class="sdaName">ROCKSIDE SDA CHURCH</h1>
             <p>C/O MULUNGUSHI UNIVERSITY,<br>P.O BOX 80415.<br>KABWE.</p>
-            <p>Phone: <a href="tel:+260766613234">+260766613234</a> | <a href="tel:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesda@gmail.com">rocksidesda@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
+            <p>Phone: <a href="Call:+260766613234">+260766613234</a> | <a href="Call:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesda@gmail.com">rocksidesda@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
         </header>
 
         <hr>
@@ -41,48 +41,34 @@
         
         
         <div class="recipient">
-            <p><strong>THE EXECUTIVE SECRETARY</strong></p>
+            <p><strong>THE CHURCH CLERK</strong></p>
             <p class="address"><span contenteditable="true" class="editable placeholder" data-placeholder="Insert Recipient's Address">Insert Recipient's Address</span></p>
         </div>
         
- 
-		<div class="subject">
-            <strong>RE: </strong>INVITATION LETTER FOR <b><span contenteditable="true" class="editable placeholder" data-placeholder="Enter Name" style="text-transform: uppercase;">Enter Name</span></b> FROM <span contenteditable="true" class="editable placeholder" data-placeholder="Enter Details" style="text-transform: uppercase;">Enter Details</span>.
+        <p>Dear Brethren In Christ,</p>
+        <div class="subject">
+            <strong>RE: </strong>INTRODUCTORY LETTER FOR <b><span id="firstName" contenteditable="true" class="editable placeholder" data-placeholder="Enter Name" style="text-transform: uppercase;">Enter Name</span></b>
             
             
 
             
         </div>
         <div class="main">
-        <p>Greetings in the name of our risen and soon coming Savior Jesus Christ.</p>
-			
-        <p>The 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Enter Department">Enter Department</span>
-            at Rockside SDA church, would like to request and invite 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Name of Invitee">Name of Invitee</span>
-            of 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Name of Church or District">Name of Church or District</span>
-            under 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Name of District or Conference">Name of District or Conference</span>
-            for a 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Purpose of Invitation">Purpose of Invitation</span>
-            which will take place 
-            <span contenteditable="true" class="editable placeholder" data-placeholder="Date of Event">Date of Event</span>.
+        <p>
+            Calvary greetings in the name of our Lord and soon coming Savior Jesus Christ. This serves to Introduce
+            <span id="secondName">Enter Name</span> into your congregation who is a baptized member of our church in good and
+            regular standing. <span contenteditable="true" class="editable placeholder" data-placeholder="Pronoun">Pronoun</span> is currently serving as <span contenteditable="true" class="editable placeholder" data-placeholder="position">position</span> at our local church and has
+            come to <span contenteditable="true" class="editable placeholder" data-placeholder="duration of stay">duration of stay</span>.
         </p>
-			
-        <p>The program will be aimed at 
-            all students taking part in God’s mission using their God given talents and spiritual gifts. Further a baptism will be conducted at the end of the week. We look forward to your positive response.
+        <p>
+            We hope and trust that his accompaniment with you shall be a blessing to the body of Christ.
+            Kindly receive him with love into your congregation. May God richly bless you as you worship.
         </p>
-			
         </div>
-		
-        <p><em>Yours In Christ Service.</em></p>
-
+        <p><em>Yours In Christ Service.</em></p><br>
         <div class="signature" id="why" style="display: flex; justify-content: space-between;">
-            <p><b>Church Clerk</b><br><em>Morris Bwalya</em><br><a href="tel:+260777803649">+260777803649</a><br><br>_________________<img src="signatures/morrisBwalyaSignature.png" alt="clerk" class="clerk"></p>
-            
-            <p style="text-align:center;"><b>Admin Elder</b><br><em>Daniel Shimau</em><br><a href="tel:+260766613234">+260979915503</a><br><br>_________________<img src="signatures/danielShimauSignature.png" alt="admin" class="admins"></p>
-			<p style="text-align:right;"><b>KEMD Pastor</b><br><em>Prince Hankwebe</em><br><a href="tel:+260766613234">+260976102728</a><br><br>_________________</p>
+            <p><b>Church Clerk</b><br><em>Morris Bwalya</em><br><br>_____________________<img src="signatures/morrisBwalyaSignature.png" alt="clerk" class="signatures"></p>
+            <p style="text-align:right;"><b>Admin Elder</b><br><em>Daniel Shimau</em><br><br>_____________________<img src="signatures/danielShimauSignature.png" alt="admin" class="adminSignatures"></p>
         </div>
 
         <div class="footer">
@@ -111,8 +97,6 @@
             alert('Saving feature will require backend integration. This is just a placeholder for now.');
         }
     
-    
-    
 document.querySelectorAll('.editable').forEach(element => {
   element.addEventListener('click', () => {
     // Check if the placeholder is still active
@@ -140,7 +124,48 @@ document.querySelectorAll('.editable').forEach(element => {
   });
 });
     
+const firstName = document.getElementById('firstName');
+const secondName = document.getElementById('secondName');
 
+// Function to convert text to Proper Case (capitalize first letter of each word)
+function toProperCase(text) {
+  return text
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+// Sync second span with the first one's input (convert to Proper Case)
+firstName.addEventListener('input', () => {
+  secondName.textContent = toProperCase(firstName.textContent);
+});
+
+// Immediate focus on first click
+firstName.addEventListener('click', () => {
+  if (firstName.classList.contains('placeholder')) {
+    firstName.classList.remove('placeholder');
+    firstName.textContent = ''; // Clear placeholder
+
+    setTimeout(() => {
+      let range = document.createRange();
+      let selection = window.getSelection();
+      range.selectNodeContents(firstName);
+      range.collapse(false);
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }, 0);
+  }
+});
+
+// Placeholder logic
+firstName.addEventListener('blur', () => {
+  if (firstName.textContent.trim() === '') {
+    firstName.classList.add('placeholder');
+    firstName.textContent = firstName.getAttribute('data-placeholder');
+    secondName.textContent = 'Enter Name'; // Reset second name
+  }
+});
     </script>
 
 </body>

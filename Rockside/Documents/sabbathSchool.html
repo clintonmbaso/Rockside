@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabbath School</title>
+    <link rel="stylesheet" href="letterHead.css">
+    <!-- Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+
+    <!-- Main Content Area -->
+    <div class="content">
+
+
+
+        <header>
+            <h1 class="sdaName">ROCKSIDE SDA CHURCH</h1>
+            <p>C/O MULUNGUSHI UNIVERSITY,<br>P.O BOX 80415.<br>KABWE.</p>
+            <p>Phone: <a href="tel:+260766613234">+260766613234</a> | <a href="tel:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesda@gmail.com">rocksidesda@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
+        </header>
+
+        <hr>
+
+        <div id="date">Date: </div>
+<script>
+    // Function to get and format the current date
+    function getFullDate() {
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('en-US', options);
+        return currentDate;
+    }
+
+    // Insert the date into an element with the id 'date'
+    document.getElementById('date').textContent = getFullDate();
+</script>
+        
+            <h3 class="department"><strong>SABBATH SCHOOL DEPARTMENT</strong></h3>
+
+        
+        <div class="recipient">
+            <h3 style="text-align: center;"><strong>SABBATH SCHOOL PROGRAM</strong></h3>
+            <p>Today's Sabbath School Program is as follows:</span></p>
+        </div>
+        
+ 
+		<div class="theme">
+		    <h4 class="titled">Main Program</h4>
+		    <ul>
+		        
+		        <li class="titledList"><b>Theme: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Theme">Theme</span></li>
+		        <li class="titledList"><b>Opening Song: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Opening Song">Opening Song</span></li>
+		        <div id="why" style="display: flex; justify-content: space-between;">
+		            <li class="titledList"><b>Starting Time: </b><input type="time" class="modern-time-input"></li>
+		            <li class="titledList"><b>Closing Time: </b><input type="time" class="modern-time-input"></li>
+		        </div>
+		    </ul>
+		</div>
+    
+		<div class="officers">    
+		    <h4 class="titled">Sabbath School Officers</h4>		    
+		    <ol>
+		        <li class="titledList"><b>Superitendent: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Superitendent">Superitendent</span></li>
+		        <li class="titledList"><b>Opening Song: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Opening Song">Opening Song</span></li>
+		        <li class="titledList"><b>Bible Reading and Prayer: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Bible Reading and Prayer">Bible Reading and Prayer</span></li>
+		        <li class="titledList"><b>Health Talk: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Health Talk">Health Talk</span></li>
+		        <li class="titledList"><b>Children's Corner: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Children's Corner">Children's Corner</span></li>
+		        <li class="titledList"><b>Mission Story: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Mission Story">Mission Story</span></li>
+		        <li class="titledList"><b>Closing Prayer: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Closing Prayer">Closing Prayer</span></li>
+		        <li class="titledList"><b>Chorister: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Chorister">Chorister</span></li>
+		    </ol>
+		</div>
+    
+    <p class="br cool">p</p>
+    <p class="cool">p</p>
+    
+		<div class="theme">    
+		    <h4 class="titled">Statistical Report</h4>		    
+		    <ul>
+		        <li class="titledList"><b>Early Comers: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Early Comers">Early Comers</span></li>
+		        <li class="titledList"><b>Visitors: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Visitors">Visitors</span></li>
+		    </ul>
+		    <h4 class="titled">Class Report</h4>
+		    
+		    
+<table class="modern-table">
+  <thead>
+    <tr>
+      <th>Sn.</th>
+      <th>Classes</th>
+      <th>Attendance</th>
+      <th>Offering Collection</th>
+    </tr>
+  </thead>
+  <tbody>
+      
+    <tr>
+      <td>1</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 1">Children's Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>2</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 2">Bible Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>3</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 3">Baptism Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>4</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 4">Bemba Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>5</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 5">Tonga Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>6</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 6">Nyanja Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>7</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 7">Lozi Class</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>8</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 8">English Class A</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>9</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 9">English Class B</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+    <tr>
+      <td>10</td>
+      <td>
+        <p class="titledList" class="editable placeholder" data-placeholder="Class 10">English Class C</p>
+      </td>
+      <td><input type="number" class="inputField" placeholder="0"></td>
+      <td>K<input type="number" class="inputField" placeholder="0"></td>
+    </tr>
+      
+  </tbody>
+</table>
+		    
+		</div>
+    
+        <p><em>In Christ Service.</em></p>
+
+    
+        <div class="signature" id="why" style="display: flex; justify-content: space-between;">
+            <p><b>Elder in Charge</b><br><em>Elder. Abraham Musenge</em><br><a href="tel:+260977583413">+260977583413</a><br><br>_________________<!--<img src="signatures/gmorrisBwalyaSignature.png" alt="clerk" class="clerk">--></p>
+            
+            <p style="text-align:right;"><b>Sabbath School Leader</b><br><em>Mrs. Yvonne Chakawa</em><br><a href="tel:+260771464938">+260771464938</a><br><br>_________________<!--<img src="signatures/jawaBautuSignature.png" alt="pm" class="pm">--></p>
+            
+        </div>
+
+        <div class="footer">
+        "All things should be done decently and in order." — 1 Corinthians 14:40
+        </div>
+
+<!-- Button Container -->
+<div class="btn-container">
+    <button class="btn save-btn" onclick="saveDocument()">
+        <i class="fas fa-save"></i> Save
+    </button>
+    <button class="btn print-btn" onclick="window.print()">
+        <i class="fas fa-print"></i> Print
+    </button>
+    <br>
+        <!-- Load Saved Document UI --
+    <select id="savedDocsDropdown" class="btn" style="width:auto;">
+        <option value="">Documents</option>
+    </select>
+    <button class="btn" onclick="loadSelectedDocument()">Load</button>
+    -->
+</div>
+
+    </div>
+        <!-- Right Sidebar for Logo -->
+    <div class="sidebar">
+        <img class="One1" src="../images/sdaLogos.png" alt="Church Logo">
+        <p><b>Seventh-Day</b> <span class="adventist"><b>Adventist</b></span> <b>Church</b></p>
+    </div>
+
+
+<script>
+const pageId = "sabbathSchool"; // Change this per page
+</script>
+
+<script>
+        function saveDocument() {
+            alert('Saving feature will require backend integration. This is just a placeholder for now.');
+        }
+    
+document.querySelectorAll('.editable').forEach(element => {
+  element.addEventListener('click', () => {
+    // Check if the placeholder is still active
+    if (element.classList.contains('placeholder')) {
+      element.classList.remove('placeholder');
+      element.textContent = ''; // Clear placeholder text
+
+      // Use setTimeout to ensure keyboard opens immediately after clearing
+      setTimeout(() => {
+        let range = document.createRange();
+        let selection = window.getSelection();
+        range.selectNodeContents(element);
+        range.collapse(false); // Move cursor to end
+        selection.removeAllRanges();
+        selection.addRange(range);
+      }, 0);
+    }
+  });
+
+  element.addEventListener('blur', () => {
+    if (element.textContent.trim() === '') {
+      element.classList.add('placeholder');
+      element.textContent = element.getAttribute('data-placeholder'); // Restore specific placeholder
+    }
+  });
+});
+</script>
+
+<script>
+document.querySelectorAll('.modern-time-input').forEach((input, index) => {
+    const key = `${pageId}-modern-time-input-${index}`;
+
+    // Load saved time value on page load
+    const savedTime = localStorage.getItem(key);
+    if (savedTime !== null) {
+        input.value = savedTime;
+    }
+
+    // Save time on input
+    input.addEventListener('input', () => {
+        localStorage.setItem(key, input.value);
+    });
+});
+</script>
+
+<script>
+document.querySelectorAll('.inputField').forEach((input, index) => {
+    const key = `${pageId}-inputField-${index}`;
+
+    // Load saved value on page load
+    const savedValue = localStorage.getItem(key);
+    if (savedValue !== null) {
+        input.value = savedValue;
+    }
+
+    // Save value on input
+    input.addEventListener('input', () => {
+        localStorage.setItem(key, input.value);
+    });
+});
+</script>
+
+<script>
+    // Auto-save changes to localStorage
+    document.querySelectorAll('.editable').forEach((element, index) => {
+    const key = `${pageId}-editable-${index}`;
+    
+    const saved = localStorage.getItem(key);
+    if (saved) {
+        element.textContent = saved;
+        element.classList.remove('placeholder');
+    }
+
+    element.addEventListener('input', () => {
+        localStorage.setItem(key, element.textContent);
+    });
+});
+
+    function saveDocument() {
+    const docName = prompt("Enter a name for this document:");
+    if (!docName) return;
+
+    let data = {};
+    document.querySelectorAll('.editable').forEach((el, index) => {
+        data[`${pageId}-editable-${index}`] = el.textContent;
+    });
+
+    localStorage.setItem(`${pageId}-savedDoc-${docName}`, JSON.stringify(data));
+    alert(`Document saved as "${docName}" for "${pageId}".`);
+}
+
+    // Optionally, add a function to load a saved document
+    function loadDocument(docName) {
+    const saved = localStorage.getItem(`${pageId}-savedDoc-${docName}`);
+    if (!saved) {
+        alert("Document not found.");
+        return;
+    }
+
+    const data = JSON.parse(saved);
+    document.querySelectorAll('.editable').forEach((el, index) => {
+        const key = `${pageId}-editable-${index}`;
+        if (data[key]) {
+            el.textContent = data[key];
+            el.classList.remove('placeholder');
+        }
+    });
+}
+</script>
+
+<script>
+    // Populate dropdown with saved documents
+    function populateSavedDocsDropdown() {
+    const dropdown = document.getElementById('savedDocsDropdown');
+    dropdown.innerHTML = '<option value="">Documents</option>';
+
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key.startsWith(`${pageId}-savedDoc-`)) {
+            const name = key.replace(`${pageId}-savedDoc-`, '');
+            const option = document.createElement('option');
+            option.value = name;
+            option.textContent = name;
+            dropdown.appendChild(option);
+        }
+    }
+}
+
+    // Load selected document from dropdown
+    function loadSelectedDocument() {
+        const selectedName = document.getElementById('savedDocsDropdown').value;
+        if (selectedName) {
+            loadDocument(selectedName);
+        } else {
+            alert("Please select a saved document to load.");
+        }
+    }
+
+    // Refresh dropdown when page loads
+    window.addEventListener('DOMContentLoaded', populateSavedDocsDropdown);
+</script>
+</body>
+</html>

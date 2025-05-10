@@ -63,6 +63,7 @@
 		        <li class="titledList"><b>Interpreter: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Interpreter">Interpreter</span></li>
 		        <li class="titledList"><b>Opening Prayer: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Opening Prayer">Opening Prayer</span></li>
 		        <li class="titledList"><b>Pulpit Manager: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Pulpit Manager">Pulpit Manager</span></li>
+		        <li class="titledList"><b>Announcements: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Announcements">Announcements</span></li>
 		        <li class="titledList"><b>Chorister: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Chorister">Chorister</span></li>
 		        <li class="titledList"><b>Offertory Reading: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Offertory Reading">Offertory Reading</span></li>
 		        <li class="titledList"><b>Deacon 1: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Deacon 1">Deacon 1</span></li>
@@ -82,9 +83,9 @@
 
     
         <div class="signature" id="why" style="display: flex; justify-content: space-between;">
-            <p><b>Church Clerk</b><br><em>Morris Bwalya</em><br><a href="tel:+260777803649">+260777803649</a><br><br>_________________<img src="signatures/morrisBwalyaSignature.png" alt="clerk" class="clerk"></p>
+            <p><b>Church Clerk</b><br><em>Morris Bwalya</em><br><a href="tel:+260777803649">+260777803649</a><br><br>_________________<!--<img src="signatures/gmorrisBwalyaSignature.png" alt="clerk" class="clerk">--></p>
             
-            <p style="text-align:right;"><b>Personal Ministries</b><br><em>Jawa Bautu</em><br><a href="tel:+260977445830">+260977445830</a><br><br>_________________<img src="signatures/jawaBautuSignature.png" alt="pm" class="pm"></p>
+            <p style="text-align:right;"><b>Personal Ministries</b><br><em>Jawa Bautu</em><br><a href="tel:+260977445830">+260977445830</a><br><br>_________________<!--<img src="signatures/jawaBautuSignature.png" alt="pm" class="pm">--></p>
             
         </div>
 
@@ -100,12 +101,19 @@
     <button class="btn print-btn" onclick="window.print()">
         <i class="fas fa-print"></i> Print
     </button>
+    <br>
+        <!-- Load Saved Document UI --
+    <select id="savedDocsDropdown" class="btn" style="width:auto;">
+        <option value="">Documents</option>
+    </select>
+    <button class="btn" onclick="loadSelectedDocument()">Load</button>
+    -->
 </div>
 
     </div>
         <!-- Right Sidebar for Logo -->
     <div class="sidebar">
-        <img class="One1" src="../images/sdaLogo.png" alt="Church Logo">
+        <img class="One1" src="../images/sdaLogos.png" alt="Church Logo">
         <p><b>Seventh-Day</b> <span class="adventist"><b>Adventist</b></span> <b>Church</b></p>
     </div>
     
@@ -145,6 +153,84 @@ document.querySelectorAll('.editable').forEach(element => {
     
 
     </script>
+<script>
+    // Auto-save changes to localStorage
+    document.querySelectorAll('.editable').forEach((element, index) => {
+        const key = `editable-${index}`;
+        // Load any saved content on page load
+        const saved = localStorage.getItem(key);
+        if (saved) {
+            element.textContent = saved;
+            element.classList.remove('placeholder');
+        }
 
+        element.addEventListener('input', () => {
+            localStorage.setItem(key, element.textContent);
+        });
+    });
+
+    function saveDocument() {
+        const docName = prompt("Enter a name for this document:");
+        if (!docName) return;
+
+        let data = {};
+        document.querySelectorAll('.editable').forEach((el, index) => {
+            data[`editable-${index}`] = el.textContent;
+        });
+
+        localStorage.setItem(`savedDoc-${docName}`, JSON.stringify(data));
+        alert(`Document saved as "${docName}".`);
+    }
+
+    // Optionally, add a function to load a saved document
+    function loadDocument(docName) {
+        const saved = localStorage.getItem(`savedDoc-${docName}`);
+        if (!saved) {
+            alert("Document not found.");
+            return;
+        }
+
+        const data = JSON.parse(saved);
+        document.querySelectorAll('.editable').forEach((el, index) => {
+            const key = `editable-${index}`;
+            if (data[key]) {
+                el.textContent = data[key];
+                el.classList.remove('placeholder');
+            }
+        });
+    }
+
+</script>
+<script>
+    // Populate dropdown with saved documents
+    function populateSavedDocsDropdown() {
+        const dropdown = document.getElementById('savedDocsDropdown');
+        dropdown.innerHTML = '<option value="">Documents</option>'; // Reset
+
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key.startsWith('savedDoc-')) {
+                const name = key.replace('savedDoc-', '');
+                const option = document.createElement('option');
+                option.value = name;
+                option.textContent = name;
+                dropdown.appendChild(option);
+            }
+        }
+    }
+
+    // Load selected document from dropdown
+    function loadSelectedDocument() {
+        const selectedName = document.getElementById('savedDocsDropdown').value;
+        if (selectedName) {
+            loadDocument(selectedName);
+        } else {
+            alert("Please select a saved document to load.");
+        }
+    }
+
+    // Refresh dropdown when page loads
+    window.addEventListener('DOMContentLoaded', populateSavedDocsDropdown);
+</script>
 </body>
 </html>

@@ -68,8 +68,8 @@ a {
 }
 
         .sidebar p {
-          font-size: 8px;
-          margin: 1px -5px;
+            font-size: 8px;
+            margin: 1px -5px;
             color: white;
             text-transform: uppercase;
             font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -83,7 +83,7 @@ a {
         header {
             text-align: right;
             margin-bottom: 10px;
-          margin: 2px auto;
+            margin: 2px auto;
         }
 
         header h1, header p, .date, .recipient, .subject, p, .signature, .footer {
@@ -102,7 +102,7 @@ a {
 
         hr {
             border: 1px solid #000;
-          margin-bottom: 0;
+            margin-bottom: 0;
         }
 
         #date {
@@ -118,12 +118,12 @@ a {
         }
 
         .recipient {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         
         .subject {
             margin-bottom: 20px;
-			text-align: justify;
+            text-align: justify;
         }
 
         .footer {
@@ -201,6 +201,76 @@ a {
     align-self: flex-end;
 }
 
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.modern-table thead {
+  background-color: rgba(40,60,80,0.3);
+  text-align: left;
+}
+
+.modern-table th,
+.modern-table td {
+  padding: 2px 5px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+tr {
+  padding: 0;
+}
+
+.modern-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.editablez {
+  display: inline-block;
+  min-width: 50px;
+  padding: 2px 5px;
+  border: 1px dashed #aaa;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: text;
+}
+
+.editablez:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background-color: #fff;
+}
+
+.editable.placeholder:empty::before {
+  content: attr(data-placeholder);
+  color: #999;
+}
+
+.inputField {
+  width: 30px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.1);
+}
+
+.cool {
+            color: transparent;
+        }
+
     @media print {
         body {
             margin: 0;
@@ -214,9 +284,9 @@ a {
       .save-btn, .print-btn {
             display: none;
         }
-              .sidebar {
+        .sidebar {
             width: 10%;
-                  padding-top: 10px;
+            padding-top: 10px;
         }
         
         .sidebar p {
@@ -233,6 +303,49 @@ a {
             display: flex;
             justify-content: space-between;
         }
+        
+.modern-time-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  width: 100px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.modern-time-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  background-color: #fff;
+}
+        
+#why {
+    align-self: flex-end;
+}
+        
+
+        
+@media (prefers-color-scheme: dark) {
+  .modern-time-input {
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #555;
+  }
+
+  .modern-time-input:focus {
+    border-color: #6ca0dc;
+    box-shadow: 0 0 0 3px rgba(108, 160, 220, 0.3);
+  }
+}
         
         .signatures, .adminSignatures {
             display: block;
@@ -276,6 +389,13 @@ a {
         .sidebar img {
             max-width: 60px;
             height: auto;
+        }
+        
+        .br {
+            margin-bottom: 318px;
+        }
+        .cool {
+            color: transparent;
         }
         
                 @page {

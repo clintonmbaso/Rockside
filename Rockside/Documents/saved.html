@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Letters</title>
+</head>
+<body>
+
+    <h1>Saved Letters</h1>
+    <ul id="lettersList"></ul>
+
+    <script>
+        // Load saved letters from localStorage
+        function loadLetters() {
+            const lettersList = document.getElementById('lettersList');
+            lettersList.innerHTML = '';
+
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith('letter_')) {
+                    const letterName = key.replace('letter_', '');
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="#" onclick="editLetter('${key}')">${letterName}</a>`;
+                    lettersList.appendChild(li);
+                }
+            }
+        }
+
+        // Redirect to edit page with the selected letter's data
+        function editLetter(key) {
+            const letterData = localStorage.getItem(key);
+            sessionStorage.setItem('editingLetter', letterData);
+            sessionStorage.setItem('editingLetterKey', key);
+            window.location.href = 'save.html';
+        }
+
+        loadLetters();
+    </script>
+
+</body>
+</html>

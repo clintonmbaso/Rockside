@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bible App</title>
+  <link rel="stylesheet" href="bible.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>The King James Bible</h1>
+
+    <!-- Specific Verse Search -->
+<div class="controls">
+  <select id="book"></select>
+  <select id="chapter"></select>
+  <select id="verse"></select>
+</div>
+
+<div class="search-box">
+  <input type="text" id="searchText" placeholder="Search entire book">
+  <button onclick="generalSearch()">Search Text</button>
+</div>
+<div class="controls">
+  <button class="prev" onclick="previousChapter()">Previous Chapter</button>
+  <button class="next" onclick="nextChapter()">Next Chapter</button>
+</div>
+<div id="results"></div>
+
+  <!-- Load app logic -->
+  <script src="app.js"></script>
+</body>
+</html>

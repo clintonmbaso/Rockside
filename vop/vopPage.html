@@ -3,57 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marquee Example</title>
+    <title>Font Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display&display=swap" rel="stylesheet">
     <style>
-        .marquee {
-            width: 100%;
-            overflow: hidden;
-            white-space: nowrap;
-            box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
         }
-
-        .marquee span {
-            display: inline-block;
-            padding-left: 100%;
-            animation: marquee 10s linear infinite;
+        .cinzel {
+            font-family: 'Cinzel', serif;
+            font-size: 50px;
         }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
+        .playfair {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
         }
     </style>
 </head>
 <body>
-
-<div id="title"></div>
-
-<script>
-    const story9 = {
-        title: `
-            <div class="marquee">
-                <span>Local Church Officers...</span>
-            </div>
-        `,
-        parts: [
-            {
-                text: `
-                    <h2>Introduction</h2>
-                    <p>Choosing quality officers is important for the prosperity of the church, 
-                    which should exercise the greatest care when calling men and women into 
-                    positions of sacred responsibility.</p>
-                `,
-            },
-        ],
-    };
-
-    // Render the title with marquee effect
-    document.getElementById('title').innerHTML = story9.title;
-</script>
-
+    <h1>Font Previews</h1>
+    <p class="cinzel">Brighton & Violet (Cinzel)</p>
+    <p class="playfair">Brighton & Violet (Playfair Display)</p>
 </body>
 </html>

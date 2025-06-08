@@ -355,7 +355,7 @@ const dailyMessages25 = [
     `
 },
 {
-    date: new Date(2025, 0, 17),
+    date: new Date(2025, 0, 22),
     title: "Further Thought",
     lesson: "3",    
     text: `

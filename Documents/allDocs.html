@@ -6,101 +6,92 @@
     <title>All Docs</title>
     <link rel="stylesheet" href="allDocs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="letterHead.css">
 
     <style>
-
+    /* CSS */
+.report1 {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+.qtr {
+  background: url('images/2025-1.jpg') center/contain no-repeat;
+  background-size: contain;
+  background-clip: padding-box; 
+    width: 100px;
+  height: 150px;
+}
+    
+.report1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.1);
+}
     </style>
 </head>
 <body>
   
 <div class="content">
 
+        <header>
+            <h1 class="sdaName">ROCKSIDE SDA CHURCH</h1>
+            <p>C/O MULUNGUSHI UNIVERSITY,<br>P.O BOX 80415.<br>KABWE.</p>
+            <p>Phone: <a href="tel:+260766613234">+260766613234</a> | <a href="tel:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesda@gmail.com">rocksidesda@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
+        </header>
 
+        <hr>
 
-  <h2>All Books</h2>
+        <div id="date">Date: </div>
+<script>
+    // Function to get and format the current date
+    function getFullDate() {
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('en-US', options);
+        return currentDate;
+    }
+
+    // Insert the date into an element with the id 'date'
+    document.getElementById('date').textContent = getFullDate();
+</script>
+        
+
+  <h3>All Forms</h3>
     <!-- Link to open daily message modal -->
-  <div class="section">
-    <h3>Adventurer Instructor Manuals</h3>
-        <a href="https://drive.google.com/file/d/1Y_COpQ1x-i0SxcmdS6plX0VL-HEc7bIJ/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/littleLambCover.png" alt="ll"></a>
-        <a href="https://drive.google.com/file/d/1Yef-ajXuB3gYziKLMYJQ_bjLX1CoQUj8/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/earlyBirdCover.png" alt="eb"></a>
-        <a href="https://drive.google.com/file/d/1SVSu3EhEDHcARWTB5IqeA_QVFHlkjnul/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/busyBeeCover.png" alt="bb"></a>
-        <a href="https://drive.google.com/file/d/1_6GTbUBl_jL8XJ54HI-GMKnxNq3L1wzZ/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/sunBeamCover.png" alt="sb"></a>
-        <a href="https://drive.google.com/file/d/1SVo57T96zD4XHZPYIZU0yKwUbRnN-D1e/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/builderCover.png" alt="b"></a>
-        <a href="https://drive.google.com/file/d/1Sbld32z2GdOXOnS0YuBZdQxoBV4U0jjn/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/helpingHandsCover.png" alt="hh"></a>
-  </div>
-    
-    <h3>Adventurer Activity Books</h3>
-        <a href="https" class="report1"><img class="qtr" src="./icons/littleLambActivityCover.png" alt="ll"></a>
-        <a href="https" class="report1"><img class="qtr" src="./icons/earlyBirdActivityCover.png" alt="eb"></a>
-        <a href="https" class="report1"><img class="qtr" src="./icons/busyBeeActivityCover.png" alt="bb"></a>
-        <a href="https" class="report1"><img class="qtr" src="./icons/sunBeamActivityCover.png" alt="sb"></a>
-        <a href="https" class="report1"><img class="qtr" src="./icons/builderActivityCover.png" alt="b"></a>
-        <a href="https" class="report1"><img class="qtr" src="./icons/helpingHandsActivityCover.png" alt="hh"></a>
-  </div>
-
-  <div class="section">
-    <h3>Pathfinder Instructor Manuals</h3>
-        <a href="https://drive.google.com/file/d/1_Xi2AOI09h8ubcr29Gy1zUYXv8e_gYFN/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/friendCover.png" alt="friend"></a>
-        <a href="https://drive.google.com/file/d/1_j6MO-Nm3FskvS1BvPZkPyaaxiMOTMze/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/companionCover.png" alt="companion"></a>
-        <a href="https://drive.google.com/file/d/1__2P6HfaDMzNdyBEt_RzG61N6iAy8e82/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/explorerCover.png" alt="explorer"></a>
-        <a href="https://drive.google.com/file/d/1_cKesFy7llGZvoSNZntBTYKRbI7k4OfF/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/rangerCover.png" alt="ranger"></a>
-        <a href="https://drive.google.com/file/d/1_l4k0XZ33FybxWoorzvs26QUWUv0Ncmo/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/voyagerCover.png" alt="voyager"></a>
-        <a href="https://drive.google.com/file/d/1_naiPRwoNsK_BSrpg3VHiJ5wOYFSkS8Z/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/guideCover.png" alt="guide"></a>
+  <div>
+        <a href="pmSabbath.html" class="report1"><img class="qtr" src="./icons/orderOfWorship.jpeg" alt="Sabbath Program"></a>
+        <a href="introductoryLetter.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Introduction"></a>
+        <a href="invitation.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Invitation"></a>
+        <a href="sabbathSchool.html" class="report1"><img class="qtr" src="./icons/sabbathSchool.jpeg" alt="Sabbath School"></a><!--
+        <a href="#" class="report1"><img class="qtr" src="../images/2024-1.jpg" alt="qtr241"></a>-->
+        <a href="weekOfPrayerReport.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Week of Prayer Report"></a>
   </div>
   
-  <div class="section">
-    <h3>Pathfinder Journal Books</h3>
-        <a href="https://drive.google.com/file/d/1oRiNVFRLK8q7vRC7Gyu2N4XZIEME3o2B/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/friendJournalCover.png" alt="friend"></a>
-        <a href="https://drive.google.com/file/d/1oVZSy26D7X0lMFDgA30bVpGilDWLVDTW/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/companionJournalCover.png" alt="companion"></a>
-        <a href="https://drive.google.com/file/d/1om8kPxWqUuQy28HPWCUA6Ceivc2frR1n/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/explorerJournalCover.png" alt="explorer"></a>
-        <a href="https://drive.google.com/file/d/1oqSROR9p2nPP8Q1zenjp09lMzDqIl81T/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/rangerJournalCover.png" alt="ranger"></a>
-        <a href="https://drive.google.com/file/d/1onJ-HVd7E6pVSITI2KEi_yvF0z78EHF-/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/voyagerJournalCover.png" alt="voyager"></a>
-        <a href="https://drive.google.com/file/d/1oqtHzXJlGAilulupVMbbYJLZ6m0fp4rd/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/guideJournalCover.png" alt="guide"></a>
-  </div>
-    
-  <div class="section">
-    <h3>Ambassador Seminars</h3>
-        <a href="https://drive.google.com/file/d/1bYHEOi79EGY2JoPUs-c7QU6RZwT0N39k/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar1.jpg" alt="seminar1"></a>
-        <a href="https://drive.google.com/file/d/1bgOkQgZkxuOn5mRh6sxxk9dLxxP4jDON/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar2.jpg" alt="seminar2"></a>
-        <a href="https://drive.google.com/file/d/1bghhWuTpKUzRsumzteEi145rFCNBmJde/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar3.jpg" alt="seminar3"></a>
-        <a href="https://drive.google.com/file/d/1buK0wOdDenkk6C2XZqveTTYnpInGFwOu/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar4.jpg" alt="seminar4"></a>
-        <a href="https://drive.google.com/file/d/1c1spwB4Kxyk8RJDtex9gv3nXa0fSgRso/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar5.jpg" alt="seminar5"></a>
-        <a href="https://drive.google.com/file/d/1c5ynvrFLAuUcyJrwgiy2nJ38kq2my3x9/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar6.jpg" alt="seminar6"></a>
-        <a href="https://drive.google.com/file/d/1c8mv53KVOYMfyzISuXFDBzlduf_L5j_0/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar7.jpg" alt="seminar7"></a>
-        <a href="https://drive.google.com/file/d/1cF8riNGFCW3e_yW6z-HeDwu57HmfUZQ4/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar8.jpg" alt="seminar8"></a>
-        <a href="https://drive.google.com/file/d/1cHp1Lv4PZvtUHAYw57wnKjlAf_MTxuGU/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar9.jpg" alt="seminar9"></a>
-        <a href="https://drive.google.com/file/d/1cJwbKYnHmHt-nG5lwhuZe3PqpWZ4ng1t/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/Seminar10.jpg" alt="seminar10"></a>
-  </div>
-  
-  <div class="section">
-    <h3>Ambassador Modules for Leaders</h3>
-        <a href="https://drive.google.com/file/d/1acEqOCOSH3tyli3lBujTEnx-B_Gvbp9S/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M1L.png" alt="module1"></a>
-        <a href="https://drive.google.com/file/d/1aoZumuIhqk0SyI3QcroDDX6XTZ_3YjTd/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M2L.png" alt="module2"></a>
-        <a href="https://drive.google.com/file/d/1b0VnnL2PwA4uVSDJBKI019b9MzE6i5cR/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M3L.png" alt="module3"></a>
-        <a href="https://drive.google.com/file/d/1bCFxEd_csmRJvHO8jISqxXkknEqDTIse/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M4L.png" alt="module4"></a>
-        <a href="https://drive.google.com/file/d/1bP2BYGQwXuLxIssM98A8h15JsO7ejqc7/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M5L.png" alt="module5"></a>
-        <a href="https://drive.google.com/file/d/1bUHNdI_sm9quer-7dczsF8Eo309QN3jA/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M6L.png" alt="module6"></a>
-        <a href="https://drive.google.com/file/d/1bXIaweO1OHWX5v8lAYcZd103WUalc1WF/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M7L.png" alt="module7"></a>
-  </div>
-    
-  <div class="section">
-    <h3>Ambassador Modules for Participants</h3>
-        <a href="https://drive.google.com/file/d/1ae8dS4b0KWZooIuPKbjrPW5MWCEzzxtE/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M1P.png" alt="module1"></a>
-        <a href="https://drive.google.com/file/d/1aoyFK96CI0i81NmAUBf2ur7k9_1mZhS0/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M2P.png" alt="module2"></a>
-        <a href="https://drive.google.com/file/d/1b8ZXQDThMDr7g5RR13D-jCe5lSQgEmVH/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M3P.png" alt="module3"></a>
-        <a href="https://drive.google.com/file/d/1bM0SRECUavp7ysGTOP0CQ-INjrLCx_Bt/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M4P.png" alt="module4"></a>
-        <a href="https://drive.google.com/file/d/1bR-pE1LB36x95yXy9xkAiPDkVnLjEaHx/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M5P.png" alt="module5"></a>
-        <a href="https://drive.google.com/file/d/1bUR9wSPQ4vbAuOJYZ7QxBAcm2un2bP2X/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M6P.png" alt="module6"></a>
-        <a href="https://drive.google.com/file/d/1bXe7ZkAAxSWfO9Y5UvBI1GiMKeboF0yz/view?usp=drivesdk" class="report1"><img class="qtr" src="./icons/M7P.png" alt="module7"></a>
-  </div>
-  
-    
 <!-- Blur Layer -->
 <div id="blurLayer"></div>
 </div>
 
+        <!-- Right Sidebar for Logo -->
+    <div class="sidebar">
+        <img class="One1" src="../images/sdaLogo.png" alt="Church Logo">
+        <p><b>Seventh-Day</b> <span class="adventist"><b>Adventist</b></span> <b>Church</b></p>
+    </div>
+    
 
-
+    <script src="dailyMessages.js"></script>
+    <script src="dailyMessages25.js"></script>  
     <script src="allDocs.js"></script>
 </body>
 </html>

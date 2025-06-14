@@ -1,0 +1,425 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 10%;
+            background-color: rgba(0,43,92,0.5);
+            padding: 5px;
+            text-align: center;
+            height: auto;
+        }
+        .One1 {
+            max-width: 40px;
+            height: auto;
+            cursor: pointer;
+            margin-bottom: 1px;
+            margin-top: 20px;
+            padding: 0;
+        }
+        .Two2 {
+            max-width: 40px;
+            height: auto;
+            cursor: pointer;
+            padding: 0;
+        }
+.department {
+    text-align: right;
+    margin-top: -23px;
+    font-size: 15px;
+}
+
+.titled{
+    color: black;
+    text-align: left;
+    border-left: solid 3px orange;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid orange;
+}
+
+.titledList {
+    
+}
+
+a {
+    text-decoration: none;
+}
+.main {
+    text-align: justify;
+}
+.placeholder {
+  color: grey;
+  font-style: italic;
+}
+
+.editable {
+  display: inline-block;
+  cursor: text;
+}
+
+.address {
+    margin-top: 2px;
+}
+
+        .sidebar p {
+            font-size: 8px;
+            margin: 1px -5px;
+            color: white;
+            text-transform: uppercase;
+            font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        }
+
+        .content {
+            width: 90%;
+            padding: 10px;
+        }
+
+        header {
+            text-align: right;
+            margin-bottom: 10px;
+            margin: 2px auto;
+        }
+
+        header h1, header p, .date, .recipient, .subject, p, .signature, .footer {
+            cursor: text;
+        }
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        }
+
+        header p {
+            font-size: 14px;
+            margin: 2px 0;
+        }
+
+        hr {
+            border: 1px solid #000;
+            margin-bottom: 0;
+        }
+
+        #date {
+            text-align: right;
+            margin-bottom: 20px;
+            background-color: rgba(0,0,0,0.2);
+            padding: 2px;
+            margin-left: auto;
+            margin-top: 0;
+            width: auto;
+            border-radius: 0 0 0 10px;
+            font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        }
+
+        .recipient {
+            margin-bottom: 20px;
+        }
+        
+        .subject {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            background-color: rgba(0,0,0,0.2);
+            color: black;
+            width: 100%;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .signature {
+            bottom: 5px;
+        }
+
+/* Button Container Styling */
+.btn-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+/* General Button Styling */
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signatures, .adminSignatures, .clerk, .admins, .pm {
+    display: none;
+}
+
+
+/* Save Button */
+.save-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+/* Print Button */
+.print-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.print-btn:hover {
+    background-color: #1e88e5;
+    transform: translateY(-3px);
+}
+
+/* Icon Styling */
+.btn i {
+    font-size: 18px;
+}
+
+#why {
+    align-self: flex-end;
+}
+
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.modern-table thead {
+  background-color: rgba(40,60,80,0.3);
+  text-align: left;
+}
+
+.modern-table th,
+.modern-table td {
+  padding: 2px 5px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+tr {
+  padding: 0;
+}
+
+.modern-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.editablez {
+  display: inline-block;
+  min-width: 50px;
+  padding: 2px 5px;
+  border: 1px dashed #aaa;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: text;
+}
+
+.editablez:focus {
+  outline: none;
+  border-color: #4a90e2;
+  background-color: #fff;
+}
+
+.editable.placeholder:empty::before {
+  content: attr(data-placeholder);
+  color: #999;
+}
+
+.inputField {
+  width: 30px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.1);
+}
+
+.cool {
+            color: transparent;
+        }
+
+.heading2 {
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.heading3 {
+    font-size: 18px;
+    border-right: 4px solid grey;
+    border-radius: 10px 15px 0 0;
+    padding-right: 10px;
+    background: rgba(0,0,0,0.1);
+    margin-bottom: -1px;
+    text-align: right;
+}
+
+    @media print {
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    * {
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For modern browsers */
+    }
+      .save-btn, .print-btn {
+            display: none;
+        }
+        .sidebar {
+            width: 10%;
+            padding-top: 10px;
+        }
+        
+        .sidebar p {
+          font-size: 9px;
+          margin: 1px -5px;
+        }
+        .adventist {
+            font-size: 13px;
+        }
+        
+        .signature {
+            bottom: 5px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+        .signature-block {
+            border-left: 1px solid grey;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+.modern-time-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  width: 100px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.modern-time-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  background-color: #fff;
+}
+        
+#why {
+    align-self: flex-end;
+}
+        
+
+        
+@media (prefers-color-scheme: dark) {
+  .modern-time-input {
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #555;
+  }
+
+  .modern-time-input:focus {
+    border-color: #6ca0dc;
+    box-shadow: 0 0 0 3px rgba(108, 160, 220, 0.3);
+  }
+}
+        
+        .signatures, .adminSignatures {
+            display: block;
+            position: absolute;
+            width: auto;
+            height: 40px;
+        }
+        
+        .signatures {
+            left: 25px;
+            bottom: 4px;
+        }
+        
+        .adminSignatures {
+            right: 5px;
+            bottom: 10px;
+        }
+        
+        .clerk, .admins, .pm {
+            display: block;
+            position: absolute;
+            width: auto;
+            height: 40px;
+        }
+        
+        .clerk {
+            left: 10px;
+            bottom: 4px;
+        }
+        
+        .admins {
+            left: 287px;
+            bottom: 10px;
+        }
+        
+        .pm {
+            right: 20px;
+            bottom: 19px;
+        }
+        
+        .sidebar img {
+            max-width: 60px;
+            height: auto;
+        }
+        
+        .br {
+            margin-bottom: 318px;
+        }
+        .cool {
+            color: transparent;
+        }
+        
+                @page {
+            margin: 0 0 0 1cm;
+                               /* Adjust page margins */
+    }
+}

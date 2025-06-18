@@ -175,7 +175,7 @@
 */
         .total {
             font-weight: bold;
-            color: #d9534f;
+            color: grey;
             font-size: 1.1em;
         }
 
@@ -314,7 +314,7 @@
   }
   .clubLogo {
     top: 30px;
-    left: 100px;
+    left: 90px;
     width: 50px;
     height: auto;
     position: relative;
@@ -322,8 +322,56 @@
   .print-button {
     display: none;
   }
-  .number {
-      left: 20px;
-      width: 10px;
-  }
+        /* New CSS for the page number */
+        .number {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            width: 10px;
+        }
+        @page :first {
+            /* Styles specific to first page */
+        }
+        @page {
+            @top-right {
+                content: none; /* Remove any content from top-right on subsequent pages */
+            }
+        }
+        /* Hide the number on all pages except the first */
+        body:not(:first-page) .number {
+            display: none;
+        }
+    
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 2px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+            text-align: left;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgba(0, 51, 102, 0.3);
+            color: white;
+        }
+
+    
 }

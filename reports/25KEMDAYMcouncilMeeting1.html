@@ -5,78 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda for Kabwe East Mission District Youth Council</title>
     <link rel="stylesheet" href="styles.css"> <!-- Make sure to link your CSS -->
-    <style>
-        @media print {
-            * {
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, sans-serif;
-            }
-            header {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                background-color: #fff;
-                z-index: 1000;
-                padding: 10px;
-                text-align: center;
-                font-size: 20px;
-                font-weight: bold;
-                border-bottom: 2px solid #000;
-            }
-            .content-wrapper {
-                padding-top: 70px; /* Adjust this to make space for the header */
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            .agenda {
-                margin-top: 20px;
-                font-size: 16px;
-            }
-            .agenda li {
-                margin-bottom: 10px;
-            }
-            @page {
-                margin-top: 80px;
-                margin-bottom: 40px;
-            }
+<style>
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
-    </style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            z-index: 1000;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+        }
+        .content-wrapper {
+            padding-top: 70px; /* Adjust this to make space for the header */
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .agenda {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .agenda li {
+            margin-bottom: 10px;
+        }
+        .resolutions {
+            margin-top: 30px;
+        }
+        .resolutions h3 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+        .resolutions p {
+            margin: 5px 0;
+        }
+        .roll-call {
+            margin-top: 15px;
+        }
+        .roll-call ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+        @page {
+            margin: 80px 20px 40px 20px;
+            
+        }
+        
+
+    }
+</style>
+    
 </head>
 <body>
-        <header>
-<div class="bridget-shaelyn">
-
-     <div class="log-clinton">
-         <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
-        <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
-        <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
-        <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
-        <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
-        <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
-    </div>
-</div>
-          <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
-    </header>
+    <header>
+        <div class="bridget-shaelyn">
+            <div class="log-clinton">
+                <img class="clubLogo" src="../images/0. SDA Logo.png" alt="logo">
+                <img src="../images/1. Adventurer Logo.png" alt="Logo 1" class="logos">
+                <img src="../images/2. Pathfinder Logo.png" alt="Logo 2" class="logos">
+                <img src="../images/4. Ambassodor Logo.png" alt="Logo 3" class="logos">
+                <img src="../images/5. AY Logo.png" alt="Logo 4" class="logos">
+                <img src="../images/7. PCM.png" alt="Logo 5" class="logos">
+            </div>
+        </div>
+        <h3 class="thead"><span style="color:greenyellow;">KEMD AY </span> <span style="color: orange;">Ministries</span></h3>
+    </header>
     
-        
     <div class="hi">
-    <h2 class="headinz">YOUTH COUNCIL MEETING</h2>
+        <h2 class="headinz">YOUTH COUNCIL MEETING</h2>
         <p class="date" id="formatted-date"></p>
         <p class="venue">Rockside SDA Church</p>
         <p class="number">1</p>
     </div>
-    
+    <script>
+    function printReport() {
+        var reportContent = document.body.innerHTML; 
+        var printWindow = window.open('', '', 'width=950,height=750');
+        
+        // Add CSS to hide the number on subsequent pages
+        var css = `
+            <style>
+                @page {
+                    size: auto;
+                    margin-top: 80px;
+                    margin-bottom: 40px;
+                }
+                .number {
+                    position: fixed;
+                    top: 50px;
+                    right: 20px;
+                }
+                .number-after-first {
+                    display: none;
+                }
+            </style>
+        `;
+        
+        // Add a class to the number element to hide it after first page
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = reportContent;
+        var numberElement = tempDiv.querySelector('.number');
+        if (numberElement) {
+            numberElement.className += ' number-after-first';
+        }
+        
+        printWindow.document.write('<html><head><title>Agenda</title>');
+        printWindow.document.write(css);
+        printWindow.document.write('<link rel="stylesheet" href="styles.css">');
+        printWindow.document.write('</head><body>');
+        printWindow.document.write(tempDiv.innerHTML);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        
+        // Add an event listener to remove the number after printing starts
+        printWindow.onbeforeprint = function() {
+            var numbers = printWindow.document.querySelectorAll('.number-after-first');
+            for (var i = 0; i < numbers.length; i++) {
+                numbers[i].style.display = 'none';
+            }
+        };
+        
+        printWindow.print();
+    }
+</script>
     <script>
         // Set the date, start time, and end time manually here
         const meetingDate = '2025-02-16'; // Date format: YYYY-MM-DD
-        const startTime = '09:00'; // Start time in HH:MM format
-        const endTime = '14:00'; // End time in HH:MM format
+        const startTime = '11:05'; // Start time in HH:MM format
+        const endTime = '17:10'; // End time in HH:MM format
 
         // Function to format the date
         function formatDate(dateInput) {
@@ -91,7 +160,7 @@
             const formattedDate = formatDate(meetingDate);
             
             // Display the formatted date and times
-            const meetingDetails = `Date: ${formattedDate}<br>Time to Begin: ${startTime} <br>Time to End: ${endTime}`;
+            const meetingDetails = `<b>Date:</b> ${formattedDate}<br><b>Meeting Begun:</b> ${startTime} <br><b>Meeting Ended:</b> ${endTime}`;
             document.getElementById("formatted-date").innerHTML = meetingDetails;
         }
 
@@ -103,38 +172,113 @@
         <div class="agenda">
             <h3>Agenda</h3>
             <ol>
-                <li>Worship Service</li>
-                <ul>
-                    <li>Opening Prayer: Br. Lee Mweetwa</li>
-                    <li>Opening Hymn: 199</li>
-                    <li>Devotion: Br. Lweendo Monze</li>
-                </ul>
+                <li>Opening Prayer: Br. Lee Mweetwa</li>
+                <li>Opening Hymn: 199</li>
+                <li>Devotion: Br. Lweendo Monze</li>
                 <li>Roll Call</li>
                 <li>Opening Remarks</li>
-                <li>Reading of Previous Minutes</li>
-                <ul>
-                    <li>Observations and Corrections</li>
-                    <li>Matters Arising</li>
-                    <li>Adoption</li>
-                </ul>
                 <li>Main Business</li>
                 <ol class="roman">
-                    <li>Invitation Letter</li>
-                    <li>Vacancies</li>
-                    <li>Global Youth Day</li>
-                    <li>Induction and Enrollment</li>
                     <li>Time Management</li>
-                    <li>Financial Report</li>
+                    <li>Invitation Letter from Shimukuni Mission District</li>
+                    <li>Global Youth Day</li>
+                    <li>Vacancies</li>
+                    <li>Induction and Enrollment Ceremony Experience</li>
+                    <li>Handovers</li>
+                    <li>Any Other Business</li>
                 </ol>
-                <li>Announcements</li>
                 <li>Closing Remarks</li>
                 <li>Closing Prayer</li>
             </ol>
         </div>
     </div>
+    
     <div class="section">
-        
+        <div class="resolutions">
+            <h3>Resolutions</h3>
+            
+            <div class="roll-call">
+                <h4>Roll Call</h4>
+                <p><strong>Churches Present:</strong></p>
+                <ul>
+                    <li>Dallas</li>
+                    <li>Kamushanga</li>
+                    <li>Kohima</li>
+                    <li>Lukanga Main</li>
+                    <li>Lukanga North</li>
+                    <li>Mulungushi</li>
+                    <li>Nabusanga</li>
+                    <li>Natuseko</li>
+                    <li>Silos</li>
+                </ul>
+                <p><strong>Church Absent:</strong> Kamuchanga</p>
+            </div>
+            
+            <p>The meeting was called to order at 11:05 hrs by the Youth President who acknowledged the presence of the District Pastor (Pastor Prince Hankwebe) and the District Secretary (Elder Moonga).</p>
+            
+            <p>Pastor Hankwebe encouraged unity and emphasized free interaction and good communication to ensure the youth ministry runs smoothly. He rendered an apology for not being able to stay for the entire meeting due to prior commitments, but assured the council that the District Secretary would remain available. He offered a prayer before leaving.</p>
+            
+            <p>The Youth President thanked all present churches and introduced the 2025 newly elected executive members from Zones A and B. Thereafter, the agenda was read and adopted by the council members.</p>
+            
+            <h4>Main Business Resolutions:</h4>
+            
+            <p><strong>1. Invitation Letter from Shimukuni Mission District:</strong><br>
+            Kabwe East Mission District received an invitation from Shimukuni Mission District (Kalola Zone) for a camp that was to run from April 6-12, 2025 at Kalola Campsite. Registration fee is tagged at K120, with food and transport to have been organized by the district. The council agreed to respond after discussing time management.</p>
+            
+            <p><strong>2. Vacancies:</strong><br>
+            The following members were elected to the executive:<br>
+            <strong>Zone A:</strong><br>
+            - Vice Treasurer: Br. Charles Musakanya (Silos SDA Church)<br>
+            - Ambassador Leader: Sr. Grenda Chitanika (Nabusanga SDA Church)<br>
+            - Planning/Organizer: Br. Justine Mulwanda (Lukanga SDA Church)<br>
+            <strong>Zone B:</strong><br>
+            - Vice Secretary: Br. Gift ( SDA Church)</p>
+            
+            <p><strong>3. Global Youth Day:</strong><br>
+            GYD 2025 was to be celebrated at district level under the theme "Act as a Community Transformed". Council members were to purchase T-shirts of any color. The council agreed to visit an orphanage, with each church contributing to the event. Further details were to be posted on the forum.</p>
+            
+            <p><strong>4. Induction and Enrollment Ceremony Experience:</strong><br>
+            <strong>Observations:</strong><br>
+            - Excessive comedy in some churches<br>
+            - Inappropriate drills (entertainment drill, slow match, quick match)<br>
+            - Incorrect candle arrangements and shortages<br>
+            - Improper salutations and permission granting<br>
+            - Poor communication between local and district leaders<br>
+            - Lack of coordination between Master Guides and church administration<br>
+            - Limited knowledge of proper ceremony procedures<br>
+            - Uniform inconsistencies<br>
+            - Shortage of teaching materials<br>
+            - Inconsistent forms across churches<br>
+            
+            <strong>Recommendations:</strong><br>
+            - Conduct lessons on proper ceremony procedures<br>
+            - District leaders to produce and sell standardized candles<br>
+            - Improved coordination between district and church leaders<br>
+            - Advance planning and preparation by churches<br>
+            - District to advise on correct forms<br>
+            - Education department to provide teaching materials to all churches by year-end</p>
+            
+            <p><strong>5. Time Management:</strong><br>
+            After forum discussion (Mighty KEMD), the council agreed:<br>
+            - Budget should be approximate rather than fixed<br>
+            - Cancel second quarter community service<br>
+            The amended time management was adopted.</p>
+            
+            <p><strong>6. Financial Report:</strong><br>
+            The Vice President apologized for the unavailability of the previous financial report. The District Secretary assured the matter would be addressed and encouraged support for new executives. The 2025 financial report was read and adopted.</p>
+            
+            <p><strong>7. Any Other Business:</strong><br>
+            - The Shimukuni invitation was accepted<br>
+            - Members encouraged to promote GYD and upcoming programs</p>
+            
+            <p><strong>Closing Remarks:</strong> The President appreciated members' attendance and encouraged peace, love, and unity.</p>
+            
+            <p><strong>Closing Prayer:</strong> The meeting concluded with prayer.</p>
+            
+            <p class="prepared-by">Minutes prepared by: Loveness Mishealson Mwanza</p>
+        </div>
     </div>
+    
     <script>
         function printReport() {
             var reportContent = document.body.innerHTML; 

@@ -1,0 +1,140 @@
+#music-player {
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  width: 300px;
+  background-color: rgba(30, 30, 30, 0.7);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+#music-player.minimized {
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+#music-player.minimized:hover {
+  opacity: 0.7;
+}
+
+#music-player.minimized .player-container > *:not(#minimize-btn) {
+  display: none;
+}
+
+#music-player.minimized #minimize-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.player-container {
+  padding: 15px;
+  color: white;
+}
+
+.now-playing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#album-art {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.track-info {
+  flex: 1;
+}
+
+#track-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#track-artist {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.control-btn:hover {
+  opacity: 0.8;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#progress-bar {
+  flex: 1;
+  height: 4px;
+  cursor: pointer;
+}
+
+.playlist-container {
+  margin-top: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.playlist-container.hidden {
+  display: none;
+}
+
+.playlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#playlist-list, #current-tracks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#playlist-list li, #current-tracks li {
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#playlist-list li:hover, #current-tracks li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#playlist-list li.active, #current-tracks li.playing {
+  background-color: rgba(0, 120, 215, 0.3);
+}
+
+/* Add more styles as needed */

@@ -23,6 +23,7 @@
 <link href="flychurch.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <link href="indexes.css" rel="stylesheet">
+  <link href="./js/playerStyle.css" rel="stylesheet">
 
 <script src="popper.min.js"></script>
 <script src="bootstrap.min.js"></script>
@@ -295,7 +296,7 @@
                   </div>
                </div>
               
-               <marquee direction="left" scrolldelay="200" scrollamount="4" behavior="scroll" loop="0" id="shaelynMbaso1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">Okay Adventist Youth Ministries Cries. Maxwell knows better...</span></marquee>
+               <marquee direction="left" scrolldelay="200" scrollamount="4" behavior="scroll" loop="0" id="shaelynMbaso1" onmouseover="this.stop()" onmouseout="this.start()"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:16px;">Hi Maxwell, be patient, the page is still loading...</span></marquee>
               
               
                <div id="wb_alllinksFlexContainer">
@@ -551,8 +552,8 @@
     <img id="logoset" src="images/Last Advent Logo.png" alt="Logo">
     <a class="logo-link" href="./ministries/church heritage/churchHeritage.html"><img src="images/Builder.png" alt="CH">Heritage</a>
     <a class="logo-link" href="./ministries/bible stories/bibleStories.html"><img src="images/1. Adventurer Logo.png" alt="BS">Stories</a>
-    <a class="logo-link" href="./ministries/bible truth/bibleTruth.html"><img src="images/1. Adventurer Logo.png" alt="BS">Truth</a>
-    <a class="logo-link" href="./ministries/ambassador seminars/ambassadorSeminars.html"><img src="images/1. Adventurer Logo.png" alt="BS">Seminars</a>
+    <a class="logo-link" href="./ministries/bible truth/bibleTruth.html"><img src="images/5. AY Logo.png" alt="BS">Truth</a>
+    <a class="logo-link" href="./ministries/ambassador seminars/ambassadorSeminars.html"><img src="images/4. Ambassodor Logo.png" alt="BS">Seminars</a>
     <a class="logo-link" href="cmt.html"><img src="images/CMT.png" alt="CMT"> CMT</a>
     <a class="logo-link" href="mg.html"><img src="images/3. Master Guide Logo.png" alt="MG"> MG</a>
     <a class="logo-link" href="syl.html"><img src="images/6. SYL.png" alt="SYL"> SYL</a>
@@ -606,6 +607,56 @@
             }
         });
     </script>
+  
+  
+  // Player
+  <div id="music-player" class="minimized">
+  <div class="player-container">
+    <div class="now-playing">
+      <img id="album-art" src="default-art.jpg" alt="Album Art">
+      <div class="track-info">
+        <div id="track-title">No track selected</div>
+        <div id="track-artist">-</div>
+      </div>
+    </div>
+    
+    <div class="player-controls">
+      <button id="prev-btn" class="control-btn">⏮</button>
+      <button id="play-btn" class="control-btn">▶</button>
+      <button id="next-btn" class="control-btn">⏭</button>
+      <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <input type="range" id="progress-bar" value="0" min="0">
+        <span id="duration">0:00</span>
+      </div>
+      <button id="volume-btn" class="control-btn">🔊</button>
+      <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.7">
+      <button id="playlist-btn" class="control-btn">🎵</button>
+      <button id="minimize-btn" class="control-btn">×</button>
+    </div>
+    
+    <div class="playlist-container hidden">
+      <div class="playlist-header">
+        <h3>Your Playlists</h3>
+        <button id="new-playlist-btn">+ New</button>
+      </div>
+      <ul id="playlist-list">
+        <!-- Playlists will be populated here -->
+      </ul>
+      <div class="current-playlist">
+        <h4>Current Playlist: <span id="current-playlist-name">Default</span></h4>
+        <ul id="current-tracks">
+          <!-- Current playlist tracks will be populated here -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <script src="./js/playerScript.js"></script>
+  
+  
+  
 </body>
 </html>
 

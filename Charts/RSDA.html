@@ -1,17 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Flying Wings Academy | Rockside SDA Church</title>
-<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<meta charset="UTF-8">
+<title>Rockside | Church</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="flychurch.css" rel="stylesheet">
-<link href="RSDA.css" rel="stylesheet">
-<script src="jquery-3.6.0.min.js"></script>
-<script src="wb.panel.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
-<script src="wwb18.min.js"></script>
+   
+<link href="../font-awesome.min.css" rel="stylesheet">
+<link href="../flychurch.css" rel="stylesheet">
+<link href="KEMD.css" rel="stylesheet">
+   
+<script src="../jquery-3.6.0.min.js"></script>
+<script src="../wb.panel.min.js"></script>
+<script src="../jquery.ui.effect.min.js"></script>
+<script src="../wwb18.min.js"></script>
+   
 <script>   
    $(document).ready(function()
    {
@@ -32,7 +34,7 @@
                <a href="#" onclick="HidePanel('PanelLayer', event);return false;"><div id="IconFont2"><i class="fa fa-times"></i></div></a>
             </div>
             <div id="wb_Image1">
-               <img src="images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
+               <img src="../images/0.%20SDA%20Logo.png" id="Image1" alt="home_logo" title="Flying_Wings_Home" width="306" height="277">
             </div>
             <div id="wb_Heading20">
                <h2 id="Heading20">Rockside SDA Church</h2>
@@ -64,7 +66,7 @@
                <div class="row">
                   <div class="col-1">
                      <div id="wb_home_logo">
-                        <a href="./index.html"><img src="images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
+                        <a href="./index.html"><img src="../images/0.%20SDA%20Logo.png" id="home_logo" alt="home_logo" title="Flying_Wings_Home" width="242" height="219"></a>
                      </div>
                   </div>
                   <div class="col-2">
@@ -100,20 +102,12 @@
          <span style="color:#FFFFFF;font-family:Calibri;font-size:13px;line-height:16px;"><strong>Our Skills Programs</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;line-height:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Share;font-size:13px;line-height:15px;">Come and experience our skill touch in style</span>
       </div>
    </div>
-   <div id="wb_toplinksLayoutGrid">
-      <div id="toplinksLayoutGrid">
+   <div id="wb_LayoutGrid2">
+      <div id="LayoutGrid2">
          <div class="row">
             <div class="col-1">
-               <div id="wb_LayoutGrid2">
-                  <div id="LayoutGrid2">
-                     <div class="row">
-                        <div class="col-1">
-                           <div id="wb_Text13">
-                              <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong>Rockside SDA Church<br></strong></span><span style="color:#FFA500;font-family:'Trebuchet MS';font-size:15px;">Our Team is well dedicated and highly motivated.</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <div id="wb_Text13">
+                  <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:21px;"><strong>Rockside Church Structure</strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:24px;"><strong><br></strong></span><span style="color:#FFA500;font-family:'Trebuchet MS';font-size:15px;">Our Team is well dedicated and highly motivated.</span>
                </div>
             </div>
          </div>
@@ -139,43 +133,85 @@
    
          // Add data rows
          data.addRows([
-           // Top Leadership
-           [{v:'Elder in Charge', f:'<div class="node" onclick="showDetails(\'Elder. Chipyapya\', \'Elder in Charge of Youth\', \'images/Chipyapya.jpg\', \'+260000000000\')"><img src="images/Chipyapya.jpg" class="node-image"><div class="node-label">Elder in Charge</div></div>'}, '', 'Elder in Charge', 'images/Chipyapya.jpg'],
-   		[{v:'Matron', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Youth Matron\', \'images/Matron.jpg\', \'+260000000000\')"><img src="images/Matron.jpg" class="node-image"><div class="node-label">Matron</div></div>'}, 'Elder in Charge', 'Matron', 'images/Matron.jpg'],
-           [{v:'Patron', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Youth Patron\', \'images/Patron.jpg\', \'+260000000000\')"><img src="images/Patron.jpg" class="node-image"><div class="node-label">Patron</div></div>'}, 'Elder in Charge', 'Patron', 'images/Patron.jpg'],
-   		[{v:'Youth Sponsor', f:'<div class="node" onclick="showDetails(\'Elder. Chikampa\', \'Youth Sponsor\', \'images/Elder.Chikampa.jpg\', \'+260000000000\')"><img src="images/Elder.Chikampa.jpg" class="node-image"><div class="node-label">Youth Sponsor</div></div>'}, 'Elder in Charge', 'Youth Sponsor', 'images/Elder.Chikampa.jpg'],
+
+// Church Elders
+          [{v:'Admin', f:'<div class="node" onclick="showDetails(\'Elder. Daniel Shimau\', \'Elder. Daniel Shimau\', \'images/admin.jpg\', \'+260000000000\')"><img src="images/admin.jpg" class="node-image"><div class="node-label">Elder. Daniel Shimau</div></div>'}, '', 'Elder. Daniel Shimau', 'images/admin.jpg'],
+          [{v:'Elder2', f:'<div class="node" onclick="showDetails(\'Elder. Edward Siampaku\', \'Elder. Siampaku\', \'images/Elder2.jpg\', \'+260000000000\')"><img src="images/Elder2.jpg" class="node-image"><div class="node-label">Elder. Siampaku</div></div>'}, 'Admin', 'Elder. Siampaku', 'images/Elder2.jpg'],
+          [{v:'Elder3', f:'<div class="node" onclick="showDetails(\'Elder. Musenge\', \'Elder. Musenge\', \'images/Elder3.jpg\', \'+260000000000\')"><img src="images/Elder3.jpg" class="node-image"><div class="node-label">Elder. Musenge</div></div>'}, 'Admin', 'Elder. Musenge', 'images/Elder3.jpg'],
+          [{v:'Elder4', f:'<div class="node" onclick="showDetails(\'Elder. Able Bweupe\', \'Elder. Able Bweupe\', \'images/Elder4.jpg\', \'+260000000000\')"><img src="images/Elder4.jpg" class="node-image"><div class="node-label">Elder. Able Bweupe</div></div>'}, 'Admin', 'Elder. Able Bweupe', 'images/Elder4.jpg'],
+          [{v:'Elder5', f:'<div class="node" onclick="showDetails(\'Elder. Chuulu\', \'Elder. Chuulu\', \'images/Elder5.jpg\', \'+260000000000\')"><img src="images/Elder5.jpg" class="node-image"><div class="node-label">Elder. Chuulu</div></div>'}, 'Admin', 'Elder. Chuulu', 'images/Elder5.jpg'],
+          [{v:'Elder6', f:'<div class="node" onclick="showDetails(\'Elder. Gift Mugwagwa\', \'Elder. Mugwagwa\', \'images/Elder6.jpg\', \'+260000000000\')"><img src="images/Elder6.jpg" class="node-image"><div class="node-label">Elder. Mugwagwa</div></div>'}, 'Admin', 'Elder. Mugwagwa', 'images/Elder6.jpg'],
+          [{v:'Elder7', f:'<div class="node" onclick="showDetails(\'Elder. Clinton Mbaso\', \'Elder. Clinton Mbaso\', \'images/Elder7.jpg\', \'+260000000000\')"><img src="images/Elder7.jpg" class="node-image"><div class="node-label">Elder. Clinton Mbaso</div></div>'}, 'Admin', 'Elder. Clinton Mbaso', 'images/Elder7.jpg'],
+
+// Admin Shimau
+   		[{v:'Clerk1', f:'<div class="node" onclick="showDetails(\'Mrs. Muchimba Syampaku\', \'Mrs. Muchimba Syampaku\', \'images/Rabson.jpg\', \'+260000000000\')"><img src="images/Rabson.jpg" class="node-image"><div class="node-label">Mrs. Muchimba Syampaku</div></div>'}, 'Admin', 'Mrs. Muchimba Syampaku', 'images/Rabson.jpg'],
+   		[{v:'Clerk2', f:'<div class="node" onclick="showDetails(\'Mrs. Bestar Jawa\', \'Mrs. Bestar Jawa\', \'images/Rabson.jpg\', \'+260000000000\')"><img src="images/Rabson.jpg" class="node-image"><div class="node-label">Mrs. Bestar Jawa</div></div>'}, 'Clerk1', 'Mrs. Bestar Jawa', 'images/Rabson.jpg'],
+   		[{v:'Clerk3', f:'<div class="node" onclick="showDetails(\'Br. Moris Bwalya\', \'Br. Moris Bwalya\', \'images/Rabson.jpg\', \'+260000000000\')"><img src="images/Rabson.jpg" class="node-image"><div class="node-label">Br. Moris Bwalya</div></div>'}, 'Clerk2', 'Br. Moris Bwalya', 'images/Rabson.jpg'],
+   		[{v:'Clerk4', f:'<div class="node" onclick="showDetails(\'Sr. Mercy Hachoose\', \'Sr. Mercy Hachoose\', \'images/Rabson.jpg\', \'+260000000000\')"><img src="images/Rabson.jpg" class="node-image"><div class="node-label">Sr. Mercy Hachoose</div></div>'}, 'Clerk3', 'Sr. Mercy Hachoose', 'images/Rabson.jpg'],
+          
+   		[{v:'Treasury1', f:'<div class="node" onclick="showDetails(\'Deacon. Martin Mukushi\', \'Deacon. Martin Mukushi\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Deacon. Martin Mukushi</div></div>'}, 'Admin', 'Deacon. Martin Mukushi', 'images/Clinton Mbaso.jpg'],
+   		[{v:'Treasury2', f:'<div class="node" onclick="showDetails(\'Mrs. Everlyn Kamushitu\', \'Mrs. Everlyn Kamushitu\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Mrs. Everlyn Kamushitu</div></div>'}, 'Treasury1', 'Mrs. Everlyn Kamushitu', 'images/Clinton Mbaso.jpg'],
+   		[{v:'Treasury3', f:'<div class="node" onclick="showDetails(\'Mrs. Molly Shimau\', \'Mrs. Molly Shimau\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Mrs. Molly Shimau</div></div>'}, 'Treasury2', 'Mrs. Molly Shimau', 'images/Clinton Mbaso.jpg'],
+
+   		[{v:'Personal Ministries', f:'<div class="node" onclick="showDetails(\'Elder. Jawa Bautu\', \'Personal Ministries\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Personal Ministries</div></div>'}, 'Admin', 'Personal Ministries', 'images/Clinton Mbaso.jpg'],
+   		[{v:'Vice Personal Ministries', f:'<div class="node" onclick="showDetails(\'Elder. Alexander Bwalya\', \'Personal Ministries\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Personal Ministries</div></div>'}, 'Personal Ministries', 'Personal Ministries', 'images/Clinton Mbaso.jpg'],
+          
+   		[{v:'Head Deacon', f:'<div class="node" onclick="showDetails(\'Deacon. Francias Mutakwa\', \'Head Deacon\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deacon</div></div>'}, 'Admin', 'Head Deacon', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon1', f:'<div class="node" onclick="showDetails(\'Deacon. Maimbo\', \'Deacon. Maimbo\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Maimbo</div></div>'}, 'Head Deacon', 'Deacon. Maimbo', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon2', f:'<div class="node" onclick="showDetails(\'Deacon. Nobert Kalabola\', \'Deacon. Nobert Kalabola\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Nobert Kalabola</div></div>'}, 'Deacon1', 'Deacon. Nobert Kalabola', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon3', f:'<div class="node" onclick="showDetails(\'Deacon. Clever Chilima\', \'Deacon. Clever Chilima\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Clever Chilima</div></div>'}, 'Deacon2', 'Deacon. Clever Chilima', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon4', f:'<div class="node" onclick="showDetails(\'Deacon. Maxwell Chilube\', \'Deacon. Maxwell Chilube\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Maxwell Chilube</div></div>'}, 'Deacon3', 'Deacon. Maxwell Chilube', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon5', f:'<div class="node" onclick="showDetails(\'Deacon. Teddy Kaunda\', \'Deacon. Teddy Kaunda\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Teddy Kaunda</div></div>'}, 'Deacon4', 'Deacon. Teddy Kaunda', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon6', f:'<div class="node" onclick="showDetails(\'Deacon. Diland Milambo\', \'Deacon. Diland Milambo\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Diland Milambo</div></div>'}, 'Deacon5', 'Deacon. Diland Milambo', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon7', f:'<div class="node" onclick="showDetails(\'Deacon. Saviour Mbofwana\', \'Deacon. Saviour Mbofwana\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Saviour Mbofwana</div></div>'}, 'Deacon6', 'Deacon. Saviour Mbofwana', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon8', f:'<div class="node" onclick="showDetails(\'Deacon. Mwiinga Hasalama\', \'Deacon. Mwiinga Hasalama\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Mwiinga Hasalama</div></div>'}, 'Deacon7', 'Deacon. Mwiinga Hasalama', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deacon9', f:'<div class="node" onclick="showDetails(\'Deacon. Evans Nzima\', \'Deacon. Evans Nzima\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Deacon. Evans Nzima</div></div>'}, 'Deacon8', 'Deacon. Evans Nzima', 'images/Mrs. Bweupe.jpg'],
+
+   		[{v:'Head Deaconess', f:'<div class="node" onclick="showDetails(\'Deaconess. Doreen Maimbo\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Admin', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess1', f:'<div class="node" onclick="showDetails(\'Deaconess. Anna Jere\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Head Deaconess', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess2', f:'<div class="node" onclick="showDetails(\'Deaconess. Jessy Chifulo\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess1', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess3', f:'<div class="node" onclick="showDetails(\'Deaconess. Munyeyembe\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess2', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess4', f:'<div class="node" onclick="showDetails(\'Deaconess. Muluta\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess3', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess5', f:'<div class="node" onclick="showDetails(\'Deaconess. Chilima\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess4', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess6', f:'<div class="node" onclick="showDetails(\'Deaconess. Josephine Chewe\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess5', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess7', f:'<div class="node" onclick="showDetails(\'Deaconess. Blessing Musonda\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess6', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+   		[{v:'Deaconess8', f:'<div class="node" onclick="showDetails(\'Deaconess. Rosemary Jere\', \'Head Deaconess\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Head Deaconess</div></div>'}, 'Deaconess7', 'Head Deaconess', 'images/Mrs. Bweupe.jpg'],
+
+// Elder2 Siampaku
+   		[{v:'Stewardship', f:'<div class="node" onclick="showDetails(\'Elder. Siampaku\', \'Stewardship\', \'images/Mrs. Shimau.jpg\', \'+260000000000\')"><img src="images/Mrs. Shimau.jpg" class="node-image"><div class="node-label">Stewardship</div></div>'}, 'Elder2', 'Stewardship', 'images/Mrs. Shimau.jpg'],
+   		[{v:'Family Life', f:'<div class="node" onclick="showDetails(\'Vincent\', \'Family Life\', \'images/Vincent.jpg\', \'+260000000000\')"><img src="images/Vincent.jpg" class="node-image"><div class="node-label">Family Life</div></div>'}, 'Elder2', 'Family Life', 'images/Vincent.jpg'],
+   		[{v:'Religious Liberty', f:'<div class="node" onclick="showDetails(\'Sylvia Namfukwe\', \'Religious Liberty\', \'images/Sylvia.jpg\', \'+260000000000\')"><img src="images/Sylvia.jpg" class="node-image"><div class="node-label">Religious Liberty</div></div>'}, 'Elder2', 'Religious Liberty', 'images/Sylvia.jpg'],
+ 
+// Elder3 Musenge
+   		[{v:'Adventist Men Organization', f:'<div class="node" onclick="showDetails(\'Beatrice Jere\', \'Adventist Men Organization\', \'images/Beatrice.jpg\', \'+260000000000\')"><img src="images/Beatrice.jpg" class="node-image"><div class="node-label">Adventist Men Organization</div></div>'}, 'Elder3', 'Adventist Men Organization', 'images/Beatrice.jpg'],
+   		[{v:'Sabbath School', f:'<div class="node" onclick="showDetails(\'Mrs. Shimau\', \'Sabbath School\', \'images/Mrs. Shimau.jpg\', \'+260000000000\')"><img src="images/Mrs. Shimau.jpg" class="node-image"><div class="node-label">Sabbath School</div></div>'}, 'Elder3', 'Sabbath School', 'images/Mrs. Shimau.jpg'],
+   		[{v:'Church Building', f:'<div class="node" onclick="showDetails(\'Sylvia Namfukwe\', \'Church Building\', \'images/Sylvia.jpg\', \'+260000000000\')"><img src="images/Sylvia.jpg" class="node-image"><div class="node-label">Church Building</div></div>'}, 'Elder3', 'Church Building', 'images/Sylvia.jpg'],
+   		[{v:'People Living With Disabilities', f:'<div class="node" onclick="showDetails(\'Sylvia Namfukwe\', \'People Living With Disabilities\', \'images/Sylvia.jpg\', \'+260000000000\')"><img src="images/Sylvia.jpg" class="node-image"><div class="node-label">People Living With Disabilities</div></div>'}, 'Elder3', 'People Living With Disabilities', 'images/Sylvia.jpg'],
+
+// Elder4 Bweupe
+   		[{v:'Women Ministry', f:'<div class="node" onclick="showDetails(\'Moris Bwalya\', \'Women Ministry\', \'images/Moris.jpg\', \'+260000000000\')"><img src="images/Moris.jpg" class="node-image"><div class="node-label">Women Ministry</div></div>'}, 'Elder4', 'Women Ministry', 'images/Moris.jpg'],
+   		[{v:'Dorcus', f:'<div class="node" onclick="showDetails(\'Muuka Bridget\', \'Dorcus\', \'images/Bridget Muuka.jpg\', \'+260000000000\')"><img src="images/Bridget Muuka.jpg" class="node-image"><div class="node-label">Dorcus</div></div>'}, 'Elder4', 'Dorcus', 'images/Bridget Muuka.jpg'],
+   		[{v:'Music', f:'<div class="node" onclick="showDetails(\'Muuka Bridget\', \'Music\', \'images/Bridget Muuka.jpg\', \'+260000000000\')"><img src="images/Bridget Muuka.jpg" class="node-image"><div class="node-label">Music</div></div>'}, 'Elder4', 'Music', 'images/Bridget Muuka.jpg'],
+
+// Elder5 Chuulu
+   		[{v:'Campus Ministry', f:'<div class="node" onclick="showDetails(\'Bright Kambala\', \'Campus Ministry\', \'images/Bright.jpg\', \'+260000000000\')"><img src="images/Bright.jpg" class="node-image"><div class="node-label">Campus Ministry</div></div>'}, 'Elder5', 'Campus Ministry', 'images/Bright.jpg'],
+   		[{v:'Adventist Youth Ministries', f:'<div class="node" onclick="showDetails(\'Muuka Bridget\', \'Adventist Youth Ministries\', \'images/Bridget Muuka.jpg\', \'+260000000000\')"><img src="images/Bridget Muuka.jpg" class="node-image"><div class="node-label">Adventist Youth Ministries</div></div>'}, 'Elder5', 'Adventist Youth Ministries', 'images/Bridget Muuka.jpg'],
+
+// Elder6 Mugwagwa
+   		[{v:'Voice Of Prophecy', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Voice Of Prophecy\', \'images/Vice Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Vice Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Voice Of Prophecy</div></div>'}, 'Elder6', 'Voice Of Prophecy', 'images/Vice Campus Ministry Leader.jpg'],
+   		[{v:'Spirit Of Prophecy', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Spirit Of Prophecy\', \'images/Vice Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Vice Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Spirit Of Prophecy</div></div>'}, 'Elder6', 'Spirit Of Prophecy', 'images/Vice Campus Ministry Leader.jpg'],
+   		[{v:'Interest Coordonator', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Interest Coordonator\', \'images/Campus Ministry Secretary.jpg\', \'+260000000000\')"><img src="images/Campus Ministry Secretary.jpg" class="node-image"><div class="node-label">Interest Coordonator</div></div>'}, 'Elder6', 'Interest Coordonator', 'images/Campus Ministry Secretary.jpg'],
+   		[{v:'Publishing', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Publishing\', \'images/Vice Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Vice Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Publishing</div></div>'}, 'Elder6', 'Publishing', 'images/Vice Campus Ministry Leader.jpg'],
+   		[{v:'Prayer Band', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Prayer Band\', \'images/Vice Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Vice Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Prayer Band</div></div>'}, 'Elder6', 'Prayer Band', 'images/Vice Campus Ministry Leader.jpg'],
    
-           // Young Adult
-   		[{v:'Young Adult Leader', f:'<div class="node" onclick="showDetails(\'Rabson Musonda\', \'Young Adult Leader\', \'images/Rabson.jpg\', \'+260000000000\')"><img src="images/Rabson.jpg" class="node-image"><div class="node-label">Young Adult Leader</div></div>'}, 'Youth Sponsor', 'Young Adult Leader', 'images/Rabson.jpg'],
-   		[{v:'Vice Young Adult Leader', f:'<div class="node" onclick="showDetails(\'Mbaso Clinton\', \'Vice Young Adult Leader\', \'images/Clinton Mbaso.jpg\', \'+260000000000\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Vice Young Adult Leader</div></div>'}, 'Young Adult Leader', 'Vice Young Adult Leader', 'images/Clinton Mbaso.jpg'],
-   		[{v:'Young Adult Secretary', f:'<div class="node" onclick="showDetails(\'Mrs. Bweupe\', \'Young Adult Secretary\', \'images/Mrs. Bweupe.jpg\', \'+260000000000\')"><img src="images/Mrs. Bweupe.jpg" class="node-image"><div class="node-label">Young Adult Secretary</div></div>'}, 'Vice Young Adult Leader', 'Young Adult Secretary', 'images/Mrs. Bweupe.jpg'],
-   
-   		// Ambassador
-   		[{v:'Ambassador Leader', f:'<div class="node" onclick="showDetails(\'Mrs. Shimau\', \'Ambassador Leader\', \'images/Mrs. Shimau.jpg\', \'+260000000000\')"><img src="images/Mrs. Shimau.jpg" class="node-image"><div class="node-label">Ambassador Leader</div></div>'}, 'Youth Sponsor', 'Ambassador Leader', 'images/Mrs. Shimau.jpg'],
-   		[{v:'Vice Ambassador Leader', f:'<div class="node" onclick="showDetails(\'Vincent\', \'Vice Ambassador Leader\', \'images/Vincent.jpg\', \'+260000000000\')"><img src="images/Vincent.jpg" class="node-image"><div class="node-label">Vice Ambassador Leader</div></div>'}, 'Ambassador Leader', 'Vice Ambassador Leader', 'images/Vincent.jpg'],
-   		[{v:'Ambassador Secretary', f:'<div class="node" onclick="showDetails(\'Sylvia Namfukwe\', \'Ambassador Secretary\', \'images/Sylvia.jpg\', \'+260000000000\')"><img src="images/Sylvia.jpg" class="node-image"><div class="node-label">Ambassador Secretary</div></div>'}, 'Vice Ambassador Leader', 'Ambassador Secretary', 'images/Sylvia.jpg'],
-   
-   		// Pathfinder
-   		[{v:'Pathfinder', f:'<div class="node" onclick="showDetails(\'Beatrice Jere\', \'Pathfinder Director\', \'images/Beatrice.jpg\', \'+260000000000\')"><img src="images/Beatrice.jpg" class="node-image"><div class="node-label">Pathfinder</div></div>'}, 'Youth Sponsor', 'Pathfinder', 'images/Beatrice.jpg'],
-   		[{v:'Vice Pathfinder', f:'<div class="node" onclick="showDetails(\'Moris Bwalya\', \'Vice Pathfinder Director\', \'images/Moris.jpg\', \'+260000000000\')"><img src="images/Moris.jpg" class="node-image"><div class="node-label">Vice Pathfinder</div></div>'}, 'Pathfinder', 'Vice Pathfinder', 'images/Moris.jpg'],
-   		[{v:'Pathfinder Secretary', f:'<div class="node" onclick="showDetails(\'Muuka Bridget\', \'Pathfinder Secretary\', \'images/Bridget Muuka.jpg\', \'+260000000000\')"><img src="images/Bridget Muuka.jpg" class="node-image"><div class="node-label">Pathfinder Secretary</div></div>'}, 'Vice Pathfinder', 'Pathfinder Secretary', 'images/Bridget Muuka.jpg'],
-   
-   		// Adventurer
-   		[{v:'Adventurer', f:'<div class="node" onclick="showDetails(\'Bright Kambala\', \'Adventurer Director\', \'images/Bright.jpg\', \'+260000000000\')"><img src="images/Bright.jpg" class="node-image"><div class="node-label">Adventurer</div></div>'}, 'Youth Sponsor', 'Adventurer', 'images/Bright.jpg'],
-   		[{v:'Vice Adventurer', f:'<div class="node" onclick="showDetails(\'Autress Buumba\', \'Vice Adventurer Director\', \'images/Autress.jpg\', \'+260000000000\')"><img src="images/Autress.jpg" class="node-image"><div class="node-label">Vice Adventurer</div></div>'}, 'Adventurer', 'Vice Adventurer', 'images/Autress.jpg'],
-   		[{v:'Adventurer Secretary', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Adventurer Secretary\', \'images/Adventurer Secretary.jpg\', \'+260000000000\')"><img src="images/Adventurer Secretary.jpg" class="node-image"><div class="node-label">Adventurer Secretary</div></div>'}, 'Vice Adventurer', 'Adventurer Secretary', 'images/Adventurer Secretary.jpg'],
-   
-   		// Campus Ministry
-   		[{v:'Campus Ministry Leader', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Campus Ministry Leader\', \'images/Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Campus Ministry Leader</div></div>'}, 'Youth Sponsor', 'Campus Ministry Leader', 'images/Campus Ministry Leader.jpg'],
-   		[{v:'Vice Campus Ministry Leader', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Vice Campus Ministry Leader\', \'images/Vice Campus Ministry Leader.jpg\', \'+260000000000\')"><img src="images/Vice Campus Ministry Leader.jpg" class="node-image"><div class="node-label">Vice Campus Ministry Leader</div></div>'}, 'Campus Ministry Leader', 'Vice Campus Ministry Leader', 'images/Vice Campus Ministry Leader.jpg'],
-   		[{v:'Campus Ministry Secretary', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Campus Ministry Secretary\', \'images/Campus Ministry Secretary.jpg\', \'+260000000000\')"><img src="images/Campus Ministry Secretary.jpg" class="node-image"><div class="node-label">Campus Ministry Secretary</div></div>'}, 'Vice Campus Ministry Leader', 'Campus Ministry Secretary', 'images/Campus Ministry Secretary.jpg'],
-   
-   		// Auxiliary Staff
-   		[{v:'Communication', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Youth Communication\', \'images/Communication.jpg\', \'+260000000000\')"><img src="images/Communication.jpg" class="node-image"><div class="node-label">Communication</div></div>'}, 'Young Adult Secretary', 'Communication', 'images/Communication.jpg'],
-   		[{v:'Education', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Youth Education\', \'images/Education.jpg\', \'+260000000000\')"><img src="images/Education.jpg" class="node-image"><div class="node-label">Education</div></div>'}, 'Young Adult Leader', 'Education', 'images/Education.jpg'],
-   		[{v:'Field Marshal', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Field Marshal\', \'images/Marshal.jpg\', \'+260000000000\')"><img src="images/Marshal.jpg" class="node-image"><div class="node-label">Field Marshal</div></div>'}, 'Pathfinder', 'Field Marshal', 'images/Marshal.jpg'],
-   		[{v:'Music Director', f:'<div class="node" onclick="showDetails(\'Clinton Mbaso\', \'Youth Music Director\', \'images/Clinton Mbaso.jpg\', \'+260968084570\')"><img src="images/Clinton Mbaso.jpg" class="node-image"><div class="node-label">Music Director</div></div>'}, 'Young Adult Leader', 'Music Director', 'images/Clinton Mbasojpg'],
-           
+// Elder7 Mbaso
+   		[{v:'Communication', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Communication\', \'images/Communication.jpg\', \'+260000000000\')"><img src="images/Communication.jpg" class="node-image"><div class="node-label">Communication</div></div>'}, 'Elder7', 'Communication', 'images/Communication.jpg'],
+   		[{v:'Children Ministry', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Children Ministry\', \'images/Education.jpg\', \'+260000000000\')"><img src="images/Education.jpg" class="node-image"><div class="node-label">Children Ministry</div></div>'}, 'Elder7', 'Children Ministry', 'images/Education.jpg'],
+   		[{v:'Education', f:'<div class="node" onclick="showDetails(\'Unknown\', \'Education\', \'images/Marshal.jpg\', \'+260000000000\')"><img src="images/Marshal.jpg" class="node-image"><div class="node-label">Education</div></div>'}, 'Elder7', 'Education', 'images/Marshal.jpg'],
+   		[{v:'Health', f:'<div class="node" onclick="showDetails(\'Vincent\', \'Health\', \'images/Vincent.jpg\', \'+260000000000\')"><img src="images/Vincent.jpg" class="node-image"><div class="node-label">Health</div></div>'}, 'Elder7', 'Health', 'images/Vincent.jpg'],
+
+
+         
            // ... (similar lines for other positions)
          ]);
    
@@ -217,6 +253,8 @@
          }
        }
      
+   
+
 </script>
   </head>
 <body>

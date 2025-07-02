@@ -40,9 +40,9 @@
 
    		  
    		// Ambassador Ministry
-   		[{v:'Ambassador A', f:'<div class="node" onclick="showDetails(\'details\', \'Lukanga SDA Church\', \'../images/KEMD/AmbassadorA.jpg\', \'+260978640579\')"><img src="../images/KEMD/AmbassadorA.jpg" class="node-image"><div class="node-label">Ambassador A</div></div>'}, 'Secretary A', 'KEMD-Zone A Ambassador', '../images/KEMD/AmbassadorA.jpg'],
+   		[{v:'Ambassador A', f:'<div class="node" onclick="showDetails(\'Grenda Chitanika\', \'Nabusanga SDA Church\', \'../images/KEMD/AmbassadorA.jpg\', \'+260973990731\')"><img src="../images/KEMD/AmbassadorA.jpg" class="node-image"><div class="node-label">Ambassador A</div></div>'}, 'Secretary A', 'KEMD-Zone A Ambassador', '../images/KEMD/AmbassadorA.jpg'],
    		[{v:'Ambassador B', f:'<div class="node" onclick="showDetails(\'Kebby Chimbulu\', \'Muteteshi SDA Church\', \'../images/KEMD/AmbassadorB.jpg\', \'+260777900745\')"><img src="../images/KEMD/AmbassadorB.jpg" class="node-image"><div class="node-label">Ambassador B</div></div>'}, 'Vice Secretary B', 'KEMD-Zone B Ambassador', '../images/KEMD/AmbassadorB.jpg'],
-   		[{v:'Vice Ambassador A', f:'<div class="node" onclick="showDetails(\'Grenda Chitanika\', \'Nabusanga SDA Church\', \'../images/KEMD/ViceAmbassadorA.jpg\', \'+260973990731\')"><img src="../images/KEMD/ViceAmbassadorA.jpg" class="node-image"><div class="node-label">Vice Ambassador A</div></div>'}, 'Ambassador A', 'KEMD-Zone A Vice Ambassador', '../images/KEMD/ViceAmbassadorA.jpg'],
+   		[{v:'Vice Ambassador A', f:'<div class="node" onclick="showDetails(\'Eric Mizinga\', \'Kohima SDA Church\', \'../images/KEMD/ViceAmbassadorA.jpg\', \'+260976770046\')"><img src="../images/KEMD/ViceAmbassadorA.jpg" class="node-image"><div class="node-label">Vice Ambassador A</div></div>'}, 'Ambassador A', 'KEMD-Zone A Vice Ambassador', '../images/KEMD/ViceAmbassadorA.jpg'],
    		[{v:'Vice Ambassador B', f:'<div class="node" onclick="showDetails(\'Radson Maswini\', \'Luanshimba SDA Church\', \'../images/KEMD/ViceAmbassadorB.jpg\', \'+000000\')"><img src="../images/KEMD/ViceAmbassadorB.jpg" class="node-image"><div class="node-label">Vice Ambassador B</div></div>'}, 'Ambassador B', 'KEMD-Zone B Vice Ambassador', '../images/KEMD/ViceAmbassadorB.jpg'],
    		  
    		// Pathfinder Ministry

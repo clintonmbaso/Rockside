@@ -37,7 +37,7 @@
 
    		// Young Adult Ministry
    		[{v:'Young Adult', f:'<div class="node" onclick="showDetails(\'ONIEIL HANSINGA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDYoungAdult.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDYoungAdult.jpg" class="node-image"><div class="node-label">Ambassador</div></div>'}, 'Education Secretary', 'KCMD - Young Adult', '../images/KCMD/KCMDYoungAdult.jpg'],
-   		[{v:'Young Adult Secretary', f:'<div class="node" onclick="showDetails(\'JOSHUA KUNDA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDYoungAdultSecretary.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDYoungAdultSecretary.jpg" class="node-image"><div class="node-label">Young Adult Secretary</div></div>'}, 'Young Adult', 'KCMD - Young Adult Secretary', '../images/KCMD/KCMDYoungAdultSecretary.jpg'],
+   		[{v:'Young Adult Secretary', f:'<div class="node" onclick="showDetails(\'SIEJUMBA MUNYANSU\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDYoungAdultSecretary.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDYoungAdultSecretary.jpg" class="node-image"><div class="node-label">Young Adult Secretary</div></div>'}, 'Young Adult', 'KCMD - Young Adult Secretary', '../images/KCMD/KCMDYoungAdultSecretary.jpg'],
    		  
    		// Ambassador Ministry
    		[{v:'Ambassador', f:'<div class="node" onclick="showDetails(\'MUSONDA MWAPE\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDAmbassador.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDAmbassador.jpg" class="node-image"><div class="node-label">Ambassador</div></div>'}, 'Young Adult Secretary', 'KCMD - Ambassador', '../images/KCMD/KCMDAmbassador.jpg'],

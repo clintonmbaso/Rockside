@@ -58,7 +58,7 @@
    		[{v:'Vice Adventurer B', f:'<div class="node" onclick="showDetails(\'Emeldah Sebela\', \'Muteteshi SDA Church\', \'../images/KEMD/Vice AdventurerB.jpg\', \'+260767761843\')"><img src="../images/KEMD/Vice AdventurerB.jpg" class="node-image"><div class="node-label">Vice Adventurer B</div></div>'}, 'Adventurer B', 'KEMD-Zone B Vice Adventurer', '../images/KEMD/Vice AdventurerB.jpg'],
    		
    		// Communication
-   		[{v:'Communication A', f:'<div class="node" onclick="showDetails(\'Joshua Mbuzi\', \'SDA Church\', \'../images/KEMD/CommunicationA.jpg\', \'+260978396867\')"><img src="../images/KEMD/CommunicationA.jpg" class="node-image"><div class="node-label">Communication A</div></div>'}, 'Secretary A', 'KEMD-Zone A Communication', '../images/KEMD/CommunicationA.jpg'],
+   		[{v:'Communication A', f:'<div class="node" onclick="showDetails(\'Kudzai Dumisani Mambo\', \'Natuseko SDA Church\', \'../images/KEMD/CommunicationA.jpg\', \'+260971947543\')"><img src="../images/KEMD/CommunicationA.jpg" class="node-image"><div class="node-label">Communication A</div></div>'}, 'Secretary A', 'KEMD-Zone A Communication', '../images/KEMD/CommunicationA.jpg'],
    		[{v:'Communication B', f:'<div class="node" onclick="showDetails(\'Daswell Muzyamba\', \'Kabufumu SDA Church\', \'../images/KEMD/CommunicationB.jpg\', \'+260770758088\')"><img src="../images/KEMD/CommunicationB.jpg" class="node-image"><div class="node-label">Communication B</div></div>'}, 'Vice Secretary B', 'KEMD-Zone B Communication', '../images/KEMD/CommunicationB.jpg'],
 
    		// Education

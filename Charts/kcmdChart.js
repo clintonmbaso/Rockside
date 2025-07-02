@@ -45,7 +45,7 @@
 
    		// Pathfinder Ministry
    		[{v:'Pathfinder Director', f:'<div class="node" onclick="showDetails(\'HERMES MALELE\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDPathfinderDirector.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDPathfinderDirector.jpg" class="node-image"><div class="node-label">Pathfinder Director</div></div>'}, 'Ambassador Secretary', 'KCMD - Pathfinder Director', '../images/KCMD/KCMDPathfinderDirector.jpg'],
-   		[{v:'Pathfinder Secretary', f:'<div class="node" onclick="showDetails(\'LYNESS PUNGWA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDPathfinderSecretary.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDVicePathfinderSecretary.jpg" class="node-image"><div class="node-label">Pathfinder Secretary</div></div>'}, 'Pathfinder Director', 'KCMD - Pathfinder Secretary', '../images/KCMD/KCMDVicePathfinderSecretary.jpg'],
+   		[{v:'Pathfinder Secretary', f:'<div class="node" onclick="showDetails(\'LYNESS PUNGWA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDPathfinderSecretary.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDPathfinderSecretary.jpg" class="node-image"><div class="node-label">Pathfinder Secretary</div></div>'}, 'Pathfinder Director', 'KCMD - Pathfinder Secretary', '../images/KCMD/KCMDPathfinderSecretary.jpg'],
 
    		// Field Marshal
    		[{v:'Field Marshal', f:'<div class="node" onclick="showDetails(\'CHARLES SEMEMBE\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDFieldMarshal.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDFieldMarshal.jpg" class="node-image"><div class="node-label">Field Marshal</div></div>'}, 'Pathfinder Secretary', 'KCMD - Field Marshal', '../images/KCMD/KCMDFieldMarshal.jpg'],

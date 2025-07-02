@@ -55,7 +55,7 @@
    		[{v:'Adventurer Secretary', f:'<div class="node" onclick="showDetails(\'ALEX SINKALA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDAdventurerSecretary.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDAdventurerSecretary.jpg" class="node-image"><div class="node-label">Adventurer Secretary</div></div>'}, 'Adventurer', 'KCMD - Adventurer Secretary', '../images/KCMD/KCMDAdventurerSecretary.jpg'],
          
    		// Music Director
-   		[{v:'Music Director', f:'<div class="node" onclick="showDetails(\'NCHIMUNYA CHALEKWA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDMusicDirector.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDMusicDirector.jpg" class="node-image"><div class="node-label">Music Director</div></div>'}, 'Adventurer Secretary', 'KCMD - Music Director', '../images/KCMD/KCMDMusicDirector.jpg'],
+   		[{v:'Music Director', f:'<div class="node" onclick="showDetails(\'Hilgard Munyenya\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDMusicDirector.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDMusicDirector.jpg" class="node-image"><div class="node-label">Music Director</div></div>'}, 'Adventurer Secretary', 'KCMD - Music Director', '../images/KCMD/KCMDMusicDirector.jpg'],
    		[{v:'Vice Music Director', f:'<div class="node" onclick="showDetails(\'GEORGE MWANZA\', \'Kabwe Central SDA Church\', \'../images/KCMD/KCMDViceMusicDirector.jpg\', \'+260000000000\')"><img src="../images/KCMD/KCMDViceMusicDirector.jpg" class="node-image"><div class="node-label">Vice Music Director</div></div>'}, 'Music Director', 'KCMD - Vice Music Director', '../images/KCMD/KCMDViceMusicDirector.jpg'],
          
    		// Communication

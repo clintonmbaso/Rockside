@@ -68,6 +68,7 @@
 		        <li class="titledList"><b>Offertory Reading: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Offertory Reading">Offertory Reading</span></li>
 		        <li class="titledList"><b>Deacon 1: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Deacon 1">Deacon 1</span></li>
 		        <li class="titledList"><b>Deacon 2: </b><span contenteditable="true" class="editable placeholder" data-placeholder="Deacon 2">Deacon 2</span></li>
+		        <li class="titledList"><b>P.A. System Technician: </b><span contenteditable="true" class="editable placeholder" data-placeholder="P.A. System Technician">P.A. System Technician</span></li>
 		    </ol>
 		</div>
     
@@ -79,7 +80,7 @@
 		    </ul>
 		</div>
 		
-        <p><em>In Christ Service.</em></p>
+        <p class="remark"><em>In Christ Service.</em></p>
 
     
         <div class="signature" id="why" style="display: flex; justify-content: space-between;">
@@ -122,8 +123,6 @@
             alert('Saving feature will require backend integration. This is just a placeholder for now.');
         }
     
-    
-    
 document.querySelectorAll('.editable').forEach(element => {
   element.addEventListener('click', () => {
     // Check if the placeholder is still active
@@ -152,8 +151,9 @@ document.querySelectorAll('.editable').forEach(element => {
 });
     
 
-    </script>
-<script>
+</script>
+
+<script>
     // Auto-save changes to localStorage
     document.querySelectorAll('.editable').forEach((element, index) => {
         const key = `editable-${index}`;

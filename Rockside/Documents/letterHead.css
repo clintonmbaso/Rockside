@@ -4,7 +4,7 @@
             margin: 0;
             padding: 0;
             display: flex;
-            min-height: 100vh;
+            min-height: auto;
         }
         .sidebar {
             width: 10%;
@@ -33,7 +33,7 @@
     font-size: 15px;
 }
 
-.titled{
+.titled {
     color: black;
     text-align: left;
     border-left: solid 3px orange;
@@ -118,11 +118,11 @@ a {
         }
 
         .recipient {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         
         .subject {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-align: justify;
         }
 
@@ -135,8 +135,12 @@ a {
             width: 100%;
             border-radius: 0 0 10px 10px;
         }
+        .remark {
+            margin-bottom: 0;
+        }
 
         .signature {
+            margin-top: 1px;
             bottom: 5px;
         }
 
@@ -271,19 +275,38 @@ tr {
             color: transparent;
         }
 
+.heading2 {
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.heading3 {
+    font-size: 18px;
+    border-right: 4px solid grey;
+    border-radius: 10px 15px 0 0;
+    padding-right: 10px;
+    background: rgba(0,0,0,0.1);
+    margin-bottom: -1px;
+    text-align: right;
+}
+
     @media print {
         body {
             margin: 0;
             padding: 0;
             width: 100%;
         }
+        
     * {
         -webkit-print-color-adjust: exact; /* For WebKit browsers */
         print-color-adjust: exact; /* For modern browsers */
     }
+        
       .save-btn, .print-btn {
             display: none;
         }
+        
         .sidebar {
             width: 10%;
             padding-top: 10px;
@@ -293,6 +316,7 @@ tr {
           font-size: 9px;
           margin: 1px -5px;
         }
+        
         .adventist {
             font-size: 13px;
         }
@@ -304,22 +328,27 @@ tr {
             justify-content: space-between;
         }
         
-.modern-time-input {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 16px;
-  color: #333;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  width: 100px;
-  max-width: 100%;
-  cursor: pointer;
-}
+        .signature-block {
+            border-left: 1px solid grey;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        .modern-time-input {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 16px;
+            color: #333;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            width: 100px;
+            max-width: 100%;
+            cursor: pointer;
+        }
 
 .modern-time-input:focus {
   border-color: #4a90e2;
@@ -397,7 +426,9 @@ tr {
         .cool {
             color: transparent;
         }
-        
+        .footer {
+            margin-top: 0;
+        }
                 @page {
             margin: 0 0 0 1cm;
                                /* Adjust page margins */

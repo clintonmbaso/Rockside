@@ -11,6 +11,7 @@ import story9 from './stories/story9.js';
 import story10 from './stories/story10.js';
 import story11 from './stories/story11.js';
 import story12 from './stories/story12.js';
+
 import story13 from './stories/story13.js';
 import story14 from './stories/story14.js';
 import story15 from './stories/story15.js';
@@ -25,7 +26,6 @@ import story23 from './stories/story23.js';
 import story24 from './stories/story24.js';
 import story25 from './stories/story25.js';
 import story26 from './stories/story26.js';
-// Continue importing up to story26.js
 
 let currentStory = null;
 let currentPartIndex = 0;
@@ -144,6 +144,7 @@ setTimeout(() => {
     
     // Hide the questions modal by default
     document.getElementById('question-modal').style.display = "none";
+    document.getElementById('children-modalz').style.display = "none";
 
     // Update navigation buttons
     document.getElementById('next-button').disabled = currentPartIndex >= currentStory.parts.length - 1;
@@ -174,71 +175,90 @@ function shuffleArray(array) {
     }
 }
 
-// Show the questions for the current part in a modal
+
+
+let selectedQuestions = []; // Declare globally
+let resultsChartInstance = null;
+
+
 function showQuestions() {
     const part = currentStory.parts[currentPartIndex];
     const questionsContainer = document.getElementById('questions-container');
-    questionsContainer.innerHTML = ''; // Clear previous questions
+    questionsContainer.innerHTML = '';
 
-    part.questions.forEach((questionObj, index) => {
-        // Shuffle the options before displaying them
+    const randomQuestions = [...part.questions];
+    shuffleArray(randomQuestions);
+    selectedQuestions = randomQuestions.slice(0, 10);
+
+    // Save selected questions to localStorage (without user answers for now)
+    localStorage.setItem('reviewQuestions', JSON.stringify(selectedQuestions));
+
+    selectedQuestions.forEach((questionObj, index) => {
         shuffleArray(questionObj.options);
 
-        
-        
         const questionDiv = document.createElement('div');
         questionDiv.innerHTML = `<p><strong>Question ${index + 1}:</strong> ${questionObj.question}</p>`;
-        /*
-        // Show hint if available
-        if (questionObj.hint) {
-            const hintDiv = document.createElement('p');
-            hintDiv.innerHTML = `<em>Hint: ${questionObj.hint}</em>`;
-            questionDiv.appendChild(hintDiv);
-        }
-*/
-        // Create radio buttons for each option
+
         questionObj.options.forEach(option => {
             const optionLabel = document.createElement('label');
-            optionLabel.style.display = 'block'; // Ensure options are displayed vertically
-            optionLabel.innerHTML = `<input type="radio" name="q${index}" value="${option.isCorrect}"> ${option.text}`;
+            optionLabel.style.display = 'block';
+            optionLabel.innerHTML = `<input type="radio" name="q${index}" value="${option.text}" data-correct="${option.isCorrect}"> ${option.text}`;
             questionDiv.appendChild(optionLabel);
         });
 
         questionsContainer.appendChild(questionDiv);
     });
 
-    // Add the submit button
     const submitButton = document.createElement('button');
-    submitButton.innerText = "Submit Answers";
-    submitButton.addEventListener('click', submitAnswers);
-    questionsContainer.appendChild(submitButton);
-
+submitButton.innerText = "Submit Answers";
+submitButton.className = "submit-button";
+submitButton.addEventListener('click', submitAnswers);
+questionsContainer.appendChild(submitButton);
+    
+    
     document.getElementById('question-modal').style.display = "block";
+    document.getElementById('children-modalz').style.display = "block";
 }
+
 // Close the questions modal
 function closeQuestions() {
     document.getElementById('question-modal').style.display = "none";
 }
+function closeChildren() {
+    document.getElementById('children-modalz').style.display = "none";
+}
 
-// Submit answers and provide feedback
 // Close the question modal and open feedback modal with results
 function submitAnswers() {
-    const part = currentStory.parts[currentPartIndex];
     let correctCount = 0;
-    let totalQuestions = part.questions.length;
+    let totalQuestions = selectedQuestions.length;
+    let userAnswers = [];
 
-    part.questions.forEach((questionObj, questionIndex) => {
+    selectedQuestions.forEach((questionObj, questionIndex) => {
         const selectedOption = document.querySelector(`input[name="q${questionIndex}"]:checked`);
-        if (selectedOption && selectedOption.value === "true") {
+        const userAnswerText = selectedOption ? selectedOption.value : null;
+        const isCorrect = selectedOption ? selectedOption.dataset.correct === "true" : false;
+
+        if (isCorrect) {
             correctCount++;
         }
+
+        // Store user response
+        userAnswers.push({
+            question: questionObj.question,
+            selectedAnswer: userAnswerText,
+            isCorrect: isCorrect,
+            correctAnswer: questionObj.options.find(opt => opt.isCorrect).text,
+            options: questionObj.options
+        });
     });
 
-    // Calculate percentage and provide feedback
+    // Save user answers to localStorage
+    localStorage.setItem('reviewAnswers', JSON.stringify(userAnswers));
+
     const percentage = (correctCount / totalQuestions) * 100;
     const marksObtained = `${correctCount} / ${totalQuestions}`;
 
-    // Prepare feedback comment based on percentage
     let comment = '';
     if (percentage === 100) {
         comment = "Excellent job! You got all questions correct!";
@@ -250,31 +270,39 @@ function submitAnswers() {
         comment = "Keep trying! Go through the lesson and try again.";
     }
 
-    // Close the question modal
     document.getElementById('question-modal').style.display = "none";
+    document.getElementById('children-modalz').style.display = "none";
 
-    // Display feedback modal
     document.getElementById('feedback-modals').style.display = "block";
 
-    // Update feedback info in the modal
     document.getElementById('score-percentage').innerText = `Percentage: ${percentage.toFixed(2)}%`;
     document.getElementById('marks-obtained').innerText = `Marks: ${marksObtained}`;
     document.getElementById('comment').innerText = comment;
 
-    // Render the donut chart
     renderChart(correctCount, totalQuestions - correctCount);
 }
+
+
+
+
 
 // Function to render the donut chart
 function renderChart(correctCount, incorrectCount) {
     const ctx = document.getElementById('resultsChart').getContext('2d');
-    new Chart(ctx, {
+
+    // Destroy the previous chart if it exists
+    if (resultsChartInstance) {
+        resultsChartInstance.destroy();
+    }
+
+    // Create a new chart
+    resultsChartInstance = new Chart(ctx, {
         type: 'doughnut',
         data: {
             labels: ['Correct', 'Incorrect'],
             datasets: [{
                 data: [correctCount, incorrectCount],
-                backgroundColor: ['#4caf50', '#f44336'], // Green for correct, red for incorrect
+                backgroundColor: ['#4caf50', '#f44336'],
                 hoverBackgroundColor: ['#66bb6a', '#ef5350'],
             }]
         },
@@ -289,6 +317,10 @@ function renderChart(correctCount, incorrectCount) {
 document.getElementById('close-feedback-modals').addEventListener('click', function() {
     document.getElementById('feedback-modals').style.display = "none";
 });
+
+
+
+
 
 // Load different stories based on user selection
 const storyLinks = document.querySelectorAll('.story-link');
@@ -335,12 +367,13 @@ storyLinks.forEach(link => {
             case 'story12':
                 loadStory(story12);
                 break;
+            
             case 'story13':
                 loadStory(story13);
                 break;
             case 'story14':
                 loadStory(story14);
-                break;
+                break;            
             case 'story15':
                 loadStory(story15);
                 break;
@@ -352,31 +385,33 @@ storyLinks.forEach(link => {
                 break;
             case 'story18':
                 loadStory(story18);
-                break;
+                break;            
             case 'story19':
                 loadStory(story19);
                 break;
             case 'story20':
                 loadStory(story20);
-                break;
+                break;            
             case 'story21':
                 loadStory(story21);
                 break;
             case 'story22':
                 loadStory(story22);
-                break;
+                break;            
             case 'story23':
                 loadStory(story23);
                 break;
             case 'story24':
                 loadStory(story24);
-                break;
+                break;            
             case 'story25':
                 loadStory(story25);
                 break;
             case 'story26':
                 loadStory(story26);
                 break;
+            
+            
             // Add cases for other stories up to story26
             default:
                 break;

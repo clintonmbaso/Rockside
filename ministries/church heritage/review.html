@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Review</title>
+  <link rel="stylesheet" href="review.css" />
+</head>
+<body>
+  <div class="container" id="review-container"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const reviewContainer = document.getElementById("review-container");
+      const userAnswers = JSON.parse(localStorage.getItem("reviewAnswers"));
+
+      if (userAnswers && Array.isArray(userAnswers)) {
+        const score = userAnswers.filter(ans => ans.isCorrect).length;
+        const total = userAnswers.length;
+
+        let reviewHTML = `
+          <h1>Quiz Review</h1>
+          <h2 class="score">Your Score: ${score} / ${total}</h2>
+          <hr style="height:10px;">
+          <div class="questions-review">
+        `;
+
+        userAnswers.forEach((answer, i) => {
+          reviewHTML += `
+            <div class="question">
+              <p><b>Question ${i + 1}:</b> <em>${answer.question}</em></p>
+              <div class="options">
+                <p class="selected"><b>Your Answer:</b> ${answer.selectedAnswer || "No answer selected"}</p>
+                <p class="correct hint"><b>Correct Answer:</b> ${answer.correctAnswer}</p>
+                <p class="status ${answer.isCorrect ? "correct" : "incorrect"}">
+                  <b>Status:</b> ${answer.isCorrect ? "Correct" : "Incorrect"}
+                </p>
+              </div>
+            </div>
+          `;
+        });
+
+        reviewHTML += `</div>`;
+        reviewContainer.innerHTML = reviewHTML;
+      } else {
+        reviewContainer.innerHTML = `<p>No quiz results found.</p>`;
+      }
+    });
+  </script>
+</body>
+</html>

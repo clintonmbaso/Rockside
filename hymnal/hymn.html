@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockside - Digital Hymnal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./hymn.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-music"></i>
+                    <h1>Rockside Hymn Book</h1>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="hymns">Hymns</a></li>
+                        <li><a href="#" data-page="categories">Categories</a></li>
+                        <li><a href="#" data-page="about">About</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="language-selector">
+                    <span>Language:</span>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="to">Tonga</option>
+                        <option value="be">Bemba</option>
+                        <option value="lo">Lozi</option>
+                        <option value="ch">Chewa</option>
+                    </select>
+                </div>
+                
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search hymns...">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home-page">
+        <div class="container">
+            <h2 id="hero-title">Sing in 5 Languages</h2>
+            <p id="hero-description">Explore our comprehensive collection of hymns from Christ in Songs in English, Tonga, Bemba, Lozi and Chewa.</p>
+            <a href="#" class="btn" data-page="hymns" id="browse-hymns-btn">Browse Hymns</a>
+            <a href="#" class="btn btn-outline" data-page="about" id="learn-more-btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Home Page Content -->
+        <div id="home-content">
+            <!-- Categories Section -->
+            <section>
+                <h2 class="section-title" id="categories-title">Hymn Categories</h2>
+                <div class="categories" id="categories-container">
+                    <!-- Categories will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Featured Hymns -->
+            <section>
+                <h2 class="section-title" id="featured-title">Featured Hymns</h2>
+                <div class="hymns-grid" id="featured-hymns">
+                    <!-- Featured hymns will be dynamically loaded here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Hymns Page Content -->
+        <div id="hymns-content" style="display: none;">
+            <section>
+                <h2 class="section-title" id="all-hymns-title">All Hymns</h2>
+                <div class="hymns-grid" id="all-hymns">
+                    <!-- All hymns will be dynamically loaded here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Categories Page Content -->
+        <div id="categories-content" style="display: none;">
+            <section>
+                <h2 class="section-title" id="browse-categories-title">Browse by Category</h2>
+                <div class="categories" id="all-categories">
+                    <!-- All categories will be dynamically loaded here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page Content -->
+        <div id="about-content" style="display: none;">
+            <section>
+                <h2 class="section-title" id="about-title">About Our Hymn Book</h2>
+                <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: var(--shadow);">
+                    <p id="about-description">The Book is a comprehensive digital hymnal that brings together traditional and contemporary worship music in one accessible platform. Our mission is to preserve the rich heritage of sacred music while making it available to churches, worship leaders, and individuals around the world.</p>
+                    
+                    <h3 style="margin: 1.5rem 0 1rem;" id="features-title">Our Features</h3>
+                    <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;" id="features-list">
+                        <li>Complete hymn library with lyrics and metadata</li>
+                        <li>Audio recordings for many hymns</li>
+                        <li>Sheet music and chord charts</li>
+                        <li>Powerful search and filtering options</li>
+                        <li>Personal favorites and playlists</li>
+                        <li>Worship planning tools</li>
+                    </ul>
+                    
+                    <p id="about-conclusion">Whether you're planning a worship service, looking for inspiration, or simply want to enjoy sacred music, Sacred Melodies is here to serve you.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Music Player -->
+        <section class="player" id="music-player">
+            <div class="player-header">
+                <div class="player-info">
+                    <h3 id="now-playing-title">Select a hymn to play</h3>
+                    <p id="now-playing-artist">-</p>
+                </div>
+                <div class="player-controls">
+                    <button class="control-btn" id="prev-btn"><i class="fas fa-step-backward"></i></button>
+                    <button class="control-btn play-btn" id="play-btn"><i class="fas fa-play"></i></button>
+                    <button class="control-btn" id="next-btn"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+            
+            <div class="progress-bar" id="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            
+            <div class="time">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Hymn Detail Modal -->
+    <div class="modal" id="hymn-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modal-hymn-title">Hymn Details</h2>
+                <button class="close-modal" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="hymn-details">
+                    <div class="hymn-detail-item">
+                        <span class="hymn-detail-label" id="modal-number-label"></span>
+                        <span id="modal-hymn-number">-</span>
+                    </div>
+                    <div class="hymn-detail-item">
+                        <span class="hymn-detail-label" id="modal-author-label"></span>
+                        <span id="modal-hymn-author">-</span>
+                    </div>
+                    <div class="hymn-detail-item">
+                        <span class="hymn-detail-label" id="modal-year-label">Year:</span>
+                        <span id="modal-hymn-year">-</span>
+                    </div>
+                    <div class="hymn-detail-item">
+                        <span class="hymn-detail-label" id="modal-category-label">Category:</span>
+                        <span id="modal-hymn-category">-</span>
+                    </div>
+                    
+                </div>
+                
+                <div class="hymn-full-lyrics" id="modal-hymn-lyrics">
+                    <!-- Full lyrics will be displayed here -->
+                </div>
+                
+                <div class="hymn-actions-modal">
+                    <button class="btn" id="modal-play-btn">
+                        <i class="fas fa-music"></i> <span id="modal-play-text">Play Hymn</span>
+                    </button>
+                    <button class="btn" id="modal-favorite-btn">
+                        <i class="far fa-heart"></i> <span id="modal-favorite-text">Add to Favorites</span>
+                    </button>
+                    <button class="btn" id="modal-close-btn">
+                        <i class="fas fa-times"></i> <span id="modal-close-text">Close</span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sacred Melodies</h3>
+                    <p id="footer-description">A digital hymnal preserving traditional worship music while embracing contemporary expressions of faith.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="quick-links-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home" id="footer-home-link">Home</a></li>
+                        <li><a href="#" data-page="hymns" id="footer-hymns-link">All Hymns</a></li>
+                        <li><a href="#" data-page="categories" id="footer-categories-link">Categories</a></li>
+                        <li><a href="#" data-page="about" id="footer-about-link">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="resources-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" id="footer-sheet-music">Sheet Music</a></li>
+                        <li><a href="#" id="footer-chord-charts">Chord Charts</a></li>
+                        <li><a href="#" id="footer-audio-recordings">Audio Recordings</a></li>
+                        <li><a href="#" id="footer-worship-planning">Worship Planning</a></li>
+                        <li><a href="#" id="footer-blog">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 id="contact-title">Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> info@sacredmelodies.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Worship Street, Faith City</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© <span id="current-year"></span> Rockside Hymn Book. All rights reserved.</p>
+    <script>
+                // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>                
+                
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- External hymn data files will be loaded here -->
+    <script src="hymns-en.js"></script>
+    <script src="hymns-to.js"></script>
+    <script src="hymns-be.js"></script>
+    <script src="hymns-lo.js"></script>
+    <script src="hymns-ch.js"></script>
+
+    <script>
+        // Application State
+        const state = {
+            hymns: window.hymnData?.hymns || [],
+            categories: window.hymnData?.categories || [],
+            currentHymn: null,
+            isPlaying: false,
+            currentTime: 0,
+            duration: 0,
+            audio: new Audio(),
+            currentPage: 'home',
+            searchQuery: '',
+            currentLanguage: 'en',
+            languages: {
+                en: { name: 'English', hymns: window.hymnData?.hymns || [] },
+                to: { name: 'Tonga', hymns: window.hymnDataTO?.hymns || [] },
+                be: { name: 'Bemba', hymns: window.hymnDataBE?.hymns || [] },
+                lo: { name: 'Lozi', hymns: window.hymnDataLO?.hymns || [] },
+                ch: { name: 'Chewa', hymns: window.hymnDataCH?.hymns || [] }
+            },
+            translations: {
+                en: {
+                    heroTitle: "Sing in 5 Languages",
+                    heroDescription: "Explore our comprehensive collection of hymns from Christ in Songs in English, Tonga, Bemba, Lozi and Chewa",
+                    browseHymns: "Browse Hymns",
+                    learnMore: "Learn More",
+                    categoriesTitle: "Hymn Categories",
+                    featuredTitle: "Featured Hymns",
+                    allHymnsTitle: "All Hymns",
+                    browseCategoriesTitle: "Browse by Category",
+                    aboutTitle: "About Sacred Melodies",
+                    aboutDescription: "Sacred Melodies is a comprehensive digital hymnal that brings together traditional and contemporary worship music in one accessible platform. Our mission is to preserve the rich heritage of sacred music while making it available to churches, worship leaders, and individuals around the world.",
+                    featuresTitle: "Our Features",
+                    aboutConclusion: "Whether you're planning a worship service, looking for inspiration, or simply want to enjoy sacred music, Sacred Melodies is here to serve you.",
+                    footerDescription: "A digital hymnal preserving traditional worship music while embracing contemporary expressions of faith.",
+                    quickLinksTitle: "Quick Links",
+                    resourcesTitle: "Resources",
+                    contactTitle: "Contact Us",
+                    footerHome: "Home",
+                    footerHymns: "All Hymns",
+                    footerCategories: "Categories",
+                    footerAbout: "About Us",
+                    footerSheetMusic: "Sheet Music",
+                    footerChordCharts: "Chord Charts",
+                    footerAudioRecordings: "Audio Recordings",
+                    footerWorshipPlanning: "Worship Planning",
+                    footerBlog: "Blog",
+                    modalNumber: "Number:",
+                    modalAuthor: "Author:",
+                    modalYear: "Year:",
+                    modalCategory: "Category:",
+                    modalLyricsTitle: "Full Lyrics",
+                    modalPlay: "Play Hymn",
+                    modalFavorite: "Add to Favorites",
+                    modalClose: "Close",
+                    nowPlayingDefault: "Select a hymn to play"
+                },
+                to: {
+                    heroTitle: "Fumana Mimino Ya Sikiti Ya Kusinza",
+                    heroDescription: "Lukuloba lwa rona lwa mabati lwa nyimbo za sikiti za kale na za se, zili na ma lyrics, ma sheet music, na ma audio recordings.",
+                    browseHymns: "Lukuloba Nyimbo",
+                    learnMore: "Ituta Zambi",
+                    categoriesTitle: "Mitundu Ya Nyimbo",
+                    featuredTitle: "Nyimbo Zosonyezwa",
+                    allHymnsTitle: "Nyimbo Zonse",
+                    browseCategoriesTitle: "Lukuloba Kutengela Mitundu",
+                    aboutTitle: "Za Sacred Melodies",
+                    aboutDescription: "Sacred Melodies ndi bukhu la nyimbo za sikiti la digito lomwe limasonkhanitsa nyimbo za kale ndi zatsopano m'modzi. Cholinga chathu ndi kusunga chuma cha nyimbo za sikiti pomwe tili kuzipanga kuti zipezeke kumakono, atsogoleri a mapemphero, ndi anthu padziko lonse lapansi.",
+                    featuresTitle: "Zinthu Zathu",
+                    aboutConclusion: "Kaya mukonza mapemphero, mufuna chitsanzo, kapena kungofuna kumvwa nyimbo za sikiti, Sacred Melodies ili pano kukuthandizani.",
+                    footerDescription: "Bukhu la nyimbo za sikiti la digito lomwe limasunga nyimbo zakale pomwe limalanda nyimbo zatsopano za chikhulupiriro.",
+                    quickLinksTitle: "Ma Link Achepa",
+                    resourcesTitle: "Zothandiza",
+                    contactTitle: "Titumizireni Kalata",
+                    footerHome: "Kunyumba",
+                    footerHymns: "Nyimbo Zonse",
+                    footerCategories: "Mitundu",
+                    footerAbout: "Zathu",
+                    footerSheetMusic: "Ma Sheet Music",
+                    footerChordCharts: "Ma Chord Charts",
+                    footerAudioRecordings: "Ma Audio Recordings",
+                    footerWorshipPlanning: "Kukonza Mapemphero",
+                    footerBlog: "Blog"
+                },
+                be: {
+                    heroTitle: "Sanga Imisambo Yabulanda Yakulapilila",
+                    heroDescription: "Peneni amatengo yesu ya kukwata na kukwata ya misambo ya kukala na ya kulepita, ifyo ili na ma lyrics, ma sheet music, na ma audio recordings.",
+                    browseHymns: "Peneni Imisambo",
+                    learnMore: "Isambilile Fimbi",
+                    categoriesTitle: "Ifyo Imisambo Ileteledwa",
+                    featuredTitle: "Imisambo Yalepushanya",
+                    allHymnsTitle: "Imisambo Yonse",
+                    browseCategoriesTitle: "Peneni Pa Mwine Ifyo Ileteledwa",
+                    aboutTitle: "Pa Sacred Melodies",
+                    aboutDescription: "Sacred Melodies ni buku lyamisyamo ya bulanda ya digito ilya isonkanyo ya misambo ya kukala na ya kulepita muli cimo. Intambo yesu ni ukusunga umutengo wa misambo ya bulanda pamfyalo tulepela ukuti ibepelekwe kumacilongo, abalongozhi ba kupapata, na bantu kumapili yonse.",
+                    featuresTitle: "Ifintu Ifyo Tulepela",
+                    aboutConclusion: "Nga mwaba mukonka amapati, mwafwaka ukupapusha, kuti nomba mwafwaka ukunwa imisambo ya bulanda, Sacred Melodies ili pano ukubasambilisha.",
+                    footerDescription: "Buku lyamisyamo ya bulanda ya digito ilya likusunga imisambo ya kukala pamfyalo likwata imisambo ya kulepita ya ukulapilila.",
+                    quickLinksTitle: "Amalinki Aya Kufika",
+                    resourcesTitle: "Ifyo Bantu Balefwaya",
+                    contactTitle: "Tupapateni",
+                    footerHome: "Kumushi",
+                    footerHymns: "Imisambo Yonse",
+                    footerCategories: "Ifyo Ileteledwa",
+                    footerAbout: "Ifyo Tuli",
+                    footerSheetMusic: "Ama Sheet Music",
+                    footerChordCharts: "Ama Chord Charts",
+                    footerAudioRecordings: "Ama Audio Recordings",
+                    footerWorshipPlanning: "Ukukonka Amapati",
+                    footerBlog: "Blog"
+                },
+                lo: {
+                    heroTitle: "Fumana Miyimbo Ya Sikiti Ya Kusinza",
+                    heroDescription: "Lukuloba lwa rona lwa mabati lwa nyimbo za sikiti za kale na za se, zili na ma lyrics, ma sheet music, na ma audio recordings.",
+                    browseHymns: "Lukuloba Nyimbo",
+                    learnMore: "Ituta Zambi",
+                    categoriesTitle: "Mitundu Ya Nyimbo",
+                    featuredTitle: "Nyimbo Zosonyezwa",
+                    allHymnsTitle: "Nyimbo Zonse",
+                    browseCategoriesTitle: "Lukuloba Kutengela Mitundu",
+                    aboutTitle: "Za Sacred Melodies",
+                    aboutDescription: "Sacred Melodies ndi bukhu la nyimbo za sikiti la digito lomwe limasonkhanitsa nyimbo za kale ndi zatsopano m'modzi. Cholinga chathu ndi kusunga chuma cha nyimbo za sikiti pomwe tili kuzipanga kuti zipezeke kumakono, atsogoleri a mapemphero, ndi anthu padziko lonse lapansi.",
+                    featuresTitle: "Zinthu Zathu",
+                    aboutConclusion: "Kaya mukonza mapemphero, mufuna chitsanzo, kapena kungofuna kumvwa nyimbo za sikiti, Sacred Melodies ili pano kukuthandizani.",
+                    footerDescription: "Bukhu la nyimbo za sikiti la digito lomwe limasunga nyimbo zakale pomwe limalanda nyimbo zatsopano za chikhulupiriro.",
+                    quickLinksTitle: "Ma Link Achepa",
+                    resourcesTitle: "Zothandiza",
+                    contactTitle: "Titumizireni Kalata",
+                    footerHome: "Kunyumba",
+                    footerHymns: "Nyimbo Zonse",
+                    footerCategories: "Mitundu",
+                    footerAbout: "Zathu",
+                    footerSheetMusic: "Ma Sheet Music",
+                    footerChordCharts: "Ma Chord Charts",
+                    footerAudioRecordings: "Ma Audio Recordings",
+                    footerWorshipPlanning: "Kukonza Mapemphero",
+                    footerBlog: "Blog"
+                },
+                ch: {
+                    heroTitle: "Pezani Nyimbo Zachifundo Zapemphero",
+                    heroDescription: "Yang'anani msonkho wathu wokwanira wa nyimbo zachikale ndi zachisanowa zili ndi mawu, nyimbo, ndi zosungira mawu.",
+                    browseHymns: "Yang'ana Nyimbo",
+                    learnMore: "Dziwanso Zambiri",
+                    categoriesTitle: "Mitundu Ya Nyimbo",
+                    featuredTitle: "Nyimbo Zowoneka",
+                    allHymnsTitle: "Nyimbo Zonse",
+                    browseCategoriesTitle: "Yang'ana Pogwiritsa Ntchito Mitundu",
+                    aboutTitle: "Za Sacred Melodies",
+                    aboutDescription: "Sacred Melodies ndi bukhu la nyimbo zapemphero la digito lomwe limasonkhanitsa nyimbo zachikale ndi zachisanowa m'modzi. Cholinga chathu ndi kusunga chuma cha nyimbo zapemphero pomwe tili kuzipanga kuti zipezeke kumisonkho, atsogoleri a mapemphero, ndi anthu padziko lonse lapansi.",
+                    featuresTitle: "Zinthu Zathu",
+                    aboutConclusion: "Kaya mukonza mapemphero, mukufuna chitsanzo, kapena kungofuna kumva nyimbo zapemphero, Sacred Melodies ili pano kukuthandizani.",
+                    footerDescription: "Bukhu la nyimbo zapemphero la digito lomwe limasunga nyimbo zachikale pomwe limalandira nyimbo zachisanowa zachikhulupiriro.",
+                    quickLinksTitle: "Maulalo Achepa",
+                    resourcesTitle: "Zothandiza",
+                    contactTitle: "Titumizireni Kalata",
+                    footerHome: "Kunyumba",
+                    footerHymns: "Nyimbo Zonse",
+                    footerCategories: "Mitundu",
+                    footerAbout: "Zathu",
+                    footerSheetMusic: "Nyimbo Zolembedwa",
+                    footerChordCharts: "Makanema A Nyimbo",
+                    footerAudioRecordings: "Zosungira Mawu",
+                    footerWorshipPlanning: "Kukonza Mapemphero",
+                    footerBlog: "Blog"
+                }
+            }
+        };
+
+        // DOM Elements
+        const elements = {
+            // Pages
+            homePage: document.getElementById('home-page'),
+            homeContent: document.getElementById('home-content'),
+            hymnsContent: document.getElementById('hymns-content'),
+            categoriesContent: document.getElementById('categories-content'),
+            aboutContent: document.getElementById('about-content'),
+            
+            // Navigation
+            navLinks: document.querySelectorAll('nav a'),
+            footerLinks: document.querySelectorAll('.footer-links a'),
+            
+            // Language
+            languageSelect: document.getElementById('language-select'),
+            
+            // Search
+            searchInput: document.getElementById('search-input'),
+            searchBtn: document.getElementById('search-btn'),
+            
+            // Content containers
+            categoriesContainer: document.getElementById('categories-container'),
+            featuredHymns: document.getElementById('featured-hymns'),
+            allHymns: document.getElementById('all-hymns'),
+            allCategories: document.getElementById('all-categories'),
+            
+            // Music Player
+            musicPlayer: document.getElementById('music-player'),
+            nowPlayingTitle: document.getElementById('now-playing-title'),
+            nowPlayingArtist: document.getElementById('now-playing-artist'),
+            playBtn: document.getElementById('play-btn'),
+            prevBtn: document.getElementById('prev-btn'),
+            nextBtn: document.getElementById('next-btn'),
+            progressBar: document.getElementById('progress-bar'),
+            progress: document.getElementById('progress'),
+            currentTime: document.getElementById('current-time'),
+            durationEl: document.getElementById('duration'),
+            
+            // Modal
+            hymnModal: document.getElementById('hymn-modal'),
+            closeModal: document.getElementById('close-modal'),
+            modalHymnTitle: document.getElementById('modal-hymn-title'),
+            modalHymnNumber: document.getElementById('modal-hymn-number'),
+            modalHymnAuthor: document.getElementById('modal-hymn-author'),
+            modalHymnYear: document.getElementById('modal-hymn-year'),
+            modalHymnCategory: document.getElementById('modal-hymn-category'),
+            modalHymnLyrics: document.getElementById('modal-hymn-lyrics'),
+            modalPlayBtn: document.getElementById('modal-play-btn'),
+            modalFavoriteBtn: document.getElementById('modal-favorite-btn'),
+            modalCloseBtn: document.getElementById('modal-close-btn'),
+            
+            // Mobile menu
+            mobileMenuBtn: document.querySelector('.mobile-menu-btn')
+        };
+
+        // Initialize the application
+        function init() {
+            // Load initial language data
+            loadLanguageData(state.currentLanguage);
+            
+            // Render initial content
+            renderCategories();
+            renderFeaturedHymns();
+            renderAllHymns();
+            
+            setupEventListeners();
+            updateNavigation();
+            updateUIText();
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Navigation
+            elements.navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const page = e.target.getAttribute('data-page');
+                    navigateTo(page);
+                });
+            });
+            
+            elements.footerLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const page = e.target.getAttribute('data-page');
+                    navigateTo(page);
+                });
+            });
+            
+            // Language selection
+            elements.languageSelect.addEventListener('change', (e) => {
+                state.currentLanguage = e.target.value;
+                loadLanguageData(state.currentLanguage);
+                updateUIText();
+                renderCategories();
+                renderFeaturedHymns();
+                renderAllHymns();
+            });
+            
+            // Search
+            elements.searchBtn.addEventListener('click', handleSearch);
+            elements.searchInput.addEventListener('keyup', (e) => {
+                if (e.key === 'Enter') handleSearch();
+            });
+            
+            // Music Player
+            elements.playBtn.addEventListener('click', togglePlayback);
+            elements.prevBtn.addEventListener('click', playPreviousHymn);
+            elements.nextBtn.addEventListener('click', playNextHymn);
+            elements.progressBar.addEventListener('click', seek);
+            
+            // Modal
+            elements.closeModal.addEventListener('click', closeHymnModal);
+            elements.modalCloseBtn.addEventListener('click', closeHymnModal);
+            elements.modalPlayBtn.addEventListener('click', playFromModal);
+            elements.modalFavoriteBtn.addEventListener('click', toggleFavoriteFromModal);
+            
+            // Mobile menu
+            elements.mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+            
+            // Audio events
+            state.audio.addEventListener('loadedmetadata', () => {
+                state.duration = state.audio.duration;
+                updateDurationDisplay();
+            });
+            
+            state.audio.addEventListener('timeupdate', () => {
+                state.currentTime = state.audio.currentTime;
+                updateProgressBar();
+                updateTimeDisplay();
+            });
+            
+            state.audio.addEventListener('ended', () => {
+                state.isPlaying = false;
+                updatePlayButton();
+            });
+        }
+
+        // Load language-specific data
+        function loadLanguageData(language) {
+            const languageData = state.languages[language];
+            if (languageData) {
+                state.hymns = languageData.hymns;
+                state.categories = window.hymnData?.categories || []; // Use English categories as base
+            }
+        }
+
+        // Update UI text based on current language
+        function updateUIText() {
+            const t = state.translations[state.currentLanguage];
+            
+            // Update hero section
+            document.getElementById('hero-title').textContent = t.heroTitle;
+            document.getElementById('hero-description').textContent = t.heroDescription;
+            document.getElementById('browse-hymns-btn').textContent = t.browseHymns;
+            document.getElementById('learn-more-btn').textContent = t.learnMore;
+            
+            // Update section titles
+            document.getElementById('categories-title').textContent = t.categoriesTitle;
+            document.getElementById('featured-title').textContent = t.featuredTitle;
+            document.getElementById('all-hymns-title').textContent = t.allHymnsTitle;
+            document.getElementById('browse-categories-title').textContent = t.browseCategoriesTitle;
+            document.getElementById('about-title').textContent = t.aboutTitle;
+            
+            // Update about section
+            document.getElementById('about-description').textContent = t.aboutDescription;
+            document.getElementById('features-title').textContent = t.featuresTitle;
+            document.getElementById('about-conclusion').textContent = t.aboutConclusion;
+            
+            // Update footer
+            document.getElementById('footer-description').textContent = t.footerDescription;
+            document.getElementById('quick-links-title').textContent = t.quickLinksTitle;
+            document.getElementById('resources-title').textContent = t.resourcesTitle;
+            document.getElementById('contact-title').textContent = t.contactTitle;
+            
+            document.getElementById('footer-home-link').textContent = t.footerHome;
+            document.getElementById('footer-hymns-link').textContent = t.footerHymns;
+            document.getElementById('footer-categories-link').textContent = t.footerCategories;
+            document.getElementById('footer-about-link').textContent = t.footerAbout;
+            
+            document.getElementById('footer-sheet-music').textContent = t.footerSheetMusic;
+            document.getElementById('footer-chord-charts').textContent = t.footerChordCharts;
+            document.getElementById('footer-audio-recordings').textContent = t.footerAudioRecordings;
+            document.getElementById('footer-worship-planning').textContent = t.footerWorshipPlanning;
+            document.getElementById('footer-blog').textContent = t.footerBlog;
+            
+            // Update modal
+            document.getElementById('modal-number-label').textContent = t.modalNumber;
+            document.getElementById('modal-author-label').textContent = t.modalAuthor;
+            document.getElementById('modal-year-label').textContent = t.modalYear;
+            document.getElementById('modal-category-label').textContent = t.modalCategory;
+            document.getElementById('modal-lyrics-title').textContent = t.modalLyricsTitle;
+            document.getElementById('modal-play-text').textContent = t.modalPlay;
+            document.getElementById('modal-favorite-text').textContent = t.modalFavorite;
+            document.getElementById('modal-close-text').textContent = t.modalClose;
+            
+            // Update player
+            if (!state.currentHymn) {
+                elements.nowPlayingTitle.textContent = t.nowPlayingDefault;
+            }
+        }
+
+        // Navigation
+        function navigateTo(page) {
+            state.currentPage = page;
+            updateNavigation();
+            
+            // Hide all content sections
+            elements.homeContent.style.display = 'none';
+            elements.hymnsContent.style.display = 'none';
+            elements.categoriesContent.style.display = 'none';
+            elements.aboutContent.style.display = 'none';
+            
+            // Show the current page content
+            switch(page) {
+                case 'home':
+                    elements.homeContent.style.display = 'block';
+                    break;
+                case 'hymns':
+                    elements.hymnsContent.style.display = 'block';
+                    renderAllHymns();
+                    break;
+                case 'categories':
+                    elements.categoriesContent.style.display = 'block';
+                    renderAllCategories();
+                    break;
+                case 'about':
+                    elements.aboutContent.style.display = 'block';
+                    break;
+            }
+        }
+
+        function updateNavigation() {
+            elements.navLinks.forEach(link => {
+                if (link.getAttribute('data-page') === state.currentPage) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+
+        function toggleMobileMenu() {
+            const nav = document.querySelector('nav ul');
+            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        // Search functionality
+        function handleSearch() {
+            state.searchQuery = elements.searchInput.value.trim().toLowerCase();
+            
+            if (state.currentPage === 'hymns') {
+                renderAllHymns();
+            } else {
+                navigateTo('hymns');
+            }
+        }
+
+        // Categories rendering
+        function renderCategories() {
+            elements.categoriesContainer.innerHTML = '';
+            
+            state.categories.forEach(category => {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card';
+                categoryCard.innerHTML = `
+                    <div class="category-icon">
+                        <i class="${category.icon}"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>${category.name}</h3>
+                        <p>${category.description}</p>
+                    </div>
+                `;
+                
+                categoryCard.addEventListener('click', () => {
+                    state.searchQuery = category.name.toLowerCase();
+                    navigateTo('hymns');
+                });
+                
+                elements.categoriesContainer.appendChild(categoryCard);
+            });
+        }
+
+        function renderAllCategories() {
+            elements.allCategories.innerHTML = '';
+            
+            state.categories.forEach(category => {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card';
+                categoryCard.innerHTML = `
+                    <div class="category-icon">
+                        <i class="${category.icon}"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>${category.name}</h3>
+                        <p>${category.description}</p>
+                    </div>
+                `;
+                
+                categoryCard.addEventListener('click', () => {
+                    state.searchQuery = category.name.toLowerCase();
+                    navigateTo('hymns');
+                });
+                
+                elements.allCategories.appendChild(categoryCard);
+            });
+        }
+
+        // Hymns rendering
+        function renderFeaturedHymns() {
+            elements.featuredHymns.innerHTML = '';
+            
+            const featuredHymns = state.hymns.filter(hymn => hymn.featured);
+            
+            featuredHymns.forEach(hymn => {
+                const hymnCard = createHymnCard(hymn);
+                elements.featuredHymns.appendChild(hymnCard);
+            });
+        }
+
+        function renderAllHymns() {
+            elements.allHymns.innerHTML = '';
+            
+            let filteredHymns = state.hymns;
+            
+            if (state.searchQuery) {
+                filteredHymns = state.hymns.filter(hymn => 
+                    hymn.title.toLowerCase().includes(state.searchQuery) ||
+                    hymn.author.toLowerCase().includes(state.searchQuery) ||
+                    hymn.lyrics.toLowerCase().includes(state.searchQuery) ||
+                    state.categories.find(cat => cat.id === hymn.category)?.name.toLowerCase().includes(state.searchQuery)
+                );
+            }
+            
+            filteredHymns.forEach(hymn => {
+                const hymnCard = createHymnCard(hymn);
+                elements.allHymns.appendChild(hymnCard);
+            });
+        }
+
+        function createHymnCard(hymn) {
+            const hymnCard = document.createElement('div');
+            hymnCard.className = 'hymn-card';
+            
+            const category = state.categories.find(cat => cat.id === hymn.category);
+            
+            hymnCard.innerHTML = `
+                <div class="hymn-header">
+                    <div>
+                        <div class="hymn-number">#${hymn.number}</div>
+                        <h3 class="hymn-title">${hymn.title}</h3>
+                        <div class="hymn-meta">
+                            <span>${hymn.author}</span>
+                            <span>${hymn.year}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hymn-body">
+                    <div class="hymn-lyrics">
+                        <p>${hymn.lyrics.split('\n').slice(0, 4).join('<br>')}</p>
+                    </div>
+                    <div class="hymn-actions">
+                        <button class="action-btn favorite-btn">
+                            <i class="${isHymnFavorited(hymn.id) ? 'fas' : 'far'} fa-heart"></i> ${state.translations[state.currentLanguage].modalFavorite}
+                        </button>
+                        <button class="action-btn play-btn" data-id="${hymn.id}">
+                            <i class="fas fa-music"></i> Play
+                        </button>
+                        <button class="action-btn read-more-btn" data-id="${hymn.id}">
+                            <i class="fas fa-book-open"></i> Read More
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            // Add event listeners
+            const favoriteBtn = hymnCard.querySelector('.favorite-btn');
+            const playBtn = hymnCard.querySelector('.play-btn');
+            const readMoreBtn = hymnCard.querySelector('.read-more-btn');
+            
+            favoriteBtn.addEventListener('click', () => toggleFavorite(hymn.id, favoriteBtn));
+            playBtn.addEventListener('click', () => playHymn(hymn));
+            readMoreBtn.addEventListener('click', () => showHymnDetails(hymn));
+            
+            return hymnCard;
+        }
+
+        function isHymnFavorited(hymnId) {
+            const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+            return favorites.includes(hymnId);
+        }
+
+        function toggleFavorite(hymnId, button) {
+            let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+            const icon = button.querySelector('i');
+            
+            if (favorites.includes(hymnId)) {
+                favorites = favorites.filter(id => id !== hymnId);
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+            } else {
+                favorites.push(hymnId);
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+            }
+            
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+        }
+
+        function showHymnDetails(hymn) {
+            const category = state.categories.find(cat => cat.id === hymn.category);
+            
+            // Update modal content
+            elements.modalHymnTitle.textContent = hymn.title;
+            elements.modalHymnNumber.textContent = hymn.number;
+            elements.modalHymnAuthor.textContent = hymn.author;
+            elements.modalHymnYear.textContent = hymn.year;
+            elements.modalHymnCategory.textContent = category?.name || 'Unknown';
+            elements.modalHymnLyrics.textContent = hymn.lyrics;
+            
+            // Update favorite button
+            const favoriteIcon = elements.modalFavoriteBtn.querySelector('i');
+            if (isHymnFavorited(hymn.id)) {
+                favoriteIcon.classList.remove('far');
+                favoriteIcon.classList.add('fas');
+                elements.modalFavoriteBtn.querySelector('span').textContent = state.translations[state.currentLanguage].modalFavorite.replace('Add', 'Remove');
+            } else {
+                favoriteIcon.classList.remove('fas');
+                favoriteIcon.classList.add('far');
+                elements.modalFavoriteBtn.querySelector('span').textContent = state.translations[state.currentLanguage].modalFavorite;
+            }
+            
+            // Store current hymn for modal actions
+            elements.modalFavoriteBtn.dataset.hymnId = hymn.id;
+            elements.modalPlayBtn.dataset.hymnId = hymn.id;
+            
+            // Show modal
+            elements.hymnModal.style.display = 'flex';
+        }
+
+        function closeHymnModal() {
+            elements.hymnModal.style.display = 'none';
+        }
+
+        function playFromModal() {
+            const hymnId = parseInt(elements.modalPlayBtn.dataset.hymnId);
+            const hymn = state.hymns.find(h => h.id === hymnId);
+            if (hymn) {
+                playHymn(hymn);
+                closeHymnModal();
+            }
+        }
+
+        function toggleFavoriteFromModal() {
+            const hymnId = parseInt(elements.modalFavoriteBtn.dataset.hymnId);
+            const button = elements.modalFavoriteBtn;
+            const icon = button.querySelector('i');
+            const textSpan = button.querySelector('span');
+            
+            let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+            
+            if (favorites.includes(hymnId)) {
+                favorites = favorites.filter(id => id !== hymnId);
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+                textSpan.textContent = state.translations[state.currentLanguage].modalFavorite;
+            } else {
+                favorites.push(hymnId);
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+                textSpan.textContent = state.translations[state.currentLanguage].modalFavorite.replace('Add', 'Remove');
+            }
+            
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+        }
+
+        // Music Player functionality
+        function playHymn(hymn) {
+            if (state.currentHymn?.id === hymn.id && state.isPlaying) {
+                togglePlayback();
+                return;
+            }
+            
+            state.currentHymn = hymn;
+            state.audio.src = hymn.audio || '';
+            
+            elements.nowPlayingTitle.textContent = hymn.title;
+            elements.nowPlayingArtist.textContent = `${hymn.author} • ${hymn.year}`;
+            
+            if (hymn.audio) {
+                state.audio.play().then(() => {
+                    state.isPlaying = true;
+                    updatePlayButton();
+                }).catch(error => {
+                    console.error('Error playing audio:', error);
+                    alert('Unable to play audio. The hymn might not have an audio file.');
+                });
+            } else {
+                alert('This hymn does not have an audio file.');
+            }
+        }
+
+        function togglePlayback() {
+            if (!state.currentHymn) return;
+            
+            if (state.isPlaying) {
+                state.audio.pause();
+                state.isPlaying = false;
+            } else {
+                state.audio.play();
+                state.isPlaying = true;
+            }
+            
+            updatePlayButton();
+        }
+
+        function playPreviousHymn() {
+            if (!state.currentHymn) return;
+            
+            const currentIndex = state.hymns.findIndex(hymn => hymn.id === state.currentHymn.id);
+            const previousIndex = (currentIndex - 1 + state.hymns.length) % state.hymns.length;
+            
+            playHymn(state.hymns[previousIndex]);
+        }
+
+        function playNextHymn() {
+            if (!state.currentHymn) return;
+            
+            const currentIndex = state.hymns.findIndex(hymn => hymn.id === state.currentHymn.id);
+            const nextIndex = (currentIndex + 1) % state.hymns.length;
+            
+            playHymn(state.hymns[nextIndex]);
+        }
+
+        function seek(e) {
+            if (!state.currentHymn || !state.audio.src) return;
+            
+            const progressBar = elements.progressBar;
+            const clickPosition = e.offsetX;
+            const progressBarWidth = progressBar.clientWidth;
+            const seekTime = (clickPosition / progressBarWidth) * state.duration;
+            
+            state.audio.currentTime = seekTime;
+        }
+
+        function updateProgressBar() {
+            if (!state.currentHymn || !state.audio.src) return;
+            
+            const progressPercentage = (state.currentTime / state.duration) * 100;
+            elements.progress.style.width = `${progressPercentage}%`;
+        }
+
+        function updateTimeDisplay() {
+            if (!state.currentHymn || !state.audio.src) return;
+            
+            elements.currentTime.textContent = formatTime(state.currentTime);
+            elements.durationEl.textContent = formatTime(state.duration);
+        }
+
+        function updateDurationDisplay() {
+            elements.durationEl.textContent = formatTime(state.duration);
+        }
+
+        function updatePlayButton() {
+            const icon = elements.playBtn.querySelector('i');
+            
+            if (state.isPlaying) {
+                icon.classList.remove('fa-play');
+                icon.classList.add('fa-pause');
+            } else {
+                icon.classList.remove('fa-pause');
+                icon.classList.add('fa-play');
+            }
+        }
+
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return '0:00';
+            
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = Math.floor(seconds % 60);
+            return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+        }
+
+        // Initialize the application when the DOM is loaded
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html> 

@@ -646,7 +646,10 @@ a:hover
    border-radius: 0px;
    padding: 10px 0 10px 0;
    margin: 0;
+   top: 205px;
    text-align: center;
+   position: absolute;
+   z-index: 9999;
 }
 #wb_slideText2 div
 {
@@ -2995,7 +2998,7 @@ body
    position: relative;
    border: 0px solid #424242;
    border-radius: 0px;
-   margin: 15px 0 15px 0 ;
+   margin: 5px 0 5px 0 ;
    overflow-y: auto;
 }
 #wb_OverlayMenu2

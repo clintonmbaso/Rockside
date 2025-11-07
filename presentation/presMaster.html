@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Master</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="sylSeminar.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Additional styles for the landing page 
+        .landing-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .landing-header h1 {
+            color: var(--primary);
+            font-family: var(--font-heading);
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .landing-header p {
+            color: var(--dark);
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .presentation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .presentation-card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .presentation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .card-header span {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content p {
+            color: var(--dark);
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .slide-count {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--dark);
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .slide-thumbnails {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .slide-thumb {
+            aspect-ratio: 4/3;
+            background: #f5f5f5;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: var(--dark);
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: var(--secondary);
+            color: var(--dark);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .timer {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            z-index: 10;
+        }
+
+        .presenter-notes {
+            background: #fff3cd;
+            border-left: 4px solid var(--warning);
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .presenter-notes strong {
+            color: var(--dark);
+        }
+    */
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="presentation-header">
+            <div class="logo">
+                <i class="fas fa-presentation"></i>
+                <span>Slide Master</span>
+            </div>
+            <div class="presentation-title">MG and SYL Seminar</div>
+            <div class="presentation-meta">
+                <div>Adventist Youth Ministries</div>
+                <div id="currentDate"></div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <!-- Landing Page -->
+            <div class="landing-page" id="landingPage">
+                <div class="landing-header">
+                    <h1>Youth Ministry Presentations</h1>
+                    <p>Select a presentation to begin</p>
+                </div>
+                
+                <div class="presentation-grid" id="presentationGrid">
+                    <!-- Presentation cards will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Presentation View -->
+            <div class="presentation-view" id="presentationView">
+                <div class="slide-container" id="slideContainer">
+                    <!-- Slides will be loaded here -->
+                </div>
+                
+                <div class="presentation-controls">
+                    <div class="control-group">
+                        <button class="nav-btn" id="prevSlide">
+                            <i class="fas fa-arrow-left"></i>
+                            Previous
+                        </button>
+                        <button class="nav-btn" id="nextSlide">
+                            Next
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="slide-counter" id="slideCounter">1 / 0</div>
+                    
+                    <div class="control-group">
+                        <button class="nav-btn" id="toggleFullscreen">
+                            <i class="fas fa-expand"></i>
+                            Fullscreen
+                        </button>
+                        <button class="nav-btn" id="exitPresentation">
+                            <i class="fas fa-times"></i>
+                            Exit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load all seminar files -->
+    <script src="data/sylSeminar01.js"></script>
+    <script src="data/sylSeminar02.js"></script>
+    <script src="data/sylSeminar03.js"></script>
+    <script src="data/sylSeminar04.js"></script>
+    <script src="data/sylSeminar05.js"></script>
+    <script src="data/sylSeminar06.js"></script>
+    <script src="data/sylSeminar07.js"></script>
+    <script src="data/sylSeminar08.js"></script>
+    <script src="data/sylSeminar09.js"></script>
+    <script src="data/sylSeminar10.js"></script>
+    <!-- Load all seminar files -->
+    <script src="data/mgWorkshop01.js"></script>
+    <script src="data/mgWorkshop02.js"></script>
+    <script src="data/mgWorkshop03.js"></script>
+    <script src="data/mgWorkshop04.js"></script>
+    <script src="data/mgWorkshop05.js"></script>
+    <script src="data/mgWorkshop06.js"></script>
+    <script src="data/mgWorkshop07.js"></script>
+    <script src="data/mgWorkshop08.js"></script>
+
+    <script src="landingPresentation.js"></script>
+    <script src="presentationEngine.js"></script>
+</body>
+</html>

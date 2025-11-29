@@ -85,7 +85,7 @@
             },
             {
                 id: '8',
-                title: 'Vacancies',
+                title: 'VACANCIES',
                 details: 'The chairman noted that there were some positions that needed replacements due to resignations as well as dormancy. He therefore announced that the executive would list all the positions and recommendations and have the details shared before the next youth council.',
                 sections: []
             },
@@ -97,7 +97,7 @@
             },
             {
                 id: '10',
-                title: 'Announcements',
+                title: 'ANNOUNCEMENTS',
                 details: 'The secretary gave the following announcements:',
                 sections: [{ type: 'list', items: ['The next Youth Council was scheduled to be on 7th Decemeber, 2025.', 'The Conference Camp was to start on 14 ending on 21 December, 2025.'] }]
             },

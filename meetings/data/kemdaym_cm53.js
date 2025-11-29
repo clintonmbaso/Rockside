@@ -22,9 +22,11 @@
             { id: '7.2', title: 'Education' },
             { id: '7.3', title: 'Pathfinder' },
             { id: '7.4', title: 'Ambassador' },
-            { id: '8', title: 'Conference Camp Finances' },
-            { id: '9', title: 'Closing Remarks' },
-            { id: '10', title: 'Closing Prayer' },
+            { id: '8', title: 'Vacancies' },
+            { id: '9', title: 'Conference Camp Finances' },
+            { id: '10', title: 'Announcements' },
+            { id: '11', title: 'Closing Remarks' },
+            { id: '12', title: 'Closing Prayer' },
         ];
 
         const MINUTES_DATA = [
@@ -83,18 +85,30 @@
             },
             {
                 id: '8',
+                title: 'Vacancies',
+                details: 'The chairman noted that there were some positions that needed replacements due to resignations as well as dormancy. He therefore announced that the executive would list all the positions and recommendations and have the details shared before the next youth council.',
+                sections: []
+            },
+            {
+                id: '9',
                 title: 'CONFERENCE CAMP FINANCES',
                 details: 'The planning committee suggested that each church contributes food to reduce on the finances. The final breakdown was agreed to be as follows:',
                 sections: [{ type: 'list', items: ['Registration K200', 'Transportation K200', 'Food K200'] }]
             },
             {
-                id: '9',
+                id: '10',
+                title: 'Announcements',
+                details: 'The secretary gave the following announcements:',
+                sections: [{ type: 'list', items: ['The next Youth Council was scheduled to be on 7th Decemeber, 2025.', 'The Conference Camp was to start on 14 ending on 21 December, 2025.'] }]
+            },
+            {
+                id: '11',
                 title: 'CLOSING REMARKS',
                 details: 'The chairman thanked all council members for their patience and support to attend the meeting.',
                 sections: []
             },
             {
-                id: '10',
+                id: '12',
                 title: 'CLOSING PRAYER',
                 details: 'The meeting was closed with prayer by Br Moris Bwalya.',
                 sections: []

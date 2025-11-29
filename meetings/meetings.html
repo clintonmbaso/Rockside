@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Council Meeting Minutes</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="p-4 md:p-8">
+
+    <div id="app" class="max-w-4xl mx-auto card">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="text-2xl md:text-3xl font-bold mb-2" id="meeting-title"></h1>
+            <div class="text-sm md:text-base font-light space-y-1" id="meeting-details"></div>
+        </header>
+
+        <!-- Tabs -->
+        <div class="flex border-b border-gray-200">
+            <button id="tab-agenda" class="tab-button w-1/2 py-4 text-center font-medium" onclick="switchTab('agenda')">
+                Agenda
+            </button>
+            <button id="tab-minutes" class="tab-button w-1/2 py-4 text-center font-medium" onclick="switchTab('minutes')">
+                Minutes
+            </button>
+        </div>
+        
+                <button id="print-button" class="no-print bg-white text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-lg font-medium shadow transition-colors flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z" clip-rule="evenodd" />
+                    </svg>
+                    Print
+                </button>
+        
+
+        <!-- Content Area -->
+        <div class="p-6">
+            <div id="content-agenda" class="tab-content">
+                <h2 class="text-xl font-semibold mb-4 text-gray-700">Detailed Agenda</h2>
+                <div id="agenda-list" class="space-y-3">
+                    <!-- Agenda items will be inserted here -->
+                </div>
+            </div>
+
+            <div id="content-minutes" class="tab-content hidden">
+                <h2 class="text-xl font-semibold mb-4 text-gray-700">Meeting Minutes</h2>
+                <div id="minutes-content" class="space-y-4">
+                    <!-- Minutes details will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer / Signatures -->
+        <footer class="footer rounded-b-xl">
+            <p><span class="font-semibold">Prepared By:</span> <span id="minutes-secretary"></span></p>
+        </footer>
+    </div>
+    
+    <script src="data/kemdaym_cm53.js"></script>
+    <script src="data/mainScript.js"></script>
+</body>
+</html>

@@ -60,7 +60,12 @@ const MEETING_DATA_kemdaym_cm53 = {
                 id: '5',
                 title: 'ROLL CALL',
                 details: 'The following churches were present:',
-                sections: [{ type: 'list', items: ['Rockside', 'Muteteshi Main', 'Muteteshi Central', 'Luanshimba', 'Lukanga Main', 'Mapulu', 'Kamiswa', 'Kohima', 'Mulungushi', 'Kamukuyu'] }]
+                sections: [
+                    { type: 'subheading', text: 'Zone A Churches:' },
+                    { type: 'list', items: ['Kohima', 'Lukanga Main', 'Mulungushi'] },
+                    { type: 'subheading', text: 'Zone B Churches:' },
+                    { type: 'list', items: ['Rockside', 'Mapulu', 'Muteteshi Main', 'Muteteshi Central', 'Luanshimba', 'Kamiswa', 'Kamukuyu'] }
+                ]
             },
             {
                 id: '6',

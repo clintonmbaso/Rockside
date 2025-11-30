@@ -8,8 +8,8 @@ const MEETING_DATA_kemdaym_cm54 = {
             location: "LUKANGA MAIN SDA CHURCH",
             date: "Sunday, 7th December 2025",
             time: "14:00 hours",
-            chair: "Br Moris Chibale, President",
-            secretary: "Sr Loveness"
+            chair: "Br Moris Chibale, KEMD President",
+            secretary: "Sr Loveness Mishealson Mwanza"
         },
 
         agenda: [

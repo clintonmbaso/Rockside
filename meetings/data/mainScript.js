@@ -13,10 +13,11 @@ const createElement = (tag, className, content) => {
 
 // Global meeting data object - combines all meeting data
 const ALL_MEETING_DATA = {
+    'kemdaym_cm41': MEETING_DATA_kemdaym_cm41 ? MEETING_DATA_kemdaym_cm41['kemdaym_cm41'] : null,
+    'kemdaym_cm51': MEETING_DATA_kemdaym_cm51 ? MEETING_DATA_kemdaym_cm51['kemdaym_cm51'] : null,
     'kemdaym_cm52': MEETING_DATA_kemdaym_cm52 ? MEETING_DATA_kemdaym_cm52['kemdaym_cm52'] : null,
     'kemdaym_cm53': MEETING_DATA_kemdaym_cm53 ? MEETING_DATA_kemdaym_cm53['kemdaym_cm53'] : null,
     'kemdaym_cm54': MEETING_DATA_kemdaym_cm54 ? MEETING_DATA_kemdaym_cm54['kemdaym_cm54'] : null
-    // Add more meetings here as needed
 };
 
 // Render the meetings list on landing page

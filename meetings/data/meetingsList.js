@@ -34,17 +34,26 @@ const MEETINGS_LIST = [
         secretary: "Sr Loveness",
         status: "completed"
     },
-/*
     {
         id: 'kemdaym_cm51',
         title: "KABWE EAST MISSION DISTRICT",
         type: "YOUTH COUNCIL MEETING",
-        location: "LUKANGA MAIN SDA CHURCH",
-        date: "Sunday, 31st August 2025",
-        time: "14:00 hours",
-        chair: "Br Clinton Mbaso, Vice President Zone B",
-        secretary: "Br Gift Masumo",
+        location: "District Meeting",
+        date: "Sunday, 16th February 2025",
+        time: "11:05 - 17:10 hours",
+        chair: "Youth President",
+        secretary: "Zone A & B Secretaries",
+        status: "completed"
+    },
+    {
+        id: 'kemdaym_cm41',
+        title: "KABWE EAST MISSION DISTRICT",
+        type: "YOUTH COUNCIL MEETING",
+        location: "ROCKSIDE SDA CHURCH",
+        date: "Sunday, 28th January 2024",
+        time: "10:46 - 17:06 hours",
+        chair: "Br Rabson Musonda, President",
+        secretary: "District Youth Secretary",
         status: "completed"
     }
-*/
 ];

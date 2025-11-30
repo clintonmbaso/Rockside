@@ -5,7 +5,7 @@ const MEETING_DATA_kemdaym_cm54 = {
         metadata: {
             title: "KABWE EAST MISSION DISTRICT",
             type: "YOUTH COUNCIL MEETING",
-            location: "ROCKSIDE SDA CHURCH",
+            location: "LUKANGA MAIN SDA CHURCH",
             date: "Sunday, 7th December 2025",
             time: "14:00 hours",
             chair: "Br Moris Chibale, President",

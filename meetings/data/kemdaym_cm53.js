@@ -1,6 +1,8 @@
-        // --- 1. DATA DEFINITIONS (Equivalent to separate JS files) ---
+// --- 2. MEETING SPECIFIC DATA ---
 
-        const MEETING_METADATA = {
+const MEETING_DATA_kemdaym_cm53 = {
+    'kemdaym_cm53': {
+        metadata: {
             title: "KABWE EAST MISSION DISTRICT",
             type: "YOUTH COUNCIL MEETING",
             location: "ROCKSIDE SDA CHURCH",
@@ -8,9 +10,9 @@
             time: "13:00 hours",
             chair: "Br Clinton Mbaso, Vice President Zone B",
             secretary: "Br Gift Masumo"
-        };
+        },
 
-        const AGENDA_DATA = [
+        agenda: [
             { id: '1', title: 'Call to Order' },
             { id: '2', title: 'Opening Remarks' },
             { id: '3', title: 'Opening Prayer' },
@@ -27,9 +29,9 @@
             { id: '10', title: 'Announcements' },
             { id: '11', title: 'Closing Remarks' },
             { id: '12', title: 'Closing Prayer' },
-        ];
+        ],
 
-        const MINUTES_DATA = [
+        minutes: [
             {
                 id: '1',
                 title: 'CALL TO ORDER',
@@ -64,7 +66,7 @@
                 id: '6',
                 title: 'PREVIOUS MINUTES',
                 details: 'The previous minutes were read and adopted with the following corrections:',
-                sections: [{ type: 'note', text: 'Corrections: Br. Charles Nsakanya was spelled as Musakanya. Top Secretary Br. Gift Masumo and not Br. Japhet Cheelo, and Vice Secretary Sr. Emma and not Sr. Emily.' }]
+                sections: [{ type: 'note', text: 'Br. Charles Nsakanya was spelled as Musakanya. Top Secretary elected was Br. Gift Masumo and not Br. Japhet Cheelo, and Vice Secretary elected was Sr. Emma and not Sr. Emily.' }]
             },
             {
                 id: '7',
@@ -72,15 +74,15 @@
                 details: '',
                 sections: [
                     { type: 'subheading', text: '7.1. Financial Report' },
-                    { type: 'paragraph', text: 'The report was presented by Br. Charles Nsakanya, Vice Treasurer, Zone A.' },
+                    { type: 'paragraph', text: 'The report was presented by Br. Charles Nsakanya, Vice Treasurer, Zone A. The report was adopted as a true record without any corrections or concerns.' },
                     { type: 'subheading', text: '7.2. Pathfinder' },
-                    { type: 'paragraph', text: 'The report was presented by Br. Moris Bwalya, Pathfinder Director, Zone B. The program fir the parades day that was scheduled to occur on ___ was postponed to February 2026.' },
+                    { type: 'paragraph', text: 'The report was presented by Br. Moris Bwalya, Pathfinder Director, Zone B. The program for the parades day that was scheduled to occur on July 27, was postponed to February 2026. Specific date to be planned for in next year time management.' },
                     { type: 'subheading', text: '7.3. Education' },
-                    { type: 'paragraph', text: 'Over 60 candidates were assessed but only 24 paid for the certificates.' },
+                    { type: 'paragraph', text: 'The report was given by Education Secretary Zone B, Br. Maimbo Malambo. He reviewed that over 60 candidates were assessed since January during the online honor assessment initiative, but sadly, only 24 had paid for the certificates.' },
                     { type: 'challenge', title: 'CHALLENGES', items: ['People are not learning in churches.', 'Low participation of youth members.'] },
                     { type: 'solution', title: 'SOLUTIONS', items: ['Need for the creation of an education committee.', 'Need for engagement of local church education leaders or youth leaders.'] },
                     { type: 'subheading', text: '7.4. Ambassador' },
-                    { type: 'paragraph', text: 'The report was presented by the Ambassador Director, Zone B. The picnic was moved to the 28th of December 2025. Transport to be provided or managed by the department.' },
+                    { type: 'paragraph', text: 'The report was presented by the Ambassador Director, Zone B, Br. Kebby. The picnic that was scheduled to occur in July, was moved to the 28th of December 2025. Transport to be provided or managed by the department. Payments remained tagged at K250 per participant.' },
                 ]
             },
             {
@@ -113,4 +115,54 @@
                 details: 'The meeting was closed with prayer by Br Moris Bwalya.',
                 sections: []
             }
-        ];
+        ],
+
+        review: [
+            {
+                id: '1',
+                title: 'Education Committee Formation',
+                description: 'Creation of education committee to address learning participation issues',
+                assignedTo: 'Br. Maimbo Malambo',
+                deadline: '2025-12-07',
+                status: 'pending',
+                progress: 'Committee members not yet identified.'
+            },
+            {
+                id: '2',
+                title: 'Pathfinder Parade Program',
+                description: 'Reschedule and organize Pathfinder parade day',
+                assignedTo: 'Br. Moris Bwalya',
+                deadline: '2025-12-07',
+                status: 'pending',
+                progress: 'New date not yet fully set, planning in progress'
+            },
+            {
+                id: '3',
+                title: 'Ambassador Department Picnic',
+                description: 'Organize Ambassador department picnic on 28th December 2025',
+                assignedTo: 'Br. Kebby',
+                deadline: '2025-12-07',
+                status: 'pending',
+                progress: 'Program promotion on hold due to the Conference Bible Congress'
+            },
+            {
+                id: '4',
+                title: 'Position Vacancies',
+                description: 'List and recommend replacements for vacant positions',
+                assignedTo: 'Zonal Executive Committees',
+                deadline: '2025-12-07',
+                status: 'pending',
+                progress: 'Zone B has filled in a third quarter of the vacancies.'
+            },
+            {
+                id: '5',
+                title: 'Conference Camp Preparation',
+                description: 'Finalize camp finances and logistics',
+                assignedTo: 'Planning Committee',
+                deadline: '2025-12-07',
+                status: 'pending',
+                progress: 'Budget approved, registration process ongoing, food allocations done, collection of food staffs pending'
+            }
+        ]
+    }
+};

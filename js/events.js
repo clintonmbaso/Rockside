@@ -2,7 +2,7 @@
          const events = [
             { 
                name: "KEMD Inductions", 
-               date: new Date("Feb 8, 2025 08:00:00").getTime(), 
+               date: new Date("Feb 8, 2026 08:00:00").getTime(), 
                reminderDays: 2, 
                reminderHours: 12, 
                caption: "KEMD Inductions", 
@@ -23,7 +23,7 @@
 
 // March
              { name: "KEMD Leadership Seminar", 
-               date: new Date("Mar 9, 2025 08:00:00").getTime(), 
+               date: new Date("Mar 9, 2026 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "MEZC Leadership Seminar", 
                details: "Description of MEZC Leadership Seminar", 
@@ -32,7 +32,7 @@
 
      
              { name: "GYD", 
-               date: new Date("Mar 15, 2025 08:00:00").getTime(), 
+               date: new Date("Mar 21, 2026 08:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "GYD", 
                details: "Global Youth Day", 
@@ -40,7 +40,7 @@
              },
      
              { name: "Youth Week of Prayer", 
-               date: new Date("Mar 16, 2025 17:00:00").getTime(), 
+               date: new Date("Mar 16, 2026 17:00:00").getTime(), 
                reminderDays: 3, reminderHours: 12,
                caption: "Youth Week of Prayer", 
                details: "Description of Youth Week of Prayer", 
@@ -48,7 +48,7 @@
              },
      
          	   { name: "Assessments", 
-         	     date: new Date("Mar 30, 2025 14:00:00").getTime(), 
+         	     date: new Date("Jun 21, 2026 08:00:00").getTime(), 
          	     reminderDays: 2, reminderHours: 12,
                caption: "Assessments", 
                details: "", 
@@ -109,7 +109,7 @@
          	   },
 
       	      { name: "GC Adventurer Day", 
-      	        date: new Date("May 18, 2025 08:00:00").getTime(), 
+      	        date: new Date("May 18, 2026 08:00:00").getTime(), 
       	        reminderDays: 2, reminderHours: 12,
                caption: "GC Adventurer Day", 
                details: "Description of GC Adventurer Day", 
@@ -128,19 +128,19 @@
      
 
 // July
-         	   { name: "Investiture", 
-         	     date: new Date("Jul 19, 2025 08:00:00").getTime(), 
+         	   { name: "Big Sabbatg", 
+         	     date: new Date("Jul 4, 2026 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "Investiture", 
-               details: "", 
+               caption: "Big Sabbath", 
+               details: "The event will be held at Muteteshi Main SDA Church.", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
-         	   { name: "Parade Day", 
-         	     date: new Date("Jul 29, 2025 08:00:00").getTime(), 
+         	   { name: "Skills Camp", 
+         	     date: new Date("Jul 31, 2026 08:00:00").getTime(), 
          	     reminderDays: 3, reminderHours: 12,
-               caption: "Parade Day", 
-               details: "", 
+               caption: "Skills Camp", 
+               details: "This will be a weekend camp running from 31st of July to 3rd of August, at Luanshimba Secondary. Only K200 per participant. Be there!!!", 
                imageUrl: "images/KEMD CH Exams.jpg" 	     
          	   },
      
@@ -182,11 +182,11 @@
                imageUrl: "../images/IMG-20241019-WA0028.jpg" 	     
          	   },
 
-            { name: "End of Year Party", 
+            { name: "Youth Council", 
          	     date: new Date("Dec 7, 2025 07:00:00").getTime(), 
          	     reminderDays: 0, reminderHours: 2,
-               caption: "End of Year Party", 
-               details: "", 
+               caption: "The last Youth Council this year.", 
+               details: "It will be in Zone A, venue will be communicated. Executive meeting at 8 and council at 14.", 
                imageUrl: "../images/crossoverCamp.jpg" 	     
             }
 

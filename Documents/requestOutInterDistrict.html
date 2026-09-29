@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="stylesheet" href="letterHead.css">
+    <!-- Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+
+
+    <!-- Main Content Area -->
+    <div class="content">
+
+
+
+        <header>
+            <h1 class="sdaName">ROCKSIDE SDA CHURCH</h1>
+            <p>C/O MULUNGUSHI UNIVERSITY,<br>P.O BOX 80415.<br>KABWE.</p>
+            <p>Phone: <a href="tel:+260766613234">+260766613234</a> | <a href="tel:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesda@gmail.com">rocksidesda@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
+        </header>
+
+        <hr>
+
+        <div id="date">Date: </div>
+<script>
+    // Function to get and format the current date
+    function getFullDate() {
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('en-US', options);
+        return currentDate;
+    }
+
+    // Insert the date into an element with the id 'date'
+    document.getElementById('date').textContent = getFullDate();
+</script>
+        
+        
+        <div class="recipient">
+            <p><strong><span contenteditable="true" class="editable placeholder" data-placeholder="Addresed To" style="text-transform: uppercase;">Addressed To</span></strong></p>
+            <p class="address"><span contenteditable="true" class="editable placeholder" data-placeholder="Insert Recipient's Address">Insert Recipient's Address</span></p>
+        </div>
+        
+        <br>
+        
+        <p>Dear Sir/Madam,</p>
+        
+		<div class="subject">
+            <strong>RE: </strong>REQUEST FOR FELLOWSHIP VISIT - <b><span id="firstName" contenteditable="true" class="editable placeholder" data-placeholder="Name of Invited Person" style="text-transform: uppercase;">Name of Invited Person</span></b>.
+            
+        </div>
+        
+
+        <div class="main">
+        <p>Greetings in the precious name of our Lord and Savior Jesus Christ.</p>
+			
+            
+           
+        <p>
+            On behalf of <span id="secondName">The Named</span>, <span contenteditable="true" class="editable placeholder" data-placeholder="group">group</span> we write to humbly request permission for them to visit your congregation for 
+            <span contenteditable="true" class="editable placeholder" data-placeholder="event">event name</span> on <span contenteditable="true" class="editable placeholder" data-placeholder="date">date</span>.
+        </p>
+        <p>
+            The purpose of this visit is to 
+            <span contenteditable="true" class="editable placeholder" data-placeholder="purpose">purpose</span>. They are hoping to come as a group of <span contenteditable="true" class="editable placeholder" data-placeholder="approximate number">approximate number</span> members. 
+            We kindly request your guidance on any requirements we should be aware of to ensure a smooth and blessed service.
+        </p>
+            
+            <p>Your positive response to our request will be appreciated.</p>
+
+        </div>
+		
+        <p><em>Yours In Christ Service.</em></p>
+        
+        <br><br>
+        <div class="signature" id="why" style="display: flex; justify-content: space-between;">
+            
+            <p>_________________<br><b>Church Clerk</b><br><em>Morris Bwalya</em><br><a href="tel:+260777803649">+260777803649</a></p>
+            
+            <p style="text-align:center;">_________________<br><b>Admin Elder</b><br><em>Gift Mugwagwa</em><br><a href="tel:+260973231719">+260973231719</a></p>
+            
+            <p style="text-align:right;">_________________<br><em>Pastor Prince Hankwebe</em><br><a href="tel:+260766613234">+260976102728</a><em style="opacity:0.7;"></em><br><em style="opacity:0.7;">xc: <span contenteditable="true" class="editable placeholder" data-placeholder="Receiving Pastor">Receiving Pastor</span></em></p>
+        </div>
+
+        <div class="footer">
+        "All things should be done decently and in order." — 1 Corinthians 14:40
+        </div>
+
+        
+        
+<!-- Button Container -->
+<div class="btn-container">
+    <button class="btn save-btn" onclick="saveDocument()">
+        <i class="fas fa-save"></i> Save
+    </button>
+    <button class="btn print-btn" onclick="window.print()">
+        <i class="fas fa-print"></i> Print
+    </button>
+</div>
+
+    </div>
+        <!-- Right Sidebar for Logo -->
+    <div class="sidebar">
+        <img class="One1" src="../images/sdaLogos.png" alt="Church Logo">
+        <p><b>Seventh-Day</b> <span class="adventist"><b>Adventist</b></span> <b>Church</b></p>
+    </div>
+    
+    <script>
+        function saveDocument() {
+            alert('Saving feature will require backend integration. This is just a placeholder for now.');
+        }
+    
+    
+    
+document.querySelectorAll('.editable').forEach(element => {
+  element.addEventListener('click', () => {
+    // Check if the placeholder is still active
+    if (element.classList.contains('placeholder')) {
+      element.classList.remove('placeholder');
+      element.textContent = ''; // Clear placeholder text
+
+      // Use setTimeout to ensure keyboard opens immediately after clearing
+      setTimeout(() => {
+        let range = document.createRange();
+        let selection = window.getSelection();
+        range.selectNodeContents(element);
+        range.collapse(false); // Move cursor to end
+        selection.removeAllRanges();
+        selection.addRange(range);
+      }, 0);
+    }
+  });
+
+  element.addEventListener('blur', () => {
+    if (element.textContent.trim() === '') {
+      element.classList.add('placeholder');
+      element.textContent = element.getAttribute('data-placeholder'); // Restore specific placeholder
+    }
+  });
+});
+    
+const firstName = document.getElementById('firstName');
+const secondName = document.getElementById('secondName');
+
+// Function to convert text to Proper Case (capitalize first letter of each word)
+function toProperCase(text) {
+  return text
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+// Sync second span with the first one's input (convert to Proper Case)
+firstName.addEventListener('input', () => {
+  secondName.textContent = toProperCase(firstName.textContent);
+});
+
+// Immediate focus on first click
+firstName.addEventListener('click', () => {
+  if (firstName.classList.contains('placeholder')) {
+    firstName.classList.remove('placeholder');
+    firstName.textContent = ''; // Clear placeholder
+
+    setTimeout(() => {
+      let range = document.createRange();
+      let selection = window.getSelection();
+      range.selectNodeContents(firstName);
+      range.collapse(false);
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }, 0);
+  }
+});
+
+// Placeholder logic
+firstName.addEventListener('blur', () => {
+  if (firstName.textContent.trim() === '') {
+    firstName.classList.add('placeholder');
+    firstName.textContent = firstName.getAttribute('data-placeholder');
+    secondName.textContent = 'Enter Name'; // Reset second name
+  }
+});
+    </script>
+
+</body>
+</html>

@@ -7,7 +7,46 @@
     <link rel="stylesheet" href="letterHead.css">
     <!-- Font Awesome CDN for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+    
+    .dynamic-page-footer {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 10pt;
+}
 
+@media print {
+    
+    .dynamic-page-footer {
+        display: block !important;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    @page {
+       /* size: A4; */
+        margin-left: 0.5cm; 
+    }
+    
+    .content-section {
+        page-break-inside: avoid;
+    }
+    
+    .dynamic-page-footer {
+        page-break-after: always;
+    }
+    
+    .dynamic-page-footer:nth-of-type(1) { bottom: 10px; }
+    .dynamic-page-footer:nth-of-type(2) { bottom: calc(10px + 297mm); }
+    .dynamic-page-footer:nth-of-type(3) { bottom: calc(10px + 594mm); }
+    
+}
+    
+    </style>
 </head>
 <body>
 
@@ -63,6 +102,8 @@
         </ol>
         
         <br>
+        <br>
+        <br>
 
         
   <div class="section">
@@ -83,7 +124,6 @@
       </ul>
       <li>The Caretaker agrees to take reasonable care of the Church premises and any common parts, and in particular agrees to take all reasonable steps to:</li>
       <ul>
-          <li>Keep the premises cleaned, including the floor/tiles; </li>
           <li>Not bring any hazardous or combustible goods or material into the premises;</li>
           <li>Not to pour any oil, grease, or other damaging materials down the floor, walls or door</li>
           <li>Avoid danger to the premises or neighbouring properties by way of fire or flooding.</li>
@@ -129,6 +169,8 @@
       </ol>
   </div>
 
+        <br>
+      
   <div class="section">
     <h2 class="heading2">SECTION D: Ending the Tenancy</h2>
     <p>The Church may terminate the tenancy by service on the Caretaker of a notice to quit. The Landlord may serve such notice either: </p>
@@ -163,6 +205,7 @@
       <br>
       <br>
       <br>      
+      <br>
       <br>
       <br>
       <br>
@@ -256,9 +299,64 @@
         
         <!-- Right Sidebar for Logo -->
     <div class="sidebar">
-        <img class="One1" src="../images/sdaLogo.png" alt="Church Logo">
+        <img class="One1" src="./icons/sdaLogos.png" alt="Church Logo">
         <p><b>Seventh-Day</b> <span class="adventist"><b>Adventist</b></span> <b>Church</b></p>
     </div>
+    
+    
+        <footer class="page-number"></footer>
+    <!--
+<script>
+// Improved dynamic page numbering
+function updatePageNumbers() {
+    // Calculate total pages
+    const pageHeight = 1122; // Approximate pixels for A4 at 96dpi
+    const totalPages = Math.ceil(document.body.scrollHeight / pageHeight);
+    
+    // Remove any existing page number footers
+    const existingFooters = document.querySelectorAll('.dynamic-page-footer');
+    existingFooters.forEach(footer => footer.remove());
+    
+    // Create a footer for each page
+    for (let i = 0; i < totalPages; i++) {
+        const footer = document.createElement('div');
+        footer.className = 'dynamic-page-footer';
+        footer.style.position = 'absolute';
+        footer.style.bottom = `-${(i * pageHeight)}px`;
+        footer.style.width = '100%';
+        footer.style.textAlign = 'right';
+        footer.style.fontSize = '10pt';
+        footer.textContent = `Page ${i + 1} of ${totalPages}`;
+        document.body.appendChild(footer);
+    }
+}
+
+// Update page numbers when printing
+window.onbeforeprint = function() {
+    updatePageNumbers();
+    
+    // Make footers visible for print
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'block';
+    });
+};
+
+// Clear page numbers after printing
+window.onafterprint = function() {
+    const footers = document.querySelectorAll('.dynamic-page-footer');
+    footers.forEach(footer => {
+        footer.style.display = 'none';
+    });
+};
+
+// Also update when the window resizes
+window.addEventListener('resize', updatePageNumbers);
+
+// Initial setup (hidden by default)
+updatePageNumbers();
+</script>    
+    -->
     
     <script>
         function saveDocument() {

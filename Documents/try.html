@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Slideshow</title>
+</head>
+<body>
+
+<input type="file" id="image-input" multiple accept="image/*">
+<img id="slideshow-image" src="" alt="Slideshow Image" width="500">
+
+<script>
+    // Function to start the slideshow
+    function startSlideshow(images) {
+        const imageElement = document.getElementById('slideshow-image');
+        let previousIndex = -1;
+
+        function showNextImage() {
+            let currentIndex;
+
+            // Ensure the next image is different from the previous one
+            do {
+                currentIndex = Math.floor(Math.random() * images.length);
+            } while (currentIndex === previousIndex);
+
+            previousIndex = currentIndex;
+            imageElement.src = images[currentIndex];
+        }
+
+        // Show the first image and set an interval for the slideshow
+        showNextImage();
+        setInterval(showNextImage, 5000); // Change image every 5 seconds
+    }
+
+    // Handle file input change
+    document.getElementById('image-input').addEventListener('change', function(event) {
+        const files = event.target.files;
+        const images = [];
+
+        // Loop through selected files and push their URLs into the images array
+        for (let i = 0; i < files.length; i++) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                images.push(e.target.result);
+                if (images.length === files.length) {
+                    startSlideshow(images); // Start the slideshow when all images are loaded
+                }
+            };
+            reader.readAsDataURL(files[i]); // Read the file as a Data URL
+        }
+    });
+</script>
+
+</body>
+</html>

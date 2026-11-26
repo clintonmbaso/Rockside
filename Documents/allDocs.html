@@ -3,136 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Docs</title>
-    <link rel="stylesheet" href="allDocs.css">
+    <title>Document Centre | Rockside SDA Church</title>
+    <meta name="description" content="Official forms, letters and reports of Rockside SDA Church.">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="stylesheet" href="letterHead.css">
-
-
-    <style>
-    /* CSS */
-.report1 {
-  display: inline-block;
-  position: relative;
-  width: 100px;
-  height: 150px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #333;
-  font-family: 'Georgia', serif;
-  font-size: 14px;
-  line-height: 1.4;
-  padding: 0;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease-in-out;
-}
-.qtr {
-  background: url('images/2025-1.jpg') center/contain no-repeat;
-  background-size: contain;
-  background-clip: padding-box; 
-    width: 100px;
-  height: 150px;
-}
-    
-.report1:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 0 8px rgba(0, 0, 0, 0.1);
-}
-    </style>
+    <!-- Loaded last so it takes precedence -->
+    <link rel="stylesheet" href="allDocs.css">
 </head>
 <body>
-  
-<div class="content">
 
+<div class="content page">
 
-        <header>
+    <!-- ========== LETTERHEAD ========== -->
+    <header class="letterhead">
+        <img class="letterhead__logo" src="../images/sdaLogos.png" alt="Rockside SDA Church logo">
 
-            <h1 class="sdaName">ROCKSIDE SDA CHURCH</h1>
+        <div class="letterhead__text">
+            <h1 class="sdaName">Rockside SDA Church</h1>
+            <p class="letterhead__address">
+                c/o Mulungushi University &middot; P.O. Box 80415 &middot; Kabwe, Zambia
+            </p>
+            <p class="letterhead__contact">
+                <a href="tel:+260766613234"><i class="fa-solid fa-phone"></i> +260 766 613 234</a>
+                <a href="tel:+260976134445"><i class="fa-solid fa-phone"></i> +260 976 134 445</a>
+                <a href="mailto:rocksidesdachurch@gmail.com"><i class="fa-solid fa-envelope"></i> rocksidesdachurch@gmail.com</a>
+                <!-- <a href="#"><i class="fa-solid fa-globe"></i> www.rocksidesdachurch.com</a> -->
+            </p>
+        </div>
+    </header>
 
-            <p>C/O MULUNGUSHI UNIVERSITY,<br>P.O BOX 80415.<br>KABWE.</p>
+    <div class="rule" aria-hidden="true"></div>
 
-            <p>Phone: <a href="tel:+260766613234">+260766613234</a> | <a href="tel:+260976134445">+260976134445</a> | Email: <a href="mailto:rocksidesdachurch@gmail.com">rocksidesdachurch@gmail.com</a><!-- | Website: <a href="#">www.rocksidesdachurch.com</a>--></p>
+    <!-- ========== PAGE TITLE ========== -->
+    <section class="page-title">
+        <div>
+            <p class="eyebrow">Church Administration</p>
+            <h2>Document Centre</h2>
+            <p class="lead">Official forms, letters and reports. Select a document to open it.</p>
+        </div>
+        <div class="page-title__meta">
+            <i class="fa-regular fa-calendar"></i>
+            <span id="date">Date: </span>
+        </div>
+    </section>
 
-        </header>
+    <!-- ========== TOOLBAR ========== -->
+    <div class="toolbar">
+        <label class="search" for="docSearch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="docSearch" type="search" placeholder="Search documents…" autocomplete="off">
+        </label>
 
-
-
-        <hr>
-
-
-
-        <div id="date">Date: </div>
-
-<script>
-
-    // Function to get and format the current date
-
-    function getFullDate() {
-
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-
-        const currentDate = new Date().toLocaleDateString('en-US', options);
-
-        return currentDate;
-
-    }
-
-
-
-    // Insert the date into an element with the id 'date'
-
-    document.getElementById('date').textContent = getFullDate();
-
-</script>
-
-        
-
-
-  <h3>All Forms</h3>
-    <!-- Link to open daily message modal -->
-  <div>
-        <a href="pmSabbath.html" class="report1"><img class="qtr" src="./icons/orderOfWorshi.jpeg" alt="Sabbath Program"></a>
-        <a href="introductoryLetter.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Introduction"></a>
-        <a href="invitation.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Invitation"></a>
-        <a href="introductoryLetter.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Introductory Letters"></a>
-        <a href="sabbathSchool.html" class="report1"><img class="qtr" src="./icons/sabbathSchool.jpeg" alt="Sabbath School"></a>
-        <a href="../campmeeting/campmeeting.php" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="qtr241"></a>
-        <a href="weekOfPrayerReport.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Week of Prayer Report"></a>
-        <a href="./rsOpenLetter.html" class="report1"><img class="qtr" src="../images/KEMD Log.png" alt="Open Letter"></a>
-        
-        <a href="noticeOfCensure.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Notice of Censure"></a>
-        <a href="PCM Open Letter.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Open Letter PCM"></a>
-        
-        <a href="requestInterConference.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Request Inter Conference"></a>
-        <a href="requestInterDistrict.html" class="report1"><img class="qtr" src="../images/2024-.jpg" alt="Request Inter District"></a>
-        <a href="requestOutInterDistrict.html" class="report1"><img class="qtr" src="../images/KEMD Log.png" alt="Request Out Inter District"></a>
-                
-  </div>
-  
-  
-  
-<!-- Blur Layer -->
-<div id="blurLayer"></div>
-</div>
-
-        <!-- Right Sidebar for Logo -->
-
-    <div class="sidebar">
-
-        <img class="One1" src="../images/sdaLogos.png" alt="Church Logo">
-
-
+        <div class="filters" role="group" aria-label="Filter by category">
+            <button type="button" class="chip is-active" data-filter="all">All</button>
+            <button type="button" class="chip" data-filter="worship">Worship</button>
+            <button type="button" class="chip" data-filter="letters">Letters</button>
+            <button type="button" class="chip" data-filter="requests">Requests</button>
+            <button type="button" class="chip" data-filter="reports">Reports</button>
+        </div>
     </div>
 
-    
+    <!-- ========== DOCUMENT GRID ========== -->
+    <main>
+        <h3 class="section-heading">All Forms <span class="count" id="docCount"></span></h3>
 
+        <div class="doc-grid" id="docGrid">
 
-    <script src="dailyMessages.js"></script>
-    <script src="dailyMessages25.js"></script>  
-    <script src="allDocs.js"></script>
+            <a class="doc-card" data-cat="worship" href="pmSabbath.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-church"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Sabbath Program</span>
+                    <span class="doc-card__tag">Worship</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="worship" href="sabbathSchool.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-book-open"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Sabbath School</span>
+                    <span class="doc-card__tag">Worship</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="worship" href="../campmeeting/campmeeting.php">
+                <span class="doc-card__icon"><i class="fa-solid fa-tent"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Camp Meeting</span>
+                    <span class="doc-card__tag">Worship</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="letters" href="introductoryLetter.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-envelope-open-text"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Introductory Letter</span>
+                    <span class="doc-card__tag">Letters</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="letters" href="invitation.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-champagne-glasses"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Invitation</span>
+                    <span class="doc-card__tag">Letters</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="letters" href="./rsOpenLetter.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-file-lines"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Open Letter</span>
+                    <span class="doc-card__tag">Letters</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="letters" href="PCM Open Letter.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-file-signature"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Open Letter &ndash; PCM</span>
+                    <span class="doc-card__tag">Letters</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="letters" href="noticeOfCensure.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-gavel"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Notice of Censure</span>
+                    <span class="doc-card__tag">Letters</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="requests" href="requestInterConference.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-right-left"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Request &ndash; Inter-Conference</span>
+                    <span class="doc-card__tag">Requests</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="requests" href="requestInterDistrict.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-right-left"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Request &ndash; Inter-District</span>
+                    <span class="doc-card__tag">Requests</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="requests" href="requestOutInterDistrict.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Request &ndash; Out of Inter-District</span>
+                    <span class="doc-card__tag">Requests</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+            <a class="doc-card" data-cat="reports" href="weekOfPrayerReport.html">
+                <span class="doc-card__icon"><i class="fa-solid fa-hands-praying"></i></span>
+                <span class="doc-card__body">
+                    <span class="doc-card__title">Week of Prayer Report</span>
+                    <span class="doc-card__tag">Reports</span>
+                </span>
+                <i class="fa-solid fa-arrow-right doc-card__go"></i>
+            </a>
+
+        </div>
+
+        <p class="empty" id="emptyState" hidden>
+            <i class="fa-regular fa-folder-open"></i>
+            No documents match your search.
+        </p>
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; <span id="year"></span> Rockside SDA Church &middot; Kabwe, Zambia</p>
+    </footer>
+
+    <!-- Blur Layer (used by the daily message modal) -->
+    <div id="blurLayer"></div>
+</div>
+
+<script src="dailyMessages.js"></script>
+<script src="dailyMessages25.js"></script>
+<script src="allDocs.js"></script>
+
+<script>
+(function () {
+    // Current date
+    var opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', opts);
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Search + category filter
+    var cards  = Array.prototype.slice.call(document.querySelectorAll('.doc-card'));
+    var chips  = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+    var input  = document.getElementById('docSearch');
+    var count  = document.getElementById('docCount');
+    var empty  = document.getElementById('emptyState');
+    var active = 'all';
+
+    function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        cards.forEach(function (c) {
+            var match = (active === 'all' || c.dataset.cat === active) &&
+                        c.textContent.toLowerCase().indexOf(q) !== -1;
+            c.hidden = !match;
+            if (match) shown++;
+        });
+        count.textContent = shown;
+        empty.hidden = shown !== 0;
+    }
+
+    chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+            chips.forEach(function (c) { c.classList.remove('is-active'); });
+            chip.classList.add('is-active');
+            active = chip.dataset.filter;
+            apply();
+        });
+    });
+    input.addEventListener('input', apply);
+    apply();
+})();
+</script>
 </body>
 </html>

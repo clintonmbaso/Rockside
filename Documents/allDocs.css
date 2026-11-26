@@ -1,6 +1,369 @@
-/* Modal styles */
+/* =====================================================================
+   Rockside SDA Church – Document Centre
+   ===================================================================== */
+
+/* ---------- Design tokens ---------- */
+:root {
+    --navy-900: #0f2038;
+    --navy-700: #1b3a63;
+    --navy-500: #2f5b94;
+    --gold-500: #b8893a;
+    --gold-300: #e3c88f;
+    --ink: #1c2430;
+    --ink-soft: #566274;
+    --line: #dfe4ec;
+    --surface: #ffffff;
+    --bg: #f4f6fa;
+    --radius: 12px;
+    --shadow-sm: 0 1px 2px rgba(15, 32, 56, .06), 0 1px 3px rgba(15, 32, 56, .08);
+    --shadow-md: 0 6px 18px rgba(15, 32, 56, .12);
+    --font-serif: Georgia, 'Times New Roman', Times, serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--navy-500); text-decoration: none; }
+a:hover { color: var(--navy-700); }
+
+:focus-visible {
+    outline: 3px solid var(--gold-300);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+[hidden] { display: none !important; }
+
+/* ---------- Page container ---------- */
+.page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px 24px 24px;
+}
+
+/* ---------- Letterhead ---------- */
+.letterhead {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 28px 32px;
+    background: linear-gradient(135deg, var(--navy-900), var(--navy-700));
+    color: #fff;
+    border-radius: var(--radius) var(--radius) 0 0;
+    box-shadow: var(--shadow-md);
+}
+
+.letterhead__logo {
+    height: 84px;
+    width: auto;
+    padding: 8px;
+    background: #fff;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.letterhead h1,
+.sdaName {
+    margin: 0 0 4px;
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.letterhead__address {
+    margin: 0 0 12px;
+    color: rgba(255, 255, 255, .78);
+    font-size: .92rem;
+    letter-spacing: .02em;
+}
+
+.letterhead__contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    margin: 0;
+    font-size: .88rem;
+}
+
+.letterhead__contact a {
+    color: var(--gold-300);
+    white-space: nowrap;
+}
+.letterhead__contact a:hover { color: #fff; }
+.letterhead__contact i { margin-right: 6px; font-size: .8em; }
+
+.rule {
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold-500), var(--gold-300), var(--gold-500));
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 36px;
+}
+
+/* ---------- Page title ---------- */
+.page-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.eyebrow {
+    margin: 0 0 4px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--gold-500);
+}
+
+.page-title h2 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 2.1rem;
+    line-height: 1.2;
+    color: var(--navy-900);
+}
+
+.lead { margin: 6px 0 0; color: var(--ink-soft); }
+
+.page-title__meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: .88rem;
+    color: var(--ink-soft);
+    box-shadow: var(--shadow-sm);
+}
+.page-title__meta i { color: var(--gold-500); }
+
+/* ---------- Toolbar: search + filters ---------- */
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.search {
+    position: relative;
+    flex: 1 1 280px;
+    max-width: 380px;
+}
+.search i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-soft);
+    pointer-events: none;
+}
+.search input {
+    width: 100%;
+    padding: 11px 14px 11px 40px;
+    font: inherit;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    box-shadow: var(--shadow-sm);
+    transition: border-color .15s, box-shadow .15s;
+}
+.search input:focus {
+    outline: none;
+    border-color: var(--navy-500);
+    box-shadow: 0 0 0 3px rgba(47, 91, 148, .18);
+}
+
+.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chip {
+    padding: 8px 16px;
+    font: inherit;
+    font-size: .88rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+.chip:hover { color: var(--navy-700); border-color: var(--navy-500); }
+.chip.is-active {
+    color: #fff;
+    background: var(--navy-700);
+    border-color: var(--navy-700);
+}
+
+/* ---------- Section heading ---------- */
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 18px;
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    color: var(--navy-900);
+}
+.section-heading::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+}
+.count {
+    order: 1;
+    padding: 2px 10px;
+    font-family: var(--font-sans);
+    font-size: .78rem;
+    font-weight: 700;
+    color: var(--navy-700);
+    background: #e6edf7;
+    border-radius: 999px;
+}
+.section-heading::after { order: 0; }
+
+/* ---------- Document cards ---------- */
+.doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 16px;
+}
+
+.doc-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--navy-700);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.doc-card:hover {
+    transform: translateY(-3px);
+    color: var(--ink);
+    border-left-color: var(--gold-500);
+    box-shadow: var(--shadow-md);
+}
+
+.doc-card__icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+    color: var(--navy-700);
+    background: #e9eff8;
+    border-radius: 10px;
+    transition: background .18s, color .18s;
+}
+.doc-card:hover .doc-card__icon { color: #fff; background: var(--navy-700); }
+
+.doc-card__body { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+
+.doc-card__title {
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--navy-900);
+}
+
+.doc-card__tag {
+    margin-top: 4px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--gold-500);
+}
+
+.doc-card__go {
+    font-size: .85rem;
+    color: var(--line);
+    transition: color .18s, transform .18s;
+}
+.doc-card:hover .doc-card__go { color: var(--gold-500); transform: translateX(3px); }
+
+/* Empty state */
+.empty {
+    padding: 48px 16px;
+    text-align: center;
+    color: var(--ink-soft);
+}
+.empty i { display: block; margin-bottom: 10px; font-size: 2rem; color: var(--line); }
+
+/* ---------- Footer ---------- */
+.page-footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    text-align: center;
+    font-size: .85rem;
+    color: var(--ink-soft);
+}
+.page-footer p { margin: 0; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+    .page { padding: 16px 14px; }
+    .letterhead { flex-direction: column; text-align: center; padding: 24px 18px; }
+    .letterhead__logo { height: 72px; }
+    .letterhead h1, .sdaName { font-size: 1.4rem; letter-spacing: .1em; }
+    .letterhead__contact { justify-content: center; }
+    .page-title h2 { font-size: 1.7rem; }
+    .search { max-width: none; }
+}
+
+/* ---------- Print ---------- */
+@media print {
+    body { background: #fff; }
+    .toolbar, .doc-card__go, #blurLayer { display: none !important; }
+    .letterhead { box-shadow: none; }
+    .doc-card { box-shadow: none; break-inside: avoid; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; scroll-behavior: auto !important; }
+}
+
+
+/* =====================================================================
+   Daily message / Bible verse modals
+   (class names unchanged – required by dailyMessages.js / allDocs.js)
+   ===================================================================== */
+
 .modal {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-serif);
     display: none;
     position: fixed;
     z-index: 10000;
@@ -8,8 +371,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    background-color: rgba(10, 20, 36, .55);
 }
 
 .message-content {
@@ -20,152 +383,123 @@
     width: 80%;
     max-height: 80%;
     overflow: auto;
-    color: white;
+    color: #fff;
     position: relative;
 }
 
 .verse-content {
-    background-color: white;
+    background-color: var(--surface);
     margin: 15% auto;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 18px 22px;
+    border-radius: var(--radius);
+    border-top: 4px solid var(--gold-500);
+    box-shadow: var(--shadow-md);
     width: 80%;
     height: auto;
     max-height: 50%;
     overflow: auto;
-    color: black;
+    color: var(--ink);
     position: relative;
     text-align: justify;
 }
 
-/* Close button */
+/* Close buttons */
 .close, .close-bible {
-    color: red;
+    color: #ff6b6b;
     float: right;
-    font-size: 50px;
+    font-size: 44px;
     font-weight: bold;
+    line-height: 1;
     cursor: pointer;
+    transition: color .15s;
 }
-
-.close {
-    position: fixed;
-    right: 13px;
-    top: 40px;
-    
-}
-.close:hover, .close-bible:hover {
-    color: #000;
-}
+.close { position: fixed; right: 16px; top: 36px; }
+.close:hover, .close-bible:hover { color: #fff; }
 
 #blurLayer {
-    display: none; /* Initially hidden */
-    position: fixed; /* Cover the whole screen */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    backdrop-filter: blur(5px); /* Blur effect */
-    z-index: 9999; /* Above other content */
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(10, 20, 36, .55);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 9999;
 }
 
 .message-modal h2 {
-    color: yellow; /* Darker color for the title */
-    font-size: 20px; /* Larger font size */
+    color: var(--gold-300);
+    font-size: 20px;
     margin: 0 auto;
     position: fixed;
     top: 10px;
 }
 .message-modal h3 {
-    color: wheat; /* Darker color for the title */
+    color: #f3e6c8;
     font-size: 15px;
-    
 }
+
 .date {
-    color: bisque; /* Darker color for the title */
-    font-size: 12px; /* Larger font size */
+    color: #f6e9d0;
+    font-size: 12px;
     font-style: italic;
     margin: 1px auto;
     position: fixed;
     top: 30px;
 }
 
-.hr {
-    position: fixed;
-    top: 40px;
-    width: 75vw;
-}
-
-.actual {
-    margin-top: -30px;
-}
+.hr { position: fixed; top: 40px; width: 75vw; }
+.actual { margin-top: -30px; }
 
 .lesson {
-    color: gold;
-    padding: 10px;
+    color: var(--gold-300);
+    padding: 10px 16px;
     position: fixed;
-    right: 5px;
+    right: 8px;
     top: 5px;
     border-radius: 50px;
-    background-color: #345;
-    border: 1px solid gold;
-}
-.message-modal span {
-    font-weight: bold;
-    color: burlywood;
-}
-/* Customize content in Bible Verse modal */
-.verse-modal p {
-    font-style: italic; /* Italic style for verse content */
-    color: #555; /* Medium gray color */
+    background-color: var(--navy-700);
+    border: 1px solid var(--gold-500);
 }
 
+.message-modal span { font-weight: bold; color: var(--gold-300); }
+
+.verse-modal p { font-style: italic; color: var(--ink-soft); }
+
+/* Previous / Next buttons */
 #prevMessage, #nextMessage {
-    background-color: #ff6347;
-    color: white;
-    padding: 5px;
+    background-color: var(--gold-500);
+    color: #fff;
+    padding: 8px 12px;
     border: none;
-    border-radius: 5px;
+    border-radius: 999px;
     cursor: pointer;
-    width: 80px;
+    width: 90px;
+    font-weight: 600;
     position: fixed;
-    bottom: 3px;
+    bottom: 8px;
+    transition: background-color .15s;
 }
-#nextMessage {
-    right: 10%;
-}
-#prevMessage {
-    left: 10%;
-}
-#prevMessage, #nextMessage:hover {
-    background-color: #ff4500;
-}
-#prevMessage, #nextMessage:disabled {
-    background-color: #ccc;
-}
+#nextMessage { right: 10%; }
+#prevMessage { left: 10%; }
+#prevMessage:hover, #nextMessage:hover { background-color: #9a7126; }
+#prevMessage:disabled, #nextMessage:disabled { background-color: #b8bfca; cursor: not-allowed; }
 
 .bookChapter {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:18px;
-    color:#253;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    color: var(--navy-700);
+    margin: 1px 0;
 }
 
 blockquote {
     font-size: 15px;
     font-style: italic;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, .85);
     margin-left: 15px;
-    border-left: 3px solid grey;
-    padding-left: 10px;
+    border-left: 3px solid var(--gold-500);
+    padding-left: 12px;
 }
 
-#why {
-    align-self: flex-end;
-}
+#why { align-self: flex-end; }
 
-.message-modal a {
-    color: violet;
-    font-style: italic;
-}
+.message-modal a { color: var(--gold-300); font-style: italic; }

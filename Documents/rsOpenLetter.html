@@ -74,7 +74,57 @@
         </div>
 
 
+        <div class="footer">
+        "All things should be done decently and in order." — 1 Corinthians 14:40
+        </div>
 
+        
+
+
+    <script>
+        function formatDate() {
+            const now = new Date();
+            
+            // Array of 3-letter month abbreviations
+            const months = [
+                'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
+                'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'
+            ];
+            
+            // Get date components
+            const month = months[now.getMonth()]; // 3-letter month
+            const day = String(now.getDate()).padStart(2, '0');
+            const year = now.getFullYear();
+            
+            // Format: MMM DD, YYYY (e.g., FEB 20, 2026)
+            return `${day} ${month} ${year}`;
+            
+            // Alternative 3-letter month formats (uncomment to use):
+            // return `${day} ${month} ${year}`;     // DD MMM YYYY
+            // return `${month}-${day}-${year}`;     // MMM-DD-YYYY
+            // return `${year} ${month} ${day}`;     // YYYY MMM DD
+            // return `${day}.${month}.${year}`;     // DD.MMM.YYYY
+        }
+
+        function formatDateLong() {
+            const now = new Date();
+            const options = { 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric'
+            };
+            return now.toLocaleDateString('en-US', options);
+        }
+
+        // Display the date in stamp format
+        document.getElementById('currentDate').textContent = formatDate();
+        
+        // Optional: Update every minute
+        setInterval(() => {
+            document.getElementById('currentDate').textContent = formatDate();
+        }, 60000);
+    </script>
+        
 <!-- Button Container -->
 <div class="btn-container">
     <!--
